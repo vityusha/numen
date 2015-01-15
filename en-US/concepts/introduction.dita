@@ -6,13 +6,13 @@
   <title>Introduction</title>
 
   <conbody>
-    <p><wintitle>Dialog Nibelung</wintitle> is a convenient, purely software based learning tool. This software product transforms a computer classroom into an interactive multimedia environment adding functionality of a language lab. At the same time, it allows effective teaching of many other subjects and test students with its built in test system.</p>
+    <p><wintitle>Dialog Nibelung</wintitle> is a feature rich, user friendly, software based learning tool. This software product transforms a computer classroom into an interactive multimedia environment environment enriched with language lab functionality. At the same time, it allows effective teaching of many other educational subjects and test students with its built in test system.</p>
 
-    <p>The software uses existing classroom LAN. Audio and video materials, documents, and other files can be easily transferred from one computer to another. Student computers can be remotely controlled from the teacher's workstation.</p>
+    <p><wintitle>Dialog Nibelung</wintitle> is intended to be installed in existing computer classroom with Local Area Network (LAN). Audio and video materials, documents, and other files can be easily transferred from one computer to another. Student computers can be remotely controlled from the teacher's workstation.</p>
 
-    <p>This is purely software product, easily installable and configurable, which does not require any additional hardware.</p>
+    <p>This is a software complex, easily installable and configurable, which does not require any additional hardware.</p>
 
-    <p>Intuitive user interface helps the teacher to master the software and effectively use it to teach different subjects.</p>
+    <p>Intuitive user interface helps the teacher to master the software and effectively use it to teach any subject.</p>
 
     <p>Features of <wintitle>Dialog Nibelung</wintitle>:</p>
 
@@ -33,9 +33,9 @@
 
         <li>up to 10 independent audio/video sources (one for each group);</li>
 
-        <li>it is possible to use several audio interfaces;</li>
+        <li>possibility to use several audio interfaces;</li>
 
-        <li>it is possible to use several different CD drives;</li>
+        <li>possibility to use several different CD drives;</li>
 
         <li>send video to student workstation, including from an external source (video capture card);</li>
 
@@ -45,21 +45,19 @@
 
         <li>automated monitoring of student workstations;</li>
 
-        <li>teacher can view screen shots from all or selected student workstations;</li>
-
-        <li>teacher can view web cam feeds from all or selected student workstations;</li>
+        <li>teacher can monitor screen shots and web cam feeds for the whole class or selected student workstations;</li>
 
         <li>send and receive files and documents to/from students;</li>
 
         <li>compose, distribute and collect homework files;</li>
 
-        <li>complete remote control of student computers from the teacher workstation: seize control of keyboard and mouse, start applications, block input, power off, Internet access, block application launch, kill processes;</li>
+        <li>complete remote control of student computers from the teacher workstation: seize control of keyboard and mouse, launch applications, block input, power off, Internet access, block application launch, kill processes;</li>
 
-        <li>disable all removable media on student workstations;</li>
+        <li>possibility to disable all removable media on student workstations;</li>
 
         <li>students can record audio to their own or teacher file system in <b>WAV</b> and <b>MP3</b> formats;</li>
 
-        <li>students can work independently with a software based digital recorder;</li>
+        <li>students can work independently with digital recorder;</li>
 
         <li>playback of audio files in <b>WAV</b>, <b>MP3</b> or <b>WMA</b> formats on student workstations;</li>
 
@@ -73,7 +71,7 @@
 
         <li>up to 9 bookmarks in digital recorders;</li>
 
-        <li>recording from different sources (aux input, CD drive, teacher and students voice) into files for further work;</li>
+        <li>recording audio from different sources (aux input, CD drive, teacher and students voice) into files for further work;</li>
 
         <li>different groups can listen to different audio tracks from one CD;</li>
 
@@ -85,15 +83,15 @@
 
         <li>edit graphic representation of the classroom;</li>
 
-        <li>edit class list and teacher's name and save it together with the graphic representation of the classroom;</li>
+        <li>information about each class (teacher’s name,  student list, graphic representation of the classroom) can be edited and saved in a class file;</li>
 
-        <li>separate personal folders for different teachers for storing class files, audio and video materials, etc.;</li>
+        <li>separate personal folders for different teachers for storage of class files, audio and video materials, etc.;</li>
 
         <li>separate logs books for every teacher to track attendance and students' progress;</li>
 
         <li>built in student test subsystem;</li>
 
-        <li>automatic updates over the Internet.</li>
+        <li>automatic online updates.</li>
       </ul></p>
   </conbody>
 </concept>
