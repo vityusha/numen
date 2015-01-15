@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="student_source" xml:lang="en-US">
+    <title>Учащийся</title>
+    <conbody>  
+		<p>При выборе этого пункта меню преподаватель может в качестве источника звука выбрать любого учащегося, даже не входящего в текущую группу.</p>
+		<p>Меню <uicontrol>Учащийся</uicontrol> в качестве источника аудио (<xref keyref="student_source/menu_group_4_2_png" type="fig"/>&#160;) имеет только кнопку <uicontrol>Старт</uicontrol>, список учащихся и три дополнительные опции <uicontrol>Записать для учащихся</uicontrol>, <uicontrol>Оцифровать материал</uicontrol> и <uicontrol>Прослушивание</uicontrol>.</p>
+		<fig id="menu_group_4_2_png">
+            <title>Меню <menucascade><uicontrol>Медиа источники</uicontrol><uicontrol>Учащийся</uicontrol></menucascade></title>
+            <image href="img/menu_group_4_2.png" placement="break">
+                <alt>Меню <menucascade><uicontrol>Медиа источники</uicontrol><uicontrol>Учащийся</uicontrol></menucascade></alt>
+            </image>
+        </fig>
+		<p>Таким образом при любом задании участники группы могут слышать голос выбранного учащегося.</p>
+		<p>Под кнопкой <uicontrol>Старт</uicontrol> находится счетчик времени активности учащегося в качестве источника сигнала.</p>
+		<note type="tip">Преподаватель может оцифровать голос выбранного учащегося на жесткий диск компьютера.</note>
+		<p>При помощи данного источника сигнала можно легко организовать режим <indexterm>синхронный перевод</indexterm><uicontrol><keyword>Синхронный перевод</keyword></uicontrol>. Допустим, два учащихся объединены в группу <b>"А"</b> и прослушивают источник <b>"Преподаватель"</b>, одновременно с прослушиванием каждый из них синхронно переводит источник сигнала на нужный язык (например, первый - на английский, второй - на немецкий). В качестве источника сигнала для учащихся в группе <b>"B"</b> является первый учащийся из группы <b>"A"</b>, а источником сигнала для учащихся в группе <b>"C"</b> является второй учащийся из группы <b>"A"</b>. Получается, что группа <b>"B"</b> слушает синхронный перевод на английский язык, а группа <b>"C"</b> слушает синхронный перевод на немецкий язык (<xref keyref="student_source/synchro_png" type="fig"/>&#160;).</p>
+		<fig id="synchro_png">
+            <title>Синхронный перевод</title>
+            <image href="img/synchro.png" placement="break">
+                <alt>Синхронный перевод</alt>
+            </image>
+        </fig>
+	</conbody>
+</concept>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="dialog" xml:lang="en-US">
+    <title><keyword>Разговор</keyword></title>
+    <conbody>  
+		<p><indexterm>разговор</indexterm>В этом режиме преподаватель может войти в диалог с выбранным учащимся, группой или всем классом.</p>
+		<p>На изображении учащегося, находящегося в режиме разговора с преподавателем (<xref keyref="dialog/icon_dialog_png" type="fig"/>&#160;), появится иконка дисплея с соответствующим значком.</p> 
+		<fig id="icon_dialog_png">
+            <title>Иконка диалога с учащимся</title>
+            <image href="img/icon_dialog.png" placement="break">
+                <alt>Иконка диалога с учащимся</alt>
+            </image>
+        </fig>
+		<p>Для входа в режим диалога с одним учащимся преподаватель должен в меню учащегося (п. <xref keyref="menu_single"/>&#160;) выбрать пункт <uicontrol>Разговор</uicontrol>.</p>
+		<p>Для входа в режим диалога с группой преподаватель должен в меню нужной группы (п. <xref keyref="menu_group"/>&#160;) нажать на кнопку <uicontrol>Взаимодействие</uicontrol>, а потом выбрать пункт <uicontrol>Разговор</uicontrol>.</p>
+		<p>Для входа в режим диалога со всем классом преподаватель должен в меню всего класса (п. <xref keyref="menu_class"/>&#160;) нажать на кнопку <uicontrol>Взаимодействие</uicontrol>, а потом выбрать пункт <uicontrol>Разговор</uicontrol>.</p> 
+		<note type="tip">Режим диалога со всем классом можно рассматривать как общий вызов всех учащихся.</note>
+		<p>Чтобы выйти из режима диалога, нужно повторить приведенные выше действия.</p>
+	</conbody>
+</concept>

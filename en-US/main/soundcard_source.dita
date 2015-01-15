@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="soundcard_source" xml:lang="en-US">
+    <title>Звуковая карта</title>
+    <conbody>  
+		<p>При выборе этого пункта меню преподаватель может в качестве источника звука выбрать аудио вход звуковой платы, встроенной в компьютер преподавателя.</p>
+		<note type="tip">Программа позволяет одновременную работу различных групп с различными звуковыми платами, при этом разные группы могут прослушивать звук со входа различных звуковых карт.</note>
+		<p>Меню <uicontrol>Звуковая карта</uicontrol> в качестве источника аудио (<xref keyref="soundcard_source/menu_group_4_5_png" type="fig"/>&#160;) имеет список для выбора звуковой карты, кнопку <uicontrol>Микшер</uicontrol>, для подключения нужного аудио входа звуковой карты, кнопку <uicontrol>Старт</uicontrol> и три дополнительные опции <uicontrol>Записать для учащихся</uicontrol>, <uicontrol>Оцифровать материал</uicontrol> и <uicontrol>Прослушивание</uicontrol>.</p>
+		<fig id="menu_group_4_5_png">
+            <title>Меню <menucascade><uicontrol>Медиа источники</uicontrol><uicontrol>Звуковая карта</uicontrol></menucascade></title>
+            <image href="img/menu_group_4_5.png" placement="break">
+                <alt>Меню <menucascade><uicontrol>Медиа источники</uicontrol><uicontrol>Звуковая карта</uicontrol></menucascade></alt>
+            </image>
+        </fig>
+		<p>Под кнопкой <uicontrol>Старт</uicontrol> находится счетчик времени активности данного медиа источника в качестве источника сигнала.</p>
+		<p>Таким образом, при любом задании участники группы могут слышать аудио сигнал любого внешнего устройства, подключенного к входу выбранной звуковой карты.</p>		
+		<note type="tip">Преподаватель может оцифровать звук внешнего аудио устройства на жесткий диск компьютера или прослушать его.</note>
+		<p>Если преподаватель нажмет на кнопку <uicontrol>Микшер</uicontrol>, то на экране монитора появится стандартное окно микшера (<xref keyref="soundcard_source/sound_set_4_png" type="fig"/> и <xref keyref="soundcard_source/sound_vista_1_png" type="fig"/>&#160;), в котором можно включить нужный вход звуковой карты.</p>
+		<fig id="sound_set_4_png">
+            <title>Окно микшера в ОС Windows XP</title>
+            <image href="../installation/img/sound_set_4.png" placement="break">
+                <alt>Окно микшера в ОС Windows XP</alt>
+            </image>
+        </fig>
+		<fig id="sound_vista_1_png">
+            <title>Окно микшера в ОС Windows Vista</title>
+            <image href="../installation/img/sound_vista_1.png" placement="break">
+                <alt>Окно микшера в ОС Windows Vista</alt>
+            </image>
+        </fig>
+	</conbody>
+</concept>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
+"reference.dtd">
+<reference id="contacts" xml:lang="en-US">
+    <title>Контактная информация</title>
+
+    <refbody>
+        <properties>
+        <property>
+            <proptype>Web сайт программы</proptype>
+            <propvalue><xref scope="external" href="http://www.nibelung.su">http://www.nibelung.su</xref></propvalue>
+        </property>
+        <property>
+            <proptype>Техническая поддержка по e-Mail</proptype>
+            <propvalue><xref scope="external" href="mailto:nibelung-support@dialog.su">nibelung-support@dialog.su</xref></propvalue>
+        </property>
+        <property>
+            <proptype>Контактные телефоны</proptype>
+            <propvalue>+7 (812) 716-5083, +7 (812) 716-5082</propvalue>
+        </property>
+        </properties>
+    </refbody>
+</reference>

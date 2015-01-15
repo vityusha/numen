@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="student_message" xml:lang="en-US">
+    <title>Сообщение от учащегося</title>
+    <conbody>  
+		<p>Если учащийся нажмет на кнопку <uicontrol>Сообщение</uicontrol> в модуле клиента и в появившемся окне наберет текст сообщения преподавателю, то над изображением этого учащегося, появится  текст сообщения (<xref keyref="student_message/icon_message_png" type="fig"/>&#160;).</p>
+		<fig id="icon_message_png">
+            <title>Иконка учащегося, написавшего сообщение</title>
+            <image href="img/icon_message.png" placement="break">
+                <alt>Иконка учащегося, написавшего сообщение</alt>
+            </image>
+        </fig>
+		<p>Если преподаватель два раза щелкнет левой кнопкой мыши на этом тексте, то у него на экране монитора появится окно сообщения (<xref keyref="student_message/message_answer_png" type="fig"/>&#160;), в котором преподаватель может задать вопрос учащемуся.</p>
+		<fig id="message_answer_png">
+            <title>Окно ответа на сообщение  учащегося</title>
+            <image href="img/message_answer.png" placement="break">
+                <alt>Окно ответа на сообщение  учащегося</alt>
+            </image>
+        </fig>
+		<p>В верхнем поле будет выводиться текст сообщения от учащегося. В нижнем поле преподаватель может ввести текст своего сообщения. Для передачи сообщения адресату преподаватель должен нажать на кнопку <uicontrol>OK</uicontrol>.</p> 
+	</conbody>
+</concept>

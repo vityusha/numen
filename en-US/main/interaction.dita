@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="interaction" xml:lang="en-US">
+    <title>Взаимодействие с учащимися</title>
+    <conbody>  
+		<p>Основной модуль дает возможность совершать определенные действия над подключенными учащимися, описанные далее.</p>
+	</conbody>
+</concept>

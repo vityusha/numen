@@ -1,0 +1,12 @@
+﻿//string initialization
+
+     	txt_filesfound = "Результаты";
+	txt_enter_at_least_1_char = "Необходимо ввести хотя бы один символ.";
+	txt_browser_not_supported = "Ваш броузер не поддерживается. Используйте Internet Explorer или Mozilla.";
+	txt_please_wait = "Пожалуйста ждите. Осуществляется поиск...";
+	txt_search_result = "Результаты поиска для :";
+	txt_results_for = "Результаты для:";
+	txt_no_results = "Поиск не вернул результатов для: ";
+	txt_search = "Поиск:";
+	txt_expand_all = "Развернуть все";
+	txt_collapse_all = "Свернуть все";

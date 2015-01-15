@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="choice_tutor" xml:lang="en-US">
+    <title>Выбор преподавателя</title>
+    <conbody>  
+        <p>При запуске программы на экран монитора выводится окно (<xref keyref="choice_tutor/registration_main_png" type="fig"/>&#160;), в котором необходимо ввести имя преподавателя и пароль. При неправильном вводе имени или пароля вход в систему невозможен.</p>
+		<fig id="registration_main_png">
+            <title>Окно <wintitle>Вход в систему</wintitle></title>
+            <image href="img/registration_main.png" placement="break">
+                <alt>Окно <wintitle>Вход в систему</wintitle></alt>
+            </image>
+        </fig>
+		<p>Для каждого вновь введенного преподавателя создается своя папка, где будет храниться различная информация: файлы классов, файлы сессий, записи учащихся, журнал и др. Имя папки совпадает с именем преподавателя. Эта информация будет индивидуальна для каждого преподавателя.</p>
+		<note type="tip">При установке системы по умолчанию существует имя преподавателя <userinput>Admin</userinput> с паролем <userinput>Admin</userinput> (регистр букв имеет значение).</note>
+		<note type="attention">После первого входа в систему настоятельно рекомендуется изменить пароль пользователя <userinput>Admin</userinput>.</note>
+		<p>Во время работы программы можно сменить преподавателя. Для этого нужно выбрать пункт <menucascade><uicontrol>Файл</uicontrol><uicontrol>Сменить преподавателя</uicontrol></menucascade>. На экране монитора появится окно входа в систему (<xref keyref="choice_tutor/registration_main_png" type="fig"/>&#160;).</p>		
+		<p>Для того чтобы добавить, удалить преподавателя или изменить пароль преподавателя, нужно выбрать пункт <menucascade><uicontrol>Файл</uicontrol><uicontrol>Управление учетными записями</uicontrol></menucascade>. На экране монитора появится соответствующее окно (<xref keyref="choice_tutor/users_png" type="fig"/>&#160;), в котором отображается список введенных ранее преподавателей и кнопки <uicontrol>Добавить</uicontrol>, <uicontrol>Удалить</uicontrol> и <uicontrol>Смена пароля</uicontrol>.</p>
+		<note type="attention">Обратите внимание, что добавление и удаление преподавателей возможно только под учетной записью <b>Admin</b></note>
+		<fig id="users_png">
+            <title>Окно <wintitle>Управление учетными записями</wintitle></title>
+            <image href="img/users.png" placement="break">
+                <alt>Окно <wintitle>Управление учетными записями</wintitle></alt>
+            </image>
+        </fig>
+		<p>При нажатии на кнопку <uicontrol>Добавить</uicontrol> на экране появится окно <wintitle>Добавление преподавателя</wintitle> (<xref keyref="choice_tutor/users_add_png" type="fig"/>&#160;), в котором нужно будет ввести новое имя, новый пароль и подтверждение нового пароля. Если при добавлении преподавателя установить галочку  у опции <uicontrol>Ярлык папки преподавателя на Рабочий стол</uicontrol> то  на рабочем столе компьютера будет создан ярлык папки с личными файлами преподавателя.</p>
+		<fig id="users_add_png">
+            <title>Окно <wintitle>Добавление преподавателя</wintitle></title>
+            <image href="img/users_add.png" placement="break">
+                <alt>Окно <wintitle>Добавление преподавателя</wintitle></alt>
+            </image>
+        </fig>
+		<p>Для удаления имени преподавателя нужно сначала выбрать требуемое имя, выделив его в списке, а затем нажать на кнопку <uicontrol>Удалить</uicontrol>.</p>
+		<p>В появившемся на экране монитора окне (<xref keyref="choice_tutor/users_delete_png" type="fig"/>&#160;) нужно подтвердить ваш выбор.</p>
+		<fig id="users_delete_png">
+            <title>Окно <wintitle>Удаление преподавателя</wintitle></title>
+            <image href="img/users_delete.png" placement="break">
+                <alt>Окно <wintitle>Удаление преподавателя</wintitle></alt>
+            </image>
+        </fig>
+		<p>Для смены пароля преподавателя нужно сначала выбрать требуемое имя, выделив его в списке, а затем нажать на кнопку <uicontrol>Смена пароля</uicontrol>. На экране монитора появится соответствующее окно (<xref keyref="choice_tutor/users_change_png" type="fig"/>&#160;), в котором нужно в верхнем поле правильно ввести старый пароль, а затем в двух других полях ввести новый пароль и его подтверждение, а затем нажать на кнопку <uicontrol>Изменить</uicontrol>.</p>
+		<fig id="users_change_png">
+            <title>Окно <wintitle>Смена пароля</wintitle></title>
+            <image href="img/users_change.png" placement="break">
+                <alt>Окно <wintitle>Смена пароля</wintitle></alt>
+            </image>
+        </fig>
+	    </conbody>
+</concept>

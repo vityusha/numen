@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="commutator_switch" xml:lang="en-US">
+    <title>Описание блока коммутации</title>
+    <conbody>  
+        <p><indexterm>блок коммутации</indexterm>Блок коммутации служит для передачи звуковых сигналов. Управление блоком осуществляется 
+        по локальной сети при помощи программы <wintitle>Диалог Nibelung</wintitle>.</p>
+        <p>На задней панели блока коммутации (<xref keyref="commutator_switch/back_png" type="fig"/>&#160;) расположены разъемы подключения 
+        кабелей от блоков учащихся, внешних источников, гарнитуры преподавателя, локальной сети и шнура питания.</p>
+		<fig id="back_png">
+            <title>Блок коммутации. Вид сзади</title>
+            <image href="img/dialog_3_back.png" placement="break">
+                <alt>Блок коммутации. Вид сзади</alt>
+            </image> 
+        </fig>
+        <p>На этом рисунке цифрами обозначены:</p>
+		<table frame="topbot">
+            <tgroup cols="2">
+                <colspec colname="COLSPEC0" colwidth="10*"/>
+                <colspec colname="COLSPEC1" colwidth="120*"/>
+                <tbody>
+                    <row>
+                        <entry>1</entry>
+                        <entry>Разъем подключения шнура питания 220В (Евростандарт)</entry>
+                    </row>
+					<row>
+                        <entry>2</entry>
+                        <entry>Разъем подключения кабеля локальной сети (RJ-45)</entry>
+                    </row>
+					<row>
+                        <entry>3</entry>
+                        <entry>Разъем внешнего входа №1 (RCA)</entry>
+                    </row>
+					<row>
+                        <entry>4</entry>
+                        <entry>Разъем внешнего выхода №1 (RCA)</entry>
+                    </row>
+					<row>
+                        <entry>5</entry>
+                        <entry>Разъем внешнего входа №2 (RCA)</entry>
+                    </row>
+					<row>
+                        <entry>6</entry>
+                        <entry>Разъем внешнего выхода №2 (RCA)</entry>
+                    </row>
+                    <row>
+                        <entry>7</entry>
+                        <entry>Разъем внешнего входа №3 (RCA)</entry>
+                    </row>
+					<row>
+                        <entry>8</entry>
+                        <entry>Разъем внешнего выхода №3 (RCA)</entry>
+                    </row>
+					<row>
+                        <entry>9</entry>
+                        <entry>Разъем внешнего входа №4 (RCA), подключается к линейному выходу звуковой карты ПК преподавателя</entry>
+                    </row>
+					<row>
+                        <entry>10</entry>
+                        <entry>Разъем внешнего выхода №4 (RCA), подключается к линейному входу звуковой карты ПК преподавателя</entry>
+                    </row>
+					<row>
+                        <entry>11</entry>
+                        <entry>Разъем подключения наушника преподавателя (jack 3,5 mm)</entry>
+                    </row>
+                    <row>
+                        <entry>12</entry>
+                        <entry>Разъем подключения микрофона преподавателя (jack 3,5 mm)</entry>
+                    </row>
+                    <row>
+                        <entry>13</entry>
+                        <entry>Разъемы подключения блока учащиегося №1 (RJ-45)</entry>
+                    </row>
+                    <row>
+                        <entry>14</entry>
+                        <entry>Разъемы подключения блока учащиегося №2 (RJ-45)</entry>
+                    </row>
+                    <row>
+                        <entry>15</entry>
+                        <entry>Разъемы подключения блока учащиегося №19 (RJ-45)</entry>
+                    </row>
+                    <row>
+                        <entry>16</entry>
+                        <entry>Разъемы подключения блока учащиегося №20 (RJ-45)</entry>
+                    </row>
+                </tbody> 
+            </tgroup>
+        </table>
+        <p>На передней панели блока коммутации (<xref keyref="commutator_switch/front_png" type="fig"/>&#160;) расположены кнопка включения блока и индикаторы.</p>
+		<fig id="front_png">
+            <title>Блок коммутации. Вид спереди</title>
+            <image href="img/dialog_3_front.png" placement="break">
+                <alt>Блок коммутации. Вид спереди</alt>
+            </image> 
+        </fig>
+        <p>На этом рисунке цифрами обозначены:</p>
+		<table frame="topbot">
+            <tgroup cols="2">
+                <colspec colname="COLSPEC0" colwidth="10*"/>
+                <colspec colname="COLSPEC1" colwidth="120*"/>
+                <tbody>
+                    <row>
+                        <entry>1</entry>
+                        <entry>Индикатор <wintitle>Работа</wintitle> (зеленый)</entry>
+                    </row>
+					<row>
+                        <entry>2</entry>
+                        <entry>Индикатор <wintitle>+5В</wintitle> (красный)</entry>
+                    </row>
+					<row>
+                        <entry>3</entry>
+                        <entry>Индикатор <wintitle>-12В</wintitle> (красный)</entry>
+                    </row>
+					<row>
+                        <entry>4</entry>
+                        <entry>Кнопка включения сети</entry>
+                    </row>
+                </tbody> 
+            </tgroup>
+        </table>
+        <fig id="ind_png">
+            <title>Блок коммутации. Индикаторы</title>
+            <image href="img/dialog_3_ind.png" placement="break">
+                <alt>Блок коммутации. Индикаторы</alt>
+            </image> 
+        </fig>
+        <note type="tip">По умолчанию блок коммутации предусматривает получение IP адреса от сервера <wintitle>DHCP</wintitle>. Если данный сервер отсутствует в локальной сети, то блок устанавливает первый свободный IP адрес из диапазона <userinput>192.168.0.100 - 192.168.0.255</userinput>.</note>
+        <note type="attention">Если требуется установить статический IP адресс для блока, поменять MAC адрес или номер порта, нужно подключиться
+        по локальной сети к блоку, в браузере набрать <userinput>http://x.x.x.x/cmd.cgi?cmd=set</userinput>, где вместо <userinput>x.x.x.x</userinput> подставить текущий IP адрес блока. В появившейся форме (<xref keyref="commutator_switch/settings_png" type="fig"/>&#160;) вводятся необходимые параметры. Обратите внимание, что установка данных параметров защищена паролем! Для получения пароля обратитесь к разработчику.</note>   
+        <fig id="settings_png">
+            <title>Окно установки параметров подключения блока по локальной сети</title>
+            <image href="img/settings.png" placement="break">
+                <alt>Окно установки параметров подключения блока по локальной сети</alt>
+            </image> 
+        </fig>        
+    </conbody>
+</concept>

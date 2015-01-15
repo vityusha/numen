@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="controls_player" xml:lang="en-US">
+    <title>Кнопки управления проигрывателем</title>
+    <conbody>
+		<fig id="controls_png">
+            <title>Кнопки управления проигрывателем аудио файлов</title>
+            <image href="img/controls.png" placement="break">
+                <alt>Кнопки управления проигрывателем аудио файлов</alt>
+            </image>
+        </fig>
+		<p>Управление проигрывателем осуществляется при помощи соответствующих кнопок (<xref keyref="controls_player/controls_png" type="fig"/>&#160;):</p>
+		<table frame="topbot">
+            <tgroup cols="2">
+                <colspec colname="COLSPEC0" colwidth="10*"/>
+                <colspec colname="COLSPEC1" colwidth="120*"/>
+                <tbody valign="top">
+                    <row>
+                        <entry>1</entry>
+                        <entry><uicontrol>Открыть</uicontrol> (клавиша быстрого доступа <uicontrol><shortcut>Ctrl+O</shortcut></uicontrol>) - загрузить медиа файл.</entry>
+                    </row>
+					<row>
+                        <entry>2</entry>
+                        <entry><uicontrol>Очистить мастер-трек</uicontrol> - убрать медиа файл из мастер-трека и трека учащегося.</entry>
+                    </row>
+					<row>
+                        <entry>3</entry>
+                        <entry><uicontrol>Воспроизведение</uicontrol> (клавиша быстрого доступа <uicontrol><shortcut>Ctrl+P</shortcut></uicontrol>) - запустить проигрывание медиа файла.</entry>
+                    </row>
+					<row>
+                        <entry>4</entry>
+                        <entry><uicontrol>Пауза</uicontrol> (клавиша быстрого доступа <uicontrol><shortcut>Ctrl+U</shortcut></uicontrol>) – временно приостановить проигрывание медиа файла.</entry>
+                    </row>
+					<row>
+                        <entry>5</entry>
+                        <entry><uicontrol>Остановить</uicontrol> (клавиша быстрого доступа <uicontrol><shortcut>Ctrl+S</shortcut></uicontrol>) – остановить проигрывание медиа файла.</entry>
+                    </row>
+					<row>
+                        <entry>6</entry>
+                        <entry><uicontrol>В начало</uicontrol> (клавиша быстрого доступа <uicontrol><shortcut>Ctrl+W</shortcut></uicontrol>) – переместится в начало медиа файла.</entry>
+                    </row>
+					<row>
+                        <entry>7</entry>
+                        <entry><uicontrol>Повтор</uicontrol> (клавиша быстрого доступа <uicontrol><shortcut>Ctrl+R</shortcut></uicontrol>) – зациклить проигрывание выбранного фрагмента медиа файла. Выбор фрагмента можно сделать, щелкнув левой кнопкой мышки в начале фрагмента мастер-трека или трека учащегося. Затем, удерживая ее нажатой, перетащить указатель мышки в конец фрагмента. Выбранный фрагмент будет отображаться другим цветом.</entry>
+                    </row>
+					<row>
+                        <entry>8</entry>
+                        <entry><uicontrol>Запись</uicontrol> (клавиша быстрого доступа <uicontrol><shortcut>*</shortcut></uicontrol>) – начать запись голоса учащегося с микрофона гарнитуры. В этом случае кнопка остается в нажатом состоянии, начнется проигрывание мастер-трека и одновременная запись голоса в трек учащегося. При повторном нажатии на эту кнопку запись прекратится.</entry>
+                    </row>
+					<row>
+                        <entry>9</entry>
+                        <entry><uicontrol>Сохранить</uicontrol> - сохранить аудио файл на диске. Существует шесть возможностей:
+                        <ul>
+                            <li>сохранить совмещенные мастер-трек и трек учащегося в одном файле в формате <b>MP3</b>;</li>
+                            <li>сохранить трек учащегося в формате <b>WAV</b>;</li>
+                            <li>сохранить трек учащегося в формате <b>MP3</b>;</li>
+                            <li>сохранить мастер-трек в формате <b>WAV</b>;</li>
+                            <li>сохранить мастер-трек в формате <b>MP3</b>;</li>
+                            <li>сохранить в формате <b>NMF</b> <wintitle>Диалог Nibelung</wintitle> (мастер-трек, трек учащегося, субтитры, закладки, описание файла)</li>
+                        </ul>
+                        </entry>
+                    </row>
+                </tbody> 
+            </tgroup>
+        </table>
+   	</conbody>
+</concept>

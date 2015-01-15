@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="presents_statistics" xml:lang="en-US">
+    <title>Статистика посещаемости</title>
+    <conbody>
+        <p>Для того чтобы посмотреть статистику посещаемости уроков, необходимо выбрать меню <menucascade><uicontrol>Журнал</uicontrol><uicontrol>Статистика посещаемости</uicontrol></menucascade>.</p>
+        <p>На экране монитора преподавателя появится окно, содержащее список уроков, в котором он может отобрать нужные уроки по предметам, классам и временным интервалам.</p>
+        <p>Преподаватель может в поле <uicontrol>Тип статистики</uicontrol> выбрать сводную статистику по урокам (<xref keyref="presents_statistics/presents_common_png" type="fig"/>&#160;) или полную (<xref keyref="presents_statistics/presents_full_png" type="fig"/>&#160;).</p>
+        <fig id="presents_common_png">
+            <title>Сводная статистика посещаемости</title>
+            <image href="img/presents-common.png" placement="break">
+                <alt>Сводная статистика посещаемости</alt>
+            </image>
+        </fig>
+        <p>На этом рисунке цифрами обозначены:</p>
+		<table frame="topbot">
+            <tgroup cols="2">
+                <colspec colname="COLSPEC0" colwidth="10*"/>
+                <colspec colname="COLSPEC1" colwidth="120*"/>
+                <tbody>
+                    <row>
+                        <entry>1</entry>
+                        <entry>Список <uicontrol>Предмет</uicontrol></entry>
+                    </row>
+					<row>
+                        <entry>2</entry>
+                        <entry>Список <uicontrol>Класс</uicontrol></entry>
+                    </row>
+					<row>
+                        <entry>3</entry>
+                        <entry>Начальная дата</entry>
+                    </row>
+					<row>
+                        <entry>4</entry>
+                        <entry>Конечная дата</entry>
+                    </row>
+					<row>
+                        <entry>5</entry>
+                        <entry>Поле данных <uicontrol>Учащийся</uicontrol></entry>
+                    </row>
+					<row>
+                        <entry>6</entry>
+                        <entry>Поле данных <uicontrol>Всего уроков</uicontrol></entry>
+                    </row>
+					<row>
+                        <entry>7</entry>
+                        <entry>Поле данных <uicontrol>Пропущено</uicontrol></entry>
+                    </row>
+					<row>
+                        <entry>8</entry>
+                        <entry>Поле данных <uicontrol>Посещяемость в %</uicontrol></entry>
+                    </row>
+					<row>
+                        <entry>9</entry>
+                        <entry>Тип статистики</entry>
+                    </row>
+                    <row>
+                        <entry>10</entry>
+                        <entry>Кнопка <uicontrol>Сохранить в формате HTML</uicontrol></entry>
+                    </row>
+                    <row>
+                        <entry>11</entry>
+                        <entry>Кнопка <uicontrol>Закрыть окно</uicontrol></entry>
+                    </row>
+                </tbody> 
+            </tgroup>
+        </table>
+        <fig id="presents_full_png">
+            <title>Полная статистика посещаемости</title>
+            <image href="img/presents-full.png" placement="break">
+                <alt>Полная статистика посещаемости</alt>
+            </image>
+        </fig>
+        <p>На этом рисунке цифрами обозначены:</p>
+		<table frame="topbot">
+            <tgroup cols="2">
+                <colspec colname="COLSPEC0" colwidth="10*"/>
+                <colspec colname="COLSPEC1" colwidth="120*"/>
+                <tbody>
+                    <row>
+                        <entry>1</entry>
+                        <entry>Список <uicontrol>Предмет</uicontrol></entry>
+                    </row>
+					<row>
+                        <entry>2</entry>
+                        <entry>Список <uicontrol>Класс</uicontrol></entry>
+                    </row>
+					<row>
+                        <entry>3</entry>
+                        <entry>Начальная дата</entry>
+                    </row>
+					<row>
+                        <entry>4</entry>
+                        <entry>Конечная дата</entry>
+                    </row>
+					<row>
+                        <entry>5</entry>
+                        <entry>Тип статистики</entry>
+                    </row>
+                    <row>
+                        <entry>6</entry>
+                        <entry>Поле данных <uicontrol>Учащийся</uicontrol></entry>
+                    </row>
+					<row>
+                        <entry>7</entry>
+                        <entry>Поле данных <uicontrol>Посещение уроков</uicontrol></entry>
+                    </row>
+                    <row>
+                        <entry>8</entry>
+                        <entry>Кнопка <uicontrol>Сохранить в формате HTML</uicontrol></entry>
+                    </row>
+                    <row>
+                        <entry>9</entry>
+                        <entry>Кнопка <uicontrol>Закрыть окно</uicontrol></entry>
+                    </row>
+                </tbody> 
+            </tgroup>
+        </table>
+        <p>В сводной статистике приводится список учащихся выбранного класса, количество проведенных уроков за определенный интервал времени, количество пропущенных уроков и процент посещаемости. В полной статистике приводится список учащихся и посещение каждого урока за определенный интервал времени.</p>
+        <p>Преподаватель может сохранить данные статистики посещения в файл формата HTML. Для этого нужно нажать на кнопку <uicontrol>Сохранить</uicontrol> и ввести имя файла для сохранения. После сохранения будет предложено просмотреть результаты экспорта. Если нажать на кнопку <uicontrol>Да</uicontrol>,то откроется окно браузера по умолчанию (обычно <wintitle>Microsoft Internet Explorer</wintitle>) с содержимым сохраненного файла (<xref keyref="presents_statistics/presents_report_png" type="fig"/>&#160;).</p>
+        <fig id="presents_report_png">
+            <title>Отчет о статистике посещаемости</title>
+            <image href="img/presents-report.png" placement="break">
+                <alt>Отчет о статистике посещаемости</alt>
+            </image>
+        </fig>
+	</conbody>
+</concept>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="description_test" xml:lang="en-US">
+    <title>Описание системы тестирования</title>
+    <conbody>
+        <p>Система тестирования <wintitle>Диалог – Тест Система</wintitle> - это удобное средство для проведения тестирования учащихся по различным предметам обучения.</p>
+        <p>Этот программный комплекс включает в себя программы создания тестов, проведения тестирования и просмотра результатов.</p>
+	</conbody>
+</concept>

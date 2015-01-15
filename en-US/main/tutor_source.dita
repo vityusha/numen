@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="tutor_source" xml:lang="en-US">
+    <title>Преподаватель</title>
+    <conbody>  
+		<p>При выборе этого пункта меню преподаватель может в качестве источника звука выбрать себя.</p>
+		<p>Меню <uicontrol>Преподаватель</uicontrol> в качестве источника аудио (<xref keyref="tutor_source/menu_group_4_1_png" type="fig"/>&#160;) имеет только кнопку <uicontrol>Старт</uicontrol> и две дополнительные опции <uicontrol>Записать для учащихся</uicontrol> и <uicontrol>Оцифровать материал</uicontrol>.</p>
+		<fig id="menu_group_4_1_png">
+            <title>Меню <menucascade><uicontrol>Медиа источники</uicontrol><uicontrol>Преподаватель</uicontrol></menucascade></title>
+            <image href="img/menu_group_4_1.png" placement="break">
+                <alt>Меню <menucascade><uicontrol>Медиа источники</uicontrol><uicontrol>Преподаватель</uicontrol></menucascade></alt>
+            </image>
+        </fig>
+		<p>Таким образом при любом задании участники группы могут прослушивать голос преподавателя.</p>
+		<p>Под кнопкой <uicontrol>Старт</uicontrol> находится счетчик времени активности преподавателя в качестве источника сигнала.</p>
+		<note type="tip">Преподаватель может оцифровать свой голос на жесткий диск компьютера.</note>
+	</conbody>
+</concept>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="test_sort" xml:lang="en-US">
+    <title>Упорядочить</title>
+    <conbody>
+        <fig id="type_6_png">
+            <title>Тип ответа: упорядочить</title>
+            <image href="img/type_6.png" placement="break">
+                <alt>Тип ответа: упорядочить</alt>
+            </image>
+        </fig>
+        <p>В случае типа ответа <wintitle>Упорядочить</wintitle> на панели слева будет располагаться список, соответствующий правильному варианту ответа, а справа кнопки <uicontrol>Добавить</uicontrol> и <uicontrol>Удалить</uicontrol>, при помощи которых можно добавить или удалить строку списка.</p>
+        <p>При добавлении новой строки в столбце <wintitle>Ответ</wintitle> заносится соответствующий текст.</p>
+       <note type="important">Обратите внимание, что при наборе строк списка нужно соблюдать порядок ввода, соответствующий правильному варианту ответа!</note>
+   	</conbody>
+</concept>

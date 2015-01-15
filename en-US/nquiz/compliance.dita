@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="test_compliance" xml:lang="en-US">
+    <title>Соответствие</title>
+    <conbody>
+        <fig id="type_4_png">
+            <title>Тип ответа: соответствие</title>
+            <image href="img/type_4.png" placement="break">
+                <alt>Тип ответа: соответствие</alt>
+            </image>
+        </fig>
+        <p>В случае типа ответа <wintitle>Соответствие</wintitle> на панели слева будет располагаться список соответствий, а справа кнопки <uicontrol>Добавить</uicontrol> и <uicontrol>Удалить</uicontrol>, при помощи которых можно добавить или удалить строку списка.</p>
+        <p>При добавлении нового соответствия в столбцы <wintitle>Список А</wintitle> и <wintitle>Список Б</wintitle> заносится соответствующий текст.</p>
+   	</conbody>
+</concept>

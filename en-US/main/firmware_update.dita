@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="firmware_update" xml:lang="en-US">
+    <title>Обновление программы</title>
+    <conbody>
+        <p>Для того чтобы проверить не появилась ли на сайте разработчиков новая версия программного обеспечения <wintitle>Диалог Nibelung</wintitle>, необходимо выбрать меню <menucascade><uicontrol>Справка</uicontrol><uicontrol>Проверить обновления</uicontrol></menucascade>.</p>
+		<note type="attention">Не забывайте, что у компьютера преподавателя должен быть открыт доступ в Интернет!</note>
+        <p>Если для скачивания доступна новая версия, то на экране монитора преподавателя появится соответствующее окно с информацией о номере версии и изменениях, которые были внесены в программное обеспечение (<xref keyref="firmware_update/update_exist_png" type="fig"/>&#160;).</p>
+        <fig id="update_exist_png">
+            <title>Информация о доступности новой версии</title>
+            <image href="img/update-exist.png" placement="break">
+                <alt>Информация о доступности новой версии</alt>
+            </image>
+        </fig>
+        <p>Для того чтобы запустить процесс загрузки новой версии, преподаватель должен нажать на кнопку <uicontrol>Загрузить</uicontrol>.</p>
+        <p>В появившемся окне (<xref keyref="firmware_update/update_download_png" type="fig"/>&#160;) будет отображаться процесс загрузки обновлений с сайта разработчиков.</p>
+        <fig id="update_download_png">
+            <title>Информация о загрузке обновлений</title>
+            <image href="img/update-download.png" placement="break">
+                <alt>Информация о загрузке обновлений</alt>
+            </image>
+        </fig>
+        <p>Для того чтобы установить новую версию основного модуля программы, после завершения процесса загрузки необходимо нажать на кнопку <uicontrol>Установить</uicontrol>.</p>
+        <p>После обновления основного модуля преподаватель может обновить модули клиентов. Для этого он должен выбрать пункт меню <menucascade><uicontrol>Справка</uicontrol><uicontrol>Обновить модули клиентов</uicontrol></menucascade>.</p>
+        <p>В появившемся окне (<xref keyref="firmware_update/update_clients_png" type="fig"/>&#160;) преподаватель должен подтвердить свое желание обновить модули клиентов.</p>
+        <fig id="update_clients_png">
+            <title>Окно обновления модулей клиентов</title>
+            <image href="img/update-clients.png" placement="break">
+                <alt>Окно обновления модулей клиентов</alt>
+            </image>
+        </fig>
+        <note type="attention">Не забывайте, что для обновления модулей клиентов из основного окна программы необходимо, чтобы все модули клиентов были подключены к программе (<xref keyref="description_main/icon_connect_png" type="fig"/>&#160;)!</note>
+	</conbody>
+</concept>

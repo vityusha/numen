@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="registration" xml:lang="en-US">
+    <title><keyword>Регистрация учащихся</keyword></title>
+    <conbody>  
+		<p><indexterm>регистрация учащихся</indexterm>До начала работы преподаватель может произвести регистрацию (перекличку) присутствующих в классе учащихся. Для этого он должен выбрать пункт меню <menucascade><uicontrol>Класс</uicontrol><uicontrol>Регистрация учащихся</uicontrol></menucascade>. На мониторах компьютеров учащихся появится соответствующее окно, в котором они, если потребуется, могут ввести свою фамилию (<xref keyref="registration/registration_png" type="fig"/>&#160;).</p>
+		<fig id="registration_png">
+            <title>Окно <wintitle>Введите имя</wintitle></title>
+            <image href="img/registration.png" placement="break">
+                <alt>Окно <wintitle>Введите имя</wintitle></alt>
+            </image>
+        </fig>		
+		<p>Учащиеся должны в течение одной минуты нажать на кнопку <uicontrol>OK</uicontrol> в этом окне. Если этого не сделать, то в рабочем окне на иконке дисплея в изображении отсутствующего учащегося останется красный крестик (<xref keyref="registration/icon_unregistered_png" type="fig"/>&#160;).</p>
+		<fig id="icon_unregistered_png">
+            <title>Изображение отсутствующего учащегося</title>
+            <image href="img/icon_unregistered.png" placement="break">
+                <alt>Изображение отсутствующего учащегося</alt>
+            </image>
+        </fig>
+		<p>Время до окончания процесса регистрации будет отображаться в строке статуса в основном модуле. Преподаватель может остановить процесс регистрации раньше установленного времени, для этого нужно повторно выбрать пункт меню <menucascade><uicontrol>Класс</uicontrol><uicontrol>Регистрация учащихся</uicontrol></menucascade>.</p>		
+		<p>После окончания процесса регистрации на мониторе преподавателя появится окно с результатами регистрации учащихся (<xref keyref="registration/registration_result_png" type="fig"/>&#160;).</p>
+		<fig id="registration_result_png">
+            <title>Окно <wintitle>Результаты регистрации</wintitle></title>
+            <image href="img/registration_result.png" placement="break">
+                <alt>Окно <wintitle>Результаты регистрации</wintitle></alt>
+            </image>
+        </fig>
+		<p>Если потребуется изменить имя учащегося вручную, нужно щелкнуть правой клавишей мышки на выбранном ученике, в появившемся меню выбрать пункт <uicontrol>Задать имя</uicontrol> и затем в окне <wintitle>Введите имя</wintitle> (<xref keyref="registration/registration_png" type="fig"/>&#160;) набрать нужное имя.</p>
+	</conbody>
+</concept>

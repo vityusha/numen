@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+
+<concept id="certificate" xml:lang="en-US">
+  <title>Свидетельство о государственной регистрации программ для ЭВМ</title>
+  <conbody>
+    <fig id="sert_png">
+            <title>Свидетельство о государственной регистрации</title>
+            <image href="img/sert.png" placement="break">
+                <alt>Свидетельство о государственной регистрации</alt>
+            </image>
+    </fig>
+  </conbody>
+</concept>

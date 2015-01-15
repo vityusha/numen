@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="thumbnail" xml:lang="en-US">
+    <title><keyword>Эскиз экрана</keyword></title>
+    <conbody>  
+		<p><indexterm>эскиз экрана</indexterm>В этом режиме преподаватель может увидеть копию экрана выбранного учащегося, группы или всего класса. Она появляется вместо основного изображения учащегося (<xref keyref="thumbnail/eskiz_png" type="fig"/>&#160;) и обновляется с периодичностью один раз в несколько секунд.</p>
+		<fig id="eskiz_png">
+            <title>Эскиз экрана учащегося</title>
+            <image href="img/eskiz.png" placement="break">
+                <alt>Эскиз экрана учащегося</alt>
+            </image>
+        </fig>
+		<p>Для получения эскиза экрана одного учащегося преподаватель должен в меню учащегося (п. <xref keyref="menu_single"/>&#160;) выбрать пункт <uicontrol>Эскиз экрана</uicontrol>.</p>
+		<p>Для получения эскиза экрана у группы учащихся преподаватель должен в меню нужной группы (п. <xref keyref="menu_group"/>&#160;) нажать на кнопку <uicontrol>Управление PC</uicontrol>, а потом выбрать пункт <uicontrol>Эскиз экрана</uicontrol>.</p>
+		<p>Для получения эскиза экрана у всего класса преподаватель должен в меню всего класса (п. <xref keyref="menu_class"/>&#160;) нажать на кнопку <uicontrol>Управление PC</uicontrol>, а потом выбрать пункт <uicontrol>Эскиз экрана</uicontrol>.</p> 
+		<p>Если щелкнуть два раза на эскизе экрана учащегося, на экране монитора преподавателя откроется окно удаленного управления компьютером этого учащегося (<xref keyref="remote_control/remote_control_png" type="fig"/>&#160;).</p>
+		<p>Чтобы отключить получение эскиза экрана, нужно повторить приведенные выше действия.</p>
+	</conbody>
+</concept>

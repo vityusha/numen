@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+     Sourceforge.net. See the accompanying license.txt file for 
+     applicable licenses.-->
+<!-- (c) Copyright IBM Corp. 2004, 2006 All Rights Reserved. -->
+
+<!-- 
+  | basedir can be specified to other places base on your need.
+  |
+  | Note: input, output, and temp directories will base on the basedir if 
+  | they are relative paths.
+  * -->
+
+<project name="build_cover" default="generate-cover" basedir=".">
+
+	<!-- dita.dir should point to the toolkit's root directory -->
+	<property name="dita.dir" value="e:${file.separator}work${file.separator}dita${file.separator}"/>
+
+	<import file="${dita.dir}${file.separator}integrator.xml"/>
+	<import file="${dita.dir}${file.separator}build_init.xml"></import>  
+	<import file="${dita.dir}${file.separator}build_preprocess.xml"></import>
+        
+	<target name="generate-cover" unless="noMap" depends="build-init, preprocess" description="Build HTML cover file">
+		<xslt processor="trax"
+              basedir="${dita.temp.dir}"
+              destdir="${output.dir}${file.separator}${cover.dir}"
+              includesfile="${dita.temp.dir}${file.separator}${user.input.file.listfile}"
+              classpathref="dost.class.path"
+              style="${com.custom.dir}${file.separator}xsl${file.separator}map2cover.xsl">
+			<param name="DITAEXT" expression="${dita.ext}" if="dita.ext"/>
+			<param name="CSS" expression="${args.css.file}" if="args.css.file" />
+			<param name="CSSPATH" expression="${user.csspath}" if="user.csspath" />
+			<mapper type="glob" from="${dita.input.filename}" to="${cover.file.name}" />
+		</xslt>
+	</target>
+
+</project>

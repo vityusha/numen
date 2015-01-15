@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="classes_statistics" xml:lang="en-US">
+    <title>Статистика по классам</title>
+    <conbody>
+        <p>Для того чтобы посмотреть статистику успеваемости и посещаемости по классам, необходимо выбрать меню <menucascade><uicontrol>Журнал</uicontrol><uicontrol>Статистика по классам</uicontrol></menucascade>.</p>
+        <p>На экране монитора преподавателя появится окно (<xref keyref="classes_statistics/classes_stat_png" type="fig"/>&#160;), содержащее список классов, в котором он может отобрать нужные уроки по предметам и временным интервалам. В поле <wintitle>Данные</wintitle> приводится список классов, количество уроков, посещаемость и средний балл по классу.</p>
+        <fig id="classes_stat_png">
+            <title>Статистика по классам</title>
+            <image href="img/classes-stat.png" placement="break">
+                <alt>Статистика по классам</alt>
+            </image>
+        </fig>
+        <p>На этом рисунке цифрами обозначены:</p>
+		<table frame="topbot">
+            <tgroup cols="2">
+                <colspec colname="COLSPEC0" colwidth="10*"/>
+                <colspec colname="COLSPEC1" colwidth="120*"/>
+                <tbody>
+                    <row>
+                        <entry>1</entry>
+                        <entry>Список <uicontrol>Предмет</uicontrol></entry>
+                    </row>
+					<row>
+                        <entry>2</entry>
+                        <entry>Начальная дата</entry>
+                    </row>
+					<row>
+                        <entry>3</entry>
+                        <entry>Конечная дата</entry>
+                    </row>
+					<row>
+                        <entry>4</entry>
+                        <entry>Поле данных <uicontrol>Класс</uicontrol></entry>
+                    </row>
+					<row>
+                        <entry>5</entry>
+                        <entry>Поле данных <uicontrol>Всего уроков</uicontrol></entry>
+                    </row>
+					<row>
+                        <entry>6</entry>
+                        <entry>Поле данных <uicontrol>Посещаемость в %</uicontrol></entry>
+                    </row>
+					<row>
+                        <entry>7</entry>
+                        <entry>Поле данных <uicontrol>Средний балл</uicontrol></entry>
+                    </row>
+                    <row>
+                        <entry>8</entry>
+                        <entry>Кнопка <uicontrol>Сохранить в формате HTML</uicontrol></entry>
+                    </row>
+                    <row>
+                        <entry>9</entry>
+                        <entry>Кнопка <uicontrol>Закрыть окно</uicontrol></entry>
+                    </row>
+                </tbody> 
+            </tgroup>
+        </table>
+        <p>Преподаватель может сохранить данные статистики по классам в файл формата HTML. Для этого нужно нажать на кнопку <uicontrol>Сохранить</uicontrol> и ввести имя файла для сохранения. После сохранения будет предложено просмотреть результаты экспорта. Если нажать на кнопку <uicontrol>Да</uicontrol>,то откроется окно браузера по умолчанию (обычно <wintitle>Microsoft Internet Explorer</wintitle>) с содержимым сохраненного файла (<xref keyref="classes_statistics/classes_report_png" type="fig"/>&#160;).</p>
+        <fig id="classes_report_png">
+            <title>Отчет о статистике по классам</title>
+            <image href="img/classes-report.png" placement="break">
+                <alt>Отчет о статистике по классам</alt>
+            </image>
+        </fig>
+	</conbody>
+</concept>

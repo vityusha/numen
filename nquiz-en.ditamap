@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN"
+"map.dtd">
+
+<map id="nquiz" xml:lang="en-US">
+	<topicmeta>
+		<shortdesc>This document contains Dialog NQuiz user's manual.</shortdesc>
+		<author type="creator">Titov S., Vinokurov V.</author>
+		<source/>
+		<publisher>"Lain" LLC</publisher>
+		<copyright>
+			<copyryear year="2014"/>
+			<copyrholder>"Lain" LLC.</copyrholder>
+		</copyright>
+		<critdates>
+			<created date="21.11.2014"/>
+		</critdates>
+		<prodinfo>
+			<prodname>Dialog NQuiz - User's manual</prodname>
+			<vrmlist>
+				<vrm version="2.4"/>
+			</vrmlist>
+		</prodinfo>
+		<othermeta content="User's Manual" name="doctype"/>
+		<othermeta content="2.4" name="docedition"/>
+	</topicmeta>
+
+	<topicref href="en-US/concepts/symbols.dita" />
+	<topicref keys="description_test" href="en-US/nquiz/description_test.dita">
+		<topicref keys="test_builder" href="en-US/nquiz/builder.dita">
+			<topicref keys="test_single_choice" href="en-US/nquiz/single_choice.dita" />
+			<topicref keys="test_multiple_choice" href="en-US/nquiz/multiple_choice.dita" />
+			<topicref keys="test_blanks" href="en-US/nquiz/blanks.dita" />
+			<topicref keys="test_compliance" href="en-US/nquiz/compliance.dita" />
+			<topicref keys="test_sort" href="en-US/nquiz/sort.dita" />
+            <topicref keys="test_hotspot" href="en-US/nquiz/hot_spot.dita" />
+            <topicref keys="test_dragdrop" href="en-US/nquiz/drag_drop.dita" />
+			<topicref keys="test_free" href="en-US/nquiz/free.dita" />
+		</topicref>
+		<topicref keys="test_client" href="en-US/nquiz/client.dita" />
+		<topicref keys="test_result" href="en-US/nquiz/result.dita" />
+	</topicref>
+	<topicref keys="license_agreement" href="en-US/license/license_agreement.dita" />
+	<topicref keys="certificate" href="en-US/concepts/certificate.dita" />
+	<topicref keys="PS" href="en-US/concepts/ps.dita" toc="no" />
+</map>

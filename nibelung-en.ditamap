@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN"
+"map.dtd">
+
+<map id="nibelung" xml:lang="en-US">
+	<topicmeta>
+		<shortdesc>This document contains Dialog Nibelung user's manual.</shortdesc>
+		<author type="creator">Titov S., Vinokurov V.</author>
+		<source/>
+		<publisher>"Lain" Ltd</publisher>
+		<copyright>
+			<copyryear year="2014"/>
+			<copyrholder>"Lain" Ltd.</copyrholder>
+		</copyright>
+		<critdates>
+			<created date="21.11.2014"/>
+		</critdates>
+		<prodinfo>
+			<prodname>Dialog Nibelung - User's manual</prodname>
+			<vrmlist>
+				<vrm version="2.4"/>
+			</vrmlist>
+		</prodinfo>
+		<othermeta content="User's Manual" name="doctype"/>
+		<othermeta content="2.4" name="docedition"/>
+	</topicmeta>
+
+	<topicref href="en-US/concepts/symbols.dita" />
+	<topicref href="en-US/concepts/introduction.dita" />
+	<topichead navtitle="Установка и настройка ПО">
+		<topicref keys="composition" href="en-US/installation/composition.dita" />
+		<topicref href="en-US/installation/system_requirements.dita" />
+		<topicref href="en-US/installation/hardware_requirements.dita" />
+		<topicref href="en-US/installation/installation_notes.dita" />
+		<topicref href="en-US/installation/installation.dita">
+			<topicref keys="install_main" href="en-US/installation/installation_main.dita" />
+			<topicref keys="install_client" href="en-US/installation/installation_client.dita" />
+		</topicref>
+		<topichead navtitle="Настройка программного обеспечения">
+			<topicref keys="setup_main" href="en-US/installation/setup_main.dita" />
+			<topicref keys="setup_client" href="en-US/installation/setup_client.dita" />
+			<topicref keys="setup_pc" href="en-US/installation/setup_pc.dita">
+				<topicref keys="setup_net_xp" href="en-US/installation/setup_net_xp.dita" />
+				<topicref keys="setup_net_vista" href="en-US/installation/setup_net_vista.dita" />   
+				<topicref keys="setup_mic_xp" href="en-US/installation/setup_mic_xp.dita" />
+				<topicref keys="setup_mic_vista" href="en-US/installation/setup_mic_vista.dita" />
+			</topicref>
+		</topichead>
+	</topichead>
+	<topicref keys="description_main" href="en-US/main/description_main.dita">
+		<topicref keys="menu_program" href="en-US/main/menu_program.dita">
+			<topicref keys="menu_tools" href="en-US/main/menu_tools.dita" />
+            <topicref keys="configurator" href="en-US/main/configurator.dita" />
+		</topicref>
+		<topicref keys="choice_tutor" href="en-US/main/choice_tutor.dita" />
+		<topicref keys="tutor_settings" href="en-US/main/tutor_settings.dita" />
+		<topicref keys="student_class" href="en-US/main/student_class.dita" />
+		<topicref keys="registration" href="en-US/main/registration.dita" />
+		<topicref keys="menu_class" href="en-US/main/menu_class.dita" />
+		<topicref keys="menu_group" href="en-US/main/menu_group.dita" />
+		<topicref keys="menu_single" href="en-US/main/menu_single.dita" />
+		<topicref keys="union_in_group" href="en-US/main/union_in_group.dita" />
+		<topicref keys="interaction" href="en-US/main/interaction.dita">
+			<topicref keys="listen" href="en-US/main/listen.dita" />
+			<topicref keys="dialog" href="en-US/main/dialog.dita" />
+			<topicref keys="record" href="en-US/main/record.dita" />
+			<topicref keys="record_talk" href="en-US/main/record_talk.dita" />
+			<topicref keys="run_programs" href="en-US/main/run_programs.dita" />
+			<topicref keys="chat" href="en-US/main/chat.dita" />
+			<topicref keys="message" href="en-US/main/message.dita" />
+			<topicref keys="call_tutor" href="en-US/main/call_tutor.dita" />
+			<topicref keys="student_message" href="en-US/main/student_message.dita" />
+			<topicref keys="homework" href="en-US/main/homework.dita" />
+		</topicref>
+		<topicref keys="control_pc" href="en-US/main/control_pc.dita">
+			<topicref keys="thumbnail" href="en-US/main/thumbnail.dita" />
+			<topicref keys="webcam" href="en-US/main/webcam.dita" />
+			<topicref keys="autoscan" href="en-US/main/autoscan.dita" />
+			<topicref keys="lock_input" href="en-US/main/lock_input.dita" />
+			<topicref keys="lock_pc" href="en-US/main/lock_pc.dita" />
+			<topicref keys="disable_microphone" href="en-US/main/disable_microphone.dita" />
+			<topicref keys="disable_removable" href="en-US/main/disable_removable.dita" />
+			<topicref keys="disable_internet" href="en-US/main/disable_internet.dita" />
+			<topicref keys="internet_control" href="en-US/main/internet_control.dita" />
+			<topicref keys="student_applications" href="en-US/main/student_applications.dita" />
+			<topicref keys="power_management" href="en-US/main/power_management.dita" />
+			<topicref keys="applications_management" href="en-US/main/applications_management.dita" />
+			<topicref keys="terminate_remote_process" href="en-US/main/terminate_remote_process.dita" />
+		</topicref>
+		<topicref keys="remote_control" href="en-US/main/remote_control.dita" />
+		<topicref keys="students_tasks" href="en-US/main/students_tasks.dita">
+			<topicref keys="self_training" href="en-US/main/self_training.dita" />
+			<topicref keys="discussion" href="en-US/main/discussion.dita" />
+			<topicref keys="transfer_screen" href="en-US/main/transfer_screen.dita" />
+			<topicref keys="internet" href="en-US/main/internet.dita" />
+			<topicref keys="files_working" href="en-US/main/files_working.dita" />
+			<topicref keys="testing" href="en-US/main/testing.dita" />
+		</topicref>
+		<topicref keys="media_source" href="en-US/main/media_source.dita">
+			<topicref keys="tutor_source" href="en-US/main/tutor_source.dita" />
+			<topicref keys="student_source" href="en-US/main/student_source.dita" />
+			<topicref keys="file_source" href="en-US/main/file_source.dita" />
+			<topicref keys="cd_source" href="en-US/main/cd_source.dita" />
+			<topicref keys="soundcard_source" href="en-US/main/soundcard_source.dita" />
+			<topicref keys="video_source" href="en-US/main/video_source.dita" />
+		</topicref>
+		<topicref keys="customize_toolbar" href="en-US/main/customize_toolbar.dita" />
+		<topicref keys="journal" href="en-US/main/journal.dita">
+			<topicref keys="current_lesson" href="en-US/main/current_lesson.dita" />
+			<topicref keys="lessons_list" href="en-US/main/lessons_list.dita" />
+			<topicref keys="presents_statistics" href="en-US/main/presents_statistics.dita" />
+			<topicref keys="grades_statistics" href="en-US/main/grades_statistics.dita" />
+			<topicref keys="classes_statistics" href="en-US/main/classes_statistics.dita" />
+		</topicref>
+		<topicref keys="firmware_update" href="en-US/main/firmware_update.dita" /> 
+	</topicref>
+	<topicref keys="description_client" href="en-US/client/description_client.dita">
+		<topicref keys="media_player" href="en-US/client/media_player.dita">
+			<topicref keys="playlist_player" href="en-US/client/playlist_player.dita" />
+			<topicref keys="tracks_player" href="en-US/client/tracks_player.dita" />
+			<topicref keys="bookmarks_player" href="en-US/client/bookmarks_player.dita" />
+			<topicref keys="controls_player" href="en-US/client/controls_player.dita" />
+			<topicref keys="video_player" href="en-US/client/video_player.dita" />
+			<topicref keys="subtitles_player" href="en-US/client/subtitles_player.dita" />
+		</topicref>
+	</topicref>
+	<topicref keys="description_test" href="en-US/nquiz/description_test.dita">
+		<topicref keys="test_builder" href="en-US/nquiz/builder.dita">
+			<topicref keys="test_single_choice" href="en-US/nquiz/single_choice.dita" />
+			<topicref keys="test_multiple_choice" href="en-US/nquiz/multiple_choice.dita" />
+			<topicref keys="test_blanks" href="en-US/nquiz/blanks.dita" />
+			<topicref keys="test_compliance" href="en-US/nquiz/compliance.dita" />
+			<topicref keys="test_sort" href="en-US/nquiz/sort.dita" />
+            <topicref keys="test_hotspot" href="en-US/nquiz/hot_spot.dita" />
+            <topicref keys="test_dragdrop" href="en-US/nquiz/drag_drop.dita" />
+			<topicref keys="test_free" href="en-US/nquiz/free.dita" />
+		</topicref>
+		<topicref keys="test_client" href="en-US/nquiz/client.dita" />
+		<topicref keys="test_result" href="en-US/nquiz/result.dita" />
+	</topicref>
+	<topicref keys="program_working" href="en-US/concepts/program_working.dita" />
+    <topichead navtitle="Работа программы с аудиокоммутатором">
+        <topicref href="en-US/concepts/purpose_switch.dita" />
+        <topicref keys="commutator_switch" href="en-US/concepts/commutator_switch.dita" />
+        <topicref keys="learner_switch" href="en-US/concepts/learner_switch.dita" />
+        <topicref keys="connect_switch" href="en-US/concepts/connect_switch.dita" />
+        <topicref keys="work_switch" href="en-US/concepts/work_switch.dita" />
+	</topichead>
+	<topichead navtitle="Ответы на часто задаваемые вопросы (FAQ)">
+		<topicref keys="faq-hw" href="en-US/concepts/faq-hw.dita" />
+		<topicref href="en-US/concepts/faq-install.dita" />
+    </topichead>
+	<topicref keys="errors" href="en-US/concepts/errors.dita" />
+	<topicref keys="license_agreement" href="en-US/license/license_agreement.dita" />
+	<topicref keys="contacts" href="en-US/concepts/contacts.dita" />
+	<topicref keys="glossary" href="en-US/concepts/glossary.dita" />
+	<topicref keys="certificate" href="en-US/concepts/certificate.dita" />
+	<topicref keys="PS" href="en-US/concepts/ps.dita" toc="no" />
+</map>

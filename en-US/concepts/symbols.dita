@@ -1,0 +1,56 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
+"reference.dtd">
+
+<reference id="symbols" xml:lang="en-US">
+	<title>Условные обозначения</title>
+	<prolog/>
+	<refbody>
+		
+		<section>
+			<title>Условные обозначения, принятые в данном описании:</title>
+			<!--<note type="attention">Критические замечания</note>
+			<note type="important">Важная информация</note>
+			<note type="tip">Информация к сведению</note> -->
+			<table frame="none">
+				<tgroup cols="2">
+					<colspec colname="COLSPEC0" colwidth="10"/>
+					<colspec colname="COLSPEC1" colwidth="120*"/>
+					<tbody>
+						<row>
+							<entry><image href="../../img/Symbol-Stop.png" placement="break" scalefit="yes" width="10mm"/></entry>
+							<entry>Критические замечания</entry>
+						</row>
+						<row>
+							<entry><image href="../../img/Symbol-Error.png" placement="break" scalefit="yes" width="10mm"/></entry>
+							<entry>Важная информация</entry>
+						</row>
+						<row>
+							<entry><image href="../../img/Symbol-Information.png" placement="break" scalefit="yes" width="10mm"/></entry>
+							<entry>Информация к сведению</entry>
+						</row>
+					</tbody> 
+				</tgroup>
+			</table>
+		</section>
+		
+		<section>
+			<table frame="none">            
+				<tgroup cols="2">
+					<colspec colname="COLSPEC0" colwidth="20"/>
+					<colspec colname="COLSPEC1" colwidth="120*"/>
+					<tbody>
+						<row>
+							<entry><b>Жирный</b></entry>
+							<entry>Жирным шрифтом выделены названия кнопок, меню, программ</entry>
+						</row>
+						<row>
+							<entry><i>Курсив</i></entry>
+							<entry>Курсивом обозначены названия файлов, путей, ссылок</entry>
+						</row>            
+					</tbody>
+				</tgroup>
+			</table>
+		</section>
+	</refbody>
+</reference>

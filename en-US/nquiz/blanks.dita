@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="test_blanks" xml:lang="en-US">
+    <title>Вставить пропуски</title>
+    <conbody>
+        <fig id="type_3_png">
+            <title>Тип ответа: вставить пропуски</title>
+            <image href="img/type_3.png" placement="break">
+                <alt>Тип ответа: вставить пропуски</alt>
+            </image>
+        </fig>
+        <p>В случае типа ответа <wintitle>Вставить пропуски</wintitle> необходимо в редакторе вопросов (<xref keyref="test_builder/edit_instruc_png" type="fig"/>&#160;) в тексте задания обозначить символами <b>&lt;..&gt;</b> места пропусков. </p>
+        <p>На панели ответов нужно в соответствующем поле ввести текст задания полностью, где пропущенные слова должны быть ограничены символами <b>&lt;</b> и <b>&gt;</b>. Если существует несколько вариантов ответов, они вводятся через <b>;</b> (точка с запятой). Например, <b>&lt;dog;cat&gt;</b>.</p>
+   	</conbody>
+</concept>

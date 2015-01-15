@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="listen" xml:lang="en-US">
+    <title><keyword>Прослушка</keyword></title>
+    <conbody>  
+		<p><indexterm>прослушка</indexterm>В этом режиме преподаватель может скрытно прослушать микрофон учащегося. Для этого преподаватель должен в меню учащегося (п. <xref keyref="menu_single"/>&#160;) выбрать пункт <uicontrol>Прослушка</uicontrol>.</p>
+		<p>На изображении этого учащегося (<xref keyref="listen/icon_listen_png" type="fig"/>&#160;) появится иконка гарнитуры.</p>
+		<p>Если учащийся работает с кем-то в паре, то преподаватель прослушивает всю пару.</p>
+        <fig id="icon_listen_png">
+            <title>Иконка прослушки учащегося</title>
+            <image href="img/icon_listen.png" placement="break">
+                <alt>Иконка прослушки учащегося</alt>
+            </image>
+        </fig>		
+		<p>Прослушка группы в режиме <wintitle>Дискуссия</wintitle> будет описана ниже.</p>
+		<p>Для отмены прослушки учащегося нужно повторно выбрать пункт <uicontrol>Прослушка</uicontrol> в меню учащегося (п. <xref keyref="menu_single"/>&#160;).</p>
+	</conbody>
+</concept>

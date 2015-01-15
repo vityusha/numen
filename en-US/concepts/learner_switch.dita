@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="learner_switch" xml:lang="en-US">
+    <title>Описание блока учащегося</title>
+    <conbody>  
+        <p><indexterm>блок учащегося</indexterm>Блок учащегося служит для передачи аудиосигналов к учащемуся и от учащегося через аудиокоммутатор.</p>
+        <p>На задней панели блока учащегося (<xref keyref="learner_switch/learner_png" type="fig"/>&#160;) расположены разъемы для
+        подключения гарнитуры учащегося и ПК.</p>
+		<fig id="learner_png">
+            <title>Блок учащегося. Вид сзади</title>
+            <image href="img/learner.png" placement="break">
+                <alt>Блок учащегося. Вид сзади</alt>
+            </image> 
+        </fig>
+        <p>На этом рисунке цифрами обозначены:</p>
+		<table frame="topbot">
+            <tgroup cols="2">
+                <colspec colname="COLSPEC0" colwidth="10*"/>
+                <colspec colname="COLSPEC1" colwidth="120*"/>
+                <tbody>
+                    <row>
+                        <entry>1</entry>
+                        <entry>Разъем внешнего выхода (RCA), подключается к линейному входу звуковой карты ПК учащегося</entry>
+                    </row>
+					<row>
+                        <entry>2</entry>
+                        <entry>Разъем внешнего входа (RCA), подключается к линейному выходу звуковой карты ПК учащегося</entry>
+                    </row>
+					<row>
+                        <entry>3</entry>
+                        <entry>Разъем подключения наушника №1 (jack 3,5 mm)</entry>
+                    </row>
+					<row>
+                        <entry>4</entry>
+                        <entry>Разъем подключения наушника №2 (jack 3,5 mm)</entry>
+                    </row>
+					<row>
+                        <entry>5</entry>
+                        <entry>Разъем подключения микрофона №2 (jack 3,5 mm)</entry>
+                    </row>
+					<row>
+                        <entry>6</entry>
+                        <entry>Разъем подключения микрофона №1 (jack 3,5 mm)</entry>
+                    </row>
+                    <row>
+                        <entry>7</entry>
+                        <entry>Кнопка <wintitle>Вызов</wintitle></entry>
+                    </row>
+                    <row>
+                        <entry>8</entry>
+                        <entry>Индикатор <wintitle>Вызов</wintitle></entry>
+                    </row>
+                </tbody> 
+            </tgroup>
+        </table>
+        <p>На верхней панели блока учащегося расположены кнопка и индикатор вызова.</p>
+        <note type="important">Линейный вход звуковой карты ПК учащегося неодходимо подключить к линейному выходу блока учащегося, а линейный выход звуковой карты - к линейному входу блока.</note>
+        <note type="tip">Кабель подключения к коммутатору заводится снизу и подключается к плате при монтаже блока.</note>        
+    </conbody>
+</concept>

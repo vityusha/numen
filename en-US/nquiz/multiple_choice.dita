@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="test_multiple_choice" xml:lang="en-US">
+    <title>Множественный выбор</title>
+    <conbody>
+        <fig id="type_1_png">
+            <title>Тип ответа: множественный выбор</title>
+            <image href="img/type_1.png" placement="break">
+                <alt>Тип ответа: множественный выбор</alt>
+            </image>
+        </fig>
+        <p>В случае типа ответа <wintitle>Множественный выбор</wintitle> на панели слева будет располагаться список вариантов ответов, а справа кнопки <uicontrol>Добавить</uicontrol> и <uicontrol>Удалить</uicontrol>, при помощи которых можно добавить или удалить варианты ответа.</p>
+        <p>При добавлении нового варианта ответа с списке появляется пустая строка. Для того чтобы ввести текст варианта ответа, нужно щелкнуть мышкой на этой строке в столбце <wintitle>Вариант ответа</wintitle>.</p>
+        <p>По окончании ввода всех ответов нужно в столбце <wintitle>Правильный ответ</wintitle> поставить галочку напротив напротив всех правильных вариантов ответа.</p>
+   	</conbody>
+</concept>

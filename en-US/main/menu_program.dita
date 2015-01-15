@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="menu_program" xml:lang="en-US">
+    <title>Меню программы</title>
+    <conbody>  
+        <p>Основной модуль содержит следующие пункты меню программы:
+			<ul>
+				<li><uicontrol>Файл</uicontrol></li>
+				<li><uicontrol>Класс</uicontrol></li>
+				<li><uicontrol>Журнал</uicontrol></li>
+				<li><uicontrol>Вид</uicontrol></li>
+				<li><uicontrol>Инструменты</uicontrol></li>
+				<li><uicontrol>Тестирование</uicontrol></li>
+				<li><uicontrol>Справка</uicontrol></li>
+			</ul>
+		</p>
+		<p>Меню <uicontrol>Файл</uicontrol> содержит пункты:
+		<table frame="all" rowsep="1" colsep="1">            
+            <tgroup cols="2">
+                <colspec colname="COLSPEC0" colwidth="120*"/>
+                <colspec colname="COLSPEC1" colwidth="20*"/>
+                <thead>
+                    <row>
+                        <entry colname="COLSPEC0" align="center">Пункты меню</entry>
+                        <entry colname="COLSPEC1" align="center">Иконка</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>Открыть папку преподавателя</entry>
+                        <entry><image href="img/menu/openfolder.png" placement="break" width="16" align="center"/></entry>
+                    </row>
+					<row>
+                        <entry>Сменить преподавателя</entry>
+                        <entry><image href="img/menu/change.png" placement="break" width="16" align="center"/></entry>
+                    </row>
+					<row>
+                        <entry>Управление учетными записями</entry>
+                        <entry><image href="img/menu/account.png" placement="break" width="16" align="center"/></entry>
+                    </row>
+					<row>
+                        <entry>Настройки</entry>
+                        <entry><image href="img/menu/settings.png" placement="break" width="16" align="center"/></entry>
+                    </row>
+					<row>
+                        <entry>Настройка преподавателя</entry>
+                        <entry><image href="img/menu/tutorsettings.png" placement="break" width="16" align="center"/></entry>
+                    </row>
+					<row>
+                        <entry>Выход</entry>
+                        <entry><image href="img/menu/exit.png" placement="break" width="16" align="center"/></entry>
+                    </row>
+                </tbody> 
+            </tgroup>
+        </table>
+		</p>
+		<p>Меню <uicontrol>Класс</uicontrol> содержит пункты:
+		<table frame="all" rowsep="1" colsep="1">
+            <tgroup cols="2">
+                <colspec colname="COLSPEC0" colwidth="120*"/>
+                <colspec colname="COLSPEC1" colwidth="20*"/>
+                <thead>
+                    <row>
+                        <entry colname="COLSPEC0" align="center">Пункты меню</entry>
+                        <entry colname="COLSPEC1" align="center">Иконка</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>Новый класс</entry>
+                        <entry><image href="img/menu/NewHS.png" placement="break" width="16" align="center" /></entry>
+                    </row>
+					<row>
+                        <entry>Открыть класс</entry>
+                        <entry><image href="img/menu/openHS.png" placement="break" width="16" align="center" /></entry>
+                    </row>
+					<row>
+                        <entry>Сохранить класс</entry>
+                        <entry><image href="img/menu/saveHS.png" placement="break" width="16" align="center" /></entry>
+                    </row>
+					<row>
+                        <entry>Сохранить класс как</entry>
+                        <entry><image href="img/menu/saveAsHS.png" placement="break" width="16" align="center" /></entry>
+                    </row>
+					<row>
+                        <entry>Расставить класс</entry>
+                        <entry> </entry>
+                    </row>
+					<row>
+                        <entry>Добавить учащегося</entry>
+                        <entry><image href="img/menu/AddStudent.png" placement="break" width="16" align="center" /></entry>
+                    </row>
+					<row>
+                        <entry>Удалить учащегося</entry>
+                        <entry><image href="img/menu/DelStudent.png" placement="break" width="16" align="center" /></entry>
+                    </row>
+					<row>
+                        <entry>Упорядочить класс</entry>
+                        <entry><image href="img/menu/SortHS.png" placement="break" width="16" align="center" /></entry>
+                    </row>
+					<row>
+                        <entry>Регистрация учащихся</entry>
+                        <entry><image href="img/menu/Registration.png" placement="break" width="16" align="center" /></entry>
+                    </row>
+                </tbody> 
+            </tgroup>
+        </table>
+		</p>
+		<p>Меню <uicontrol>Журнал</uicontrol> содержит пункты:
+		<table frame="all" rowsep="1" colsep="1">
+            <tgroup cols="2">
+                <colspec colname="COLSPEC0" colwidth="120*"/>
+                <colspec colname="COLSPEC1" colwidth="20*"/>
+                <thead>
+                    <row>
+                        <entry colname="COLSPEC0" align="center">Пункты меню</entry>
+                        <entry colname="COLSPEC1" align="center">Иконка</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>Начать урок</entry>
+                        <entry><image href="img/menu/lesson.png" placement="break" width="16" align="center" /></entry>
+                    </row>
+					<row>
+                        <entry>Список уроков</entry>
+                        <entry><image href="img/menu/viewlessons.png" placement="break" width="16" align="center" /></entry>
+                    </row>
+					<row>
+                        <entry>Статистика успеваемости</entry>
+                        <entry><image href="img/menu/stat1.png" placement="break" width="16" align="center" /></entry>
+                    </row>
+					<row>
+                        <entry>Статистика посещаемости</entry>
+                        <entry><image href="img/menu/stat2.png" placement="break" width="16" align="center" /></entry>
+                    </row>
+					<row>
+                        <entry>Статистика по классам</entry>
+                        <entry><image href="img/menu/stat3.png" placement="break" width="16" align="center" /></entry>
+                    </row>
+                </tbody> 
+            </tgroup>
+        </table>
+		</p>
+		<p>Меню <uicontrol>Вид</uicontrol> содержит пункты:
+		<table frame="all" rowsep="1" colsep="1">
+            <tgroup cols="2">
+                <colspec colname="COLSPEC0" colwidth="120*"/>
+                <colspec colname="COLSPEC1" colwidth="20*"/>
+                <thead>
+                    <row>
+                        <entry colname="COLSPEC0" align="center">Пункты меню</entry>
+                        <entry colname="COLSPEC1" align="center">Иконка</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>Панель инструментов (показать или скрыть панель инструментов)</entry>
+                        <entry></entry>
+                    </row>
+					<row>
+                        <entry>Строка состояния (показать или скрыть строку состояния)</entry>
+                        <entry></entry>
+                    </row>
+					<row>
+                        <entry>Настройка панели инструментов</entry>
+                        <entry><image href="img/menu/CustomizeHS.png" placement="break" width="16" align="center"/></entry>
+                    </row>
+                </tbody> 
+            </tgroup>
+        </table>
+		</p>
+		<p>Меню <uicontrol>Инструменты</uicontrol> содержит пункты:
+		<table frame="all" rowsep="1" colsep="1">
+            <tgroup cols="2">
+                <colspec colname="COLSPEC0" colwidth="120*"/>
+                <colspec colname="COLSPEC1" colwidth="20*"/>
+                <thead>
+                    <row>
+                        <entry colname="COLSPEC0" align="center">Пункты меню</entry>
+                        <entry colname="COLSPEC1" align="center">Иконка</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry><uicontrol>Nibelung Media-плеер</uicontrol> (запустить на компьютере преподавателя <wintitle>Nibelung Media-плеер</wintitle>)</entry>
+                        <entry><image href="img/menu/NPlayer.png" placement="break" width="16" align="center"/></entry>
+                    </row>
+					<row>
+                        <entry><uicontrol>Конвертер видео</uicontrol> (запустить на компьютере преподавателя программу конвертирования видео файлов в формат <b>MPEG-1</b>)</entry>
+                        <entry><image href="img/menu/VideoConverter.png" placement="break" width="16" align="center"/></entry>
+                    </row>
+					<row>
+                        <entry><uicontrol>Nibelung конфигуратор</uicontrol> (запустить на компьютере преподавателя программу удаленной настройки модулей клиентов <wintitle>Диалог-Nibelung</wintitle>)</entry>
+                        <entry><image href="img/menu/configure-icon.png" placement="break" width="16" align="center"/></entry>
+                    </row>
+					<row>
+                        <entry><uicontrol>Настройка меню инструментов</uicontrol> (запустить на компьютере преподавателя окно добавления дополнительных пунктов меню <uicontrol>Инструменты</uicontrol>)</entry>
+                        <entry><image href="img/menu/execute.png" placement="break" width="16" align="center"/></entry>
+                    </row>
+                </tbody> 
+            </tgroup>
+        </table>
+		</p>
+		<p>Меню <uicontrol>Тестирование</uicontrol> содержит пункты:
+		<table frame="all" rowsep="1" colsep="1">
+            <tgroup cols="2">
+                <colspec colname="COLSPEC0" colwidth="120*"/>
+                <colspec colname="COLSPEC1" colwidth="20*"/>
+                <thead>
+                    <row>
+                        <entry colname="COLSPEC0" align="center">Пункты меню</entry>
+                        <entry colname="COLSPEC1" align="center">Иконка</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>Редактор тестов</entry>
+                        <entry><image href="img/menu/quizbuilder.png" placement="break" width="16" align="center"/></entry>
+                    </row>
+					<row>
+                        <entry>Просмотр результатов</entry>
+                        <entry><image href="img/menu/quizadmin.png" placement="break" width="16" align="center"/></entry>
+                    </row>
+                </tbody> 
+            </tgroup>
+        </table>
+		</p>
+		<p>Меню <uicontrol>Справка</uicontrol> содержит пункты:
+		<table frame="all" rowsep="1" colsep="1">
+            <tgroup cols="2">
+                <colspec colname="COLSPEC0" colwidth="120*"/>
+                <colspec colname="COLSPEC1" colwidth="20*"/>
+                <thead>
+                    <row>
+                        <entry colname="COLSPEC0" align="center">Пункты меню</entry>
+                        <entry colname="COLSPEC1" align="center">Иконка</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>Открыть сайт программы</entry>
+                        <entry><image href="img/menu/url.png" placement="break" width="16" align="center" /></entry>
+                    </row>
+					<row>
+                        <entry>Написать разработчикам</entry>
+                        <entry><image href="img/menu/mail.png" placement="break" width="16" align="center" /></entry>
+                    </row>
+					<row>
+                        <entry>Проверить обновления</entry>
+                        <entry><image href="img/menu/Update.png" placement="break" width="16" align="center" /></entry>
+                    </row>
+					<row>
+                        <entry>Обновить модули клиентов (удаленное обновление программы клиентов на компьютерах учащихся после обновления основного модуля)</entry>
+                        <entry><image href="img/menu/UpdateClient.png" placement="break" width="16" align="center" /></entry>
+                    </row>
+					<row>
+                        <entry>О программе</entry>
+                        <entry><image href="img/menu/mainico.PNG" placement="break" width="16" align="center" /></entry>
+                    </row>
+                </tbody> 
+            </tgroup>
+        </table>
+		</p>
+    </conbody>
+</concept>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="video_player" xml:lang="en-US">
+    <title>Проигрывание видео файлов</title>
+    <conbody>
+        <p>При открытии видео файла рядом с основным окном модуля клиента появляется дополнительное окно (<xref keyref="video_player/client_video_png" type="fig"/>&#160;), в котором будет воспроизводится видео изображение.</p>
+        <fig id="client_video_png">
+            <title>Окно просмотра видео</title>
+            <image href="img/client-video.png" placement="break">
+                <alt>Окно просмотра видео</alt>
+            </image>
+        </fig>
+		<p>Для того чтобы изменить размер окна видео просмотра, нужно щелкнуть правой кнопкой мышки на данном окне, и в появившемся меню (<xref keyref="video_player/client_video_menu_png" type="fig"/>&#160;) выбрать необходимый размер.</p>
+		<fig id="client_video_menu_png">
+            <title>Меню окна просмотра видео</title>
+            <image href="img/client-video-menu.png" placement="break">
+                <alt>Меню окна просмотра видео</alt>
+            </image>
+        </fig>
+        <p>Двойной щелчок левой кнопки мышки на окне видео устанавливает размер видео изображения равным оригинальному. Повторный двойной щелчок возвращает размер окна по умолчанию.</p>
+	</conbody>
+</concept>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="control_pc" xml:lang="en-US">
+    <title>Управление компьютером учащегося</title>
+    <conbody>  
+		<p>Основной модуль дает возможность управлять компьютерами учащихся.</p>
+	</conbody>
+</concept>

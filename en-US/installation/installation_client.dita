@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN"
+"task.dtd">
+
+<task id="installation_client" xml:lang="en-US">
+    <title>Установка модуля клиента</title>
+    <taskbody>  
+        <steps>    
+            <step>
+                <cmd>Вставьте установочный диск в дисковод CD-ROM или DVD-ROM компьютера.</cmd>
+            </step>
+            <step>
+                <cmd>Если на экране монитора появилось окно автозапуска, то выберите пункт для установки модуля клиента. Если окно автозапуска не появилось, то необходимо запустить файл <filepath>setup-nibelungclient.exe</filepath>, находящийся на установочном диске.</cmd>
+            </step>
+            <step>
+                <cmd>На экране монитора появится окно приветствия мастера установок (<xref keyref="install_client/install_c1_png" type="fig"/>&#160;), в котором нужно нажать на кнопку <uicontrol>Далее</uicontrol>.</cmd>
+                <info>
+                    <p><fig id="install_c1_png">
+                        <title>Окно приветствия мастера установок модуля клиента</title>
+                        <image href="img/install_c1.png" placement="break">
+                            <alt>Окно приветствия мастера установок модуля клиента</alt>
+                        </image>
+                    </fig></p>
+                </info>
+            </step>
+            <step>
+                <cmd>Затем в появившемся окне лицензионного соглашения (<xref keyref="install_client/install_c2_png" type="fig"/>&#160;) нужно поставить галочку у пункта <uicontrol>Я принимаю условия лицензионного соглашения</uicontrol> и нажать на кнопку <uicontrol>Далее</uicontrol>. Если Вы не согласны с условиями лицензионного соглашения, то необходимо отменить установку.</cmd>
+                <info>
+                    <p><fig id="install_c2_png">
+                        <title>Окно лицензионного соглашения модуля клиента</title>
+                        <image href="img/install_c2.png" placement="break">
+                            <alt>Окно лицензионного соглашения модуля клиента</alt>
+                        </image>
+                    </fig></p>
+                </info>
+            </step>
+            <step>
+                <cmd>В следующем окне (<xref keyref="install_client/install_c3_png" type="fig"/>&#160;) нужно ввести <uicontrol><keyword>IP адрес</keyword></uicontrol> или имя компьютера, на котором установлен основной модуль, и <uicontrol><keyword>ID учащегося</keyword></uicontrol> (порядковый номер компьютера учащегося).</cmd>
+                <info>
+                    <p><fig id="install_c3_png">
+                        <title>Окно настройки модуля клиента</title>
+                        <image href="img/install_c3.png" placement="break">
+                            <alt>Окно настройки модуля клиента</alt>
+                        </image>
+                    </fig></p>
+                    <p>При выборе опции <uicontrol>Запускать программу при старте Windows</uicontrol> модуль клиента будет автоматически запускаться при загрузке операционной системы Windows.</p>   
+                    <note conref="setup_client.dita#setup_client/autorunTip"></note>                    
+                </info>
+            </step>
+            <step>
+                <cmd>Следующим на экране монитора появится окно выбора вида установки (<xref keyref="install_client/install_c4_png" type="fig"/>&#160;).</cmd>
+                <info>
+                    <p><fig id="install_c4_png">
+                        <title>Окно вида установки модуля клиента</title>
+                        <image href="img/install_c4.png" placement="break">
+                            <alt>Окно вида установки модуля клиента</alt>
+                        </image>
+                    </fig></p>
+                    <p>В нем можно выбрать виды установок: 
+                        <ul>
+                        <li>Обычная установка - установка наиболее часто используемых компонентов</li>
+                        <li>Выборочная установка - установка с выбором устанавливаемых компонентов</li>
+                        <li>Полная установка - полная установка программы.</li>
+                        </ul>
+                    </p>
+                    <note type="important">Для обычных пользователей рекомендуется выбрать обычную установку.</note>                    
+                </info>
+            </step>
+            <step>
+                <cmd>Если пользователь остановился на выборочной установке, то в появившемся окне (<xref keyref="install_client/install_c5_png" type="fig"/>&#160;) он может отключить компоненты, которые считает не нужными.
+                </cmd>        
+                <info>
+                    <p><fig id="install_c5_png">
+                        <title>Окно выборочной установки модуля клиента</title>
+                        <image href="img/install_c5.png" placement="break">
+                            <alt>Окно выборочной установки модуля клиента</alt>
+                        </image>
+                    </fig></p>                       
+                    <note type="attention">Этот вид установки должен выполнять только опытный пользователь!</note>
+                </info>
+            </step>
+            <step>
+                <cmd>После нажатия на кнопку <uicontrol>Далее</uicontrol> на экране монитора появится окно выбора пути установки программы (<xref keyref="install_client/install_c6_png" type="fig"/>&#160;).</cmd>  
+                <info>                
+                    <note type="tip">По умолчанию программа устанавливается в каталог <filepath>C:\Program Files\LAIN\Nibelung</filepath>.</note>
+                    <p><fig id="install_c6_png">
+                        <title>Окно выбора папки установки модуля клиента</title>
+                        <image href="img/install_c6.png" placement="break">
+                            <alt>Окно выбора папки установки модуля клиента</alt>
+                        </image>
+                    </fig></p>      
+                    <p>В этом окне пользователь может выбрать другой каталог, нажав на кнопку <uicontrol>Обзор</uicontrol>. Затем нужно нажать на кнопку <uicontrol>Далее</uicontrol>.</p>
+                </info>
+            </step>
+            <step> 
+                <cmd>На экране монитора появится окно (<xref keyref="install_client/install_c7_png" type="fig"/>&#160;), сообщающее, что все готово к установке программы.</cmd> 
+                <info>
+                    <p><fig id="install_c7_png">
+                        <title>Окно начала установки модуля клиента</title>
+                        <image href="img/install_c7.png" placement="break">
+                            <alt>Окно начала установки модуля клиента</alt>
+                        </image>
+                    </fig></p>
+                    <p>При необходимости изменения параметров установки пользователь может нажать на кнопку <uicontrol>Назад</uicontrol>.</p>
+                    <p>Чтобы прекратить процесс установки, пользователь может нажать на кнопку <uicontrol>Отмена</uicontrol>.</p>
+                    <p>Если не требуется вносить никаких изменений, то он должен нажать на кнопку <uicontrol>Начать</uicontrol>. После этого запустится процесс установки программного обеспечения на компьютер пользователя (<xref keyref="install_client/install_c10_png" type="fig"/>&#160;).</p>
+                    <p><fig id="install_c10_png">
+                        <title>Процесс установки программного обеспечения</title>
+                        <image href="img/install_c10.png" placement="break">
+                            <alt>Процесс установки программного обеспечения</alt>
+                        </image>
+                    </fig></p>
+                </info>
+            </step>
+            <step>
+                <cmd>После окончания установки программы на экране монитора появится окно (<xref keyref="install_client/install_c8_png" type="fig"/>&#160;), сообщающее об успешном завершении процесса. Для его закрытия пользователь должен нажать на кнопку <uicontrol>Готово</uicontrol>.</cmd>
+                <info>
+                    <p><fig id="install_c8_png">
+                        <title>Окно завершения установки модуля клиента</title>
+                        <image href="img/install_c8.png" placement="break">
+                            <alt>Окно завершения установки модуля клиента</alt>
+                        </image>
+                    </fig></p>
+                    <note type="important">Обратите внимание, что опция <uicontrol>Запустить Диалог Nibelung Client</uicontrol> в этом окне доступна только если ранее не была выбрана опция <uicontrol>Запускать программу при старте Windows</uicontrol>.</note>
+                    <p>После завершения установки в меню <menucascade><uicontrol>Пуск</uicontrol><uicontrol>Все программы</uicontrol></menucascade> появится пункт <uicontrol>Nibelung</uicontrol>, в котором будут пункты запуска программы, удаления ее и открытия файла помощи в формате <b>PDF</b>.</p>
+                    <note type="tip">Файл помощи в формате <b>PDF</b> можно открыть, используя программу <wintitle>Adobe Acrobat Reader</wintitle>. Инсталляционный файл <wintitle>Adobe Acrobat Reader</wintitle> также находится на установочном компакт диске.</note>
+                    <p>На экране монитора появится значок запуска программы.</p>
+                    <p><fig id="install_icon_c_png">
+                        <title>Значок запуска модуля клиента</title>
+                        <image href="img/install_icon_c.png" placement="break">
+                            <alt>Значок запуска модуля клиента</alt>
+                        </image>
+                    </fig></p>
+                </info>
+            </step>
+            <step>
+                <cmd>Если на компьютере пользователя уже установлена программа <wintitle>Диалог Nibelung</wintitle>, то при запуске файла установки программы на экране появится окно (<xref keyref="install_client/install_c9_png" type="fig"/>&#160;), в котором можно:</cmd>
+                <info>
+                    <ul>
+                        <li>Добавить или удалить отдельные компоненты программы</li>
+                        <li>Повторно установить программу с целью устранения ошибок</li>
+                        <li>Удалить программу с компьютера пользователя.</li>
+                    </ul>
+                    <p><fig id="install_c9_png">
+                        <title>Окно программы установки модуля клиента</title>
+                        <image href="img/install_c9.png" placement="break">
+                            <alt>Окно программы установки модуля клиента</alt>
+                        </image>
+                    </fig></p>
+                    <p>Выбрав кнопку, соответствующую нужному действию, пользователь должен нажать на кнопку <uicontrol>Далее</uicontrol> и затем следовать инструкциям программы установки.</p>                    
+                </info>
+            </step>
+        </steps>    
+    </taskbody>
+</task>

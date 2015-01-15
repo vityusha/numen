@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="journal" xml:lang="en-US">
+    <title>Журнал</title>
+    <conbody>  
+		<p>Программа <wintitle>Диалог Nibelung</wintitle> позволяет вести журналы посещаемости и успеваемости для классов учащихся, а также показывать статистику посещаемости и успеваемости на основе этих журналов.</p>
+        <note type="tip">Для каждого преподавателя ведется свой журнал посещаемости и успеваемости.</note>
+	</conbody>
+</concept>

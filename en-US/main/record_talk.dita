@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="record_talk" xml:lang="en-US">
+    <title>Запись разговора</title>
+    <conbody>  
+		<p>В этом режиме преподаватель может включить запись своего разговора с выбранным учащимся.</p>
+		<p>На изображении учащегося, находящегося в режиме записи разговора, появится иконка дисплея с двойным красным кружком (<xref keyref="record_talk/icon_record_talk_png" type="fig"/>&#160;).</p> 
+		<fig id="icon_record_talk_png">
+            <title>Иконка записи разговора преподавателя с учащимся</title>
+            <image href="img/icon_record_talk.png" placement="break">
+                <alt>Иконка записи разговора преподавателя с учащимся</alt>
+            </image>
+        </fig>
+		<p>При этом у пункта меню <uicontrol>Запись разговора</uicontrol> вместо красного кружка появляется галочка.</p>
+		<p>Файлы с записями разговоров с учащимися сохранятся в формате <b>MP3</b> на жестком диске преподавателя в папке с именем преподавателя и текущего класса.</p>
+		<p>Например, <filepath>Admin\Waves\10А\05.02.2011\Иванов Сергей-13-5-talk.mp3</filepath>, где 
+			<ul>
+				<li><uicontrol>Admin</uicontrol> – имя преподавателя,</li>
+				<li><uicontrol>10А</uicontrol> – название класса,</li>
+				<li><uicontrol>05.02.2011</uicontrol> – дата записи,</li>
+				<li><uicontrol>Иванов Сергей</uicontrol> – имя учащегося,</li>
+				<li><uicontrol>13-5</uicontrol> – время записи.</li>
+			</ul>
+		</p>
+	</conbody>
+</concept>

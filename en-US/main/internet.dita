@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="internet" xml:lang="en-US">
+    <title>Интернет</title>
+    <conbody>  
+		<p><uicontrol>Интернет</uicontrol> — режим, в котором у учащихся будет запускаться Интернет браузер, который может управляться с компьютера преподавателя.</p>
+		<p>Если выбрано это задание (<xref keyref="internet/menu_group_3_5_png" type="fig"/>&#160;), то после нажатия на кнопку <uicontrol>Старт</uicontrol>, на компьютерах учащихся будет запущен <wintitle>Microsoft Internet Explorer</wintitle>. На кнопке появится надпись <uicontrol>Стоп</uicontrol>. Повторное нажатие на нее приведет к закрытию  <wintitle>Microsoft Internet Explorer</wintitle> на компьютерах учащихся, входящих в группу.</p>
+		<fig id="menu_group_3_5_png">
+            <title>Меню <uicontrol>Интернет</uicontrol></title>
+            <image href="img/menu_group_3_5.png" placement="break">
+                <alt>Меню <uicontrol>Интернет</uicontrol></alt>
+            </image>
+        </fig>
+		<p>Если преподаватель нажмет на кнопку <uicontrol>Открыть браузер</uicontrol>, то на мониторе преподавателя откроется окно специального Интернет браузера (<xref keyref="internet/browser_png" type="fig"/>&#160;), с помощью которого преподаватель может управлять интернет браузерами учащихся.</p>
+		<fig id="browser_png">
+            <title>Окно браузера на компьютере преподавателя</title>
+            <image href="img/browser.png" placement="break">
+                <alt>Окно браузера на компьютере преподавателя</alt>
+            </image>
+        </fig>
+		<p>На этом рисунке цифрами обозначены:</p>
+		<table frame="topbot">
+            <tgroup cols="2">
+                <colspec colname="COLSPEC0" colwidth="10*"/>
+                <colspec colname="COLSPEC1" colwidth="120*"/>
+                <tbody>
+					<row>
+                        <entry>1</entry>
+                        <entry>Кнопка <uicontrol>На предыдущую страницу</uicontrol></entry>
+                    </row>
+					<row>
+                        <entry>2</entry>
+                        <entry>Кнопка <uicontrol>На последующую страницу</uicontrol></entry>
+                    </row>
+					<row>
+                        <entry>3</entry>
+                        <entry>Кнопка <uicontrol>Остановить загрузку</uicontrol></entry>
+                    </row>
+					<row>
+                        <entry>4</entry>
+                        <entry>Кнопка <uicontrol>Обновить страницу</uicontrol></entry>
+                    </row>
+					<row>
+                        <entry>5</entry>
+                        <entry>Кнопка <uicontrol>На домашнюю счтраницу</uicontrol></entry>
+                    </row>
+					<row>
+                        <entry>6</entry>
+                        <entry>Закладки групп</entry>
+                    </row>
+					<row>
+                        <entry>7</entry>
+                        <entry>Поле ввода адреса (URL) интернет страницы</entry>
+                    </row>
+					<row>
+                        <entry>8</entry>
+                        <entry>Кнопки управления браузерами студентов</entry>
+                    </row>
+                </tbody> 
+            </tgroup>
+        </table> 
+		<p>В этом окне имеются закладки групп, кнопки управления загрузкой страниц. Кнопка <uicontrol>Старт</uicontrol>  дублирует одноименную кнопку в меню.</p>
+		<p>При нажатии на кнопку <uicontrol>Послать</uicontrol> в окно <wintitle>Microsoft Internet Explorer</wintitle> на компьютерах учащихся будет передана ссылка, введенная в поле адреса, и будет загружена нужная страница.</p>
+		<p>Если нажать на кнопку <uicontrol>Следовать</uicontrol>, то в <wintitle>Microsoft Internet Explorer</wintitle> на компьютерах учащихся будут повторятся все действия, совершенные в браузере преподавателя.</p>
+		<p>Кнопки управления браузерами учащихся позволяют свернуть, развернуть и восстановить окно браузера у учащихся.</p>
+		<note type="attention">В связи с тем, что разработчики страниц в Интернете активно используют флеш анимацию, необходимо устанавливать последнюю версию <wintitle>Adobe Flash Player</wintitle> на все компьютеры для корректной работы web-браузера.</note>
+	</conbody>
+</concept>

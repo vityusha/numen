@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="disable_removable" xml:lang="en-US">
+    <title>Отключить съемные носители</title>
+    <conbody>  
+		<p>В этом режиме преподаватель может отключить съемные носители у выбранного учащегося, группы или всего класса. В этом случае учащихся, у которых  отключены съемные носители, не смогут пользоваться этими носителями (CD или DVD диск, флеш накопители, карты памяти).</p>
+	</conbody>
+</concept>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="media_source" xml:lang="en-US">
+    <title>Медиа источники сигналов</title>
+    <conbody>  
+		<p>Основной модуль программы позволяет работать с различными источниками аудио и видео сигналов.</p>
+		<p>Чтобы открыть меню выбора источника медиа сигналов для определенной группы, необходимо щелкнуть левой кнопкой мышки на закладке этой группы, раскрыв тем самым меню группы, и нажать на кнопку <uicontrol>Медиа источники</uicontrol>.</p>
+		<fig id="menu_group_4_png">
+            <title>Меню <uicontrol>Медиа источники</uicontrol></title>
+            <image href="img/menu_group_4.png" placement="break">
+                <alt>Меню <uicontrol>Медиа источники</uicontrol></alt>
+            </image>
+        </fig>
+		<p>В появившемся меню (<xref keyref="media_source/menu_group_4_png" type="fig"/>&#160;) можно выбрать один из источников:
+			<ul>
+				<li><uicontrol>Нет</uicontrol> (отключить источник сигнала);</li>
+				<li><uicontrol>Преподаватель</uicontrol>;</li>
+				<li><uicontrol>Учащийся</uicontrol>;</li>
+				<li><uicontrol>Файл</uicontrol>;</li>
+				<li><uicontrol>CD проигрыватель</uicontrol>;</li>
+				<li><uicontrol>Звуковая карта</uicontrol>;</li>
+				<li><uicontrol>Видео</uicontrol>.</li>
+			</ul>
+		</p>				
+		<p>Во всех меню источников присутствует кнопка <uicontrol>Старт</uicontrol>, при нажатии на которую начинается передача сигнала группе. Надпись на кнопке поменяется на <uicontrol>Стоп</uicontrol>. При нажатии на кнопку <uicontrol>Стоп</uicontrol> вещание прекращается.</p>
+		<p>В большинстве меню медиа источников доступны опции:
+			<ul>
+				<li><uicontrol>Записать для учащихся</uicontrol>;</li>
+				<li><uicontrol>Оцифровать материал</uicontrol>;</li>
+				<li><uicontrol>Прослушивание</uicontrol>.</li>
+			</ul>
+		</p>
+		<p>При выборе пункта <uicontrol>Записать для учащихся</uicontrol> цифровая копия аудио источника будет помещаться в мастер-трек проигрывателя аудио файлов на компьютерах учащихся. Кроме того, при выборе пункта <uicontrol>Записать для учащихся</uicontrol> будет доступна дополнительная опция <uicontrol>с микрофоном</uicontrol> (<xref keyref="tutor_source/menu_group_4_1_png" type="fig"/>&#160;), при выборе которой одновременно с записью аудио источника в мастер-трек проигрывателя учащегося, также будет записан микрофон учащегося в студенческий трек проигрывателя.</p>
+		<p>При выборе пункта <uicontrol>Прослушивание</uicontrol> преподаватель может слышать в своих наушниках  выбранный аудио источник.</p>
+		<p>При выборе пункта <indexterm>оцифровка</indexterm><uicontrol><keyword>Оцифровать материал</keyword></uicontrol> аудио источник будет переведен в цифровую форму и после нажатия на кнопку <uicontrol>Стоп</uicontrol> программа предложит сохранить его на жестком диске в формате <b>WAV</b> или <b>MP3</b>.</p>
+		<note type="tip">Оцифрованный материал может быть использован для дальнейшей работы в виде аудио файла.</note>
+	</conbody>
+</concept>

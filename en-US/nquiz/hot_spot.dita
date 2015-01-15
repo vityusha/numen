@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="test_hotspot" xml:lang="en-US">
+    <title>Выбор зоны</title>
+    <conbody>
+        <fig id="type_7_png">
+            <title>Тип ответа: выбор зоны</title>
+            <image href="img/type_7.png" placement="break">
+                <alt>Тип ответа: выбор зоны</alt>
+            </image>
+        </fig>
+        <p>В случае типа ответа <wintitle>Выбор зоны</wintitle> при помощи кнопки <uicontrol>Обзор</uicontrol> нужно выбрать графический файл. При нажатии на кнопку <uicontrol>Указать зоны</uicontrol> откроется окно редактора зон.</p>
+        <fig id="hotspot_edit_png">
+            <title>Окно редактора зон</title>
+            <image href="img/hotspot_edit.png" placement="break">
+                <alt>Окно редактора зон</alt>
+            </image>
+        </fig>
+        <p>Для установки зоны необходимо при помощи левой кнопки мыши выделить нужный участок изображения. Зоны, соответствующие правильному ответу, отображаются зеленой штрих пунктирной линией, а неправильному - красной. Для переключения типов ответа, необходимо щелкнуть левой кнопкой мыши на кнопке с изображением зеленой галочки. Для удаления зоны, необходимо щелкнуть левой кнопкой мыши на кнопке с изображением красного креста.</p>
+   	</conbody>
+</concept>
+

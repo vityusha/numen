@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="configurator" xml:lang="en-US">
+    <title><keyword>Nibelung конфигуратор</keyword></title>
+    <conbody>  
+		<p><indexterm>конфигуратор</indexterm><wintitle>Nibelung конфигуратор</wintitle> - это специальное приложение в составе программного комплекса <wintitle>Диалог Nibelung</wintitle>, предназначенное для удаленной настройки модулей клиентов. Также оно позволяет установить некоторые дополнительные параметры основного модуля.</p>
+        <fig id="configurator_png">
+            <title>Окно <wintitle>Nibelung конфигуратор</wintitle></title>
+            <image href="img/configurator.png" placement="break">
+                <alt>Окно <wintitle>Nibelung конфигуратор</wintitle></alt>
+            </image>
+        </fig>
+		<p>Основное окно приложения <wintitle>Nibelung конфигуратор</wintitle> (<xref keyref="configurator/configurator_png" type="fig"/>&#160;) состоит из списка компьютеров в локальной сети, на которых установлены и запущены модули клиентов, и следующих кнопок:
+            <ul>
+                <li><uicontrol>Поиск клиентов</uicontrol> – служит для обнаружения компьютеров в локальной сети, на которых установлены и запущены модули клиентов;</li>
+                <li><uicontrol>Конфигурировать</uicontrol> – открывает окно изменения общих настроек модулей клиентов (<xref keyref="configurator/configurator_students_png" type="fig"/>&#160;);</li>
+                <li><uicontrol>Параметры ПК преподавателя</uicontrol> – открывает окно изменения настроек основного модуля (<xref keyref="configurator/configurator_teacher_png" type="fig"/>&#160;);</li>
+                <li><uicontrol>Выход</uicontrol> – закрывает приложение <wintitle>Nibelung конфигуратор</wintitle>.</li>
+            </ul>
+        </p>
+        <p>Список компьютеров содержит следующие поля:
+			<ul>
+				<li><uicontrol>Выбрать</uicontrol> – модуль клиента на отмеченном компьютере будет настраиваться при помощи окна настроек модулей клиентов (<xref keyref="configurator/configurator_students_png" type="fig"/>&#160;);</li>
+				<li><uicontrol>Имя компьютера</uicontrol> - сетевое (WINS) имя компьютера учащегося;</li>
+                <li><uicontrol>IP адрес</uicontrol> - IP адрес компьютера учащегося;</li>
+				<li><uicontrol>ID учащегося</uicontrol> – редактируемое поле идентификатора модуля клиента (п. <xref keyref="setup_client"/>&#160;);</li>
+                <li><uicontrol>Сервер</uicontrol> - редактируемое поле IP адреса или сетевого имени компьютера преподавателя (п. <xref keyref="setup_client"/>&#160;);</li>
+                <li>Кнопка <uicontrol>Применить</uicontrol> - сохраняет внесенные изменения для текущего компьютера учащегося;</li>
+                <li><uicontrol>Статус</uicontrol> - отображает состояние передачи данных для текущего компьютера учащегося.</li>
+			</ul>
+		</p>
+        <p>Для изменения полей <uicontrol>ID учащегося</uicontrol> и <uicontrol>Сервер</uicontrol> необходимо дважды щелкнуть левой кнопкой мышки на соответствующем поле и после внесения изменений нажать на кнопку <uicontrol>Применить</uicontrol> в этой строке.</p>
+        <p>В окне изменения общих настроек модулей клиентов (<xref keyref="configurator/configurator_students_png" type="fig"/>&#160;) преподаватель может настроить общие параметры для выбранных компьютеров:
+            <ul>
+				<li><uicontrol>Основные</uicontrol>:
+                        <ul>
+                            <li><uicontrol>Запускать клиента при старте Windows</uicontrol>;</li>
+                            <li><uicontrol>Язык</uicontrol> - язык интерфейса;</li>
+                        </ul>                
+                </li>
+                <li><uicontrol>Громкость</uicontrol>:
+                        <ul>
+                            <li><uicontrol>Запись</uicontrol> - уровень записи;</li>
+                            <li><uicontrol>Воспроизведение</uicontrol> - уровень воспроизведения;</li>
+                        </ul>                
+                </li>
+                <li><uicontrol>Аудио устройства</uicontrol>:
+                        <ul>
+                            <li><uicontrol>Установить устройство записи по умолчанию</uicontrol> - при выборе данной опции в модулях клиентов будет установлено устройство записи, которое является устройством записи в Windows по умолчанию;</li>
+                            <li><uicontrol>Установить устройство воспроизведения по умолчанию</uicontrol> - при выборе данной опции в модулях клиентов будет установлено устройство воспроизведения, которое является устройством воспроизведения в Windows по умолчанию;</li>
+                        </ul>                
+                </li>
+                <li><uicontrol>Прокси сервер</uicontrol> - эти настройки могут потребоваться для обеспечения доступа компьютеров учащихся в Интернет в целях установки обновлений:
+                        <ul>
+                            <li><uicontrol>IP адрес</uicontrol>;</li>
+                            <li><uicontrol>Порт</uicontrol>;</li>
+                        </ul>                
+                </li>
+			</ul>
+        </p> 
+        <fig id="configurator_students_png">
+            <title>Окно изменений настроек модулей клиентов</title>
+            <image href="img/configurator_students.png" placement="break">
+                <alt>Окно изменений настроек модулей клиентов</alt>
+            </image>
+        </fig>
+        <p>Описание настроек модуля клиента приведено в соответствующем пункте данного описания (п. <xref keyref="setup_client" />&#160;).</p>
+        <p>В окне изменения настроек основного модуля (<xref keyref="configurator/configurator_teacher_png" type="fig"/>&#160;) преподаватель может настроить следующие параметры:
+            <ul>
+                <li><uicontrol>Видео проигрыватель</uicontrol>:
+                        <ul>
+                            <li><uicontrol>Путь к файлу</uicontrol> - путь к исполняемому файлу видео проигрывателя;</li>
+                        </ul>                
+                </li>
+                <li><uicontrol>Громкость</uicontrol>:
+                        <ul>
+                            <li><uicontrol>Запись</uicontrol> - уровень записи;</li>
+                            <li><uicontrol>Воспроизведение</uicontrol> - уровень воспроизведения;</li>
+                        </ul>                
+                </li>
+                <li><uicontrol>Аудио устройства</uicontrol>:
+                        <ul>
+                            <li><uicontrol>Установить устройство записи по умолчанию</uicontrol> - при выборе данной опции в основном модуле будет установлено устройство записи, которое является устройством записи в Windows по умолчанию;</li>
+                            <li><uicontrol>Установить устройство воспроизведения по умолчанию</uicontrol> - при выборе данной опции в основном модуле будет установлено устройство воспроизведения, которое является устройством воспроизведения в Windows по умолчанию;</li>
+                        </ul>                
+                </li>
+                <li><uicontrol>Прокси сервер</uicontrol> - эти настройки могут потребоваться для обеспечения доступа компьютера преподавателя в Интернет в целях установки обновлений:
+                        <ul>
+                            <li><uicontrol>IP адрес</uicontrol>;</li>
+                            <li><uicontrol>Порт</uicontrol>.</li>
+                        </ul>                
+                </li>                
+			</ul>
+        </p>
+        <fig id="configurator_teacher_png">
+            <title>Окно изменений настроек основного модуля</title>
+            <image href="img/configurator_teacher.png" placement="break">
+                <alt>Окно изменений настроек основного модуля</alt>
+            </image>
+        </fig>	
+        <p>Описание настроек основного модуля приведено в соответствующем пункте данного описания (п. <xref keyref="setup_main" />&#160;).</p>        
+	</conbody>
+</concept>

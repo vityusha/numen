@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="composition" xml:lang="en-US">
+  <title>Состав программного обеспечения</title>
+  <conbody>    
+    <p>Программное обеспечение <wintitle>Диалог Nibelung</wintitle> включает в себя два модуля: основной, устанавливаемый на компьютер преподавателя, и модуль клиента, устанавливаемый на компьютеры учащихся.</p>
+    <p>При помощи основного модуля (<xref href="#composition/main_png" type="fig"/>&#160;) осуществляется полное управление компьютерным классом, передача аудио и видео информации, различных документов и файлов и другие функции лингафонного кабинета.</p>
+    <fig id="main_png">
+        <title>Окно основного модуля</title>
+        <image href="img/main.png" placement="break" scalefit="yes">
+            <alt>Окно основного модуля</alt>
+        </image>
+    </fig>
+    <p>Модуль клиента (<xref href="#composition/client_png" type="fig"/>&#160;) работает под управлением основной программы. Также он может работать самостоятельно в качестве проигрывателя аудио файлов.</p>
+    <fig id="client_png">
+        <title>Окно модуля клиента</title>
+        <image href="img/client.png" placement="break">
+            <alt>Окно модуля клиента</alt>
+        </image>
+    </fig>   
+  </conbody>
+</concept>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="test_free" xml:lang="en-US">
+    <title>Открытый</title>
+    <conbody>
+        <fig id="type_5_png">
+            <title>Тип ответа: открытый</title>
+            <image href="img/type_5.png" placement="break">
+                <alt>Тип ответа: открытый</alt>
+            </image>
+        </fig>
+        <p>Тип ответа <wintitle>Открытый</wintitle> подразумевает под собой свободный письменный ответ учащегося, который не учитывается при автоматическом подсчете оценки.</p>
+   	</conbody>
+</concept>

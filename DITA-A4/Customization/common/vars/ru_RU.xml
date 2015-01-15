@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+
+<vars xmlns="http://www.idiominc.com/opentopic/vars">
+
+    <!-- 
+    Bercut Templates
+	Edited by Oleg Alekseev   
+    -->
+
+    <!-- 
+       Strings used in the headers and footers of pages.
+    -->
+
+    <!-- Product name to be placed inside headers etc. (isn't used in Bercut temlates)-->
+    <variable id="Product Name">Диалог «Nibelung»</variable>
+    
+    <!-- Default copyrholder name to be placed inside headers etc. if don't present copyrholder element -->
+    <variable id="Default Copyrholder">ООО "ЛАЙН"</variable>
+    
+    <!-- Default year to be placed inside headers etc. if don't present copyryear element -->
+    <variable id="Default Year">2012</variable>
+    
+    <!--Text to use for subsystem version label (intended for cover). -->
+    <variable id="SubSystemVersion">Версия </variable>
+    
+    <!--Text to use for version label (intended for annotation). -->
+    <variable id="DocEdition">Версия документа: </variable>
+    
+    <!-- The copyright infomation that appears in annotation. -->
+     <variable id="CopyrightInfo">Copyright © 2008 - <param ref-name="year"/>&#xA0;<param ref-name="copyrholder"/> Все права защищены.</variable>
+    
+    <!-- The document infomation that appears in Reader's Comment Form. -->
+    <variable id="DocInfo"><param ref-name="system"/>.&#xA0;<param ref-name="subsystem"/>.&#xA0;<param ref-name="subsystem_version"/>.&#xA0;<param ref-name="doctype"/>.&#xA0;<param ref-name="doc_edition"/>.</variable>
+
+    <!-- The footer that appears on odd-numbered pages. -->
+    <variable id="Body odd footer">Copyright © 2008 - <param ref-name="year"/>&#xA0;<param ref-name="copyrholder"/> Все права защищены</variable>
+
+    <!-- The footer that appears on even-numbered pages. -->
+    <variable id="Body even footer"/>
+
+    <!-- The footer that appears on the first page of a chapter. -->
+     <variable id="Body first footer">Copyright © 2008 - <param ref-name="year"/>&#xA0;<param ref-name="copyrholder"/> Все права защищены</variable>
+
+    <!-- The header that appears on the first page of a chapter. -->
+    <variable id="Body first header"/>
+
+    <!-- The header that appears on odd-numbered pages. -->
+    <variable id="Body odd header"><param ref-name="prodname"/>&#xA0;|&#xA0;<param ref-name="heading"/>&#xA0;|&#xA0;<param ref-name="pagenum"/></variable>
+
+    <!-- The header that appears on even-numbered pages. -->
+    <variable id="Body even header"><param ref-name="pagenum"/>&#xA0;|&#xA0;<param ref-name="prodname"/>&#xA0;|&#xA0;<param ref-name="heading"/></variable>
+
+    <!-- The footer that appears on Preface odd-numbered pages. -->
+    <variable id="Preface odd footer"/>
+
+    <!-- The footer that appears on Preface even-numbered pages. -->
+    <variable id="Preface even footer"/>
+
+    <!-- The footer that appears on the first page of a Preface -->
+    <variable id="Preface first footer"/>
+
+    <!-- The header that appears on Preface odd-numbered pages. -->
+    <variable id="Preface odd header">Введение&#xA0;|&#xA0;<param ref-name="prodname"/>&#xA0;|&#xA0;<param ref-name="heading"/>&#xA0;|&#xA0;<param ref-name="pagenum"/></variable>
+
+    <!-- The header that appears on Preface even-numbered pages. -->
+    <variable id="Preface even header"><param ref-name="pagenum"/>&#xA0;|&#xA0;<param ref-name="prodname"/>&#xA0;|&#xA0;Введение</variable>
+
+    <!-- The header that appears on Preface first page. -->
+    <variable id="Preface first header"/>
+
+    <!-- The footer that appears on the odd-numbered table of contents
+         pages. --> 
+    <variable id="Toc odd footer">Copyright © 2008 - <param ref-name="year"/>&#xA0;<param ref-name="copyrholder"/> Все права защищены</variable>
+
+    <!-- The footer that appears on the even-numbered table of contents
+         pages. --> 
+    <variable id="Toc even footer"/>
+
+    <!-- The header that appears on the odd-numbered table of contents
+         pages. --> 
+    <variable id="Toc odd header"><param ref-name="prodname"/>&#xA0;|&#xA0;Оглавление&#xA0;|&#xA0;<param ref-name="pagenum"/></variable>
+
+    <!-- The header that appears on the odd-numbered table of contents
+         pages. --> 
+    <variable id="Toc even header"><param ref-name="pagenum"/>&#xA0;|&#xA0;<param ref-name="prodname"/>&#xA0;|&#xA0;Оглавление</variable>
+
+    <!-- The footer that appears on the odd-numbered index pages. -->
+    <variable id="Index odd footer">Copyright © 2008 - <param ref-name="year"/>&#xA0;<param ref-name="copyrholder"/> Все права защищены</variable>
+
+    <!-- The footer that appears on the even-numbered index pages. -->
+    <variable id="Index even footer"/>
+
+    <!-- The header that appears on the odd-numbered index pages. -->
+    <variable id="Index odd header"><param ref-name="prodname"/>&#xA0;|&#xA0;Алфавитный указатель&#xA0;|&#xA0;<param ref-name="pagenum"/></variable>
+
+    <!-- The header that appears on the even-numbered index pages. -->
+    <variable id="Index even header"><param ref-name="pagenum"/>&#xA0;|&#xA0;<param ref-name="prodname"/>&#xA0;|&#xA0;Алфавитный указатель</variable>
+
+    <!-- The formatting used to display ordered lists (e.g., "1., 2." or 
+         "1), 2)" -->
+    <variable id="Ordered List Number"><param ref-name="number"/>. </variable>
+
+    <!-- The unordered list bullet   -->
+    <variable id="Unordered List bullet">&#x2022;</variable>
+
+    <!-- The heading string to put at the top of the Table of Contents -->
+    <variable id="Table of Contents">Оглавление</variable>
+
+    <!-- The heading string to put at the top of the Index -->
+    <variable id="Index">Алфавитный указатель</variable>
+
+    <variable id="Index Continued String">продолжающийся</variable>
+
+    <!--string before see element-->
+    <variable id="Index See String">, См. </variable>
+
+    <!--string before see also element-->
+    <variable id="Index See Also String">См. также </variable>
+
+    <!-- The string used to label a chapter within the table of contents. -->
+    <variable id="Table of Contents Chapter">Глава&#xA0;<param ref-name="number"/>:&#xA0;</variable>
+
+    <!-- The string used to label an appendix within the table of contents. -->
+    <variable id="Table of Contents Appendix">Приложение&#xA0;<param ref-name="number"/>:&#xA0;</variable>
+
+    <!-- The string used to label an part within the table of contents. -->
+    <variable id="Table of Contents Part">Часть&#xA0;<param ref-name="number"/>:&#xA0;</variable>
+
+    <!-- The string used to label an preface within the table of contents. -->
+    <variable id="Table of Contents Preface">Предисловие:&#xA0;</variable>
+
+    <!-- The string used to label an preface within the table of contents. -->
+    <variable id="Table of Contents Notices"></variable>
+
+    <!-- The string used to label an preface in body text. -->
+    <variable id="Preface title">Предисловие</variable>
+
+    <!-- The string used to label an notices in body text. -->
+    <variable id="Notices title">Сообщение</variable>
+
+    <!-- The heading to put at the top of a chapter when creating a
+         chapter-level "mini-TOC" -->
+    <variable id="Mini Toc">Темы: </variable>
+
+    <!-- Text to use for 'Note' label generated from <note> element. -->
+    <variable id="Note">Примечание</variable>
+
+    <!-- Text to use for 'Note' label generated from <note> element 
+         with 'type' attribute set to 'tip'. -->
+    <variable id="Tip">Информация</variable>
+
+    <!-- Text to use for 'Note' label generated from <note> element
+         with 'type' attribute set to 'tip'. -->
+    <variable id="Important">Важное замечание</variable>
+
+    <!-- Text to use for 'Note' label generated from <note> element 
+         with 'type' attribute set to 'fastpath'. -->
+    <variable id="Fastpath">Быстрый путь</variable>
+
+    <!-- Text to use for 'Note' label generated from <note> element 
+         with 'type' attribute set to 'remember'. -->
+    <variable id="Remember">Напоминание</variable>
+
+    <!-- Text to use for 'Note' label generated from <note> element 
+         with 'type' attribute set to 'attention'. -->
+    <variable id="Attention">Внимание</variable>
+
+    <!-- Text to use for 'Note' label generated from <note> element 
+         with 'type' attribute set to 'caution'. -->
+    <variable id="Caution">ОСТОРОЖНО</variable>
+
+    <!-- Text to use for 'Note' label generated from <note> element 
+         with 'type' attribute set to 'danger'. -->
+    <variable id="Danger">ОПАСНО</variable>
+
+    <!-- Text to use for 'Note' label generated from <note> element
+         with 'type' attribute set to 'restriction'. -->
+    <variable id="Restriction">Ограничение</variable>
+
+    <!-- Text to use for figure titles. Renders as part of <fig>/<title>
+          elements. -->
+    <variable id="Figure">Рис.<param ref-name="number"/>&#xA0;<param ref-name="title"/></variable>
+
+    <!-- Text to use for table titles. Renders as part of <table>/<title> 
+         elements. -->
+    <variable id="Table">Табл.<param ref-name="number"/>. <param ref-name="title"/></variable>
+
+    <!-- Text to use for related links label.
+         Renders as part of <related-links> element. -->
+    <variable id="Related Links">См. также:</variable>
+
+    <!-- Default cross-reference text prefix. Used to generate reference 
+         text in case it's not specified in source. -->
+    <variable id="Cross-Reference">Перекрестная ссылка на:</variable>
+
+    <!-- Default content-reference text prefix. Used to generate reference 
+         text in case target cannot be resolved. -->
+    <variable id="Content-Reference">Содержимое из:</variable>
+
+    <!-- Default title text for referenced section title. Used to generate 
+         reference text in case reference has no explicit content and
+         referenced section has no title. -->
+    <variable id="Untitled section">Раздел без названия.</variable>
+
+    <!-- Default title text for referenced list item. Used to generate
+         reference text in case reference has no explicit content and 
+         reference target is a list item. -->
+    <variable id="List item">Элемент списка.</variable>
+
+    <!-- Default title text for referenced footnote. Used to generate 
+         reference text in case reference has no explicit content and 
+         reference target is a footnote. -->
+    <variable id="Foot note">Сноска.</variable>
+
+    <!-- Text to use for a generated label of navigation title. Renders
+         as part of <navtitle> element. -->
+    <variable id="Navigation title">Название для навигации</variable>
+
+    <!-- Text to use for a generated label of search title. Renders 
+         as part of <searchtitle> element. -->
+    <variable id="Search title">Название для поиска</variable>
+
+    <!-- Text to use for chapter titles.-->
+    <variable id="Chapter with number">Глава <param ref-name="number"/></variable>
+
+    <!-- Text to use for appendix titles.-->
+    <variable id="Appendix with number">Приложение <param ref-name="number"/></variable>
+
+    <!-- Text to use for part titles.-->
+    <variable id="Part with number">Часть <param ref-name="number"/></variable>
+
+    <!-- Text to use for a label generated from <required-cleanup> element. -->
+    <variable id="Required-Cleanup">[Required-Cleanup]</variable>
+
+    <!-- Template for generated page number of a reference 
+         in printed manual. -->
+    <variable id="On the page"> на стр.<param ref-name="pagenum"/></variable>
+
+    <!-- Template for generated page number of a reference
+         in printed manual, when referenced element has no title. -->
+    <variable id="Page"> стр.<param ref-name="pagenum"/></variable>
+
+    <!-- Template for generated page number of a reference
+         in chm/html, when referenced element has no title. -->
+    <variable id="This link">это ссылка</variable>
+    
+    <!-- Image path to use for a note of "note" type. -->
+    <variable id="note Note Image Path">Customization/OpenTopic/common/artwork/hand.gif</variable>
+
+    <!-- Image path to use for a note of "attention" type. -->
+    <variable id="attention Note Image Path">Customization/OpenTopic/common/artwork/attention.png</variable>
+
+    <!-- Image path to use for a note of "caution" type. -->
+    <variable id="caution Note Image Path">Customization/OpenTopic/common/artwork/warning.gif</variable>
+
+    <!-- Image path to use for a note of "danger" type. -->
+    <variable id="danger Note Image Path">Customization/OpenTopic/common/artwork/hand.gif</variable>
+  
+    <!-- Image path to use for a note of "fastpath" type. -->
+    <variable id="fastpath Note Image Path">Customization/OpenTopic/common/artwork/hand.gif</variable>
+  
+    <!-- Image path to use for a note of "important" type. -->
+    <variable id="important Note Image Path">Customization/OpenTopic/common/artwork/important.png</variable>
+ 
+    <!-- Image path to use for a note of "remember" type. -->
+    <variable id="remember Note Image Path">Customization/OpenTopic/common/artwork/hand.gif</variable>
+ 
+    <!-- Image path to use for a note of "restriction" type. -->
+    <variable id="restriction Note Image Path">Customization/OpenTopic/common/artwork/hand.gif</variable>
+
+    <!-- Image path to use for a note of "tip" type. -->
+    <variable id="tip Note Image Path">Customization/OpenTopic/common/artwork/tip.png</variable>
+ 
+    <!-- Image path to use for a note of "other" type. -->
+    <variable id="other Note Image Path">Customization/OpenTopic/common/artwork/hand.gif</variable>
+     
+    <!-- Image path to use for a header of cover. -->
+    <variable id="Cover header">Customization/OpenTopic/common/artwork/cover.png</variable>
+     
+    <!-- Image path to use for a footer of cover. -->
+    <variable id="Cover footer">Customization/OpenTopic/common/artwork/cover_footer.png</variable>
+    
+     <!-- Image path to use for a right indent on odd pages -->
+     <variable id="Right indent">Customization/OpenTopic/common/artwork/traffic_line.png</variable>
+     
+     <!-- Image path to use for a logo on header (odd pages). -->
+     <variable id="Headline">Customization/OpenTopic/common/artwork/header.jpg</variable>
+     
+     <!-- Image path to use for a footer of cover. -->
+     <variable id="Slogan">Customization/OpenTopic/common/artwork/slogan.gif</variable>
+     
+     <!-- Image path to use for a footer of even page. -->
+     <variable id="Even footer">Customization/OpenTopic/common/artwork/leftpage_footer.png</variable>
+
+    <!--
+        String used for links in end of document in XHTML
+    -->
+
+    <!-- The title of the links to parent -->
+    <variable id="Parent topic">На уровень выше</variable>
+
+    <!-- The title of the links to next topics -->
+    <variable id="Next topic">Следующая тема</variable>
+
+    <!-- The title of the links to previous topics -->
+    <variable id="Previous topic">Предыдущая тема</variable>
+
+    <!-- The title of the links to child topics -->
+    <variable id="Child topics">Нижестоящие темы</variable>
+
+    <!-- The title of the links to Related concepts -->
+    <variable id="Related concepts">Понятия, связанные с данным</variable>
+
+    <!-- The title of the links to Related tasks -->
+    <variable id="Related tasks">Задачи, связанные с данной</variable>
+
+    <!-- The title of the links to Related references -->
+    <variable id="Related references">Ссылки, связанные с данной</variable>
+
+    <!-- The title of the links to Related information -->
+    <variable id="Related information">Информация, связанная с данной</variable>
+
+    <!--
+       Strings used in the online-help publishing.
+    -->
+
+    <!-- The title of the "contents" button in online-help output -->
+    <variable id="Contents button title">Оглавление</variable>
+
+    <!-- The title of the "index" button in online-help output -->
+    <variable id="Index button title">Алфавитный указатель</variable>
+
+    <!-- The separator of multiple index entries in online-help output -->
+    <variable id="Index multiple entries separator">, </variable>
+
+    <!-- The title of the "search" button in online-help output -->
+    <variable id="Search button title">Поиск</variable>
+
+    <!-- The title of the "back" button in online-help output -->
+    <variable id="Back button title">Назад</variable>
+
+    <!-- The title of the "forward" button in online-help output -->
+    <variable id="Forward button title">Вперед</variable>
+
+    <!-- The title of the "main page" button in online-help output -->
+    <variable id="Main page button title">Домой</variable>
+
+    <!-- The title of the "previous page" button in online-help output -->
+    <variable id="Previous page button title">Предыдущая тема</variable>
+
+    <!-- The title of the "next page" button in online-help output -->
+    <variable id="Next page button title">Следующая тема</variable>
+
+    <!-- The "online help" document title prefix in online-help output -->
+    <variable id="Online help prefix">Помощь Online</variable>
+
+    <!-- The search by index field title in online-help output -->
+    <variable id="Search index field title">Поиск по ключевому слову:</variable>
+
+    <!-- The search by index button title in online-help output -->
+    <variable id="Search index button title">Обзор</variable>
+
+    <!-- The search by text field title in online-help output -->
+    <variable id="Search text field title">Поиск помощи для:</variable>
+
+    <!-- The search by text button title in online-help output -->
+    <variable id="Search text button title">Поиск</variable>
+    
+</vars>

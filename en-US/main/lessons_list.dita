@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="lessons_list" xml:lang="en-US">
+    <title>Список уроков</title>
+    <conbody>
+        <p>Для того чтобы посмотреть список уроков, необходимо выбрать пункт меню <menucascade><uicontrol>Журнал</uicontrol><uicontrol>Список уроков</uicontrol></menucascade>.</p>
+        <p>На экране монитора преподавателя появится окно (<xref keyref="lessons_list/lessons_list_png" type="fig"/>&#160;), содержащее список уроков, в котором он может отобрать нужные уроки по предметам, классам и временным интервалам.  Он также может отредактировать поля <uicontrol>Тема</uicontrol> и <uicontrol>Примечание</uicontrol> урока, щелкнув левой кнопкой мышки в соответствующем поле выделенного урока.</p> 
+        <fig id="lessons_list_png">
+            <title>Список уроков</title>
+            <image href="img/lessons-list.png" placement="break">
+                <alt>Список уроков</alt>
+            </image>
+        </fig>
+        <p>На этом рисунке цифрами обозначены:</p>
+		<table frame="topbot">
+            <tgroup cols="2">
+                <colspec colname="COLSPEC0" colwidth="10*"/>
+                <colspec colname="COLSPEC1" colwidth="120*"/>
+                <tbody>
+                    <row>
+                        <entry>1</entry>
+                        <entry>Список <uicontrol>Предмет</uicontrol></entry>
+                    </row>
+					<row>
+                        <entry>2</entry>
+                        <entry>Список <uicontrol>Класс</uicontrol></entry>
+                    </row>
+					<row>
+                        <entry>3</entry>
+                        <entry>Начальная дата</entry>
+                    </row>
+					<row>
+                        <entry>4</entry>
+                        <entry>Конечная дата</entry>
+                    </row>
+					<row>
+                        <entry>5</entry>
+                        <entry>Поле списка уроков <uicontrol>Дата</uicontrol></entry>
+                    </row>
+					<row>
+                        <entry>6</entry>
+                        <entry>Поле списка уроков <uicontrol>Тема</uicontrol></entry>
+                    </row>
+					<row>
+                        <entry>7</entry>
+                        <entry>Поле списка уроков <uicontrol>Время</uicontrol></entry>
+                    </row>
+					<row>
+                        <entry>8</entry>
+                        <entry>Поле списка уроков <uicontrol>Примечание</uicontrol></entry>
+                    </row>
+					<row>
+                        <entry>9</entry>
+                        <entry>Кнопка <uicontrol>Просмотр</uicontrol></entry>
+                    </row>
+                    <row>
+                        <entry>10</entry>
+                        <entry>Кнопка <uicontrol>Удалить</uicontrol></entry>
+                    </row>
+                    <row>
+                        <entry>11</entry>
+                        <entry>Кнопка <uicontrol>Удалить все</uicontrol></entry>
+                    </row>
+                </tbody> 
+            </tgroup>
+        </table>
+        <p>Преподаватель может удалить выделенный урок или все уроки, используя соответствующие кнопки.</p>
+        <p>Преподаватель может с помощью мышки выделить урок из списка и посмотреть его детали, нажав на кнопку <uicontrol>Просмотр</uicontrol> (<xref keyref="lessons_list/lessons_details_png" type="fig"/>&#160;).</p>
+        <fig id="lessons_details_png">
+            <title>Детали урока</title>
+            <image href="img/lesson-details.png" placement="break">
+                <alt>Детали урока</alt>
+            </image>
+        </fig>
+        <p>На этом рисунке цифрами обозначены:</p>
+		<table frame="topbot">
+            <tgroup cols="2">
+                <colspec colname="COLSPEC0" colwidth="10*"/>
+                <colspec colname="COLSPEC1" colwidth="120*"/>
+                <tbody>
+                    <row>
+                        <entry>1</entry>
+                        <entry>Список <uicontrol>Предмет</uicontrol></entry>
+                    </row>
+					<row>
+                        <entry>2</entry>
+                        <entry>Список <uicontrol>Класс</uicontrol></entry>
+                    </row>
+					<row>
+                        <entry>3</entry>
+                        <entry>Начальная дата</entry>
+                    </row>
+					<row>
+                        <entry>4</entry>
+                        <entry>Конечная дата</entry>
+                    </row>
+					<row>
+                        <entry>5</entry>
+                        <entry>Поле списка уроков <uicontrol>Учащийся</uicontrol></entry>
+                    </row>
+					<row>
+                        <entry>6</entry>
+                        <entry>Поле списка уроков <uicontrol>Посещение</uicontrol></entry>
+                    </row>
+					<row>
+                        <entry>7</entry>
+                        <entry>Поле списка уроков <uicontrol>Оценка</uicontrol></entry>
+                    </row>
+					<row>
+                        <entry>8</entry>
+                        <entry>Поле списка уроков <uicontrol>Примечание</uicontrol></entry>
+                    </row>
+					<row>
+                        <entry>9</entry>
+                        <entry>Кнопка <uicontrol>К списку уроков</uicontrol></entry>
+                    </row>
+                </tbody> 
+            </tgroup>
+        </table>        
+        <p>В деталях урока (<xref keyref="lessons_list/lessons_details_png" type="fig"/>&#160;) в области списка уроков выводится список учащихся класса, посещаемость данного урока, оценки и примечания.</p>
+        <p>Преподаватель может установить посещаемость, щелкнув левой кнопкой мышки в соответствующем поле напротив нужного учащегося. Он также может изменить оценку и примечание, щелкнув левой кнопкой мышки в соответствующем поле напротив выбранного учащегося, и отредактировать текст.</p>
+	</conbody>
+</concept>

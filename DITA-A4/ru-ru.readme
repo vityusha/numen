@@ -1,0 +1,119 @@
+DITA 1.5.4 Коррекция таблиц
+
+1. Закомментировать в %DITA_DIR%\demo\fo\cfg\fo\attrs\tables-attr.xsl
+следующие строчки в <xsl:attribute-set name="common.table.body.entry">:
+    <xsl:attribute name="start-indent">3pt</xsl:attribute>
+    <xsl:attribute name="end-indent">3pt</xsl:attribute>
+и добавить следующую строчку:
+    <xsl:attribute name="margin">0pt 3pt 0pt 3pt</xsl:attribute>
+
+=======================================================================
+
+Русификация DITA-OT
+
+(A) Idiom Plug-in for PDF
+1. Заменить %DITA_DIR%\demo\fo\fop\conf\fop.xconf на conf\fo.conf
+2. Загрузить с http://sourceforge.net/projects/offo/ и установить в
+   каталог %DITA_DIR%\demo\fo\fop\lib программу переносов fop-hyph.jar
+   
+(B) HTMLHelp - создание титульной страницы
+1. Заменить %DITA_DIR%\build_dita2htmlhelp.xml на conf\build_dita2htmlhelp.xml
+2. Заменить %DITA_DIR%\xsl\map2htmlhelp\map2hhpImpl.xsl на
+   conf\map2hhpImpl.xsl
+   
+Установка RenderX XEP XSL-FO
+1. Установить XEP в каталог %DITA_DIR%\demo\fo\lib или установить каталог установки
+   XEP в файле %DITA_DIR%\demo\fo\build_xep.xml
+2. Выполнить интеграцию XEP командой ant -f %DITA_DIR%\integrator.xml
+3. Использовать в запуске ant опцию -d pdf.formatter=xep
+
+Русификация XEP
+1. Скопируйте файлы arial*.ttf, cour*.ttf, times*.ttf, tahoma*.ttf, verdana*.ttf, pala*.ttf
+   из ОС Windows 98/200x/XP, установленной на персональном компьютере 
+   каталог C:\WINDOWS\FONTS) в каталог /usr/local/RenderX/XEP/fonts сервера.
+2. Отредактируйте конфигурационный файл /usr/local/RenderX/XEP/xep.xml:
+   Найдите строку комментария Sample configuration for Windows TrueType fonts.
+   Раскомментарьте следующие за ней текст между тэгами <font-group> и </font-group>.
+   Удалите атрибут xml:base из тэга <font-group>. 
+   
+=======================================================================
+   
+РЕКОМЕНДАЦИИ С САЙТА http://www.techwriters.ru/forum/viewtopic.php?f=47&t=896
+
+Для установки DITA OT требуется:
+1. Скачать архив нужной версии, сборки и конфигурации с сайта http://sourceforge.net/projects/dita-ot/files/ .
+2. Распаковать архив в папку \builds\tools\ с именем dita-ot.
+
+Локализация (locale="ru-ru")
+DITA поддерживает публикацию на многих языках, включая русский. Для публикации на русском языке требуется настройка LOCALE.
+
+Locale = язык + страна
+Код:
+      en_US = английский в США
+      en_EN = английский в Великобритании
+      es_AR = испанский в Аргентине
+      ru_RU = русский в России
+
+
+В DITA OT, Locale определяет:
+* Диапазон Unicode для языка.
+* Настройку индекса.
+* Подстановку шрифтов (font mappings).
+
+Диапазон Unicode для символов языка
+1. В директории <DITA OT>\demo\fo\cfg\fo\i18n создать копию файла en_US.xml и сохранить ее под именем ru_RU.xml.
+2. Открыть ru_RU.xml и добавить определение диапазона символов Unicode, включающего кириллические символы (1000-9999).
+Код:
+<alphabet char-set="Russian">
+     <character-set>
+       <character-range>
+          <start include="yes">&#1000</start>
+          <end include="yes">&#9999</end>
+       </character-range>
+    </character-set>
+</alphabet>
+
+3. Сохранить и закрыть файл.
+
+Настройка индекса
+1. В директории <DITA OT>\demo\fo\cfg\commons\index создать копию файла en_US.xml и сохранить ее под именем ru_RU.xml.
+2. Открыть ru_RU.xml и в элементах index.group ввести буквы русского алфавита.
+3. Сохранить и закрыть файл.
+
+
+Подстановка шрифтов
+1. В директории <DITA OT>\demo\fo\cfg\fo открыть файл font-mappings.xml.
+2. Для каждого семейства logical-font определить кириллический шрифт:
+Код:
+<logical-font name="Serif">
+     <physical-font char-set="default">
+        <font-face>Times</font-face>
+     </physical-font>
+
+     <physical-font char-set="Russian">
+        <font-face>Times New Roman</font-face>
+     </physical-font>
+</logical-font>
+
+3. Сохранить и закрыть файл.
+
+Примечание. Файл задаваемого шрифта должен находиться в папке \builds\cfg\fonts*
+___________________________________________
+* в моей конфигурации
+
+
+Применение условий локализации
+1. В директории <DITA OT>\demo\fo открыть файл build.xml.
+2. Установить значение
+Код:
+<condition property="document.locale" value="ru_RU">
+
+3. Сохранить и закрыть файл.
+
+Конфигурация fop-процессора
+1. В директории <DITA OT>\demo\fo\fop\conf открыть файл fop.xconf.
+2. В элемент <fonts> добавить элемент
+Код:
+<auto-detect/>
+
+3. Сохранить и закрыть файл.

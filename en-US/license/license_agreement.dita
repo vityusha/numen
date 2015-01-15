@@ -1,0 +1,109 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="license_agreement" xml:lang="en-US">
+    <title>License Agreement</title>
+    <conbody>
+        <section>
+            <sl>
+                <sli><xref href="#license_agreement/1" type="section">1. PROPERTY</xref></sli>
+                <sli><xref href="#license_agreement/2" type="section">2. LICENSE GRANT</xref></sli>
+                <sli><xref href="#license_agreement/3" type="section">3. LIMITATIONS ON USE</xref></sli>
+                <sli><xref href="#license_agreement/4" type="section">4. TRANSFER OF RIGHTS</xref></sli>
+                <sli><xref href="#license_agreement/5" type="section">5. ANNULMENT OF THE AGREEMENT</xref></sli>
+                <sli><xref href="#license_agreement/6" type="section">6. LIMITED WARRANTY</xref></sli>
+                <sli><xref href="#license_agreement/7" type="section">7. LIMITATION OF LIABILITY</xref></sli>
+                <sli><xref href="#license_agreement/8" type="section">8. INFORMATION PROTECTION</xref></sli>
+                <sli><xref href="#license_agreement/9" type="section">9. MISCELLANEOUS</xref></sli>
+            </sl>
+        </section>
+
+        <section>
+            <p>In this License Agreement with the end user (hereinafter referred to as Agreement), the definition	of the	Program is composed of the <b>Dialog Nibelung</b> software (including, but not limited to any designations, computer codes, themes, object names, concepts, sounds and working methods) and all related printed matters, dialog/electronic documents, as well as all copies and all derivatives of this program (if available) taken all together.</p>
+        </section>
+
+        <section id="1">
+            <title>1. Property</title>
+            <p>The program, all its copies and integral derivatives of this program and all intellectual proprietary rights to the Program and any such their copies and derivatives belong exclusively to <b>LAIN Ltd.</b> (number 7805282128) having the following legal address: 198095, Russia, St. Petersburg, 23 Shvetsova Str.). <b>LAIN Ltd.</b> is the possessor of all rights to the program.</p>
+
+            <p>The program is protected in accordance with the Russian copyright laws, international copyright agreements and other applicable laws.</p>
+        </section>
+
+        <section id="2">
+            <title>2. License grant</title>   
+			<p>All cases of program use fall under the aforementioned Agreement. The program can be used only during its validity period, and any use of the program or any part thereof, including, but not limited to any duplication and dissemination beyond conditions of this Agreement is unambiguously prohibited.</p>
+			
+			<p>Herewith <b>LAIN Ltd.</b> grants you a limited, nonexclusive license (hereinafter referred to as “License”) for installation and use of one (1) copy of the program for your personal use. Placement of the Program in the Internet is forbidden.</p>
+			
+			<p>Installing the Program you become a license user and	agree to fulfill the respective conditions of the mentioned Agreement. The license doesn’t mean any ownership rights to the entire program or any part thereof.</p>
+			
+			<p>You grant <b>LAIN Ltd.</b> an unlimited gratuitous right to use the feedback, which you send to <b>LAIN Ltd.</b> Any comments or materials sent to <b>LAIN Ltd.</b>, including feedback information, such as questions, comments, suggestions, error messages or other information related to the Program and sent using any communication channels, including Internet, (hereinafter collectively referred to as “Feedback”) will be regarded as non-confidential information. <b>LAIN Ltd.</b> canfreely reproduce, use, disclose, demonstrate, show, transform, create derived works and disseminate the feedback among other Parties without any limitation. In the future, <b>LAIN Ltd.</b> can freely use any ideas, concepts, know-how’s or technologies contained in the feedback, for any purpose including, but not limited to correction and/or improvement of the Program.</p>
+        </section>
+
+        <section id="3">
+            <title>3. Limitations on use</title> 
+            <p>You have no right to use the Program applying a method different from the aforementioned one, and in particular you have no right:
+            <ul>
+                <li>To fully or partially edit, copy, photocopy, reproduce, translate or redesign the program, extract or change its source code, dismount or decompile, create any derivatives basing on the Program with exception of the cases allowed by the current law in spite of this limitation;</li>
+                <li>To remove any warnings and proprietary marks from any part of the Program without <b>LAIN's Ltd.</b> prior written permission;</li>
+                <li>To extract or detach some program’s constituents for using them at more than one PC, or use some similar parts on more than one PC;</li>
+                <li>To sell, pledge or pass on any program copies (or any parts thereof) to a third party using any method, or lease/sublease it to a third party without <b>LAIN's Ltd.</b> prior written permission.</li>
+            </ul></p>
+        </section>
+
+        <section id="4">
+            <title>4. Transfer of rights</title> 
+            <p>You can permanently transfer all your rights specified in the License, but only to such person, who will accept all conditions advantageous for <b>LAIN Ltd.</b>, and in this case you should delete the Program from the PC, on which you have installed it.</p>
+        </section>
+
+        <section id="5">
+            <title>5. Annulment of the agreement</title> 
+            <p>The license is in effect until the end of its validity period. You can refuse the License any time by deleting the Program on the PC you have installed it on or deleting by any other method all other parts of the Program you have at your disposal. <b>LAIN Ltd.</b> can revoke the License if you do not observe these and other deadlines and conditions of the aforementioned Agreement, and then you are obliged to delete the Program on the PC you have installed it or to delete by any other method all other parts of the Program you have at your disposal.</p>
+        </section>
+
+        <section id="6">
+            <title>6. Limited warranty</title> 
+            <p><b>LAIN Ltd.</b> unambiguously refuses to make any warranties or statements, to the extent allowed by the current law, with respect to any program submitted to you by <b>LAIN Ltd.</b> on the “as is” conditions.</p>
+
+            <p>In particular, <b>LAIN Ltd.</b> refuses without any limitations to the extent allowed by the current law, to make any warranties or statements, both direct and implied, as to demand for the program, its fitness for a particular purpose, its ability to correctly process data, present and/or receive information. in addition, while you use the program for your work, <b>LAIN Ltd.</b> doesn’t guarantee	 that the program will sufficiently satisfy your needs, and refuses in the maximum manner allowed by the current law to give any other guarantees.</p> 
+
+            <p>You shall assume all risk arising from the use of the program or from working with it.</p>
+        </section>
+
+        <section id="7">
+            <title>7. Limitation of liability</title> 
+            <p>Subject to the provisions of the current legislation, <b>LAIN Ltd.</b> will not be liable to you for any damages arising from the use of the program, including without any restrictions, loss of favorable business reputation, work stoppage, faults and failures in operation of the computer equipment, as well as other commercial losses /damages, under condition that this provision shall not exclude or limit liability of <b>LAIN Ltd.</b> for lethal cases or injuries, or any other liability, which cannot be excluded or limited according to the current legislation.</p>
+        </section>
+
+        <section id="8">
+            <title>8. Information protection</title> 
+            <p>Your program supplier bears exclusive liability for rendering support and services for the program.</p>
+
+            <p>You express your consent in relation to you program supplier, allowing <b>LAIN Ltd.</b> to collect both personally identifiable and unidentifiable information concerning your use of the Program.</p>
+
+            <p>You express your consent in relation to you program supplier, providing <b>LAIN Ltd.</b> with your name, mail address and E-mail, and specify exactly the number of program copies purchased by you, for the purpose of <b>LAIN's Ltd.</b> use of this information to provide and find alternative Suppliers for the case of termination of his relations with your supplier, so that he could pass this information to any other supplier to be used for similar purposes. Also, you express your consent that <b>LAIN Ltd.</b> would pursuing the same purposes pass this information to countries outside the EEC, including the countries that do not ensure the same level of data protection as in the EEC countries. If you have any question as to the use of you personal data by LAIN Ltd., please contact <b>LAIN Ltd.</b> at the address shown above.</p>
+        </section>
+
+        <section id="9">
+            <title>9. Miscellaneous</title> 
+            <p>This Agreement is assumed to have been made up according to the law of the Russian Federation, and any dispute or a claim will be dealt with according to the Russian legislation. The courts of the Russian Federation will have exclusive jurisdiction in relation to this Agreement and any such disputes and claims.</p>
+
+            <p>If any provision of this Agreement is held to be illegal for some reason or otherwise unenforceable, then, to the extent so held, it shall be removed from this Agreement, the rest of the provisions remaining in full force and effect.</p>
+
+            <p>No breach of any provision of this Agreement shall be deemed to have been waived, but only by a written statement by one of the parties, and no breach or delay in execution of its provisions by any of the Parties is regarded as a refusal to execute them, and has no influence of the	ability of the other party to exercise such right of theirs.</p>
+
+            <p>Except in cases of intentional fraud or information concealment:
+                <ul>
+                    <li>This Agreement together with any other documents mentioned here constitutes the entire Agreement between you and <b>LAIN Ltd.</b> in relation to its subject;</li>
+                    <li>Neither you, nor <b>LAIN Ltd.</b> has concluded this Agreement due to some guarantees or promises given to you or to <b>LAIN Ltd.</b>, or any other statements of any kind concerning this Agreement, but those unambiguously worded in the text of this Agreement.</li>
+                </ul>
+            </p>
+
+            <p>You acknowledge that <b>LAIN Ltd.</b> might suffer irreparable loss, if the provisions of this Agreement are not observed, and therefore you agree that in case of a breach <b>LAIN Ltd.</b> is granted a right to seek protection in court, including but not limited to additional facilities not contradicting current law.</p>
+
+            <p>This license can be entered any corrections, additions and changes under condition that they are in a written form with specification of the particular refinement or addendum and signed by authorized representatives of <b>LAIN Ltd.</b> and yours.</p>
+
+            <p>Provisions of this Agreement printed on a hard carrier (hard copy) prevail over inconsistent conditions of any version included in the Program and displayed on the PC’s screen, when this program is installed.</p>
+        </section>
+    </conbody>
+</concept>

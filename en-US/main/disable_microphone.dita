@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="disable_removable" xml:lang="en-US">
+    <title>Отключить микрофон</title>
+    <conbody>  
+		<p>В этом режиме преподаватель может отключить микрофон у выбранного учащегося, группы или всего класса. При этом сами учащиеся не смогут самостоятельно включить микрофон.</p>
+	</conbody>
+</concept>

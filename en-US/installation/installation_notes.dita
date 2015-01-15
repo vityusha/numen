@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
+"reference.dtd">
+<reference id="installation_notes" xml:lang="en-US">
+    <title>Рекомендации по установке и настройке <wintitle>Диалог Nibelung</wintitle></title>
+
+    <refbody>    
+        <section>
+            <title>Содержание диска</title>
+            <ul>
+            <li><filepath>AdobeReader</filepath> – программа для просмотра файлов в формате PDF;</li>
+            <li><filepath>Docs</filepath> – документация;</li>
+            <li><filepath>KB</filepath> – пакеты исправлений для Windows;</li>
+            <li><filepath>Lang</filepath> – языковые файлы для программы автозагрузки;</li>
+            <li><filepath>Nibelung</filepath> – папка с дистрибутивом <wintitle>Диалог Nibelung</wintitle>;
+                <ul>
+                    <li><filepath>DotNetFX35</filepath> – <wintitle>.Net Framework 3.5</wintitle> платформа, на которой работает <wintitle>Диалог Nibelung</wintitle> (в Windows Vista, Windows 7/8 включена по умолчанию);</li>
+                    <li><filepath>jre 1_7</filepath> – платформа <wintitle>Java</wintitle>, нужна для работы системы тестирования;</li>
+                    <li><filepath>vcredist_x86</filepath> – нужен для работы некоторых функций, например передачи видео;</li>
+                    <li><filepath>WindowsInstaller3_1</filepath> – подсистема обеспечивающая установку программ (нужна для старых версий Windows XP);</li>
+                    <li><filepath>nibelungmain.msi</filepath> – дистрибутив модуля  преподавателя <wintitle>Диалог Nibelung</wintitle>;</li>
+                    <li><filepath>nibelungclient.msi</filepath> – дистрибутив модуля  ученика <wintitle>Диалог Nibelung</wintitle>;</li>
+                    <li><filepath>setup-nibelungmain.exe</filepath> – программа установки модуля преподавателя;</li>
+                    <li><filepath>setup-nibelungclient.exe</filepath> – программа установки модуля ученика;</li>
+                </ul>
+                </li>
+            <li><filepath>NPlayer</filepath> – установочные файлы <wintitle>Диалог NPlayer</wintitle> для отдельной установки (например, чтобы установить дома);</li>
+            <li><filepath>NQuiz</filepath> – кроссплатформенный инсталлятор и документация системы тестирования <wintitle>Диалог NQuiz</wintitle> для отдельной установки (например, чтобы установить дома);</li>
+            <li><filepath>SampleContent</filepath> – примеры аудио и видео;</li>
+            <li><filepath>SimpleDict</filepath> – свободно распространямая программа-словарь (Academic Free License (AFL));</li>
+            <li><filepath>VideoConverter</filepath> – свободно распространямая программа для редактирования  и конвертации видео файлов;</li>
+            <li><filepath>WMP</filepath> – <wintitle>Windows Media Player 10</wintitle> (нужен для старых версий Windows XP);</li>
+            </ul>
+        </section>
+
+        <section>
+            <title>Установка программы</title>
+            <note type="attention">Перед началом установки прочтите соответствующий раздел Руководства пользователя!</note>
+            <p>При необходимости установить модуль ученика <wintitle>Диалог Nibelung</wintitle> одновременно на большое количество компьютеров, рекомендуется скопировать с папку с дистрибутивом программы (папка Nibelung на установочном диске) на каждый компьютер и запустить установку с жесткого диска:</p>
+            <p><filepath>\Nibelung\setup-nibelungclient.exe</filepath></p>
+            <p>Перед началом установки непосредственно <wintitle>Диалог Nibelung</wintitle> будут автоматически установлены недостающие системные модули, их установка может занять до 30 мин и потребовать перезагрузки компьютера.</p>
+            <p>Во время установки модуля ученика вам потребуется ввести <indexterm>ID учащегося</indexterm><uicontrol><keyword>ID учащегося</keyword></uicontrol> (порядковый номер), а также <indexterm>IP адрес или сетевое имя компьютера преподавателя</indexterm><uicontrol><keyword>IP адрес</keyword></uicontrol> или сетевое имя компьютера преподавателя. Имя компьютера можно посмотреть следующим образом на комрьютере преподавателя: <menucascade><uicontrol>Мой Компьютер</uicontrol><uicontrol>Свойства</uicontrol><uicontrol>Имя компьютера</uicontrol><uicontrol>Полное имя</uicontrol></menucascade>.</p>
+            <p>Во время установки модуля преподавателя вам потребуется ввести название организации, номер лицензии и лицензионный ключ, они находятся в комплекте поставки вместе с <wintitle>USB</wintitle>-ключом и установочным диском.</p>
+            <note type="attention">Будьте внимательны: номер лицензии должен совпадать с номером USB-ключа, в случае утери USB-ключа его восстановление невозможно!</note>
+            <note type="important">По умолчанию имя преподавателя: <userinput>Admin</userinput>, пароль: <userinput>Admin</userinput>.</note>
+        </section>
+
+        <section>
+            <title>Установка <wintitle>Windows Media Player 10</wintitle></title>
+            <p>Для работы цифрового магнитофона <wintitle>Диалог Nibelung</wintitle> необходим Windows Media Player версии 10 или выше. При необходимости вы можете установить его с установочного диска <wintitle>Диалог Nibelung</wintitle>.</p>
+            <p><filepath>\WMP\MP10SetupRu.exe</filepath></p>
+        </section>
+            
+        <section>
+            <title>Настройка брандмауэра <wintitle>Windows</wintitle></title>
+            <p><wintitle>Диалог Nibelung</wintitle> должен быть добавлен в список исключений установленного на вашем компьютере брандмауэра или файрвола. Обычно брандмауэр автоматически предлагает создать исключение при первом запуске программы.  Проверьте и при необходимости создайте исключения для следующих файлов из папки, в которую была установлена программа <wintitle>Диалог Nibelung</wintitle>:</p>
+            <ul>
+                <li>На компьютере преподавателя: <filepath>NiubelungUI.exe</filepath></li>
+                <li>На компьютере ученика: <filepath>NiubelungClient.exe</filepath> и <filepath>NiubelungHelper.exe</filepath></li>
+            </ul>
+            <p>Список исключений стандартного брандмауэра находится:</p>
+            <ul>
+                <li><p>Windows XP:</p>
+                    <p><menucascade><uicontrol>Пуск</uicontrol><uicontrol>Панель управления</uicontrol><uicontrol>Центр обеспечения безопасности</uicontrol><uicontrol>Брандмауэр Windows</uicontrol><uicontrol>Исключения</uicontrol></menucascade></p></li>
+                <li><p>Windows Vista и 7/8:</p>
+                    <p><menucascade><uicontrol>Пуск</uicontrol><uicontrol>Панель управления</uicontrol><uicontrol>Безопасность</uicontrol><uicontrol>Разрешения запуска программ через  брандмауэр Windows</uicontrol></menucascade></p>
+                    <p>или</p>
+                    <p><menucascade><uicontrol>Пуск</uicontrol><uicontrol>Панель управления</uicontrol><uicontrol>Брандмауэр Windows</uicontrol><uicontrol>Изменить параметры</uicontrol><uicontrol>Исключения</uicontrol></menucascade></p></li>
+            </ul>
+            <p>Некоторые антивирусные программы так же могут выдавать сообщения об угрозе, для <wintitle>Диалог Nibelung</wintitle> нужно создать соответствующие исключения (добавить в список доверенных программ).</p>
+        </section>
+
+        <section>
+            <title>Настройка звуковой карты</title>
+            <p>Качество звука (аудио-соединений) напрямую зависит от правильной настройки звуковой карты.</p>
+            <p>Для разных типов звуковых карт настройки могут значительно различаться.</p>
+            <ol>
+                <li>Отключите <uicontrol>Стерео микшер</uicontrol>. При включенном стерео микшере ваши собеседники будут слышать свой голос.</li>
+                <li>Включите усиление микрофона. Будьте внимательны, при завышении уровня записи микрофона могут появляться искажения голоса, эхо.</li>
+                <li>Включите подавление шума микрофона. Эта функция может отсутствовать, в зависимости от типа звуковой карты.</li>
+                <li>В списке доступных линий записи/воспроизведения включите (выберите) только те линии, которые необходимы. Обычно для воспроизведения нужно выбрать линии <uicontrol>Звук</uicontrol> и <uicontrol>Микрофон</uicontrol>, для записи - <uicontrol>Микрофон</uicontrol>.</li>
+            </ol>
+            <p product="nibelung">Подробное описание настроек аудио описано в п. <xref keyref="setup_pc"/>&#160; данного руководства.</p>
+            <p>Для <wintitle>Windows 7</wintitle> без <wintitle>Service Pack 1</wintitle> настоятельно рекомендуем установить пакет исправлений <wintitle>KB 981679</wintitle>.Его можно найти на установочном диске <wintitle>Диалог Nibelung</wintitle> в папке <filepath>\KB\</filepath> в подкаталоге с именем архитектуры Вашего процессора или загрузить с сайта <xref scope="external" href="http://support.microsoft.com/kb/981679">http://support.microsoft.com/kb/981679</xref>.</p>
+        </section>
+
+        <section>
+            <title>Разное</title>
+            <ol>
+                <li>Для вызова меню настройки программы ученика <wintitle>NibelungClient</wintitle> нажмите одновременно <userinput>Ctrl + Alt</userinput> и щелкните правой кнопкой мыши на заголовке окна программы. Для изменения настроек программа должна быть запущена с правами администратора.</li>
+                <li>Чтобы запустить программу с правами администратора (в Windows Vista, 7, 8 при включенном UAC) нужно щелкнуть по ярлыку программы правой кнопкой мыши и выбрать <uicontrol>Запуск от имени администратора</uicontrol>.</li>
+                <li>Если планируется работа программы преподавателя в учетной записи без прав администратора, рекомендуется изменить, установленный по умолчанию, путь к папке преподавателей (см. <wintitle>Руководство пользователя</wintitle>).</li>
+                <li>В Windows Vista и 7, 8 в некоторых случаях рекомендуется отключить протокол <wintitle>TCP/IPv6</wintitle> в свойствах сетевого подключения.</li>
+                <li>Если сразу после установки не запускается программа преподавателя, то необходимо хотя бы один раз запустить её с правами администратора.</li>
+                <li>Если на компьютере установлена программа виртуализации <wintitle>VirtualBox</wintitle>, то возможны конфликты при передаче потокового аудио/видео. Попробуйте отключить <wintitle>VirtualBox Host-Only Ethernet Adapter</wintitle> в списке сетевых адаптеров.</li>
+                <li>Возможна нестабильная работа программы во время обновления Windows, установите доступные обновления Windows и перезагрузите компьютер.</li>
+            </ol>
+        </section>    
+
+    </refbody>
+</reference>

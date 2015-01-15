@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="playlist_player" xml:lang="en-US">
+    <title>Список  воспроизведения медиа файлов</title>
+    <conbody>
+        <p>Основной модуль может передать список файлов задания в закладку <wintitle>Файлы задания</wintitle>. Учащийся может работать со своим списком воспроизведения, размещенном в закладке <wintitle>Мои файлы</wintitle>.</p>
+		<fig id="list_media_client_png">
+            <title>Список воспроизведения</title>
+            <image href="img/list_media_client.png" placement="break">
+                <alt>Список воспроизведения</alt>
+            </image>
+        </fig>
+		<p>На этом рисунке цифрами обозначены:</p>
+		<table frame="topbot">
+            <tgroup cols="2">
+                <colspec colname="COLSPEC0" colwidth="10*"/>
+                <colspec colname="COLSPEC1" colwidth="120*"/>
+                <tbody>
+                    <row>
+                        <entry>1</entry>
+                        <entry>Закладка собственного списка файлов</entry>
+                    </row>
+					<row>
+                        <entry>2</entry>
+                        <entry>Закладка файлов задания</entry>
+                    </row>
+					<row>
+                        <entry>3</entry>
+                        <entry>Закладка редактирования субтитров</entry>
+                    </row>
+                </tbody> 
+            </tgroup>
+        </table>
+		<p>При выборе закладки <wintitle>Мои файлы</wintitle> в окне появляются дополнительные кнопки:</p>
+		<table frame="topbot">
+            <tgroup cols="2">
+                <colspec colname="COLSPEC0" colwidth="10*"/>
+                <colspec colname="COLSPEC1" colwidth="120*"/>
+                <tbody>
+                    <row>
+                        <entry>4</entry>
+                        <entry>открыть ранее сохраненный список файлов;</entry>
+                    </row>
+					<row>
+                        <entry>5</entry>
+                        <entry>добавить файл в текущий список;</entry>
+                    </row>
+					<row>
+                        <entry>6</entry>
+                        <entry>удалить файл из текущего списка;</entry>
+                    </row>
+					<row>
+                        <entry>7</entry>
+                        <entry>сохранить список на диске компьютера учащегося.</entry>
+                    </row>
+                </tbody> 
+            </tgroup>
+        </table>
+		<p>При добавлении файла в список или при открытии файла списка в соответствующем окне появляются названия файлов, которые можно будет прослушать или просмотреть.</p>
+		<p>Для того чтобы начать работу с проигрывателем нужно загрузить в него медиа файлы.</p>
+        <p>Это может быть сделано следующими способами:
+            <ul>
+                <li>при помощи кнопки <uicontrol>Открыть медиа файл</uicontrol>, находящейся на панели кнопок управления;</li>
+                <li>дважды щелкнув левой кнопкой мыши на имени файла в списке воспроизведения в закладке <wintitle>Мои файлы</wintitle>;</li>
+				<li>дважды щелкнув левой кнопкой мыши на имени файла в списке воспроизведения в закладке <wintitle>Файлы задания</wintitle>;</li>
+                <li>удаленно с компьютера преподавателя.</li>
+            </ul>
+        </p>
+        <note type="tip">Обратите внимание, что загрузка файлов из списка <wintitle>Файлы задания</wintitle> представляет собой режим <uicontrol>Медиа по запросу</uicontrol>.</note>
+   	</conbody>
+</concept>

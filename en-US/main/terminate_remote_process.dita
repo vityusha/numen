@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="terminate_remote_process" xml:lang="en-US">
+    <title>Завершить удаленный процесс</title>
+    <conbody> 
+		<p>В этом режиме преподаватель может завершить работу программ или процессов, запущенных на компьютере отдельного учащегося, группы учащихся или всего класса. Для этого он в появившемся окне должен ввести имя файла запущенной программы (процесса) без расширения (<xref keyref="terminate_remote_process/kill_remote_process_png" type="fig"/>&#160;). Для того чтобы завершить несколько программ (процессов) нужно ввести их через точку с запятой.</p>	
+		<fig id="kill_remote_process_png">
+            <title>Окно ввода имени удаленного процесса у учащихся</title>
+            <image href="img/kill_remote_process.png" placement="break">
+                <alt>Окно ввода имени удаленного процесса у учащихся</alt>
+            </image>
+        </fig>
+		<p>При выборе меню <uicontrol>Завершить удаленный процесс</uicontrol> из меню отдельного учащегося на экране монитора преподавателя появится окно (<xref keyref="terminate_remote_process/kill_app_png" type="fig"/>&#160;), содержащее список программ и процессов, запущенных на компьютере выбранного учащегося. При этом активное приложение (процесс) будет выделен в списке особым цветом.</p> 
+		<p>Если преподаватель выберет закладку <wintitle>Приложения</wintitle>, в окне появится список запущенных программ. Для завершения программы необходимо выбрать одну или несколько программ (при помощи клавиши <uicontrol>Ctrl</uicontrol>) из списка и нажать на кнопку <uicontrol>OK</uicontrol>.</p>
+		<fig id="kill_app_png">
+            <title>Окно завершения удаленной программы у учащегося</title>
+            <image href="img/kill_app.png" placement="break">
+                <alt>Окно завершения удаленной программы у учащегося</alt>
+            </image>
+        </fig>
+		<p>Если преподаватель выберет закладку <wintitle>Процессы</wintitle>, в окне появится список запущенных процессов. Для завершения процесса необходимо выбрать один или несколько процессов (при помощи клавиши <uicontrol>Ctrl</uicontrol>) из списка и нажать на кнопку <uicontrol>OK</uicontrol>.</p>
+		<fig id="kill_process_png">
+            <title>Окно завершения удаленного процесса у учащегося</title>
+            <image href="img/kill_process.png" placement="break">
+                <alt>Окно завершения удаленного процесса у учащегося</alt>
+            </image>
+        </fig>
+	</conbody>
+</concept>

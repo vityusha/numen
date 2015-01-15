@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="setup_pc" xml:lang="en-US">
+    <title>Настройка компьютера и операционной системы для для оптимальной работы программы</title>
+    <conbody>  
+        <p>Для оптимальной работы программы, возможно потребуется настроить сетевую карту, установив определенные свойства, указанные ниже.</p>
+        <p>Для этого нужно нажать на кнопку <uicontrol>Пуск</uicontrol> и выбрать мышкой пункт <uicontrol>Панель управления</uicontrol>. В появившемся окне <wintitle>Панель управления</wintitle> (<xref keyref="setup_pc/control_panel_png" type="fig"/>&#160;) щелкните мышкой на иконке <wintitle>Система</wintitle>.</p>
+        <fig id="control_panel_png">
+            <title>Панель управления</title>
+            <image href="img/control_panel.png" placement="break">
+                <alt>Панель управления</alt>
+            </image>
+        </fig>
+    </conbody>
+</concept>

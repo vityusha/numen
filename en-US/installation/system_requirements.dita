@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="system_requirements" xml:lang="en-US">
+    <title>Системные требования</title>
+
+    <conbody>    
+        <p><ul>
+        <li>Операционная система:
+            <ul>
+                <li>Windows XP;</li>
+                <li>Windows Vista;</li>
+                <li>Windows 7;</li>
+                <li>Windows 8, Windows 8.1;</li>
+                <li>Windows Server 2003;</li>
+                <li>Windows Server 2008;</li>
+            </ul></li>
+        <li>.NET Framework 3.5;</li>
+        <li>Java Runtime Environment (JRE) 1.6 или 1.7 (<xref keyref="description_test">для системы тестирования</xref>);</li>
+        <li>Проигрыватель Windows Media 10.</li>
+        </ul></p>
+        <p><b>.NET Framework 3.5</b> и <b>JRE</b> входят в комплект инсталляционных файлов программы <wintitle>Диалог Nibelung</wintitle>.</p>
+        <p>Проигрыватель <b>Windows Media 10</b> (требуется только для Windows XP и Windows Server 2003), если он не были установлен раньше, может быть инсталлирован в систему при помощи отдельной программы, находящейся на установочном компакт диске. Для Windows Vista/7/8 проигрыватель Windows Media 10 устанавливать не нужно.</p>
+    </conbody>
+</concept>

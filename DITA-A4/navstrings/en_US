@@ -1,0 +1,12 @@
+﻿//string initialization
+
+       	txt_filesfound = "Results";
+	txt_enter_at_least_1_char = "You must enter at least one character.";
+	txt_browser_not_supported = "Your browser is not supported. Use Internet Explorer or Mozilla.";
+	txt_please_wait = "Please wait. Search in progress...";
+	txt_search_result = "Search Results for :";
+	txt_results_for = "Results for:";
+	txt_no_results = "Your search returned no results for: ";
+	txt_search = "Search:"
+	txt_expand_all = "Expand all";
+	txt_collapse_all = "Collapse all";

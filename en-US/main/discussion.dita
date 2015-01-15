@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="discussion" xml:lang="en-US">
+    <title>Дискуссия</title>
+    <conbody>  
+		<p><indexterm>дискуссия</indexterm><uicontrol><keyword>Дискуссия</keyword></uicontrol> — это режим, в котором учащиеся могут общаться между собой в парах или всей группой в режиме конференции.</p>
+		<p>Для того чтобы установить режим конференции для всей группы, необходимо в режиме <uicontrol>Дискуссия</uicontrol> выбирать из списка <wintitle>Способ группировки</wintitle> пункт <uicontrol>Вся группа</uicontrol> и нажать на кнопку <uicontrol>Старт</uicontrol> (<xref keyref="discussion/menu_group_3_3_1_png" type="fig"/>&#160;). </p>
+		<fig id="menu_group_3_3_1_png">
+            <title>Меню <uicontrol>Дискуссия</uicontrol> для всей группы</title>
+            <image href="img/menu_group_3_3_1.png" placement="break">
+                <alt>Меню <uicontrol>Дискуссия</uicontrol> для всей группы</alt>
+            </image>
+        </fig>
+		<p>На рабочем столе при помощи специальных иконок будут показаны участники конференции (<xref keyref="discussion/icon_conf_png" type="fig"/>&#160;).</p>
+		<fig id="icon_conf_png">
+            <title>Изображение участников конференции</title>
+            <image href="img/icon_conf.png" placement="break">
+                <alt>Изображение участников конференции</alt>
+            </image>
+        </fig>		
+		<p>Если выбрать опцию <uicontrol>Телефонные переговоры</uicontrol>, то для группы будет выбран режим передачи звука, имитирующий телефонные переговоры (добавляется шум, щелчки и ухудшается разборчивость речи).</p>
+		<p>Преподаватель может прослушать группу, выбрав опцию <uicontrol>Прослушка всей группы</uicontrol>.</p>
+		<p>Для того, чтобы участвовать в разговоре со всей группой, преподаватель должен выбрать опцию <uicontrol>Диалог со всей группой</uicontrol>.</p>
+		<p>Для того, чтобы установить режим работы в фиксированных парах для учащихся, входящих в определенную группу, необходимо в режиме <uicontrol>Дискуссия</uicontrol> выбрать из списка <wintitle>Способ группировки</wintitle> пункт <uicontrol>Фиксированный</uicontrol> и нажать на кнопку <uicontrol>Назначить пары</uicontrol> (<xref keyref="discussion/menu_group_3_3_2_png" type="fig"/>&#160;).</p>
+		<p>Существует возможность записи текущей дискуссии в файл. Для этого необходимо включить опцию <uicontrol>Запись в файл</uicontrol>.</p>
+    <p>Файл с записью дискуссии сохраняется в формате <b>MP3</b> на жестком диске преподавателя в папке с именем преподавателя и текущего класса.</p>
+		<p>Например, <filepath>Admin\Waves\10A\05.02.2014\Группа A (12-57).mp3</filepath>, где 
+			<ul>
+				<li><uicontrol>Admin</uicontrol> – имя преподавателя,</li>
+				<li><uicontrol>10А</uicontrol> – название класса,</li>
+				<li><uicontrol>05.02.2014</uicontrol> – дата записи,</li>
+				<li><uicontrol>Группа A</uicontrol> – имя группы,</li>
+				<li><uicontrol>12-57</uicontrol> – время записи в формате чч-мм.</li>
+			</ul>
+		</p>
+		<note type="tip">Опции <uicontrol>Прослушка всей группы</uicontrol> и <uicontrol>Запись в файл</uicontrol> доступны только в режиме дискуссии всей группы.</note>
+		<fig id="menu_group_3_3_2_png">
+            <title>Меню <uicontrol>Дискуссия</uicontrol> для фиксированных пар</title>
+            <image href="img/menu_group_3_3_2.png" placement="break">
+                <alt>Меню <uicontrol>Дискуссия</uicontrol> для фиксированных пар</alt>
+            </image>
+        </fig>
+		<note type="tip">В фиксированном режиме пары формируются по возрастанию, например 1-2, 3-4, 5-6 и т.д.</note>
+		<p>На рабочем столе основного модуля будут показаны участники пар при помощи специальных иконок (<xref keyref="discussion/icon_pair_png" type="fig"/>&#160;). Имена учащихся, входящих в пару, будут подсвечиваться одинаковым цветом.</p>
+		<fig id="icon_pair_png">
+            <title>Изображение участников пары</title>
+            <image href="img/icon_pair.png" placement="break">
+                <alt>Изображение участников пары</alt>
+            </image>
+        </fig>
+		<p>Для начала работы в парах необходимо нажать на кнопку <uicontrol>Старт</uicontrol>.</p>
+		<p>Для того чтобы установить режим работы учащихся в случайных парах, необходимо в режиме <uicontrol>Дискуссия</uicontrol> выбрать из списка <wintitle>Способ группировки</wintitle> пункт <uicontrol>Случайный</uicontrol> и нажать на кнопку <uicontrol>Назначить пары</uicontrol> (<xref keyref="discussion/menu_group_3_3_3_png" type="fig"/>&#160;).</p>
+		<fig id="menu_group_3_3_3_png">
+            <title>Меню <uicontrol>Дискуссия</uicontrol> для случайных пар</title>
+            <image href="img/menu_group_3_3_3.png" placement="break">
+                <alt>Меню <uicontrol>Дискуссия</uicontrol> для случайных пар</alt>
+            </image>
+        </fig>
+		<p>Для начала работы в случайных парах необходимо нажать на кнопку <uicontrol>Старт</uicontrol>.</p>
+		<note type="tip">Если повторно нажать на кнопку <uicontrol>Назначить пары</uicontrol>, то случайным образом будут сформированы новые пары учащихся.</note>
+		<p>Для того чтобы установить режим работы в парах, сформированных вручную, необходимо в режиме <uicontrol>Дискуссия</uicontrol> выбрать из списка <wintitle>Способ группировки</wintitle> пункт <uicontrol>Ручной</uicontrol> (<xref keyref="discussion/menu_group_3_3_4_png" type="fig"/>&#160;) и нажать на кнопку <uicontrol>Выбрать</uicontrol>. Далее при помощи мышки, щелкая на изображениях учащихся, формируются пары. После окончания формирования пар нужно повторно нажать на кнопку <uicontrol>Выбрать</uicontrol> для отмены режима формирования пар.</p>
+		<fig id="menu_group_3_3_4_png">
+            <title>Меню <uicontrol>Дискуссия</uicontrol> для ручной группировки</title>
+            <image href="img/menu_group_3_3_4.png" placement="break">
+                <alt>Меню <uicontrol>Дискуссия</uicontrol> для ручной группировки</alt>
+            </image>
+        </fig>
+		<p>Для начала работы в парах необходимо нажать на кнопку <uicontrol>Старт</uicontrol>.</p>			
+		<p>Для того чтобы установить режим работы в парах, сформированных учащимися по выбору, необходимо в режиме <uicontrol>Дискуссия</uicontrol> выбрать из списка <wintitle>Способ группировки</wintitle> пункт <uicontrol>Самостоятельный выбор</uicontrol> (<xref keyref="discussion/menu_group_3_3_5_png" type="fig"/>&#160;).</p>
+		<fig id="menu_group_3_3_5_png">
+            <title>Меню <uicontrol>Дискуссия</uicontrol> для самостоятельного выбора</title>
+            <image href="img/menu_group_3_3_5.png" placement="break">
+                <alt>Меню <uicontrol>Дискуссия</uicontrol> для самостоятельного выбора</alt>
+            </image>
+        </fig>
+		<p>На компьютерах учащихся появится окно, содержащее списки учащихся (<xref keyref="discussion/discuss_make_pairs_png" type="fig"/>&#160;).</p>
+		<fig id="discuss_make_pairs_png">
+            <title>Окно для самостоятельного выбора пары</title>
+            <image href="img/discuss-make-pairs.png" placement="break">
+                <alt>Окно для самостоятельного выбора пары</alt>
+            </image>
+        </fig>
+		<p>Слева расположен список учащихся, которых можно пригласить для участия в паре. Для этого нужно выделить нужного учащегося и нажать на кнопку <uicontrol>Пригласить</uicontrol>. Учащиеся, кому послано приглашение, отмечены зеленой галочкой.</p>
+		<p>Справа расположен список учащихся, от кого пришло приглашение. Для того чтобы принять приглашение и сформировать пару, учащемуся нужно выбрать нужного учащегося из правого списка и нажать на кнопку <uicontrol>Принять приглашение</uicontrol>. В этом случае пара будет сформирована и у обоих учащихся автоматически закроется данное окно.</p>
+		<note type="attention">Обратите внимание, что после закрытия окна учащийся <b>уже не может отменить свой выбор</b>.</note>
+		<note type="tip">Преподаватель может откорректировать по своему усмотрению состав пар с помощью кнопки <uicontrol>Выбрать</uicontrol>.</note>
+		<p>Для начала работы сформированных пар необходимо нажать на кнопку <uicontrol>Старт</uicontrol>.</p>
+		<p>В режиме работы в парах доступна опция <uicontrol>Включить веб-камеры</uicontrol>. При активировании этой опции на мониторах учащихся появится окно видео проигрывателя с изображением, снятым с веб-камеры учащегося, работающего в паре.</p>
+	</conbody>
+</concept>
+
