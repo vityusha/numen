@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This file is part of the DITA Open Toolkit project hosted on 
+     Sourceforge.net. See the accompanying license.txt file for 
+     applicable licenses.-->
+<!-- (c) Copyright IBM Corp. 2004, 2006 All Rights Reserved. -->
+
+<!-- 
+  | basedir can be specified to other places base on your need.
+  |
+  | Note: input, output, and temp directories will base on the basedir if 
+  | they are relative paths.
+  * -->
+
+<project name="nibelung" default="all" basedir=".">
+
+	<!-- dita.dir should point to the toolkit's root directory -->
+	<property name="dita.dir" value="e:${file.separator}work${file.separator}dita-ot2.0${file.separator}"/>
+
+	<!-- Map file-->
+	<property name="args.input" value="nibelung-en.ditamap" />
+
+	<!-- Common Customization directory-->
+	<property name="com.custom.dir" value="${basedir}${file.separator}DITA-A4" />
+
+	<!-- Overwrite customisation dir -->
+	<property name="customization.dir" value="${com.custom.dir}${file.separator}Customization"></property>
+	<property file="${customization.dir}${file.separator}build.properties"></property>
+
+	<!--Processing draft elements.-->
+	<property name="args.draft" value="no" />
+
+	<!--Document locale.  Takes values "en_US", "ru_RU", etc.-->
+	<property name="document.locale" value="en_US" />
+	
+	<!-- Filtering file -->
+	<property name="dita.input.valfile" value="nibelung-en.ditaval" />
+
+	<!-- if file is a relative file name, the file name will be resolved 
+       relative to the importing file -->
+	<import file="${dita.dir}${file.separator}integrator.xml"/>
+
+	<!-- Output Directory Layout -->
+    <property name="com.output.dir" value="Output" />
+	<property name="dita.temp.dir" value="${basedir}${file.separator}temp" />
+	<property name="args.logdir" value="${com.output.dir}" />
+
+	<!--Target for all deliverables (HTML, HTMLHelp and PDF).-->
+	<target name="all">
+		<antcall target="htmlhelp" />
+		<antcall target="pdf" />
+		<antcall target="xhtml" />
+		<antcall target="odt" />
+		<antcall target="rtf" />
+	</target>
+
+	<target name="clean"
+		description="delete all output">
+		<delete dir="${com.output.dir}"/>
+		<!-- Remove temp directory -->
+		<delete includeemptydirs="true" failonerror="no">
+			<fileset dir="${dita.temp.dir}"></fileset>
+		</delete>
+	</target>
+
+	<!-- mid-level targets -->
+	<target name="init">
+		<!-- Create the time stamp -->
+		<!-- <tstamp/> -->
+		<mkdir dir="${com.output.dir}"/>
+		<mkdir dir="${dita.temp.dir}"/>
+	</target>
+
+	<target name="xhtml"
+		depends="init">
+
+		<!-- XHTML output directory-->
+		<property name="output.dir" value="${com.output.dir}${file.separator}xhtml" />
+		<mkdir dir="${output.dir}"/>
+
+		<!--Logging.-->
+		<record name="nibelung.log"/>
+
+		<!-- The name of the CSS file -->
+		<property name="args.css" value="nibelung.css"/>
+
+		<!-- The path relative to the output directory. -->
+		<property name="args.csspath" value="css"/>
+
+		<!-- Whether to copy the CSS file to the output directory. -->
+		<property name="args.copycss" value="yes"/>
+
+		<!-- Where to find the CSS file on the local file system. -->
+		<property name="args.cssroot" value="${com.custom.dir}${file.separator}htmlsearch${file.separator}css"/>
+
+		<ant antfile="${dita.dir}${file.separator}build.xml" target="init">
+			<!--Type of deliverable. -->
+			<property name="transtype" value="xhtml" />
+
+			<!--Related links processing. Usual it is senseble for HTML deliverables.-->
+			<property name="disableRelatedLinks" value="no" />
+		</ant>
+
+		<!-- Build HTML cover file. -->
+		<ant antfile="cover.xml" target="generate-cover">
+			<!--Cover directory.-->
+			<property name="cover.dir" value="sub" />
+
+			<!--Cover file name.-->
+			<property name="cover.file.name" value="cover.html" />
+		</ant>
+
+		<!--Build search index-->
+		<antcall target="indexer">
+			<!--Directory for search proccessing-->
+			<param name="htmlrootdir" value="${output.dir}" />
+		</antcall>
+
+		<!--Generate TOC Navigation Plugin JavaScript file -->
+		<ant antfile="${dita.dir}${file.separator}build.xml" target="dita2tocjs">
+			<!--Type of deliverable.-->
+			<property name="transtype" value="tocjs"/>
+
+			<!--Name of the content frame-->
+			<property name="content.frame" value="contentwin" />
+
+			<!--TOC Java Script file-->
+			<property name="output.file" value="${output.dir}${file.separator}toctree.js"/>
+		</ant>
+
+		<!-- Copy basefiles TOC Navigation Plugin-->
+		<copy todir="${output.dir}" overwrite="true">
+			<fileset dir="${dita.dir}${file.separator}demo${file.separator}tocjs${file.separator}basefiles">
+				<include name="**/*"/>
+			</fileset>
+		</copy>
+
+		<!--Copy HTML Search Plugin CSS file-->
+		<copy todir="${output.dir}${file.separator}css" overwrite="true">
+			<fileset dir="${com.custom.dir}${file.separator}htmlsearch${file.separator}css"> 
+				<include name="**/*"/>
+			</fileset>
+		</copy>
+
+		<!-- Copy localized navigation strigs to navstrings.js file-->
+		<copy file="${com.custom.dir}${file.separator}navstrings${file.separator}${document.locale}" 
+		  tofile="${output.dir}${file.separator}navstrings.js" overwrite="true"/>
+
+		<!-- Remove standart (TOC) file -->
+		<delete file="${output.dir}${file.separator}index.html"/>
+		
+		<!-- Remove temp directory -->
+		<delete includeemptydirs="true" failonerror="no">
+			<fileset dir="${dita.temp.dir}"></fileset>
+		</delete>
+
+	</target>
+
+	<!-- Target for HTMLHelp.-->
+	<target name="htmlhelp"
+		depends="init">
+
+		<!-- HTMLHelp output directory-->
+		<property name="output.dir" value="${com.output.dir}${file.separator}htmlhelp" />
+		<mkdir dir="${output.dir}"/>
+
+		<!--Logging.-->
+		<record name="nibelung.log"/>
+
+		<!--CSS file.-->
+		<!-- <property name="args.css" value="${document.style}.css" /> -->
+
+		<!--Copy or not css file.-->
+		<property name="args.copycss" value="yes" />
+
+		<!--CSS directory.-->
+		<property name="args.csspath" value="css" />
+
+		<!-- Where to find the CSS file on the local file system. -->
+		<property name="args.cssroot" value="${dita.dir}${file.separator}css"/>
+
+		<!--Cover directory.-->
+		<property name="cover.dir" value="Cover" />
+
+		<!--Cover file name.-->
+		<property name="cover.file.name" value="cover.html" />
+
+		<!-- Build HTML cover file. -->
+		<ant antfile="cover.xml" target="generate-cover" />
+
+		<ant antfile="${dita.dir}${file.separator}build.xml" target="init">
+			<!--Type of deliverable.-->
+			<property name="transtype" value="htmlhelp" />
+
+			<!--Related links processing. -->
+			<property name="disableRelatedLinks" value="no" />
+		</ant>
+
+		<!-- Remove temp directory -->
+		<delete includeemptydirs="true" failonerror="no">
+			<fileset dir="${dita.temp.dir}"></fileset>
+		</delete>
+
+	</target>
+
+	<!-- Target for PDF.-->
+	<target name="pdf"
+		depends="init">
+
+		<!--PDF output directory-->
+		<property name="output.dir" value="${com.output.dir}${file.separator}pdf" />
+		<mkdir dir="${output.dir}"/>
+
+		<!--Logging.-->
+		<record name="nibelung.log"/>
+
+		<ant antfile="${dita.dir}${file.separator}build.xml" target="init">
+
+			<!--Type of deliverable.-->
+			<property name="transtype" value="pdf2" />
+
+			<property name="retain.topic.fo" value="no" />
+
+			<!--Related links processing.-->
+			<property name="disableRelatedLinks" value="no" />
+		</ant>
+		
+		<!-- Remove temp directory -->
+		<delete includeemptydirs="true" failonerror="no">
+			<fileset dir="${dita.temp.dir}"></fileset>
+		</delete>
+
+	</target>
+
+	<!-- Target for ODT-->
+	<target name="odt"
+		depends="init">
+
+		<!--ODT output directory-->
+		<property name="output.dir" value="${com.output.dir}${file.separator}odt" />
+		<mkdir dir="${output.dir}"/>
+
+		<!--Logging.-->
+		<record name="nibelung.log"/>
+
+		<ant antfile="${dita.dir}${file.separator}build.xml" target="init">
+
+			<!--Type of deliverable.-->
+			<property name="transtype" value="odt" />
+
+			<property name="args.odt.include.rellinks" value="none" />
+
+			<!--Related links processing.-->
+			<property name="disableRelatedLinks" value="no" />
+		</ant>
+		
+		<!-- Remove temp directory -->
+		<delete includeemptydirs="true" failonerror="no">
+			<fileset dir="${dita.temp.dir}"></fileset>
+		</delete>
+
+	</target>
+
+	<!-- Target for RTF-->
+	<target name="rtf"
+		depends="init">
+
+		<!--RTF output directory-->
+		<property name="output.dir" value="${com.output.dir}${file.separator}rtf" />
+		<mkdir dir="${output.dir}"/>
+
+		<!--Logging.-->
+		<record name="nibelung.log"/>
+
+		<ant antfile="${dita.dir}${file.separator}build.xml" target="init">
+			<!-- please refer to the toolkit's document for supported parameters, and specify them base on your needs -->
+
+			<!--Type of deliverable.-->
+			<property name="transtype" value="wordrtf" />
+		</ant>
+
+		<!-- Remove temp directory -->
+		<delete includeemptydirs="true" failonerror="no">
+			<fileset dir="${dita.temp.dir}"></fileset>
+		</delete>
+
+	</target>
+
+	<!-- Helper targets -->
+	<target name="web2search">
+		<copy todir="${htmlrootdir}${file.separator}images">
+			<fileset dir="${com.custom.dir}${file.separator}htmlsearch${file.separator}images">
+				<include name="*.*"></include>
+			</fileset>
+		</copy>
+
+		<copy todir="${htmlrootdir}">
+			<fileset dir="${com.custom.dir}${file.separator}htmlsearch${file.separator}basefiles">
+			</fileset>
+		</copy>
+	</target>
+
+	<target name="indexer" depends="web2search">
+		<path id="nw-cms.jar.path">
+			<pathelement location="${com.custom.dir}${file.separator}htmlsearch${file.separator}lib${file.separator}nw-cms.jar"></pathelement>
+		</path>
+
+		<taskdef name="indexertask" classname="com.nexwave.nquindexer.IndexerTask">
+			<classpath refid="nw-cms.jar.path"></classpath>
+		</taskdef>
+
+		<echo>Directory to parse for indexing: ${htmlrootdir}</echo>
+		<indexertask htmldir="${htmlrootdir}"></indexertask>
+	</target>
+
+</project>

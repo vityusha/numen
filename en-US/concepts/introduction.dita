@@ -3,134 +3,97 @@
 "concept.dtd">
 
 <concept id="introduction" xml:lang="en-US">
-  <title>Введение</title>
+  <title>Introduction</title>
 
   <conbody>
-    <p><wintitle>Диалог Nibelung</wintitle> - это удобное средство обучения, основанное только на
-    программном обеспечении. Этот программный комплекс предназначен для
-    использования компьютерного класса в качестве интерактивной мультимедийной
-    среды, добавляя при этом различные функции, характерные для лингафонного
-    кабинета. В то же самое время он позволяет достаточно эффективно проводить
-    уроки и по многим другим предметам обучения, а также проводить проверку
-    знаний учащихся при помощи встроенной системы тестирования.</p>
+    <p><wintitle>Dialog Nibelung</wintitle> is a convenient, purely software based learning tool. This software product transforms a computer classroom into an interactive multimedia environment adding functionality of a language lab. At the same time, it allows effective teaching of many other subjects and test students with its built in test system.</p>
 
-    <p>Программный комплекс использует локальную сеть для связи между
-    компьютерами класса. По локальной сети могут передаваться аудио и видео
-    материалы, различные текстовые документы и другие файлы, осуществляться
-    полное управление персональными компьютерами учащихся с рабочего места
-    преподавателя.</p>
+    <p>The software uses existing classroom LAN. Audio and video materials, documents, and other files can be easily transferred from one computer to another. Student computers can be remotely controlled from the teacher's workstation.</p>
 
-    <p>Это чисто программное решение, поэтому не требует дополнительных
-    аппаратных средств, легко в установке и настройке.</p>
+    <p>This is purely software product, easily installable and configurable, which does not require any additional hardware.</p>
 
-    <p>Интуитивно понятный пользовательский интерфейс помогает преподавателю
-    легко освоить данный программный продукт и эффективно использовать его при
-    обучении различным предметам.</p>
+    <p>Intuitive user interface helps the teacher to master the software and effectively use it to teach different subjects.</p>
 
-    <p>Основные возможности программного комплекса:</p>
+    <p>Features of <wintitle>Dialog Nibelung</wintitle>:</p>
 
     <p><ul>
-        <li>максимальное количество мест учащихся задается ключом защиты, но
-        не может превышать 64;</li>
+        <li>number of student seats is limited by the protection key and can not exceed 64;</li>
 
-        <li>организация рабочих мест учащихся в группы (до десяти групп
-        одновременно) и пары (внутри группы);</li>
+        <li>student seats can be organized into up to 10 groups, with further pairing of students within the group;</li>
 
-        <li>возможность выполнения нескольких заданий в группе
-        одновременно;</li>
+        <li>a group can perform several tasks simultaneously;</li>
 
-        <li>имитация телефонных переговоров;</li>
+        <li>simulation of phone conversations;</li>
 
-        <li>прослушивание или диалог с выбранным учащимся, парой или группой;</li>
+        <li>monitor or talk to individual students, pairs and groups;</li>
 
-        <li>общий вызов для всех учащихся;</li>
+        <li>paging all the students;</li>
 
-        <li>передача отдельным учащимся и группам для дальнейшей работы
-        различной аудио информации;</li>
+        <li>send audio to students and groups;</li>
 
-        <li>возможность работы до 10 независимых аудио/видео источников одновременно (по количеству групп);</li>
+        <li>up to 10 independent audio/video sources (one for each group);</li>
 
-        <li>возможность использования нескольких звуковых карт;</li>
+        <li>it is possible to use several audio interfaces;</li>
 
-        <li>возможность использования нескольких встроенных CD дисководов;</li>
+        <li>it is possible to use several different CD drives;</li>
 
-        <li>передача видео информации учащимся на их персональные компьютеры, в
-        том числе с внешнего источника, используя карту видеозахвата;</li>
+        <li>send video to student workstation, including from an external source (video capture card);</li>
 
-        <li>передача изображения экрана преподавателя учащимся;</li>
+        <li>send screens from teacher to student workstations;</li>
 
-        <li>передача изображения экрана учащегося-образца другим учащимся и
-        преподавателю;</li>
+        <li>send screens from a student workstation to the teacher and other students;</li>
 
-        <li>автоматическое наблюдение за компьютерами учащихся;</li>
+        <li>automated monitoring of student workstations;</li>
 
-        <li>просмотр эскизов экранов выбранных или всех учащихся преподавателем;</li>
+        <li>teacher can view screen shots from all or selected student workstations;</li>
 
-        <li>просмотр видео с веб-камер выбранных или всех учащихся преподавателем;</li>
+        <li>teacher can view web cam feeds from all or selected student workstations;</li>
 
-        <li>передача учащимся и прием от них различных документов и файлов;</li>
+        <li>send and receive files and documents to/from students;</li>
 
-        <li>формирование, раздача и сбор файлов для домашнего задания;</li>
+        <li>compose, distribute and collect homework files;</li>
 
-        <li>полное управление персональными компьютерами учащихся с рабочего
-        места преподавателя: перехват управления, запуск приложений,
-        блокировка ввода, управление питанием, контроль Интернета, блокировка
-        запуска программ, принудительное завершение процессов;</li>
+        <li>complete remote control of student computers from the teacher workstation: seize control, start applications, block input, power off, Internet access, block application launch, kill processes;</li>
 
-        <li>возможность отключения съемных носителей на компьютерах учащихся;</li>
+        <li>disable all removable media on student workstations;</li>
 
-        <li>возможность записи аудио данных учащихся на жестком диске компьютеров
-        учащихся и преподавателя в форматах <b>WAV</b> или <b>MP3</b>;</li>
+        <li>students can record audio to their own or teacher file system in <b>WAV</b> and <b>MP3</b> formats;</li>
 
-        <li>возможность самостоятельной работы учащихся с программным цифровым
-        магнитофоном;</li>
+        <li>students can work independently with a software base digital recorder;</li>
 
-        <li>возможность проигрывания аудио файлов в форматах
-          <b>WAV</b>, <b>MP3</b> или <b>WMA</b> в цифровых магнитофонах
-        учащихся;</li>
+        <li>playback of audio files in <b>WAV</b>, <b>MP3</b> or <b>WMA</b> formats on student workstations;</li>
 
-        <li>возможность проигрывания видео файлов в цифровых магнитофонах учащихся;</li>
+        <li>playback of video files on student workstations;</li>
 
-        <li>возможность работы с синхронным текстом (текстовое сопровождение,
-        дублирующее звуковую дорожку в цифровом магнитофоне);</li>
+        <li>audio tracks can be subtitled;</li>
 
-        <li>графическое отображение аудио файла в цифровом магнитофоне;</li>
+        <li>visualization of audio tracks;</li>
 
-        <li>графическое отображение записанного голоса учащегося в цифровом магнитофоне;</li>
+        <li>visualization of recorded students voices;</li>
 
-        <li>возможность работы с метками (до 9) в цифровом магнитофоне;</li>
+        <li>up to 9 labels in digital recorders;</li>
 
-        <li>возможность оцифровки различных аудио источников в файл для
-        дальнейшей работы (внешний аудио источник, подключенный к входу
-        звуковой карты, встроенный CD проигрыватель, голос преподавателя и
-        учащихся и др.);</li>
+        <li>recording from different sources (aux input, CD drive, teacher and students voice) into files for further work;</li>
 
-        <li>возможность одновременной работы с одним CD аудио диском в
-        различных группах, прослушивая разные треки;</li>
+        <li>different groups can listen to different audio tracks from one CD;</li>
 
-        <li>возможность передачи мгновенных текстовых сообщений между учащимися и преподавателем, а также
-        организация чат-сессий в группах учащихся;</li>
+        <li>instant messaging between teacher and students and chat sessions for student groups;</li>
 
-        <li>использование Интернет-страниц в качестве учебных материалов;</li>
+        <li>use web pages as teaching aids;</li>
 
-        <li>возможность работы в беспроводных сетях (с некоторыми
-        ограничениями);</li>
+        <li>wireless networking (with some limitations);</li>
 
-        <li>возможность редактирования графического представления класса;</li>
+        <li>edit graphic representation of the classroom;</li>
 
-        <li>ввод и изменение фамилий учащихся и преподавателя с возможностью сохранения
-        визуального представления класса и фамилий в отдельном файле;</li>
+        <li>edit class list and teacher's name and save it together with the graphic representation of the classroom;</li>
 
-        <li>организация персональных папок для каждого преподавателя для
-        хранения различной информации (файлы классов, аудио и видео материалы
-        и др.);</li>
+        <li>separate personal folders for different teachers for storing class files, audio and video materials, etc.;</li>
 
-        <li>ведение журнала уроков для каждого преподавателя, в котором
-        учитывается посещаемость учащихся и выставляются оценки за урок;</li>
+        <li>separate class logs for every teacher to track attendance and students progress;</li>
 
-        <li>проверка знаний учащихся, используя встроенную систему тестирования;</li>
+        <li>built in student test subsystem;</li>
 
-        <li>автоматическое обновление через Интернет.</li>
+        <li>automatic updates over the Internet.</li>
       </ul></p>
   </conbody>
 </concept>

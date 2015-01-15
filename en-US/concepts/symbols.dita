@@ -3,12 +3,12 @@
 "reference.dtd">
 
 <reference id="symbols" xml:lang="en-US">
-	<title>Условные обозначения</title>
+	<title>Notation</title>
 	<prolog/>
 	<refbody>
 		
 		<section>
-			<title>Условные обозначения, принятые в данном описании:</title>
+			<title>Notation in this document:</title>
 			<!--<note type="attention">Критические замечания</note>
 			<note type="important">Важная информация</note>
 			<note type="tip">Информация к сведению</note> -->
@@ -19,15 +19,15 @@
 					<tbody>
 						<row>
 							<entry><image href="../../img/Symbol-Stop.png" placement="break" scalefit="yes" width="10mm"/></entry>
-							<entry>Критические замечания</entry>
+							<entry>Critical note</entry>
 						</row>
 						<row>
 							<entry><image href="../../img/Symbol-Error.png" placement="break" scalefit="yes" width="10mm"/></entry>
-							<entry>Важная информация</entry>
+							<entry>Important note</entry>
 						</row>
 						<row>
 							<entry><image href="../../img/Symbol-Information.png" placement="break" scalefit="yes" width="10mm"/></entry>
-							<entry>Информация к сведению</entry>
+							<entry>For your information</entry>
 						</row>
 					</tbody> 
 				</tgroup>
@@ -41,12 +41,12 @@
 					<colspec colname="COLSPEC1" colwidth="120*"/>
 					<tbody>
 						<row>
-							<entry><b>Жирный</b></entry>
-							<entry>Жирным шрифтом выделены названия кнопок, меню, программ</entry>
+							<entry><b>Bold</b></entry>
+							<entry>Bold font denotes names of buttons, menues and programs</entry>
 						</row>
 						<row>
-							<entry><i>Курсив</i></entry>
-							<entry>Курсивом обозначены названия файлов, путей, ссылок</entry>
+							<entry><i>Italic</i></entry>
+							<entry>Italic font denotes file names, paths and references</entry>
 						</row>            
 					</tbody>
 				</tgroup>
