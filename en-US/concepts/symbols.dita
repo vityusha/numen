@@ -18,15 +18,15 @@
 					<colspec colname="COLSPEC1" colwidth="120*"/>
 					<tbody>
 						<row>
-							<entry><image href="../../img/Symbol-Stop.png" placement="break" scalefit="yes" width="10mm"/></entry>
+							<entry><image href="../../img/Symbol-Stop.png" placement="break" scalefit="yes" width="40"/></entry>
 							<entry>Critical note</entry>
 						</row>
 						<row>
-							<entry><image href="../../img/Symbol-Error.png" placement="break" scalefit="yes" width="10mm"/></entry>
+							<entry><image href="../../img/Symbol-Error.png" placement="break" scalefit="yes" width="40"/></entry>
 							<entry>Important note</entry>
 						</row>
 						<row>
-							<entry><image href="../../img/Symbol-Information.png" placement="break" scalefit="yes" width="10mm"/></entry>
+							<entry><image href="../../img/Symbol-Information.png" placement="break" scalefit="yes" width="40"/></entry>
 							<entry>For your information</entry>
 						</row>
 					</tbody> 
