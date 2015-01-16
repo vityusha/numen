@@ -20,5 +20,5 @@ CLASSPATH=$DITA_DIR/demo/fo/fop/lib/fop-hyph.jar:$CLASSPATH
 #echo PATH=$PATH
 #echo CLASSPATH=$CLASSPATH
 
-ant -f nibelung-en.xml $1
+ant -f nibelung-en.xml pdf
 
