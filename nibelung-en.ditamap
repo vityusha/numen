@@ -4,30 +4,30 @@
 
 <map id="nibelung" xml:lang="en-US">
 	<topicmeta>
-		<shortdesc>This document contains Dialog Nibelung user's manual.</shortdesc>
+		<shortdesc>This document contains Dialog Nibelung user manual.</shortdesc>
 		<author type="creator">Titov S., Vinokurov V.</author>
 		<source/>
-		<publisher>"Lain" Ltd</publisher>
+		<publisher>Lain Ltd.</publisher>
 		<copyright>
 			<copyryear year="2014"/>
-			<copyrholder>"Lain" Ltd.</copyrholder>
+			<copyrholder>Lain Ltd.</copyrholder>
 		</copyright>
 		<critdates>
 			<created date="21.11.2014"/>
 		</critdates>
 		<prodinfo>
-			<prodname>Dialog Nibelung - User's manual</prodname>
+			<prodname>Dialog Nibelung - User Manual</prodname>
 			<vrmlist>
 				<vrm version="2.4"/>
 			</vrmlist>
 		</prodinfo>
-		<othermeta content="User's Manual" name="doctype"/>
+		<othermeta content="User Manual" name="doctype"/>
 		<othermeta content="2.4" name="docedition"/>
 	</topicmeta>
 
 	<topicref href="en-US/concepts/symbols.dita" />
 	<topicref href="en-US/concepts/introduction.dita" />
-	<topichead navtitle="Установка и настройка ПО">
+	<topichead navtitle="Installation and setup">
 		<topicref keys="composition" href="en-US/installation/Composition.dita" />
 		<topicref href="en-US/installation/system_requirements.dita" />
 		<topicref href="en-US/installation/hardware_requirements.dita" />
@@ -36,12 +36,12 @@
 			<topicref keys="install_main" href="en-US/installation/installation_main.dita" />
 			<topicref keys="install_client" href="en-US/installation/installation_client.dita" />
 		</topicref>
-		<topichead navtitle="Настройка программного обеспечения">
+		<topichead navtitle="Setup guide">
 			<topicref keys="setup_main" href="en-US/installation/setup_main.dita" />
 			<topicref keys="setup_client" href="en-US/installation/setup_client.dita" />
 			<topicref keys="setup_pc" href="en-US/installation/setup_pc.dita">
 				<topicref keys="setup_net_xp" href="en-US/installation/setup_net_xp.dita" />
-				<topicref keys="setup_net_vista" href="en-US/installation/setup_net_vista.dita" />   
+				<topicref keys="setup_net_vista" href="en-US/installation/setup_net_vista.dita" />
 				<topicref keys="setup_mic_xp" href="en-US/installation/setup_mic_xp.dita" />
 				<topicref keys="setup_mic_vista" href="en-US/installation/setup_mic_vista.dita" />
 			</topicref>
@@ -112,7 +112,7 @@
 			<topicref keys="grades_statistics" href="en-US/main/grades_statistics.dita" />
 			<topicref keys="classes_statistics" href="en-US/main/classes_statistics.dita" />
 		</topicref>
-		<topicref keys="firmware_update" href="en-US/main/firmware_update.dita" /> 
+		<topicref keys="firmware_update" href="en-US/main/firmware_update.dita" />
 	</topicref>
 	<topicref keys="description_client" href="en-US/client/description_client.dita">
 		<topicref keys="media_player" href="en-US/client/media_player.dita">
