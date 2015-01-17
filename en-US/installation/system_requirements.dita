@@ -2,24 +2,25 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="system_requirements" xml:lang="en-US">
-    <title>Системные требования</title>
+    <title>System requirements</title>
 
-    <conbody>    
+    <conbody>
         <p><ul>
-        <li>Операционная система:
+        <li>Operating system:
             <ul>
                 <li>Windows XP;</li>
                 <li>Windows Vista;</li>
                 <li>Windows 7;</li>
-                <li>Windows 8, Windows 8.1;</li>
+                <li>Windows 8 or 8.1;</li>
                 <li>Windows Server 2003;</li>
                 <li>Windows Server 2008;</li>
             </ul></li>
         <li>.NET Framework 3.5;</li>
-        <li>Java Runtime Environment (JRE) 1.6 или 1.7 (<xref keyref="description_test">для системы тестирования</xref>);</li>
-        <li>Проигрыватель Windows Media 10.</li>
+        <li>Java Runtime Environment (JRE) 1.6 or 1.7 (<xref keyref="description_test">for the quiz system</xref>);</li>
+        <li>Windows Media Player 10.</li>
         </ul></p>
-        <p><b>.NET Framework 3.5</b> и <b>JRE</b> входят в комплект инсталляционных файлов программы <wintitle>Диалог Nibelung</wintitle>.</p>
-        <p>Проигрыватель <b>Windows Media 10</b> (требуется только для Windows XP и Windows Server 2003), если он не были установлен раньше, может быть инсталлирован в систему при помощи отдельной программы, находящейся на установочном компакт диске. Для Windows Vista/7/8 проигрыватель Windows Media 10 устанавливать не нужно.</p>
+        <p><b>.NET Framework 3.5</b> and <b>JRE</b> are included in <wintitle>Dialog Nibelung</wintitle> installation kit.</p>
+        <p><b>Windows Media Player 10</b> is included in Windows Vista/7/8. For earlier versions (Windows XP and Windows Server 2003) it can be installed from the <wintitle>Dialog Nibelung</wintitle> CD.
+</p>
     </conbody>
 </concept>
