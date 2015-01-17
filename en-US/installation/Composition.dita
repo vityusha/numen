@@ -2,22 +2,22 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="composition" xml:lang="en-US">
-  <title>Состав программного обеспечения</title>
-  <conbody>    
-    <p>Программное обеспечение <wintitle>Диалог Nibelung</wintitle> включает в себя два модуля: основной, устанавливаемый на компьютер преподавателя, и модуль клиента, устанавливаемый на компьютеры учащихся.</p>
-    <p>При помощи основного модуля (<xref href="#composition/main_png" type="fig"/>&#160;) осуществляется полное управление компьютерным классом, передача аудио и видео информации, различных документов и файлов и другие функции лингафонного кабинета.</p>
+  <title>Overview</title>
+  <conbody>
+    <p><wintitle>Dialog Nibelung</wintitle> includes two modules: the teacher module and the student module. Each module should be installed to the teacher's or the students' workstation.</p>
+    <p>Teacher module (<xref href="#composition/main_png" type="fig"/>&#160;) controls the computer classroom, transmits audio and video materials, documents, and other files. It also implements other functionality of the language lab.</p>
     <fig id="main_png">
-        <title>Окно основного модуля</title>
+        <title>Teacher module window</title>
         <image href="img/main.png" placement="break" scalefit="yes">
-            <alt>Окно основного модуля</alt>
+            <alt>Teacher module window</alt>
         </image>
     </fig>
-    <p>Модуль клиента (<xref href="#composition/client_png" type="fig"/>&#160;) работает под управлением основной программы. Также он может работать самостоятельно в качестве проигрывателя аудио файлов.</p>
+    <p>Student module (<xref href="#composition/client_png" type="fig"/>&#160;) works under control of the teacher module. It can also be used as a standalone audio player.</p>
     <fig id="client_png">
-        <title>Окно модуля клиента</title>
+        <title>Student module window</title>
         <image href="img/client.png" placement="break">
-            <alt>Окно модуля клиента</alt>
+            <alt>Student module window</alt>
         </image>
-    </fig>   
+    </fig>
   </conbody>
 </concept>
