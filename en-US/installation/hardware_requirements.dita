@@ -2,25 +2,23 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="hardware_requirements" xml:lang="en-US">
-    <title>Аппаратные и другие требования</title>
+    <title>Hardware and network requirements</title>
 
-    <conbody>    
-        <p>Минимальные требования к персональным компьютерам:
+    <conbody>
+        <p>PC hardware prerequisites:
             <ul>
-                <li>частота процессора 1ГГц;</li>
-                <li>оперативная память 512 МБ (рекомендуется 1 ГБ);</li>
-                <li>30 МБ свободного пространства на жестком диске для инсталляции программ;</li>
-                <li>разрешение экрана не ниже 1024х768 и  качество цветопередачи не менее 16 бит;</li>
-                <li>звуковая карта, совместимая с AC97 или RealTek HD Audio;</li>
-                <li>сетевая карта 100 Мбит;</li>
-                <li>гарнитура.</li>
+                <li>at least 1 GHz CPU clock frequency;</li>
+                <li>at least 512 MB of RAM (1 GB recommended);</li>
+                <li>30 MB hard drive storage for software installation;</li>
+                <li>screen resolution of at least 1024x768 with color depth of at least 16 bits;</li>
+                <li>AC97 or RealTek HD Audio sound card;</li>
+                <li>100 Mbps network interface;</li>
+                <li>microphone equipped headset.</li>
             </ul>
         </p>
-        <note type="attention">Компьютерный класс должен быть подключен к локальной сети со скоростью передачи данных 100 Мбит при помощи сетевого коммутатора с поддержкой протокола <b>IGMP-2.0</b>.
+        <note type="attention">Local Area Network switch in the classroom must support <b>IGMP 2.0</b> protocol.
         </note>
-        <note type="important">Рекомендуется, чтобы компьютер преподавателя имел выделенный IP адрес.
-        </note>
-        <note type="attention">Обратите внимание, предустановленные на компьютерах антивирусные программы могут мешать корректной работе некоторых функций программного комплекса (например, <xref keyref="files_working">передаче файлов</xref>). Возможно потребуется отключение или соответствующая настройка этих антивирусных программ!
+        <note type="important">We recommend that the teacher workstation be provided with a static IP address.
         </note>
     </conbody>
 </concept>
