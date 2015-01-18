@@ -35,6 +35,7 @@
 		<topicref href="en-US/installation/installation.dita">
 			<topicref keys="install_main" href="en-US/installation/installation_main.dita" />
 			<topicref keys="install_client" href="en-US/installation/installation_client.dita" />
+			<topicref href="en-US/installation/post_install_notes.dita" />
 		</topicref>
 		<topichead navtitle="Setup guide">
 			<topicref keys="setup_main" href="en-US/installation/setup_main.dita" />

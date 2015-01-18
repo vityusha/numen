@@ -2,11 +2,11 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
 "reference.dtd">
 <reference id="installation_notes" xml:lang="en-US">
-    <title>Рекомендации по установке и настройке <wintitle>Диалог Nibelung</wintitle></title>
+    <title>Installation notes</title>
 
-    <refbody>    
+    <refbody>
         <section>
-            <title>Содержание диска</title>
+            <title>Contents of the installation package</title>
             <ul>
             <li><filepath>AdobeReader</filepath> – программа для просмотра файлов в формате PDF;</li>
             <li><filepath>Docs</filepath> – документация;</li>
@@ -34,7 +34,7 @@
         </section>
 
         <section>
-            <title>Установка программы</title>
+            <title>Before you begin</title>
             <note type="attention">Перед началом установки прочтите соответствующий раздел Руководства пользователя!</note>
             <p>При необходимости установить модуль ученика <wintitle>Диалог Nibelung</wintitle> одновременно на большое количество компьютеров, рекомендуется скопировать с папку с дистрибутивом программы (папка Nibelung на установочном диске) на каждый компьютер и запустить установку с жесткого диска:</p>
             <p><filepath>\Nibelung\setup-nibelungclient.exe</filepath></p>
@@ -44,58 +44,6 @@
             <note type="attention">Будьте внимательны: номер лицензии должен совпадать с номером USB-ключа, в случае утери USB-ключа его восстановление невозможно!</note>
             <note type="important">По умолчанию имя преподавателя: <userinput>Admin</userinput>, пароль: <userinput>Admin</userinput>.</note>
         </section>
-
-        <section>
-            <title>Установка <wintitle>Windows Media Player 10</wintitle></title>
-            <p>Для работы цифрового магнитофона <wintitle>Диалог Nibelung</wintitle> необходим Windows Media Player версии 10 или выше. При необходимости вы можете установить его с установочного диска <wintitle>Диалог Nibelung</wintitle>.</p>
-            <p><filepath>\WMP\MP10SetupRu.exe</filepath></p>
-        </section>
-            
-        <section>
-            <title>Настройка брандмауэра <wintitle>Windows</wintitle></title>
-            <p><wintitle>Диалог Nibelung</wintitle> должен быть добавлен в список исключений установленного на вашем компьютере брандмауэра или файрвола. Обычно брандмауэр автоматически предлагает создать исключение при первом запуске программы.  Проверьте и при необходимости создайте исключения для следующих файлов из папки, в которую была установлена программа <wintitle>Диалог Nibelung</wintitle>:</p>
-            <ul>
-                <li>На компьютере преподавателя: <filepath>NiubelungUI.exe</filepath></li>
-                <li>На компьютере ученика: <filepath>NiubelungClient.exe</filepath> и <filepath>NiubelungHelper.exe</filepath></li>
-            </ul>
-            <p>Список исключений стандартного брандмауэра находится:</p>
-            <ul>
-                <li><p>Windows XP:</p>
-                    <p><menucascade><uicontrol>Пуск</uicontrol><uicontrol>Панель управления</uicontrol><uicontrol>Центр обеспечения безопасности</uicontrol><uicontrol>Брандмауэр Windows</uicontrol><uicontrol>Исключения</uicontrol></menucascade></p></li>
-                <li><p>Windows Vista и 7/8:</p>
-                    <p><menucascade><uicontrol>Пуск</uicontrol><uicontrol>Панель управления</uicontrol><uicontrol>Безопасность</uicontrol><uicontrol>Разрешения запуска программ через  брандмауэр Windows</uicontrol></menucascade></p>
-                    <p>или</p>
-                    <p><menucascade><uicontrol>Пуск</uicontrol><uicontrol>Панель управления</uicontrol><uicontrol>Брандмауэр Windows</uicontrol><uicontrol>Изменить параметры</uicontrol><uicontrol>Исключения</uicontrol></menucascade></p></li>
-            </ul>
-            <p>Некоторые антивирусные программы так же могут выдавать сообщения об угрозе, для <wintitle>Диалог Nibelung</wintitle> нужно создать соответствующие исключения (добавить в список доверенных программ).</p>
-        </section>
-
-        <section>
-            <title>Настройка звуковой карты</title>
-            <p>Качество звука (аудио-соединений) напрямую зависит от правильной настройки звуковой карты.</p>
-            <p>Для разных типов звуковых карт настройки могут значительно различаться.</p>
-            <ol>
-                <li>Отключите <uicontrol>Стерео микшер</uicontrol>. При включенном стерео микшере ваши собеседники будут слышать свой голос.</li>
-                <li>Включите усиление микрофона. Будьте внимательны, при завышении уровня записи микрофона могут появляться искажения голоса, эхо.</li>
-                <li>Включите подавление шума микрофона. Эта функция может отсутствовать, в зависимости от типа звуковой карты.</li>
-                <li>В списке доступных линий записи/воспроизведения включите (выберите) только те линии, которые необходимы. Обычно для воспроизведения нужно выбрать линии <uicontrol>Звук</uicontrol> и <uicontrol>Микрофон</uicontrol>, для записи - <uicontrol>Микрофон</uicontrol>.</li>
-            </ol>
-            <p product="nibelung">Подробное описание настроек аудио описано в п. <xref keyref="setup_pc"/>&#160; данного руководства.</p>
-            <p>Для <wintitle>Windows 7</wintitle> без <wintitle>Service Pack 1</wintitle> настоятельно рекомендуем установить пакет исправлений <wintitle>KB 981679</wintitle>.Его можно найти на установочном диске <wintitle>Диалог Nibelung</wintitle> в папке <filepath>\KB\</filepath> в подкаталоге с именем архитектуры Вашего процессора или загрузить с сайта <xref scope="external" href="http://support.microsoft.com/kb/981679">http://support.microsoft.com/kb/981679</xref>.</p>
-        </section>
-
-        <section>
-            <title>Разное</title>
-            <ol>
-                <li>Для вызова меню настройки программы ученика <wintitle>NibelungClient</wintitle> нажмите одновременно <userinput>Ctrl + Alt</userinput> и щелкните правой кнопкой мыши на заголовке окна программы. Для изменения настроек программа должна быть запущена с правами администратора.</li>
-                <li>Чтобы запустить программу с правами администратора (в Windows Vista, 7, 8 при включенном UAC) нужно щелкнуть по ярлыку программы правой кнопкой мыши и выбрать <uicontrol>Запуск от имени администратора</uicontrol>.</li>
-                <li>Если планируется работа программы преподавателя в учетной записи без прав администратора, рекомендуется изменить, установленный по умолчанию, путь к папке преподавателей (см. <wintitle>Руководство пользователя</wintitle>).</li>
-                <li>В Windows Vista и 7, 8 в некоторых случаях рекомендуется отключить протокол <wintitle>TCP/IPv6</wintitle> в свойствах сетевого подключения.</li>
-                <li>Если сразу после установки не запускается программа преподавателя, то необходимо хотя бы один раз запустить её с правами администратора.</li>
-                <li>Если на компьютере установлена программа виртуализации <wintitle>VirtualBox</wintitle>, то возможны конфликты при передаче потокового аудио/видео. Попробуйте отключить <wintitle>VirtualBox Host-Only Ethernet Adapter</wintitle> в списке сетевых адаптеров.</li>
-                <li>Возможна нестабильная работа программы во время обновления Windows, установите доступные обновления Windows и перезагрузите компьютер.</li>
-            </ol>
-        </section>    
 
     </refbody>
 </reference>
