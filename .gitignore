@@ -3,4 +3,4 @@ temp/*
 out/*
 *.log
 *.pdf
-
+.directory
