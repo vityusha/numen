@@ -8,41 +8,47 @@
         <section>
             <title>Contents of the installation package</title>
             <ul>
-            <li><filepath>AdobeReader</filepath> – программа для просмотра файлов в формате PDF;</li>
-            <li><filepath>Docs</filepath> – документация;</li>
-            <li><filepath>KB</filepath> – пакеты исправлений для Windows;</li>
-            <li><filepath>Lang</filepath> – языковые файлы для программы автозагрузки;</li>
-            <li><filepath>Nibelung</filepath> – папка с дистрибутивом <wintitle>Диалог Nibelung</wintitle>;
+            <li><filepath>Docs</filepath> – <wintitle>Dialog Nibelung</wintitle> documentation;</li>
+            <li><filepath>Nibelung</filepath> – <wintitle>Dialog Nibelung</wintitle> distribution folder;
                 <ul>
-                    <li><filepath>DotNetFX35</filepath> – <wintitle>.Net Framework 3.5</wintitle> платформа, на которой работает <wintitle>Диалог Nibelung</wintitle> (в Windows Vista, Windows 7/8 включена по умолчанию);</li>
-                    <li><filepath>jre 1_7</filepath> – платформа <wintitle>Java</wintitle>, нужна для работы системы тестирования;</li>
-                    <li><filepath>vcredist_x86</filepath> – нужен для работы некоторых функций, например передачи видео;</li>
-                    <li><filepath>WindowsInstaller3_1</filepath> – подсистема обеспечивающая установку программ (нужна для старых версий Windows XP);</li>
-                    <li><filepath>nibelungmain.msi</filepath> – дистрибутив модуля  преподавателя <wintitle>Диалог Nibelung</wintitle>;</li>
-                    <li><filepath>nibelungclient.msi</filepath> – дистрибутив модуля  ученика <wintitle>Диалог Nibelung</wintitle>;</li>
-                    <li><filepath>setup-nibelungmain.exe</filepath> – программа установки модуля преподавателя;</li>
-                    <li><filepath>setup-nibelungclient.exe</filepath> – программа установки модуля ученика;</li>
+                    <li><filepath>DotNetFX35</filepath> – <wintitle>.Net Framework 3.5</wintitle> runtime software environment for <wintitle>Dialog Nibelung</wintitle> (already included by default in Windows Vista, 7 and 8);</li>
+                    <li><filepath>jre 1_7</filepath> – <wintitle>Java Runtime Environment</wintitle> for the quiz system;</li>
+                    <li><filepath>vcredist_x86</filepath> – software necessary to perform certain functions, such as video transmission;</li>
+                    <li><filepath>WindowsInstaller3_1</filepath> – might be necessary for installation on outdated versions of Windows that do not include it);</li>
+                    <li><filepath>nibelungmain.msi</filepath> – <wintitle>Dialog Nibelung</wintitle> teacher module installation file;</li>
+                    <li><filepath>nibelungclient.msi</filepath> – <wintitle>Dialog Nibelung</wintitle> student module installation file;</li>
+                    <li><filepath>setup-nibelungmain.exe</filepath> – teacher module installer;</li>
+                    <li><filepath>setup-nibelungclient.exe</filepath> – student module installer;</li>
                 </ul>
                 </li>
-            <li><filepath>NPlayer</filepath> – установочные файлы <wintitle>Диалог NPlayer</wintitle> для отдельной установки (например, чтобы установить дома);</li>
-            <li><filepath>NQuiz</filepath> – кроссплатформенный инсталлятор и документация системы тестирования <wintitle>Диалог NQuiz</wintitle> для отдельной установки (например, чтобы установить дома);</li>
-            <li><filepath>SampleContent</filepath> – примеры аудио и видео;</li>
-            <li><filepath>SimpleDict</filepath> – свободно распространямая программа-словарь (Academic Free License (AFL));</li>
-            <li><filepath>VideoConverter</filepath> – свободно распространямая программа для редактирования  и конвертации видео файлов;</li>
-            <li><filepath>WMP</filepath> – <wintitle>Windows Media Player 10</wintitle> (нужен для старых версий Windows XP);</li>
+            <li><filepath>NPlayer</filepath> – <wintitle>Dialog NPlayer</wintitle> installation files for standalone use (e.g., on a home computer);</li>
+            <li><filepath>NQuiz</filepath> – <wintitle>Dialog NQuiz</wintitle> test system with documentation and cross platform installer for standalone use (e.g., on a home computer);</li>
+            <li><filepath>SampleContent</filepath> – audio and video examples;</li>
             </ul>
+
+            <p>The following is also included on the installation CD for your convenience:
+            <ul>
+            <li><filepath>AdobeReader</filepath> – PDF files viewer;</li>
+            <li><filepath>KB</filepath> – Windows system updates necessary to install and run <wintitle>Dialog Nibelung</wintitle>;</li>
+            <li><filepath>Lang</filepath> – _fixme?_ Windows Installer language files;</li>
+
+            <li><filepath>SimpleDict</filepath> – freeware crossplatform multiformat dictionary distributed under Academic Free License;</li>
+            <li><filepath>VideoConverter</filepath> – freeware video editor and format converter;</li>
+            <li><filepath>WMP</filepath> – <wintitle>Windows Media Player 10</wintitle> (might be necessary for old versions of Windows);</li>
+            </ul>
+            </p>
         </section>
 
         <section>
             <title>Before you begin</title>
-            <note type="attention">Перед началом установки прочтите соответствующий раздел Руководства пользователя!</note>
-            <p>При необходимости установить модуль ученика <wintitle>Диалог Nibelung</wintitle> одновременно на большое количество компьютеров, рекомендуется скопировать с папку с дистрибутивом программы (папка Nibelung на установочном диске) на каждый компьютер и запустить установку с жесткого диска:</p>
+            <note type="attention">We highly recommend to familiarize yourself with the Installation Guide before starting the installation procedure.</note>
+            <p>Since <wintitle>Dialog Nibelung</wintitle> student module has to be installed on a number of computers, it is advantageous to first copy the installation files (<filepath>Nibelung</filepath> folder on the CD) to a network share (if available) and start installation program from there:</p>
             <p><filepath>\Nibelung\setup-nibelungclient.exe</filepath></p>
-            <p>Перед началом установки непосредственно <wintitle>Диалог Nibelung</wintitle> будут автоматически установлены недостающие системные модули, их установка может занять до 30 мин и потребовать перезагрузки компьютера.</p>
-            <p>Во время установки модуля ученика вам потребуется ввести <indexterm>ID учащегося</indexterm><uicontrol><keyword>ID учащегося</keyword></uicontrol> (порядковый номер), а также <indexterm>IP адрес или сетевое имя компьютера преподавателя</indexterm><uicontrol><keyword>IP адрес</keyword></uicontrol> или сетевое имя компьютера преподавателя. Имя компьютера можно посмотреть следующим образом на комрьютере преподавателя: <menucascade><uicontrol>Мой Компьютер</uicontrol><uicontrol>Свойства</uicontrol><uicontrol>Имя компьютера</uicontrol><uicontrol>Полное имя</uicontrol></menucascade>.</p>
-            <p>Во время установки модуля преподавателя вам потребуется ввести название организации, номер лицензии и лицензионный ключ, они находятся в комплекте поставки вместе с <wintitle>USB</wintitle>-ключом и установочным диском.</p>
-            <note type="attention">Будьте внимательны: номер лицензии должен совпадать с номером USB-ключа, в случае утери USB-ключа его восстановление невозможно!</note>
-            <note type="important">По умолчанию имя преподавателя: <userinput>Admin</userinput>, пароль: <userinput>Admin</userinput>.</note>
+            <p><wintitle>Dialog Nibelung</wintitle> installation program will first check your Windows system for missing components and will automatically install them as necessary. This might take up to 30 minutes and may require the computer to be rebooted.</p>
+            <p>During the student module installation you will have to enter the <indexterm>Student Workstation ID</indexterm><uicontrol><keyword>Student Workstation ID</keyword></uicontrol> (a number unique to every workstation), and <indexterm>IP address</indexterm> <uicontrol><keyword>IP address</keyword></uicontrol> or domain name of the teacher workstation. You can look up domain name on the teacher workstation via: _fixme_ <menucascade><uicontrol>Мой Компьютер</uicontrol><uicontrol>Свойства</uicontrol><uicontrol>Имя компьютера</uicontrol><uicontrol>Полное имя</uicontrol></menucascade>.</p>
+            <p>During the teacher module installation you will have to enter the company name, license number and license key. You can find them inside the package together with the <wintitle>USB</wintitle> key and installation CD.</p>
+            <note type="attention">License number is the USB key number. It is not possible to recover the license number if the USB key is lost or stolen.</note>
+            <note type="important">Default teacher name: <userinput>Admin</userinput>, default password: <userinput>Admin</userinput>.</note>
         </section>
 
     </refbody>
