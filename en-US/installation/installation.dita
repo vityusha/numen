@@ -2,13 +2,12 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="installation" xml:lang="en-US">
-    <title>Установка  программного обеспечения</title>
+    <title>Installation guide</title>
 
-    <conbody>    
-        <note type="attention">Для установки программного обеспечения <wintitle>Диалог Nibelung</wintitle> требуются права администратора.</note>
-        <note type="important">На компьютер преподавателя ставится только основной модуль, а на компьютеры учащихся только модуль клиента.</note>
-        <note type="attention">Обратите внимание, что одновременно устанавливать на один и тот же компьютер <indexterm>основной модуль</indexterm> основной модуль и <indexterm>модуль клиента</indexterm> модуль клиента нельзя.</note>
-        <note type="important">При установке программного обеспечения при необходимости будут автоматически инсталлированы <wintitle>Microsoft .NET Framework 3.5</wintitle>, <wintitle>Windows Installer 3.1</wintitle>, <wintitle>Visual C++ Runtime Libraries (x86)</wintitle>, <wintitle>JRE</wintitle>.</note>
+    <conbody>
+        <note type="attention">You will need Windows administrator privileges to install <wintitle>Dialog Nibelung</wintitle>.</note>
+        <note type="important">Only teacher module should be installed on the teacher workstation and only student modules on the student workstations. Do not attempt to install both <indexterm>teacher module</indexterm> teacher module and <indexterm>student module</indexterm> student module on the same computer.</note>
+        <note type="important">The following packages will be automatically installed whenever necessary: <wintitle>Microsoft .NET Framework 3.5</wintitle>, <wintitle>Windows Installer 3.1</wintitle>, <wintitle>Visual C++ Runtime Libraries (x86)</wintitle>, <wintitle>JRE</wintitle>.</note>
     </conbody>
 
 </concept>
