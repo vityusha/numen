@@ -6,7 +6,7 @@
 	<title>Notation</title>
 	<prolog/>
 	<refbody>
-		
+
 		<section>
 			<title>Notation in this document:</title>
 			<!--<note type="attention">Критические замечания</note>
@@ -29,25 +29,25 @@
 							<entry><image href="../../img/Symbol-Information.png" placement="break" scalefit="yes" width="40"/></entry>
 							<entry>For your information</entry>
 						</row>
-					</tbody> 
+					</tbody>
 				</tgroup>
 			</table>
 		</section>
-		
+
 		<section>
-			<table frame="none">            
+			<table frame="none">
 				<tgroup cols="2">
 					<colspec colname="COLSPEC0" colwidth="20"/>
 					<colspec colname="COLSPEC1" colwidth="120*"/>
 					<tbody>
 						<row>
-							<entry><b>Bold</b></entry>
-							<entry>Bold font denotes names of buttons, menues and programs</entry>
+							<entry><wintitle>Dialog Nibelung</wintitle></entry>
+							<entry>-- denotes user interface buttons, menus, and software titles</entry>
 						</row>
 						<row>
-							<entry><i>Italic</i></entry>
-							<entry>Italic font denotes file names, paths and references</entry>
-						</row>            
+							<entry><filepath>\Nibelung\</filepath></entry>
+							<entry>-- denotes file names, paths, and references</entry>
+						</row>
 					</tbody>
 				</tgroup>
 			</table>
