@@ -113,7 +113,7 @@
                 </info>
             </step>
             <step>
-                <cmd>After the installation has successfully completed, <wintitle>Installation complete</wintitle> window will appear on your screen (<xref keyref="install_main/install_m8_png" type="fig"/>&#160;). You can press the  <uicontrol>Finish</uicontrol> button to exit Installation Wizard.</cmd>
+                <cmd>After the installation has successfully completed, <wintitle>Installation complete</wintitle> window will appear on your screen (<xref keyref="install_main/install_m8_png" type="fig"/>&#160;). You can press the  <uicontrol>Finish</uicontrol> button to exit Setup Wizard.</cmd>
                 <info>
                     <p><fig id="install_m8_png">
                         <title>Installation complete window</title>
@@ -121,7 +121,7 @@
                             <alt>Installation complete window</alt>
                         </image>
                     </fig></p>
-                    <p><wintitle>Dialog Nibelung</wintitle> Installation Wizard will add a <uicontrol>Nibelung</uicontrol> menu item  to your <menucascade><uicontrol>Start</uicontrol><uicontrol>Все программы _fixme_</uicontrol></menucascade> menu. The newly created <uicontrol>Nibelung</uicontrol> menu contains items to launch the software, remove it, and open the user manual in <b>PDF</b> format.</p>
+                    <p><wintitle>Dialog Nibelung</wintitle> Setup Wizard will add a <uicontrol>Nibelung</uicontrol> menu item  to your <menucascade><uicontrol>Start</uicontrol><uicontrol>Все программы _fixme_</uicontrol></menucascade> menu. The newly created <uicontrol>Nibelung</uicontrol> menu contains items to launch the software, remove it, and open the user manual in <b>PDF</b> format.</p>
                     <note type="tip">You can open the user manual using <wintitle>Adobe Acrobat Reader</wintitle>, which is included on the installation disk for your convenience.</note>
                     <p>An icon to launch the teacher module will also be placed on your desktop.</p>
                     <p><fig id="install_icon_t_png">
@@ -133,7 +133,7 @@
                 </info>
             </step>
             <step>
-                <cmd>If the Installation Wizard is launched on a computer that already has <wintitle>Dialog Nibelung</wintitle> installed, the <wintitle>Change, repair or remove</wintitle> window (<xref keyref="install_main/install_m9_png" type="fig"/>&#160;) will appear on your screen. This window allows you to:</cmd>
+                <cmd>If the Setup Wizard is launched on a computer that already has <wintitle>Dialog Nibelung</wintitle> installed, the <wintitle>Change, repair or remove</wintitle> window (<xref keyref="install_main/install_m9_png" type="fig"/>&#160;) will appear on your screen. This window allows you to:</cmd>
                 <info>
                     <ul>
                         <li>Add or remove <wintitle>Dialog Nibelung</wintitle> components</li>
