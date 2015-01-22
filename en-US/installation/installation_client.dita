@@ -3,153 +3,154 @@
 "task.dtd">
 
 <task id="installation_client" xml:lang="en-US">
-    <title>Установка модуля клиента</title>
-    <taskbody>  
-        <steps>    
+    <title>Student module installation</title>
+    <taskbody>
+        <steps>
             <step>
-                <cmd>Вставьте установочный диск в дисковод CD-ROM или DVD-ROM компьютера.</cmd>
+			  <cmd>Insert installation CD into your computer CD drive.</cmd>
             </step>
             <step>
-                <cmd>Если на экране монитора появилось окно автозапуска, то выберите пункт для установки модуля клиента. Если окно автозапуска не появилось, то необходимо запустить файл <filepath>setup-nibelungclient.exe</filepath>, находящийся на установочном диске.</cmd>
+			  <cmd>An autorun window should appear on the screen. Select student module installation.
+				  In case the autorun window has not appeared, you will have to launch <filepath>setup-nibelungclient.exe</filepath> from the installation disk manually.</cmd>
             </step>
             <step>
-                <cmd>На экране монитора появится окно приветствия мастера установок (<xref keyref="install_client/install_c1_png" type="fig"/>&#160;), в котором нужно нажать на кнопку <uicontrol>Далее</uicontrol>.</cmd>
+			  <cmd><wintitle>Dialog Nibelung Setup</wintitle> wizard window should appear on your screen (<xref keyref="install_client/install_c1_png" type="fig"/>&#160;). Press the <uicontrol>Next</uicontrol> button.</cmd>
                 <info>
                     <p><fig id="install_c1_png">
-                        <title>Окно приветствия мастера установок модуля клиента</title>
+                        <title>Student module Setup Wizard window</title>
                         <image href="img/install_c1.png" placement="break">
-                            <alt>Окно приветствия мастера установок модуля клиента</alt>
+					    <alt>Student module Setup Wizard window</alt>
                         </image>
                     </fig></p>
                 </info>
             </step>
             <step>
-                <cmd>Затем в появившемся окне лицензионного соглашения (<xref keyref="install_client/install_c2_png" type="fig"/>&#160;) нужно поставить галочку у пункта <uicontrol>Я принимаю условия лицензионного соглашения</uicontrol> и нажать на кнопку <uicontrol>Далее</uicontrol>. Если Вы не согласны с условиями лицензионного соглашения, то необходимо отменить установку.</cmd>
+			  <cmd><wintitle>End User License Agreement</wintitle> window should appear on your screen (<xref keyref="install_client/install_c2_png" type="fig"/>&#160;). You must accept the License Agreement to proceed by checking <uicontrol>I accept the terms of the License Agreement</uicontrol> box, followed by pressing the <uicontrol>Next</uicontrol> button. You can cancel the installation at any time by pressing the <uicontrol>Cancel</uicontrol> button.</cmd>
                 <info>
                     <p><fig id="install_c2_png">
-                        <title>Окно лицензионного соглашения модуля клиента</title>
+                        <title>Student module License Agreement window</title>
                         <image href="img/install_c2.png" placement="break">
-                            <alt>Окно лицензионного соглашения модуля клиента</alt>
+					    <alt>Student module License Agreement window</alt>
                         </image>
                     </fig></p>
                 </info>
             </step>
             <step>
-                <cmd>В следующем окне (<xref keyref="install_client/install_c3_png" type="fig"/>&#160;) нужно ввести <uicontrol><keyword>IP адрес</keyword></uicontrol> или имя компьютера, на котором установлен основной модуль, и <uicontrol><keyword>ID учащегося</keyword></uicontrol> (порядковый номер компьютера учащегося).</cmd>
+			  <cmd>Student module setup window will appear on your screen (<xref keyref="install_client/install_c3_png" type="fig"/>&#160;). You should enter <uicontrol><keyword>IP address</keyword></uicontrol> or domain name of the teacher workstation and the <uicontrol><keyword>Student Seat ID</keyword></uicontrol>.</cmd>
                 <info>
                     <p><fig id="install_c3_png">
-                        <title>Окно настройки модуля клиента</title>
+					<title>Student module setup window</title>
                         <image href="img/install_c3.png" placement="break">
-                            <alt>Окно настройки модуля клиента</alt>
+					<alt>Student module setup window</alt>
                         </image>
                     </fig></p>
-                    <p>При выборе опции <uicontrol>Запускать программу при старте Windows</uicontrol> модуль клиента будет автоматически запускаться при загрузке операционной системы Windows.</p>   
-                    <note conref="setup_client.dita#setup_client/autorunTip"></note>                    
+                    <p>Select the <uicontrol>Launch program at Windows Start Up</uicontrol> check box to automatically launch the student module upon each Windows start.</p>
+                    <note conref="setup_client.dita#setup_client/autorunTip"></note>
                 </info>
             </step>
             <step>
-                <cmd>Следующим на экране монитора появится окно выбора вида установки (<xref keyref="install_client/install_c4_png" type="fig"/>&#160;).</cmd>
+			  <cmd>The next window on your screen will be the <wintitle>Setup Type</wintitle> selection window (<xref keyref="install_client/install_c4_png" type="fig"/>&#160;).</cmd>
                 <info>
                     <p><fig id="install_c4_png">
-                        <title>Окно вида установки модуля клиента</title>
+					<title>Student module Setup Type window</title>
                         <image href="img/install_c4.png" placement="break">
-                            <alt>Окно вида установки модуля клиента</alt>
+					<alt>Student module Setup Type window</alt>
                         </image>
                     </fig></p>
-                    <p>В нем можно выбрать виды установок: 
+				<p>You can choose between:
                         <ul>
-                        <li>Обычная установка - установка наиболее часто используемых компонентов</li>
-                        <li>Выборочная установка - установка с выбором устанавливаемых компонентов</li>
-                        <li>Полная установка - полная установка программы.</li>
+					    <li>Typical Installation - installs the most typical configuration that should suit most users</li>
+					    <li>Custom Installation - you can select which <wintitle>Dialog Nibelung</wintitle> components to install</li>
+					    <li>Full Installation - installs all the components.</li>
                         </ul>
                     </p>
-                    <note type="important">Для обычных пользователей рекомендуется выбрать обычную установку.</note>                    
+				<note type="important">Most users should select Typical Installation.</note>
                 </info>
             </step>
             <step>
-                <cmd>Если пользователь остановился на выборочной установке, то в появившемся окне (<xref keyref="install_client/install_c5_png" type="fig"/>&#160;) он может отключить компоненты, которые считает не нужными.
-                </cmd>        
+			  <cmd>If you have selected Custom Installation, you will be able to choose components to install in the next window (<xref keyref="install_client/install_c5_png" type="fig"/>&#160;).
+                </cmd>
                 <info>
                     <p><fig id="install_c5_png">
-                        <title>Окно выборочной установки модуля клиента</title>
+					<title>Student module Custom Installation window</title>
                         <image href="img/install_c5.png" placement="break">
-                            <alt>Окно выборочной установки модуля клиента</alt>
+					<alt>Student module Custom Installation window</alt>
                         </image>
-                    </fig></p>                       
-                    <note type="attention">Этот вид установки должен выполнять только опытный пользователь!</note>
+                    </fig></p>
+				<note type="attention">Only select Custom Installation after you have had sufficient experience working with <wintitle>Dialog Nibelung</wintitle>.</note>
                 </info>
             </step>
             <step>
-                <cmd>После нажатия на кнопку <uicontrol>Далее</uicontrol> на экране монитора появится окно выбора пути установки программы (<xref keyref="install_client/install_c6_png" type="fig"/>&#160;).</cmd>  
-                <info>                
-                    <note type="tip">По умолчанию программа устанавливается в каталог <filepath>C:\Program Files\LAIN\Nibelung</filepath>.</note>
+			  <cmd>After selecting installation type and pressing the <uicontrol>Next</uicontrol> button, you should see the Destination Folder window (<xref keyref="install_client/install_c6_png" type="fig"/>&#160;) on your screen.</cmd>
+                <info>
+				 <note type="tip">Default destination path is <filepath>C:\Program Files\LAIN\Nibelung</filepath>.</note>
                     <p><fig id="install_c6_png">
-                        <title>Окно выбора папки установки модуля клиента</title>
+					<title>Student module Destination Folder window</title>
                         <image href="img/install_c6.png" placement="break">
-                            <alt>Окно выбора папки установки модуля клиента</alt>
+					    <alt>Student module Destination Folder window</alt>
                         </image>
-                    </fig></p>      
-                    <p>В этом окне пользователь может выбрать другой каталог, нажав на кнопку <uicontrol>Обзор</uicontrol>. Затем нужно нажать на кнопку <uicontrol>Далее</uicontrol>.</p>
+                    </fig></p>
+				<p>You can choose a different destination by pressing the <uicontrol>Change</uicontrol> button. Press <uicontrol>Next</uicontrol> after you have finished.</p>
                 </info>
             </step>
-            <step> 
-                <cmd>На экране монитора появится окно (<xref keyref="install_client/install_c7_png" type="fig"/>&#160;), сообщающее, что все готово к установке программы.</cmd> 
+            <step>
+			  <cmd>The next window on your screen informs you that everything is ready to start the installation (<xref keyref="install_client/install_c7_png" type="fig"/>&#160;).</cmd>
                 <info>
                     <p><fig id="install_c7_png">
-                        <title>Окно начала установки модуля клиента</title>
+					<title>Ready to install window</title>
                         <image href="img/install_c7.png" placement="break">
-                            <alt>Окно начала установки модуля клиента</alt>
+					    <alt>Ready to install window</alt>
                         </image>
                     </fig></p>
-                    <p>При необходимости изменения параметров установки пользователь может нажать на кнопку <uicontrol>Назад</uicontrol>.</p>
-                    <p>Чтобы прекратить процесс установки, пользователь может нажать на кнопку <uicontrol>Отмена</uicontrol>.</p>
-                    <p>Если не требуется вносить никаких изменений, то он должен нажать на кнопку <uicontrol>Начать</uicontrol>. После этого запустится процесс установки программного обеспечения на компьютер пользователя (<xref keyref="install_client/install_c10_png" type="fig"/>&#160;).</p>
+				<p>Press the <uicontrol>Back</uicontrol> button if you need to change installation parameters.</p>
+				<p>Press <uicontrol>Cancel</uicontrol> to abort the installation.</p>
+				<p>Press <uicontrol>Install</uicontrol> when you are ready to start the installation. (<xref keyref="install_client/install_c10_png" type="fig"/>&#160;).</p>
                     <p><fig id="install_c10_png">
-                        <title>Процесс установки программного обеспечения</title>
+					<title>Installation progress window</title>
                         <image href="img/install_c10.png" placement="break">
-                            <alt>Процесс установки программного обеспечения</alt>
+				    <alt>Installation progress window</alt>
                         </image>
                     </fig></p>
                 </info>
             </step>
             <step>
-                <cmd>После окончания установки программы на экране монитора появится окно (<xref keyref="install_client/install_c8_png" type="fig"/>&#160;), сообщающее об успешном завершении процесса. Для его закрытия пользователь должен нажать на кнопку <uicontrol>Готово</uicontrol>.</cmd>
+			  <cmd>After the installation has successfully completed, <wintitle>Installation complete</wintitle> window will appear on your screen (<xref keyref="install_client/install_c8_png" type="fig"/>&#160;). You can press the  <uicontrol>Finish</uicontrol> button to exit Setup Wizard.</cmd>
                 <info>
                     <p><fig id="install_c8_png">
-                        <title>Окно завершения установки модуля клиента</title>
+					<title>Installation complete window</title>
                         <image href="img/install_c8.png" placement="break">
-                            <alt>Окно завершения установки модуля клиента</alt>
+					    <alt>Installation complete window</alt>
                         </image>
                     </fig></p>
-                    <note type="important">Обратите внимание, что опция <uicontrol>Запустить Диалог Nibelung Client</uicontrol> в этом окне доступна только если ранее не была выбрана опция <uicontrol>Запускать программу при старте Windows</uicontrol>.</note>
-                    <p>После завершения установки в меню <menucascade><uicontrol>Пуск</uicontrol><uicontrol>Все программы</uicontrol></menucascade> появится пункт <uicontrol>Nibelung</uicontrol>, в котором будут пункты запуска программы, удаления ее и открытия файла помощи в формате <b>PDF</b>.</p>
-                    <note type="tip">Файл помощи в формате <b>PDF</b> можно открыть, используя программу <wintitle>Adobe Acrobat Reader</wintitle>. Инсталляционный файл <wintitle>Adobe Acrobat Reader</wintitle> также находится на установочном компакт диске.</note>
-                    <p>На экране монитора появится значок запуска программы.</p>
+				<note type="important">Please note that the <uicontrol>Start Dialog Nibelung Student module</uicontrol> will only appear in this window if the check box <uicontrol>Launch program at Windows Start Up</uicontrol> was selected earlier on.</note>
+				<p><wintitle>Dialog Nibelung</wintitle> Setup Wizard will add a <uicontrol>Nibelung</uicontrol> menu item  to your <menucascade><uicontrol>Start</uicontrol><uicontrol>Все программы _fixme_</uicontrol></menucascade> menu. The newly created <uicontrol>Nibelung</uicontrol> menu contains items to launch the software, remove it, and open the user manual in <b>PDF</b> format.</p>
+				<note type="tip">You can open the user manual using <wintitle>Adobe Acrobat Reader</wintitle>, which is included on the installation disk for your convenience.</note>
+				<p>An icon to launch the student module will also be placed on your desktop.</p>
                     <p><fig id="install_icon_c_png">
-                        <title>Значок запуска модуля клиента</title>
+                        <title>Student module icon</title>
                         <image href="img/install_icon_c.png" placement="break">
-                            <alt>Значок запуска модуля клиента</alt>
+				    <alt>Student module icon</alt>
                         </image>
                     </fig></p>
                 </info>
             </step>
             <step>
-                <cmd>Если на компьютере пользователя уже установлена программа <wintitle>Диалог Nibelung</wintitle>, то при запуске файла установки программы на экране появится окно (<xref keyref="install_client/install_c9_png" type="fig"/>&#160;), в котором можно:</cmd>
+			  <cmd>If the Setup Wizard is launched on a computer that already has <wintitle>Dialog Nibelung</wintitle> installed, the <wintitle>Change, repair or remove</wintitle> window (<xref keyref="install_client/install_c9_png" type="fig"/>&#160;)will appear on your screen. This window allows you to:</cmd>
                 <info>
                     <ul>
-                        <li>Добавить или удалить отдельные компоненты программы</li>
-                        <li>Повторно установить программу с целью устранения ошибок</li>
-                        <li>Удалить программу с компьютера пользователя.</li>
+					<li>Add or remove <wintitle>Dialog Nibelung</wintitle> components</li>
+					<li>Repair existing installation</li>
+					<li>Uninstall <wintitle>Dialog Nibelung</wintitle> from this computer.</li>
                     </ul>
                     <p><fig id="install_c9_png">
-                        <title>Окно программы установки модуля клиента</title>
+					<title>Student module Change, repair or remove installation window</title>
                         <image href="img/install_c9.png" placement="break">
-                            <alt>Окно программы установки модуля клиента</alt>
+					    <alt>Student module Change, repair or remove installation window</alt>
                         </image>
                     </fig></p>
-                    <p>Выбрав кнопку, соответствующую нужному действию, пользователь должен нажать на кнопку <uicontrol>Далее</uicontrol> и затем следовать инструкциям программы установки.</p>                    
+				<p>Select the corresponding button and press <uicontrol>Next</uicontrol> to change, repair or remove the installation and follow the instructions shown on your screen.</p>
                 </info>
             </step>
-        </steps>    
+        </steps>
     </taskbody>
 </task>
