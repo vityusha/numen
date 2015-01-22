@@ -50,7 +50,7 @@
                 </info>
             </step>
             <step>
-                <cmd>The next window on your screen will be the <wintitle>Installation Type</wintitle> selection window (<xref keyref="install_main/install_m4_png" type="fig"/>&#160;).</cmd>
+                <cmd>The next window on your screen will be the <wintitle>Setup Type</wintitle> selection window (<xref keyref="install_main/install_m4_png" type="fig"/>&#160;).</cmd>
                 <info>You can choose between:
                     <ul>
                         <li>Typical Installation - installs the most typical configuration that should suit most users</li>
@@ -58,9 +58,9 @@
                         <li>Full Installation - installs all the components.</li>
                     </ul>
                     <p><fig id="install_m4_png">
-                        <title>Teacher module Installation Type window</title>
+                        <title>Teacher module Setup Type window</title>
                         <image href="img/install_m4.png" placement="break">
-                            <alt>Teacher module Installation Type window</alt>
+                            <alt>Teacher module Setup Type window</alt>
                         </image>
                     </fig></p>
                     <note type="important">Most users should select Typical Installation.</note>
@@ -70,9 +70,9 @@
                 <cmd>If you have selected Custom Installation, you will be able to choose components to install in the next window (<xref keyref="install_main/install_m5_png" type="fig"/>&#160;) .</cmd>
                 <info>
                     <p><fig id="install_m5_png">
-                        <title>Teacher module Custom Installation window</title>
+                        <title>Teacher module Custom Setup window</title>
                         <image href="img/install_m5.png" placement="break">
-                            <alt>Teacher module Custom Installation window</alt>
+                            <alt>Teacher module Custom Setup window</alt>
                         </image>
                     </fig></p>
                     <note type="attention">Only select Custom Installation after you have had sufficient experience working with <wintitle>Dialog Nibelung</wintitle>.</note>
