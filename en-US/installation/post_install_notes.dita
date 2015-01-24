@@ -7,54 +7,49 @@
     <refbody>
 
         <section>
-            <title>Установка <wintitle>Windows Media Player 10</wintitle></title>
-            <p>Для работы цифрового магнитофона <wintitle>Диалог Nibelung</wintitle> необходим Windows Media Player версии 10 или выше. При необходимости вы можете установить его с установочного диска <wintitle>Диалог Nibelung</wintitle>.</p>
-            <p><filepath>\WMP\MP10SetupRu.exe</filepath></p>
+            <title><wintitle>Windows Media Player 10</wintitle> installation</title>
+		  <p><wintitle>Windows Media Player 10</wintitle> or higher is required to operate <wintitle>Dialog Nibelung</wintitle> digital recorder. It is included on the <wintitle>Dialog Nibelung</wintitle> installation disk for your convenience. Run <filepath>\WMP\MP10SetupRu.exe _fixme_</filepath> from the installation disk to install <wintitle>Windows Media Player 10</wintitle> if it is missing from your system.</p>
         </section>
 
         <section>
-            <title>Настройка брандмауэра <wintitle>Windows</wintitle></title>
-            <p><wintitle>Диалог Nibelung</wintitle> должен быть добавлен в список исключений установленного на вашем компьютере брандмауэра или файрвола. Обычно брандмауэр автоматически предлагает создать исключение при первом запуске программы.  Проверьте и при необходимости создайте исключения для следующих файлов из папки, в которую была установлена программа <wintitle>Диалог Nibelung</wintitle>:</p>
+            <title><wintitle>Windows Firewall</wintitle> setup</title>
+		  <p><wintitle>Dialog Nibelung</wintitle> must be included in the exceptions list (_fixme_?) of your <wintitle>Windows Firewall</wintitle> setup. Usually the <wintitle>Firewall</wintitle> will offer you to create this exception during first launch of the software. We recommend to double check if the following exceptions have been created for <wintitle>Dialog Nibelung</wintitle>:</p>
             <ul>
-                <li>На компьютере преподавателя: <filepath>NiubelungUI.exe</filepath></li>
-                <li>На компьютере ученика: <filepath>NiubelungClient.exe</filepath> и <filepath>NiubelungHelper.exe</filepath></li>
+			  <li>on the teacher workstation: <filepath>NiubelungUI.exe</filepath></li>
+                <li>on student workstations: <filepath>NiubelungClient.exe</filepath> and <filepath>NiubelungHelper.exe</filepath></li>
             </ul>
-            <p>Список исключений стандартного брандмауэра находится:</p>
-            <ul>
-                <li><p>Windows XP:</p>
-                    <p><menucascade><uicontrol>Пуск</uicontrol><uicontrol>Панель управления</uicontrol><uicontrol>Центр обеспечения безопасности</uicontrol><uicontrol>Брандмауэр Windows</uicontrol><uicontrol>Исключения</uicontrol></menucascade></p></li>
-                <li><p>Windows Vista и 7/8:</p>
-                    <p><menucascade><uicontrol>Пуск</uicontrol><uicontrol>Панель управления</uicontrol><uicontrol>Безопасность</uicontrol><uicontrol>Разрешения запуска программ через  брандмауэр Windows</uicontrol></menucascade></p>
-                    <p>или</p>
-                    <p><menucascade><uicontrol>Пуск</uicontrol><uicontrol>Панель управления</uicontrol><uicontrol>Брандмауэр Windows</uicontrol><uicontrol>Изменить параметры</uicontrol><uicontrol>Исключения</uicontrol></menucascade></p></li>
+		  <p><wintitle>Windows Firewall</wintitle> exception list can be found in:</p>
+		  <ul>
+			<li><p><menucascade><uicontrol>Пуск</uicontrol><uicontrol>Панель управления</uicontrol><uicontrol>Безопасность</uicontrol><uicontrol>Разрешения запуска программ через  брандмауэр Windows</uicontrol></menucascade> _fixme_</p><p>or</p></li>
+			<li><p><menucascade><uicontrol>Пуск</uicontrol><uicontrol>Панель управления</uicontrol><uicontrol>Брандмауэр Windows</uicontrol><uicontrol>Изменить параметры</uicontrol><uicontrol>Исключения</uicontrol></menucascade> _fixme_</p></li>
             </ul>
-            <p>Некоторые антивирусные программы так же могут выдавать сообщения об угрозе, для <wintitle>Диалог Nibelung</wintitle> нужно создать соответствующие исключения (добавить в список доверенных программ).</p>
+            <p>Some anti-virus software may also issue warnings regarding <wintitle>Dialog Nibelung</wintitle>. You will have to create appropriate exceptions (add it to the list of trusted software) as well.</p>
         </section>
 
         <section>
-            <title>Настройка звуковой карты</title>
-            <p>Качество звука (аудио-соединений) напрямую зависит от правильной настройки звуковой карты.</p>
-            <p>Для разных типов звуковых карт настройки могут значительно различаться.</p>
+            <title>Sound card setup</title>
+            <p>The sound quality directly depends on proper setup of the sound card (whether internal or external).</p>
+            <p>Setup procedures vary greatly between different sound cards. Below are the just the general guidelines to help you to achieve optimal sound quality.</p>
             <ol>
-                <li>Отключите <uicontrol>Стерео микшер</uicontrol>. При включенном стерео микшере ваши собеседники будут слышать свой голос.</li>
-                <li>Включите усиление микрофона. Будьте внимательны, при завышении уровня записи микрофона могут появляться искажения голоса, эхо.</li>
-                <li>Включите подавление шума микрофона. Эта функция может отсутствовать, в зависимости от типа звуковой карты.</li>
-                <li>В списке доступных линий записи/воспроизведения включите (выберите) только те линии, которые необходимы. Обычно для воспроизведения нужно выбрать линии <uicontrol>Звук</uicontrol> и <uicontrol>Микрофон</uicontrol>, для записи - <uicontrol>Микрофон</uicontrol>.</li>
+                <li>Disable the <uicontrol>Stereo Mixer</uicontrol>. Whenever stereo mixer is enabled, your conversation partners will hear their own voice, which can be distracting.</li>
+                <li>Adjust the microphone gain. Voice can get distorted and an echo may appear when microphone gain is too high.</li>
+                <li>Enable microphone noise reduction. This function may or may not be present, depending on the type of your sound card.</li>
+                <li>Only enable those capture and playback streams that are necessary. Usually that will be <uicontrol>Playback</uicontrol> and <uicontrol>Microphone</uicontrol> streams for playback and <uicontrol>Microphone</uicontrol> stream for the recording. Disable all other streams.</li>
             </ol>
-            <p product="nibelung">Подробное описание настроек аудио описано в п. <xref keyref="setup_pc"/>&#160; данного руководства.</p>
-            <p>Для <wintitle>Windows 7</wintitle> без <wintitle>Service Pack 1</wintitle> настоятельно рекомендуем установить пакет исправлений <wintitle>KB 981679</wintitle>.Его можно найти на установочном диске <wintitle>Диалог Nibelung</wintitle> в папке <filepath>\KB\</filepath> в подкаталоге с именем архитектуры Вашего процессора или загрузить с сайта <xref scope="external" href="http://support.microsoft.com/kb/981679">http://support.microsoft.com/kb/981679</xref>.</p>
+            <p product="nibelung">Please see section <xref keyref="setup_pc"/>&#160; of this user guide for further information on audio setup.</p>
+            <p>For <wintitle>Windows 7</wintitle> without the <wintitle>Service Pack 1</wintitle> we highly recommend installing Windows Update <wintitle>KB 981679</wintitle>. You can find it on the <wintitle>Dialog Nibelung</wintitle> installation disk under the <filepath>\KB\</filepath> folder. You can also download it from Microsoft Support at <xref scope="external" href="http://support.microsoft.com/kb/981679">http://support.microsoft.com/kb/981679</xref> (_fixme_ - discontinued?).</p>
         </section>
 
         <section>
-            <title>Разное</title>
+            <title>Miscellaneous tips</title>
             <ol>
-                <li>Для вызова меню настройки программы ученика <wintitle>NibelungClient</wintitle> нажмите одновременно <userinput>Ctrl + Alt</userinput> и щелкните правой кнопкой мыши на заголовке окна программы. Для изменения настроек программа должна быть запущена с правами администратора.</li>
-                <li>Чтобы запустить программу с правами администратора (в Windows Vista, 7, 8 при включенном UAC) нужно щелкнуть по ярлыку программы правой кнопкой мыши и выбрать <uicontrol>Запуск от имени администратора</uicontrol>.</li>
-                <li>Если планируется работа программы преподавателя в учетной записи без прав администратора, рекомендуется изменить, установленный по умолчанию, путь к папке преподавателей (см. <wintitle>Руководство пользователя</wintitle>).</li>
-                <li>В Windows Vista и 7, 8 в некоторых случаях рекомендуется отключить протокол <wintitle>TCP/IPv6</wintitle> в свойствах сетевого подключения.</li>
-                <li>Если сразу после установки не запускается программа преподавателя, то необходимо хотя бы один раз запустить её с правами администратора.</li>
-                <li>Если на компьютере установлена программа виртуализации <wintitle>VirtualBox</wintitle>, то возможны конфликты при передаче потокового аудио/видео. Попробуйте отключить <wintitle>VirtualBox Host-Only Ethernet Adapter</wintitle> в списке сетевых адаптеров.</li>
-                <li>Возможна нестабильная работа программы во время обновления Windows, установите доступные обновления Windows и перезагрузите компьютер.</li>
+			  <li>Simultaneously press <userinput>Ctrl + Alt</userinput> on your keyboard and right click of the window title to enter setup menu of the <wintitle>Dialog Nibelung</wintitle> student module. The student module has to be launched with the administrator privileges to change its settings.</li>
+			  <li>In Windows Vista, 7 and 8 (with UAC enabled), right click on the software icon and select <uicontrol>Launch as Administrator _fixme_</uicontrol> to launch a program with administrator privileges.</li>
+			  <li>If the teacher module would not launch after the installation, we recommend to launch it at least once with administrator privileges.</li>
+			  <li>For day to day operations we recommend running the teacher module without administrator privileges for security reasons. You will need to change default path to the teacher folders in order to facilitate this (see section ... _fixme_).</li>
+                <li>In Windows Vista, 7 and 8, in some cases it is recommended to disable the <wintitle>TCP/IPv6</wintitle> protocol in Network Connection Properties _fixme_.</li>
+			 <li><wintitle>VirtualBox</wintitle> virtualization software installed on the same computer may interfere with audio and video streaming. If this is the case, try disabling <wintitle>VirtualBox Host-Only Ethernet Adapter</wintitle> in the network adapter list.</li>
+			 <li>When applying Windows Updates application software like <wintitle>Dialog Nibelung</wintitle> may become unstable. Close application software, finish installing all the updates, and restart the computer.</li>
             </ol>
         </section>
 
