@@ -2,20 +2,20 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="setup_main" xml:lang="en-US">
-    <title>Настройка основного модуля</title>
+    <title>Teacher module setup</title>
 
-    <conbody>  
-        <p>Для того чтобы настроить основной модуль, нужно выбрать в меню пункт <menucascade><uicontrol>Файл</uicontrol><uicontrol>Настройки</uicontrol></menucascade>.</p>
-        <p>На экране появится окно <wintitle>Основные настройки</wintitle> (<xref keyref="setup_main/setup_main_png" type="fig"/>&#160;), в котором нужно установить <indexterm>папка преподавателя</indexterm>путь на диске, где для каждого преподавателя будет храниться различная информация: файлы классов, файлы сессий, записи учеников и др.</p>
+    <conbody>
+        <p>Select <menucascade><uicontrol>File</uicontrol><uicontrol>Settings</uicontrol></menucascade> from the main menu to set up the teacher module.</p>
+	   <p><wintitle>Teacher module settings</wintitle> window (<xref keyref="setup_main/setup_main_png" type="fig"/>&#160;) will appear on your screen. Here you can change <uicontrol>Path to teacher folders</uicontrol><indexterm>teacher folders</indexterm> where each teacher can store class files, session files, student records, etc.</p>
         <fig id="setup_main_png">
-            <title>Окно настроек основного модуля</title>
+            <title>Teacher module settings window</title>
             <image href="img/setup_main.png" placement="break">
-                <alt>Окно настроек основного модуля</alt>
+			  <alt>Teacher module settings window</alt>
             </image>
         </fig>
-        <p>Здесь же можно выбрать язык интерфейса, максимальное количество групп учащихся (от 2 до 10), основное устройство записи и воспроизведения звука.</p>
-        <p>Если выбрать пункт <uicontrol>Оптимизировать Аудио для сетей Wi-Fi (отключить multicast)</uicontrol>, то при передаче звука в Wi-Fi сетях улучшится качество звука, но вырастет сетевой трафик.</p>
-        <p>Если выбрать пункт <uicontrol>Оптимизировать Видео для сетей Wi-Fi (отключить multicast)</uicontrol>, то при передаче видео в Wi-Fi сетях улучшится качество видео, но вырастет сетевой трафик. Кроме того в этом случае у учащегося появится возможность самостоятельно изменять текущую позицию при просмотре видео файлов.</p>
-        <note type="important">В случае ухудшения качества звука во время дискуссии при работе в Wi-Fi сетях, рекомендуется установить опцию <uicontrol>Использовать голосовой коммутатор</uicontrol>. При этом улучшится качество звука, но увеличатся задержки и нагрузка на компьютер преподавателя.</note>
+        <p>Here you can also change user interface language, maximum number of groups in the class, and default sound devices for playback and capture.</p>
+        <p>By selecting <uicontrol>Optimize audio for Wi-Fi networks (disable multicast)</uicontrol> option you can increase sound quality over the Wi-Fi networks at the expense of increase in network traffic.</p>
+	   <p>By selecting <uicontrol>Optimize video for Wi-Fi networks (disable multicast)</uicontrol> option you can increase video quality over the Wi-Fi networks at the expense of increase in network traffic. Once this option is enabled, students will also be able to adjust video playback position on their own.</p>
+        <note type="important">Check the <uicontrol>Use voice switch</uicontrol> option if you are experiencing poor sound quality over Wi-Fi networks. This will increase sound quality at the expense of delays and increased load on the teacher workstation.</note>
     </conbody>
 </concept>
