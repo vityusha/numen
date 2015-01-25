@@ -2,20 +2,20 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="setup_client" xml:lang="en-US">
-    <title>Настройка модуля клиента</title>
+    <title>Student module setup</title>
 
-    <conbody>  
-        <p>Для того чтобы настроить модуль клиента, нужно в выпадающем меню модуля клиента выбрать пункт <uicontrol>Параметры</uicontrol>.</p>
-        <note type="important">Для вызова выпадающего меню модуля клиента необходимо, удерживая нажатыми клавиши <uicontrol><shortcut>Alt</shortcut></uicontrol> и <uicontrol><shortcut>Ctrl</shortcut></uicontrol>, щелкнуть правой кнопкой мышки на свободном месте окна программы клиента. Данное меню доступно только при работе под учетной записью администратора.</note>
-        <p>На экране появится окно <wintitle>Параметры программы</wintitle> (<xref keyref="setup_client/setup_client_png" type="fig"/>&#160;), в котором нужно установить идентификатор учащегося <indexterm>ID учащегося</indexterm><uicontrol><keyword>ID учащегося</keyword></uicontrol> (порядковый номер компьютера учащегося), <indexterm>IP адрес или имя компьютера преподавателя</indexterm><keyword>IP адрес</keyword> или имя компьютера преподавателя, выбрать язык интерфейса, установить основное устройство записи и воспроизведения звука, выбрать устройство ввода видео (для передачи сигнала с веб-камеры).</p>
+    <conbody>
+        <p>Select <uicontrol>Settings _fixme_</uicontrol> item from the drop down menu to set up the student module.</p>
+        <note type="important">The drop down menu will appear after depressing <uicontrol><shortcut>Alt</shortcut></uicontrol> and <uicontrol><shortcut>Ctrl</shortcut></uicontrol> on the keyboard while simultaneously right clicking on the window title bar. This menu is only accessible when the student module has been launched with administrator privileges.</note>
+	   <p><wintitle>Student module settings</wintitle> window will appear on your screen (<xref keyref="setup_client/setup_client_png" type="fig"/>&#160;). You can change the <indexterm>Student Seat ID</indexterm><uicontrol><keyword>Student Seat ID</keyword></uicontrol> number, <indexterm>IP address</indexterm><keyword>IP address</keyword>  or domain name of the teacher workstation, user interface language, sound devices for capture and playback, and device for video capture.</p>
         <fig id="setup_client_png">
-            <title>Окно настроек модуля клиента</title>
+            <title>Student module settings window</title>
             <image href="img/setup_client.png" placement="break">
-                <alt>Окно настроек модуля клиента</alt>
+			  <alt>Student module settings window</alt>
             </image>
-        </fig> 
-        <p>При выборе опции <uicontrol>Запускать программу при старте Windows</uicontrol> модуль клиента будет автоматически запускаться при загрузке операционной системы Windows (для всех пользователей Windows).</p>
-        <note type="important" id="autorunTip">Обратите внимание, что если выбрана опция <uicontrol>Запускать программу при старте Windows</uicontrol>, то запуск модуля клиента контролируется специальным сервисом <uicontrol>Windows</uicontrol>. Таким образом, в случае несанкционированного или злоумышленного завершения модуля клиента, или в случае его аварийного останова, модуль клиента будет заново автоматически запущен без вмешательства пользователя. Кроме того, этот процесс корректно обрабатывает смену пользователей в системе <uicontrol>Windows</uicontrol>, что исключает возможность одновременной, и следовательно некорректной, работы нескольких модулей клиента в системе.</note>
-        <note type="important">Обратите внимание, что в целях безопасности настоятельно рекомендуется, чтобы учащиеся работали под учетными записями пользователей с ограниченным доступом.  Смотрите раздел <b>Общие сведения об учетных записях пользователей</b> в <wintitle>Центре справки и поддержки</wintitle> Windows.</note>
+        </fig>
+        <p>Whenever the <uicontrol>Launch program at Windows Start Up</uicontrol> option is enabled, the student module will be launched automatically every time the computer is started, regardless of the Windows user.</p>
+	   <note type="important" id="autorunTip">When the <uicontrol>Launch program at Windows Start Up</uicontrol> option is selected, a special <uicontrol>Windows</uicontrol> service is controlling launch of the student module. The student module will be automatically relaunched in case of an abnormal termination, whether malicious or not. This service also tracks logged in <uicontrol>Windows</uicontrol> users and prevents several copies of the student module from running at the same time with different privileges (this can lead to ... _fixme_).</note>
+	   <note type="important">We highly recommend that the students be issued logins with very limited privileges for security purposes.  For more information, please refer to <wintitle>Общие сведения об учетных записях пользователей _fixme_</wintitle> section in the <wintitle>Windows Help Center _fixme_</wintitle>.</note>
     </conbody>
 </concept>
