@@ -2,7 +2,7 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="setup_net_vista" xml:lang="en-US">
-    <title>Network interface setup in Windows Vista, 7 and 8</title>
+    <title>Network interface setup</title>
     <conbody>
         <p>The <wintitle>System</wintitle> properties window (<xref keyref="setup_net_vista/system_vista_png" type="fig"/>&#160;) will appear on your screen. Press the <uicontrol>Device Manager</uicontrol> button located in the left column.</p>
         <fig id="system_vista_png">
@@ -38,9 +38,9 @@
             </tgroup>
         </table>
 	   <fig id="network_vista_png">
-		   <title>Network Adapter Properties _fixme_ window in Windows 7</title>
+		   <title>Network Adapter Properties _fixme_ window</title>
 		   <image href="img/network_vista.png" placement="break">
-			   <alt>Network Adapter Properties _fixme_ window in Windows 7</alt>
+			   <alt>Network Adapter Properties _fixme_ window</alt>
 		   </image>
 	   </fig>
 	   <p>This property is necessary to turn on the student computer remotely from the teacher workstation.</p>
