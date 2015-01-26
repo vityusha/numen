@@ -2,38 +2,31 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="setup_net_vista" xml:lang="en-US">
-    <title>Настройка сетевой карты для ОС Windows Vista и Windows 7</title>
-    <conbody>  
-        <p>В открывшемся окне <wintitle>Система</wintitle> (<xref keyref="setup_net_vista/system_vista_png" type="fig"/>&#160;) нажмите на кнопку <uicontrol>Диспетчер устройств</uicontrol>.</p>
+    <title>Network interface setup in Windows Vista, 7 and 8</title>
+    <conbody>
+        <p>The <wintitle>System</wintitle> properties window (<xref keyref="setup_net_vista/system_vista_png" type="fig"/>&#160;) will appear on your screen. Press the <uicontrol>Device Manager</uicontrol> button located in the left column.</p>
         <fig id="system_vista_png">
-            <title>Окно <wintitle>Свойства системы</wintitle> для Windows 7</title>
+            <title><wintitle>System</wintitle> properties window</title>
             <image href="img/system_vista.png" placement="break">
-                <alt>Окно <wintitle>Свойства системы</wintitle> для Windows 7</alt>
+			<alt><wintitle>System</wintitle> properties window</alt>
             </image>
         </fig>
-        <p>В появившемся окне <wintitle>Диспетчер устройств</wintitle> (<xref keyref="setup_net_vista/dispetcher_vista_png" type="fig"/>&#160;) откройте подменю <uicontrol>Сетевые платы</uicontrol> и дважды щелкните мышкой на названии сетевой карты, встроенной в компьютер (например, <b>Realtek PCIe GBE Family Controller</b>).</p> 
+        <p><wintitle>Device Manager</wintitle> window (<xref keyref="setup_net_vista/dispetcher_vista_png" type="fig"/>&#160;) should appear on your screen. Expand the <uicontrol>network adapters</uicontrol> sub-menu and double click on the network adapter name (for example <uicontrol>Intel(R) PRO/1000 MT Desktop Adapter</uicontrol>).</p>
         <fig id="dispetcher_vista_png">
-            <title>Окно диспетчера устройств для Windows 7</title>
+            <title>Device Manager window</title>
             <image href="img/dispetcher_vista.png" placement="break">
-                <alt>Окно диспетчера устройств для Windows 7</alt>
+			  <alt>Device Manager window</alt>
             </image>
-        </fig>        
-        <p>В открывшемся окне <wintitle>Свойства сетевой платы</wintitle> (<xref keyref="setup_net_vista/network_vista_png" type="fig"/>&#160;) нужно перейти на закладку <uicontrol>Дополнительно</uicontrol> и, выбрав из списка нужные свойства, установить требуемые значения.</p>
-        <fig id="network_vista_png">
-            <title>Окно свойств сетевой платы для Windows Windows 7</title>
-            <image href="img/network_vista.png" placement="break">
-                <alt>Окно свойств сетевой платы для Windows 7</alt>
-            </image>
-        </fig> 
-        <p>В таблице, приведенной ниже, для примера указывается список устанавливаемых свойств сетевой карты:</p>
+        </fig>
+	   <p>Select the <uicontrol>Advanced _fixme_</uicontrol> tab in the <wintitle>Network Adapter Properties _fixme_</wintitle> window (<xref keyref="setup_net_vista/network_vista_png" type="fig"/>&#160;) and set the following properties:</p>
         <table frame="all">
             <tgroup cols="2">
                 <colspec colname="COLSPEC0" colwidth="200*"/>
                 <colspec colname="COLSPEC1" colwidth="120*"/>
                 <thead>
                     <row>
-                        <entry colname="COLSPEC0">Свойства для Realtek PCIe GBE Family Controller</entry>
-                        <entry colname="COLSPEC1">Рекомендуемое значение</entry>
+				<entry colname="COLSPEC0">Network Adapter Properties</entry>
+                    <entry colname="COLSPEC1">Recommended setting</entry>
                     </row>
                 </thead>
                 <tbody>
@@ -41,11 +34,16 @@
                         <entry>Wake on Magic Packet</entry>
                         <entry>Enabled</entry>
                     </row>
-                </tbody> 
+                </tbody>
             </tgroup>
         </table>
-        <p>Это свойство необходимо для вывода компьютера учащегося из спящего режима по команде преподавателя.</p>
-        <note type="important">Также при первом запуске основного модуля и модуля клиента возможно потребуется разрешить в брандмауэре Windows, если он запущен, работу программы <wintitle>Диалог Nibelung</wintitle>.</note> 
-        <p>Возможно потребуется настройка других файрвол программ, если они установлены на компьютере.</p>        
+	   <fig id="network_vista_png">
+		   <title>Network Adapter Properties _fixme_ window in Windows 7</title>
+		   <image href="img/network_vista.png" placement="break">
+			   <alt>Network Adapter Properties _fixme_ window in Windows 7</alt>
+		   </image>
+	   </fig>
+	   <p>This property is necessary to turn on the student computer remotely from the teacher workstation.</p>
+	   <note type="important">It may also be necessary to add <wintitle>Dialog Nibelung</wintitle> into the <wintitle>Windows Firewall</wintitle> list of trusted software, as well as appropriate adjustments to other firewall and anti virus software installed on the computer.</note>
     </conbody>
 </concept>
