@@ -16,6 +16,6 @@
         <p>Here you can also change user interface language, maximum number of groups in the class, and default sound devices for playback and capture.</p>
         <p>By selecting <uicontrol>Optimize audio for Wi-Fi networks (disable multicast)</uicontrol> option you can increase sound quality over the Wi-Fi networks at the expense of increase in network traffic.</p>
 	   <p>By selecting <uicontrol>Optimize video for Wi-Fi networks (disable multicast)</uicontrol> option you can increase video quality over the Wi-Fi networks at the expense of increase in network traffic. Once this option is enabled, students will also be able to adjust video playback position on their own.</p>
-        <note type="important">Check the <uicontrol>Use voice switch</uicontrol> option if you are experiencing poor sound quality over Wi-Fi networks. This will increase sound quality at the expense of delays and increased load on the teacher workstation.</note>
+        <note type="important">Check the <uicontrol>Use voice switch</uicontrol> option if you are experiencing poor sound quality over Wi-Fi networks. This will enable software voice switch that will increase sound quality at the expense of voice delays and CPU load on the teacher workstation.</note>
     </conbody>
 </concept>
