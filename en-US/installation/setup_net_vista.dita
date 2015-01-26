@@ -44,6 +44,6 @@
 		   </image>
 	   </fig>
 	   <p>This property is necessary to turn on the student computer remotely from the teacher workstation.</p>
-	   <note type="important">It may also be necessary to add <wintitle>Dialog Nibelung</wintitle> into the <wintitle>Windows Firewall</wintitle> list of trusted software, as well as appropriate adjustments to other firewall and anti virus software installed on the computer.</note>
+	   <note type="important">It may also be necessary to add <wintitle>Dialog Nibelung</wintitle> into the <wintitle>Windows Firewall</wintitle> list of trusted software, as well as perform appropriate adjustments to other firewall and anti virus software installed on the computer.</note>
     </conbody>
 </concept>
