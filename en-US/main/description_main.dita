@@ -2,16 +2,16 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="description_main" xml:lang="en-US">
-    <title>Описание основного модуля</title>
-    <conbody>  
-        <p><indexterm>основной модуль</indexterm><keyword>Основной модуль</keyword> (<xref keyref="description_main/main_png" type="fig"/>&#160;) представляет собой программу управления компьютерным классом с функциями лингафонного кабинета.</p>
+    <title>Teacher module</title>
+    <conbody>
+	    <p><indexterm>teacher module</indexterm><keyword>Teacher module</keyword> (<xref keyref="description_main/main_png" type="fig"/>&#160;) is the <wintitle>Dialog Nibelung</wintitle> software module for control and management of a computer classroom with language lab functionality.</p>
 		<fig id="main_png">
-            <title>Окно основного модуля</title>
+            <title>Teacher module window</title>
             <image href="img/main.png" placement="break">
-                <alt>Окно основного модуля</alt>
+			  <alt>Teacher module window</alt>
             </image>
         </fig>
-        <p>На этом рисунке цифрами обозначены:</p>
+	   <p>Elements of the teacher module window (<xref keyref="description_main/main_png" type="fig"/>):</p>
 		<table frame="topbot">
             <tgroup cols="2">
                 <colspec colname="COLSPEC0" colwidth="10*"/>
@@ -19,57 +19,58 @@
                 <tbody>
                     <row>
                         <entry>1</entry>
-                        <entry>Панель инструментов</entry>
+                        <entry>Toolbox panel</entry>
                     </row>
 					<row>
                         <entry>2</entry>
-                        <entry>Меню работы с группами</entry>
+                        <entry>Groups menu</entry>
                     </row>
 					<row>
                         <entry>3</entry>
-                        <entry>Меню программы</entry>
+                        <entry>Pull down menu</entry>
                     </row>
 					<row>
                         <entry>4</entry>
-                        <entry>Закладка меню работы со всем классом</entry>
+                        <entry>Class tab</entry>
                     </row>
 					<row>
                         <entry>5</entry>
-                        <entry>Закладки меню работы с группами</entry>
+                        <entry>Group tabs</entry>
                     </row>
 					<row>
                         <entry>6</entry>
-                        <entry>Неподключенное место учащегося</entry>
+                        <entry>Offline student workstation</entry>
                     </row>
 					<row>
                         <entry>7</entry>
-                        <entry>Органы управления звуковой картой преподавателя</entry>
+                        <entry>Sound card controls</entry>
                     </row>
 					<row>
                         <entry>8</entry>
-                        <entry>Строка статуса</entry>
+                        <entry>Status line</entry>
                     </row>
 					<row>
                         <entry>9</entry>
-                        <entry>Подключенное место учащегося</entry>
+                        <entry>Online student workstation</entry>
                     </row>
 					<row>
                         <entry>10</entry>
-                        <entry>Рабочее окно класса</entry>
+                        <entry>Classroom console</entry>
                     </row>
-                </tbody> 
+                </tbody>
             </tgroup>
         </table>
-        <p>В рабочем окне класса отображаются все компьютеры, на подключение которых рассчитана программа. Они показаны в виде темно-серых (для неподключенных компьютеров) или цветных (для подключенных компьютеров) прямоугольников.</p>
-		<note type="important">При покупке продукта пользователь получает USB ключ, в который внесены данные о максимально возможном числе подключенных учеников.</note>
-		<p>Компьютеры учащихся, которые подключены по локальной сети к компьютеру преподавателя и на которых запущен модуль клиента, в рабочем окне становятся активными. Прямоугольники, соответствующие этим учащимся (<xref keyref="description_main/icon_connect_png" type="fig"/>&#160;), показываются белым цветом, если те не входят в группу, или цветом группы, и слева в них появляется цветная иконка дисплея.</p>
+        <p>All computers in the classroom are shown as panels in the classroom console (up to maximum limited by the license key). Online computers are shown in color, while the offline ones are grayed out.</p>
+		<note type="important">You have received a USB dongle with the license key when you purchased the software.</note>
+		<p>Student workstations that are connected to the classroom network and are running student modules become active in the classroom console.
+		A color icon appears on the left of active student panels (<xref keyref="description_main/icon_connect_png" type="fig"/>&#160;), while the panel background acquires group color or becomes white if the student is not a part of any group.</p>
         <fig id="icon_connect_png">
-            <title>Изображение подключенного учащегося</title>
+            <title>Active student panel</title>
             <image href="img/icon_connect.png" placement="break">
-                <alt>Изображение подключенного учащегося</alt>
+			  <alt>Active student panel</alt>
             </image>
         </fig>
-        <p>На этом рисунке цифрами обозначены:</p>
+	   <p>Elements of the student panel (<xref keyref="description_main/icon_connect_png" type="fig"/>&#160;):</p>
 		<table frame="topbot">
             <tgroup cols="2">
                 <colspec colname="COLSPEC0" colwidth="10*"/>
@@ -77,34 +78,34 @@
                 <tbody>
                     <row>
                         <entry>1</entry>
-                        <entry>Иконка состояния</entry>
+                        <entry>Status icon</entry>
                     </row>
 					<row>
                         <entry>2</entry>
-                        <entry>Фамилия учащегося</entry>
+                        <entry>Student name</entry>
                     </row>
 					<row>
                         <entry>3</entry>
-                        <entry>Текущее задание</entry>
+                        <entry>Student assignment</entry>
                     </row>
 					<row>
                         <entry>4</entry>
-                        <entry>Файл задания</entry>
+                        <entry>Assignment file</entry>
                     </row>
-                </tbody> 
+                </tbody>
             </tgroup>
         </table>
-		<p>С подключенными компьютерами учащихся можно работать по отдельности, используя выпадающее меню учащегося, можно объединять их в группы (до десяти групп одновременно) и работать с группой учащихся, используя меню нужной группы. Имеется возможность работать со всем классом одновременно, при помощи меню всего класса.</p>
-		<p>Слева от рабочего окна класса расположены закладки групп. Нажимая на них, можно открыть  меню или всего класса или групп: верхняя серая закладка с обозначением <wintitle>*</wintitle> обеспечивает доступ к меню всего класса, остальные закладки с обозначениями <wintitle>A...J</wintitle> открывают меню соответствующих групп. Если группе учащихся преподаватель даст задание, то на соответствующей закладке группы появится значок, обозначающий это задание.</p>
-		<p>С левого края окна программы может располагаться панель инструментов, где преподаватель может самостоятельно разместить кнопки для выполнения действий, которые требуется часто использовать во время проведения занятий.</p>
-		<p>В левом нижнем углу основного модуля расположены органы управления звуковой картой компьютера преподавателя (<xref keyref="description_main/controls_main_png" type="fig"/>&#160;).</p>
+	   <p>You can work with students on an individual basis, using the drop down student menu, or group the students into up to 10 groups and work with a group using the Group tabs menu. You can also work with the whole class at once using the Class tab menu.</p>
+		<p>Group tabs are immediately to the left of the classroom panel. The top tab <wintitle>*</wintitle> is the class tab, other tabs  <wintitle>A...J</wintitle> provide access to the corresponding groups. Whenever a group is assigned a task to work on, a task icon will appear on the group tab.</p>
+		<p>The toolbox panel is located along the left edge of the teacher module window. A teacher can add tool buttons to the toolbox to provide quick access to various functions of the software.</p>
+		<p>The sound card controls can be found in the lower left corner of the teacher module window (<xref keyref="description_main/controls_main_png" type="fig"/>&#160;).</p>
 		<fig id="controls_main_png">
-            <title>Органы управления звуковой картой и строка статуса</title>
+            <title>Sound card controls and teacher module status line</title>
             <image href="img/controls_main.png" placement="break">
-                <alt>Органы управления звуковой картой и строка статуса</alt>
+			  <alt>Sound card controls and teacher module status line</alt>
             </image>
         </fig>
-        <p>На этом рисунке цифрами обозначены:</p>
+        <p>Elements of the sound card controls and the status line:</p>
 		<table frame="topbot">
             <tgroup cols="2">
                 <colspec colname="COLSPEC0" colwidth="10*"/>
@@ -112,50 +113,50 @@
                 <tbody>
                     <row>
                         <entry>1</entry>
-                        <entry>Кнопка отключения звука</entry>
+                        <entry>Playback mute button</entry>
                     </row>
 					<row>
                         <entry>2</entry>
-                        <entry>Индикатор чувствительности микрофона</entry>
+                        <entry>Microphone gain indicator</entry>
                     </row>
 					<row>
                         <entry>3</entry>
-                        <entry>Регулятор громкости</entry>
+                        <entry>Volume control</entry>
                     </row>
 					<row>
                         <entry>4</entry>
-                        <entry>Кнопка отключения микрофона</entry>
+                        <entry>Microphone mute button</entry>
                     </row>
 					<row>
                         <entry>5</entry>
-                        <entry>Кнопка отключения самопрослушки (доступна только для Windows XP)</entry>
+                        <entry>Loopback disable button (only available in Windows XP)</entry>
                     </row>
 					<row>
                         <entry>6</entry>
-                        <entry>Кнопка отключения индикатора микрофона</entry>
+                        <entry>Кнопка отключения индикатора микрофона _fixme_</entry>
                     </row>
 					<row>
                         <entry>7</entry>
-                        <entry>Имя преподавателя</entry>
+                        <entry>Teacher name</entry>
                     </row>
 					<row>
                         <entry>8</entry>
-                        <entry>Название класса</entry>
+                        <entry>Class ID</entry>
                     </row>
 					<row>
                         <entry>9</entry>
-                        <entry>Время урока</entry>
+                        <entry>Lesson time left</entry>
                     </row>
-                </tbody> 
+                </tbody>
             </tgroup>
-        </table>		
-        <p>В строке статуса показываются имя преподавателя, название класса, с которым происходит работа на данный момент, время до окончания текущего урока, а также некоторые дополнительные данные в зависимости от режима работы. В правом углу строки статуса отображается текущее время.</p>
-		<note type="attention">Обратите внимание, что кнопка отключения самопрослушки недоступна в ОС Windows Vista и Windows 7!</note>
-		<p>Если преподаватель разговаривает с кем-либо, то в верхнем правом углу окна программы появится значок (<xref keyref="description_main/microphone_png" type="fig"/>&#160;), символизирующий включенный микрофон преподавателя.</p>
+        </table>
+        <p>Teacher name, Class ID, lesson time left, and some other additional data (depending on the mode) are shown in the status line.</p>
+	   <note type="attention">Please note that the <uicontrol>Loopback disable</uicontrol> button is not accessible under Windows Vista and Windows 7.</note>
+		<p>An icon (<xref keyref="description_main/microphone_png" type="fig"/>&#160;) will appear in the upper right corner of the window whenever the teacher has his or her microphone turned on.</p>
         <fig id="microphone_png">
-            <title>Значок включенного микрофона преподавателя</title>
+            <title>Microphone on icon</title>
             <image href="img/microphone.png" placement="break">
-                <alt>Значок включенного микрофона преподавателя</alt>
+			  <alt>Microphone on icon</alt>
             </image>
         </fig>
     </conbody>
