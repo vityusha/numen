@@ -2,54 +2,54 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="menu_tools" xml:lang="en-US">
-    <title>Подменю <b>Инструменты</b></title>
-    <conbody>  
-        <p>При выборе пункта <menucascade><uicontrol>Инструменты</uicontrol><uicontrol>Nibelung Media-плеер</uicontrol></menucascade> на экране компьютера преподавателя откроется окно (<xref keyref="menu_tools/nplayer_png" type="fig"/>&#160;) программы <wintitle>Nibelung Media-плеер</wintitle>, работа с которой подробно рассмотрена при описании модуля клиента в пункте <xref keyref="media_player"/></p>
+	<title><uicontrol>Tools</uicontrol> menu</title>
+    <conbody>
+	    <p>Selecting <menucascade><uicontrol>Tools</uicontrol><uicontrol>Nibelung Media Player</uicontrol></menucascade> from the menu will launch the <wintitle>Nibelung Media Player</wintitle> (<xref keyref="menu_tools/nplayer_png" type="fig"/>&#160;), working with which is described in section <xref keyref="media_player"/> of this manual.</p>
 		<fig id="nplayer_png">
-            <title>Окно <wintitle>Nibelung Media плеер</wintitle></title>
+            <title><wintitle>Nibelung Media Player</wintitle> window</title>
             <image href="img/nplayer.png" placement="break">
-                <alt>Окно <wintitle>Nibelung Media плеер</wintitle></alt>
+		  <alt><wintitle>Nibelung Media Player</wintitle> window</alt>
             </image>
-        </fig> 
-		<p>При выборе пункта <menucascade><uicontrol>Инструменты</uicontrol><uicontrol>Конвертер видео</uicontrol></menucascade> на компьютере преподавателя запустится программа конвертирования видео файлов в формат <b>MPEG-1</b> (<xref keyref="menu_tools/video_convert_png" type="fig"/>&#160;).</p>
+        </fig>
+		<p>Selecting <menucascade><uicontrol>Tools</uicontrol><uicontrol>Video converter</uicontrol></menucascade> will launch converter of video files to  <b>MPEG-1</b> format (<xref keyref="menu_tools/video_convert_png" type="fig"/>&#160;).</p>
 		<fig id="video_convert_png">
-            <title>Окно <wintitle>Конвертер видео</wintitle></title>
+            <title><wintitle>Video converter</wintitle> window</title>
             <image href="img/video-convert.png" placement="break">
-                <alt>Окно <wintitle>Конвертер видео</wintitle></alt>
+			  <alt><wintitle>Video converter</wintitle> window</alt>
             </image>
         </fig>
-		<p>В поле <uicontrol>Входной файл</uicontrol> при помощи соответствующей кнопки выбирается исходный видео файл, который нужно сконвертировать.</p>
-		<p>Программа автоматически заполняет поле <uicontrol>Выходной файл</uicontrol> и предлагает сохранить выходной файл в каталоге преподавателя. Однако преподаватель при помощи соответствующей кнопки может указать другой путь сохранения выходного файла.</p>
-		<p>Также преподаватель в поле <uicontrol>Изменить размер</uicontrol> может указать требуемый размер экрана выходного файла относительно исходного видео файла, а также установить начало и окончание выходного видео файла относительно исходного. Для визуального контроля начала и окончания фрагмента видео файла служат иконки первого и последнего кадра выбранного фрагмента.</p>
-		<p>Для начала процесса конвертации он должен нажать на кнопку <uicontrol>Старт</uicontrol>.</p>
-		<p>При помощи специального индикатора будет отображаться ход процесса конвертации. По щелчку левой кнопкой мышки на поле <uicontrol>Выполнение</uicontrol> появляется или скрывается окно с дополнительной информацией о ходе выполнения преобразования видео файла (<xref keyref="menu_tools/video_convert_work_png" type="fig"/>&#160;).</p>
+	   <p>Select the file to be converted into the <uicontrol>Input file</uicontrol> field by pressing the <uicontrol>Browse</uicontrol> button.</p>
+	   <p>The <uicontrol>Output file</uicontrol> filed will be filled automatically offering to save converted file in the teacher folder. You can change the output filename and path by pressing the <uicontrol>Browse</uicontrol> button.</p>
+		<p>You can adjust size of the output file relative to the original by using the <uicontrol>Change  size</uicontrol> panel. You can also select part of the video to be converted. The first and the last frames of the selected video segment are shown in icons on the left and the right of the slider control.</p>
+		<p>Press the <uicontrol>Start</uicontrol> button to begin conversion.</p>
+		<p>A progress bar will appear. Left click on the <uicontrol>Выполнение _fixme_</uicontrol> field to show or hide a window with additional information about conversion process (<xref keyref="menu_tools/video_convert_work_png" type="fig"/>&#160;).</p>
         <fig id="video_convert_work_png">
-            <title>Окно <wintitle>Конвертер видео</wintitle> во время работы с дополнительной информацией</title>
+            <title><wintitle>Video converter</wintitle> window showing process output</title>
             <image href="img/video-convert-work.png" placement="break">
-                <alt>Окно <wintitle>Конвертер видео</wintitle> во время работы с дополнительной информацией</alt>
+			  <alt><wintitle>Video converter</wintitle> window showing process output</alt>
             </image>
-        </fig>	
-        <p>При выборе пункта <menucascade><uicontrol>Инструменты</uicontrol><uicontrol>Настройка меню инструментов </uicontrol></menucascade> на компьютере преподавателя запускается окно добавления дополнительных пунктов меню (<xref keyref="menu_tools/tools_menu_png" type="fig"/>&#160;).</p>  
+        </fig>
+	   <p>Select <menucascade><uicontrol>Tools</uicontrol><uicontrol>Edit</uicontrol></menucascade> to edit contents of the <uicontrol>Tools</uicontrol> menu (<xref keyref="menu_tools/tools_menu_png" type="fig"/>&#160;).</p>
         <fig id="tools_menu_png">
-            <title>Окно <wintitle>Настройка меню иструментов</wintitle></title>
+            <title><wintitle>Tools editor</wintitle> window</title>
             <image href="img/tools_menu.png" placement="break">
-                <alt>Окно <wintitle>Настройка меню иструментов</wintitle></alt>
+			  <alt><wintitle>Tools editor</wintitle> window</alt>
             </image>
         </fig>
-        <p>С помощью этого окна преподаватель может добавлять, изменять или удалять из меню <uicontrol>Инструменты</uicontrol> собственные пункты меню для запуска внешних приложений непосредственно из программы <wintitle>Диалог Nibelung</wintitle>, например <wintitle>Microsoft Word</wintitle>. Список собственных пунктов создается и редактируется при помощи соответствующих кнопок в окне <wintitle>Настройка меню иструментов</wintitle>.</p>
-        <p>При нажатии на кнопки <uicontrol>Добавить</uicontrol> или <uicontrol>Изменить</uicontrol> появляется окно редактирования параметров пункта меню (<xref keyref="menu_tools/tools_menu_add_png" type="fig"/>&#160;).</p>
+	   <p>You can add, remove, and edit items appearing in the <uicontrol>Tools</uicontrol> menu using this window. You customize the menu by creating your own items to launch various external applications, for example, <wintitle>Microsoft Word</wintitle>, right from <wintitle>Dialog Nibelung</wintitle>.</p>
+	   <p>A <wintitle>Tool properties</wintitle> window (<xref keyref="menu_tools/tools_menu_add_png" type="fig"/>&#160;) will appear on your screen upon pressing either <uicontrol>Add</uicontrol> or <uicontrol>Edit</uicontrol> buttons.</p>
         <fig id="tools_menu_add_png">
-            <title>Окно <wintitle>Параметры иструмента</wintitle></title>
+            <title><wintitle>Tool properties</wintitle> window</title>
             <image href="img/tools_menu_add.png" placement="break">
-                <alt>Окно <wintitle>Параметры иструментав</wintitle></alt>
+		  <alt><wintitle>Tool properties</wintitle> window</alt>
             </image>
         </fig>
-        <p>В этом окне преподаватель может установить:
+        <p>You can set the following properties of the tool:
             <ul>
-                <li>Название инструмента - название пункта меню, под которым он появится в меню <uicontrol>Инструменты</uicontrol>;</li>
-                <li>Имя файла - имя исполняемого файла внешнего приложения;</li>
-                <li>Параметры - дополнительные параметры командной строки запуска внешнего приложения.</li>
-            </ul>        
+			  <li><uicontrol>Title</uicontrol> - title under which the tool will appear in the <uicontrol>Tools</uicontrol> menu;</li>
+			  <li><uicontrol>File name</uicontrol> - name of the executable file for the application to be launched;</li>
+			  <li><uicontrol>Arguments</uicontrol> - additional command line arguments.</li>
+            </ul>
         </p>
     </conbody>
 </concept>
