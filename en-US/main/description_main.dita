@@ -102,7 +102,7 @@
 		<fig id="controls_main_png">
             <title>Sound card controls and teacher module status line</title>
             <image href="img/controls_main.png" placement="break">
-			  <alt>Sound card controls and teacher module status line</alt>
+			<alt>Sound card controls and teacher module status line</alt>
             </image>
         </fig>
         <p>Elements of the sound card controls and the status line:</p>
@@ -133,7 +133,7 @@
                     </row>
 					<row>
                         <entry>6</entry>
-                        <entry>Кнопка отключения индикатора микрофона _fixme_</entry>
+                        <entry>Microphone mute button</entry>
                     </row>
 					<row>
                         <entry>7</entry>
