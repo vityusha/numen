@@ -52,6 +52,10 @@
 							<entry><filepath>\Nibelung\</filepath></entry>
 							<entry> - file names, paths, and references are presented in _fixme_ font</entry>
 						</row>
+						<row>
+							<entry><userinput>Admin</userinput></entry>
+							<entry> - keyboard input</entry>
+						</row>
 					</tbody>
 				</tgroup>
 			</table>
