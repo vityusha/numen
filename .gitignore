@@ -4,3 +4,4 @@ out/*
 *.log
 *.pdf
 .directory
+*.kate-swp
