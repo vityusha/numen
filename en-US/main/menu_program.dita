@@ -84,7 +84,7 @@
                         <entry><image href="img/menu/saveAsHS.png" placement="break" width="16" align="center" /></entry>
                     </row>
 					<row>
-                        <entry>Arrange</entry>
+                        <entry>Edit</entry>
                         <entry> </entry>
                     </row>
 					<row>
@@ -96,7 +96,7 @@
                         <entry><image href="img/menu/DelStudent.png" placement="break" width="16" align="center" /></entry>
                     </row>
 					<row>
-                        <entry>Sort</entry>
+                        <entry>Arrange</entry>
                         <entry><image href="img/menu/SortHS.png" placement="break" width="16" align="center" /></entry>
                     </row>
 					<row>
