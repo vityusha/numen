@@ -2,33 +2,34 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="student_class" xml:lang="en-US">
-    <title>Работа с классом</title>
-    <conbody>  
-		<p>Чтобы начать работу основного модуля программы, нужно открыть сохраненный ранее класс или создать новый.</p>
-		<p>При выборе пункта меню <menucascade><uicontrol>Класс</uicontrol><uicontrol>Новый класс</uicontrol></menucascade> на экране появится окно параметров нового класса (<xref keyref="student_class/new_class_png" type="fig"/>&#160;), в котором нужно ввести общее число учащихся и количество рядов.</p>
+    <title>Class layout</title>
+    <conbody>
+		<p>At the start of a teacher module session you will typically open a class file or create a new one.</p>
+		<p>Select <menucascade><uicontrol>Class</uicontrol><uicontrol>New</uicontrol></menucascade> to open a new class window (<xref keyref="student_class/new_class_png" type="fig"/>&#160;) and enter number of students and number of rows in the classroom console. Press the <uicontrol>OK</uicontrol> button.</p>
 		<fig id="new_class_png">
-            <title>Окно <wintitle>Новый класс</wintitle></title>
+            <title><wintitle>New class</wintitle> window</title>
             <image href="img/new_class.png" placement="break">
-                <alt>Окно <wintitle>Новый класс</wintitle></alt>
+			<alt><wintitle>New class</wintitle> window</alt>
             </image>
         </fig>
-		<p>Программа автоматически разместит в рабочем окне изображения всех учащихся в соответствии с установленными параметрами класса.</p>
-		<p>Если есть необходимость вручную переместить изображения учащихся, нужно выбрать пункт меню <menucascade><uicontrol>Класс</uicontrol><uicontrol>Расставить класс</uicontrol></menucascade> (напротив его появится галочка) и при помощи мышки перетащить изображения в требуемое место.</p>
-		<p>В этом режиме становятся доступны пункты меню <menucascade><uicontrol>Класс</uicontrol><uicontrol>Добавить учащегося</uicontrol></menucascade>, <menucascade><uicontrol>Класс</uicontrol><uicontrol>Удалить учащегося</uicontrol></menucascade>, при помощи которых можно добавить одного учащегося или удалить выделенных учащихся, и меню <menucascade><uicontrol>Класс</uicontrol><uicontrol>Упорядочить класс</uicontrol></menucascade>.</p>
-		<p>При выборе пункта меню <menucascade><uicontrol>Класс</uicontrol><uicontrol>Упорядочить класс</uicontrol></menucascade> программа автоматически разместит изображения учащихся в соответствии с размерами рабочего окна и параметрами класса.</p>
-		<p>После ручного редактирования расстановки класса нужно повторно выбрать пункт меню <menucascade><uicontrol>Класс</uicontrol><uicontrol>Расставить класс</uicontrol></menucascade> (галочка исчезнет).</p>
-		<p>Для того чтобы сохранить текущий класс на жестком диске компьютера преподавателя для возможности повторного использования, нужно выбрать пункт меню <menucascade><uicontrol>Класс</uicontrol><uicontrol>Сохранить класс</uicontrol></menucascade> (<xref keyref="student_class/save_class_png" type="fig"/>&#160;) или <menucascade><uicontrol>Класс</uicontrol><uicontrol>Сохранить класс как</uicontrol></menucascade>.</p>
+		<p>The student panels will appear in the classroom console, automatically arranged in the specified number of rows.</p>
+		<p>Select <menucascade><uicontrol>Class</uicontrol><uicontrol>Edit</uicontrol></menucascade> to change the class layout. The class editing mode is denoted by a check mark in the <menucascade><uicontrol>Class</uicontrol><uicontrol>Edit</uicontrol></menucascade> menu item. You can now drag and drop student panels to rearrange them in the classroom console.</p>
+		<p>Menu items <menucascade><uicontrol>Class</uicontrol><uicontrol>Add student</uicontrol></menucascade>, <menucascade><uicontrol>Class</uicontrol><uicontrol>Remove student</uicontrol></menucascade>, and  <menucascade><uicontrol>Class</uicontrol><uicontrol>Arrange</uicontrol></menucascade> also become accessible in the class editing mode.</p>
+		<p>Select <menucascade><uicontrol>Class</uicontrol><uicontrol>Add student</uicontrol></menucascade> or <menucascade><uicontrol>Class</uicontrol><uicontrol>Remove student</uicontrol></menucascade> to add to or remove student panel from the class layout.</p>
+		<p>Select <menucascade><uicontrol>Class</uicontrol><uicontrol>Arrange</uicontrol></menucascade> to automatically rearrange the class layout according to the number of students and rows in the class.</p>
+		<p>Select  <menucascade><uicontrol>Class</uicontrol><uicontrol>Edit</uicontrol></menucascade> again to exit the class editing mode (check mark in the menu will disappear).</p>
+		<p>Select <menucascade><uicontrol>Class</uicontrol><uicontrol>Save</uicontrol></menucascade> or <menucascade><uicontrol>Class</uicontrol><uicontrol>Save as</uicontrol></menucascade> (<xref keyref="student_class/save_class_png" type="fig"/>&#160;) to save this class layout for reuse.</p>
 		<fig id="save_class_png">
-            <title>Окно сохранения класса</title>
+            <title>Save class window</title>
             <image href="img/save_class.png" placement="break">
-                <alt>Окно сохранения класса</alt>
+			  <alt>Save class window</alt>
             </image>
         </fig>
-		<p>Для того чтобы открыть класс, сохраненный ранее на жестком диске компьютера преподавателя, нужно выбрать пункт меню <menucascade><uicontrol>Класс</uicontrol><uicontrol>Открыть класс</uicontrol></menucascade> (<xref keyref="student_class/open_class_png" type="fig"/>&#160;).</p>
+		<p>Select <menucascade><uicontrol>Class</uicontrol><uicontrol>Open</uicontrol></menucascade> (<xref keyref="student_class/open_class_png" type="fig"/>&#160;) to open a previously saved class layout file.</p>
 		<fig id="open_class_png">
-            <title>Окно открытия класса</title>
+            <title>Open class window</title>
             <image href="img/open_class.png" placement="break">
-                <alt>Окно открытия класса</alt>
+                <alt>Open class window</alt>
             </image>
         </fig>
 	</conbody>
