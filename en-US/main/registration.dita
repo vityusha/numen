@@ -2,30 +2,29 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="registration" xml:lang="en-US">
-    <title><keyword>Регистрация учащихся</keyword></title>
-    <conbody>  
-		<p><indexterm>регистрация учащихся</indexterm>До начала работы преподаватель может произвести регистрацию (перекличку) присутствующих в классе учащихся. Для этого он должен выбрать пункт меню <menucascade><uicontrol>Класс</uicontrol><uicontrol>Регистрация учащихся</uicontrol></menucascade>. На мониторах компьютеров учащихся появится соответствующее окно, в котором они, если потребуется, могут ввести свою фамилию (<xref keyref="registration/registration_png" type="fig"/>&#160;).</p>
+    <title><keyword>Roll call registration</keyword></title>
+    <conbody>
+	    <p><indexterm>roll call registration</indexterm>The teacher might want to take attendance at the start of a lesson. Select <menucascade><uicontrol>Class</uicontrol><uicontrol>Roll call</uicontrol></menucascade> from the menu to initiate student roll call registration. A window will appear on student screens (<xref keyref="registration/registration_png" type="fig"/>&#160;) where they can enter their name and/or student ID number (depending on the school policies). The students have 60 seconds to complete the roll call. Failure to do so will result in the student panel marked with a red X mark (<xref keyref="registration/icon_unregistered_png" type="fig"/>&#160;).</p>
 		<fig id="registration_png">
-            <title>Окно <wintitle>Введите имя</wintitle></title>
+            <title><wintitle>Enter name</wintitle> student registration window</title>
             <image href="img/registration.png" placement="break">
-                <alt>Окно <wintitle>Введите имя</wintitle></alt>
+                <alt><wintitle>Enter name</wintitle> student registration window</alt>
             </image>
-        </fig>		
-		<p>Учащиеся должны в течение одной минуты нажать на кнопку <uicontrol>OK</uicontrol> в этом окне. Если этого не сделать, то в рабочем окне на иконке дисплея в изображении отсутствующего учащегося останется красный крестик (<xref keyref="registration/icon_unregistered_png" type="fig"/>&#160;).</p>
+        </fig>
 		<fig id="icon_unregistered_png">
-            <title>Изображение отсутствующего учащегося</title>
+            <title>Panel of an absent student</title>
             <image href="img/icon_unregistered.png" placement="break">
-                <alt>Изображение отсутствующего учащегося</alt>
+			  <alt>Panel of an absent student</alt>
             </image>
         </fig>
-		<p>Время до окончания процесса регистрации будет отображаться в строке статуса в основном модуле. Преподаватель может остановить процесс регистрации раньше установленного времени, для этого нужно повторно выбрать пункт меню <menucascade><uicontrol>Класс</uicontrol><uicontrol>Регистрация учащихся</uicontrol></menucascade>.</p>		
-		<p>После окончания процесса регистрации на мониторе преподавателя появится окно с результатами регистрации учащихся (<xref keyref="registration/registration_result_png" type="fig"/>&#160;).</p>
+		<p>Status line of the teacher module window will show time remaining for the roll call. You can stop the roll call early by selecting <menucascade><uicontrol>Class</uicontrol><uicontrol>Roll call</uicontrol></menucascade> menu again.</p>
+		<p>The <wintitle>Roll call results</wintitle> window (<xref keyref="registration/registration_result_png" type="fig"/>&#160;) will appear on your screen after registration is completed.</p>
 		<fig id="registration_result_png">
-            <title>Окно <wintitle>Результаты регистрации</wintitle></title>
+            <title><wintitle>Roll call results</wintitle> window</title>
             <image href="img/registration_result.png" placement="break">
-                <alt>Окно <wintitle>Результаты регистрации</wintitle></alt>
+			  <alt><wintitle>Roll call results</wintitle> window</alt>
             </image>
         </fig>
-		<p>Если потребуется изменить имя учащегося вручную, нужно щелкнуть правой клавишей мышки на выбранном ученике, в появившемся меню выбрать пункт <uicontrol>Задать имя</uicontrol> и затем в окне <wintitle>Введите имя</wintitle> (<xref keyref="registration/registration_png" type="fig"/>&#160;) набрать нужное имя.</p>
+	   <p>Right click on a student panel and select <uicontrol>Change name</uicontrol> from the pop-up menu to change student's name and/or ID number after the roll call. Enter the new name into <wintitle>Enter name</wintitle> window (<xref keyref="registration/registration_png" type="fig"/>&#160;).</p>
 	</conbody>
 </concept>
