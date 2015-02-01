@@ -2,35 +2,35 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="menu_class" xml:lang="en-US">
-    <title>Меню всего класса</title>
-    <conbody>  
-        <p>Меню всего класса позволяет работать со всеми подключенными учащимися одновременно, независимо от того в какую группу входят подключенные учащиеся.</p>
-		<p>Чтобы открыть это меню, преподаватель должен щелкнуть левой кнопкой мышки на серой закладке <wintitle>*</wintitle>, раскрыв тем самым меню класса (<xref keyref="menu_class/menu_class_png" type="fig"/>&#160;).</p>
+    <title>Class tab</title>
+    <conbody>
+        <p>Class tab menu allows you to perform certain actions to all the students in the class regardless of their group affiliation.</p>
+		<p>Click on the gray tab marked with <wintitle>*</wintitle> to open the menu (<xref keyref="menu_class/menu_class_png" type="fig"/>&#160;).</p>
 		<fig id="menu_class_png">
-            <title>Меню <wintitle>Весь класс</wintitle></title>
+            <title><wintitle>Class tab</wintitle> menu</title>
             <image href="img/menu_class.png" placement="break">
-                <alt>Меню <wintitle>Весь класс</wintitle></alt>
+                <alt><wintitle>Class tab</wintitle> menu</alt>
             </image>
         </fig>
-		<p>Меню класса содержит кнопки:
+		<p>Class tab menu buttons:
 			<ul>
-				<li><uicontrol>Задать группу</uicontrol> (объединить всех подключенных учащихся в определенную группу)</li>
-				<li><uicontrol>Взаимодействие</uicontrol></li>
-				<li><uicontrol>Управление PC</uicontrol></li>
+				<li><uicontrol>Set group</uicontrol> (group all registered students together)</li>
+				<li><uicontrol>Interact</uicontrol></li>
+				<li><uicontrol>Remote control</uicontrol></li>
 			</ul>
 		</p>
-    <p>В нижней части области всего класса находится строка состояния режимов, в которой отображается включение основных режимов работы с классом:</p>
+    <p>A status line at the bottom of the class tab contains icons indicating modes active in the class: _fixme_</p>
 			<ul>
-				<li>Режим разговора с учащимися класса (п. <xref keyref="dialog"/>&#160;)</li>
-				<li>Отключение микрофонов у учащихся класса (п. <xref keyref="disable_microphone"/>&#160;)</li>
-				<li>Запуск программ на компьютерах учащихся класса (п. <xref keyref="run_programs"/>&#160;)</li>
-				<li>Режим чата в классе (п. <xref keyref="chat"/>&#160;)</li>
-				<li>Блокировка ввода на компьютерах учащихся класса (п. <xref keyref="lock_input"/>&#160;)</li>
-				<li>Блокировка компьютеров учащихся класса (п. <xref keyref="lock_pc"/>&#160;)</li>
-				<li>Управление приложениями на компьютерах учащихся класса (п. <xref keyref="applications_management"/>&#160;)</li>
-				<li>Управление доступом в интернет (п. <xref keyref="internet_control"/>&#160;)</li>
-				<li>Отключение съемных носителей (п. <xref keyref="disable_removable"/>&#160;)</li>
+				<li>Conversation (section <xref keyref="dialog"/>&#160;)</li>
+				<li>Mute microphones (section <xref keyref="disable_microphone"/>&#160;)</li>
+				<li>Launch software (section <xref keyref="run_programs"/>&#160;)</li>
+				<li>Class chat (section <xref keyref="chat"/>&#160;)</li>
+				<li>Input block (section <xref keyref="lock_input"/>&#160;)</li>
+				<li>Lock computers (section <xref keyref="lock_pc"/>&#160;)</li>
+				<li>Application management (section <xref keyref="applications_management"/>&#160;)</li>
+				<li>Internet access control (section <xref keyref="internet_control"/>&#160;)</li>
+				<li>Disable removable media (section <xref keyref="disable_removable"/>&#160;)</li>
 			</ul>
-    <p>Если какой-либо из этих режимов активен, то соответствующая иконка в строке статуса выделяется ярким цветом.</p>
+    <p>An inactive mode has the corresponding icon grayed out, and colorful otherwise.</p>
     </conbody>
 </concept>
