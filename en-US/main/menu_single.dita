@@ -2,113 +2,112 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="menu_single" xml:lang="en-US">
-  <title>Меню одного учащегося</title>
-  <conbody>  
-    <p>Чтобы открыть меню, позволяющее работать с одним учащимся, преподаватель должен щелкнуть правой кнопкой мышки на нем, раскрыв тем самым меню учащегося.</p>
-    <p>Меню одного учащегося:</p>
+  <title>Student menu</title>
+  <conbody>
+    <p>Right click on a student panel to open a pop-up menu of actions for this student.</p>
     <table frame="all" rowsep="1" colsep="1">
       <tgroup cols="2">
         <colspec colname="COLSPEC0" colwidth="120*"/>
         <colspec colname="COLSPEC1" colwidth="20*"/>
         <thead>
           <row>
-            <entry colname="COLSPEC0" align="center">Пункты меню</entry>
-            <entry colname="COLSPEC1" align="center">Иконка</entry>
+            <entry colname="COLSPEC0" align="center">Student menu items</entry>
+            <entry colname="COLSPEC1" align="center">Icon</entry>
           </row>
         </thead>
         <tbody>
           <row>
-            <entry>Прослушка</entry>
+            <entry>Listen</entry>
             <entry><image href="img/menu/listen.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>Разговор</entry>
+            <entry>Conversation</entry>
             <entry><image href="img/menu/talk.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>Отключение микрофона</entry>
+            <entry>Mute microphone</entry>
             <entry><image href="img/menu/micoff.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>Запись</entry>
+            <entry>Record</entry>
             <entry><image href="img/menu/record.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>Записать разговор</entry>
+            <entry>Record conversation</entry>
             <entry><image href="img/menu/recordD.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>Сообщение</entry>
+            <entry>Message</entry>
             <entry><image href="img/menu/message.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>Домашнее задание</entry>
+            <entry>Homework</entry>
             <entry><image href="img/menu/homework.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>Эскиз экрана</entry>
+            <entry>Screen thumbnail</entry>
             <entry><image href="img/menu/monitor.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>Веб камера</entry>
+            <entry>Web cam</entry>
             <entry><image href="img/menu/webcam.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>Удаленное управление</entry>
+            <entry>Remote control</entry>
             <entry><image href="img/menu/remotedesktop.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>Заблокировать ввод</entry>
+            <entry>Lock input</entry>
             <entry><image href="img/menu/keyboard.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>Заблокировать компьютер</entry>
+            <entry>Lock computer</entry>
             <entry><image href="img/menu/lock.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>Завершить удаленный процесс</entry>
+            <entry>Terminate process</entry>
             <entry><image href="img/menu/stop.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>Отключить интернет</entry>
+            <entry>Internet off</entry>
             <entry><image href="img/menu/disableinternet.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>Отключить съемные носители</entry>
+            <entry>Removable media off</entry>
             <entry><image href="img/menu/usb_minus.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>Приложение учащегося</entry>
+            <entry>Launch application (?) _fixme_</entry>
             <entry><image href="img/menu/runapp.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry namest="COLSPEC0" nameend="COLSPEC1"><b>Управление питанием</b></entry>                     
+            <entry namest="COLSPEC0" nameend="COLSPEC1"><b>Power control</b></entry>
           </row>
           <row>
-            <entry>- Выйти из системы</entry>
+            <entry>- Log out</entry>
             <entry><image href="img/menu/logoff.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>- Выключение</entry>
+            <entry>- Power off</entry>
             <entry><image href="img/menu/poweroff.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>- Перезагрузка</entry>
+            <entry>- Reboot</entry>
             <entry><image href="img/menu/reboot.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>- Ждущий режим</entry>
+            <entry>- Standby</entry>
             <entry><image href="img/menu/standby.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>- Включить</entry>
+            <entry>- Power on</entry>
             <entry><image href="img/menu/poweron.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry namest="COLSPEC0" nameend="COLSPEC1"><b>Оценка</b></entry>
+            <entry namest="COLSPEC0" nameend="COLSPEC1"><b>Score</b></entry>
           </row>
           <row>
-            <entry>- Нет</entry>
+            <entry>- None</entry>
             <entry></entry>
           </row>
           <row>
@@ -132,58 +131,58 @@
             <entry><image href="img/menu/grade5.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>- Поле ввода оценки (появляется, если максимальная оценка не равна 5)</entry>
+            <entry>- Custom entry field (this field shows up whenever maximum lesson score for the class set in _fixme_ [xref] is not equal to 5)</entry>
             <entry></entry>
           </row>
           <row>
-            <entry><b>Задать группу</b></entry>
+            <entry><b>Set group</b></entry>
             <entry><image href="img/menu/groups.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>- Нет</entry>
+            <entry>- None</entry>
             <entry></entry>
           </row>
           <row>
-            <entry>- Группа A</entry>
+            <entry>- Group A</entry>
             <entry><image href="img/menu/a.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>- Группа B</entry>
+            <entry>- Group B</entry>
             <entry><image href="img/menu/b.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>- Группа C</entry>
+            <entry>- Group C</entry>
             <entry><image href="img/menu/c.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>- Группа D</entry>
+            <entry>- Group D</entry>
             <entry><image href="img/menu/d.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>- Группа E</entry>
+            <entry>- Group E</entry>
             <entry><image href="img/menu/e.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>- Группа F</entry>
+            <entry>- Group F</entry>
             <entry><image href="img/menu/f.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry><b>Профиль учащегося</b></entry>
+            <entry><b>Student profile</b></entry>
             <entry><image href="img/menu/profile.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>Задать имя учащегося</entry>
+            <entry>Name</entry>
             <entry><image href="img/menu/setname.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>Установить изображение учащегося</entry>
+            <entry>Set image _fixme_(?)</entry>
             <entry><image href="img/menu/setimage.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>Установить фото учащегося</entry>
+            <entry>Set photo</entry>
             <entry><image href="img/menu/setphoto.png" placement="break" width="16" align="center"/></entry>
           </row>
-        </tbody> 
+        </tbody>
       </tgroup>
     </table>
   </conbody>
