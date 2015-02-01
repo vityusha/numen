@@ -14,9 +14,9 @@
         </fig>
 		<p>Class tab menu buttons:
 			<ul>
-				<li><uicontrol>Set group</uicontrol> (group all registered students together)</li>
-				<li><uicontrol>Interact</uicontrol></li>
-				<li><uicontrol>Remote control</uicontrol></li>
+				<li><uicontrol>Set group</uicontrol> (group all registered students together) _fixme_ xref</li>
+				<li><uicontrol>Interact</uicontrol> _fixme_ xref</li>
+				<li><uicontrol>Remote control</uicontrol> _fixme_ xref</li>
 			</ul>
 		</p>
     <p>A status line at the bottom of the class tab contains icons indicating modes active in the class: _fixme_</p>
