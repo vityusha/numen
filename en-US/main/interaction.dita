@@ -2,8 +2,8 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="interaction" xml:lang="en-US">
-    <title>Взаимодействие с учащимися</title>
-    <conbody>  
-		<p>Основной модуль дает возможность совершать определенные действия над подключенными учащимися, описанные далее.</p>
+    <title>Interacting with students</title>
+    <conbody>
+	    <p><wintitle>Dialog Nibelung</wintitle> allows you to interact with your students in many ways. In this section we will describe several of them.</p>
 	</conbody>
 </concept>
