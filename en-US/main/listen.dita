@@ -2,18 +2,18 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="listen" xml:lang="en-US">
-    <title><keyword>Прослушка</keyword></title>
-    <conbody>  
-		<p><indexterm>прослушка</indexterm>В этом режиме преподаватель может скрытно прослушать микрофон учащегося. Для этого преподаватель должен в меню учащегося (п. <xref keyref="menu_single"/>&#160;) выбрать пункт <uicontrol>Прослушка</uicontrol>.</p>
-		<p>На изображении этого учащегося (<xref keyref="listen/icon_listen_png" type="fig"/>&#160;) появится иконка гарнитуры.</p>
-		<p>Если учащийся работает с кем-то в паре, то преподаватель прослушивает всю пару.</p>
+    <title><keyword>Listen</keyword></title>
+    <conbody>
+	    <p><indexterm>listening mode</indexterm>In this mode the teacher can listen to a student's microphone without alerting the student. Select <uicontrol>Listen</uicontrol> from the student pop-up menu (see section <xref keyref="menu_single"/>&#160;) to enable this mode.</p>
+		<p>A headset icon (<xref keyref="listen/icon_listen_png" type="fig"/>&#160;) will appear on the student panel in listening mode.</p>
+		<p>The whole conversation will be heard if the student is having a conversation with another student.</p>
         <fig id="icon_listen_png">
-            <title>Иконка прослушки учащегося</title>
+            <title>Student panel in listening mode</title>
             <image href="img/icon_listen.png" placement="break">
-                <alt>Иконка прослушки учащегося</alt>
+			  <alt>Student panel in listening mode</alt>
             </image>
-        </fig>		
-		<p>Прослушка группы в режиме <wintitle>Дискуссия</wintitle> будет описана ниже.</p>
-		<p>Для отмены прослушки учащегося нужно повторно выбрать пункт <uicontrol>Прослушка</uicontrol> в меню учащегося (п. <xref keyref="menu_single"/>&#160;).</p>
+        </fig>
+		<p>Please see section ... (_fixme_ [xref]) for listening to a group conversation in <wintitle>Discussion _fixme_</wintitle> mode.</p>
+		<p>Select <uicontrol>Listen</uicontrol> from the student pop-up menu (see section <xref keyref="menu_single"/>&#160;) again to exit the listening mode.</p>
 	</conbody>
 </concept>
