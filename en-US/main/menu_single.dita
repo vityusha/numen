@@ -17,169 +17,169 @@
         </thead>
         <tbody>
           <row>
-            <entry>Listen</entry>
+			<entry><uicontrol>Listen</uicontrol> see (_fixme_ xref)</entry>
             <entry><image href="img/menu/listen.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>Conversation</entry>
+			<entry><uicontrol>Conversation</uicontrol> see (_fixme_ xref)</entry>
             <entry><image href="img/menu/talk.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>Mute microphone</entry>
+			<entry><uicontrol>Mute microphone</uicontrol> see (_fixme_ xref)</entry>
             <entry><image href="img/menu/micoff.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>Record</entry>
+			<entry><uicontrol>Record</uicontrol> see (_fixme_ xref)</entry>
             <entry><image href="img/menu/record.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>Record conversation</entry>
+			<entry><uicontrol>Record conversation</uicontrol> see (_fixme_ xref)</entry>
             <entry><image href="img/menu/recordD.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>Message</entry>
+			<entry><uicontrol>Message</uicontrol> see (_fixme_ xref)</entry>
             <entry><image href="img/menu/message.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>Homework</entry>
+			<entry><uicontrol>Homework</uicontrol> see (_fixme_ xref)</entry>
             <entry><image href="img/menu/homework.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>Screen thumbnail</entry>
+			<entry><uicontrol>Screen thumbnail</uicontrol> see (_fixme_ xref)</entry>
             <entry><image href="img/menu/monitor.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>Web cam</entry>
+			<entry><uicontrol>Web cam</uicontrol> see (_fixme_ xref)</entry>
             <entry><image href="img/menu/webcam.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>Remote control</entry>
+			<entry><uicontrol>Remote control</uicontrol> see (_fixme_ xref)</entry>
             <entry><image href="img/menu/remotedesktop.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>Lock input</entry>
+			<entry><uicontrol>Lock input</uicontrol> see (_fixme_ xref)</entry>
             <entry><image href="img/menu/keyboard.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>Lock computer</entry>
+			<entry><uicontrol>Lock computer</uicontrol> see (_fixme_ xref)</entry>
             <entry><image href="img/menu/lock.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>Terminate process</entry>
+			<entry><uicontrol>Terminate process</uicontrol> see (_fixme_ xref)</entry>
             <entry><image href="img/menu/stop.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>Internet off</entry>
+			<entry><uicontrol>Internet off</uicontrol> see (_fixme_ xref)</entry>
             <entry><image href="img/menu/disableinternet.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>Removable media off</entry>
+			<entry><uicontrol>Removable media off</uicontrol> see (_fixme_ xref)</entry>
             <entry><image href="img/menu/usb_minus.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>Launch application (?) _fixme_</entry>
+			<entry><uicontrol>Launch application</uicontrol> see (_fixme_ xref)</entry>
             <entry><image href="img/menu/runapp.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry namest="COLSPEC0" nameend="COLSPEC1"><b>Power control</b></entry>
+			<entry namest="COLSPEC0" nameend="COLSPEC1"><uicontrol>Power control</uicontrol> see (_fixme_ xref)</entry>
           </row>
           <row>
-            <entry>- Log out</entry>
+			<entry>- <uicontrol>Log out</uicontrol></entry>
             <entry><image href="img/menu/logoff.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>- Power off</entry>
+			<entry>- <uicontrol>Power off</uicontrol></entry>
             <entry><image href="img/menu/poweroff.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>- Reboot</entry>
+			<entry>- <uicontrol>Reboot</uicontrol></entry>
             <entry><image href="img/menu/reboot.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>- Standby</entry>
+			<entry>- <uicontrol>Standby</uicontrol></entry>
             <entry><image href="img/menu/standby.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>- Power on</entry>
+			<entry>- <uicontrol>Power on</uicontrol></entry>
             <entry><image href="img/menu/poweron.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry namest="COLSPEC0" nameend="COLSPEC1"><b>Score</b></entry>
+			<entry namest="COLSPEC0" nameend="COLSPEC1"><uicontrol>Score</uicontrol> see (_fixme_ xref)</entry>
           </row>
           <row>
-            <entry>- None</entry>
+			<entry>- <uicontrol>None</uicontrol></entry>
             <entry></entry>
           </row>
           <row>
-            <entry>- 1</entry>
+			<entry>- <uicontrol>1</uicontrol></entry>
             <entry><image href="img/menu/grade1.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>- 2</entry>
+			<entry>- <uicontrol>2</uicontrol></entry>
             <entry><image href="img/menu/grade2.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>- 3</entry>
+			<entry>- <uicontrol>3</uicontrol></entry>
             <entry><image href="img/menu/grade3.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>- 4</entry>
+			<entry>- <uicontrol>4</uicontrol></entry>
             <entry><image href="img/menu/grade4.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>- 5</entry>
+			<entry>- <uicontrol>5</uicontrol></entry>
             <entry><image href="img/menu/grade5.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>- Custom entry field (this field shows up whenever maximum lesson score for the class set in _fixme_ [xref] is not equal to 5)</entry>
+            <entry>- Custom entry field (this field shows up whenever maximum lesson score for the class set in Teacher properties _fixme_ [xref] is not equal to 5)</entry>
             <entry></entry>
           </row>
           <row>
-            <entry><b>Set group</b></entry>
+			<entry><uicontrol>Set group</uicontrol> see (_fixme_ xref)</entry>
             <entry><image href="img/menu/groups.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>- None</entry>
+			<entry>- <uicontrol>None</uicontrol></entry>
             <entry></entry>
           </row>
           <row>
-            <entry>- Group A</entry>
+			<entry>- <uicontrol>Group A</uicontrol></entry>
             <entry><image href="img/menu/a.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>- Group B</entry>
+			<entry>- <uicontrol>Group B</uicontrol></entry>
             <entry><image href="img/menu/b.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>- Group C</entry>
+			<entry>- <uicontrol>Group C</uicontrol></entry>
             <entry><image href="img/menu/c.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>- Group D</entry>
+			<entry>- <uicontrol>Group D</uicontrol></entry>
             <entry><image href="img/menu/d.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>- Group E</entry>
+			<entry>- <uicontrol>Group E</uicontrol></entry>
             <entry><image href="img/menu/e.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>- Group F</entry>
+			<entry>- <uicontrol>Group F</uicontrol></entry>
             <entry><image href="img/menu/f.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry><b>Student profile</b></entry>
+			<entry><uicontrol>Student profile</uicontrol> see (_fixme_ xref)</entry>
             <entry><image href="img/menu/profile.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>Name</entry>
+			<entry><uicontrol>Name</uicontrol></entry>
             <entry><image href="img/menu/setname.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>Set image _fixme_(?)</entry>
+			<entry><uicontrol>Set image _fixme_(?)</uicontrol></entry>
             <entry><image href="img/menu/setimage.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>Set photo</entry>
+			<entry><uicontrol>Set photo</uicontrol></entry>
             <entry><image href="img/menu/setphoto.png" placement="break" width="16" align="center"/></entry>
           </row>
         </tbody>
