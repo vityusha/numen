@@ -2,36 +2,36 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="menu_group" xml:lang="en-US">
-    <title>Меню группы</title>
-    <conbody>  
-        <p>Меню группы позволяет одновременно работать со всеми учащимися, входящими в определенную группу.</p>
-		<p>Чтобы открыть это меню, преподаватель должен щелкнуть левой кнопкой мышки на закладке нужной группы, раскрыв тем самым меню группы (<xref keyref="menu_group/menu_group_png" type="fig"/>&#160;).</p>
+    <title>Group tab</title>
+    <conbody>
+        <p>A group tab allows you to perform certain actions to all the students who are members of a particular group.</p>
+	   <p>Click on the group tab (<uicontrol>A...J</uicontrol>) to open the group tab menu (<xref keyref="menu_group/menu_group_png" type="fig"/>&#160;).</p>
 		<fig id="menu_group_png">
-            <title>Меню группы</title>
+            <title>Group tab</title>
             <image href="img/menu_group.png" placement="break">
-                <alt>Меню группы</alt>
+                <alt>Group tab</alt>
             </image>
         </fig>
-		<p>Меню группы содержит кнопки:
+		<p>Group tab menu buttons:
 			<ul>
-				<li><uicontrol>Взаимодействие</uicontrol></li>
-				<li><uicontrol>Управление PC</uicontrol></li>
-				<li><uicontrol>Задание</uicontrol></li>
-				<li><uicontrol>Медиа источники</uicontrol></li>
+				<li><uicontrol>Interact</uicontrol> _fixme_ xref</li>
+				<li><uicontrol>Remote control</uicontrol> _fixme_ xref</li>
+				<li><uicontrol>Assignment (activity? - _fixme_)</uicontrol> _fixme_ xref</li>
+				<li><uicontrol>Media sources</uicontrol> _fixme_ xref</li>
 			</ul>
 		</p>
-    <p>В нижней части области группы находится строка состояния режимов группы, в которой отображается включение основных режимов:</p>
+    <p>A status line at the bottom of the tab contains icons indicating modes active for the current group:</p>
 			<ul>
-				<li>Режим разговора с учащимися группы (п. <xref keyref="dialog"/>&#160;)</li>
-				<li>Отключение микрофона у учащихся группы (п. <xref keyref="disable_microphone"/>&#160;)</li>
-				<li>Запуск программ на компьютерах учащихся группы (п. <xref keyref="run_programs"/>&#160;)</li>
-				<li>Режим чата в группе (п. <xref keyref="chat"/>&#160;)</li>
-				<li>Блокировка ввода на компьютерах учащихся группы (п. <xref keyref="lock_input"/>&#160;)</li>
-				<li>Блокировка компьютеров учащихся группы (п. <xref keyref="lock_pc"/>&#160;)</li>
-				<li>Управление приложениями на компьютерах учащихся группы (п. <xref keyref="applications_management"/>&#160;)</li>
-				<li>Управление доступом в интернет (п. <xref keyref="internet_control"/>&#160;)</li>
-				<li>Отключение съемных носителей (п. <xref keyref="disable_removable"/>&#160;)</li>
+				<li>Conversation (section <xref keyref="dialog"/>&#160;)</li>
+				<li>Mute microphones (section <xref keyref="disable_microphone"/>&#160;)</li>
+				<li>Launch software (section <xref keyref="run_programs"/>&#160;)</li>
+				<li>Group chat (section <xref keyref="chat"/>&#160;)</li>
+				<li>Input lock (section <xref keyref="lock_input"/>&#160;)</li>
+				<li>Lock computers (section <xref keyref="lock_pc"/>&#160;)</li>
+				<li>Application management (section <xref keyref="applications_management"/>&#160;)</li>
+				<li>Internet access control (section <xref keyref="internet_control"/>&#160;)</li>
+				<li>Disable removable media (section <xref keyref="disable_removable"/>&#160;)</li>
 			</ul>
-    <p>Если какой-либо из этих режимов активен для группы, то соответствующая иконка в строке статуса выделяется ярким цветом.</p>
+			<p>An inactive mode has the corresponding icon grayed out, and a colorful one otherwise.</p>
     </conbody>
 </concept>
