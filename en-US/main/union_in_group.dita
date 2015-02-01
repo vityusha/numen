@@ -2,17 +2,17 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="union_in_group" xml:lang="en-US">
-    <title>Объединение учащихся в группы</title>
-    <conbody>  
-		<p>Подключенные учащиеся могут работать индивидуально, а также могут быть объединены в группы. Всего может быть создано до 10 групп одновременно.</p>
-		<p>Учащегося можно подключить к группе несколькими способами:
+    <title>Grouping of students</title>
+    <conbody>
+		<p>Students can be working on their own, or grouped together. You can create up to 10 groups in the class.</p>
+		<p>Students can be assigned to a group using one of the several methods:
 			<ul>
-				<li>щелкнуть правой кнопкой мышки на выбранном учащемся, в появившемся меню выбрать пункт <uicontrol>Задать группу</uicontrol> и затем выбрать одну из групп;</li>
-				<li>выделить несколько учащихся, щелкнуть правой кнопкой мышки на свободном месте рабочей области, в появившемся меню выбрать пункт <uicontrol>Задать группу</uicontrol> и затем выбрать одну из групп;</li>
-				<li>выделить левой кнопкой мышки требуемого учащегося или нескольких учащихся (удерживая клавишу <uicontrol>Ctrl</uicontrol>) и, не отпуская кнопку мышки, перетащить выбранных учащихся на закладку нужной группы, расположенную слева от рабочей области;</li>
-				<li>включить всех учащихся в одну группу можно, используя кнопку <uicontrol>Задать группу</uicontrol> в меню всего класса (<xref keyref="menu_class/menu_class_png" type="fig"/>&#160;).</li>
+				<li>right click on a student panel, select <uicontrol>Set group</uicontrol>, then select one of the groups;</li>
+				<li>select several students (press and hold <uicontrol>Ctrl</uicontrol> key on your keyboard, select students with your mouse, and release <uicontrol>Ctrl</uicontrol>), then right click on an empty space in the classroom console, select <uicontrol>Set group</uicontrol> from the pop-up menu, and select a group;</li>
+				<li>select several students (as above) and drag their panels to a group tab on the left;</li>
+				<li>you can also assign all the students in the class to the same group by using the <uicontrol>Set group</uicontrol> button on the class tab (<xref keyref="menu_class/menu_class_png" type="fig"/>&#160;).</li>
 			</ul>
 		</p>
-		<p>При включении учащегося в группу его изображение окрашивается цветом группы, а в модуле клиента на компьютере учащегося в строке статуса появится имя группы.</p>
+		<p>Upon successfully joining a group, student's image in the classroom console will acquire color of that group, and group name will appear in the status line of the student module window (see section _fixme_ [xref]).</p>
 	</conbody>
 </concept>
