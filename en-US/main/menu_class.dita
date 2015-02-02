@@ -22,15 +22,15 @@
     <p>A status line at the bottom of the class tab contains icons indicating modes active in the class: _fixme_</p>
 			<ul>
 				<li>Conversation (section <xref keyref="dialog"/>&#160;)</li>
-				<li>Mute microphones (section <xref keyref="disable_microphone"/>&#160;)</li>
-				<li>Launch software (section <xref keyref="run_programs"/>&#160;)</li>
+				<li>Microphones muted (section <xref keyref="disable_microphone"/>&#160;)</li>
+				<li>Launch applications (section <xref keyref="run_programs"/>&#160;)</li>
 				<li>Class chat (section <xref keyref="chat"/>&#160;)</li>
-				<li>Input block (section <xref keyref="lock_input"/>&#160;)</li>
-				<li>Lock computers (section <xref keyref="lock_pc"/>&#160;)</li>
+				<li>Input locked (section <xref keyref="lock_input"/>&#160;)</li>
+				<li>Computers locked (section <xref keyref="lock_pc"/>&#160;)</li>
 				<li>Application management (section <xref keyref="applications_management"/>&#160;)</li>
-				<li>Internet access control (section <xref keyref="internet_control"/>&#160;)</li>
-				<li>Disable removable media (section <xref keyref="disable_removable"/>&#160;)</li>
+				<li>Internet access control enabled (section <xref keyref="internet_control"/>&#160;)</li>
+				<li>Removable media disabled (section <xref keyref="disable_removable"/>&#160;)</li>
 			</ul>
-    <p>An inactive mode has the corresponding icon grayed out, and colorful otherwise.</p>
+		<p>An inactive mode has the corresponding icon grayed out, and colorful otherwise.</p>
     </conbody>
 </concept>
