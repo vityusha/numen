@@ -77,7 +77,7 @@
             <entry><image href="img/menu/usb_minus.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-			<entry><uicontrol>Launch application</uicontrol> see (_fixme_ xref)</entry>
+			<entry><uicontrol>Raise</uicontrol> see (_fixme_ xref)</entry>
             <entry><image href="img/menu/runapp.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
