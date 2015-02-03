@@ -2,22 +2,22 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="student_message" xml:lang="en-US">
-    <title>Сообщение от учащегося</title>
-    <conbody>  
-		<p>Если учащийся нажмет на кнопку <uicontrol>Сообщение</uicontrol> в модуле клиента и в появившемся окне наберет текст сообщения преподавателю, то над изображением этого учащегося, появится  текст сообщения (<xref keyref="student_message/icon_message_png" type="fig"/>&#160;).</p>
+    <title>Messages from students</title>
+    <conbody>
+		<p>Whenever a students sends a message to the teacher, this message will be displayed in a pop-up bubble over this student's panel (<xref keyref="student_message/icon_message_png" type="fig"/>&#160;).</p>
 		<fig id="icon_message_png">
-            <title>Иконка учащегося, написавшего сообщение</title>
+            <title>Message from student</title>
             <image href="img/icon_message.png" placement="break">
-                <alt>Иконка учащегося, написавшего сообщение</alt>
+                <alt>message from student</alt>
             </image>
         </fig>
-		<p>Если преподаватель два раза щелкнет левой кнопкой мыши на этом тексте, то у него на экране монитора появится окно сообщения (<xref keyref="student_message/message_answer_png" type="fig"/>&#160;), в котором преподаватель может задать вопрос учащемуся.</p>
+		<p>Double click on the pop-up message to open a window where you can answer the message (<xref keyref="student_message/message_answer_png" type="fig"/>&#160;).</p>
 		<fig id="message_answer_png">
-            <title>Окно ответа на сообщение  учащегося</title>
+            <title>Answering student message</title>
             <image href="img/message_answer.png" placement="break">
-                <alt>Окно ответа на сообщение  учащегося</alt>
+			  <alt>Answering student message</alt>
             </image>
         </fig>
-		<p>В верхнем поле будет выводиться текст сообщения от учащегося. В нижнем поле преподаватель может ввести текст своего сообщения. Для передачи сообщения адресату преподаватель должен нажать на кнопку <uicontrol>OK</uicontrol>.</p> 
+		<p>Top panel contains message from the student. Below is the text field where you can answer the message. Press <uicontrol>OK _fixme_</uicontrol> to send the message.</p>
 	</conbody>
 </concept>
