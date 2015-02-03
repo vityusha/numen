@@ -2,24 +2,24 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="chat" xml:lang="en-US">
-    <title><keyword>Чат</keyword></title>
-    <conbody>  
-		<p><indexterm>чат</indexterm>В этом режиме преподаватель может запустить чат-сессию для выбранной группы.</p>
-		<p>Чтобы открыть чат-сессию для группы, преподаватель должен в меню нужной группы (п. <xref keyref="menu_group"/>&#160;) нажать на кнопку <uicontrol>Взаимодействие</uicontrol>, а потом выбрать пункт <uicontrol>Чат</uicontrol>.</p>
-		<p>На экране монитора преподавателя появится окно чат-сессии (<xref keyref="chat/chat_main_png" type="fig"/>&#160;), содержащее закладки для групп. Справа отображаются участники чат-сессии. Слева расположено окно сообщений.</p> 
+    <title><keyword>Chat</keyword></title>
+    <conbody>
+		<p><indexterm>chat</indexterm>This mode can be used to start a chat session in the group.</p>
+		<p>Press <uicontrol>Activity</uicontrol> button in selected group tab (see section <xref keyref="menu_group"/>&#160;), followed by selecting <uicontrol>Chat</uicontrol> from the group menu to start a group chat session.</p>
+		<p>A chat session window (<xref keyref="chat/chat_main_png" type="fig"/>&#160;) will appear on your screen. The window has group tabs along its top border for quick switching between group chat sessions. Message panel is on the left, while list of chat participants is on the right.</p>
 		<fig id="chat_main_png">
-            <title>Окно чат-сессии</title>
+            <title>Chat session window</title>
             <image href="img/chat_main.png" placement="break">
-                <alt>Окно чат-сессии</alt>
+			  <alt>Chat session window</alt>
             </image>
-        </fig>		
-		<p>Для начала чат-сессии преподаватель должен нажать на кнопку <uicontrol>Старт</uicontrol> (название ее поменяется на <uicontrol>Стоп</uicontrol>), при этом на компьютерах членов группы запустится окно чат-сессии.</p> 
-		<note type="important">Обратите внимание, что в группах, где запущена чат-сессия, имя группы на соответствующей закладке выводится красным цветом.</note>
-		<p>Для того чтобы послать сообщение, нужно набрать текст в нижнем поле и нажать на кнопку <uicontrol>Послать</uicontrol>.</p>
-		<p>Для того чтобы послать сообщение всем группам, в которых запущена чат-сессия, нужно поставить галочку рядом с пунктом <uicontrol>Послать сообщение всем активным группам</uicontrol>, набрать текст и нажать на кнопку <uicontrol>Послать</uicontrol>.</p>
-		<p>Нажатие на кнопку <uicontrol>Очистить</uicontrol> приведет к очистке окна сообщений.</p>		
-		<p>Если нажать на кнопку <uicontrol>Сохранить</uicontrol>, то можно сохранить все сообщения активной группы в текстовой файл на жесткий диск преподавателя.</p>	
-		<p>Чтобы закончить чат-сессию, надо нажать на кнопку <uicontrol>Стоп</uicontrol>.</p>
-		<p>Для того чтобы закрыть окно чат-сессии, нужно нажать на кнопку <uicontrol>Закрыть</uicontrol>. При этом будет предложено остановить чат-сессии для активных групп.</p>
+        </fig>
+	   <p>Press the <uicontrol>Start</uicontrol> button to activate a chat session (at which point <uicontrol>Start</uicontrol> button will be replaced with a <uicontrol>Stop</uicontrol> button). A chat window will open on every group member screen.</p>
+	   <note type="important">Please note that groups that have an active chat session will have their names displayed on their tabs in red color.</note>
+	   <p>Enter your message into the text field immediately below the <uicontrol>Messages</uicontrol> panel and press <uicontrol>Send</uicontrol> button to send a message to the chat session.</p>
+		<p>Check the <uicontrol>Send message to all active groups</uicontrol> box before pressing <uicontrol>Send</uicontrol> to send a message to all groups that have a chat session active.</p>
+		<p>Use the <uicontrol>Clear</uicontrol> button to clear the message panel.</p>
+		<p>Use the <uicontrol>Save</uicontrol> button to save a text log of the chat session to your hard drive.</p>
+		<p>Use the <uicontrol>Stop</uicontrol> button to finish the current session.</p>
+		<p>Press <uicontrol>Close</uicontrol> button to close the <wintitle>Chat</wintitle> window. At this point you will be offered to close all active chat sessions.</p>
 	</conbody>
 </concept>
