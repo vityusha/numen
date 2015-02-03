@@ -37,7 +37,7 @@
 			<ul>
 				<li><uicontrol>Shortcut name</uicontrol> – shortcut title that will be displayed in the application list;</li>
 				<li><uicontrol>Command line</uicontrol>;</li>
-				<li><uicontrol>Also stop when application exits</uicontrol> – list of applications (processes?) _fixme_ that will also be terminated when this application is closed (see section <xref keyref="terminate_remote_process"/>&#160;).</li>
+				<li><uicontrol>Also stop when application exits</uicontrol> – list of applications that will also be terminated when this application is closed (see section <xref keyref="terminate_remote_process"/>&#160;).</li>
 			</ul>
 		</p>
 		<fig id="run_program_add_png">
