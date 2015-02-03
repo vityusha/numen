@@ -56,6 +56,10 @@
 							<entry><userinput>Admin</userinput></entry>
 							<entry> - keyboard input</entry>
 						</row>
+						<row>
+							<entry><uicontrol><shortcut>Ctrl+Enter</shortcut></uicontrol></entry>
+							<entry> - keyboard shortcut</entry>
+						</row>
 					</tbody>
 				</tgroup>
 			</table>
