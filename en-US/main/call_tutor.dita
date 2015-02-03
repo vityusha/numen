@@ -2,17 +2,17 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="call_tutor" xml:lang="en-US">
-    <title>Вызов преподавателя</title>
-    <conbody>  
-		<p>Если учащийся нажмет на кнопку <uicontrol>Вызов учителя</uicontrol> в модуле клиента, то над изображением этого учащегося, появятся восклицательный знак и текст <b><msgph>"Помогите!"</msgph></b> (<xref keyref="call_tutor/icon_call_png" type="fig"/>&#160;). Кроме того, на изображении этого учащегося появится иконка телефонной трубки.</p>
+    <title>Students calling for help</title>
+    <conbody>
+	    <p>A <b><msgph>Help me!</msgph></b> pop-up message (<xref keyref="call_tutor/icon_call_png" type="fig"/>&#160;) will appear over a student panel whenever this student presses <uicontrol>Call teacher _fixme_(?)</uicontrol> button in the student module. The student's icon will also change to a green phone receiver.</p>
 		<fig id="icon_call_png">
-            <title>Иконка учащегося, вызывающего преподавателя</title>
+            <title>Student calling for help</title>
             <image href="img/icon_call.png" placement="break">
-                <alt>Иконка учащегося, вызывающего преподавателя</alt>
+			  <alt>Student calling for help</alt>
             </image>
-        </fig>		
-		<p>Если преподаватель два раза щелкнет левой кнопкой мыши на этом тексте, то у него на экране монитора появится окно сообщения (<xref keyref="message/message_class_png" type="fig"/>&#160;), в котором преподаватель может задать вопрос учащемуся.</p>
-		<p>Если преподаватель просто щелкнет левой кнопкой мышки на этом учащемся, то исчезнут данное сообщение и иконка телефонной трубки, а преподаватель автоматически войдет в режим диалога с вызывающим учащимся.</p>
+        </fig>
+	   <p>Click on the student panel to dismiss the message and start a conversation _fixme_ [xref] with the student.</p>
+
+        <p>Double click on the student panel to open a messaging window (<xref keyref="message/message_class_png" type="fig"/>&#160;) addressed to the student where you can ask what is the nature of the problem.</p>
 	</conbody>
 </concept>
-
