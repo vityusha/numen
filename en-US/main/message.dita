@@ -2,20 +2,23 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="message" xml:lang="en-US">
-    <title>Сообщение</title>
-    <conbody>  
-		<p>В этом режиме преподаватель может послать сообщение выбранному учащемуся, группе или всему классу.</p>
-		<p>Для посылки сообщения одному учащемуся преподаватель должен в меню учащегося (п. <xref keyref="menu_single"/>&#160;) выбрать пункт <uicontrol>Сообщение</uicontrol>.</p>
-		<p>Для посылки сообщения группе преподаватель должен в меню нужной группы (п. <xref keyref="menu_group"/>&#160;) нажать на кнопку <uicontrol>Взаимодействие</uicontrol>, а потом выбрать пункт <uicontrol>Сообщение</uicontrol>.</p>
-		<p>Для посылки сообщения всему классу преподаватель должен в меню всего класса (п. <xref keyref="menu_class"/>&#160;) нажать на кнопку <uicontrol>Взаимодействие</uicontrol>, а потом выбрать пункт <uicontrol>Сообщение</uicontrol>.</p>		
-		<p>При этом на экране монитора преподавателя появится окно ввода сообщения (<xref keyref="message/message_class_png" type="fig"/>&#160;), в котором будет указано, кому предназначается это сообщение.</p> 
+    <title>Messaging</title>
+    <conbody>
+		<p>Use this mode to send messages to a student, group, or the whole class.</p>
+		<ul>
+			<li>Select <uicontrol>Message</uicontrol> in the pop-up student menu (see section <xref keyref="menu_single"/>&#160;) to send a message to this particular student.</li>
+			<li>Press <uicontrol>Activity</uicontrol> button in a group tab menu (see section <xref keyref="menu_group"/>&#160;) and then select <uicontrol>Message</uicontrol> to send a message to the group.</li>
+			<li>Likewise, press <uicontrol>Activity</uicontrol> button in the class tab menu (see section <xref keyref="menu_class"/>&#160;), and then select <uicontrol>Message</uicontrol> to send a message to the whole class.</li>
+		</ul>
+		<p>A message window (<xref keyref="message/message_class_png" type="fig"/>&#160;) will appear on your screen that will note the recipient.</p>
+
 		<fig id="message_class_png">
-            <title>Окно сообщения</title>
+            <title>Message window</title>
             <image href="img/message_class.png" placement="break">
-                <alt>Окно сообщения</alt>
+			  <alt>Message window</alt>
             </image>
-        </fig>		
-		<note type="tip">Для перехода на новую строку в тексте сообщения, нажмите одновременно <uicontrol><shortcut>Ctrl+Enter</shortcut></uicontrol>.</note>
-		<p>Для передачи сообщения адресату преподаватель должен ввести текст и нажать на кнопку <uicontrol>OK</uicontrol>.</p> 
+        </fig>
+	   <p>Enter your message and press <uicontrol>OK _fixme_</uicontrol> button.</p>
+	   <note type="tip">Use <uicontrol><shortcut>Ctrl+Enter</shortcut></uicontrol> to start a new line in the message text.</note>
 	</conbody>
 </concept>
