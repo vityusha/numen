@@ -48,7 +48,7 @@
                         <entry><image href="img/menu/tutorsettings.png" placement="break" width="16" align="center"/></entry>
                     </row>
 					<row>
-                        <entry>Quit</entry>
+                        <entry>Exit</entry>
                         <entry><image href="img/menu/exit.png" placement="break" width="16" align="center"/></entry>
                     </row>
                 </tbody>
@@ -114,7 +114,7 @@
                 <colspec colname="COLSPEC1" colwidth="20*"/>
                 <thead>
                     <row>
-					<entry colname="COLSPEC0" align="center"><uicontrol>Log</uicontrol> menu items</entry>
+					<entry colname="COLSPEC0" align="center"><uicontrol>Logbook</uicontrol> menu items</entry>
                         <entry colname="COLSPEC1" align="center">Icon</entry>
                     </row>
                 </thead>
@@ -156,15 +156,15 @@
                 </thead>
                 <tbody>
                     <row>
-                        <entry>Toolbox (show / hide)</entry>
+                        <entry>Toolbar (show / hide)</entry>
                         <entry></entry>
                     </row>
 					<row>
-					<entry>Status line (show / hide)</entry>
+					<entry>Status bar (show / hide)</entry>
                         <entry></entry>
                     </row>
 					<row>
-                        <entry>Toolbox settings</entry>
+                        <entry>Toolbar settings</entry>
                         <entry><image href="img/menu/CustomizeHS.png" placement="break" width="16" align="center"/></entry>
                     </row>
                 </tbody>
@@ -240,11 +240,11 @@
                 </thead>
                 <tbody>
                     <row>
-                        <entry>Website</entry>
+                        <entry>Product Website</entry>
                         <entry><image href="img/menu/url.png" placement="break" width="16" align="center" /></entry>
                     </row>
 					<row>
-                        <entry>Contact</entry>
+                        <entry>Contact Us</entry>
                         <entry><image href="img/menu/mail.png" placement="break" width="16" align="center" /></entry>
                     </row>
 					<row>

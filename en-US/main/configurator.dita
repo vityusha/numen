@@ -2,7 +2,7 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="configurator" xml:lang="en-US">
-    <title><keyword>Nibelung Configurator</keyword></title>
+    <title>Configure student modules</title>
     <conbody>
 		<p><indexterm>Configurator</indexterm><wintitle>Nibelung Configurator</wintitle> is a <wintitle>Dialog Nibelung</wintitle> application for remotely configuring student modules from the teacher workstation. It will also allow you to change some additional settings of the teacher module.</p>
         <fig id="configurator_png">

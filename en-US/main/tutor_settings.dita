@@ -5,7 +5,7 @@
     <title>Teacher settings</title>
     <conbody>
 		<p>Select <menucascade><uicontrol>File</uicontrol><uicontrol>Teacher settings</uicontrol></menucascade> from the menu to change settings for the current teacher account.</p>
-		<p>A <wintitle>teacher settings</wintitle> window (<xref keyref="tutor_settings/tutor_settings_png" type="fig"/>&#160;) will appear on your screen, where you can set parameters for a new lesson. Check the <uicontrol>Start new lesson automatically</uicontrol> box if you would like to start a new lesson upon successful login without having to start it manually via the <uicontrol>Log</uicontrol> menu.</p>
+		<p>A <wintitle>teacher settings</wintitle> window (<xref keyref="tutor_settings/tutor_settings_png" type="fig"/>&#160;) will appear on your screen, where you can set parameters for a new lesson. Check the <uicontrol>Start new lesson automatically</uicontrol> box if you would like to start a new lesson upon successful login without having to start it manually via the <uicontrol>Logbook</uicontrol> menu.</p>
 		<fig id="tutor_settings_png">
             <title><wintitle>Teacher settings</wintitle> window</title>
             <image href="img/tutor-settings.png" placement="break">

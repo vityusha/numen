@@ -22,7 +22,7 @@
 	   <p>The <uicontrol>Output file</uicontrol> filed will be filled automatically offering to save converted file in the teacher folder. You can change the output filename and path by pressing the <uicontrol>Browse</uicontrol> button.</p>
 		<p>You can adjust size of the output file relative to the original by using the <uicontrol>Change  size</uicontrol> panel. You can also select part of the video to be converted. The first and the last frames of the selected video segment are shown in icons on the left and the right of the slider control.</p>
 		<p>Press the <uicontrol>Start</uicontrol> button to begin conversion.</p>
-		<p>A progress bar will appear. Left click on the <uicontrol>Выполнение _fixme_</uicontrol> field to show or hide a window with additional information about conversion process (<xref keyref="menu_tools/video_convert_work_png" type="fig"/>&#160;).</p>
+		<p>A progress bar will appear. Left click on the <uicontrol>Output</uicontrol> field to show or hide a window with additional information about conversion process (<xref keyref="menu_tools/video_convert_work_png" type="fig"/>&#160;).</p>
         <fig id="video_convert_work_png">
             <title><wintitle>Video converter</wintitle> window showing process output</title>
             <image href="img/video-convert-work.png" placement="break">

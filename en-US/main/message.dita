@@ -18,7 +18,7 @@
 			  <alt>Message window</alt>
             </image>
         </fig>
-	   <p>Enter your message and press <userinput>Enter</userinput> on your keyboard or the <uicontrol>OK _fixme_</uicontrol> button to send it.</p>
+	   <p>Enter your message and press <userinput>Enter</userinput> on your keyboard or the <uicontrol>Send</uicontrol> button to send it.</p>
 	   <note type="tip">Use <uicontrol><shortcut>Ctrl+Enter</shortcut></uicontrol> to start a new line within the message text.</note>
 	</conbody>
 </concept>
