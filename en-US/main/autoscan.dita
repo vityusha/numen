@@ -2,9 +2,9 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="autoscan" xml:lang="en-US">
-    <title><keyword>Автообзор</keyword></title>
-    <conbody>  
-		<p><indexterm>автообзор</indexterm>В этом режиме преподаватель может последовательно видеть копии экранов учащихся и одновременно слышать их. Если необходимо просмотреть весь класс, преподаватель выбирает соответствующий пункт <uicontrol>Автообзор</uicontrol> в меню всего класса (<xref keyref="menu_class/menu_class_png" type="fig"/>&#160;). Если преподавателю нужно просмотреть только группу учащихся, он выбирает соответствующий пункт <uicontrol>Автообзор</uicontrol> в меню этой группы (<xref keyref="menu_group/menu_group_png" type="fig"/>&#160;).</p>
+    <title><keyword>Autoscan</keyword></title>
+    <conbody>
+		<p><indexterm>autoscan</indexterm>В этом режиме преподаватель может последовательно видеть копии экранов учащихся и одновременно слышать их. Если необходимо просмотреть весь класс, преподаватель выбирает соответствующий пункт <uicontrol>Автообзор</uicontrol> в меню всего класса (<xref keyref="menu_class/menu_class_png" type="fig"/>&#160;). Если преподавателю нужно просмотреть только группу учащихся, он выбирает соответствующий пункт <uicontrol>Автообзор</uicontrol> в меню этой группы (<xref keyref="menu_group/menu_group_png" type="fig"/>&#160;).</p>
 		<p>На экране монитора преподавателя будут последовательно появляться копии экранов учащихся (<xref keyref="autoscan/autoscan_png" type="fig"/>&#160;). В  заголовке окна будет отображаться фамилия контролируемого учащегося.</p>
 		<fig id="autoscan_png">
             <title>Копия экрана учащегося</title>
