@@ -2,19 +2,19 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="thumbnail" xml:lang="en-US">
-    <title><keyword>Эскиз экрана</keyword></title>
-    <conbody>  
-		<p><indexterm>эскиз экрана</indexterm>В этом режиме преподаватель может увидеть копию экрана выбранного учащегося, группы или всего класса. Она появляется вместо основного изображения учащегося (<xref keyref="thumbnail/eskiz_png" type="fig"/>&#160;) и обновляется с периодичностью один раз в несколько секунд.</p>
+    <title><keyword>Screen thumbnails</keyword></title>
+    <conbody>
+		<p><indexterm>screen thumbnails</indexterm>Screen thumbnails mode allows you to monitor screen thumbnails of the whole class, group, or selected students. Screen thumbnails are displayed in the student panel (<xref keyref="thumbnail/eskiz_png" type="fig"/>&#160;) and will be updated every few seconds.</p>
 		<fig id="eskiz_png">
-            <title>Эскиз экрана учащегося</title>
+            <title>Student panel with screen thumbnail</title>
             <image href="img/eskiz.png" placement="break">
-                <alt>Эскиз экрана учащегося</alt>
+			  <alt>Student panel with screen thumbnail</alt>
             </image>
         </fig>
-		<p>Для получения эскиза экрана одного учащегося преподаватель должен в меню учащегося (п. <xref keyref="menu_single"/>&#160;) выбрать пункт <uicontrol>Эскиз экрана</uicontrol>.</p>
-		<p>Для получения эскиза экрана у группы учащихся преподаватель должен в меню нужной группы (п. <xref keyref="menu_group"/>&#160;) нажать на кнопку <uicontrol>Управление PC</uicontrol>, а потом выбрать пункт <uicontrol>Эскиз экрана</uicontrol>.</p>
-		<p>Для получения эскиза экрана у всего класса преподаватель должен в меню всего класса (п. <xref keyref="menu_class"/>&#160;) нажать на кнопку <uicontrol>Управление PC</uicontrol>, а потом выбрать пункт <uicontrol>Эскиз экрана</uicontrol>.</p> 
-		<p>Если щелкнуть два раза на эскизе экрана учащегося, на экране монитора преподавателя откроется окно удаленного управления компьютером этого учащегося (<xref keyref="remote_control/remote_control_png" type="fig"/>&#160;).</p>
-		<p>Чтобы отключить получение эскиза экрана, нужно повторить приведенные выше действия.</p>
+	   <p>Select <uicontrol>Screen thumbnail</uicontrol> from the student menu (see section <xref keyref="menu_single"/>&#160;) to view thumbnail for a particular student.</p>
+	   <p>Press <uicontrol>Remote control</uicontrol> button in the group tab menu (see <xref keyref="menu_group"/>&#160;) and select <uicontrol>Screen thumbnail</uicontrol> to view thumbnails for this group.</p>
+	   <p>Press <uicontrol>Remote control</uicontrol> button in the class tab menu (see <xref keyref="menu_class"/>&#160;) and select <uicontrol>Screen thumbnail</uicontrol> to view thumbnails for the whole class.</p>
+		<note type="tip">Double click on the student panel displaying a screen thumbnail to open a remote control window for this student's workstation (<xref keyref="remote_control/remote_control_png" type="fig"/>&#160;).</note>
+		<p>Repeat actions described above to disable display of screen thumbnails.</p>
 	</conbody>
 </concept>
