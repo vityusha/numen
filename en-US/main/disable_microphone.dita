@@ -2,8 +2,8 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="disable_removable" xml:lang="en-US">
-    <title>Отключить микрофон</title>
-    <conbody>  
-		<p>В этом режиме преподаватель может отключить микрофон у выбранного учащегося, группы или всего класса. При этом сами учащиеся не смогут самостоятельно включить микрофон.</p>
+    <title>Mute microphone</title>
+    <conbody>
+		<p>In this mode the teacher can mute microphones of an individual student, group, or the whole class. The students will not be able to override this action.</p>
 	</conbody>
 </concept>
