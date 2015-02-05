@@ -2,12 +2,12 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="lock_input" xml:lang="en-US">
-    <title>Заблокировать ввод</title>
-    <conbody>  
-		<p>В этом режиме преподаватель может заблокировать клавиатуру и мышку выбранного учащегося, группы или всего класса.</p>
-		<p>Для блокировки клавиатуры и мышки одного учащегося преподаватель должен в меню учащегося (п. <xref keyref="menu_single"/>&#160;) выбрать пункт <uicontrol>Заблокировать ввод</uicontrol>.</p>
-		<p>Для блокировки клавиатуры и мышки у группы учащихся преподаватель должен в меню нужной группы (п. <xref keyref="menu_group"/>&#160;) нажать на кнопку <uicontrol>Управление PC</uicontrol>, а потом выбрать пункт <uicontrol>Заблокировать ввод</uicontrol>.</p>
-		<p>Для блокировки клавиатуры и мышки у всего класса преподаватель должен в меню всего класса (п. <xref keyref="menu_class"/>&#160;) нажать на кнопку <uicontrol>Управление PC</uicontrol>, а потом выбрать пункт <uicontrol>Заблокировать ввод</uicontrol>.</p> 
-		<p>Чтобы разблокировать клавиатуру и мышку нужно повторить приведенные выше действия.</p>
+    <title>Lock input</title>
+    <conbody>
+		<p>Lock input mode allows the teacher to block keyboard and mouse input for individual student workstations, group, or the whole class.</p>
+		<p>Select <uicontrol>Lock input</uicontrol> from the student menu (see <xref keyref="menu_single"/>&#160;) to lock input for selected student.</p>
+		<p>Press <uicontrol>Remote control</uicontrol> in the group tab menu (see <xref keyref="menu_group"/>&#160;) and select <uicontrol>Lock input</uicontrol> to lock input for workstations in the group.</p>
+		<p>Press <uicontrol>Remote control</uicontrol> button in the class tab menu (see <xref keyref="menu_class"/>&#160;) and select <uicontrol>Lock input</uicontrol> to lock input for all workstations in the class.</p>
+		<p>Repeat actions described above to release the lock.</p>
 	</conbody>
 </concept>
