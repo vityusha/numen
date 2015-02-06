@@ -19,15 +19,15 @@
 
 		<p>Whenever a class or group recording is engaged the red dot next to <uicontrol>Record</uicontrol> item in the corresponding menu changes to a check mark.</p>
 		<p>Repeat the actions described above to stop the recording.</p>
-		<p>Student recordings are saved as <b>MP3</b> files in the <filepath>Waves</filepath> sub-folder of the teacher folder. For example, <filepath>Jane Austen\Waves\ENG101\05.02.2011\John Doe-13-5.mp3</filepath>, where
+		<p>Student recordings are saved as <b>MP3</b> files in the <filepath>Waves</filepath> sub-folder of the teacher folder. For example, <filepath>Jane Austen\Waves\ENG101\2015-02-06\John Doe (13-05).mp3</filepath>, where
 			<ul>
-				<li><uicontrol>Jane Austen</uicontrol> – teacher name,</li>
+				<li><uicontrol>John Doe</uicontrol> – teacher name,</li>
 				<li><uicontrol>ENG101</uicontrol> – class,</li>
-				<li><uicontrol>05.02.2011</uicontrol> – recording date _fixme_(?),</li>
+				<li><uicontrol>2015-02-06</uicontrol> – recording date in form year-month-day,</li>
 				<li><uicontrol>John Doe</uicontrol> – student name,</li>
-				<li><uicontrol>13-5</uicontrol> – recording time in hh-mm 24-hour format.</li>
+				<li><uicontrol>13-05</uicontrol> – recording time.</li>
 			</ul>
 		</p>
-		<note type="tip">If selected student is paired with another student for a conversation, both voices will be recorded in the same file. The file name will reflect this, e.g. <filepath>Cate Smith + Mike Brown (13-00).mp3</filepath>.</note>
+		<note type="tip">If selected student is paired with another student for a conversation, both voices will be recorded in the same file. The file name will reflect this, e.g. <filepath>John Doe + Mike Brown (13-00).mp3</filepath>.</note>
 	</conbody>
 </concept>

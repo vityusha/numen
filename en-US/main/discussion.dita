@@ -25,13 +25,13 @@
 		<p>Для того, чтобы установить режим работы в фиксированных парах для учащихся, входящих в определенную группу, необходимо в режиме <uicontrol>Дискуссия</uicontrol> выбрать из списка <wintitle>Способ группировки</wintitle> пункт <uicontrol>Фиксированный</uicontrol> и нажать на кнопку <uicontrol>Назначить пары</uicontrol> (<xref keyref="discussion/menu_group_3_3_2_png" type="fig"/>&#160;).</p>
 		<p>Существует возможность записи текущей дискуссии в файл. Для этого необходимо включить опцию <uicontrol>Запись в файл</uicontrol>.</p>
     <p>Файл с записью дискуссии сохраняется в формате <b>MP3</b> на жестком диске преподавателя в папке с именем преподавателя и текущего класса.</p>
-		<p>Например, <filepath>Admin\Waves\10A\05.02.2014\Группа A (12-57).mp3</filepath>, где 
+		<p>Например, <filepath>Admin\Waves\10A\2015-02-06\Группа A (12-57).mp3</filepath>, где 
 			<ul>
 				<li><uicontrol>Admin</uicontrol> – имя преподавателя,</li>
 				<li><uicontrol>10А</uicontrol> – название класса,</li>
-				<li><uicontrol>05.02.2014</uicontrol> – дата записи,</li>
+				<li><uicontrol>2015-02-06</uicontrol> – дата записи в формате год-месяц-день,</li>
 				<li><uicontrol>Группа A</uicontrol> – имя группы,</li>
-				<li><uicontrol>12-57</uicontrol> – время записи в формате чч-мм.</li>
+				<li><uicontrol>12-57</uicontrol> – время записи.</li>
 			</ul>
 		</p>
 		<note type="tip">Опции <uicontrol>Прослушка всей группы</uicontrol> и <uicontrol>Запись в файл</uicontrol> доступны только в режиме дискуссии всей группы.</note>
