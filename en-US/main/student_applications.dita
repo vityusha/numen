@@ -2,13 +2,12 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="student_applications" xml:lang="en-US">
-    <title>Приложения учащегося</title>
-    <conbody>  
-		<note type="important">Обратите внимание, что модуль клиента запускается по умолчанию свернутым в системный трей.</note>
-		<p>В этом режиме преподаватель может вызвать на экран монитора учащихся модуль клиента, если он свернут в системный трей, у выбранного учащегося, группы или всего класса.</p>
-		<p>Для вызова на экран монитора модуля клиента одного учащегося (п. <xref keyref="menu_single"/>&#160;) выбрать пункт <uicontrol>Приложение учащегося</uicontrol>.</p>
-		<p>Для вызова на экран монитора модуля клиента у группы учащихся преподаватель должен в меню нужной группы (п. <xref keyref="menu_group"/>&#160;) нажать на кнопку <uicontrol>Управление PC</uicontrol>, а потом выбрать пункт <uicontrol>Приложение учащегося</uicontrol>.</p>
-		<p>Для вызова на экран монитора модуля клиента у всего класса преподаватель должен в меню всего класса (п. <xref keyref="menu_class"/>&#160;) нажать на кнопку <uicontrol>Управление PC</uicontrol>, а потом выбрать пункт <uicontrol>Приложение учащегося</uicontrol>.</p> 
-		<note type="important">Обратите внимание, что по данной команде окно модуля клиента отображается поверх всех остальных окон.</note>
+    <title>Raising the student module window</title>
+    <conbody>
+		<note type="important">By default the student module window will be minimized into the system tray after the launch.</note>
+		<p>This mode allows the teacher to remotely restore student module window from the system tray and raise it on top of all other windows on the desktop. This action can be performed for the whole class, a group, or for the individual student workstations.</p>
+		<p>Select <uicontrol>Raise</uicontrol> from the student menu (see <xref keyref="menu_single"/>&#160;) to raise the window on a particular workstation.</p>
+		<p>Press <uicontrol>Remote control</uicontrol> button in the group tab menu (see <xref keyref="menu_group"/>&#160;) and select <uicontrol>Raise _fixme_ [ui]</uicontrol> to raise student module windows on all workstations in the group.</p>
+		<p>Press <uicontrol>Remote control</uicontrol> button in the class tab menu (see <xref keyref="menu_class"/>&#160;) and select <uicontrol>Raise _fixme_ [ui]</uicontrol> to raise student module windows on all workstations in the class.</p>
 	</conbody>
 </concept>
