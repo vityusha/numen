@@ -69,11 +69,11 @@
             <entry><image href="img/menu/stop.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-			<entry><uicontrol>Internet off</uicontrol> see (_fixme_ xref)</entry>
+			<entry><uicontrol>Internet access</uicontrol> see (_fixme_ xref)</entry>
             <entry><image href="img/menu/disableinternet.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-			<entry><uicontrol>Removable media off</uicontrol> see (_fixme_ xref)</entry>
+			<entry><uicontrol>Removable media</uicontrol> see (_fixme_ xref)</entry>
             <entry><image href="img/menu/usb_minus.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
