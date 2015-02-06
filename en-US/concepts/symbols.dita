@@ -42,15 +42,15 @@
 					<tbody>
 						<row>
 							<entry><wintitle>Nibelung</wintitle></entry>
-							<entry> - software and window titles are presented in  _fixme_ font</entry>
+							<entry> - software and window titles</entry>
 						</row>
 						<row>
 							<entry><uicontrol>Start</uicontrol></entry>
-							<entry> - user interface elements (menus, buttons, etc.) are presented in _fixme_ font</entry>
+							<entry> - user interface elements (menus, buttons, etc.)</entry>
 						</row>
 						<row>
 							<entry><filepath>\Nibelung\</filepath></entry>
-							<entry> - file names, paths, and references are presented in _fixme_ font</entry>
+							<entry> - file names, paths, etc.</entry>
 						</row>
 						<row>
 							<entry><userinput>Admin</userinput></entry>
@@ -59,6 +59,10 @@
 						<row>
 							<entry><uicontrol><shortcut>Ctrl+Enter</shortcut></uicontrol></entry>
 							<entry> - keyboard shortcut</entry>
+						</row>
+						<row>
+							<entry><cmdname>google.com</cmdname></entry>
+							<entry> - Internet addresses</entry>
 						</row>
 					</tbody>
 				</tgroup>
