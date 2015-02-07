@@ -2,23 +2,27 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="power_management" xml:lang="en-US">
-    <title><keyword>Управление питанием</keyword></title>
-    <conbody>  
-		<p><indexterm>управление питанием</indexterm>В этом режиме преподаватель может управлять режимами питания компьютера у выбранного учащегося, группы или всего класса.</p>		
-		<p>Преподаватель может совершить пять действий по управлению питанием удаленных компьютеров:
+    <title><keyword>Power control</keyword></title>
+    <conbody>
+		<p><indexterm>power control</indexterm>The teacher perform power/on/off, logout and reboot actions on student workstations for individual workstation, group or the whole class.</p>
+		<p>A total of five actions are available:
 			<ul>
-				<li><uicontrol>Выйти из системы</uicontrol>;</li>
-				<li><uicontrol>Выключение</uicontrol>;</li>
-				<li><uicontrol>Перезагрузка</uicontrol>;</li>
-				<li><uicontrol>Ждущий режим</uicontrol>;</li>
-				<li><uicontrol>Включить</uicontrol>.</li>
+				<li><uicontrol>Logout</uicontrol>;</li>
+				<li><uicontrol>Power off</uicontrol>;</li>
+				<li><uicontrol>Reboot</uicontrol>;</li>
+				<li><uicontrol>Standby</uicontrol>;</li>
+				<li><uicontrol>Power on</uicontrol>.</li>
 			</ul>
 		</p>
-		<note type="tip">Обратите внимание, что меню <uicontrol>Включить</uicontrol> недоступно для группы, так как выключенный компьютер не может быть членом группы.</note>
-		<p>Также пункт <uicontrol>Включить</uicontrol> действует, если сделаны соответствующие настройки компьютера учащегося, указанные выше <xref keyref="setup_net_vista"/>&#160;).</p>
-		<p>Для управления питанием компьютера одного учащегося преподаватель должен в меню учащегося (п. <xref keyref="menu_single"/>&#160;) выбрать пункт <uicontrol>Управление питанием</uicontrol> и затем выбрать соответствующий пункт подменю.</p>
-		<p>Для управления питанием компьютера у группы учащихся преподаватель должен в меню нужной группы (п. <xref keyref="menu_group"/>&#160;) выбрать пункт <uicontrol>Управление питанием</uicontrol> и затем выбрать соответствующий пункт подменю.</p>
-		<p>Для управления питанием компьютера у всего класса преподаватель должен в меню всего класса (п. <xref keyref="menu_class"/>&#160;) выбрать пункт <uicontrol>Управление питанием</uicontrol> и затем выбрать соответствующий пункт подменю.</p> 
+		<note type="tip">Please note that <uicontrol>Power on</uicontrol> action is not available for a group because a powered off computer can not be a member of any groups.</note>
+		<p>Student workstation network interface has to be set up in a certain way (see <xref keyref="setup_net_vista"/>&#160;) for the remote <uicontrol>Power on</uicontrol> to function properly.</p>
+
+		<p>Select <uicontrol>Power control</uicontrol> from the student menu (see <xref keyref="menu_single"/>&#160;) and then select appropriate item from the sub-menu to perform power control actions on a single workstation.</p>
+
+		<p>Press <uicontrol>Remote control</uicontrol> button in the group tab menu (see <xref keyref="menu_group"/>&#160;), select <uicontrol>Power control</uicontrol> and then select appropriate item from the sub-menu to perform power control actions on a group of workstations.</p>
+		<note type="tip">Please note that <uicontrol>Power on</uicontrol> action is not available for a group because a powered off computer can not be a member of any group.</note>
+
+		<p>Press <uicontrol>Remote control</uicontrol> button in the class tab menu (see <xref keyref="menu_class"/>&#160;), select <uicontrol>Power control</uicontrol> and then select appropriate item from the sub-menu to perform power control actions on all workstations.</p>
 	</conbody>
 </concept>
 
