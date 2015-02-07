@@ -28,7 +28,7 @@
 
     <note type="important">Please note that a page or site will be denied if any part of its address matches any of the denied strings. E.g. if <cmdname>example.com</cmdname> is in the list of denied URLs, then all pages that have <cmdname>example.com</cmdname> in their addresses (such as <cmdname>mobile.example.com</cmdname>, <cmdname>example.com/news</cmdname>, etc.) will be denied.</note>
 
-    <note type="important">The <uicontrol>Allow</uicontrol> and <uicontrol>Deny</uicontrol> mode are mutually exclusive, i.e. activating one will deactivate the other one. _fixme_ (?)</note>
+    <note type="important">The <uicontrol>Allow</uicontrol> and <uicontrol>Deny</uicontrol> modes are mutually exclusive, i.e. activating one will deactivate the other one. _fixme_ (?)</note>
 
     <p>Whenever the web access control mode is activated, the teacher will also be able to monitor students internet access. If a student tries to access, for example, <cmdname>example.org/news</cmdname>, then site name <cmdname>example.org</cmdname> will be displayed in his or her student panel. If a student is trying to access a denied page, the site name will be displayed in red (<xref keyref="internet_control/inetaccess_png" type="fig"/>&#160;).</p>
     <fig id="inetaccess_png">
