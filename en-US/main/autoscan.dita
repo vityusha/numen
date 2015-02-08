@@ -5,11 +5,11 @@
     <title><keyword>Autoscan</keyword></title>
     <conbody>
 	    <p><indexterm>autoscan</indexterm>This mode will help the teacher to monitor the screenshots of several students and simultaneously listen to them. Press <uicontrol>Remote control</uicontrol> button in the class tab menu (<xref keyref="menu_class/menu_class_png" type="fig"/>&#160;) and select <uicontrol>Autoscan</uicontrol> to activate autoscan mode for the whole class. Press <uicontrol>Remote control</uicontrol> button in the group tab menu (<xref keyref="menu_group/menu_group_png" type="fig"/>&#160;) and select <uicontrol>Autoscan</uicontrol> to activate autoscan mode for a group of students.</p>
-	    <p>A slide show of student screenshots will appear in the <wintitle>remote control</wintitle> window (<xref keyref="autoscan/autoscan_png" type="fig"/>&#160;). Student names will be displayed in the window title bar.</p>
+	    <p>A slide show of student screenshots will appear in the <wintitle>Remote desktop</wintitle> window (<xref keyref="autoscan/autoscan_png" type="fig"/>&#160;). Student names will be displayed in the window title bar.</p>
 		<fig id="autoscan_png">
-			<title>Remote control window in autoscan mode with a student's screenshot</title>
+			<title><wintitle>Remote desktop</wintitle> window in autoscan mode with a screenshot from student workstation</title>
             <image href="img/autoscan.png" placement="break">
-			  <alt>Remote control window in autoscan mode with a student's screenshot</alt>
+			  <alt><wintitle>Remote desktop</wintitle> window in autoscan mode with a screenshot from student workstation</alt>
             </image>
         </fig>
 		<p>Delay between the screenshots can be adjusted by pressing <uicontrol>Autoscan</uicontrol> button and selecting <uicontrol>Set delay</uicontrol>. Select delay in seconds from the menu:
