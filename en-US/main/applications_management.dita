@@ -2,24 +2,24 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="applications_management" xml:lang="en-US">
-    <title>Управление приложениями</title>
-    <conbody> 
-		<p>Преподаватель может разрешать или запрещать запуск приложений на компьютерах учащихся. Этот пункт меню доступен только для группы учащихся или для всего класса.</p>
-		<p>При выборе данного пункта меню на экране монитора преподавателя появится окно, содержащее кнопки выбора групп или всего класса, списки разрешенных и запрещенных программ (<xref keyref="applications_management/appctrl_png" type="fig"/>&#160;).</p>
-		<p>Данные списки можно сохранить на компьютере преподавателя для последующего применения, используя соответствующие кнопки <uicontrol>Открыть</uicontrol> и <uicontrol>Сохранить</uicontrol>.</p>	
+    <title>Launch control</title>
+    <conbody>
+		<p>The teacher can control which applications the students will be allowed to launch on their workstations. This mode is available only for the whole class or a group of workstations.</p>
+		<p>Upon activation of the launch control _fixme_ from the menu you will be presented with a window where you can switch class and group tabs with two application lists for each tab: allow list and deny list (<xref keyref="applications_management/appctrl_png" type="fig"/>&#160;).</p>
+		<p>You can use <uicontrol>Open</uicontrol> and <uicontrol>Save</uicontrol> buttons to save and reuse the application control lists.</p>
 		<fig id="appctrl_png">
-            <title>Окно управления приложениями</title>
+			<title><wintitle>Launch control</wintitle> _fixme_ [ui] window</title>
             <image href="img/appctrl.png" placement="break">
-                <alt>Окно управления приложениями</alt>
+			<alt><wintitle>Launch control</wintitle>window</alt>
             </image>
         </fig>
-		<p>Управление списками осуществляется при помощи кнопок <uicontrol>Поиск</uicontrol>, <uicontrol>Добавить</uicontrol> и <uicontrol>Удалить</uicontrol>.</p> 
-		<p>Имя исполняемого файла разрешенной или запрещенной программы заносится в соответствующее текстовое поле, расположенное над этими кнопками. Это имя может вводится вручную или при помощи кнопки <uicontrol>Поиск</uicontrol>. В последнем случае на экране монитора появится окно выбора программы.</p>
-		<p>Для того чтобы добавить имя исполняемого файла в соответствующий список, необходимо нажать на кнопку <uicontrol>Добавить</uicontrol>.</p>
-		<p>Для удаления программы из списка используется кнопка <uicontrol>Удалить</uicontrol>.</p>
-		<p>При нажатии на кнопку <uicontrol>Разрешить</uicontrol> на компьютерах  учащихся будет возможен запуск только тех программ, которые находятся в списке разрешенных.</p>
-		<note type="important">Обратите внимание, что данное действие не закрывает ранее запущенные программы!</note>
-		<p>При нажатии на кнопку <uicontrol>Запретить</uicontrol> на компьютерах  учащихся будет блокирован запуск программ, которые находятся в списке запрещенных.</p>
-		<note type="important">Обратите внимание, что в данном случае будут принудительно закрыты все ранее запущенные программы, находящиеся в списке запрещенных!</note>
+		<p>You can use the <uicontrol>Browse</uicontrol>, <uicontrol>Add</uicontrol> and <uicontrol>Delete</uicontrol> buttons to add and remove items to the application lists.</p>
+		<p>Use the <uicontrol>Browse</uicontrol> button to locate applications and fill in the text field immediately above the buttons. You can also enter the application executable file name into this field manually.</p>
+		<p>Use the <uicontrol>Add</uicontrol> to add application from the text field to the list.</p>
+		<p>Use the <uicontrol>Delete</uicontrol> button to remove items from the list.</p>
+		<p>Whenever <uicontrol>Allow</uicontrol> button is activated, the students will be able to launch on their workstations only those applications that are specified in the <uicontrol>Allowed applications</uicontrol> list.</p>
+		<note type="important">Please note that activating <uicontrol>Allow</uicontrol> mode will not close any already running applications.</note>
+		<p>Whenever <uicontrol>Deny</uicontrol> button is activated, the students will not be able to launch on their workstations any application specified in the <uicontrol>Denied applications</uicontrol> list.</p>
+		<note type="important">Please note that activating <uicontrol>Deny</uicontrol> mode will force any running application that is in the <uicontrol>Denied applications</uicontrol> list to close.</note>
 	</conbody>
 </concept>
