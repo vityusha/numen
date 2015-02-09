@@ -12,7 +12,7 @@
             </image>
         </fig>
 		<p>Select <uicontrol>Terminate remote process</uicontrol> from the student menu (_fixme_ xref) to terminate processes running on an individual workstation. A window with a list of processes running on that workstation will appear on your screen (<xref keyref="terminate_remote_process/kill_app_png" type="fig"/>&#160;). An active application or process will be displayed in color.</p>
-		<note type="tip">An application in this context is a process that has one or more windows displayed on the screen. Name of an application is usually the title of its main window.  _fixme_ application vs process</note>
+		<note type="tip">An application in this context is a process that has one or more windows displayed on the screen. A process in general can run in the background and display nothing on the screen.</note>
 		<p>Select <wintitle>Applications</wintitle> tab to see the list of running applications. Select one or more applications from the list (use <uicontrol>Ctrl</uicontrol>+click to select multiple items) and press the <uicontrol>OK</uicontrol> button to terminate them.</p>
 		<fig id="kill_app_png">
 			<title><wintitle>Terminate remote process</wintitle> window with the <uicontrol>Applications</uicontrol> tab selected</title>
