@@ -93,7 +93,7 @@
 		<p>A session file list will be sent to the student workstations. The actual files will be sent only when a student selects this file.</p>
 		<p>A teacher can also send files to the students bypassing the session file list. Press <uicontrol>Send file</uicontrol> button in the <uicontrol>Self access</uicontrol> activity control tab. Press <uicontrol>Browse</uicontrol> button in the appeared control area (<xref keyref="self_training/menu_group_3_1_2_png" type="fig"/>&#160;), select the file and press <uicontrol>Send</uicontrol>.</p>
 		<fig id="menu_group_3_1_2_png">
-            <title><menucascade><uicontrol>Self access</uicontrol><uicontrol>Send file</uicontrol></menucascade> menu _fixme_ [ui]</title>
+            <title><menucascade><uicontrol>Self access</uicontrol><uicontrol>Send file</uicontrol></menucascade> menu</title>
             <image href="img/menu_group_3_1_2.png" placement="break">
 			  <alt><menucascade><uicontrol>Self access</uicontrol><uicontrol>Send file</uicontrol></menucascade> menu</alt>
             </image>

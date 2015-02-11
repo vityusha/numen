@@ -65,7 +65,7 @@
 		<p>Select a tab at the top of the window to switch between lists of assignments for the whole class, particular groups, and individual students.</p>
 		<note type="important">Whenever the <wintitle>Student</wintitle> tab is selected, this window will contain assignments for this student only (<xref keyref="homework/hw3_png" type="fig"/>&#160;).</note>
 		<p>List of assignments together with buttons for adding, removing and editing assignments is immediately below the tabs lineup. </p>
-		<p>Press <uicontrol>Add assignment</uicontrol> or <uicontrol>Edit assignment</uicontrol> button to open a window where you can enter or edit assignment title and description _fixme_ [ui] (<xref keyref="homework/hw_edit_png" type="fig"/>&#160;).</p>
+		<p>Press <uicontrol>Add assignment</uicontrol> or <uicontrol>Edit assignment</uicontrol> button to open a window where you can enter or edit assignment title and description (<xref keyref="homework/hw_edit_png" type="fig"/>&#160;).</p>
 		<fig id="hw_edit_png">
 			<title>Add assignment window</title>
             <image href="img/hw-edit.png" placement="break">
@@ -107,7 +107,7 @@
 
 	   <p>The teacher should to select <wintitle>Collect</wintitle> tab in the <wintitle>Homework assignments</wintitle> window (<xref keyref="homework/hw2_png" type="fig"/>&#160;) to initiate the process of collecting assignments that are due. Upon selection of <wintitle>Collect</wintitle> tab, the panel will display list of students who have received this assignment.</p>
 		<fig id="hw2_png">
-			<title><wintitle>Homework assignments</wintitle> window during collection (_fixme_ [ui]: remark -> comments)</title>
+			<title><wintitle>Homework assignments</wintitle> window during collection</title>
             <image href="img/hw2.png" placement="break">
 			  <alt><wintitle>Homework assignments</wintitle> window during collection</alt>
             </image>
@@ -139,7 +139,7 @@
 
 		<note type="tip">Check selection box in the list header to select all students in the list.</note>
 		<fig id="hw_client_send_png">
-            <title>Assignment return window _fixme_ [ui]</title>
+            <title>Assignment return window</title>
             <image href="img/hw-client-send.png" placement="break">
 			  <alt>Assignment return window</alt>
             </image>

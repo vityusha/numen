@@ -7,7 +7,7 @@
 		<note type="important">By default the student module window will be minimized into the system tray after the launch.</note>
 		<p>This mode allows the teacher to remotely restore student module window from the system tray and raise it on top of all other windows on the desktop. This action can be performed for the whole class, a group, or for the individual student workstations.</p>
 		<p>Select <uicontrol>Raise</uicontrol> from the student menu (see <xref keyref="menu_single"/>&#160;) to raise the window on a particular workstation.</p>
-		<p>Press <uicontrol>Remote control</uicontrol> button in the group tab menu (see <xref keyref="menu_group"/>&#160;) and select <uicontrol>Raise _fixme_ [ui]</uicontrol> to raise student module windows on all workstations in the group.</p>
-		<p>Press <uicontrol>Remote control</uicontrol> button in the class tab menu (see <xref keyref="menu_class"/>&#160;) and select <uicontrol>Raise _fixme_ [ui]</uicontrol> to raise student module windows on all workstations in the class.</p>
+		<p>Press <uicontrol>Remote control</uicontrol> button in the group tab menu (see <xref keyref="menu_group"/>&#160;) and select <uicontrol>Raise</uicontrol> to raise student module windows on all workstations in the group.</p>
+		<p>Press <uicontrol>Remote control</uicontrol> button in the class tab menu (see <xref keyref="menu_class"/>&#160;) and select <uicontrol>Raise</uicontrol> to raise student module windows on all workstations in the class.</p>
 	</conbody>
 </concept>
