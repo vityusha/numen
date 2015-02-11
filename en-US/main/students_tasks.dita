@@ -18,14 +18,14 @@
 			</ul>
 		</p>
 		<fig id="menu_group_1_png">
-            <title>Group activity menu _fixme_ [ui]</title>
+            <title>Group activity menu</title>
             <image href="img/menu_group_1.png" placement="break">
 			  <alt>Group activity menu</alt>
             </image>
         </fig>
 	   <p>An activity control tab (<xref keyref="students_tasks/menu_group_tab_png" type="fig"/>&#160;) will appear upon selecting an item from the <uicontrol>Activities</uicontrol> menu and the selected item will get a check mark.</p>
 		<fig id="menu_group_tab_png">
-            <title>Current activities for a group _fixme_ [ui]</title>
+            <title>Current activities for a group</title>
             <image href="img/menu_group_tab.png" placement="break">
 			  <alt>Current activities for a group</alt>
             </image>

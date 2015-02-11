@@ -4,7 +4,7 @@
 <concept id="terminate_remote_process" xml:lang="en-US">
     <title>Terminating remote processes</title>
     <conbody>
-	    <p>This mode allows the teacher to remotely terminate applications and processes running on individual workstations, groups of workstations, or for the whole class. Enter the name of a running process or application (without the extension) in the <wintitle>Terminate remote process</wintitle> _fixme_ [ui] window (<xref keyref="terminate_remote_process/kill_remote_process_png" type="fig"/>&#160;). You can also terminate several remote processes at once by specifying several names separated by semicolons.</p>
+	    <p>This mode allows the teacher to remotely terminate applications and processes running on individual workstations, groups of workstations, or for the whole class. Enter the name of a running process or application (without the extension) in the <wintitle>Terminate remote process</wintitle> window (<xref keyref="terminate_remote_process/kill_remote_process_png" type="fig"/>&#160;). You can also terminate several remote processes at once by specifying several names separated by semicolons.</p>
 		<fig id="kill_remote_process_png">
 			<title><wintitle>Terminate remote process</wintitle> window</title>
             <image href="img/kill_remote_process.png" placement="break">
