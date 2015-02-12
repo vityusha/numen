@@ -12,11 +12,11 @@
 			  <alt><uicontrol>Live screen</uicontrol> activity control tab showing display of teacher's full screen</alt>
             </image>
         </fig>
-	   <p>You can select between showing full screen (select  <uicontrol>Show full screen</uicontrol>) or one of the windows on the screen by select it from the _fixme_ list (<xref keyref="transfer_screen/menu_group_3_4_3_png" type="fig"/>&#160;).</p>
+	   <p>You can select between showing full screen (select  <uicontrol>Show full screen</uicontrol>) or one of the windows on the screen by selecting it from the <uicontrol>Select application</uicontrol> drop-down list (<xref keyref="transfer_screen/menu_group_3_4_3_png" type="fig"/>&#160;).</p>
 		<fig id="menu_group_3_4_3_png">
-            <title><uicontrol>Display selected window</uicontrol> menu</title>
+			<title><uicontrol>Live screen</uicontrol> activity control tab showing display of a selected window from the teacher's screen</title>
             <image href="img/menu_group_3_4_3.png" placement="break">
-			  <alt><uicontrol>Display selected window</uicontrol> menu</alt>
+			  <alt><uicontrol>Live screen</uicontrol> activity control tab showing display of a selected window from the teacher's screen</alt>
             </image>
         </fig>
 	   <p>Select <uicontrol>Student</uicontrol> as the source and select a student from the drop-down box to display this student's screen to other students in the class (<xref keyref="transfer_screen/menu_group_3_4_2_png" type="fig"/>&#160;).</p>
@@ -72,6 +72,8 @@
 		<p>Press the <uicontrol>Exit</uicontrol> button (6) to close control window and exit the <uicontrol>Scribble</uicontrol> mode.</p>
 
 		<p>You can save a video copy of the <uicontrol>Live screen</uicontrol> display session to a file. Select <uicontrol>Record to file</uicontrol> option before activating the mode, and the system will prompt you for file name upon pressing the <uicontrol>Start</uicontrol> button. By default files will be saved in the <filepath>Video</filepath> sub-folder of the teacher folder.</p>
+
+		<p>You can also record your audio commentary on the student workstations by selecting the <uicontrol>Record for students</uicontrol> option. This recording can be later used, for example, as an assignment in <uicontrol>Self access</uicontrol> student activity _fixme_ xref.</p>
 
 		<p>Press <uicontrol>Stop</uicontrol> button in the activity control tab to exit the live screen mode.</p>
 	</conbody>
