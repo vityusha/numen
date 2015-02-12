@@ -2,37 +2,36 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="files_working" xml:lang="en-US">
-    <title>Работа с файлами</title>
-    <conbody>  
-		<p><uicontrol>Работа с файлами</uicontrol> — это режим, в котором по команде преподавателя на компьютеры учащихся будет передан файл, с которым они должны работать.</p>
-		<p>Этот файл будет открыт при помощи программы, с которой по умолчанию связан данный тип файла.</p>
-		<p>Для того чтобы передать файл учащимся, нужно сначала нажать на кнопку <uicontrol>Поиск</uicontrol> (<xref keyref="files_working/menu_group_3_7_png" type="fig"/>&#160;). Затем необходимо выбирать файл в появившемся окне (<xref keyref="files_working/open_file_png" type="fig"/>&#160;).</p>
+    <title>Files</title>
+    <conbody>
+		<p>In the <uicontrol>Files</uicontrol> activity the students are assigned to work with a specific file, which is sent from the teacher workstation. Results can be collected automatically as well.</p>
+		<p>On the student side the file will be opened with an associated application.</p>
+		<p>Press <uicontrol>Browse</uicontrol> button (<xref keyref="files_working/menu_group_3_7_png" type="fig"/>&#160;) and select a file to be sent to the students (<xref keyref="files_working/open_file_png" type="fig"/>&#160;).</p>
 		<fig id="menu_group_3_7_png">
-            <title>Меню <uicontrol>Работа с файлами</uicontrol></title>
+            <title><uicontrol>Files</uicontrol> activity control tab</title>
             <image href="img/menu_group_3_7.png" placement="break">
-                <alt>Меню <uicontrol>Работа с файлами</uicontrol></alt>
+			  <alt><uicontrol>Files</uicontrol> activity control tab</alt>
             </image>
         </fig>
 		<fig id="open_file_png">
-            <title>Окно <wintitle>Открыть файл</wintitle></title>
+            <title><wintitle>Open file</wintitle> window</title>
             <image href="img/open_file.png" placement="break">
-                <alt>Окно <wintitle>Открыть файл</wintitle></alt>
+			  <alt><wintitle>Open file</wintitle> window</alt>
             </image>
         </fig>
-		<p>В правом нижнем углу окна можно выбрать один из фильтров для файлов:
+		<p>You can filer the listing by several file types:
 			<ul>
-				<li>документы;</li>
-				<li>рисунки;</li>
-				<li>все файлы.</li>
+				<li>documents;</li>
+				<li>images;</li>
+				<li>all files.</li>
 			</ul>
 		</p>
-		<p>Для начала передачи файла необходимо нажать на кнопку <uicontrol>Старт</uicontrol>. Процесс загрузки файла будет отображаться при помощи специального индикатора, расположенного под этой кнопкой.</p>
-		<note type="important">Процесс загрузки файла зависит от его размера и количества учащихся, кому этот файл раздается, и может занять достаточно много времени.</note>
-		<p>Кнопка <uicontrol>Старт</uicontrol> в этом случае изменяет свое название на <uicontrol>Стоп</uicontrol>.</p>
-		<p>Нажатием на кнопку <uicontrol>Отмена</uicontrol> можно прервать загрузку файла.</p>
-		<p>После окончания загрузки файла на компьютере учащегося этот файл откроется в соответствующей программе.</p>
-		<p>Нажатием на кнопку <uicontrol>Стоп</uicontrol> можно завершить работу соответствующей программы на компьютерах учащихся. Если была установлена галочка <uicontrol>Собирать файлы задания</uicontrol>, то по этой команде в папку преподавателя будут собраны файлы, с которыми работали учащиеся. Например, возможен такой путь <filepath>Admin\Sessions\10a\12.02.2009\Иванов Сергей\...</filepath>.</p>
-		<note type="attention">Обратите внимание, что учащийся перед закрытием программы должен самостоятельно сохранить файл.</note>
+		<p>Press <uicontrol>Start</uicontrol> button to initiate file transfer. Transfer progress bar is immediately below that button.</p>
+		<note type="important">Transfer speed depends on the file size, number of recipients, and several other factors, and in general may take quite a long time.</note>
+		<p>The <uicontrol>Start</uicontrol> button will be replaced by <uicontrol>Stop</uicontrol> upon initiation of the file transfer  .</p>
+		<p>Press <uicontrol>Cancel</uicontrol> to abort transfer already in progress.</p>
+		<p>The file will be opened with the associated application on the student workstation once transfer is complete.</p>
+		<p>Press <uicontrol>Stop</uicontrol> button to close the application which was used to open the file on student workstations. If the <uicontrol>Collect files</uicontrol> option was selected, files with results of the student work will be collected and saved in the teacher folder, e.g. <filepath>Jennifer Powell\Sessions\ENG101\2009-02-12\John Doe\...</filepath>.</p>
+		<note type="attention">Please note that students must save the file themselves before you close of the application.</note>
 	</conbody>
 </concept>
-
