@@ -92,7 +92,6 @@
 		<note type="attention">Please note that once this window is closed, the students will not be able to change their choice.</note>
 		<note type="tip">The teacher can override student choices and assign new conversation partners by pressing <uicontrol>Select</uicontrol> button.</note>
 		<p>Press <uicontrol>Start</uicontrol> to activate the discussion mode.</p>
-		<p>_fixme_ В режиме работы в парах доступна опция <uicontrol>Включить веб-камеры</uicontrol>. При активировании этой опции на мониторах учащихся появится окно видео проигрывателя с изображением, снятым с веб-камеры учащегося, работающего в паре.</p>
+		<p><uicontrol>Web cams on</uicontrol> option is available in the paired discussion mode. When this option is selected the students will be able to see each other on their screens in the media player window.</p>
 	</conbody>
 </concept>
-
