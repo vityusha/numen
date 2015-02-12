@@ -12,9 +12,9 @@
 			  <alt><uicontrol>Internet</uicontrol> activity control tab</alt>
             </image>
         </fig>
-		<p>Press <uicontrol>Browser control _fixme_ [ui]</uicontrol> button to open a window for controlling student browsers (<xref keyref="internet/browser_png" type="fig"/>&#160;).</p>
+		<p>Press <uicontrol>Browser control</uicontrol> button to open a window for controlling student browsers (<xref keyref="internet/browser_png" type="fig"/>&#160;).</p>
 		<fig id="browser_png">
-			<title><wintitle>Browser control _fixme_ [ui]</wintitle> window</title>
+			<title><wintitle>Browser control</wintitle> window</title>
             <image href="img/browser.png" placement="break">
 			  <alt><wintitle>Browser control</wintitle> window</alt>
             </image>

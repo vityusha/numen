@@ -5,14 +5,14 @@
     <title>Live screen</title>
     <conbody>
 		<p><indexterm>live screen</indexterm><uicontrol>In the <keyword>Live screen</keyword></uicontrol> mode a copy of the teacher's or other student's screen will be displayed in real time on student workstations.</p>
-		<p>Select <uicontrol>Teacher _fixme_ [ui]</uicontrol> from the <uicontrol>Select sources</uicontrol> drop-down box (<xref keyref="transfer_screen/menu_group_3_4_1_png" type="fig"/>&#160;) to display a copy of the teacher workstation screen.</p>
+		<p>Select <uicontrol>Teacher</uicontrol> from the <uicontrol>Select sources</uicontrol> drop-down box (<xref keyref="transfer_screen/menu_group_3_4_1_png" type="fig"/>&#160;) to display a copy of the teacher workstation screen.</p>
 		<fig id="menu_group_3_4_1_png">
             <title><uicontrol>Live screen</uicontrol> activity control tab showing display of teacher's full screen</title>
             <image href="img/menu_group_3_4_1.png" placement="break">
 			  <alt><uicontrol>Live screen</uicontrol> activity control tab showing display of teacher's full screen</alt>
             </image>
         </fig>
-	   <p>You can select between showing full screen (select  <uicontrol>Show full screen _fixme_ [ui]</uicontrol>) or one of the windows on the screen by select it from the _fixme_ list (<xref keyref="transfer_screen/menu_group_3_4_3_png" type="fig"/>&#160;).</p>
+	   <p>You can select between showing full screen (select  <uicontrol>Show full screen</uicontrol>) or one of the windows on the screen by select it from the _fixme_ list (<xref keyref="transfer_screen/menu_group_3_4_3_png" type="fig"/>&#160;).</p>
 		<fig id="menu_group_3_4_3_png">
             <title><uicontrol>Display selected window</uicontrol> menu</title>
             <image href="img/menu_group_3_4_3.png" placement="break">

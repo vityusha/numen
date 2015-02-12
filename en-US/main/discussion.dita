@@ -5,7 +5,7 @@
     <title>Discussion</title>
     <conbody>
 	    <p><indexterm>discussion</indexterm>In the <uicontrol><keyword>Discussion</keyword></uicontrol> students have conversations either in pairs or groups. In the pair discussion mode, conversation partners within the group can be preset from the workstation ID, manually assigned by the teacher, selected by students themselves, or assigned by <wintitle>Dialog Nibelung</wintitle> at random.</p>
-		<p>Press <uicontrol>Discussion</uicontrol> button, select <uicontrol>Whole group _fixme_ [ui]</uicontrol> from the <wintitle>Select grouping method</wintitle> drop-down box, and press <uicontrol>Start</uicontrol> button (<xref keyref="discussion/menu_group_3_3_1_png" type="fig"/>&#160;) to initiate discussion for the whole group.</p>
+		<p>Press <uicontrol>Discussion</uicontrol> button, select <uicontrol>Whole group</uicontrol> from the <wintitle>Select grouping method</wintitle> drop-down box, and press <uicontrol>Start</uicontrol> button (<xref keyref="discussion/menu_group_3_3_1_png" type="fig"/>&#160;) to initiate discussion for the whole group.</p>
 		<fig id="menu_group_3_3_1_png">
 			<title><uicontrol>Discussion</uicontrol> menu with <uicontrol>Whole group</uicontrol> grouping method</title>
             <image href="img/menu_group_3_3_1.png" placement="break">
@@ -21,9 +21,9 @@
         </fig>
 		<p>Select <uicontrol>Phone conversation</uicontrol> option if you would like to simulate speech quality characteristic to telephone conversations (reduced legibility, static noise, pops and clicks, etc.)</p>
 		<p>You can can listen to the conversation by selecting <uicontrol>Listen</uicontrol> option.</p>
-		<p>The teacher can also participate[ate in the discussion by selecting <uicontrol>Talk _fixme_ [ui]</uicontrol> option.</p>
+		<p>The teacher can also participate in the discussion by selecting <uicontrol>Talk</uicontrol> option.</p>
 
-		<p>Press <uicontrol>Discussion</uicontrol> button, and select <uicontrol>Preset _fixme_ [ui]</uicontrol> from the <wintitle>Grouping method</wintitle> drop-down box (<xref keyref="discussion/menu_group_3_3_2_png" type="fig"/>&#160;) button to initiate discussion between preset pairs of students.</p>
+		<p>Press <uicontrol>Discussion</uicontrol> button, and select <uicontrol>Preset</uicontrol> from the <wintitle>Grouping method</wintitle> drop-down box (<xref keyref="discussion/menu_group_3_3_2_png" type="fig"/>&#160;) button to initiate discussion between preset pairs of students.</p>
 
 		<note type="tip">Preset pairs are assigned in ascending student workstation ID order, e.g. 1-2, 3-4, 5-6 and so forth.</note>
 
@@ -34,16 +34,16 @@
 		</image>
 		</fig>
 
-		<p>Select <uicontrol>Recording _fixme_ (?)</uicontrol> option to record discussion into a file in <b>MP3</b> format. The file will be saved in the <filepath>Waves</filepath> sub-folder of the teacher folder, e.g.  <filepath>Jason Miller\Waves\ENG101\2015-02-06\Group A (12-57).mp3</filepath>. In this example,
+		<p>Select <uicontrol>Recording</uicontrol> option to record discussion into a file in <b>MP3</b> format. The file will be saved in the <filepath>Waves</filepath> sub-folder of the teacher folder, e.g.  <filepath>Jason Miller\Waves\ENG101\2015-02-06\Group A (1-57 PM).mp3</filepath>. In this example,
 			<ul>
 				<li><filepath>Jason Miller</filepath> is the teacher name,</li>
 				<li><filepath>ENG101</filepath> is the class,</li>
 				<li><filepath>2015-02-06</filepath> is the recording date in year-month-day format,</li>
 				<li><filepath>Group A</filepath> is the group,</li>
-				<li><filepath>12-57</filepath> is the recording time in 24-hour format.</li>
+				<li><filepath>2-57 PM</filepath> is the recording time.</li>
 			</ul>
 		</p>
-		<note type="tip"><uicontrol>Listen</uicontrol> and <uicontrol>Recording</uicontrol>options are available only for the whole group. You can use corresponding facilities from the student menu (_fixme_ xref) to listen and record individual pairs.</note>
+		<note type="tip"><uicontrol>Listen</uicontrol> and <uicontrol>Recording</uicontrol> options are available only for the whole group. You can use corresponding facilities from the student menu (_fixme_ xref) to listen and record individual pairs.</note>
 
 		<p>Conversation partners will be indicated in the classroom console by highlighting their names in the same color (<xref keyref="discussion/icon_pair_png" type="fig"/>&#160;).</p>
 		<fig id="icon_pair_png">
@@ -82,13 +82,13 @@
         </fig>
 	   <p>A <wintitle>Choose a partner</wintitle> window will appear on student screens (<xref keyref="discussion/discuss_make_pairs_png" type="fig"/>&#160;).</p>
 		<fig id="discuss_make_pairs_png">
-			<title><wintitle>Choose a partner _fixme_ [ui]</wintitle> window</title>
+			<title><wintitle>Choose a partner</wintitle> window</title>
             <image href="img/discuss-make-pairs.png" placement="break">
 			  <alt><wintitle>Choose a partner</wintitle> window</alt>
             </image>
         </fig>
-		<p>The left panel in this window contains a list of students available for invitation. Students should select a name from the list and press <uicontrol>Invite _fixme_ [ui]</uicontrol> to send an invitation. Already invited students have a green check mark displayed next to their name.</p>
-		<p>The right panel displays invitations received from other students. Student should select a name from this list and press <uicontrol>Accept invitation _fixme_ [ui]</uicontrol> to become conversation partners. This will form a pair and close the window.</p>
+		<p>The left panel in this window contains a list of students available for invitation. Students should select a name from the list and press <uicontrol>Invite</uicontrol> to send an invitation. Already invited students have a green check mark displayed next to their name.</p>
+		<p>The right panel displays invitations received from other students. Student should select a name from this list and press <uicontrol>Accept invitation</uicontrol> to become conversation partners. This will form a pair and close the window.</p>
 		<note type="attention">Please note that once this window is closed, the students will not be able to change their choice.</note>
 		<note type="tip">The teacher can override student choices and assign new conversation partners by pressing <uicontrol>Select</uicontrol> button.</note>
 		<p>Press <uicontrol>Start</uicontrol> to activate the discussion mode.</p>
