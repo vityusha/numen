@@ -2,24 +2,24 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="internet" xml:lang="en-US">
-    <title>Интернет</title>
-    <conbody>  
-		<p><uicontrol>Интернет</uicontrol> — режим, в котором у учащихся будет запускаться Интернет браузер, который может управляться с компьютера преподавателя.</p>
-		<p>Если выбрано это задание (<xref keyref="internet/menu_group_3_5_png" type="fig"/>&#160;), то после нажатия на кнопку <uicontrol>Старт</uicontrol>, на компьютерах учащихся будет запущен <wintitle>Microsoft Internet Explorer</wintitle>. На кнопке появится надпись <uicontrol>Стоп</uicontrol>. Повторное нажатие на нее приведет к закрытию  <wintitle>Microsoft Internet Explorer</wintitle> на компьютерах учащихся, входящих в группу.</p>
+    <title>Internet</title>
+    <conbody>
+	    <p><indexterm>internet activity</indexterm><uicontrol>Internet</uicontrol> is a student activity mode in which they are viewing web pages in a browser remotely controlled from the teacher workstation.</p>
+	    <p>Select <uicontrol>Internet</uicontrol> from the <uicontrol>Activity</uicontrol> menu (<xref keyref="internet/menu_group_3_5_png" type="fig"/>&#160;) and press <uicontrol>Start</uicontrol> button to activate this mode. At this point <wintitle>Microsoft Internet Explorer</wintitle> web browser will be launched on the student workstations, and the <uicontrol>Start</uicontrol> button will be replaced with the <uicontrol>Stop</uicontrol> button. Press <uicontrol>Stop</uicontrol> to exit the mode and close <wintitle>Microsoft Internet Explorer</wintitle> on the student workstations.</p>
 		<fig id="menu_group_3_5_png">
-            <title>Меню <uicontrol>Интернет</uicontrol></title>
+            <title><uicontrol>Internet</uicontrol> activity control tab</title>
             <image href="img/menu_group_3_5.png" placement="break">
-                <alt>Меню <uicontrol>Интернет</uicontrol></alt>
+			  <alt><uicontrol>Internet</uicontrol> activity control tab</alt>
             </image>
         </fig>
-		<p>Если преподаватель нажмет на кнопку <uicontrol>Открыть браузер</uicontrol>, то на мониторе преподавателя откроется окно специального Интернет браузера (<xref keyref="internet/browser_png" type="fig"/>&#160;), с помощью которого преподаватель может управлять интернет браузерами учащихся.</p>
+		<p>Press <uicontrol>Browser control _fixme_ [ui]</uicontrol> button to open a window for controlling student browsers (<xref keyref="internet/browser_png" type="fig"/>&#160;).</p>
 		<fig id="browser_png">
-            <title>Окно браузера на компьютере преподавателя</title>
+			<title><wintitle>Browser control _fixme_ [ui]</wintitle> window</title>
             <image href="img/browser.png" placement="break">
-                <alt>Окно браузера на компьютере преподавателя</alt>
+			  <alt><wintitle>Browser control</wintitle> window</alt>
             </image>
         </fig>
-		<p>На этом рисунке цифрами обозначены:</p>
+	   <p>Elements of the <wintitle>Browser control</wintitle> window:</p>
 		<table frame="topbot">
             <tgroup cols="2">
                 <colspec colname="COLSPEC0" colwidth="10*"/>
@@ -27,43 +27,50 @@
                 <tbody>
 					<row>
                         <entry>1</entry>
-                        <entry>Кнопка <uicontrol>На предыдущую страницу</uicontrol></entry>
+				    <entry><uicontrol>Previous</uicontrol> page in history</entry>
                     </row>
 					<row>
                         <entry>2</entry>
-                        <entry>Кнопка <uicontrol>На последующую страницу</uicontrol></entry>
+				    <entry><uicontrol>Next</uicontrol> page in history</entry>
                     </row>
 					<row>
                         <entry>3</entry>
-                        <entry>Кнопка <uicontrol>Остановить загрузку</uicontrol></entry>
+                        <entry><uicontrol>Stop</uicontrol> loading page</entry>
                     </row>
 					<row>
                         <entry>4</entry>
-                        <entry>Кнопка <uicontrol>Обновить страницу</uicontrol></entry>
+                        <entry><uicontrol>Reload page</uicontrol></entry>
                     </row>
 					<row>
                         <entry>5</entry>
-                        <entry>Кнопка <uicontrol>На домашнюю счтраницу</uicontrol></entry>
+                        <entry><uicontrol>Home page</uicontrol></entry>
                     </row>
 					<row>
                         <entry>6</entry>
-                        <entry>Закладки групп</entry>
+                        <entry>Group tabs</entry>
                     </row>
 					<row>
                         <entry>7</entry>
-                        <entry>Поле ввода адреса (URL) интернет страницы</entry>
+                        <entry>URL address field</entry>
                     </row>
 					<row>
                         <entry>8</entry>
-                        <entry>Кнопки управления браузерами студентов</entry>
+				    <entry><uicontrol>Minimize</uicontrol>, <uicontrol>Maximize</uicontrol> and <uicontrol>Restore</uicontrol> buttons for remote control of student browser windows</entry>
                     </row>
-                </tbody> 
+                </tbody>
             </tgroup>
-        </table> 
-		<p>В этом окне имеются закладки групп, кнопки управления загрузкой страниц. Кнопка <uicontrol>Старт</uicontrol>  дублирует одноименную кнопку в меню.</p>
-		<p>При нажатии на кнопку <uicontrol>Послать</uicontrol> в окно <wintitle>Microsoft Internet Explorer</wintitle> на компьютерах учащихся будет передана ссылка, введенная в поле адреса, и будет загружена нужная страница.</p>
-		<p>Если нажать на кнопку <uicontrol>Следовать</uicontrol>, то в <wintitle>Microsoft Internet Explorer</wintitle> на компьютерах учащихся будут повторятся все действия, совершенные в браузере преподавателя.</p>
-		<p>Кнопки управления браузерами учащихся позволяют свернуть, развернуть и восстановить окно браузера у учащихся.</p>
-		<note type="attention">В связи с тем, что разработчики страниц в Интернете активно используют флеш анимацию, необходимо устанавливать последнюю версию <wintitle>Adobe Flash Player</wintitle> на все компьютеры для корректной работы web-браузера.</note>
+        </table>
+
+		<p>The window has a regular browser functionality with addition of the remote control functions.</p>
+
+        <p>Press <uicontrol>Send</uicontrol> button to send the URL in address field (7) to the student browsers.</p>
+
+        <p>Press <uicontrol>Follow</uicontrol> to make student browsers replicate the actions in your <wintitle>Browser control</wintitle> window.</p>
+
+        <p><uicontrol>Start</uicontrol> button just duplicates the namesake button in the activity control tab.</p>
+
+        <p>Window control buttons (8) allow you to minimize, maximize, and restore browser window on student workstations.</p>
+
+		<note type="attention">If pages you are browsing contain flash animations, then <wintitle>Adobe Flash Player</wintitle> must be installed on all student workstations for this mode to function properly.</note>
 	</conbody>
 </concept>
