@@ -14,7 +14,7 @@
         </fig>
 		<p>Press <uicontrol>Browser control</uicontrol> button to open a window for controlling student browsers (<xref keyref="internet/browser_png" type="fig"/>&#160;).</p>
 		<fig id="browser_png">
-			<title><wintitle>Browser control</wintitle> window</title>
+			<title><wintitle>Browser control</wintitle> window _fixme_ [ui]</title>
             <image href="img/browser.png" placement="break">
 			  <alt><wintitle>Browser control</wintitle> window</alt>
             </image>
@@ -71,6 +71,6 @@
 
         <p>Window control buttons (8) allow you to minimize, maximize, and restore browser window on student workstations.</p>
 
-		<note type="attention">If pages you are browsing contain flash animations, then <wintitle>Adobe Flash Player</wintitle> must be installed on all student workstations for this mode to function properly.</note>
+		<note type="attention">If web pages you are using in this activity contain flash animations, then <wintitle>Adobe Flash Player</wintitle> must be installed on all student workstations for this mode to function properly.</note>
 	</conbody>
 </concept>
