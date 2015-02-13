@@ -7,9 +7,9 @@
 	    <p><indexterm>quiz</indexterm><uicontrol>Quiz</uicontrol> is an activity for testing students' knowledge.</p>
 		<p>Only groups of students can be tested. </p>
 		<fig id="menu_group_3_8_png">
-            <title><uicontrol>Quiz</uicontrol> activity control panel</title>
+            <title><uicontrol>Quiz</uicontrol> activity control tab</title>
             <image href="img/menu_group_3_8.png" placement="break">
-			  <alt><uicontrol>Quiz</uicontrol> activity control panel</alt>
+			  <alt><uicontrol>Quiz</uicontrol> activity control tab</alt>
             </image>
         </fig>
 		<p>Use the <uicontrol>Browse</uicontrol> button to select a quiz file prepared in the Quiz Builder (see section <xref keyref="test_builder"/>&#160;).</p>
