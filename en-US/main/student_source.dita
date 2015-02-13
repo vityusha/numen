@@ -2,25 +2,25 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="student_source" xml:lang="en-US">
-    <title>Учащийся</title>
-    <conbody>  
-		<p>При выборе этого пункта меню преподаватель может в качестве источника звука выбрать любого учащегося, даже не входящего в текущую группу.</p>
-		<p>Меню <uicontrol>Учащийся</uicontrol> в качестве источника аудио (<xref keyref="student_source/menu_group_4_2_png" type="fig"/>&#160;) имеет только кнопку <uicontrol>Старт</uicontrol>, список учащихся и три дополнительные опции <uicontrol>Записать для учащихся</uicontrol>, <uicontrol>Оцифровать материал</uicontrol> и <uicontrol>Прослушивание</uicontrol>.</p>
+    <title>Student</title>
+    <conbody>
+		<p>Select this menu item to use a student's microphone as the source of broadcast, allowing other student to hear him or her during any activity. Any student can be selected as the source, even one who is not affiliated with the current group.</p>
+		<p>The <uicontrol>Student</uicontrol> media source control tab (<xref keyref="student_source/menu_group_4_2_png" type="fig"/>&#160;) has a <uicontrol>Start</uicontrol> button, a drop-down list of students, and three additional options: <uicontrol>Record for students</uicontrol>, <uicontrol>Digitize</uicontrol> and <uicontrol>Listen</uicontrol> (these options are described in section _fixme_ xref).</p>
 		<fig id="menu_group_4_2_png">
-            <title>Меню <menucascade><uicontrol>Медиа источники</uicontrol><uicontrol>Учащийся</uicontrol></menucascade></title>
+            <title><menucascade><uicontrol>Media sources</uicontrol><uicontrol>Student</uicontrol></menucascade> control tab</title>
             <image href="img/menu_group_4_2.png" placement="break">
-                <alt>Меню <menucascade><uicontrol>Медиа источники</uicontrol><uicontrol>Учащийся</uicontrol></menucascade></alt>
+			  <alt><menucascade><uicontrol>Media sources</uicontrol><uicontrol>Student</uicontrol></menucascade> control tab</alt>
             </image>
         </fig>
-		<p>Таким образом при любом задании участники группы могут слышать голос выбранного учащегося.</p>
-		<p>Под кнопкой <uicontrol>Старт</uicontrol> находится счетчик времени активности учащегося в качестве источника сигнала.</p>
-		<note type="tip">Преподаватель может оцифровать голос выбранного учащегося на жесткий диск компьютера.</note>
-		<p>При помощи данного источника сигнала можно легко организовать режим <indexterm>синхронный перевод</indexterm><uicontrol><keyword>Синхронный перевод</keyword></uicontrol>. Допустим, два учащихся объединены в группу <b>"А"</b> и прослушивают источник <b>"Преподаватель"</b>, одновременно с прослушиванием каждый из них синхронно переводит источник сигнала на нужный язык (например, первый - на английский, второй - на немецкий). В качестве источника сигнала для учащихся в группе <b>"B"</b> является первый учащийся из группы <b>"A"</b>, а источником сигнала для учащихся в группе <b>"C"</b> является второй учащийся из группы <b>"A"</b>. Получается, что группа <b>"B"</b> слушает синхронный перевод на английский язык, а группа <b>"C"</b> слушает синхронный перевод на немецкий язык (<xref keyref="student_source/synchro_png" type="fig"/>&#160;).</p>
+		<p>Immediately below the <uicontrol>Start</uicontrol> button there is a clock displaying time elapsed since the student has been selected as the source of broadcast.</p>
+		<note type="tip">You can digitize and save student's voice for future use.</note>
+		<note type="tip">Using <uicontrol>Student</uicontrol> from outside of the group as media source one can easily organize <indexterm>interpreting</indexterm><uicontrol><keyword>simultaneous interpreting</keyword></uicontrol> into several languages. Associate the interpreters with the same group, let's say, group <b>A</b>. This group listens to the speaker, who is using the teacher workstation. Each interpreter, in turn, is then selected as a source for another group of listeners. For example, in (<xref keyref="student_source/synchro_png" type="fig"/>&#160;) group <b>B</b> can listen to simultaneous interpretation of the speaker into Spanish, while group <b>C</b> can listen to the same in French.
 		<fig id="synchro_png">
-            <title>Синхронный перевод</title>
+			<title>Simultaneous interpreting using <wintitle>Dialog Nibelung</wintitle></title>
             <image href="img/synchro.png" placement="break">
-                <alt>Синхронный перевод</alt>
+			  <alt>Simultaneous interpreting  using <wintitle>Dialog Nibelung</wintitle></alt>
             </image>
         </fig>
+		</note>
 	</conbody>
 </concept>
