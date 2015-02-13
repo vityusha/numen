@@ -2,18 +2,18 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="tutor_source" xml:lang="en-US">
-    <title>Преподаватель</title>
-    <conbody>  
-		<p>При выборе этого пункта меню преподаватель может в качестве источника звука выбрать себя.</p>
-		<p>Меню <uicontrol>Преподаватель</uicontrol> в качестве источника аудио (<xref keyref="tutor_source/menu_group_4_1_png" type="fig"/>&#160;) имеет только кнопку <uicontrol>Старт</uicontrol> и две дополнительные опции <uicontrol>Записать для учащихся</uicontrol> и <uicontrol>Оцифровать материал</uicontrol>.</p>
+    <title>Teacher</title>
+    <conbody>
+		<p>Select this menu item to use teacher's microphone as the media source.</p>
+		<p>The <uicontrol>Teacher</uicontrol> control tab (<xref keyref="tutor_source/menu_group_4_1_png" type="fig"/>&#160;) has only the <uicontrol>Start</uicontrol> with two additional options: <uicontrol>Record for students</uicontrol> and <uicontrol>Digitize</uicontrol>. They are described in _fixme_ xref.</p>
 		<fig id="menu_group_4_1_png">
-            <title>Меню <menucascade><uicontrol>Медиа источники</uicontrol><uicontrol>Преподаватель</uicontrol></menucascade></title>
+			<title><menucascade><uicontrol>Media sources</uicontrol><uicontrol>Teacher</uicontrol></menucascade> control tab</title>
             <image href="img/menu_group_4_1.png" placement="break">
-                <alt>Меню <menucascade><uicontrol>Медиа источники</uicontrol><uicontrol>Преподаватель</uicontrol></menucascade></alt>
+			  <alt><menucascade><uicontrol>Media sources</uicontrol><uicontrol>Teacher</uicontrol></menucascade> control tab</alt>
             </image>
         </fig>
-		<p>Таким образом при любом задании участники группы могут прослушивать голос преподавателя.</p>
-		<p>Под кнопкой <uicontrol>Старт</uicontrol> находится счетчик времени активности преподавателя в качестве источника сигнала.</p>
-		<note type="tip">Преподаватель может оцифровать свой голос на жесткий диск компьютера.</note>
+		<p>This allows the students to hear the teacher during any activity.</p>
+		<p>Immediately below the <uicontrol>Start</uicontrol> button there is a clock that displays time elapse since teacher microphone was selected as a source for broadcast.</p>
+		<note type="tip">You can digitize and save teacher's voice for future use.</note>
 	</conbody>
 </concept>
