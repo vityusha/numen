@@ -2,24 +2,29 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="file_source" xml:lang="en-US">
-    <title>Файл</title>
-    <conbody>  
-		<p>При выборе этого пункта меню преподаватель может в качестве источника аудио сигнала выбрать файл, содержащий аудио информацию.</p>
-		<p>Меню <uicontrol>Файл</uicontrol> в качестве источника аудио (<xref keyref="file_source/menu_group_4_3_png" type="fig"/>&#160;) имеет кнопки <uicontrol>Поиск</uicontrol>, <uicontrol>Старт</uicontrol>, <uicontrol>Пауза</uicontrol> и <uicontrol>Повтор</uicontrol>, кнопки управления закладками и две дополнительные опции <uicontrol>Записать для учащихся</uicontrol> и <uicontrol>Прослушать</uicontrol>.</p>
+    <title>File</title>
+    <conbody>
+	    <p>Select this <uicontrol>Media sources</uicontrol> menu item to use an audio file as a source of broadcast to the students, allowing them to hear the audio during any activity.</p>
+	    <p>The <uicontrol>File</uicontrol> media source control tab (<xref keyref="file_source/menu_group_4_3_png" type="fig"/>&#160;) has the <uicontrol>Browse</uicontrol> button; a mini player consisting of <uicontrol>Start</uicontrol>/<uicontrol>Stop</uicontrol>, <uicontrol>Pause</uicontrol> and <uicontrol>Repeat</uicontrol> buttons, playback progress bar, and a time counter; bookmarks control buttons; and two additional options: <uicontrol>Record for students</uicontrol> and <uicontrol>Listen</uicontrol> (these options are described in section _fixme_ xref).</p>
 		<fig id="menu_group_4_3_png">
-            <title>Меню <menucascade><uicontrol>Медиа источники</uicontrol><uicontrol>Файл</uicontrol></menucascade></title>
+            <title><menucascade><uicontrol>Media sources</uicontrol><uicontrol>File</uicontrol></menucascade> control tab</title>
             <image href="img/menu_group_4_3.png" placement="break">
-                <alt>Меню <menucascade><uicontrol>Медиа источники</uicontrol><uicontrol>Файл</uicontrol></menucascade></alt>
+			  <alt><menucascade><uicontrol>Media sources</uicontrol><uicontrol>File</uicontrol></menucascade> control tab</alt>
             </image>
         </fig>
-		<p>При помощи кнопки <uicontrol>Поиск</uicontrol> преподаватель может выбрать нужный аудио файл в формате <b>WAV</b>, <b>MP3</b> или <b>WMA</b>.</p> 
-		<p>Таким образом, при любом задании участники группы могут прослушивать аудио файл с компьютера преподавателя.</p>
-		<p>Процесс воспроизведения в основном модуле будет отображаться при помощи специального индикатора, находящегося ниже кнопки <uicontrol>Старт</uicontrol>. Под ним расположен счетчик времени, отображающий текущее положение в файле и продолжительность всего файла.</p>
-		<p>Процесс воспроизведения файла начинается после нажатия на кнопку <uicontrol>Старт</uicontrol>, при этом ее название меняется на <uicontrol>Стоп</uicontrol> и становится доступной кнопка <uicontrol>Пауза</uicontrol>.</p>
-		<note type="tip">Щелкая мышкой на индикаторе воспроизведения, можно изменять текущее положение  в файле. Двойной щелчок мышкой на индикаторе воспроизведения устанавливает текущую позицию в файле на начало.</note>
-		<p>Кнопка <uicontrol>Повтор</uicontrol> позволяет зациклить прослушивание выбранного фрагмента аудио файла.</p>
-        <p id="ph_1">Выбор фрагмента можно сделать, щелкнув левой кнопкой мышки на индикаторе воспроизведения. Затем, удерживая ее нажатой, перетащить указатель мышки в конец фрагмента. Выбранный фрагмент будет отображаться другим цветом.</p>
-		<p  id="ph_2">При помощи кнопки <uicontrol>+</uicontrol> можно устанавливать до четырех закладок. Для этого необходимо найти начало нужного фрагмента и нажать на кнопку <uicontrol>+</uicontrol>. Закладке присваивается первый свободный по порядку номер и кнопка с соответствующим номером становится доступной. Нажав на эту кнопку, можно быстро перейти к соответствующему фрагменту. Чтобы убрать закладку, нужно сначала нажать на кнопку <uicontrol>Х</uicontrol>, а затем на кнопку с номером закладки.</p>
-		<note type="tip">Одновременно с участниками группы преподаватель может прослушать выбранный файл, включив опцию <uicontrol>Прослушивание</uicontrol>.</note>
+		<p>Use the <uicontrol>Browse</uicontrol> button to select an audio file in <b>WAV</b>, <b>MP3</b> or <b>WMA</b> formats as the source.</p>
+
+		<p>Press <uicontrol>Start</uicontrol> button in the mini player to begin the playback, at which point this button will be replaced by the <uicontrol>Stop</uicontrol> button and <uicontrol>Pause</uicontrol> button becomes available.</p>
+
+		<note type="tip">Click on the playback bar to instantly change the playback position. Double click to change current position to ht beginning of the file.</note>
+
+		<p><uicontrol>Repeat</uicontrol> button allows you to to repeat selected fragment of the track in a loop.</p>
+
+		<p id="ph_1">You can select the fragment by dragging the mouse pointer on the playback bar. Selected fragment will be displayed in different color.</p>
+
+		<p  id="ph_2">You set up to 4 bookmarks per track. Use the <uicontrol>+</uicontrol> to set a bookmark at the current position. A first available number between 1 and 4 will be assigned to this bookmark and corresponding bookmark button becomes available. Pres this button to instantly reposition playback to the bookmark. Press the <uicontrol>Х</uicontrol> button and then the bookmark number button to delete a bookmark.</p>
+
+		<note type="tip">The teacher can listen to the file together with the students by selecting <uicontrol>Listen</uicontrol> option.</note>
+
 	</conbody>
 </concept>
