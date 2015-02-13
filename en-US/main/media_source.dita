@@ -27,11 +27,11 @@
 		<p>Most source control tabs also have the following options:
 			<ul>
 				<li><uicontrol>Record for students</uicontrol>;</li>
-				<li><uicontrol>Digitize _fixme_ [ui]</uicontrol>;</li>
+				<li><uicontrol>Digitize</uicontrol>;</li>
 				<li><uicontrol>Listen</uicontrol>.</li>
 			</ul>
 		</p>
-		<p>Check <uicontrol>Record for students</uicontrol> option to save a copy of the broadcast as a master track on student media players. Whenever <uicontrol>Record for students</uicontrol> is selected, an additional <uicontrol>With microphone _fixme_</uicontrol> option becomes available (<xref keyref="tutor_source/menu_group_4_1_png" type="fig"/>&#160;) that allows to simultaneously record signal from students' microphones to the student track of the media player.</p>
+		<p>Check <uicontrol>Record for students</uicontrol> option to save a copy of the broadcast as a master track on student media players. Whenever <uicontrol>Record for students</uicontrol> is selected, an additional <uicontrol>With microphone</uicontrol> option becomes available (<xref keyref="tutor_source/menu_group_4_1_png" type="fig"/>&#160;) that allows to simultaneously record signal from students' microphones to the student track of the media player.</p>
 		<p>Check the <uicontrol>Listen</uicontrol> option to be able to listen to the selected source in the teacher headset.</p>
 		<p>Select <indexterm>digitizing sources</indexterm><uicontrol><keyword>Digitize</keyword></uicontrol> option to digitize an analogue audio source. Upon pressing <uicontrol>Stop</uicontrol> button, you will be prompted to save the digitized recording in <b>WAV</b> or <b>MP3</b> format.</p>
 		<note type="tip">You can use the digitized recording just like any other audio file.</note>
