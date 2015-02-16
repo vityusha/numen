@@ -14,8 +14,7 @@
             </image>
         </fig>
 
-        <p>CD playback progress bar is immediately below the <uicontrol>Start</uicontrol>/<uicontrol>Stop</uicontrol> button.</p>
-		<p>Below the progress bar is the track clock displaying current position and track duration.</p>
+        <p>Current track playback progress bar together with the track clock displaying current position and track duration are immediately below the <uicontrol>Start</uicontrol>/<uicontrol>Stop</uicontrol> button.</p>
 		<note type="tip">Click on the progress bar to instantly change playback position. Double click to set playback position to the beginning of the track.</note>
 		<p><uicontrol>Repeat</uicontrol> button allows you to repeat selected fragment in a loop.</p>
         <p conkeyref="file_source/ph_1"/>
