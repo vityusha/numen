@@ -5,7 +5,7 @@
     <title>File</title>
     <conbody>
 	    <p>Select this <uicontrol>Media sources</uicontrol> menu item to use an audio file as a source of broadcast to the students, allowing them to hear the audio during any activity.</p>
-	    <p>The <uicontrol>File</uicontrol> media source control tab (<xref keyref="file_source/menu_group_4_3_png" type="fig"/>&#160;) has the <uicontrol>Browse</uicontrol> button; a mini player consisting of <uicontrol>Start</uicontrol>/<uicontrol>Stop</uicontrol>, <uicontrol>Pause</uicontrol> and <uicontrol>Repeat</uicontrol> buttons, playback progress bar, and a time counter; bookmarks control buttons; and two additional options: <uicontrol>Record for students</uicontrol> and <uicontrol>Listen</uicontrol> (these options are described in section _fixme_ xref).</p>
+	    <p>The <uicontrol>File</uicontrol> media source control tab (<xref keyref="file_source/menu_group_4_3_png" type="fig"/>&#160;) has the <uicontrol>Browse</uicontrol> button; a mini player consisting of <uicontrol>Start</uicontrol>/<uicontrol>Stop</uicontrol>, <uicontrol>Pause</uicontrol> and <uicontrol>Repeat</uicontrol> buttons, playback progress bar, and a time counter; bookmarks control buttons; and two additional options: <uicontrol>Record for students</uicontrol> and <uicontrol>Listen</uicontrol> (these options are described in section <xref keyref="media_source"/>&#160;).</p>
 		<fig id="menu_group_4_3_png">
             <title><menucascade><uicontrol>Media sources</uicontrol><uicontrol>File</uicontrol></menucascade> control tab</title>
             <image href="img/menu_group_4_3.png" placement="break">

@@ -9,12 +9,12 @@
 		<p>Select the class or group tab (see <xref keyref="menu_group"/>&#160;) and press <uicontrol>Activity</uicontrol> to open up menu of student activities. (<xref keyref="students_tasks/menu_group_1_png" type="fig"/>&#160;):
 		<ul>
 				<li><uicontrol>None</uicontrol>;</li>
-				<li><uicontrol>Self access</uicontrol> _fixme_ xref;</li>
-				<li><uicontrol>Discussion</uicontrol> _fixme_ xref;</li>
-				<li><uicontrol>Live screen</uicontrol> _fixme_ xref;</li>
-				<li><uicontrol>Internet</uicontrol> _fixme_ xref;</li>
-				<li><uicontrol>Files</uicontrol> _fixme_ xref;</li>
-				<li><uicontrol>Quiz</uicontrol> _fixme_ xref.</li>
+				<li><uicontrol>Self access</uicontrol> (see <xref keyref="self_training"/>&#160;);</li>
+				<li><uicontrol>Discussion</uicontrol> (see <xref keyref="discussion"/>&#160;);</li>
+				<li><uicontrol>Live screen</uicontrol> (see <xref keyref="transfer_screen"/>&#160;);</li>
+				<li><uicontrol>Internet</uicontrol> (see <xref keyref="internet"/>&#160;);</li>
+				<li><uicontrol>Files</uicontrol> (see <xref keyref="files_working"/>&#160;);</li>
+				<li><uicontrol>Quiz</uicontrol> (see <xref keyref="testing"/>&#160;).</li>
 			</ul>
 		</p>
 		<fig id="menu_group_1_png">

@@ -123,7 +123,7 @@
                         </image>
                     </fig></p>
 				<note type="important">Please note that the <uicontrol>Start Dialog Nibelung Student module</uicontrol> will only appear in this window if the check box <uicontrol>Launch program at Windows Start Up</uicontrol> was selected earlier on.</note>
-				<p><wintitle>Dialog Nibelung</wintitle> Setup Wizard will add a <uicontrol>Nibelung</uicontrol> menu item  to your <menucascade><uicontrol>Start</uicontrol><uicontrol>Все программы _fixme_</uicontrol></menucascade> menu. The newly created <uicontrol>Nibelung</uicontrol> menu contains items to launch the software, remove it, and open the user manual in <b>PDF</b> format.</p>
+				<p><wintitle>Dialog Nibelung</wintitle> Setup Wizard will add a <uicontrol>Nibelung</uicontrol> menu item  to your <menucascade><uicontrol>Start</uicontrol><uicontrol>All programs</uicontrol></menucascade> menu. The newly created <uicontrol>Nibelung</uicontrol> menu contains items to launch the software, remove it, and open the user manual in <b>PDF</b> format.</p>
 				<note type="tip">You can open the user manual using <wintitle>Adobe Acrobat Reader</wintitle>, which is included on the installation disk for your convenience.</note>
 				<p>An icon to launch the student module will also be placed on your desktop.</p>
                     <p><fig id="install_icon_c_png">

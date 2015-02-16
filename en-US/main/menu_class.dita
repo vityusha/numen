@@ -14,12 +14,12 @@
         </fig>
 		<p>Class tab menu buttons:
 			<ul>
-				<li><uicontrol>Set group</uicontrol> (group all registered students together) _fixme_ xref</li>
-				<li><uicontrol>Interact</uicontrol> _fixme_ xref</li>
-				<li><uicontrol>Remote control</uicontrol> _fixme_ xref</li>
+				<li><uicontrol>Set group</uicontrol> (group all registered students together) (see <xref keyref="union_in_group"/>&#160;)</li>
+				<li><uicontrol>Interact</uicontrol> (see <xref keyref="interaction"/>&#160;)</li>
+				<li><uicontrol>Remote control</uicontrol> (see <xref keyref="control_pc"/>&#160;)</li>
 			</ul>
 		</p>
-    <p>A status line at the bottom of the class tab contains icons indicating modes active in the class: _fixme_</p>
+    <p>A status line at the bottom of the class tab contains icons indicating modes active in the class:</p>
 			<ul>
 				<li>Conversation (section <xref keyref="dialog"/>&#160;)</li>
 				<li>Microphones muted (section <xref keyref="disable_microphone"/>&#160;)</li>

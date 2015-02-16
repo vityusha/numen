@@ -54,6 +54,6 @@
 		<p>Select <uicontrol>Internet access</uicontrol> from the student menu (see <xref keyref="menu_single"/>&#160;) to set up Internet access control for a single student.</p>
 		<p>Press <uicontrol>Remote control</uicontrol> button in the group tab menu (see <xref keyref="menu_group"/>&#160;) and select <uicontrol>Internet access</uicontrol> to set up Internet access control for the group.</p>
 		<p>Press <uicontrol>Remote control</uicontrol> button in the class tab menu (see <xref keyref="menu_class"/>&#160;) and select <uicontrol>Internet access</uicontrol> to set up Internet access control for the whole class.</p>
-		<p>Repeat actions described above to disable Internet access control. _fixme_ (empty list?)</p>
+		<p>Uncheck <uicontrol>Internet access</uicontrol> from the student menu (see <xref keyref="menu_single"/>&#160;) to disable Internet access control.</p>
 	</conbody>
 </concept>

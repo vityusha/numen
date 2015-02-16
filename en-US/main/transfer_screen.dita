@@ -73,7 +73,7 @@
 
 		<p>You can save a video copy of the <uicontrol>Live screen</uicontrol> display session to a file. Select <uicontrol>Record to file</uicontrol> option before activating the mode, and the system will prompt you for file name upon pressing the <uicontrol>Start</uicontrol> button. By default files will be saved in the <filepath>Video</filepath> sub-folder of the teacher folder.</p>
 
-		<p>You can also record your audio commentary on the student workstations by selecting the <uicontrol>Record for students</uicontrol> option. This recording can be later used, for example, as an assignment in <uicontrol>Self access</uicontrol> student activity _fixme_ xref.</p>
+		<p>You can also record your audio commentary on the student workstations by selecting the <uicontrol>Record for students</uicontrol> option. This recording can be later used, for example, as an assignment in <uicontrol>Self access</uicontrol> student activity (see <xref keyref="self_training"/>&#160;).</p>
 
 		<p>Press <uicontrol>Stop</uicontrol> button in the activity control tab to exit the live screen mode.</p>
 	</conbody>

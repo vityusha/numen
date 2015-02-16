@@ -26,7 +26,7 @@
 			</ul>
 		</p>
 		<p>Press <uicontrol>Autoscan</uicontrol> button and uncheck corresponding menu item to deactivate the autoscan mode.</p>
-		<p>You can also deactivate simultaneous audio monitoring by unchecking ... _fixme_.</p>
+		<p>You can also deactivate simultaneous audio monitoring by unchecking <uicontrol>Audio/Listen</uicontrol>.</p>
 		<p>Double click on a screenshot to stop autoscan and instantly enter remote control mode for the currently displayed student workstation (<xref keyref="remote_control/remote_control_png" type="fig"/>&#160;).</p>
 	</conbody>
 </concept>

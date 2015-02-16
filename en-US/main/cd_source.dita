@@ -6,7 +6,7 @@
     <conbody>
 	    <p>Select this <uicontrol>Media sources</uicontrol> menu item to use an audio Cd in the teacher workstation CD-ROM drive as a source of broadcast, allowing the students to hear the CD during any activity.</p>
 	    <note type="tip"><wintitle>Dialog Nibelung</wintitle> allows several different groups to use the same CD. Moreover, different groups can listen to different tracks on the same CD.</note>
-	    <p>The <uicontrol>Audio CD</uicontrol> media source control tab (<xref keyref="cd_source/menu_group_4_4_png" type="fig"/>&#160;) contains a CD drive selection list; <uicontrol>previous</uicontrol> and <uicontrol>next</uicontrol> track buttons with track counter between them; drive eject button; <uicontrol>Start</uicontrol>, <uicontrol>Pause</uicontrol>, and <uicontrol>Repeat</uicontrol> buttons; bookmark control buttons; and three additional options: <uicontrol>Record for students</uicontrol>, <uicontrol>Digitize</uicontrol>, and  <uicontrol>Listen</uicontrol> (described in section _fixme_ xref).</p>
+	    <p>The <uicontrol>Audio CD</uicontrol> media source control tab (<xref keyref="cd_source/menu_group_4_4_png" type="fig"/>&#160;) contains a CD drive selection list; <uicontrol>previous</uicontrol> and <uicontrol>next</uicontrol> track buttons with track counter between them; drive eject button; <uicontrol>Start</uicontrol>, <uicontrol>Pause</uicontrol>, and <uicontrol>Repeat</uicontrol> buttons; bookmark control buttons; and three additional options: <uicontrol>Record for students</uicontrol>, <uicontrol>Digitize</uicontrol>, and  <uicontrol>Listen</uicontrol> (described in section <xref keyref="media_source"/>&#160;).</p>
 		<fig id="menu_group_4_4_png">
 			<title><menucascade><uicontrol>Media sources</uicontrol><uicontrol>Audio CD</uicontrol></menucascade> control tab</title>
             <image href="img/menu_group_4_4.png" placement="break">
@@ -14,7 +14,7 @@
             </image>
         </fig>
 
-        <p>CD playback progress _fixme_(?) bar is immediately below the <uicontrol>Start</uicontrol>/<uicontrol>Stop</uicontrol> button.</p>
+        <p>CD playback progress bar is immediately below the <uicontrol>Start</uicontrol>/<uicontrol>Stop</uicontrol> button.</p>
 		<p>Below the progress bar is the track clock displaying current position and track duration.</p>
 		<note type="tip">Click on the progress bar to instantly change playback position. Double click to set playback position to the beginning of the track.</note>
 		<p><uicontrol>Repeat</uicontrol> button allows you to repeat selected fragment in a loop.</p>

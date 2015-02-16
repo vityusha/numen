@@ -13,11 +13,11 @@
                 <tbody valign="top">
                     <row>
                         <entry>1</entry>
-                        <entry><uicontrol>Input _fixme_ [ui]</uicontrol> - allows the teacher to take control of student's keyboard and mouse;</entry>
+                        <entry><uicontrol>Input</uicontrol> - allows the teacher to take control of student's keyboard and mouse;</entry>
                     </row>
 					<row>
                         <entry>2</entry>
-                        <entry><uicontrol>Fit _fixme_ [ui]</uicontrol> - resize the window to fit  remote screen;</entry>
+                        <entry><uicontrol>Fit</uicontrol> - resize the window to fit  remote screen;</entry>
                     </row>
 					<row>
                         <entry>3</entry>
@@ -25,7 +25,7 @@
                     </row>
 					<row>
                         <entry>4</entry>
-                        <entry><uicontrol>Resize _fixme_ [ui]</uicontrol> - resize remote screen to fit the window;</entry>
+                        <entry><uicontrol>Resize</uicontrol> - resize remote screen to fit the window;</entry>
                     </row>
 					<row>
                         <entry>5</entry>
@@ -35,15 +35,15 @@
                         <entry>6</entry>
                         <entry><uicontrol>Audio</uicontrol> - audio control sub-menu:
                         <ul>
-                            <li><uicontrol>Listen</uicontrol> _fixme_ xref;</li>
-					   <li><uicontrol>Conversation</uicontrol> _fixme_ xref;</li>
-					   <li><uicontrol>Record</uicontrol> _fixme_ xref;</li>
+                            <li><uicontrol>Listen</uicontrol> (see <xref keyref="listen"/>&#160;)</li>
+					   <li><uicontrol>Conversation</uicontrol> (see <xref keyref="dialog"/>&#160;)</li>
+					   <li><uicontrol>Record</uicontrol> (see <xref keyref="record"/>&#160;)</li>
                         </ul>
                         </entry>
                     </row>
 					<row>
                         <entry>7</entry>
-                        <entry><uicontrol>Autoscan</uicontrol> - autoscan sub-menu _fixme_ xref:
+                        <entry><uicontrol>Autoscan</uicontrol> - autoscan sub-menu:
                         <ul>
                             <li><uicontrol>Class</uicontrol>;</li>
                             <li><uicontrol>Group A...J</uicontrol>;</li>
@@ -55,16 +55,15 @@
                         <entry>8</entry>
                         <entry><uicontrol>Remote control</uicontrol> - sub-menu for remote control functions of the student workstation:
                         <ul>
-					    <li><uicontrol>Lock input</uicontrol> _fixme_ xref;</li>
-					    <li><uicontrol>Lock computer</uicontrol> _fixme_ xref;</li>
-					    <li><uicontrol>Internet access</uicontrol> _fixme_ xref;</li>
-					    <li><uicontrol>Raise window</uicontrol> _fixme_ xref;</li>
+					    <li><uicontrol>Lock input</uicontrol> (see <xref keyref="lock_input"/>&#160;)</li>
+					    <li><uicontrol>Lock computer</uicontrol> (see <xref keyref="lock_pc"/>&#160;)</li>
+					    <li><uicontrol>Internet access</uicontrol> (see <xref keyref="disable_internet"/>&#160;)</li>
+					    <li><uicontrol>Raise</uicontrol> (see <xref keyref="student_applications"/>&#160;)</li>
                             <li><uicontrol>Power control</uicontrol>;
                                 <ul>
-                                    <li><uicontrol>Logout</uicontrol>;</li>
                                     <li><uicontrol>Standby</uicontrol>;</li>
                                     <li><uicontrol>Reboot</uicontrol>;</li>
-                                    <li><uicontrol>Power off</uicontrol>;</li>
+                                    <li><uicontrol>Shutdown</uicontrol>;</li>
                                 </ul>
                             </li>
                         </ul>

@@ -5,7 +5,7 @@
     <title>Student</title>
     <conbody>
 		<p>Select this menu item to use a student's microphone as the source of broadcast, allowing other student to hear him or her during any activity. Any student can be selected as the source, even one who is not affiliated with the current group.</p>
-		<p>The <uicontrol>Student</uicontrol> media source control tab (<xref keyref="student_source/menu_group_4_2_png" type="fig"/>&#160;) has a <uicontrol>Start</uicontrol> button, a drop-down list of students, and three additional options: <uicontrol>Record for students</uicontrol>, <uicontrol>Digitize</uicontrol> and <uicontrol>Listen</uicontrol> (these options are described in section _fixme_ xref).</p>
+		<p>The <uicontrol>Student</uicontrol> media source control tab (<xref keyref="student_source/menu_group_4_2_png" type="fig"/>&#160;) has a <uicontrol>Start</uicontrol> button, a drop-down list of students, and three additional options: <uicontrol>Record for students</uicontrol>, <uicontrol>Digitize</uicontrol> and <uicontrol>Listen</uicontrol> (these options are described in section <xref keyref="media_source"/>&#160;).</p>
 		<fig id="menu_group_4_2_png">
             <title><menucascade><uicontrol>Media sources</uicontrol><uicontrol>Student</uicontrol></menucascade> control tab</title>
             <image href="img/menu_group_4_2.png" placement="break">

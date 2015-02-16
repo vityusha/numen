@@ -98,7 +98,7 @@
 			  <alt><menucascade><uicontrol>Self access</uicontrol><uicontrol>Send file</uicontrol></menucascade> menu</alt>
             </image>
         </fig>
-	   <p>File transfer progress bar will appear under the <uicontrol>Send</uicontrol> button. When the transfer is completed, the name of the file will appear in the student panel (_fixme_ xref).</p>
+	   <p>File transfer progress bar will appear under the <uicontrol>Send</uicontrol> button. When the transfer is completed, the name of the file will appear in the student panel (see <xref keyref="description_main/icon_connect_png" type="fig"/>&#160;).</p>
 		<note type="important">Duration of a file transfer depends on the file size, number of students in the class, number of file recipients, overall network traffic, and several other factors.</note>
 		<p>Press the <uicontrol>Cancel</uicontrol> button to abort file transfer already in progress.</p>
 		<p>If the file is an audio file in <b>WAV</b>, <b>MP3</b>, <b>WMA</b> or <b>NMF</b> (<wintitle>Dialog Nibelung</wintitle> native) formats, it will be opened in the student's media player. Other types of files will be opened using standard Windows file associations.</p>

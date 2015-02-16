@@ -121,7 +121,7 @@
                             <alt>Installation complete window</alt>
                         </image>
                     </fig></p>
-                    <p><wintitle>Dialog Nibelung</wintitle> Setup Wizard will add a <uicontrol>Nibelung</uicontrol> menu item  to your <menucascade><uicontrol>Start</uicontrol><uicontrol>Все программы _fixme_</uicontrol></menucascade> menu. The newly created <uicontrol>Nibelung</uicontrol> menu contains items to launch the software, remove it, and open the user manual in <b>PDF</b> format.</p>
+                    <p><wintitle>Dialog Nibelung</wintitle> Setup Wizard will add a <uicontrol>Nibelung</uicontrol> menu item  to your <menucascade><uicontrol>Start</uicontrol><uicontrol>All programs</uicontrol></menucascade> menu. The newly created <uicontrol>Nibelung</uicontrol> menu contains items to launch the software, remove it, and open the user manual in <b>PDF</b> format.</p>
                     <note type="tip">You can open the user manual using <wintitle>Adobe Acrobat Reader</wintitle>, which is included on the installation disk for your convenience.</note>
                     <p>An icon to launch the teacher module will also be placed on your desktop.</p>
                     <p><fig id="install_icon_t_png">

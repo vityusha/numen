@@ -13,7 +13,7 @@
 			  <alt>Student panel in listening mode</alt>
             </image>
         </fig>
-		<p>Please see section ... (_fixme_ [xref]) for listening to a group conversation in <wintitle>Discussion _fixme_</wintitle> mode.</p>
+		<p>Please see section <xref keyref="discussion"/>&#160; for listening to a group conversation in <wintitle>Discussion</wintitle> mode.</p>
 		<p>Select <uicontrol>Listen</uicontrol> from the student pop-up menu (see section <xref keyref="menu_single"/>&#160;) again to exit the listening mode.</p>
 	</conbody>
 </concept>

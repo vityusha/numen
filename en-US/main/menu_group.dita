@@ -14,10 +14,10 @@
         </fig>
 		<p>Group tab menu buttons:
 			<ul>
-				<li><uicontrol>Interact</uicontrol> _fixme_ xref</li>
-				<li><uicontrol>Remote control</uicontrol> _fixme_ xref</li>
-				<li><uicontrol>Activity</uicontrol> _fixme_ xref</li>
-				<li><uicontrol>Media sources</uicontrol> _fixme_ xref</li>
+				<li><uicontrol>Interact</uicontrol> (see <xref keyref="interaction"/>&#160;)</li>
+				<li><uicontrol>Remote control</uicontrol> (see <xref keyref="control_pc"/>&#160;)</li>
+				<li><uicontrol>Activity</uicontrol> (see <xref keyref="students_tasks"/>&#160;)</li>
+				<li><uicontrol>Media sources</uicontrol> (see <xref keyref="media_source"/>&#160;)</li>
 			</ul>
 		</p>
     <p>A status line at the bottom of the tab contains icons indicating modes active for the current group:</p>

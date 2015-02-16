@@ -6,7 +6,7 @@
     <conbody>
 	    <p>Select this <uicontrol>Media sources</uicontrol> menu item to use a sound card in teacher workstation as a source of group broadcast, allowing students to listen to a plugged in audio source during any activity.</p>
 	    <note type="tip"><wintitle>Dialog Nibelung</wintitle> allows use of different sound cards for different groups. Moreover, different groups can listen to audio sources connected to different inputs of the same sound card.</note>
-		<p>The <uicontrol>Sound card</uicontrol> media source control tab (<xref keyref="soundcard_source/menu_group_4_5_png" type="fig"/>&#160;) has a drop-down list for selecting a sound card; an <uicontrol>Open mixer</uicontrol> button for selecting sound card inputs; a <uicontrol>Start</uicontrol> button; and three additional options: <uicontrol>Record for students</uicontrol>, <uicontrol>Digitize</uicontrol> and <uicontrol>Listen</uicontrol> (these options are described in section _fixme_ xref).</p>
+		<p>The <uicontrol>Sound card</uicontrol> media source control tab (<xref keyref="soundcard_source/menu_group_4_5_png" type="fig"/>&#160;) has a drop-down list for selecting a sound card; an <uicontrol>Open mixer</uicontrol> button for selecting sound card inputs; a <uicontrol>Start</uicontrol> button; and three additional options: <uicontrol>Record for students</uicontrol>, <uicontrol>Digitize</uicontrol> and <uicontrol>Listen</uicontrol> (these options are described in section <xref keyref="media_source"/>&#160;).</p>
 		<fig id="menu_group_4_5_png">
             <title><menucascade><uicontrol>Media sources</uicontrol><uicontrol>Sound card</uicontrol></menucascade> control tab</title>
             <image href="img/menu_group_4_5.png" placement="break">

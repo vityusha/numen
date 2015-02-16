@@ -13,6 +13,6 @@
 				<li>you can also assign all the students in the class to the same group by using the <uicontrol>Set group</uicontrol> button on the class tab (<xref keyref="menu_class/menu_class_png" type="fig"/>&#160;).</li>
 			</ul>
 		</p>
-		<p>Upon successfully joining a group, student's image in the classroom console will acquire color of that group, and group name will appear in the status line of the student module window (see section _fixme_ [xref]).</p>
+		<p>Upon successfully joining a group, student's image in the classroom console will acquire color of that group, and group name will appear in the status line of the student module window (see <xref keyref="description_client/client_png" type="fig"/>&#160;).</p>
 	</conbody>
 </concept>

@@ -8,7 +8,7 @@
 		<p>A total of five actions are available:
 			<ul>
 				<li><uicontrol>Logout</uicontrol>;</li>
-				<li><uicontrol>Power off</uicontrol>;</li>
+				<li><uicontrol>Shutdown</uicontrol>;</li>
 				<li><uicontrol>Reboot</uicontrol>;</li>
 				<li><uicontrol>Standby</uicontrol>;</li>
 				<li><uicontrol>Power on</uicontrol>.</li>

@@ -43,7 +43,7 @@
 				<li><filepath>2-57 PM</filepath> is the recording time.</li>
 			</ul>
 		</p>
-		<note type="tip"><uicontrol>Listen</uicontrol> and <uicontrol>Recording</uicontrol> options are available only for the whole group. You can use corresponding facilities from the student menu (_fixme_ xref) to listen and record individual pairs.</note>
+		<note type="tip"><uicontrol>Listen</uicontrol> and <uicontrol>Recording</uicontrol> options are available only for the whole group. You can use corresponding facilities from the student menu (see <xref keyref="menu_single"/>&#160;) to listen and record individual pairs.</note>
 
 		<p>Conversation partners will be indicated in the classroom console by highlighting their names in the same color (<xref keyref="discussion/icon_pair_png" type="fig"/>&#160;).</p>
 		<fig id="icon_pair_png">

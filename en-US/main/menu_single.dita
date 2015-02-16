@@ -17,78 +17,78 @@
         </thead>
         <tbody>
           <row>
-			<entry><uicontrol>Listen</uicontrol> see (_fixme_ xref)</entry>
+			<entry><uicontrol>Listen</uicontrol> (see <xref keyref="listen"/>&#160;)</entry>
             <entry><image href="img/menu/listen.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-			<entry><uicontrol>Conversation</uicontrol> see (_fixme_ xref)</entry>
+			<entry><uicontrol>Conversation</uicontrol> (see <xref keyref="dialog"/>&#160;)</entry>
             <entry><image href="img/menu/talk.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-			<entry><uicontrol>Mute microphone</uicontrol> see (_fixme_ xref)</entry>
+			<entry><uicontrol>Mute microphone</uicontrol> (see <xref keyref="disable_microphone"/>&#160;)</entry>
             <entry><image href="img/menu/micoff.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-			<entry><uicontrol>Record</uicontrol> see (_fixme_ xref)</entry>
+			<entry><uicontrol>Record</uicontrol> (see <xref keyref="record"/>&#160;)</entry>
             <entry><image href="img/menu/record.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-			<entry><uicontrol>Record conversation</uicontrol> see (_fixme_ xref)</entry>
+			<entry><uicontrol>Record conversation</uicontrol> (see <xref keyref="record_talk"/>&#160;)</entry>
             <entry><image href="img/menu/recordD.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-			<entry><uicontrol>Message</uicontrol> see (_fixme_ xref)</entry>
+			<entry><uicontrol>Message</uicontrol> (see <xref keyref="message"/>&#160;)</entry>
             <entry><image href="img/menu/message.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-			<entry><uicontrol>Homework</uicontrol> see (_fixme_ xref)</entry>
+			<entry><uicontrol>Homework</uicontrol> (see <xref keyref="homework"/>&#160;)</entry>
             <entry><image href="img/menu/homework.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-			<entry><uicontrol>Screen thumbnail</uicontrol> see (_fixme_ xref)</entry>
+			<entry><uicontrol>Screen thumbnail</uicontrol> (see <xref keyref="thumbnail"/>&#160;)</entry>
             <entry><image href="img/menu/monitor.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-			<entry><uicontrol>Web cam</uicontrol> see (_fixme_ xref)</entry>
+			<entry><uicontrol>Web cam</uicontrol> (see <xref keyref="webcam"/>&#160;)</entry>
             <entry><image href="img/menu/webcam.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-			<entry><uicontrol>Remote control</uicontrol> see (_fixme_ xref)</entry>
+			<entry><uicontrol>Remote desktop</uicontrol> (see <xref keyref="remote_control"/>&#160;)</entry>
             <entry><image href="img/menu/remotedesktop.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-			<entry><uicontrol>Lock input</uicontrol> see (_fixme_ xref)</entry>
+			<entry><uicontrol>Lock input</uicontrol> (see <xref keyref="lock_input"/>&#160;)</entry>
             <entry><image href="img/menu/keyboard.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-			<entry><uicontrol>Lock computer</uicontrol> see (_fixme_ xref)</entry>
+			<entry><uicontrol>Lock computer</uicontrol> (see <xref keyref="lock_pc"/>&#160;)</entry>
             <entry><image href="img/menu/lock.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-			<entry><uicontrol>Terminate process</uicontrol> see (_fixme_ xref)</entry>
+			<entry><uicontrol>Terminate process</uicontrol> (see <xref keyref="terminate_remote_process"/>&#160;)</entry>
             <entry><image href="img/menu/stop.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-			<entry><uicontrol>Internet access</uicontrol> see (_fixme_ xref)</entry>
+			<entry><uicontrol>Internet access</uicontrol> (see <xref keyref="disable_internet"/>&#160;)</entry>
             <entry><image href="img/menu/disableinternet.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-			<entry><uicontrol>Removable media</uicontrol> see (_fixme_ xref)</entry>
+			<entry><uicontrol>Removable media</uicontrol> (see <xref keyref="disable_removable"/>&#160;)</entry>
             <entry><image href="img/menu/usb_minus.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-			<entry><uicontrol>Raise</uicontrol> see (_fixme_ xref)</entry>
+			<entry><uicontrol>Raise</uicontrol> (see <xref keyref="student_applications"/>&#160;)</entry>
             <entry><image href="img/menu/runapp.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-			<entry namest="COLSPEC0" nameend="COLSPEC1"><uicontrol>Power control</uicontrol> see (_fixme_ xref)</entry>
+			<entry namest="COLSPEC0" nameend="COLSPEC1"><uicontrol>Power control</uicontrol> (see <xref keyref="power_management"/>&#160;)</entry>
           </row>
           <row>
 			<entry>- <uicontrol>Log out</uicontrol></entry>
             <entry><image href="img/menu/logoff.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-			<entry>- <uicontrol>Power off</uicontrol></entry>
+			<entry>- <uicontrol>Shutdown</uicontrol></entry>
             <entry><image href="img/menu/poweroff.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
@@ -104,7 +104,7 @@
             <entry><image href="img/menu/poweron.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-			<entry namest="COLSPEC0" nameend="COLSPEC1"><uicontrol>Score</uicontrol> see (_fixme_ xref)</entry>
+			<entry namest="COLSPEC0" nameend="COLSPEC1"><uicontrol>Score</uicontrol> (see <xref keyref="journal"/>&#160;)</entry>
           </row>
           <row>
 			<entry>- <uicontrol>None</uicontrol></entry>
@@ -131,11 +131,11 @@
             <entry><image href="img/menu/grade5.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>- Custom entry field (this field shows up whenever maximum lesson score for the class set in Teacher properties _fixme_ [xref] is not equal to 5)</entry>
+            <entry>- Custom entry field (this field shows up whenever maximum lesson score for the class set in Teacher settings (see <xref keyref="tutor_settings"/>&#160;)</entry>
             <entry></entry>
           </row>
           <row>
-			<entry><uicontrol>Set group</uicontrol> see (_fixme_ xref)</entry>
+			<entry><uicontrol>Set group</uicontrol> (see <xref keyref="union_in_group"/>&#160;)</entry>
             <entry><image href="img/menu/groups.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
@@ -167,7 +167,7 @@
             <entry><image href="img/menu/f.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-			<entry><uicontrol>Student profile</uicontrol> see (_fixme_ xref)</entry>
+			<entry><uicontrol>Student profile</uicontrol> (see <xref keyref="registration"/>&#160;)</entry>
             <entry><image href="img/menu/profile.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
@@ -175,7 +175,7 @@
             <entry><image href="img/menu/setname.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-			<entry><uicontrol>Set image _fixme_(?)</uicontrol></entry>
+			<entry><uicontrol>Set image</uicontrol></entry>
             <entry><image href="img/menu/setimage.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>

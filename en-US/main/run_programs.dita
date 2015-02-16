@@ -46,11 +46,11 @@
 			  <alt>Application shortcut properties window</alt>
             </image>
         </fig>
-	   <p>Select an application from the list and press <uicontrol>Edit _fixme_ - missing from screenshot</uicontrol> button to edit shortcut properties. The shortcut properties window (<xref keyref="run_programs/run_program_add_png" type="fig"/>&#160;) where you can change the parameters will appear on your screen.</p>
+	   <p>Select an application from the list and press <uicontrol>Edit</uicontrol> button to edit shortcut properties. The shortcut properties window (<xref keyref="run_programs/run_program_add_png" type="fig"/>&#160;) where you can change the parameters will appear on your screen.</p>
 		<p>Use the <uicontrol>Delete</uicontrol> button to remove shortcuts.</p>
 
 		<p>Double click on an application title in the <wintitle>Running applications</wintitle> panel to close it. Alternatively, select an application in the panel and press <uicontrol>Close</uicontrol> button. The students will be given a chance to save their files whenever <uicontrol>Allow students to save their work before closing</uicontrol> option is selected.</p>
 		<p>Use <uicontrol>Close all</uicontrol> button to close all remotely launched applications for the current group.</p>
-		<p>Press the <uicontrol>Close _fixme_ - two 'close' buttons in this window</uicontrol> to close this window.</p>
+		<p>Press the <uicontrol>Close</uicontrol> to close this window.</p>
 	</conbody>
 </concept>
