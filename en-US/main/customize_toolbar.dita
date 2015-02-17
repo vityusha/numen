@@ -2,17 +2,18 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="customize_toolbar" xml:lang="en-US">
-    <title>Настройка панели инструментов</title>
-    <conbody>  
-        <p><indexterm>панель инструментов</indexterm><keyword>Панель инструментов</keyword> расположена с левой стороны окна основного модуля и служит для быстрого доступа к часто используемым командам.</p>
-		<p>Эта панель настраивается для каждого преподавателя. Для того чтобы настроить ее, преподаватель должен выбрать пункт <menucascade><uicontrol>Вид</uicontrol><uicontrol>Настройка панели инструментов</uicontrol></menucascade>. На экране монитора появится соответствующее окно (<xref keyref="customize_toolbar/tools_png" type="fig"/>&#160;).</p>
+    <title>Toolbar customization</title>
+    <conbody>
+	    <p><indexterm>toolbar</indexterm>The <keyword>toolbar</keyword> can be used for quick access to many frequently used functions of <uicontrol>Dialog Nibelung</uicontrol>. The toolbar panel is located along the left side of the main teacher module window (_fixme_ xref fig.36).</p>
+	    <p>The toolbar panel can be customize individually for every teacher.</p>
+	    <p>Select <menucascade><uicontrol>View</uicontrol><uicontrol>Toolbar settings</uicontrol></menucascade> from the main menu to set up the toolbar.  A <wintitle>Customize toolbar</wintitle> window (<xref keyref="customize_toolbar/tools_png" type="fig"/>&#160;) will appear on your screen.</p>
 		<fig id="tools_png">
-            <title>Окно настройки панели инструментов</title>
+		<title><wintitle>Customize toolbar</wintitle> window</title>
             <image href="img/tools.png" placement="break">
-                <alt>Окно настройки панели инструментов</alt>
+		  <alt><wintitle>Customize toolbar</wintitle> window</alt>
             </image>
         </fig>
-        <p>На этом рисунке цифрами обозначены:</p>
+	   <p>Elements of the <wintitle>Customize toolbar</wintitle> window:</p>
 		<table frame="topbot">
             <tgroup cols="2">
                 <colspec colname="COLSPEC0" colwidth="10*"/>
@@ -20,69 +21,68 @@
                 <tbody>
                     <row>
                         <entry>1</entry>
-                        <entry>Доступные команды</entry>
+                        <entry>Available toolbar actions</entry>
                     </row>
 					<row>
                         <entry>2</entry>
-                        <entry>Выбранные команды</entry>
+                        <entry>Actions, selected for the toolbar</entry>
                     </row>
 					<row>
                         <entry>3</entry>
-                        <entry>Кнопка <uicontrol>Перенести команду в выбранные</uicontrol></entry>
+                        <entry><uicontrol>Move action to selected</uicontrol> button</entry>
                     </row>
 					<row>
                         <entry>4</entry>
-                        <entry>Кнопка <uicontrol>Убрать команду из выбранных</uicontrol></entry>
+				    <entry><uicontrol>Remove action from selected</uicontrol> button</entry>
                     </row>
 					<row>
                         <entry>5</entry>
-                        <entry>Кнопка <uicontrol>Очистить список выбранных</uicontrol></entry>
+				    <entry><uicontrol>Clear selected</uicontrol> button</entry>
                     </row>
 					<row>
                         <entry>6</entry>
-                        <entry>Кнопка <uicontrol>Переместить команду вверх по списку</uicontrol></entry>
+				    <entry><uicontrol>Move item up the list</uicontrol> button</entry>
                     </row>
 					<row>
                         <entry>7</entry>
-                        <entry>Кнопка <uicontrol>Переместить команду вниз по списку</uicontrol></entry>
+				    <entry><uicontrol>Move item down the list</uicontrol> button</entry>
                     </row>
-                </tbody> 
+                </tbody>
             </tgroup>
         </table>
-        <p>Для установки в панель инструментов доступны следующие команды:
+        <p>The following actions can be made accessible via the toolbar:
 			<ul>
-				<li>Разговор со всем классом</li>
-				<li>Отключение микрофона</li>
-				<li>Запись всех учащихся</li>
-				<li>Сообщение всем учащимся</li>
-				<li>Эскизы экранов всего класса</li>
-				<li>Автообзор всего класса</li>
-				<li>Заблокировать ввод на всех компьютерах</li>
-				<li>Заблокировать все компьютеры</li>
-				<li>Управление приложениями</li>
-				<li>Завершить удаленный процесс</li>
-				<li>Заблокировать интернет во всем классе</li>
-				<li>Отключить съемные носители во всем классе</li>
-				<li>Развернуть приложения всех учащихся</li>
-				<li>Выйти из системы</li>
-				<li>Выключить все компьютеры</li>
-				<li>Перезагрузить все компьютеры</li>
-				<li>Ждущий режим на всех компьютерах</li>
-				<li>Включить все компьютеры</li>
-				<li>Сменить преподавателя</li>
-				<li>Открыть папку преподавателя</li>
-				<li>Новый класс</li>
-				<li>Открыть класс</li>
-				<li>Сохранить класс</li>
-				<li>Сохранить класс как...</li>
-				<li>Регистрация учащихся</li>
-				<li>Начать урок</li>
-				<li>Домашнее задание</li>
-				<li>Выход.</li>
+				<li>Conversation with the whole class _fixme_ xref</li>
+				<li>Mute microphone _fixme_ xref</li>
+				<li>Recording of the whole class _fixme_ xref</li>
+				<li>Message to the class _fixme_ xref</li>
+				<li>Thumbnails of the whole class _fixme_ xref</li>
+				<li>Autoscan the class _fixme_ xref</li>
+				<li>Lock input on all student workstations _fixme_ xref</li>
+				<li>Lock all workstations (?) _fixme_ xref</li>
+				<li>Launch applications _fixme_ xref</li>
+				<li>Terminate remote process _fixme_ xref</li>
+				<li>Disable internet access for the whole class _fixme_ xref</li>
+				<li>Disable removable media for the whole class _fixme_ xref</li>
+				<li>Raise student module windows _fixme_ xref</li>
+				<li>Logout _fixme_ xref</li>
+				<li>Power off student workstations _fixme_ xref</li>
+				<li>Reboot all student workstations _fixme_ xref</li>
+				<li>Put all student workstation into standby mode _fixme_ xref</li>
+				<li>Power on all student workstations _fixme_ xref</li>
+				<li>Switch teacher _fixme_ xref</li>
+				<li>Open teacher folder _fixme_ xref</li>
+				<li>New class _fixme_ xref</li>
+				<li>Open class file _fixme_ xref</li>
+				<li>Save class file _fixme_ xref</li>
+				<li>save class file as... _fixme_ xref</li>
+				<li>Registration roll call _fixme_ xref</li>
+				<li>Start a lesson _fixme_ xref</li>
+				<li>Homework assignments _fixme_ xref</li>
+				<li>Exit <wintitle>Dialog Nibelung</wintitle> _fixme_ xref.</li>
 			</ul>
 		</p>
-		<p>Преподаватель может перенести команду из списка доступных в список выбранных. Он может  перемещать ее по этому списку.</p>
-		<p>Также преподаватель может вставить разделитель, чтобы организовать выбранные команды по группам.</p>
-		<note type="important">Не забудьте сделать панель инструментов видимой. Она включается выбором пункта <menucascade><uicontrol>Вид</uicontrol><uicontrol>Панель инструментов</uicontrol></menucascade>.</note>
+		<p>Select an item from the list of <uicontrol>Available actions _fixme_ [ui]</uicontrol> on the left and press the <uicontrol>Move action to selected</uicontrol> button (3 in <xref keyref="customize_toolbar/tools_png" type="fig"/>) to move it to the list of actions that appear in the toolbar. You can rearrange the items in the selected actions list by using buttons 6 and 7 in <xref keyref="customize_toolbar/tools_png" type="fig"/>. You can also insert a separator onto the list to organize toolbar actions into logical groups.</p>
+		<note type="important">Don't forget to make the toolbar visible by selecting  <menucascade><uicontrol>View</uicontrol><uicontrol>Toolbar</uicontrol></menucascade> from the menu.</note>
     </conbody>
 </concept>
