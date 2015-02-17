@@ -4,7 +4,7 @@
 <concept id="record" xml:lang="en-US">
     <title>Recording</title>
     <conbody>
-	    <p>The teacher can make voice recordings for a selected student, group, or the whole class.</p>
+	    <p>The teacher can make voice recordings of a selected student, group, or the whole class.</p>
 	    <p>Select <uicontrol>Record</uicontrol> from the student pop-up menu (see section <xref keyref="menu_single"/>&#160;) to record selected student.</p>
 		<p>A recording icon (<xref keyref="record/icon_record_png" type="fig"/>&#160;) will appear on the student panel.</p>
 		<fig id="icon_record_png">
