@@ -16,9 +16,9 @@
 
 		<p>Press <uicontrol>Start</uicontrol> button in the mini player to begin the playback, at which point this button will be replaced by the <uicontrol>Stop</uicontrol> button and <uicontrol>Pause</uicontrol> button becomes available.</p>
 
-		<note type="tip">Click on the playback bar to instantly change the playback position. Double click to change current position to ht beginning of the file.</note>
+		<note type="tip">Click on the playback bar to instantly change the playback position. Double click to reset playback position to the beginning of the file.</note>
 
-		<p><uicontrol>Repeat</uicontrol> button allows you to to repeat selected fragment of the track in a loop.</p>
+		<p id="repeat"><uicontrol>Repeat</uicontrol> button allows you to to repeat selected fragment of the track in a loop.</p>
 
 		<p id="ph_1">You can select the fragment by dragging the mouse pointer on the playback bar. Selected fragment will be displayed in different color.</p>
 
