@@ -2,55 +2,61 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="video_source" xml:lang="en-US">
-    <title>Видео</title>
-    <conbody>  
-		<p>Медиа источник <uicontrol>Видео</uicontrol> — это режим передачи видео информации с компьютера преподавателя на компьютеры учащихся. При этом на компьютерах учащихся будет запускаться встроенный в программу видео проигрыватель. В этом режиме учащиеся могут просмотреть видео файл с компьютера преподавателя, видео информацию с карты видеозахвата, которая может быть установлена на компьютере преподавателя, или видео из интернета с сайта <xref scope="external" href="http://www.youtube.com">www.youtube.com</xref>.</p>
-        <p>В режиме просмотра видео файла, преподаватель сначала выбирает нужный файл с видео информацией. Для этого он должен нажать на кнопку <uicontrol>Поиск</uicontrol> (<xref keyref="video_source/menu_group_4_6_1_png" type="fig"/>&#160;) и выбрать файл. Название файла появится выше кнопки <uicontrol>Поиск</uicontrol>.</p>
-		<note type="tip">Программа <wintitle>Диалог Nibelung</wintitle> поддерживает большинство популярных форматов видео файлов, включая .avi .mp4 .mpg .wmv и другие.</note>
+    <title>Video</title>
+    <conbody>
+	    <p>Select <uicontrol>Video</uicontrol> as the media source to broadcast a video stream to the students. The video will be displayed on the student workstations in the built in <wintitle>Dialog Nibelung</wintitle> video player. Video files on the teacher workstation, video signal from a video capture card on the teacher workstation, or <xref scope="external" href="http://www.youtube.com">YouTube</xref> videos can be used as the broadcast source.</p>
+	    <p>Select <uicontrol>File</uicontrol> from the <uicontrol>Select source</uicontrol> drop-down list and press <uicontrol>Browse</uicontrol> button (<xref keyref="video_source/menu_group_4_6_1_png" type="fig"/>&#160;) to pick up a video file for broadcasting. Selected file name will appear right above the <uicontrol>Browse</uicontrol> button.</p>
+		<note type="tip"><wintitle>Dialog Nibelung</wintitle> supports many popular video file formats, including .avi, .mp4, .mpg, .wmv, etc.</note>
 		<fig id="menu_group_4_6_1_png">
-            <title>Меню <menucascade><uicontrol>Медиа источники</uicontrol><uicontrol>Видео</uicontrol></menucascade> из файла</title>
+			<title><menucascade><uicontrol>Media sources</uicontrol><uicontrol>Video</uicontrol></menucascade> control tab with <uicontrol>File</uicontrol> selected as the source</title>
             <image href="img/menu_group_4_6_1.png" placement="break">
-                <alt>Меню <menucascade><uicontrol>Медиа источники</uicontrol><uicontrol>Видео</uicontrol></menucascade> из файла</alt>
+			  <alt><menucascade><uicontrol>Media sources</uicontrol><uicontrol>Video</uicontrol></menucascade> control tab with <uicontrol>File</uicontrol> selected as the source</alt>
             </image>
         </fig>
-		<p>После этого преподаватель может нажать на кнопку <uicontrol>Старт</uicontrol>. На компьютерах учащихся запустится проигрыватель  и начнется воспроизведение файла. Надпись на кнопке <uicontrol>Старт</uicontrol> поменяется на <uicontrol>Стоп</uicontrol> и становится доступной кнопки <uicontrol>Пауза</uicontrol>, <uicontrol>Повтор</uicontrol> и кнопки управления закладками.</p>
-		<note type="tip">Кнопки <uicontrol>Пауза</uicontrol>, <uicontrol>Повтор</uicontrol> и кнопки управления закладками будут оставаться недоступными, если в основных настройках включен режим <uicontrol>Оптимизировать видео для сетей Wi-Fi</uicontrol> (п. <xref keyref="setup_main"/>&#160;)</note>
-		<p>Процесс воспроизведения в основном модуле будет отображаться при помощи специального индикатора, находящегося ниже этой кнопки. Под ним расположен счетчик времени, отображающий текущее положение в файле и продолжительность всего файла.</p>
-		<note type="tip">Щелкая мышкой на индикаторе воспроизведения, можно изменять текущее положение  в файле. Двойной щелчок мышкой на индикаторе воспроизведения устанавливает текущую позицию в файле на начало. Эта функция доступна только при передаче видео файлов в режиме работы без оптимизации передачи видео в Wi-Fi сетях.</note>
-		<p>Если была поставлена галочка у пункта <uicontrol>Полноэкранный режим</uicontrol>, то видео будет воспроизводиться на всем экране мониторов учащихся.</p>
-		<p>Если выбрана опция <uicontrol>Заблокировать ввод</uicontrol>, то на время передачи видео клавиатура и мышь на компьютерах учащихся будут заблокированы автоматически.</p>
-		<p>Если нажать на кнопку <uicontrol>Смотреть видео</uicontrol>, то преподаватель может смотреть видео одновременно на своем компьютере. Чтобы остановить проигрывание видео файла, преподаватель должен нажать на кнопку <uicontrol>Стоп</uicontrol>.</p>
-		<p>Кнопка <uicontrol>Повтор</uicontrol> позволяет зациклить просмотр выбранного фрагмента видео файла.</p>
-        <p conkeyref="file_source/ph_1"/>
-        <p conkeyref="file_source/ph_2"/>
-		
-        <p>В режиме просмотра видео с внешнего источника преподаватель должен выбрать карту видеозахвата из списка источников (<xref keyref="video_source/menu_group_4_6_2_png" type="fig"/>&#160;). Также он должен установить тип входа (композитный, S-видео, ТВ тюнер, USB или FireWire 1394), ширину и высоту кадра (в процентах), а также выбрать устройство аудиозахвата.</p>
-		<fig id="menu_group_4_6_2_png">
-            <title>Меню <menucascade><uicontrol>Медиа источники</uicontrol><uicontrol>Видео</uicontrol></menucascade> с внешнего источника</title>
-            <image href="img/menu_group_4_6_2.png" placement="break">
-                <alt>Меню <menucascade><uicontrol>Медиа источники</uicontrol><uicontrol>Видео</uicontrol></menucascade> с внешнего источника</alt>
-            </image>
-        </fig>		
-		<note type="tip">Для карт видеозахвата обычно используется композитный видео вход.</note>
-		<p>После этого преподаватель может нажать на кнопку <uicontrol>Старт</uicontrol>. На компьютерах учащихся запустится проигрыватель и начнется воспроизведение видео с внешнего источника. Надпись на кнопке <uicontrol>Старт</uicontrol> поменяется на <uicontrol>Стоп</uicontrol>.</p>
-		<p>Если была поставлена галочка у пункта <uicontrol>Полноэкранный режим</uicontrol>, то видео с внешнего источника будет воспроизводиться на всем экране мониторов учащихся.</p>
-		<p>Если выбрана опция <uicontrol>Заблокировать ввод</uicontrol>, то на время передачи видео клавиатура и мышь на компьютерах учащихся будут заблокированы автоматически.</p>
-		<p>Если нажать на кнопку <uicontrol>Смотреть видео</uicontrol>, то преподаватель может смотреть видео с внешнего источника одновременно на своем компьютере.</p>
-		<p>Чтобы остановить проигрывание видео с внешнего источника, преподаватель должен нажать на кнопку <uicontrol>Стоп</uicontrol>.</p>
-		<note type="tip">В режиме проигрывания видео с внешнего источника кнопки <uicontrol>Пауза</uicontrol>, <uicontrol>Повтор</uicontrol> и кнопки управления закладками будут оставаться недоступными.</note>		
+		<p id="start">Press <uicontrol>Start</uicontrol> button in the mini player to begin the playback, at which point this button will be replaced by the <uicontrol>Stop</uicontrol> button and <uicontrol>Pause</uicontrol>, <uicontrol>Repeat</uicontrol>, and bookmarks control buttons become available.</p>
+		<note type="tip"><uicontrol>Pause</uicontrol>, <uicontrol>Repeat</uicontrol> , and and bookmarks control buttons will remain disabled if the <uicontrol>Optimize video for Wi-Fi networks</uicontrol> option was enabled in the teacher module settings (see <xref keyref="setup_main"/>&#160;).</note>
+		<p>The playback progress bar and playback clock displaying current position and video duration are immediately below the <uicontrol>Start</uicontrol>/<uicontrol>Stop</uicontrol> button.</p>
 
-        <p>В режиме просмотра видео из интернета преподаватель должен выбрать в списке источников пункт <uicontrol>YouTube</uicontrol> (<xref keyref="video_source/menu_group_4_6_3_png" type="fig"/>&#160;). Далее преподаватель должен вставить в специальное поле ввода веб-адрес (URL) видео-ролика с сайта <xref scope="external" href="http://www.youtube.com">www.youtube.com</xref>. После расшифровки адреса в соотвествующих полях появятся название и продолжительность видео-ролика, а поле веб-адреса окрашивается в зеленый цвет. Если введеный веб-адрес недействителен, то поле ввода веб-адреса окрашивается в красный цвет.</p>
-		<fig id="menu_group_4_6_3_png">
-            <title>Меню <menucascade><uicontrol>Медиа источники</uicontrol><uicontrol>Видео</uicontrol></menucascade> с <uicontrol>YouTube</uicontrol></title>
-            <image href="img/menu_group_4_6_3.png" placement="break">
-                <alt>Меню <menucascade><uicontrol>Медиа источники</uicontrol><uicontrol>Видео</uicontrol></menucascade> с <uicontrol>YouTube</uicontrol></alt>
+		<note type="tip">Click on the playback bar to instantly change the playback position. Double click to reset playback position to the beginning of the file. This functionality is only available when <uicontrol>Optimize video for Wi-Fi networks</uicontrol> option n the teacher module settings (see <xref keyref="setup_main"/>&#160;) is turned off.</note>
+
+		<p id="fullscreen">Check <uicontrol>Full screen mode</uicontrol> option to display the video on student workstations in full screen mode instead of a window.</p>
+		<p id="lockinput">Check <uicontrol>Lock input</uicontrol> option to lock keyboard and mouse input on the student workstations for the duration of this video.</p>
+		<p id="watch">Press the <uicontrol>Watch stream</uicontrol> button to display the video on teacher workstation along with the students'.</p>
+		<p id="stop">Press <uicontrol>Stop</uicontrol> button to terminate the broadcast.</p>
+        <p conkeyref="file_source/ph_1"/>
+	   <p conkeyref="file_source/repeat" />
+	   <p conkeyref="file_source/ph_2"/>
+
+	   <p>Select a video capture card from the <uicontrol>Select source</uicontrol> drop-down list (<xref keyref="video_source/menu_group_4_6_2_png" type="fig"/>&#160;) to use an external video source connected to the card as the source of broadcast. You will also need to select input type (e.g. composite, S-video, TV tuner, USB,  FireWire IEEE 1394, etc.), <uicontrol>Frame size _fixme_ [ui]</uicontrol> in pixels, <uicontrol>Aspect ratio _fixme_ [ui]</uicontrol>, and an audio capture device.</p>
+		<fig id="menu_group_4_6_2_png">
+            <title><menucascade><uicontrol>Media sources</uicontrol><uicontrol>Video</uicontrol></menucascade> control tab with video capture card selected as the source</title>
+            <image href="img/menu_group_4_6_2.png" placement="break">
+			  <alt><menucascade><uicontrol>Media sources</uicontrol><uicontrol>Video</uicontrol></menucascade> control tab with video capture card selected as the source</alt>
             </image>
-        </fig>		
-		<p>После этого преподаватель может нажать на кнопку <uicontrol>Старт</uicontrol>. На компьютерах учащихся запустится проигрыватель и начнется воспроизведение видео с <uicontrol>YouTube</uicontrol>. Надпись на кнопке <uicontrol>Старт</uicontrol> поменяется на <uicontrol>Стоп</uicontrol>.</p>
-		<p>Если была поставлена галочка у пункта <uicontrol>Полноэкранный режим</uicontrol>, то видео с <uicontrol>YouTube</uicontrol> будет воспроизводиться на всем экране мониторов учащихся.</p>
-		<p>Если выбрана опция <uicontrol>Заблокировать ввод</uicontrol>, то на время передачи видео клавиатура и мышь на компьютерах учащихся будут заблокированы автоматически.</p>
-		<p>Кнопка <uicontrol>Повтор</uicontrol> позволяет зациклить просмотр выбранного фрагмента видео-ролика с <uicontrol>YouTube</uicontrol>. Выбор фрагмента и управление закладками в данном режиме анологично режиму просмотра видео файла.</p>
-		<p>Если нажать на кнопку <uicontrol>Смотреть видео</uicontrol>, то преподаватель может смотреть видео с <uicontrol>YouTube</uicontrol> одновременно на своем компьютере.</p>
-		<p>Чтобы остановить проигрывание видео с <uicontrol>YouTube</uicontrol>, преподаватель должен нажать на кнопку <uicontrol>Стоп</uicontrol>.</p>
+        </fig>
+		<note type="tip">Composite video connector is the most commonly used type in consumer grade analog video equipment.</note>
+
+		<p>Press <uicontrol>Start</uicontrol> button in the mini player to start the broadcast, at which point this button will be replaced by the <uicontrol>Stop</uicontrol> button, and the video stream will start playing in the media player window on student workstations.</p>
+		<p conkeyref="video_source/fullscreen" />
+		<p conkeyref="video_source/lockinput" />
+		<p conkeyref="video_source/watch" />
+		<p conkeyref="video_source/stop" />
+
+		<note type="tip"><uicontrol>Pause</uicontrol>, <uicontrol>Repeat</uicontrol> , and and bookmarks control buttons will be disabled when a video capture card is selected as the media source.</note>
+
+		<p>Select <uicontrol>YouTube</uicontrol> from the <uicontrol>Select source</uicontrol> drop-down list (<xref keyref="video_source/menu_group_4_6_3_png" type="fig"/>&#160;) and enter the URL into <uicontrol>Page URL _fixme_ [ui]</uicontrol> field to use a <xref scope="external" href="http://www.youtube.com">YouTube</xref> video as the broadcast source. The page address will be displayed in green after <wintitle>Dialog Nibelung</wintitle> decodes it. If the entered address is invalid, it will be displayed in red.</p>
+		<fig id="menu_group_4_6_3_png">
+            <title><menucascade><uicontrol>Media sources</uicontrol><uicontrol>Video</uicontrol></menucascade> control tab with <uicontrol>YouTube</uicontrol> video selected as source</title>
+            <image href="img/menu_group_4_6_3.png" placement="break">
+			  <alt><menucascade><uicontrol>Media sources</uicontrol><uicontrol>Video</uicontrol></menucascade> control tab with <uicontrol>YouTube</uicontrol> video selected as source</alt>
+            </image>
+        </fig>
+		<p conkeyref="video_source/start" />
+		<p conkeyref="video_source/fullscreen" />
+		<p conkeyref="video_source/lockinput" />
+		<p><uicontrol>Repeat</uicontrol> button, bookmark control buttons and fragment selection on the progress bar work in the same manner as during playback from file (described above in this section).</p>
+		<p conkeyref="video_source/watch" />
+		<p conkeyref="video_source/stop" />
+
 	</conbody>
 </concept>
