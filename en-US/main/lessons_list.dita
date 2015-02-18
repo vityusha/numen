@@ -4,7 +4,7 @@
 <concept id="lessons_list" xml:lang="en-US">
     <title>Lesson list</title>
     <conbody>
-        <p>Select <menucascade><uicontrol>Logbook</uicontrol><uicontrol>List lessons</uicontrol></menucascade> from the teacher module main menu to view a list of lessons.</p>
+        <p>Select <menucascade><uicontrol>Logbook</uicontrol><uicontrol>Lesson list</uicontrol></menucascade> from the teacher module main menu to view a list of lessons.</p>
 	   <p>A <wintitle>Lesson list</wintitle> window (<xref keyref="lessons_list/lessons_list_png" type="fig"/>&#160;) will appear on your screen. Lessons in the list can be filtered by course, class, and interval of dates by using controls in the <uicontrol>Lesson filter</uicontrol> panel. You can also edit lesson <uicontrol>Topic</uicontrol> and <uicontrol>Remarks</uicontrol> in the list by clicking on the corresponding fields.</p>
         <fig id="lessons_list_png">
 		   <title><wintitle>Lesson list</wintitle> window</title>

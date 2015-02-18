@@ -27,7 +27,7 @@
 	   <p conkeyref="file_source/repeat" />
 	   <p conkeyref="file_source/ph_2"/>
 
-	   <p>Select a video capture card from the <uicontrol>Select source</uicontrol> drop-down list (<xref keyref="video_source/menu_group_4_6_2_png" type="fig"/>&#160;) to use an external video source connected to the card as the source of broadcast. You will also need to select input type (e.g. composite, S-video, TV tuner, USB,  FireWire IEEE 1394, etc.), <uicontrol>Frame size _fixme_ [ui]</uicontrol> in pixels, <uicontrol>Aspect ratio _fixme_ [ui]</uicontrol>, and an audio capture device.</p>
+	   <p>Select a video capture card from the <uicontrol>Select source</uicontrol> drop-down list (<xref keyref="video_source/menu_group_4_6_2_png" type="fig"/>&#160;) to use an external video source connected to the card as the source of broadcast. You will also need to select input type (e.g. composite, S-video, TV tuner, USB,  FireWire IEEE 1394, etc.), <uicontrol>Frame size</uicontrol> in pixels, <uicontrol>Aspect ratio</uicontrol>, and an audio capture device.</p>
 		<fig id="menu_group_4_6_2_png">
             <title><menucascade><uicontrol>Media sources</uicontrol><uicontrol>Video</uicontrol></menucascade> control tab with video capture card selected as the source</title>
             <image href="img/menu_group_4_6_2.png" placement="break">
