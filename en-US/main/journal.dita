@@ -4,7 +4,7 @@
 <concept id="journal" xml:lang="en-US">
     <title>Log book</title>
     <conbody>
-		<p><wintitle>Dialog Nibelung</wintitle> allows you to keep a class log book to track students attendance and progress, and to display class statistics.</p>
+		<p><wintitle>Dialog Nibelung</wintitle> allows you to keep a class log book to keep track of student attendance and grades, and to display class statistics.</p>
         <note type="tip">A separate log book is available for every teacher.</note>
 	</conbody>
 </concept>
