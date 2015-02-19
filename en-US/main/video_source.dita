@@ -44,7 +44,7 @@
 
 		<note type="tip"><uicontrol>Pause</uicontrol>, <uicontrol>Repeat</uicontrol> , and and bookmarks control buttons will be disabled when a video capture card is selected as the media source.</note>
 
-		<p>Select <uicontrol>YouTube</uicontrol> from the <uicontrol>Select source</uicontrol> drop-down list (<xref keyref="video_source/menu_group_4_6_3_png" type="fig"/>&#160;) and enter the URL into <uicontrol>Page URL _fixme_ [ui]</uicontrol> field to use a <xref scope="external" href="http://www.youtube.com">YouTube</xref> video as the broadcast source. The page address will be displayed in green after <wintitle>Dialog Nibelung</wintitle> decodes it. If the entered address is invalid, it will be displayed in red.</p>
+		<p>Select <uicontrol>YouTube</uicontrol> from the <uicontrol>Select source</uicontrol> drop-down list (<xref keyref="video_source/menu_group_4_6_3_png" type="fig"/>&#160;) and enter the URL into <uicontrol>Page URL</uicontrol> field to use a <xref scope="external" href="http://www.youtube.com">YouTube</xref> video as the broadcast source. The page address will be displayed in green after <wintitle>Dialog Nibelung</wintitle> decodes it. If the entered address is invalid, it will be displayed in red.</p>
 		<fig id="menu_group_4_6_3_png">
             <title><menucascade><uicontrol>Media sources</uicontrol><uicontrol>Video</uicontrol></menucascade> control tab with <uicontrol>YouTube</uicontrol> video selected as source</title>
             <image href="img/menu_group_4_6_3.png" placement="break">

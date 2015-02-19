@@ -15,7 +15,7 @@
       </image>
     </fig>
 
-    <p>List of allowed URLs is on the left panel, while list of denied URLs is on the right. _fixme_: precedence</p>
+    <p>List of allowed URLs is on the left panel, while list of denied URLs is on the right.</p>
     <p>You can save and restore the access control lists by using <uicontrol>Open</uicontrol> and <uicontrol>Save</uicontrol> buttons.</p>
 
     <p>Use <uicontrol>Add</uicontrol>, <uicontrol>Change</uicontrol> and <uicontrol>Delete</uicontrol> buttons to respectively add, edit, and remove elements to/from the lists. The entry/edit field is immediately above these buttons.</p>

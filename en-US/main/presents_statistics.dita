@@ -6,7 +6,7 @@
     <conbody>
         <p>Select <menucascade><uicontrol>Logbook</uicontrol><uicontrol>Attendance stats</uicontrol></menucascade> from the main menu to view student attendance statistics.</p>
         <p>A window will appear on your screen with a list of lessons. Lessons can be filtered by course, class, and date intervals.</p>
-	   <p>You can select <uicontrol>Statistics type</uicontrol>: <uicontrol>Summary _fixme_ [ui]</uicontrol> (<xref keyref="presents_statistics/presents_common_png" type="fig"/>&#160;) or <uicontrol>Detailed _fixme_ [ui]</uicontrol> (<xref keyref="presents_statistics/presents_full_png" type="fig"/>&#160;).</p>
+	   <p>You can select <uicontrol>Statistics type</uicontrol>: <uicontrol>Summary</uicontrol> (<xref keyref="presents_statistics/presents_common_png" type="fig"/>&#160;) or <uicontrol>Detailed</uicontrol> (<xref keyref="presents_statistics/presents_full_png" type="fig"/>&#160;).</p>
         <fig id="presents_common_png">
             <title>Summary of attendance statistics</title>
             <image href="img/presents-common.png" placement="break">
@@ -57,7 +57,7 @@
                     </row>
                     <row>
                         <entry>10</entry>
-                        <entry><uicontrol>Export to HTML _fixme_ [ui]</uicontrol> button</entry>
+                        <entry><uicontrol>Export to HTML</uicontrol> button</entry>
                     </row>
                     <row>
                         <entry>11</entry>
@@ -108,7 +108,7 @@
                     </row>
                     <row>
                         <entry>8</entry>
-				    <entry><uicontrol>Export to HTML _fixme_ [ui]</uicontrol> button</entry>
+				    <entry><uicontrol>Export to HTML</uicontrol> button</entry>
 			    </row>
                     <row>
                         <entry>9</entry>

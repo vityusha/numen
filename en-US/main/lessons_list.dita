@@ -44,7 +44,7 @@
                     </row>
 					<row>
                         <entry>7</entry>
-                        <entry>Lesson <uicontrol>Duration _fixme_ [ui]</uicontrol></entry>
+                        <entry>Lesson <uicontrol>Duration</uicontrol></entry>
                     </row>
 					<row>
                         <entry>8</entry>
@@ -101,7 +101,7 @@
                     </row>
 					<row>
                         <entry>6</entry>
-                        <entry><uicontrol>Attendance _fixme_ [ui]</uicontrol> field</entry>
+                        <entry><uicontrol>Attendance</uicontrol> field</entry>
                     </row>
 					<row>
                         <entry>7</entry>
@@ -113,7 +113,7 @@
                     </row>
 					<row>
                         <entry>9</entry>
-				    <entry><uicontrol>Back to lessons _fixme_ [ui]</uicontrol> button</entry>
+				    <entry><uicontrol>Back to lessons</uicontrol> button</entry>
                     </row>
                 </tbody>
             </tgroup>

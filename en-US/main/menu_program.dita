@@ -28,23 +28,23 @@
                 </thead>
                 <tbody>
                     <row>
-                        <entry>Open teacher folder</entry>
+                        <entry>Open teacher folder (see section <xref keyref="tutor_settings"/>&#160;)</entry>
                         <entry><image href="img/menu/openfolder.png" placement="break" width="16" align="center"/></entry>
                     </row>
 					<row>
-                        <entry>Change teacher</entry>
+                        <entry>Change teacher (see section <xref keyref="choice_tutor"/>&#160;)</entry>
                         <entry><image href="img/menu/change.png" placement="break" width="16" align="center"/></entry>
                     </row>
 					<row>
-                        <entry>Account management</entry>
+                        <entry>Account management (see section <xref keyref="choice_tutor"/>&#160;)</entry>
                         <entry><image href="img/menu/account.png" placement="break" width="16" align="center"/></entry>
                     </row>
 					<row>
-                        <entry>Settings</entry>
+                        <entry>Settings (see section <xref keyref="setup_main"/>&#160;)</entry>
                         <entry><image href="img/menu/settings.png" placement="break" width="16" align="center"/></entry>
                     </row>
 					<row>
-                        <entry>Teacher settings</entry>
+                        <entry>Teacher settings (see section <xref keyref="tutor_settings"/>&#160;)</entry>
                         <entry><image href="img/menu/tutorsettings.png" placement="break" width="16" align="center"/></entry>
                     </row>
 					<row>
@@ -68,39 +68,39 @@
                 </thead>
                 <tbody>
                     <row>
-                        <entry>New</entry>
+                        <entry>New (see section <xref keyref="student_class"/>&#160;)</entry>
                         <entry><image href="img/menu/NewHS.png" placement="break" width="16" align="center" /></entry>
                     </row>
 					<row>
-                        <entry>Open</entry>
+                        <entry>Open (see section <xref keyref="student_class"/>&#160;)</entry>
                         <entry><image href="img/menu/openHS.png" placement="break" width="16" align="center" /></entry>
                     </row>
 					<row>
-                        <entry>Save</entry>
+                        <entry>Save (see section <xref keyref="student_class"/>&#160;)</entry>
                         <entry><image href="img/menu/saveHS.png" placement="break" width="16" align="center" /></entry>
                     </row>
 					<row>
-                        <entry>Save as</entry>
+                        <entry>Save as (see section <xref keyref="student_class"/>&#160;)</entry>
                         <entry><image href="img/menu/saveAsHS.png" placement="break" width="16" align="center" /></entry>
                     </row>
 					<row>
-                        <entry>Edit</entry>
+                        <entry>Edit (see section <xref keyref="student_class"/>&#160;)</entry>
                         <entry> </entry>
                     </row>
 					<row>
-                        <entry>Add student</entry>
+                        <entry>Add student (see section <xref keyref="student_class"/>&#160;)</entry>
                         <entry><image href="img/menu/AddStudent.png" placement="break" width="16" align="center" /></entry>
                     </row>
 					<row>
-                        <entry>Remove student</entry>
+                        <entry>Remove student (see section <xref keyref="student_class"/>&#160;)</entry>
                         <entry><image href="img/menu/DelStudent.png" placement="break" width="16" align="center" /></entry>
                     </row>
 					<row>
-                        <entry>Arrange</entry>
+                        <entry>Arrange (see section <xref keyref="student_class"/>&#160;)</entry>
                         <entry><image href="img/menu/SortHS.png" placement="break" width="16" align="center" /></entry>
                     </row>
 					<row>
-                        <entry>Roll call</entry>
+                        <entry>Roll call (see section <xref keyref="registration"/>&#160;)</entry>
                         <entry><image href="img/menu/Registration.png" placement="break" width="16" align="center" /></entry>
                     </row>
                 </tbody>
@@ -120,23 +120,23 @@
                 </thead>
                 <tbody>
                     <row>
-                        <entry>Start lesson</entry>
+                        <entry>Start lesson (see section <xref keyref="current_lesson"/>&#160;)</entry>
                         <entry><image href="img/menu/lesson.png" placement="break" width="16" align="center" /></entry>
                     </row>
 					<row>
-                        <entry>Lesson list</entry>
+                        <entry>Lesson list (see section <xref keyref="lessons_list"/>&#160;)</entry>
                         <entry><image href="img/menu/viewlessons.png" placement="break" width="16" align="center" /></entry>
                     </row>
 					<row>
-                        <entry>Progress stats</entry>
+                        <entry>Progress stats (see section <xref keyref="grades_statistics"/>&#160;)</entry>
                         <entry><image href="img/menu/stat1.png" placement="break" width="16" align="center" /></entry>
                     </row>
 					<row>
-                        <entry>Attendance stats</entry>
+                        <entry>Attendance stats (see section <xref keyref="presents_statistics"/>&#160;)</entry>
                         <entry><image href="img/menu/stat2.png" placement="break" width="16" align="center" /></entry>
                     </row>
 					<row>
-                        <entry>Class stats</entry>
+                        <entry>Class stats (see section <xref keyref="classes_statistics"/>&#160;)</entry>
                         <entry><image href="img/menu/stat3.png" placement="break" width="16" align="center" /></entry>
                     </row>
                 </tbody>
@@ -164,7 +164,7 @@
                         <entry></entry>
                     </row>
 					<row>
-                        <entry>Toolbar settings</entry>
+                        <entry>Customize toolbar (see section <xref keyref="customize_toolbar"/>&#160;)</entry>
                         <entry><image href="img/menu/CustomizeHS.png" placement="break" width="16" align="center"/></entry>
                     </row>
                 </tbody>
@@ -184,19 +184,19 @@
                 </thead>
                 <tbody>
                     <row>
-                        <entry><uicontrol>Nibelung Media Player</uicontrol> (launch the <wintitle>Nibelung Media Player</wintitle> on the teacher workstation)</entry>
+                        <entry><uicontrol>Nibelung Media Player</uicontrol> (launch the <wintitle>Nibelung Media Player</wintitle> on the teacher workstation) (see section <xref keyref="menu_tools"/>&#160;)</entry>
                         <entry><image href="img/menu/NPlayer.png" placement="break" width="16" align="center"/></entry>
                     </row>
 					<row>
-                        <entry><uicontrol>Video converter</uicontrol> (convert video files into <b>MPEG-1</b> format)</entry>
+                        <entry><uicontrol>Video converter</uicontrol> (convert video files into <b>MPEG-1</b> format) (see section <xref keyref="menu_tools"/>&#160;)</entry>
                         <entry><image href="img/menu/VideoConverter.png" placement="break" width="16" align="center"/></entry>
                     </row>
 					<row>
-                        <entry><uicontrol>Configure student modules</uicontrol></entry>
+                        <entry><uicontrol>Configure student modules</uicontrol> (see section <xref keyref="configurator"/>&#160;)</entry>
                         <entry><image href="img/menu/configure-icon.png" placement="break" width="16" align="center"/></entry>
                     </row>
 					<row>
-                        <entry><uicontrol>Edit</uicontrol> (edit contents of the <uicontrol>Tools</uicontrol> menu)</entry>
+                        <entry><uicontrol>Edit</uicontrol> (edit contents of the <uicontrol>Tools</uicontrol> menu) (see section <xref keyref="menu_tools"/>&#160;)</entry>
                         <entry><image href="img/menu/execute.png" placement="break" width="16" align="center"/></entry>
                     </row>
                 </tbody>
@@ -216,11 +216,11 @@
                 </thead>
                 <tbody>
                     <row>
-                        <entry>Quiz editor</entry>
+                        <entry>Quiz editor (see section <xref keyref="test_builder"/>&#160;)</entry>
                         <entry><image href="img/menu/quizbuilder.png" placement="break" width="16" align="center"/></entry>
                     </row>
 					<row>
-                        <entry>Results</entry>
+                        <entry>Results (see section <xref keyref="test_result"/>&#160;)</entry>
                         <entry><image href="img/menu/quizadmin.png" placement="break" width="16" align="center"/></entry>
                     </row>
                 </tbody>
@@ -248,11 +248,11 @@
                         <entry><image href="img/menu/mail.png" placement="break" width="16" align="center" /></entry>
                     </row>
 					<row>
-                        <entry>Check for updates</entry>
+                        <entry>Check for updates (see section <xref keyref="firmware_update"/>&#160;)</entry>
                         <entry><image href="img/menu/Update.png" placement="break" width="16" align="center" /></entry>
                     </row>
 					<row>
-						<entry><uicontrol>Update student modules</uicontrol> (remote update of the student modules after update of the teacher module)</entry>
+						<entry><uicontrol>Update student modules</uicontrol> (remote update of the student modules after update of the teacher module) (see section <xref keyref="firmware_update"/>&#160;)</entry>
                         <entry><image href="img/menu/UpdateClient.png" placement="break" width="16" align="center" /></entry>
                     </row>
 					<row>
