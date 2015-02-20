@@ -5,7 +5,7 @@
     <title>Attendance statistics</title>
     <conbody>
         <p>Select <menucascade><uicontrol>Logbook</uicontrol><uicontrol>Attendance stats</uicontrol></menucascade> from the main menu to view student attendance statistics.</p>
-        <p>A window will appear on your screen with a list of lessons. Lessons can be filtered by course, class, and date intervals.</p>
+        <p id="filter_win">A window will appear on your screen with a list of lessons. Lessons can be filtered by course, class, and date intervals.</p>
 	   <p>You can select <uicontrol>Statistics type</uicontrol>: <uicontrol>Summary</uicontrol> (<xref keyref="presents_statistics/presents_common_png" type="fig"/>&#160;) or <uicontrol>Detailed</uicontrol> (<xref keyref="presents_statistics/presents_full_png" type="fig"/>&#160;).</p>
         <fig id="presents_common_png">
             <title>Summary of attendance statistics</title>
@@ -120,7 +120,7 @@
 	   <p><uicontrol>Summary</uicontrol> statistics contains list of students in the class, number of lessons in the specified time interval, number of missed lessons and attendance percentage  for each student. <uicontrol>Detailed</uicontrol> statistics contains full attendance records for each student during specified time period.</p>
 	   <p>You can export attendance statistics into a file in HTML format. Press <uicontrol>Export to HTML</uicontrol> and enter file name. After export is completed you will be given an option to view the results in your default browser (<xref keyref="presents_statistics/presents_report_png" type="fig"/>&#160;).</p>
         <fig id="presents_report_png">
-            <title>Attendance report</title>
+            <title>Attendance report _fixme_ [ui]</title>
             <image href="img/presents-report.png" placement="break">
                 <alt>Attendance report</alt>
             </image>
