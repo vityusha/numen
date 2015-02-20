@@ -2,17 +2,17 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="classes_statistics" xml:lang="en-US">
-    <title>Статистика по классам</title>
+    <title>Class statistics</title>
     <conbody>
-        <p>Для того чтобы посмотреть статистику успеваемости и посещаемости по классам, необходимо выбрать меню <menucascade><uicontrol>Журнал</uicontrol><uicontrol>Статистика по классам</uicontrol></menucascade>.</p>
-        <p>На экране монитора преподавателя появится окно (<xref keyref="classes_statistics/classes_stat_png" type="fig"/>&#160;), содержащее список классов, в котором он может отобрать нужные уроки по предметам и временным интервалам. В поле <wintitle>Данные</wintitle> приводится список классов, количество уроков, посещаемость и средний балл по классу.</p>
+        <p>Select <menucascade><uicontrol>Logbook</uicontrol><uicontrol>Class stats</uicontrol></menucascade> from the main menu to display class performance and attendance statistics.</p>
+        <p>A window will appear on your screen with a list of classes (<xref keyref="classes_statistics/classes_stat_png" type="fig"/>&#160;). You can select the course and time interval to filter classes included in the list. A list of classes with their respective statistical data will be displayed in the <wintitle>Statistics _fixme_ [ui]</wintitle> panel. Statistical data includes number of lessons recorded,  attendance in per cent, and average grade for each class for the specified date interval.</p>
         <fig id="classes_stat_png">
-            <title>Статистика по классам</title>
+		   <title><wintitle>Class statistics</wintitle> window</title>
             <image href="img/classes-stat.png" placement="break">
-                <alt>Статистика по классам</alt>
+			  <alt><wintitle>Class statistics</wintitle> window</alt>
             </image>
         </fig>
-        <p>На этом рисунке цифрами обозначены:</p>
+	   <p>Elements of the <wintitle>Class statistics</wintitle> window:</p>
 		<table frame="topbot">
             <tgroup cols="2">
                 <colspec colname="COLSPEC0" colwidth="10*"/>
@@ -20,48 +20,48 @@
                 <tbody>
                     <row>
                         <entry>1</entry>
-                        <entry>Список <uicontrol>Предмет</uicontrol></entry>
+                        <entry><uicontrol>Course</uicontrol> selection list</entry>
                     </row>
 					<row>
                         <entry>2</entry>
-                        <entry>Начальная дата</entry>
+                        <entry>Start date for filtering</entry>
                     </row>
 					<row>
                         <entry>3</entry>
-                        <entry>Конечная дата</entry>
+                        <entry>End date for filtering</entry>
                     </row>
 					<row>
                         <entry>4</entry>
-                        <entry>Поле данных <uicontrol>Класс</uicontrol></entry>
+                        <entry><uicontrol>Class</uicontrol></entry>
                     </row>
 					<row>
                         <entry>5</entry>
-                        <entry>Поле данных <uicontrol>Всего уроков</uicontrol></entry>
+                        <entry><uicontrol>Lessons</uicontrol> recorded</entry>
                     </row>
 					<row>
                         <entry>6</entry>
-                        <entry>Поле данных <uicontrol>Посещаемость в %</uicontrol></entry>
+                        <entry><uicontrol>Attendance</uicontrol> percentage</entry>
                     </row>
 					<row>
                         <entry>7</entry>
-                        <entry>Поле данных <uicontrol>Средний балл</uicontrol></entry>
+                        <entry><uicontrol>Average grade</uicontrol> for this class</entry>
                     </row>
                     <row>
                         <entry>8</entry>
-                        <entry>Кнопка <uicontrol>Сохранить в формате HTML</uicontrol></entry>
+                        <entry><uicontrol>Export to HTML</uicontrol> button</entry>
                     </row>
                     <row>
                         <entry>9</entry>
-                        <entry>Кнопка <uicontrol>Закрыть окно</uicontrol></entry>
+                        <entry><uicontrol>Close</uicontrol> window button</entry>
                     </row>
-                </tbody> 
+                </tbody>
             </tgroup>
         </table>
-        <p>Преподаватель может сохранить данные статистики по классам в файл формата HTML. Для этого нужно нажать на кнопку <uicontrol>Сохранить</uicontrol> и ввести имя файла для сохранения. После сохранения будет предложено просмотреть результаты экспорта. Если нажать на кнопку <uicontrol>Да</uicontrol>,то откроется окно браузера по умолчанию (обычно <wintitle>Microsoft Internet Explorer</wintitle>) с содержимым сохраненного файла (<xref keyref="classes_statistics/classes_report_png" type="fig"/>&#160;).</p>
+	   <p>You can export attendance statistics into a file in HTML format. Press <uicontrol>Export to HTML</uicontrol> and enter file name. After export is completed you will be given an option to view the results in your default browser (<xref keyref="classes_statistics/classes_report_png" type="fig"/>&#160;).</p>
         <fig id="classes_report_png">
-            <title>Отчет о статистике по классам</title>
+            <title>Class statistics report</title>
             <image href="img/classes-report.png" placement="break">
-                <alt>Отчет о статистике по классам</alt>
+			  <alt>Class statistics report</alt>
             </image>
         </fig>
 	</conbody>
