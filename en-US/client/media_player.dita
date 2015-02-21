@@ -2,11 +2,11 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="media_player" xml:lang="en-US">
-    <title>Окно проигрывателя медиа файлов</title>
+    <title>Media player</title>
     <conbody>
-        <p>Проигрыватель (<indexterm>цифровой магнитофон</indexterm><keyword>цифровой магнитофон</keyword>) может воспроизводить аудио файлы в форматах <b>WAV</b>, <b>MP3</b>, <b>WMA</b> и <b>NMF</b> (специальный формат <wintitle>Диалог Nibelung</wintitle>), а также видео файлы основных распространенных форматов.</p>
-        <note type="tip">Аудио файл формата <b>NMF</b> представляет собой файл, содержащий мастер-трек и трек учащегося в формате <b>MP3</b>, описание файла, установленные закладки, а также введенные субтитры.</note>
-        <p>Проигрыватель медиа файлов  (<xref keyref="media_player/client_player_png" type="fig"/>&#160;) содержит следующие элементы:</p>
+	    <p>The (<indexterm>media player</indexterm><keyword>media player</keyword>) can play back <b>WAV</b>, <b>MP3</b>, <b>WMA</b> and <b>NMF</b> (специальный формат <wintitle>Dialog Nibelung</wintitle> proprietary) files, as well as video files in many common formats.</p>
+        <note type="tip"><b>NMF</b> files are audio files containing master track and student track in <b>MP3</b> format, file description, bookmarks, and subtitles.</note>
+        <p>Elements of the media player window (<xref keyref="media_player/client_player_png" type="fig"/>&#160;):</p>
 		<table frame="topbot">
             <tgroup cols="2">
                 <colspec colname="COLSPEC0" colwidth="10*"/>
@@ -14,23 +14,23 @@
                 <tbody>
                     <row>
                         <entry>1</entry>
-                        <entry>кнопки управления (<xref keyref="controls_player/controls_png" type="fig"/>&#160;);</entry>
+                        <entry>player control buttons (<xref keyref="controls_player/controls_png" type="fig"/>&#160;);</entry>
                     </row>
 					<row>
                         <entry>2</entry>
-                        <entry>окно мастер-трека и трека учащегося (<xref keyref="playlist_player/list_media_client_png" type="fig"/>&#160;);</entry>
+                        <entry>master track and student track panels (<xref keyref="playlist_player/list_media_client_png" type="fig"/>&#160;);</entry>
                     </row>
 					<row>
                         <entry>3</entry>
-                        <entry>список воспроизведения (<xref keyref="tracks_player/track_client_png" type="fig"/>&#160;).</entry>
+                        <entry>playlist panel (<xref keyref="tracks_player/track_client_png" type="fig"/>&#160;).</entry>
                     </row>
-                </tbody> 
+                </tbody>
             </tgroup>
         </table>
         <fig id="client_player_png">
-            <title>Проигрыватель медиа файлов</title>
+            <title>Student module window with media player active</title>
             <image href="img/client_player.png" placement="break">
-                <alt>Проигрыватель медиа файлов</alt>
+			  <alt>Student module window with media player active</alt>
             </image>
         </fig>
    	</conbody>
