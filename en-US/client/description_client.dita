@@ -2,10 +2,10 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="description_client" xml:lang="en-US">
-    <title>Описание модуля клиента</title>
+    <title>Student module</title>
     <conbody>
-        <p><indexterm>модуль клиента</indexterm><keyword>Модуль клиента</keyword> представляет собой программу, устанавливаемую на компьютеры учащихся. Основой этого модуля является  проигрыватель медиа файлов, при помощи которого можно прослушивать аудио информацию, просматривать видео файлы, а также записывать собственный голос, используя микрофон гарнитуры.</p>
-        <p>Основное окно модуля клиента (<xref keyref="description_client/client_png" type="fig"/>&#160;) содержит следующие органы управления:</p>
+	    <p><indexterm>student module</indexterm><keyword>Student module</keyword> is a component of <wintitle>Dialog Nibelung</wintitle> that runs on the student workstations. Media player is at the core of the student module. The media player allows one to listen to audio, watch video, and record their own voice from microphone.</p>
+        <p>Student module main window (<xref keyref="description_client/client_png" type="fig"/>&#160;) includes the following control elements:</p>
 		<table frame="topbot">
             <tgroup cols="2" >
                 <colspec colname="COLSPEC0" colwidth="10*"/>
@@ -13,56 +13,56 @@
                 <tbody valign="top">
                     <row>
                         <entry>1</entry>
-                        <entry>кнопка запуска проигрывателя медиа файлов <uicontrol>Проигрыватель</uicontrol>, при нажатии на которую в окне появятся кнопки управления проигрывателем, окна мастер-трека и трека учащегося, окно списка воспроизведения;</entry>
+                        <entry>Media <uicontrol>Player</uicontrol> start button; whenever media player is active, player controls, master track and student track panels, and a playlist panel will also appear in the window;</entry>
                     </row>
 					<row>
                         <entry>2</entry>
-                        <entry>кнопка отключения звука;</entry>
+				    <entry><uicontrol>Playback mute</uicontrol> button;</entry>
                     </row>
 					<row>
                         <entry>3</entry>
-                        <entry>регулятор общей громкости звука;</entry>
+				    <entry><uicontrol>Volume</uicontrol> control slider;</entry>
                     </row>
 					<row>
                         <entry>4</entry>
-                        <entry>кнопка отключения микрофона;</entry>
+				    <entry><uicontrol>Microphone mute</uicontrol> button;</entry>
                     </row>
 					<row>
                         <entry>5</entry>
-                        <entry>кнопка отключения самопрослушки (отключение собственного голоса учащегося);</entry>
+				    <entry><uicontrol>Disable loopback</uicontrol> button;</entry>
                     </row>
 					<row>
                         <entry>7</entry>
-                        <entry>кнопка отключения индикатора уровня сигнала с микрофона;</entry>
+				    <entry><uicontrol>Disable microphone level indicator</uicontrol> button;</entry>
                     </row>
 					<row>
                         <entry>8</entry>
-                        <entry>кнопка вызова преподавателя <uicontrol>Вызов учителя</uicontrol>;</entry>
+                        <entry><uicontrol>Call teacher _fixme_ [ui]</uicontrol> button;</entry>
                     </row>
 					<row>
                         <entry>9</entry>
-                        <entry>кнопка открытия окна сообщения для преподавателя <uicontrol>Сообщение</uicontrol>.</entry>
+                        <entry><uicontrol>Message teacher _fixme_ [ui]</uicontrol> button.</entry>
                     </row>
-                </tbody> 
+                </tbody>
             </tgroup>
         </table>
         <fig id="client_png">
-            <title>Кнопки управления модуля клиента</title>
+            <title>Student module controls</title>
             <image href="img/client.png" placement="break">
-                <alt>Кнопки управления модуля клиента</alt>
+			  <alt>Student module controls</alt>
             </image>
         </fig>
-        <note type="attention">Обратите внимание, что кнопка отключения самопрослушки недоступна в ОС Windows Vista и Windows 7!</note>
-        <note type="attention">Обратите внимание, что кнопка запуска проигрывателя медиа файлов доступна только для неподключенных модулей учащихся!</note>
-        <p>При нажатии на кнопку <uicontrol>Сообщение</uicontrol>  на экране монитора появится окно (<xref keyref="description_client/message_png" type="fig"/>&#160;), в котором можно написать сообщение для преподавателя.</p>
+	   <note type="attention">Please note that the <uicontrol>Disable loopback</uicontrol> button is not available in Windows Vista and Windows 7.</note>
+	   <note type="attention">Please note that the <uicontrol>Player</uicontrol> start button is only accessible when student module is not online, i.e. not in communication (? _fixme_) with the teacher module.</note>
+        <p>The students can sent teacher a message using <uicontrol>Message teacher</uicontrol> button and entering the message in a window that will appear on their screens (<xref keyref="description_client/message_png" type="fig"/>&#160;).</p>
         <fig id="message_png">
-            <title>Окно ввода сообщения преподавателю</title>
+            <title>Sending a message to the teacher</title>
             <image href="img/message.png" placement="break">
-                <alt>Окно ввода сообщения преподавателю</alt>
+			  <alt>Sending a message to the teacher</alt>
             </image>
         </fig>
-        <p>При нажатии на кнопку <uicontrol>Вызов учителя</uicontrol>,  вызов от данного учащегося будет отображаться в виде иконки с телефонной трубкой и надписи <wintitle>Помогите</wintitle> в основном модуле, установленном на компьютере преподавателя (<xref keyref="call_tutor/icon_call_png" type="fig"/>&#160;).</p>
-        <p>Внизу окна модуля клиента размещена строка статуса (<xref keyref="description_client/client_statusbar_png" type="fig"/>&#160;), содержащая следующую информацию:</p>
+	   <p>Whenever a student uses the <uicontrol>Call teacher</uicontrol> button, his or her student panel in the teacher module window classroom console will indicate the call with a <wintitle>Help me</wintitle> bubble and a phone handset icon (<xref keyref="call_tutor/icon_call_png" type="fig"/>&#160;).</p>
+        <p>The status bar at the bottom of student module window (<xref keyref="description_client/client_statusbar_png" type="fig"/>&#160;) displays:</p>
 		<table frame="topbot">
             <tgroup cols="2">
                 <colspec colname="COLSPEC0" colwidth="10*"/>
@@ -70,27 +70,27 @@
                 <tbody valign="top">
                     <row>
                         <entry>1</entry>
-                        <entry>Текущее задание;</entry>
+                        <entry>current activity;</entry>
                     </row>
 					<row>
                         <entry>2</entry>
-                        <entry>Принадлежность к группе;</entry>
+                        <entry>group affiliation;</entry>
                     </row>
 					<row>
                         <entry>3</entry>
-                        <entry>Идентификатор учащегося;</entry>
+                        <entry>student seat ID;</entry>
                     </row>
 					<row>
                         <entry>4</entry>
-                        <entry>Состояние соединения (подключение модуля клиента к основному модулю в строке статуса должно быть отображено соответствующим значком).</entry>
+                        <entry>online/offline status icon (whether in communication with the teacher module or not).</entry>
                     </row>
-                </tbody> 
+                </tbody>
             </tgroup>
         </table>
         <fig id="client_statusbar_png">
-            <title>Строка статуса</title>
+            <title>Student module status bar</title>
             <image href="img/client_statusbar.png" placement="break">
-                <alt>Строка статуса</alt>
+			  <alt>Student module status bar</alt>
             </image>
         </fig>
 	</conbody>
