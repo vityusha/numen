@@ -13,7 +13,7 @@
                 <tbody valign="top">
                     <row>
                         <entry>1</entry>
-                        <entry>Media <uicontrol>Player</uicontrol> start button; whenever media player is active, player controls, master track and student track panels, and a playlist panel will also appear in the window;</entry>
+				    <entry>Media <uicontrol>Player</uicontrol> start button; whenever media player is active, player controls, master track and student track panels, and a playlist panel will also appear in the window (<xref keyref="media_player/client_player_png" type="fig"/>&#160;);</entry>
                     </row>
 					<row>
                         <entry>2</entry>
