@@ -37,11 +37,11 @@
                     </row>
 					<row>
                         <entry>8</entry>
-                        <entry><uicontrol>Call teacher _fixme_ [ui]</uicontrol> button;</entry>
+                        <entry><uicontrol>Call teacher</uicontrol> button;</entry>
                     </row>
 					<row>
                         <entry>9</entry>
-                        <entry><uicontrol>Message teacher _fixme_ [ui]</uicontrol> button.</entry>
+                        <entry><uicontrol>Message teacher</uicontrol> button.</entry>
                     </row>
                 </tbody>
             </tgroup>
