@@ -4,7 +4,7 @@
 <concept id="grades_statistics" xml:lang="en-US">
     <title>Performance statistics</title>
     <conbody>
-        <p>Select <menucascade><uicontrol>Logbook</uicontrol><uicontrol>Performance stats _fixme_ [ui]</uicontrol></menucascade> from the main menu to view student performance statistics.</p>
+        <p>Select <menucascade><uicontrol>Logbook</uicontrol><uicontrol>Performance stats</uicontrol></menucascade> from the main menu to view student performance statistics.</p>
 	   <p conkeyref="presents_statistics/filter_win" />
 	   <p>You can select <uicontrol>Statistics type</uicontrol>: <uicontrol>Summary</uicontrol> (<xref keyref="grades_statistics/grades_common_png" type="fig"/>&#160;) or <uicontrol>Detailed</uicontrol> (<xref keyref="grades_statistics/grades_full_png" type="fig"/>&#160;).</p>
         <fig id="grades_common_png">
@@ -41,15 +41,15 @@
                     </row>
 					<row>
                         <entry>6</entry>
-				    <entry><uicontrol>Cumulative score _fixme_ [ui]</uicontrol></entry>
+				    <entry><uicontrol>Cumulative score</uicontrol></entry>
                     </row>
 					<row>
                         <entry>7</entry>
-                        <entry><uicontrol>Grades recorded _fixme_ [ui]</uicontrol></entry>
+                        <entry><uicontrol>Grades recorded</uicontrol></entry>
                     </row>
 					<row>
                         <entry>8</entry>
-                        <entry><uicontrol>Average grade _fixme_ [ui]</uicontrol></entry>
+                        <entry><uicontrol>Average grade</uicontrol></entry>
                     </row>
 					<row>
                         <entry>9</entry>
@@ -120,7 +120,7 @@
 	   <p>Summary statistics include list of students in the class; cumulative score, number of recorded grades, and average grade for each student for the specified dates. Detailed statistics include student list and individual grades for each student for the specified dates.</p>
 	   <p>You can export attendance statistics into a file in HTML format. Press <uicontrol>Export to HTML</uicontrol> and enter file name. After export is completed you will be given an option to view the results in your default browser (<xref keyref="grades_statistics/grades_report_png" type="fig"/>&#160;).</p>
         <fig id="grades_report_png">
-            <title>Performance report _fixme_ [ui]</title>
+            <title>Performance report</title>
             <image href="img/grades-report.png" placement="break">
                 <alt>Performance report</alt>
             </image>
