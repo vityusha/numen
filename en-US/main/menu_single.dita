@@ -104,7 +104,7 @@
             <entry><image href="img/menu/poweron.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-			<entry namest="COLSPEC0" nameend="COLSPEC1"><uicontrol>Score</uicontrol> (see <xref keyref="journal"/>&#160;)</entry>
+			<entry namest="COLSPEC0" nameend="COLSPEC1"><uicontrol>Grade</uicontrol> (see <xref keyref="journal"/>&#160;)</entry>
           </row>
           <row>
 			<entry>- <uicontrol>None</uicontrol></entry>

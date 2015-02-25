@@ -60,10 +60,10 @@
         </table>
 		<p>Files can be loaded into the media player in one of the following ways:
             <ul>
-                <li>using the <uicontrol>Open media file</uicontrol> button in the media player control panel (_fixme_ xref fig);</li>
+                <li>using the <uicontrol>Open media file</uicontrol> button in the media player control panel (see <xref keyref="controls_player"/>&#160;);</li>
                 <li>double click on a file in the <wintitle>My files</wintitle> playlist tab;</li>
-			<li>double click on a file in the <wintitle>Session files</wintitle> playlist tab;</li>
-                <li>remotely from the teacher workstation (_fixme_ xref).</li>
+				<li>double click on a file in the <wintitle>Session files</wintitle> playlist tab;</li>
+                <li>remotely from the teacher workstation (see <xref keyref="media_source"/>&#160;).</li>
             </ul>
         </p>
         <note type="tip">Please note that files listed in the <wintitle>Session files</wintitle> tab will be streamed on demand from the teacher workstation. (?) _fixme_</note>

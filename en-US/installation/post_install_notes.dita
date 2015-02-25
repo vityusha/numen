@@ -8,20 +8,20 @@
 
         <section>
             <title><wintitle>Windows Media Player 10</wintitle> installation</title>
-		  <p><wintitle>Windows Media Player 10</wintitle> or higher is required to operate <wintitle>Dialog Nibelung</wintitle> digital recorder. It is included on the <wintitle>Dialog Nibelung</wintitle> installation disk for your convenience. Run <filepath>\WMP\MP10SetupRu.exe _fixme_</filepath> from the installation disk to install <wintitle>Windows Media Player 10</wintitle> if it is missing from your system.</p>
+		  <p><wintitle>Windows Media Player 10</wintitle> or higher is required to operate <wintitle>Dialog Nibelung</wintitle> digital recorder. It is included on the <wintitle>Dialog Nibelung</wintitle> installation disk for your convenience. Run <filepath>\WMP\MP10Setup.exe</filepath> from the installation disk to install <wintitle>Windows Media Player 10</wintitle> if it is missing from your system.</p>
         </section>
 
         <section>
             <title><wintitle>Windows Firewall</wintitle> setup</title>
-		  <p><wintitle>Dialog Nibelung</wintitle> must be included in the exceptions list (_fixme_?) of your <wintitle>Windows Firewall</wintitle> setup. Usually the <wintitle>Firewall</wintitle> will offer you to create this exception during first launch of the software. We recommend to double check if the following exceptions have been created for <wintitle>Dialog Nibelung</wintitle>:</p>
+		  <p><wintitle>Dialog Nibelung</wintitle> must be included in the exceptions list of your <wintitle>Windows Firewall</wintitle> setup. Usually the <wintitle>Firewall</wintitle> will offer you to create this exception during first launch of the software. We recommend to double check if the following exceptions have been created for <wintitle>Dialog Nibelung</wintitle>:</p>
             <ul>
 			  <li>on the teacher workstation: <filepath>NiubelungUI.exe</filepath></li>
                 <li>on student workstations: <filepath>NiubelungClient.exe</filepath> and <filepath>NiubelungHelper.exe</filepath></li>
             </ul>
 		  <p><wintitle>Windows Firewall</wintitle> exception list can be found in:</p>
 		  <ul>
-			<li><p><menucascade><uicontrol>Пуск</uicontrol><uicontrol>Панель управления</uicontrol><uicontrol>Безопасность</uicontrol><uicontrol>Разрешения запуска программ через  брандмауэр Windows</uicontrol></menucascade> _fixme_</p><p>or</p></li>
-			<li><p><menucascade><uicontrol>Пуск</uicontrol><uicontrol>Панель управления</uicontrol><uicontrol>Брандмауэр Windows</uicontrol><uicontrol>Изменить параметры</uicontrol><uicontrol>Исключения</uicontrol></menucascade> _fixme_</p></li>
+			<li><p><menucascade><uicontrol>Start</uicontrol><uicontrol>Control Panel</uicontrol><uicontrol>System and Security</uicontrol><uicontrol>Windows Firewall</uicontrol><uicontrol>Allow apps to communicate through Windows Firewall</uicontrol></menucascade></p><p>or</p></li>
+			<li><p><menucascade><uicontrol>Start</uicontrol><uicontrol>Control Panel</uicontrol><uicontrol>Windows Firewall</uicontrol><uicontrol>Exceptions</uicontrol></menucascade></p></li>
             </ul>
             <p>Some anti-virus software may also issue warnings regarding <wintitle>Dialog Nibelung</wintitle>. You will have to create appropriate exceptions (add it to the list of trusted software) as well.</p>
         </section>
@@ -37,17 +37,17 @@
                 <li>Only enable those capture and playback streams that are necessary. Usually that will be <uicontrol>Playback</uicontrol> and <uicontrol>Microphone</uicontrol> streams for playback and <uicontrol>Microphone</uicontrol> stream for the recording. Disable all other streams.</li>
             </ol>
             <p product="nibelung">Please see section <xref keyref="setup_pc"/>&#160; of this user guide for further information on audio setup.</p>
-            <p>For <wintitle>Windows 7</wintitle> without the <wintitle>Service Pack 1</wintitle> we highly recommend installing Windows Update <wintitle>KB 981679</wintitle>. You can find it on the <wintitle>Dialog Nibelung</wintitle> installation disk under the <filepath>\KB\</filepath> folder. You can also download it from Microsoft Support at <xref scope="external" href="http://support.microsoft.com/kb/981679">http://support.microsoft.com/kb/981679</xref> (_fixme_ - discontinued?).</p>
+            <p>For <wintitle>Windows 7</wintitle> without the <wintitle>Service Pack 1</wintitle> we highly recommend installing Windows Update <wintitle>KB 981679</wintitle>. You can find it on the <wintitle>Dialog Nibelung</wintitle> installation disk under the <filepath>\KB\</filepath> folder. You can also download it from Microsoft Support at <xref scope="external" href="http://support.microsoft.com/kb/981679">http://support.microsoft.com/kb/981679</xref>.</p>
         </section>
 
         <section>
             <title>Miscellaneous tips</title>
             <ol>
 			  <li>Simultaneously press <userinput>Ctrl + Alt</userinput> on your keyboard and right click of the window title to enter setup menu of the <wintitle>Dialog Nibelung</wintitle> student module. The student module has to be launched with the administrator privileges to change its settings.</li>
-			  <li>In Windows Vista, 7 and 8 (with UAC enabled), right click on the software icon and select <uicontrol>Launch as Administrator _fixme_</uicontrol> to launch a program with administrator privileges.</li>
+			  <li>In Windows Vista, 7 and 8 (with UAC enabled), right click on the software icon and select <uicontrol>Run as Administrator</uicontrol> to launch a program with administrator privileges.</li>
 			  <li>If the teacher module would not launch after the installation, we recommend to launch it at least once with administrator privileges.</li>
-			  <li>For day to day operations we recommend running the teacher module without administrator privileges for security reasons. You will need to change default path to the teacher folders in order to facilitate this (see section ... _fixme_).</li>
-                <li>In Windows Vista, 7 and 8, in some cases it is recommended to disable the <wintitle>TCP/IPv6</wintitle> protocol in Network Connection Properties _fixme_.</li>
+			  <li>For day to day operations we recommend running the teacher module without administrator privileges for security reasons.</li>
+              <li>In Windows Vista, 7 and 8, in some cases it is recommended to disable the <wintitle>TCP/IPv6</wintitle> protocol in Network Connection Properties.</li>
 			 <li><wintitle>VirtualBox</wintitle> virtualization software installed on the same computer may interfere with audio and video streaming. If this is the case, try disabling <wintitle>VirtualBox Host-Only Ethernet Adapter</wintitle> in the network adapter list.</li>
 			 <li>When applying Windows Updates application software like <wintitle>Dialog Nibelung</wintitle> may become unstable. Close application software, finish installing all the updates, and restart the computer.</li>
             </ol>
