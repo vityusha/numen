@@ -66,6 +66,6 @@
                 <li>remotely from the teacher workstation (see <xref keyref="media_source"/>&#160;).</li>
             </ul>
         </p>
-        <note type="tip">Please note that files listed in the <wintitle>Session files</wintitle> tab will be streamed on demand from the teacher workstation. (?) _fixme_</note>
+	   <note type="tip">Files listed in the <wintitle>Session files</wintitle> tab are downloaded from the teacher workstation on demand, i.e. only when they are actually accessed.</note>
    	</conbody>
 </concept>
