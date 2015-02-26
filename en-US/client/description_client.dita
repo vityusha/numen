@@ -53,7 +53,7 @@
             </image>
         </fig>
 	   <note type="attention">Please note that the <uicontrol>Disable loopback</uicontrol> button is not available in Windows Vista and Windows 7.</note>
-	   <note type="attention">Please note that the <uicontrol>Player</uicontrol> start button is only accessible when student module is not online, i.e. is not connected to the teacher module.</note>
+	   <note type="attention">Please note that the <uicontrol>Player</uicontrol> button is only accessible when student module is running in a standalone mode, i.e. not in communication with the teacher module.</note>
         <p>The students can sent teacher a message using <uicontrol>Message teacher</uicontrol> button and entering the message in a window that will appear on their screens (<xref keyref="description_client/message_png" type="fig"/>&#160;).</p>
         <fig id="message_png">
             <title>Sending a message to the teacher</title>
