@@ -6,7 +6,7 @@
     <conbody>
 	    <p><wintitle>Dialog Nibelung</wintitle> media player supports two audio tracks: the master track and the student track. <indexterm>master track</indexterm><keyword>Master track</keyword> can contain any type of audio program from a file. <indexterm>student track</indexterm><keyword>Student track</keyword> is typically used to record student's voice and compare it to the master track.</p>
 		<note type="important">The student track can only be recorded from the student microphone and saved as an <b>NMF</b> file. It can not be imported from a <b>WAV</b> or <b>MP3</b> file.</note>
-		<p>After a file is open in the media player, the file name will appear in the master and student tracks panel header and track waveforms will be visualized (1 and 2 in <xref keyref="tracks_player/track_client_png" type="fig"/>&#160;) in the panel.</p>
+		<p>After a file is open in the media player, the file name will appear in the panel header and track waveforms will be visualized (1 and 2 in <xref keyref="tracks_player/track_client_png" type="fig"/>&#160;) in the panel.</p>
 		<fig id="track_client_png">
             <title>Master and student tracks panel</title>
             <image href="img/track_client.png" placement="break">
@@ -62,12 +62,11 @@
                 </tbody>
             </tgroup>
         </table>
-		<note type="important">The will be no audio visualization during video playback.</note>
         <p>Use the current position slider (3) to jump to different fragments of the video or audio.</p>
 		<p>Whenever a student track is present, any manipulation with the media file (playback, repositioning, fragment selection, etc.) will be performed simultaneously on both the master and student tracks.</p>
 		<p>The player has controls for independent volume adjustment (7 and 9) and muting (6 and 8) of both tracks, and playback speed adjustment (5, works in sync for both tracks).</p>
-        <note type="important">Playback speed can not be adjusted for video playback.</note>
-		<p>Use the (10) button (<xref keyref="tracks_player/nmf_desc_png" type="fig"/>&#160;) to edit description of the current file or assignment. The description will be saved along with audio/video data if the file is saved in <b>NMF</b> format. The description will be also displayed instead of the file name in the panel title bar.</p>
+		<note type="important">Audio visualization and playback speed adjustment are not available during video playback.</note>
+		<p>Use the (10) button (<xref keyref="tracks_player/nmf_desc_png" type="fig"/>&#160;) to edit description of the current file or assignment. The description will be saved along with audio/video data if the file is saved in <b>NMF</b> format. The description is displayed in place of the file name in the panel title bar.</p>
         <fig id="nmf_desc_png">
             <title>Edit file description window</title>
             <image href="img/nmf_desc.png" placement="break">
