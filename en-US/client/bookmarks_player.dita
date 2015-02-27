@@ -2,23 +2,23 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="bookmarks_player" xml:lang="en-US">
-    <title>Работа с закладками</title>
+    <title>Bookmarks</title>
     <conbody>
-        <p>Во время прослушивания или просмотра медиа файла, существует возможность отметить на мастер-треке полезные места, на которые можно легко вернуться. Для этого служат <indexterm>закладки</indexterm><keyword>закладки</keyword>.</p>
-	<p>При помощи кнопки <uicontrol>Уст</uicontrol> можно устанавливать до девяти закладок. Для этого необходимо найти начало нужного фрагмента и нажать на кнопку <uicontrol>Уст</uicontrol>. Закладке присваивается первый свободный по порядку номер и кнопка с соответствующим номером становится доступной. Нажав на эту кнопку, можно быстро перейти к соответствующему фрагменту медиа файла. Чтобы убрать закладку, нужно сначала нажать на кнопку <uicontrol>Убрать</uicontrol>, а затем на кнопку с номером закладки.</p>
-        <note type="attention">Обратите внимание, что доступны кнопки только с введенными номерами закладок.</note>
-        <p>Существует возможность установки комментария к введенной закладке. Для этого нужно, удерживая клавишу <uicontrol><shortcut>Ctrl</shortcut></uicontrol>, щелкунть левой кнопкой мышки на установленной закладке. В появившемся окне следует ввести необходимый комментарий к закладке.</p>
+        <p>You can set <indexterm>bookmarks</indexterm><keyword>bookmarks</keyword> on the master track for easy access to certain playback positions.</p>
+	<p>Use the <uicontrol>Set</uicontrol> button to set up to 9 bookmarks per file. Each bookmark will be set at the current playback position. A new book mark will get the first available number and corresponding number button will become available. Press that button to instantly jump the playback to the bookmark position. Press the <uicontrol>Remove</uicontrol>, followed by a number button to remove the bookmark.</p>
+	<note type="attention">Please note that only those number buttons that correspond to  set up bookmarks are enabled in the player.</note>
+        <p>You can also assign a comment to a bookmark. Press <uicontrol><shortcut>Ctrl</shortcut></uicontrol> on your keyboard and click on the bookmark number button to enter the comment.</p>
         <fig id="bookmark-comment_png">
-            <title>Окно ввода комментария к закладке</title>
+            <title>Editing a bookmark comment</title>
             <image href="img/bookmark-comment.png" placement="break">
-                <alt>Окно ввода комментария к закладке</alt>
+			  <alt>Editing a bookmark comment</alt>
             </image>
         </fig>
-        <p>При наведении курсора на установленную закладку появится всплывающая подсказка, содержащая позицию закладки в файле и текст комментария.</p>
+        <p>Hover the mouse pointer over a bookmark number button and the bookmark position and comment will be displayed in a pop-up window.</p>
         <fig id="bookmark-tooltip_png">
-            <title>Отображение комментария к закладке</title>
+            <title>Bookmark position and comment display</title>
             <image href="img/bookmark-tooltip.png" placement="break">
-                <alt>Отображение комментария к закладке</alt>
+			  <alt>Bookmark position and comment display</alt>
             </image>
         </fig>
    	</conbody>
