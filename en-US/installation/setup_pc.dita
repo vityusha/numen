@@ -5,10 +5,10 @@
     <title>Operating System and hardware setup</title>
     <conbody>
 	    <p>You will need to set certain properties of your network interface for the optimal operation of <wintitle>Dialog Nibelung</wintitle>.</p>
-        <p>Press the <uicontrol>Start</uicontrol> button and select <uicontrol>Control Panel</uicontrol>. The <wintitle>Control Panel</wintitle> window (<xref keyref="setup_pc/control_panel_png" type="fig"/>&#160;) will appear on your screen. Click on the <wintitle>System</wintitle> icon.</p>
-        <fig id="control_panel_png">
+        <p>Press the <uicontrol>Start</uicontrol> button and select <uicontrol>Control Panel</uicontrol>. The <wintitle>Control Panel</wintitle> window (<xref keyref="setup_pc/control_panel_vista_png" type="fig"/>&#160;) will appear on your screen. Click on the <wintitle>System and Security</wintitle> and then click on the <wintitle>System</wintitle> icon.</p>
+        <fig id="control_panel_vista_png">
             <title>Control Panel</title>
-            <image href="img/control_panel.png" placement="break">
+            <image href="img/control_panel_vista.png" placement="break">
                 <alt>Control Panel</alt>
             </image>
         </fig>
