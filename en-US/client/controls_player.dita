@@ -42,7 +42,7 @@
                     </row>
 					<row>
                         <entry>7</entry>
-                        <entry><uicontrol>Repeat</uicontrol> (<uicontrol><shortcut>Ctrl+R</shortcut></uicontrol>) – repeat selected fragment in a loop. Drag the mouse pointer on either track to select a fragment. Selected fragment will be marked by color.</entry>
+                        <entry><uicontrol>Repeat</uicontrol> (<uicontrol><shortcut>Ctrl+R</shortcut></uicontrol>) – repeat selected fragment in a loop. Click and drag the mouse pointer on the visualization of either track to select a fragment. Selected fragment will be marked by contrasting color.</entry>
                     </row>
 					<row>
                         <entry>8</entry>
