@@ -122,7 +122,7 @@
         </fig>
 	   <p>You can also set a background image for the quiz. Press <uicontrol>Add</uicontrol> located in the <wintitle>Quiz background</wintitle> field and select an image file to be used as a background. Press the <uicontrol>Show</uicontrol> button to preview selected image on your screen.</p>
         <note type="important">The background image will be previewed using the default image viewer software on your system.</note>
-	   <p> Press the <uicontrol>Pick color _fixme_ [ui]</uicontrol> button located in the <wintitle>Font color</wintitle> field to set default font color for the quiz.</p>
+	   <p> Press the <uicontrol>Pick color</uicontrol> button located in the <wintitle>Font color</wintitle> field to set default font color for the quiz.</p>
 	   <p>Press the <uicontrol>Edit</uicontrol> button located in the <wintitle>Quiz introduction</wintitle> field to edit an introductory text for the quiz (<xref keyref="test_builder/edit_instruc_png" type="fig"/>&#160;).</p>
         <fig id="edit_instruc_png">
             <title>Quiz introduction editor window</title>

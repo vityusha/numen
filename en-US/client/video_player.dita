@@ -6,9 +6,9 @@
     <conbody>
 	    <p>During video playback and additional window will open, displaying the video (<xref keyref="video_player/client_video_png" type="fig"/>&#160;).</p>
         <fig id="client_video_png">
-		   <title><wintitle>Video playback</wintitle> _fixme_ [ui] window</title>
+		   <title><wintitle>Video playback</wintitle> window</title>
             <image href="img/client-video.png" placement="break">
-			  <alt><wintitle>Video playback</wintitle> _fixme_ [ui] window</alt>
+			  <alt><wintitle>Video playback</wintitle> window</alt>
             </image>
         </fig>
 	   <p>Right click on the <wintitle>Video playback</wintitle> window and select a value from the pop-up menu (<xref keyref="video_player/client_video_menu_png" type="fig"/>&#160;) to resize the window. The video will be automatically resized to fit the window.</p>
