@@ -2,15 +2,16 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="test_blanks" xml:lang="en-US">
-    <title>Вставить пропуски</title>
+    <title>Fill in the blanks</title>
     <conbody>
+	    <p>A fill in the blanks is a type of question where students must fill in the blanks in given text. Multiple correct options may be specified for each blank. These types of question are scored ... _fixme_</p>
         <fig id="type_3_png">
-            <title>Тип ответа: вставить пропуски</title>
+		   <title>Question type: <uicontrol>Fill in the blanks _fixme_ [ui]</uicontrol></title>
             <image href="img/type_3.png" placement="break">
-                <alt>Тип ответа: вставить пропуски</alt>
+			  <alt>Question type: <uicontrol>Fill in the blanks</uicontrol></alt>
             </image>
         </fig>
-        <p>В случае типа ответа <wintitle>Вставить пропуски</wintitle> необходимо в редакторе вопросов (<xref keyref="test_builder/edit_instruc_png" type="fig"/>&#160;) в тексте задания обозначить символами <b>&lt;..&gt;</b> места пропусков. </p>
-        <p>На панели ответов нужно в соответствующем поле ввести текст задания полностью, где пропущенные слова должны быть ограничены символами <b>&lt;</b> и <b>&gt;</b>. Если существует несколько вариантов ответов, они вводятся через <b>;</b> (точка с запятой). Например, <b>&lt;dog;cat&gt;</b>.</p>
+        <p>Select <wintitle>Fill in the blanks</wintitle> as the question type and enter the text into the editor panel (<xref keyref="test_builder/edit_instruc_png" type="fig"/>&#160;) marking the blanks with <b>&lt;..&gt;</b> symbols.</p>
+        <p>Enter the correct fill-in text between the <b>&lt;</b> and <b>&gt;</b>. Multiple options can be specified by separating them with a semicolon, for example <b>&lt;dog;cat&gt;</b>.</p>
    	</conbody>
 </concept>
