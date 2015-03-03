@@ -5,6 +5,6 @@
     <title>Quiz system</title>
     <conbody>
 	    <p><wintitle>Dialog Quiz</wintitle> is a software based general purpose quiz system which can be used for testing students in various areas, not necessarily limited to the language courses. <wintitle>Dialog Quiz</wintitle> is shipped as an integrated part of <wintitle>Dialog Nibelung</wintitle>.</p>
-	    <p><wintitle>Dialog Quiz</wintitle> includes <wintitle>Quiz Builder</wintitle> for creating tests and <wintitle>Quiz Player</wintitle> for conducting the tests. Test results can be displayed via the <wintitle>Quiz Administrator</wintitle> module and are automatically imported into <wintitle>Dialog Nibelung</wintitle> class log book.</p>
+	    <p><wintitle>Dialog Quiz</wintitle> includes <wintitle>Quiz Builder</wintitle> for creating tests and <wintitle>Quiz Player</wintitle> for conducting the tests. Test results can be displayed via the <wintitle>Quiz Administrator</wintitle> module and upon lesson conclusion are automatically imported into <wintitle>Dialog Nibelung</wintitle> class log book.</p>
 	</conbody>
 </concept>

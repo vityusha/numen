@@ -205,14 +205,14 @@
 	   <p>An image, an audio, or a video can be inserted either as a file or a hypertext link reference.</p>
 	   <p>Check the <uicontrol>File</uicontrol> box and press <uicontrol>Browse</uicontrol> button to select a file, or enter the file name manually into the field to insert a file.</p>
         <p>Check the <uicontrol>Link</uicontrol> box and enter the link URL onto the box to insert a hypertext link. You can validate the URL by pressing <uicontrol>Check</uicontrol> button.</p>
-        <note type="important">By using hypertext links instead of files you can drastically reduce the quiz file size. Hypertext links allow you to use any resource available on the local network or the Internet. Please note that students must be able to access the Internet when taking such quiz (see section _fixme_ xref).</note>
+        <note type="important">By using hypertext links instead of files you can drastically reduce quiz file size. Hypertext links allow you to use any resource available on the local network or the Internet. Please note that students must be able to access the Internet when taking such quiz (see section _fixme_ xref).</note>
 	   <p>A thumbnail image of the inserted graphics will be displayed on the right hand side of the <uicontrol>Multimedia</uicontrol> panel (<xref keyref="test_builder/media_pic_png" type="fig"/>&#160;). For audio and video, a playback button will appear in the same place (<xref keyref="test_builder/media_audio_png" type="fig"/> and <xref keyref="test_builder/media_video_png" type="fig"/>&#160;).</p>
         <p>You can specify the following parameters for each question individually in the question settings panel (<xref keyref="test_builder/param_quiz_png" type="fig"/>&#160;):
             <ul>
                 <li>question title;</li>
                 <li>optional time limit in seconds (can not exceed total limit for the quiz (?) _fixme_);</li>
                 <li>question weight for overall quiz score;</li>
-                <li>oral answer option (recorded from student microphone).</li>
+                <li>option for an oral answer (recorded from the student microphone).</li>
             </ul>
         </p>
         <fig id="param_quiz_png">
