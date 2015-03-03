@@ -103,7 +103,7 @@
                 <li>enforce the order of questions so that the students can not go back and change their answers;</li>
                 <li>randomize question order;</li>
                 <li>allow the students to see their results after they complete the test;</li>
-                <li>allow instant correction (students can instantly see correctness of their answers and make another attempt).</li>
+                <li>provide instant feedback to students for correctness of their answers so they can make another attempt.</li>
             </ul>
         </p>
         <fig id="param_test_png">
@@ -225,15 +225,15 @@
 	   <note type="attention">Please note that if <uicontrol>Time limit</uicontrol> option was set for the whole quiz (<xref keyref="test_builder/param_test_png" type="fig"/>&#160;), then individual question time limits will have no effect.</note>
         <p>You can use several types of question on the quiz:
             <ul>
-                <li>multiple choice;</li>
-                <li>multiple answer (?) _fixme_;</li>
+                <li>multiple choice single answer;</li>
+                <li>multiple choice multiple answers;</li>
                 <li>fill in the blank spaces;</li>
-                <li>relations (matching items);</li>
-                <li>sequence order;</li>
-                <li>hot spot;</li>
+                <li>items correspondence;</li>
+                <li>ranking;</li>
+                <li>image hot spot;</li>
                 <li>drag and drop;</li>
                 <li>open question;</li>
-                <li>dummy question (does not require students to give an answer and can be used to convey some of information).</li>
+                <li>dummy question (does not require students to give an answer and can be used to convey some information).</li>
             </ul>
         </p>
 	   <p>The look and feel of the <uicontrol>Answers</uicontrol> panel will depend on selected type of the question.</p>
