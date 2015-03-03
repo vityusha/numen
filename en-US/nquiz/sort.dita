@@ -2,16 +2,17 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="test_sort" xml:lang="en-US">
-    <title>Упорядочить</title>
+    <title>Ranking</title>
     <conbody>
+	    <p>Ranking type questions require students to rank items in the list according to a specified criteria. These questions are scored ... _fixme_</p>
         <fig id="type_6_png">
-            <title>Тип ответа: упорядочить</title>
+		   <title>Question type: <uicontrol>Ranking _fixme_ [ui]</uicontrol></title>
             <image href="img/type_6.png" placement="break">
-                <alt>Тип ответа: упорядочить</alt>
+			  <alt>Question type: <uicontrol>Ranking</uicontrol></alt>
             </image>
         </fig>
-        <p>В случае типа ответа <wintitle>Упорядочить</wintitle> на панели слева будет располагаться список, соответствующий правильному варианту ответа, а справа кнопки <uicontrol>Добавить</uicontrol> и <uicontrol>Удалить</uicontrol>, при помощи которых можно добавить или удалить строку списка.</p>
-        <p>При добавлении новой строки в столбце <wintitle>Ответ</wintitle> заносится соответствующий текст.</p>
-       <note type="important">Обратите внимание, что при наборе строк списка нужно соблюдать порядок ввода, соответствующий правильному варианту ответа!</note>
+	   <p>the <uicontrol>Answers</uicontrol> tab will contain a list of items on the left and <uicontrol>Add</uicontrol> and <uicontrol>Delete</uicontrol> button on the right. Use the buttons to add to or remove items from the list.</p>
+        <p>Click on the fields in the <wintitle>Answer</wintitle> column to enter or edit the items.</p>
+       <note type="important">The order in which items appear on the list is the "correct" ranking against which this question will be scored.</note>
    	</conbody>
 </concept>
