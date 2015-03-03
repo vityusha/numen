@@ -13,6 +13,6 @@
         </fig>
 	   <p>When <wintitle>Single answer</wintitle> is selected as the question type, the <uicontrol>Answers</uicontrol> panel in the <wintitle>Quiz Builder</wintitle> window will include a list of answer choices on the left and <uicontrol>Add</uicontrol> and <uicontrol>Delete</uicontrol> buttons on the right. Use these buttons to add or remove answer choices.</p>
 	   <p>A blank line will appear in the list upon pressing the <uicontrol>Add</uicontrol> button. Click on the <wintitle>Answers _fixme_ [ui]</wintitle> field in the line to enter answer text.</p>
-        <p>After entering all the choices check a box next to the correct answer in the <wintitle>Correct _fixme_ [ui]</wintitle> column.</p>
+        <p>After entering all the choices, check a box next to the correct answer in the <wintitle>Correct _fixme_ [ui]</wintitle> column.</p>
    	</conbody>
 </concept>

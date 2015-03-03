@@ -2,16 +2,17 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="test_multiple_choice" xml:lang="en-US">
-    <title>Множественный выбор</title>
+    <title>Multiple answer questions</title>
     <conbody>
+	    <p>A multiple answer question is a multiple choice question where students can select more than one answer. The question will receive full score only when all correct answers have been selected. _fixme_ partial score?</p>
         <fig id="type_1_png">
-            <title>Тип ответа: множественный выбор</title>
+		   <title>Question type: <uicontrol>Multiple answer _fixme_ [ui]</uicontrol></title>
             <image href="img/type_1.png" placement="break">
-                <alt>Тип ответа: множественный выбор</alt>
+			  <alt>Question type: <uicontrol>Multiple answer</uicontrol></alt>
             </image>
         </fig>
-        <p>В случае типа ответа <wintitle>Множественный выбор</wintitle> на панели слева будет располагаться список вариантов ответов, а справа кнопки <uicontrol>Добавить</uicontrol> и <uicontrol>Удалить</uicontrol>, при помощи которых можно добавить или удалить варианты ответа.</p>
-        <p>При добавлении нового варианта ответа с списке появляется пустая строка. Для того чтобы ввести текст варианта ответа, нужно щелкнуть мышкой на этой строке в столбце <wintitle>Вариант ответа</wintitle>.</p>
-        <p>По окончании ввода всех ответов нужно в столбце <wintitle>Правильный ответ</wintitle> поставить галочку напротив напротив всех правильных вариантов ответа.</p>
+	   <p>When <wintitle>Multiple answer</wintitle> is selected as the question type, the <uicontrol>Answers</uicontrol> panel in the <wintitle>Quiz Builder</wintitle> window will include a list of answer choices on the left and <uicontrol>Add</uicontrol> and <uicontrol>Delete</uicontrol> buttons on the right. Use these buttons to add or remove answer choices.</p>
+	   <p>A blank line will appear in the list upon pressing the <uicontrol>Add</uicontrol> button. Click on the <wintitle>Answers _fixme_ [ui]</wintitle> field in the line to enter answer text.</p>
+	   <p>After entering all the choices, check boxes next to all correct answers in the <wintitle>Correct _fixme_ [ui]</wintitle> column.</p>
    	</conbody>
 </concept>
