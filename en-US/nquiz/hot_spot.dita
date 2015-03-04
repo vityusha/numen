@@ -26,7 +26,7 @@
 			  <alt>Spot editor window</alt>
             </image>
         </fig>
-	   <p>Click on the image and drag the mouse pointer (? _fixme_) to select an area. The area will be marked with a dashed line, green for a correct spot and red otherwise. Click on the check mark in the upper right corner of the area to switch its type. Click on the red <b>x</b> mark to delete the area.</p>
+	   <p>Click on the image in the spot editor and drag the mouse pointer to select an area. The area will be marked with a dashed line, green for a correct spot and red otherwise. Click on the check mark in the upper right corner of the area to switch its type. Click on the red <b>x</b> mark to delete the area.</p>
 
    	</conbody>
 </concept>
