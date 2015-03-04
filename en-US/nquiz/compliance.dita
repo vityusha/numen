@@ -11,7 +11,15 @@
 			  <alt>Question type: <uicontrol>Relations</uicontrol></alt>
             </image>
         </fig>
-	   <p>When <wintitle>Relations</wintitle> is selected as the question type, the <uicontrol>Answers</uicontrol> panel will include a list of matched pairs on the left and <uicontrol>Add</uicontrol> and <uicontrol>Delete</uicontrol> buttons on the right. Use these buttons to add or remove items to the list.</p>
+	    <p>When <wintitle>Relations</wintitle> is selected as the question type, the <uicontrol>Answers</uicontrol> panel will include a list of matched pairs on the left and <uicontrol>Add</uicontrol> and <uicontrol>Delete</uicontrol> buttons on the right. Use these buttons to add or remove items to the list.</p>
         <p>Click on the fields in <wintitle>List A</wintitle> and <wintitle>List B</wintitle> columns to enter or edit the text.</p>
+
+		<p>_fixme_ В Quiz player данный тип вопроса будет отображаться как показано на рисунке: <xref keyref="test_compliance/view_relations_png" type="fig"/>&#160;.</p>
+        <fig id="view_relations_png">
+            <title>Quiz player: Relations</title>
+            <image href="img/view_relations.png" placement="break">
+                <alt>Quiz player: Relations</alt>
+            </image>
+        </fig>        
    	</conbody>
 </concept>

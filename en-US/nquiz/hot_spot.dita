@@ -2,7 +2,7 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="test_hotspot" xml:lang="en-US">
-    <title>Выбор зоны</title>
+    <title>Image hot spots</title>
     <conbody>
         <fig id="type_7_png">
             <title>Тип ответа: выбор зоны</title>
@@ -18,6 +18,14 @@
             </image>
         </fig>
         <p>Для установки зоны необходимо при помощи левой кнопки мыши выделить нужный участок изображения. Зоны, соответствующие правильному ответу, отображаются зеленой штрих пунктирной линией, а неправильному - красной. Для переключения типов ответа, необходимо щелкнуть левой кнопкой мыши на кнопке с изображением зеленой галочки. Для удаления зоны, необходимо щелкнуть левой кнопкой мыши на кнопке с изображением красного креста.</p>
+
+		<p>_fixme_ В Quiz player данный тип вопроса будет отображаться как показано на рисунке: <xref keyref="test_hotspot/view_hotspot_png" type="fig"/>&#160;.</p>
+        <fig id="view_hotspot_png">
+            <title>Quiz player: Image hot spots</title>
+            <image href="img/view_hotspot.png" placement="break">
+                <alt>Quiz player: Image hot spots</alt>
+            </image>
+        </fig>        
    	</conbody>
 </concept>
 
