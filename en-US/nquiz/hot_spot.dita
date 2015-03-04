@@ -4,28 +4,29 @@
 <concept id="test_hotspot" xml:lang="en-US">
     <title>Image hot spots</title>
     <conbody>
-        <fig id="type_7_png">
-            <title>Тип ответа: выбор зоны</title>
-            <image href="img/type_7.png" placement="break">
-                <alt>Тип ответа: выбор зоны</alt>
-            </image>
-        </fig>
-        <p>В случае типа ответа <wintitle>Выбор зоны</wintitle> при помощи кнопки <uicontrol>Обзор</uicontrol> нужно выбрать графический файл. При нажатии на кнопку <uicontrol>Указать зоны</uicontrol> откроется окно редактора зон.</p>
-        <fig id="hotspot_edit_png">
-            <title>Окно редактора зон</title>
-            <image href="img/hotspot_edit.png" placement="break">
-                <alt>Окно редактора зон</alt>
-            </image>
-        </fig>
-        <p>Для установки зоны необходимо при помощи левой кнопки мыши выделить нужный участок изображения. Зоны, соответствующие правильному ответу, отображаются зеленой штрих пунктирной линией, а неправильному - красной. Для переключения типов ответа, необходимо щелкнуть левой кнопкой мыши на кнопке с изображением зеленой галочки. Для удаления зоны, необходимо щелкнуть левой кнопкой мыши на кнопке с изображением красного креста.</p>
+	    <p>Image hot spot is a type of a visual question where students must click on an area of the image that corresponds to the correct answer (the hot spot). Several areas can be marked on the image, with several of them being correct.</p>
+		<p>These types of question will be presented to the students as shown in <xref keyref="test_hotspot/view_hotspot_png" type="fig"/>&#160;.</p>
+		    <fig id="view_hotspot_png">
+			    <title><wintitle>Quiz Player</wintitle>: Image hot spots</title>
+			    <image href="img/view_hotspot.png" placement="break">
+				    <alt><wintitle>Quiz Player</wintitle>: Image hot spots</alt>
+			    </image>
+		    </fig>
 
-		<p>_fixme_ В Quiz player данный тип вопроса будет отображаться как показано на рисунке: <xref keyref="test_hotspot/view_hotspot_png" type="fig"/>&#160;.</p>
-        <fig id="view_hotspot_png">
-            <title>Quiz player: Image hot spots</title>
-            <image href="img/view_hotspot.png" placement="break">
-                <alt>Quiz player: Image hot spots</alt>
+		<fig id="type_7_png">
+		   <title><wintitle>Quiz Builder</wintitle>: Image hot spots</title>
+            <image href="img/type_7.png" placement="break">
+			  <alt><wintitle>Quiz Builder</wintitle>: Image hot spots</alt>
             </image>
-        </fig>        
+        </fig>
+	   <p>Use the <uicontrol>Browse</uicontrol> button in the <wintitle>Quiz Builder</wintitle> <uicontrol>Answers</uicontrol> panel to select a graphic file. Press the <uicontrol>Select hot spots</uicontrol> button to open the spot editor.</p>
+        <fig id="hotspot_edit_png">
+            <title>Spot editor window</title>
+            <image href="img/hotspot_edit.png" placement="break">
+			  <alt>Spot editor window</alt>
+            </image>
+        </fig>
+	   <p>Click on the image and drag the mouse pointer (? _fixme_) to select an area. The area will be marked with a dashed line, green for a correct spot and red otherwise. Click on the check mark in the upper right corner of the area to switch its type. Click on the red <b>x</b> mark to delete the area.</p>
+
    	</conbody>
 </concept>
-
