@@ -2,14 +2,14 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="test_free" xml:lang="en-US">
-    <title>Открытый</title>
+    <title>Open questions</title>
     <conbody>
-        <fig id="type_5_png">
-            <title>Тип ответа: открытый</title>
+	    <p><wintitle>Open</wintitle> type questions require students to give a free form answer. These types of questions necessarily have to be graded manually. As such, they are not automatically counted towards overall quiz score.</p>
+	    <fig id="type_5_png">
+		   <title>Question type: <uicontrol>Open</uicontrol></title>
             <image href="img/type_5.png" placement="break">
-                <alt>Тип ответа: открытый</alt>
+			  <alt>Question type: <uicontrol>Open</uicontrol></alt>
             </image>
         </fig>
-        <p>Тип ответа <wintitle>Открытый</wintitle> подразумевает под собой свободный письменный ответ учащегося, который не учитывается при автоматическом подсчете оценки.</p>
    	</conbody>
 </concept>
