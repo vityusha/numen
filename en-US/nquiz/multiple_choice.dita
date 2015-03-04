@@ -4,23 +4,22 @@
 <concept id="test_multiple_choice" xml:lang="en-US">
     <title>Multiple answer questions</title>
     <conbody>
-	    <p>A multiple answer question is a multiple choice question where students can select more than one answer. The question will receive full score only when all correct answers have been selected. _fixme_ partial score?</p>
-        <fig id="type_1_png">
-		   <title>Question type: <uicontrol>Multiple answer</uicontrol></title>
+	    <p>A multiple answer question is a multiple choice question where students can select more than one answer. The question will receive full score only when all correct answers have been selected.</p>
+	    <p>These types of question will be presented to the students as shown in: <xref keyref="test_multiple_choice/view_multi_png" type="fig"/>&#160;.</p>
+	    <fig id="view_multi_png">
+		    <title><wintitle>Quiz Player</wintitle>: Multiple answer questions</title>
+		    <image href="img/view_multi.png" placement="break">
+			    <alt><wintitle>Quiz Player</wintitle>: Single answer questions</alt>
+		    </image>
+	    </fig>
+	    <fig id="type_1_png">
+		    <title><wintitle>Quiz Builder</wintitle>: <uicontrol>Multiple answer</uicontrol></title>
             <image href="img/type_1.png" placement="break">
-			  <alt>Question type: <uicontrol>Multiple answer</uicontrol></alt>
+			  <alt><wintitle>Quiz Builder</wintitle>: <uicontrol>Multiple answer</uicontrol></alt>
             </image>
         </fig>
-	    <p>When <wintitle>Multiple answer</wintitle> is selected as the question type, the <uicontrol>Answers</uicontrol> panel in the <wintitle>Quiz Builder</wintitle> window will include a list of answer choices on the left and <uicontrol>Add</uicontrol> and <uicontrol>Delete</uicontrol> buttons on the right. Use these buttons to add or remove answer choices.</p>
-	    <p>A blank line will appear in the list upon pressing the <uicontrol>Add</uicontrol> button. Click on the <wintitle>Answers</wintitle> field in the line to enter answer text.</p>
+	   <p conkeyref="test_single_choice/multichoice" />
 	    <p>After entering all the choices, check boxes next to all correct answers in the <wintitle>Correct answers</wintitle> column.</p>
-		
-		<p>_fixme_ В Quiz player данный тип вопроса будет отображаться как показано на рисунке: <xref keyref="test_multiple_choice/view_multi_png" type="fig"/>&#160;.</p>
-        <fig id="view_multi_png">
-            <title>Quiz player: Multiple answer questions</title>
-            <image href="img/view_multi.png" placement="break">
-                <alt>Quiz player: Single answer questions</alt>
-            </image>
-        </fig>        
+
    	</conbody>
 </concept>
