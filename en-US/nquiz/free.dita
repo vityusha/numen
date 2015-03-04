@@ -2,7 +2,7 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="test_free" xml:lang="en-US">
-    <title>Open questions</title>
+    <title>Open question</title>
     <conbody>
 	    <p><wintitle>Open</wintitle> type questions require students to give a free form answer. These types of questions necessarily have to be graded manually. As such, they are not automatically counted towards overall quiz score.</p>
 	    <fig id="type_5_png">
@@ -11,5 +11,13 @@
 			  <alt>Question type: <uicontrol>Open</uicontrol></alt>
             </image>
         </fig>
+
+		<p>_fixme_ В Quiz player данный тип вопроса будет отображаться как показано на рисунке: <xref keyref="test_free/view_open_png" type="fig"/>&#160;.</p>
+        <fig id="view_open_png">
+            <title>Quiz player: Open question</title>
+            <image href="img/view_open.png" placement="break">
+                <alt>Quiz player: Open question</alt>
+            </image>
+        </fig>        
    	</conbody>
 </concept>

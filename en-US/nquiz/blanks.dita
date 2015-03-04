@@ -6,12 +6,20 @@
     <conbody>
 	    <p>A fill in the blanks is a type of question where students must fill in the blanks in given text. Multiple correct options may be specified for each blank. These types of question are scored ... _fixme_</p>
         <fig id="type_3_png">
-		   <title>Question type: <uicontrol>Fill in the blanks _fixme_ [ui]</uicontrol></title>
+		   <title>Question type: <uicontrol>Fill in the blanks</uicontrol></title>
             <image href="img/type_3.png" placement="break">
 			  <alt>Question type: <uicontrol>Fill in the blanks</uicontrol></alt>
             </image>
         </fig>
         <p>Select <wintitle>Fill in the blanks</wintitle> as the question type and enter the text into the editor panel (<xref keyref="test_builder/edit_instruc_png" type="fig"/>&#160;) marking the blanks with <b>&lt;..&gt;</b> symbols.</p>
         <p>Enter the correct fill-in text between the <b>&lt;</b> and <b>&gt;</b>. Multiple options can be specified by separating them with a semicolon, for example <b>&lt;dog;cat&gt;</b>.</p>
+
+		<p>_fixme_ В Quiz player данный тип вопроса будет отображаться как показано на рисунке: <xref keyref="test_blanks/view_blank_png" type="fig"/>&#160;.</p>
+        <fig id="view_blank_png">
+            <title>Quiz player: Fill in the blanks</title>
+            <image href="img/view_blank.png" placement="break">
+                <alt>Quiz player: Fill in the blanks</alt>
+            </image>
+        </fig>        
    	</conbody>
 </concept>

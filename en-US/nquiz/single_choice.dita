@@ -6,13 +6,21 @@
     <conbody>
 	    <p>A single answer question is a multiple choice question where students can select only one answer. It is scored as all or nothing.</p>
         <fig id="type_1_png">
-		   <title>Question type: <uicontrol>Single answer</uicontrol> _fixme_ [ui]</title>
+		   <title>Question type: <uicontrol>Single answer</uicontrol></title>
             <image href="img/type_1.png" placement="break">
 			  <alt>Question type: <uicontrol>Single answer</uicontrol></alt>
             </image>
         </fig>
-	   <p>When <wintitle>Single answer</wintitle> is selected as the question type, the <uicontrol>Answers</uicontrol> panel in the <wintitle>Quiz Builder</wintitle> window will include a list of answer choices on the left and <uicontrol>Add</uicontrol> and <uicontrol>Delete</uicontrol> buttons on the right. Use these buttons to add or remove answer choices.</p>
-	   <p>A blank line will appear in the list upon pressing the <uicontrol>Add</uicontrol> button. Click on the <wintitle>Answers _fixme_ [ui]</wintitle> field in the line to enter answer text.</p>
-        <p>After entering all the choices, check a box next to the correct answer in the <wintitle>Correct _fixme_ [ui]</wintitle> column.</p>
+	    <p>When <wintitle>Single answer</wintitle> is selected as the question type, the <uicontrol>Answers</uicontrol> panel in the <wintitle>Quiz Builder</wintitle> window will include a list of answer choices on the left and <uicontrol>Add</uicontrol> and <uicontrol>Delete</uicontrol> buttons on the right. Use these buttons to add or remove answer choices.</p>
+	    <p>A blank line will appear in the list upon pressing the <uicontrol>Add</uicontrol> button. Click on the <wintitle>Answers</wintitle> field in the line to enter answer text.</p>
+        <p>After entering all the choices, check a box next to the correct answer in the <wintitle>Correct answers</wintitle> column.</p>
+
+		<p>_fixme_ В Quiz player данный тип вопроса будет отображаться как показано на рисунке: <xref keyref="test_single_choice/view_single_png" type="fig"/>&#160;.</p>
+        <fig id="view_single_png">
+            <title>Quiz player: Single answer questions</title>
+            <image href="img/view_single.png" placement="break">
+                <alt>Quiz player: Single answer questions</alt>
+            </image>
+        </fig>        
    	</conbody>
 </concept>

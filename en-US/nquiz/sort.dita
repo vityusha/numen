@@ -6,13 +6,21 @@
     <conbody>
 	    <p>Ranking type questions require students to rank items in the list according to a specified criteria. These questions are scored ... _fixme_</p>
         <fig id="type_6_png">
-		   <title>Question type: <uicontrol>Ranking _fixme_ [ui]</uicontrol></title>
+		   <title>Question type: <uicontrol>Ranking</uicontrol></title>
             <image href="img/type_6.png" placement="break">
 			  <alt>Question type: <uicontrol>Ranking</uicontrol></alt>
             </image>
         </fig>
-	   <p>the <uicontrol>Answers</uicontrol> tab will contain a list of items on the left and <uicontrol>Add</uicontrol> and <uicontrol>Delete</uicontrol> button on the right. Use the buttons to add to or remove items from the list.</p>
+	    <p>the <uicontrol>Answers</uicontrol> tab will contain a list of items on the left and <uicontrol>Add</uicontrol> and <uicontrol>Delete</uicontrol> button on the right. Use the buttons to add to or remove items from the list.</p>
         <p>Click on the fields in the <wintitle>Answer</wintitle> column to enter or edit the items.</p>
-       <note type="important">The order in which items appear on the list is the "correct" ranking against which this question will be scored.</note>
+        <note type="important">The order in which items appear on the list is the "correct" ranking against which this question will be scored.</note>
+
+		<p>_fixme_ В Quiz player данный тип вопроса будет отображаться как показано на рисунке: <xref keyref="test_sort/view_ranking_png" type="fig"/>&#160;.</p>
+        <fig id="view_ranking_png">
+            <title>Quiz player: Ranking</title>
+            <image href="img/view_ranking.png" placement="break">
+                <alt>Quiz player: Ranking</alt>
+            </image>
+        </fig>        
    	</conbody>
 </concept>

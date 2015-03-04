@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
-<concept id="test_dragrop" xml:lang="en-US">
+<concept id="test_dragdrop" xml:lang="en-US">
     <title>Переместить и положить</title>
     <conbody>
         <fig id="type_8_png">
@@ -18,5 +18,13 @@
             </image>
         </fig>
         <p>Для установки зоны необходимо при помощи левой кнопки мыши выделить нужный участок изображения. Внутри выделенной зоны нужно ввести текст правильного ответа. Для изменения прозрачности зон при вводе текста необходимо нажать на кнопку с изображением белого прямоугольника внизу окна редактора зон. Для удаления зоны, необходимо щелкнуть левой кнопкой мыши на кнопке с изображением красного крестика.</p>
+
+		<p>_fixme_ В Quiz player данный тип вопроса будет отображаться как показано на рисунке: <xref keyref="test_dragdrop/view_dnd_png" type="fig"/>&#160;.</p>
+        <fig id="view_dnd_png">
+            <title>Quiz player: Drag and drop</title>
+            <image href="img/view_dnd.png" placement="break">
+                <alt>Quiz player: Drag and drop</alt>
+            </image>
+        </fig>        
     </conbody>
 </concept>
