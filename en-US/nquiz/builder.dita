@@ -236,6 +236,7 @@
                 <li>dummy question (does not require students to give an answer and can be used to convey some information).</li>
             </ul>
         </p>
+	   <p>All types of questions will be scored on an all-or-nothing basis, i.e. the question will receive a full score only when a correct and complete answer is provided. Partially correct answers will score zero.</p>
 	   <p>The look and feel of the <uicontrol>Answers</uicontrol> panel will depend on selected type of the question.</p>
    	</conbody>
 </concept>
