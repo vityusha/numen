@@ -47,11 +47,11 @@
                     </row>
                     <row>
                         <entry>6</entry>
-                        <entry><uicontrol>Listen to audio _fixme_ [ui]</uicontrol> button (if applicable)</entry>
+                        <entry><uicontrol>Play audio</uicontrol> button (if applicable)</entry>
                     </row>
                     <row>
                         <entry>7</entry>
-                        <entry><uicontrol>Record an oral answer _fixme_ [ui]</uicontrol> button (if applicable)</entry>
+                        <entry><uicontrol>Record an oral answer</uicontrol> button (if applicable)</entry>
                     </row>
                     <row>
                         <entry>8</entry>
@@ -85,7 +85,7 @@
             </tgroup>
         </table>
         <p>Students' ability to navigate around the quiz depends on both the quiz and individual questions settings.</p>
-        <p>Whenever the quiz is enforcing strict sequence of questions (see _fixme_ xref), only the <uicontrol>Answer</uicontrol> navigation button is enabled, which records the answer and proceeds on to the next question.</p>
+        <p>Whenever the quiz is enforcing strict sequence of questions (<xref keyref="test_builder"/>&#160;), only the <uicontrol>Answer</uicontrol> navigation button is enabled, which records the answer and proceeds on to the next question.</p>
         <p>If the strict order is not enforced, students will be able to use <uicontrol>Previous</uicontrol> and <uicontrol>Next</uicontrol> buttons to navigate to the previous or next question or use the drop-down list (9) to jump to any question in the quiz.</p>
 	   <p>If quiz settings allow instant feedback, the students will be able to get question feedback by pressing the <uicontrol>Check</uicontrol> button. In this case <uicontrol>Check</uicontrol> will change into <uicontrol>Repeat</uicontrol> button that will allow students to make another attempt if they were wrong (<xref keyref="test_client/view_2_png" type="fig"/>&#160;).</p>
 	   <note type="tip">Instant feedback option greatly simplifies creation of learning assignments.</note>
@@ -98,7 +98,7 @@
 
 	   <p>Quiz title, quiz remaining time, and question title are displayed in the upper portion of the <wintitle>Quiz Player</wintitle> window. If the question has a time limit set, question remaining time will also be displayed in the upper right corner next to the quiz remaining time.</p>
         <note type="important">Students will not be able to change their answers after the question time limit has elapsed. Moreover, whenever a question has a time limit, students will not be able to come back to this question later.</note>
-        <p>Questions can have images, audio and video associated with them. If this is the case, <uicontrol>Play audio _fixme_ [ui]</uicontrol> and/or <uicontrol>Show video</uicontrol> buttons will appear in the question window (<xref keyref="test_client/view_2_png" type="fig"/>&#160;). The media player will be launched upon pressing those buttons.</p>
+        <p>Questions can have images, audio and video associated with them. If this is the case, <uicontrol>Play audio</uicontrol> and/or <uicontrol>Show video</uicontrol> buttons will appear in the question window (<xref keyref="test_client/view_2_png" type="fig"/>&#160;). The media player will be launched upon pressing those buttons.</p>
         <p>If the question has the option for an oral answer, recording and playback buttons will appear in the lower left corner of the window (<xref keyref="test_client/view_1_png" type="fig"/>&#160;).</p>
         <fig id="view_1_png">
 		   <title><wintitle>Quiz Player</wintitle> window with a <uicontrol>Single answer</uicontrol> question with audio and oral answer option</title>
