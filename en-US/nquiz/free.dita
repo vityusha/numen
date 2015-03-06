@@ -4,7 +4,7 @@
 <concept id="test_free" xml:lang="en-US">
     <title>Open question</title>
     <conbody>
-	    <p><wintitle>Open</wintitle> type questions require students to give a free form answer. These types of questions necessarily have to be graded manually. As such, they are not automatically counted towards overall quiz score.</p>
+	    <p><wintitle>Open</wintitle> type questions require students to give a free form answer. Answers to such questions necessarily have to be graded manually. As such, they are not automatically counted towards overall quiz score.</p>
 	    <fig id="type_5_png">
 		   <title>Question type: <uicontrol>Open</uicontrol></title>
             <image href="img/type_5.png" placement="break">
@@ -12,12 +12,12 @@
             </image>
         </fig>
 
-		<p>_fixme_ В Quiz player данный тип вопроса будет отображаться как показано на рисунке: <xref keyref="test_free/view_open_png" type="fig"/>&#160;.</p>
+		<p>These types of questions will be presented to the student as shown in <xref keyref="test_free/view_open_png" type="fig"/>&#160;.</p>
         <fig id="view_open_png">
             <title>Quiz player: Open question</title>
             <image href="img/view_open.png" placement="break">
                 <alt>Quiz player: Open question</alt>
             </image>
-        </fig>        
+        </fig>
    	</conbody>
 </concept>
