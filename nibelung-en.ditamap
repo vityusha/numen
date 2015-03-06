@@ -139,14 +139,14 @@
     <topicref keys="test_result" href="en-US/nquiz/result.dita" />
   </topicref>
   <topicref keys="program_working" href="en-US/concepts/program_working.dita" />
-  <topichead navtitle="Работа программы с аудиокоммутатором">
+  <topichead navtitle="Audio hub">
     <topicref href="en-US/concepts/purpose_switch.dita" />
     <topicref keys="commutator_switch" href="en-US/concepts/commutator_switch.dita" />
     <topicref keys="learner_switch" href="en-US/concepts/learner_switch.dita" />
     <topicref keys="connect_switch" href="en-US/concepts/connect_switch.dita" />
     <topicref keys="work_switch" href="en-US/concepts/work_switch.dita" />
   </topichead>
-  <topichead navtitle="Ответы на часто задаваемые вопросы (FAQ)">
+  <topichead navtitle="Frequently asked questions">
     <topicref keys="faq-hw" href="en-US/concepts/faq-hw.dita" />
     <topicref href="en-US/concepts/faq-install.dita" />
   </topichead>
