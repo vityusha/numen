@@ -3,38 +3,38 @@
 "task.dtd">
 
 <task id="program_working" xml:lang="en-US">
-	<title>Порядок работы с программой</title>
+	<title>Recommended lesson workflow</title>
 	<taskbody>
 		<steps>
 			<step>
-				<cmd>Включите компьютеры преподавателя и учащихся.</cmd>
+				<cmd>Turn on teacher and student workstations. Student workstation can be turned on remotely from the teacher workstation if they have been set up to do so (see _fixme_ xref).</cmd>
 			</step>
 			<step>
-				<cmd>Запустите на компьютере преподавателя основной модуль, а на компьютерах учащихся модули клиентов, если они не были запущены при загрузке операционной системы.</cmd>
+				<cmd>Launch the teacher module and student modules if they have not been already launched upon Windows startup.</cmd>
 			</step>
 			<step>
-				<cmd>Выберите имя преподавателя. Если преподаватель работает впервые с программой и его имени нет в списке, нужно войти под  именем <b>Admin</b> и добавить имя этого преподавателя (п. <xref keyref="choice_tutor"/>&#160;). После чего необходимо войти под вновь созданным именем преподавателя.</cmd>
+				<cmd>Login to your account in the teacher module. For a new teacher, log in as <userinput>Admin</userinput> and add a teacher account (section <xref keyref="choice_tutor"/>&#160;).</cmd>
 			</step>
 			<step>
-				<cmd>Откройте файл нужного класса. Если Вы впервые работаете с классом, нужно выбрать пункт <uicontrol>Новый класс</uicontrol>, ввести количество учащихся и количество рядов в классе. При необходимости можно вручную расставить рабочие места учащихся и ввести имена учащихся. Сохраните новый класс на жестком диске преподавателя (п. <xref keyref="student_class"/>&#160;).</cmd>
+				<cmd>Open a class file. If this is a new class, select <menucascade><uicontrol>Class</uicontrol><uicontrol>New</uicontrol></menucascade> from the main menu, and enter number of students in the class and number of rows in the virtual classroom. You can also (re)arrange student seats manually and edit the class list. Save the class file on the teacher workstation (section <xref keyref="student_class"/>&#160;).</cmd>
 			</step>
 			<step>
-				<cmd>Проведите регистрацию присутствующих (п. <xref keyref="registration"/>&#160;). Если необходимо, после регистрации исправьте имена учащихся.</cmd>
+				<cmd>Perform student roll call registration (section <xref keyref="registration"/>&#160;). Correct student names if necessary.</cmd>
 			</step>
 			<step>
-				<cmd>После этого вы можете организовать группы учащихся (п. <xref keyref="union_in_group"/>&#160;) и выдать им задания для работы (п. <xref keyref="students_tasks"/>&#160;).</cmd>
+				<cmd>You can now arrange students into groups (section <xref keyref="union_in_group"/>&#160;) and assign them activities (section <xref keyref="students_tasks"/>&#160;).</cmd>
 			</step>
 			<step>
-				<cmd>Процесс завершения работы программы зависит от типа задания. Например, при самостоятельной работе может потребоваться собрать записи учащихся на компьютер преподавателя (п. <xref keyref="self_training"/>&#160;).</cmd>
+				<cmd>The process of finishing a lesson depend on the types of the activities performed during the session. For example, after a self access activity it might be necessary to collect classroom assignments (section <xref keyref="self_training"/>&#160;).</cmd>
 			</step>
 			<step>
-				<cmd>Если потребуется, можно сохранить результаты работы учащихся, находящиеся в папке преподавателя, стандартными средствами <wintitle>Windows</wintitle> на сменный носитель для для дальнейшего использования преподавателем.</cmd>
-			</step>  
-			<step>
-				<cmd>Компьютеры учащихся можно выключить по команде из основного модуля (п. <xref keyref="power_management"/>&#160;).</cmd>
+				<cmd>You can copy lesson materials between the teacher folder and removable media using standard <wintitle>Windows</wintitle> tools.</cmd>
 			</step>
 			<step>
-				<cmd>После этого можно закрыть основной модуль и выключить компьютер преподавателя.</cmd>
+				<cmd>Student workstation can be shut down remotely from the teacher module (section <xref keyref="power_management"/>&#160;).</cmd>
+			</step>
+			<step>
+				<cmd>Exit the teacher module and shut down the teacher workstation (if necessary).</cmd>
 			</step>
 		</steps>
 	</taskbody>
