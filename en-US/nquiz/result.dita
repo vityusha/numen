@@ -20,7 +20,7 @@
                 <tbody>
                     <row>
                         <entry>1</entry>
-                        <entry><uicontrol>Open _fixme_ [ui]</uicontrol> button to open a quiz file with test results;</entry>
+                        <entry><uicontrol>Open</uicontrol> button to open a quiz file with test results;</entry>
                     </row>
 					<row>
                         <entry>2</entry>
@@ -54,7 +54,7 @@
             </tgroup>
         </table>
         <p>Quiz title, course, quiz description, maximum score and grade, date the quiz was conducted, and class list with individual scores, grades and notes. You can edit scores, grades and notes by double clicking on the appropriate field. Press <uicontrol>Save</uicontrol> button (6) to save modified quiz results and/or notes.</p>
-	   <p>You can use the <uicontrol>Export to HTML</uicontrol> button (7) to export quiz results into an <b>HTML</b> page that can be viewed in any browser, posted online, or printed out.</p>
-	   <p>Press the <uicontrol>View</uicontrol> button in the <uicontrol>Details _fixme_ [ui]</uicontrol> column to see detailed results for individual students. This will launch the <wintitle>Quiz Player</wintitle> (see <xref keyref="test_client"/>&#160;) with this student quiz results.</p>
+	    <p>You can use the <uicontrol>Export to HTML</uicontrol> button (7) to export quiz results into an <b>HTML</b> page that can be viewed in any browser, posted online, or printed out.</p>
+	    <p>Press the <uicontrol>View</uicontrol> button in the <uicontrol>Details</uicontrol> column to see detailed results for individual students. This will launch the <wintitle>Quiz Player</wintitle> (see <xref keyref="test_client"/>&#160;) with this student quiz results.</p>
     </conbody>
 </concept>
