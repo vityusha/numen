@@ -151,7 +151,7 @@
             </tgroup>
         </table>
         <p>Teacher name, Class ID, lesson time left, and some other additional data (depending on the mode) are shown in the status line.</p>
-	   <note type="attention">Please note that the <uicontrol>Loopback disable</uicontrol> button is not accessible under Windows Vista and Windows 7.</note>
+	   <note type="attention">Please note that the <uicontrol>Loopback disable</uicontrol> button is not accessible under Windows Vista, Windows 7 and Windows 8.x.</note>
 		<p>An icon (<xref keyref="description_main/microphone_png" type="fig"/>&#160;) will appear in the upper right corner of the window whenever the teacher's microphone is turned on.</p>
         <fig id="microphone_png">
             <title>Microphone on icon</title>
