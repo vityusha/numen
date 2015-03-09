@@ -44,11 +44,11 @@
                     </row>
                     <row>
                         <entry>7</entry>
-                        <entry><wintitle>Call</wintitle> button</entry>
+                        <entry><wintitle>Call teacher</wintitle> button</entry>
                     </row>
                     <row>
                         <entry>8</entry>
-                        <entry><wintitle>Ring</wintitle> light (?) _fixme_</entry>
+                        <entry><wintitle>Call teacher</wintitle> indicator light</entry>
                     </row>
                 </tbody>
             </tgroup>
