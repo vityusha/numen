@@ -3,19 +3,19 @@
 "concept.dtd">
 
 <concept id="connect_switch" xml:lang="en-US">
-  <title>Подключение аудиокоммутатора</title>
+  <title>Connecting the audio hub</title>
 
   <conbody>
-    <p>Схема подключения сетевого и аудио приведена на <xref keyref="connect_switch/dialog_5_png" type="fig"/>&#160;.</p>
+    <p>Connection diagram for a classroom equipped with Ethernet LAN and an audio hub is shown in <xref keyref="connect_switch/dialog_5_png" type="fig"/>&#160;.</p>
 
     <fig id="dialog_5_png">
-        <title>Схема подключения аудиокоммутатора</title>
+        <title>Audio hub connection diagram</title>
         <image href="img/dialog_5.png" placement="break">
-            <alt>Схема подключения аудиокоммутатора</alt>
+		   <alt>Audio hub connection diagram</alt>
         </image>
     </fig>
-    
-    <p>На этом рисунке цифрами обозначены:</p>
+
+    <p>Elements on the connection diagram:</p>
 		<table frame="topbot">
             <tgroup cols="2">
                 <colspec colname="COLSPEC0" colwidth="10*"/>
@@ -23,58 +23,58 @@
                 <tbody>
                     <row>
                         <entry>1</entry>
-                        <entry>ПК преподавателя</entry>
+                        <entry>Teacher workstation</entry>
                     </row>
 					<row>
                         <entry>2</entry>
-                        <entry>ПК учащегося</entry>
+                        <entry>Student workstation</entry>
                     </row>
 					<row>
                         <entry>3</entry>
-                        <entry>Коммутатор локальной сети <wintitle>Ethernet</wintitle> (или <wintitle>Wi-Fi</wintitle> роутер)</entry>
+                        <entry><wintitle>Ethernet</wintitle> switch (or <wintitle>Wi-Fi</wintitle> router in case of wireless network)</entry>
                     </row>
 					<row>
                         <entry>4</entry>
-                        <entry>Аудиокоммутатор</entry>
+                        <entry>Audio hub</entry>
                     </row>
 					<row>
                         <entry>5</entry>
-                        <entry>Блок учащегося</entry>
+                        <entry>Student interface</entry>
                     </row>
 					<row>
                         <entry>6</entry>
-                        <entry>Гарнитура преподавателя</entry>
+                        <entry>Teacher headset</entry>
                     </row>
 					<row>
                         <entry>7</entry>
-                        <entry>Гарнитура учащегося</entry>
+                        <entry>Student headset</entry>
                     </row>
 					<row>
                         <entry>8</entry>
-                        <entry>Кабель соединения по локальной сети UTP-5 (в случае <wintitle>Wi-Fi</wintitle> сети не требуется)</entry>
+                        <entry>LAN cable (not necessary for wireless LAN)</entry>
                     </row>
 					<row>
                         <entry>9</entry>
-                        <entry>Кабель соединения аудиокоммутатора с блоком учащегося</entry>
+                        <entry>Multipurpose cable connecting audio hub with student interface</entry>
                     </row>
 					<row>
                         <entry>10</entry>
-                        <entry>Аудиокабели для подключения звуковой карты ПК преподавателя к аудиокоммутатору</entry>
+                        <entry>Audio cables connecting audio hub with the teacher workstation</entry>
                     </row>
                     <row>
                         <entry>11</entry>
-                        <entry>Аудиокабели для подключения звуковой карты ПК учащегося к блоку учащегося</entry>
+                        <entry>Audio cables connecting student interface with student workstation</entry>
                     </row>
                     <row>
                         <entry>12</entry>
-                        <entry>Кабель соединения по локальной сети UTP-5 для подключения аудиокоммутатора</entry>
+                        <entry>LAN cable connecting to the audio hub for control &amp; monitoring</entry>
                     </row>
-                </tbody> 
+                </tbody>
             </tgroup>
         </table>
-   
+
     <note type="important">Линейный вход звуковой карты ПК преподавателя неодходимо подключить к четвертому внешнему выходу аудиокоммутатора, а линейный выход звуковой карты - к четвертому внешнему входу аудиокоммутатора.</note>
-    
+
     <p>Блоки учащихся подключаются к блоку коммутации 8-ми жильным плоским кабелем (6) (<xref keyref="connect_switch/cabels_png" type="fig"/>&#160;).</p>
     <p>Соединительный 8-ми жильный плоский кабель прокладывается от блока коммутации до каждого блока учащегося. На концы соединительных кабелей устанавливаются разъемы, при помощи специального обжимного инструмента.</p>
     <note type="important">На обоих концах кабеля (у блока коммутации и блока учащегося) разъемы устанавливаются ОДИНАКОВЫМ ОБРАЗОМ! (Порядок следования цветных жил в обоих разъемах должен совпадать).</note>
