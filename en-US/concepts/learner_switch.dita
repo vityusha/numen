@@ -2,18 +2,17 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="learner_switch" xml:lang="en-US">
-    <title>Описание блока учащегося</title>
-    <conbody>  
-        <p><indexterm>блок учащегося</indexterm>Блок учащегося служит для передачи аудиосигналов к учащемуся и от учащегося через аудиокоммутатор.</p>
-        <p>На задней панели блока учащегося (<xref keyref="learner_switch/learner_png" type="fig"/>&#160;) расположены разъемы для
-        подключения гарнитуры учащегося и ПК.</p>
+    <title>Student interface</title>
+    <conbody>
+        <p><indexterm>student interface</indexterm>Student interface is a device installed in the vicinity of the student workstation and connects student headset and workstation to the audio hub.</p>
+        <p>Connectors for the student workstation and two headsets are located on the rear panel of the student interface (<xref keyref="learner_switch/learner_png" type="fig"/>&#160;).</p>
 		<fig id="learner_png">
-            <title>Блок учащегося. Вид сзади</title>
+            <title>Student interface controls and connectors</title>
             <image href="img/learner.png" placement="break">
-                <alt>Блок учащегося. Вид сзади</alt>
-            </image> 
+			  <alt>Student interface controls and connectors</alt>
+            </image>
         </fig>
-        <p>На этом рисунке цифрами обозначены:</p>
+	   <p>Student interface controls and connectors:</p>
 		<table frame="topbot">
             <tgroup cols="2">
                 <colspec colname="COLSPEC0" colwidth="10*"/>
@@ -21,41 +20,41 @@
                 <tbody>
                     <row>
                         <entry>1</entry>
-                        <entry>Разъем внешнего выхода (RCA), подключается к линейному входу звуковой карты ПК учащегося</entry>
+				    <entry><uicontrol>Line Out</uicontrol> (RCA) for connecting to the <uicontrol>Line In</uicontrol> of the student workstation audio interface</entry>
                     </row>
 					<row>
                         <entry>2</entry>
-                        <entry>Разъем внешнего входа (RCA), подключается к линейному выходу звуковой карты ПК учащегося</entry>
+				    <entry><uicontrol>Line In</uicontrol> (RCA) for connecting to the <uicontrol>Line Out</uicontrol> of the student workstation audio interface</entry>
                     </row>
 					<row>
                         <entry>3</entry>
-                        <entry>Разъем подключения наушника №1 (jack 3,5 mm)</entry>
+                        <entry>Headset 1 headphones (3.5 mm jack)</entry>
                     </row>
 					<row>
                         <entry>4</entry>
-                        <entry>Разъем подключения наушника №2 (jack 3,5 mm)</entry>
+                        <entry>Headset 2 headphones (3.5 mm jack)</entry>
                     </row>
 					<row>
                         <entry>5</entry>
-                        <entry>Разъем подключения микрофона №2 (jack 3,5 mm)</entry>
+                        <entry>Headset 2 microphone (3.5 mm jack)</entry>
                     </row>
 					<row>
                         <entry>6</entry>
-                        <entry>Разъем подключения микрофона №1 (jack 3,5 mm)</entry>
+                        <entry>Headset 1 microphone (3.5 mm jack)</entry>
                     </row>
                     <row>
                         <entry>7</entry>
-                        <entry>Кнопка <wintitle>Вызов</wintitle></entry>
+                        <entry><wintitle>Call</wintitle> button</entry>
                     </row>
                     <row>
                         <entry>8</entry>
-                        <entry>Индикатор <wintitle>Вызов</wintitle></entry>
+                        <entry><wintitle>Ring</wintitle> light (?) _fixme_</entry>
                     </row>
-                </tbody> 
+                </tbody>
             </tgroup>
         </table>
-        <p>На верхней панели блока учащегося расположены кнопка и индикатор вызова.</p>
-        <note type="important">Линейный вход звуковой карты ПК учащегося неодходимо подключить к линейному выходу блока учащегося, а линейный выход звуковой карты - к линейному входу блока.</note>
-        <note type="tip">Кабель подключения к коммутатору заводится снизу и подключается к плате при монтаже блока.</note>        
+	   <p>The <wintitle>Call</wintitle> and <wintitle>Ring</wintitle> light are located on the top panel of the student interface.</p>
+        <note type="important">Line In of the student workstation sound card should be connected to the Line Out of the student interface and vice versa.</note>
+        <note type="tip">The cable connecting student interface to the audio hub should enter the student interface from the bottom and be connected to the circuit board before installation of the device. (?) _fixme_</note>
     </conbody>
 </concept>
