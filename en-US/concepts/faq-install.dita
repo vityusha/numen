@@ -3,77 +3,46 @@
 "reference.dtd">
 
 <reference id="FAQ-install" xml:lang="en-US">
-  <title>Установка и настройка</title>
+  <title>Installation and setup</title>
   <refbody>
+
     <section>
-        <title>Какие могут возникнуть трудности при установке и настройке программы?</title>
-        <p>Перед началом установки <wintitle>Диалог Nibelung</wintitle> рекомендуем прочитать соответствующий раздел Руководства пользователя и ознакомится с Рекомендациями по установке и настройке.</p>
+        <title>What are default teacher login and password?</title>
+        <p>default teacher login name is <userinput>Admin</userinput>, password: <userinput>Admin</userinput>.</p>
     </section>
 
     <section>
-        <title>Какое имя и пароль преподавателя по умолчанию?</title>
-        <p>По умолчанию имя преподавателя: <userinput>Admin</userinput>, пароль: <userinput>Admin</userinput>.</p>
+        <title>Where can I find the license number, license key, etc?</title>
+	   <p>License number, license key and USB key are included in your <wintitle>Dialog Nibelung</wintitle> shipment together with the installation disk. License number is the same as the USB key number</p>
     </section>
 
     <section>
-        <title>Где мне найти номер лицензии, лицензионный ключ и т.д.?</title>
-        <p>Во время установки основного модуля Вам потребуется ввести название организации, номер лицензии и лицензионный ключ, они находятся в комплекте поставки вместе с USB-ключом и установочным диском. Будьте внимательны, номер лицензии должен совпадать с номером USB-ключа.</p>
+        <title>Can you help us restoring the license number or license key?</title>
+        <p>Please contact your dealer or <wintitle>Dialog Nibelung</wintitle> customer service. Please have you organization name and license number ready. License number is printed on the USB key.</p>
     </section>
 
     <section>
-        <title>Что делать, если утрачен номер лицензии или лецинзионный ключ?</title>
-        <p>Для восстановления  данных лицензии необходимо обратиться к вашему дилеру или в службу технической поддержки <wintitle>Диалог Nibelung</wintitle> и сообщить название организации и номер лицензии. Номер лицензии написан на USB-ключе.</p>
+        <title>Can we have the USB key replaced?</title>
+        <p>We are sorry, it impossible to replace the USB key as they are unique.</p>
     </section>
 
     <section>
-        <title>Что делать, если утрачен USB-ключ?</title>
-        <p>В случае утери USB-ключа его восстановление <i>невозможно</i>!</p>
+        <title>How can I access the student module setup window?</title>
+	   <p>Launch the student module with the Windows Administrator privileges. Press <uicontrol><shortcut>Alt</shortcut></uicontrol>+<uicontrol><shortcut>Ctrl</shortcut></uicontrol> and click on the student module window title bar or on any empty space within the window.</p>
     </section>
 
     <section>
-        <title>Где находятся настройки программы учащегося?</title>
-        <p>Для вызова выпадающего меню модуля учащегося необходимо, удерживая нажатыми клавиши <uicontrol><shortcut>Alt</shortcut></uicontrol> и <uicontrol><shortcut>Ctrl</shortcut></uicontrol>, щелкнуть левой кнопкой мышки на заголовке или на любом свободном месте окна программы учащегося. Для изменения настроек программа должна быть запущена с правами администратора.</p>
+        <title>How do I launch it with the Administrator privileges?</title>
+	   <p>Right click on the software icon and select <uicontrol>Launch as Administrator _fixme_</uicontrol> to launch a piece of software with Administrator privileges in Windows Vista and Windows 7 with UAC enabled.</p>
     </section>
 
     <section>
-        <title>Как запустить программу от имени администратора?</title>
-        <p>Чтобы запустить программу с правами администратора (в Windows Vista, Windows 7 при включенном UAC) нужно щелкнуть по ярлыку программы правой кнопкой мыши и выбрать пункт меню <uicontrol>Запуск от имени администратора</uicontrol>.</p>
-    </section>
-
-    <section>
-        <title>Как настроить программу таким образом, чтобы преподаватель мог одновременно общаться с учениками (дискуссия) и транслировать звук со своего компьютера?</title>
-        <p>Для трансляции звука с компьютера (от других программ) необходимо выбрать источник звуковая карта и включить <uicontrol>Стерео микшер</uicontrol>. При этом если наушники преподавателя подключены к этой же звуковой карте, то ученики услышат свой голос с задержкой (появится эхо). Есть два решения этой проблемы:</p>
+	    <title>How to set up <wintitle>Dialog Nibelung</wintitle> for discussion with the students and simultaneous broadcast of a media source?</title>
+        <p>Select the sound card as the media source (see _fixme_ xref) and enable <uicontrol>Stereo mixer _fixme_</uicontrol>. However, with such setup students will hear their own voice echo if the teacher headset is connected to the same sound interface. There are two solutions for this problem:</p>
         <ol>
-            <li>Использовать две физические звуковые карты. Установите дополнительную звуковую карту; подключите к ней гарнитуру (микрофон с наушниками); укажите в настройках основного модуля программы <wintitle>Диалог Nibelung</wintitle> эту карту как основное устройство записи и воспроизведения; соедините выход основной звуковой карты с входом дополнительной.</li>
-            <li>Использовать виртуальную звуковую карту. Например, <wintitle>Virtual Audio Cable</wintitle> (<xref scope="external" href="http://www.ntonyx.com/vac.htm">http://www.ntonyx.com/vac.htm</xref>). Используйте виртуальную карту как устройство воспроизведения звука по умолчанию в Windows, а физическую как основное устройство записи и воспроизведения в программе <wintitle>Диалог Nibelung</wintitle>.</li>
+            <li>Use two separate physical sound interfaces. Install the additional sound interface, connect it to the headset, and select this interface as the capture and playback device in the teacher module settings (see _fixme_ xref). Connect the output of the original sound interface to the input of the newly installed one.</li>
+		  <li>Use a virtual sound card, for example <wintitle>Virtual Audio Cable</wintitle> (<xref scope="external" href="http://www.ntonyx.com/vac.htm">http://www.ntonyx.com/vac.htm</xref>). Set the virtual sound card as the default Windows playback device and your physical sound interface as the default <wintitle>Dialog Nibelung</wintitle> capture and playback device.</li>
         </ol>
-    </section>
-
-    <section>
-        <title>Что находится на диске c программой?</title>
-        <ul>
-            <li><b><filepath>AdobeReader</filepath></b> – программа для просмотра файлов в формате PDF;</li>
-            <li><b><filepath>Docs</filepath></b> – документация;</li>
-            <li><b><filepath>KB</filepath></b> – пакеты исправлений для Windows;</li>
-            <li><b><filepath>Nibelung</filepath></b> – папка с дистрибутивом <wintitle>Диалог Nibelung</wintitle>;
-                <ul>
-                    <li><b><filepath>DotNetFX35</filepath></b> – <wintitle>.Net Framework 3.5</wintitle> платформа, на которой работает <wintitle>Диалог Nibelung</wintitle> (в Windows Vista, Windows 7/8 включена по умолчанию);</li>
-                    <li><b><filepath>jre 1_7</filepath></b> – платформа <wintitle>Java</wintitle>, нужна для работы системы тестирования;</li>
-                    <li><b><filepath>vcredist_x86</filepath></b> – нужен для работы некоторых функций, например передачи видео;</li>
-                    <li><b><filepath>WindowsInstaller3_1</filepath></b> – подсистема обеспечивающая установку программ (нужна для старых версий Windows XP);</li>
-                    <li><b><filepath>nibelungmain.msi</filepath></b> – дистрибутив модуля  преподавателя <wintitle>Диалог Nibelung</wintitle>;</li>
-                    <li><b><filepath>nibelungclient.msi</filepath></b> – дистрибутив модуля  ученика <wintitle>Диалог Nibelung</wintitle>;</li>
-                    <li><b><filepath>setup-nibelungmain.exe</filepath></b> – программа установки модуля преподавателя;</li>
-                    <li><b><filepath>setup-nibelungclient.exe</filepath></b> – программа установки модуля ученика;</li>
-                </ul>
-                </li>
-            <li><b><filepath>NPlayer</filepath></b> – установочные файлы <wintitle>Диалог NPlayer</wintitle> для отдельной установки (например, чтобы установить дома);</li>
-            <li><b><filepath>NQuiz</filepath></b> – кроссплатформенный инсталлятор и документация системы тестирования <wintitle>Диалог NQuiz</wintitle> для отдельной установки (например, чтобы установить дома);</li>
-            <li><b><filepath>SampleContent</filepath></b> – примеры аудио и видео;</li>
-            <li><b><filepath>SimpleDict</filepath></b> – свободно распространямая программа-словарь (Academic Free License (AFL));</li>
-            <li><b><filepath>VideoConverter</filepath></b> – свободно распространямая программа для редактирования  и конвертации видео файлов;</li>
-            <li><b><filepath>WMP</filepath></b> – <wintitle>Windows Media Player 10</wintitle> (нужен для старых версий Windows XP);</li>
-        </ul>
     </section>
 
   </refbody>
