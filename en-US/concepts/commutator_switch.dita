@@ -125,6 +125,7 @@
                 </tbody>
             </tgroup>
         </table>
+	   <note type="attention">Please note that the sequential number of student interface connector must correspond to the Student Seat ID number for correct operation of the audio hub under <wintitle>Dialog Nibelung</wintitle> control.</note>
 	   <note type="tip">The audio hub will try to obtain an IP address via <wintitle>DHCP</wintitle>. If no <wintitle>DHCP</wintitle> servers can be reached, the audio hub will take first available address in the <userinput>192.168.0.100 - 192.168.0.255</userinput> range.</note>
         <note type="attention">It is also possible to assign a static IP address to the hub, change the MAC address, and port number. Point your browser to <userinput>http://x.x.x.x/cmd.cgi?cmd=set</userinput>, where <userinput>x.x.x.x</userinput> is the current IP address of the audio hub. Edit the settings and submit the form (<xref keyref="commutator_switch/settings_png" type="fig"/>&#160;). Please note that these settings are password protected. Contact Lain Ltd. to obtain the password.</note>
         <fig id="settings_png">
