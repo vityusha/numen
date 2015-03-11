@@ -3,47 +3,49 @@
 "reference.dtd">
 
 <reference id="FAQ-hw" xml:lang="en-US">
-  <title>Выбор оборудования</title>
+  <title>Hardware selection</title>
   <refbody>
     <section>
-        <title>Какие выбрать компьютеры?</title>
-        <p>Аппаратные требования:
+	    <title>What computer hardware do you recommend for running <wintitle>Dialog Nibelung</wintitle>?</title>
+        <p>Hardware requirements for the teacher workstation are:
         <ul>
-            <li>частота процессора 1ГГц;</li>
-            <li>оперативная память 512 МБ (рекомендуется 1 ГБ);</li>
-            <li>до 550 МБ свободного пространства на жестком диске для инсталляции программы, .Net Framework 3.5 SP1, Visual C++ Redistributable, JRE;</li>
-            <li>разрешение экрана не ниже 1024х768 и качество цветопередачи не менее 16 бит, для преподавателя;</li>
-            <li>звуковая карта, совместимая с AC97 или RealTek HD Audio;</li>
-            <li>сетевая карта.</li>
+            <li>at least 1 GHz CPU clock frequency;</li>
+            <li>At least 512 MB RAM (1 GB and more is highly recommended);</li>
+            <li>Up to 550 MB of hard drive storage space for installation of .Net Framework 3.5 SP1, Visual C++ Redistributable, and Java Runtime;</li>
+            <li>screen resolution of at least 1024x768 with 16 bit color;</li>
+            <li>AC97 or RealTek HD Audio compatible sound interface;</li>
+            <li>a network interface.</li>
         </ul>
         </p>
-        <p>Для ученика можно использовать любой современный компьютер, ноутбук в т.ч. нетбук. Минимальное требование, наличие 512 Мб оперативной памяти, увеличение производительности компьютера ученика скажется на увеличении скорости работы программы, качестве отображения видео.</p>
-        <p>Для преподавателя можно также использовать любой современный компьютер или ноутбук. Минимальное требование, наличие 1 - 2 Гб оперативной памяти и процессор Pentium Dual-Core или лучше. Производительность  компьютера преподавателя влияет на стабильность работы с большими классами в беспроводных сетях, возможность трансляции нескольких видео потоков, возможность трансляции видео с внешних источников.</p>
+        <p>Student workstations have significantly lower requirements. Essentially any modern desktop, notebook, or ultrabook with at least 512 MB of RAM will do the job. A more powerful computer may increase software responsiveness and/or quality of the video playback.</p>
+        <p>We recommend a modern desktop or notebook computer with 1-2 GB of RAM or more and a dual core or more CPU for the teacher workstation. A more powerful computer is recommended if one or more of the following is required:
+		<ul>
+			   <li>more than 20 students in the class;</li>
+			   <li>class equipped with a wireless network;</li>
+			   <li>several video streams (particularly HD video) used as media sources simultaneously;</li>
+			   <li>video (particularly HD video) from external sources used as a media source;</li>
+		</ul>
+		</p>
     </section>
 
     <section>
-        <title>Какие выбирать гарнитуры (микрофон с наушниками)?</title>
-        <p>В первую очередь рекомендуем выбрать гарнитуру с большими удобными наушниками, кроме того желательно чтобы микрофон гарнитуры был направленным. Из недорогих решений можно использовать DIALOG M-750HV. Так же рекомендуем специализированные гарнитуры для VoIP, например, фирмы Plantronics.</p>
+        <title>What headsets can you recommend?</title>
+        <p>We recommend heavy duty circumaural (over-ear) headsets with directional boom microphones. VoIP and/or call center headsets from recognized manufacturers (e.g. Plantronics) also work quite well in a language lab settings.</p>
     </section>
 
     <section>
-        <title>Посоветуйте оборудование для сетей Wi-Fi</title>
-        <p>Для небольших классов, до 10 учеников, можем рекомендовать маршрутизаторы и точки доступа  ASUS, например ASUS RT-N16, или аналоги от других производителей. Для больших классов рекомендуем устройства профессионального класса, например ZyXEL NWA3160-N или NETGEAR WNAP320. Иногда целесообразно использование нескольких точек доступа. Не рекомендуем использовать недорогие Wi-Fi решения D-Link.</p>
+        <title>What network equipment can you recommend?</title>
+        <p>Performance of a software base language lab greatly depends on both bandwidth and latency of the classroom LAN, particularly if an audio hub is absent. As a rule of thumb, we recommend using business grade equipment for wired and wireless networks. Consumer grade equipment should be avoided.</p>
     </section>
 
     <section>
-        <title>Посоветуйте коммутатор (свитч), сетевое оборудование Ethernet</title>
-        <p>Для классов на основе Ethernet можно использовать практически любые сетевые коммутаторы 10/100Mbps профессионального уровня, например D-Link DES-1024D. Не рекомендуем использовать настольные домашние решения.</p>
+        <title>What hardware is necessary for using an external video source as a media source?</title>
+	   <p>The teacher workstation has to be equipped with a video capture interface, either analog or digital, depending on the type of video source.</p>
     </section>
 
     <section>
-        <title>Что нужно для трансляции видео с видеомагнитофона, документкамеры и т.д.?</title>
-        <p>Для трансляции видео с внешних источников в компьютере преподавателя должно быть установлено устройство видео-захвата, оно может быть как внутренним, так и внешним. Рекомендуем выбрать внутренние устройства фирмы AVerMedia.</p>
-    </section>
-
-    <section>
-        <title>В каких операционных системах работает программа Диалог Nibeling?</title>
-        <p>Программа <wintitle>Диалог Nibeling</wintitle> работает во всех операционных системах, в которых возможна установка .NET Framework 3.5, а именно:
+	    <title>What operating systems does <wintitle>Dialog Nibelung</wintitle> support?</title>
+        <p><wintitle>Dialog Nibelung</wintitle> can run on any operating system where Microsoft .NET Framework 3.5 can be installed, namely:
         <ul>
             <li>Windows XP</li>
             <li>Windows Vista</li>
@@ -57,4 +59,3 @@
 
   </refbody>
 </reference>
-
