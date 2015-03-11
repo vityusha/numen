@@ -45,7 +45,7 @@
 		   </image>
 	   </fig>
 
-	   <p>The rear of the audio hub contains connectors for 20 student interfaces, 3 external audio sources, teacher workstation audio interface, teacher's headphones and microphone, LAN, and the power cord (<xref keyref="commutator_switch/back_png" type="fig"/>&#160;).</p>
+	   <p>The rear of the audio hub contains connectors for 20 student interfaces, 3 external audio sources, teacher workstation audio interface, teacher's headphones and microphone, LAN, and the power cord (<xref keyref="commutator_switch/back_png" type="fig"/>&#160;). The unit is equipped with a worldwide power supply and can be powered from 85-264 VAC / 47-63 Hz mains by connecting a compatible cord.</p>
 		<fig id="back_png">
             <title>Audio hub: rear panel view</title>
             <image href="img/dialog_3_back.png" placement="break">
