@@ -8,7 +8,7 @@
 
     <section>
         <title>What are default teacher login and password?</title>
-        <p>default teacher login name is <userinput>Admin</userinput>, password: <userinput>Admin</userinput>.</p>
+        <p>Default teacher login name is <userinput>Admin</userinput>, password: <userinput>Admin</userinput>.</p>
     </section>
 
     <section>
@@ -37,7 +37,7 @@
     </section>
 
     <section>
-	    <title>How to set up <wintitle>Dialog Nibelung</wintitle> for discussion with the students and simultaneous broadcast of a media source?</title>
+	    <title>How to set up <wintitle>Dialog Nibelung</wintitle> for a discussion with  students and a simultaneous broadcast of a media source?</title>
         <p>Select the sound card as the media source (see <xref keyref="soundcard_source"/>&#160;) and enable <uicontrol>Stereo mixer</uicontrol>. However, with such setup students will hear their own voice echo if the teacher headset is connected to the same sound interface. There are two solutions for this problem:</p>
         <ol>
             <li>Use two separate physical sound interfaces. Install the additional sound interface, connect it to the headset, and select this interface as the capture and playback device in the teacher module settings (see <xref keyref="setup_main"/>&#160;). Connect the output of the original sound interface to the input of the newly installed one.</li>
