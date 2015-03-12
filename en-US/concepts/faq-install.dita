@@ -33,14 +33,14 @@
 
     <section>
         <title>How do I launch it with the Administrator privileges?</title>
-	   <p>Right click on the software icon and select <uicontrol>Launch as Administrator _fixme_</uicontrol> to launch a piece of software with Administrator privileges in Windows Vista and Windows 7 with UAC enabled.</p>
+	   <p>Right click on the software icon and select <uicontrol>Run as Administrator</uicontrol> to launch a piece of software with Administrator privileges in Windows Vista and Windows 7 with UAC enabled.</p>
     </section>
 
     <section>
 	    <title>How to set up <wintitle>Dialog Nibelung</wintitle> for discussion with the students and simultaneous broadcast of a media source?</title>
-        <p>Select the sound card as the media source (see _fixme_ xref) and enable <uicontrol>Stereo mixer _fixme_</uicontrol>. However, with such setup students will hear their own voice echo if the teacher headset is connected to the same sound interface. There are two solutions for this problem:</p>
+        <p>Select the sound card as the media source (see <xref keyref="soundcard_source"/>&#160;) and enable <uicontrol>Stereo mixer</uicontrol>. However, with such setup students will hear their own voice echo if the teacher headset is connected to the same sound interface. There are two solutions for this problem:</p>
         <ol>
-            <li>Use two separate physical sound interfaces. Install the additional sound interface, connect it to the headset, and select this interface as the capture and playback device in the teacher module settings (see _fixme_ xref). Connect the output of the original sound interface to the input of the newly installed one.</li>
+            <li>Use two separate physical sound interfaces. Install the additional sound interface, connect it to the headset, and select this interface as the capture and playback device in the teacher module settings (see <xref keyref="setup_main"/>&#160;). Connect the output of the original sound interface to the input of the newly installed one.</li>
 		  <li>Use a virtual sound card, for example <wintitle>Virtual Audio Cable</wintitle> (<xref scope="external" href="http://www.ntonyx.com/vac.htm">http://www.ntonyx.com/vac.htm</xref>). Set the virtual sound card as the default Windows playback device and your physical sound interface as the default <wintitle>Dialog Nibelung</wintitle> capture and playback device.</li>
         </ol>
     </section>

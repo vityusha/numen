@@ -7,7 +7,7 @@
 	<taskbody>
 		<steps>
 			<step>
-				<cmd>Turn on teacher and student workstations. Student workstation can be turned on remotely from the teacher workstation if they have been set up to do so (see _fixme_ xref).</cmd>
+				<cmd>Turn on teacher and student workstations. Student workstation can be turned on remotely from the teacher workstation if they have been set up to do so (see <xref keyref="setup_net_vista"/>&#160;).</cmd>
 			</step>
 			<step>
 				<cmd>Launch the teacher module and student modules if they have not been already launched upon Windows startup.</cmd>

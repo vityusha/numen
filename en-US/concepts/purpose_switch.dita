@@ -17,6 +17,6 @@
 		<li>lack of hardware loopback.</li>
     </ul></p>
     <note type="tip">Audio loopback allows you to hear yourself through your headset. Support for audio hardware loopback was eliminated in <wintitle>Windows Vista</wintitle> and subsequent versions, while its software emulation introduces additional delay and echo.</note>
-    <note type="attention">Installation of the audio hub should be performed by a qualified technician. Please contact the manufacturer (_fixme_ xref) if you require further assistance.</note>
+    <note type="attention">Installation of the audio hub should be performed by a qualified technician. Please contact the manufacturer (<xref scope="external" href="http://www.lainlab.com">http://www.lainlab.com</xref>) if you require further assistance.</note>
   </conbody>
 </concept>

@@ -22,7 +22,7 @@
 				<dd>
 					<ul>
 						<li>network switch does not support <b>IGMP v2</b>;</li>
-						<li>sound interface is mis-configured (see _fixme_ xref).</li>
+						<li>sound interface is mis-configured (see <xref keyref="setup_mic_vista"/>&#160;).</li>
 					</ul>
 				</dd>
 			</dlentry>
@@ -31,7 +31,7 @@
 				<dd>
 					<ul>
 						<li>check the headset connection;</li>
-						<li>check the sound interface setup and make sure that you can record using standard Windows software (<wintitle>Sound recorder _fixme_</wintitle>, usually found under <menucascade><uicontrol>Программы</uicontrol><uicontrol>Стандартные</uicontrol><uicontrol>Развлечения _fixme_</uicontrol></menucascade>).</li>
+						<li>check the sound interface setup and make sure that you can record using standard Windows software (<wintitle>Sound recorder</wintitle>, usually found under <menucascade><uicontrol>Start</uicontrol><uicontrol>All programs</uicontrol><uicontrol>Accessories</uicontrol></menucascade>).</li>
 					</ul>
 				</dd>
 			</dlentry>
