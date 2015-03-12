@@ -45,7 +45,7 @@
 		   </image>
 	   </fig>
 
-	   <p>The rear of the audio hub contains connectors for 20 student interfaces, 3 external audio sources, teacher workstation audio interface, teacher's headphones and microphone, LAN, and the power cord (<xref keyref="commutator_switch/back_png" type="fig"/>&#160;). The unit is equipped with a worldwide power supply and can be powered from 85-264 VAC / 47-63 Hz mains by connecting a compatible cord.</p>
+	   <p>The rear of the audio hub contains connectors for student interfaces (model shown in the picture can serve up to 20 students), 3 external audio sources, teacher workstation audio interface, teacher's headphones and microphone, LAN, and the power cord (<xref keyref="commutator_switch/back_png" type="fig"/>&#160;). The unit is equipped with a worldwide power supply and can be powered from 85-264 VAC / 47-63 Hz mains by connecting a compatible cord.</p>
 		<fig id="back_png">
             <title>Audio hub: rear panel view</title>
             <image href="img/dialog_3_back.png" placement="break">
@@ -125,7 +125,7 @@
                 </tbody>
             </tgroup>
         </table>
-	   <note type="attention">Please note that the sequential number of student interface connector must correspond to the Student Seat ID number for correct operation of the audio hub under <wintitle>Dialog Nibelung</wintitle> control.</note>
+	   <note type="attention">Please note that the sequential number of student interface connector must correspond to the Student Seat ID number for correct operation of the audio hub with <wintitle>Dialog Nibelung</wintitle>.</note>
 	   <note type="tip">The audio hub will try to obtain an IP address via <wintitle>DHCP</wintitle>. If no <wintitle>DHCP</wintitle> servers can be reached, the audio hub will take first available address in the <userinput>192.168.0.100 - 192.168.0.255</userinput> range.</note>
         <note type="attention">It is also possible to assign a static IP address to the hub, change the MAC address, and port number. Point your browser to <userinput>http://x.x.x.x/cmd.cgi?cmd=set</userinput>, where <userinput>x.x.x.x</userinput> is the current IP address of the audio hub. Edit the settings and submit the form (<xref keyref="commutator_switch/settings_png" type="fig"/>&#160;). Please note that these settings are password protected. Contact Lain Ltd. to obtain the password.</note>
         <fig id="settings_png">
