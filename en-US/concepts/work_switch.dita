@@ -9,14 +9,14 @@
     <note type="tip"><wintitle>Dialog Nibelung</wintitle> will automatically find an audio hub connected to the classroom LAN and will reconfigure itself to take advantage of the available hardware. Otherwise, it will operate in regular mode as described in section <xref keyref="description_main"/>&#160;.</note>
     <note type="tip">The audio hub allows connections to a maximum of 30 student workstations. Student workstations with IDs above 30 will still be able to communicate via the classroom LAN.</note>
 
-    <p>There is an icon indicating presence of the audio hub in the <wintitle>Dialog Nibelung</wintitle> teacher module status bar (1 in <xref keyref="work_switch/hwa_icon_png" type="fig" />). This icon becomes colored whenever <wintitle>Dialog Nibelung</wintitle> has established communications with the audio hub.</p>
+    <p>There is an icon indicating presence of the audio hub in <wintitle>Dialog Nibelung</wintitle> teacher module status bar (#1 in <xref keyref="work_switch/hwa_icon_png" type="fig" />). This icon becomes colored whenever <wintitle>Dialog Nibelung</wintitle> has established communications with the audio hub.</p>
     <fig id="hwa_icon_png">
         <title>Audio hub status icon in the teacher module</title>
         <image href="img/hwa_icon.png" placement="break">
 		   <alt>Audio hub status icon in the teacher module</alt>
         </image>
     </fig>
-    <p>Likewise, student modules connected to the audio hub will display the same icon in place of the online/offline status icon in the status bar (4) (<xref keyref="description_client/client_statusbar_png" type="fig"/>&#160;).</p>
+    <p>Likewise, student modules connected to the audio hub will display the same icon in place of the online/offline status icon in the status bar (#4 in <xref keyref="description_client/client_statusbar_png" type="fig"/>&#160;).</p>
     <fig id="client_hwa_png">
         <title>Audio hub status icon in the student module</title>
         <image href="img/client_hwa.png" placement="break">
@@ -46,7 +46,7 @@
         </image>
     </fig>
     <p>If an external source is selected, you can also choose between several external sources connected to the audio hub, and adjust their volume.</p>
-    <note type="important">If <uicontrol>Student</uicontrol> is selected as an audio hub source, any student connected as an audio hub can be a media source for the selected group.</note>
+    <note type="important">If <uicontrol>Student</uicontrol> is selected as the audio hub source, any student chosen by the teacher (see _fixme_ xref) and connected to the audio hub can be a media source for the selected group. All students in the group must also be served by the audio hub.</note>
     <p>The rest of the audio hub controls in this tab work as described in section <xref keyref="media_source"/>&#160;.</p>
   </conbody>
 </concept>
