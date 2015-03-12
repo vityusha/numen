@@ -7,17 +7,8 @@
   <refbody>
     <section>
 	    <title>What computer hardware do you recommend for running <wintitle>Dialog Nibelung</wintitle>?</title>
-        <p>Hardware requirements for the teacher workstation are:
-        <ul>
-            <li>at least 1 GHz CPU clock frequency;</li>
-            <li>At least 512 MB RAM (1 GB and more is highly recommended);</li>
-            <li>Up to 550 MB of hard drive storage space for installation of .Net Framework 3.5 SP1, Visual C++ Redistributable, and Java Runtime;</li>
-            <li>screen resolution of at least 1024x768 with 16 bit color;</li>
-            <li>AC97 or RealTek HD Audio compatible sound interface;</li>
-            <li>a network interface.</li>
-        </ul>
-        </p>
-        <p>Student workstations have significantly lower requirements. Essentially any modern desktop, notebook, or ultrabook with at least 512 MB of RAM will do the job. A more powerful computer may increase software responsiveness and/or quality of the video playback.</p>
+	    <p>Absolute minimum hardware requirements for the teacher workstation are listed in section _fixme_ xref of this manual.</p>
+        <p>Student workstations have lower requirements. Essentially any modern desktop, notebook, or ultrabook with at least 512 MB of RAM will do the job. A more powerful computer may increase software responsiveness and/or quality of the video playback.</p>
         <p>We recommend a modern desktop or notebook computer with 1-2 GB of RAM or more and a dual core or more CPU for the teacher workstation. A more powerful computer is recommended if one or more of the following is required:
 		<ul>
 			   <li>more than 20 students in the class;</li>
@@ -35,27 +26,23 @@
 
     <section>
         <title>What network equipment can you recommend?</title>
-        <p>Performance of a software base language lab greatly depends on both bandwidth and latency of the classroom LAN, particularly if an audio hub is absent. As a rule of thumb, we recommend using business grade equipment for wired and wireless networks. Consumer grade equipment should be avoided.</p>
+        <p>Performance of a software based language lab greatly depends on both bandwidth and latency of the classroom LAN, particularly if the audio hub is not used. As a rule of thumb, we recommend using business grade equipment for both wired and wireless networks. Consumer grade equipment should be avoided.</p>
     </section>
 
     <section>
         <title>What hardware is necessary for using an external video source as a media source?</title>
-	   <p>The teacher workstation has to be equipped with a video capture interface, either analog or digital, depending on the type of video source.</p>
+	   <p>The teacher workstation has to be equipped with a video capture interface, either analog or digital, depending on the type of the video source.</p>
     </section>
 
     <section>
 	    <title>What operating systems does <wintitle>Dialog Nibelung</wintitle> support?</title>
-        <p><wintitle>Dialog Nibelung</wintitle> can run on any operating system where Microsoft .NET Framework 3.5 can be installed, namely:
-        <ul>
-            <li>Windows XP</li>
-            <li>Windows Vista</li>
-            <li>Windows 7</li>
-            <li>Windows 8</li>
-            <li>Windows Server 2003</li>
-            <li>Windows Server 2008</li>
-        </ul>
+        <p><wintitle>Dialog Nibelung</wintitle> can run on any operating system where Microsoft .NET Framework 3.5 can be installed. For a complete list of supported operating systems, please see section _fixme_ xref.
         </p>
     </section>
 
+    <section>
+	    <title>What exactly is on the the installation disk?</title>
+	    <p>Please refer to section _fixme_ xref for the content listing of the installation disk.</p>
+    </section>
   </refbody>
 </reference>
