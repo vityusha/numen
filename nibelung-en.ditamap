@@ -154,6 +154,6 @@
   <topicref keys="license_agreement" href="en-US/license/license_agreement.dita" />
   <topicref keys="contacts" href="en-US/concepts/contacts.dita" />
   <topicref keys="glossary" href="en-US/concepts/glossary.dita" />
-  <topicref keys="certificate" href="en-US/concepts/certificate.dita" />
+  <!-- topicref keys="certificate" href="en-US/concepts/certificate.dita" / -->
   <topicref keys="PS" href="en-US/concepts/ps.dita" toc="no" />
 </map>
