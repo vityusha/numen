@@ -3,157 +3,152 @@
 "reference.dtd">
 
 <reference id="glossary" xml:lang="en-US">
-	<title>Словарь терминов</title>
+	<title>Glossary</title>
 	<prolog/>
 	<refbody>
 		<section>
-			<title>ID УЧАЩЕГОСЯ</title>
-			Это порядковый номер компьютера учащегося, который устанавливается в настройках модуля клиента (п. <xref keyref="setup_client"/>&#160;). В классе не должно быть компьютеров с одинаковыми ID учащегося.
+			<title>Student Seat ID</title>
+			<indexterm>Student Seat ID</indexterm>Student workstation sequential number for identification (section <xref keyref="setup_client"/>&#160;). Each student workstation must have a unique student seat ID. Presence of multiple workstation with the same ID can cause malfunction of <wintitle>Dialog Nibelung</wintitle>.
 		</section>
 
 		<section>
-			<title>IP АДРЕС ИЛИ ИМЯ СЕРВЕРА</title>
-			Этот параметр требуется для настройки модуля клиента (п. <xref keyref="setup_client"/>&#160;). IP адрес — это локальный сетевой адрес компьютера, на котором установлен основной модуль, в формате <b>xxx.xxx.xxx.xxx</b>. Например, <b>192.168.0.1</b>. Вместо IP адреса можно использовать имя компьютера, на котором установлен основной модуль.
+			<title>Teacher workstation IP address or network name</title>
+			<indexterm>IP address</indexterm>You will need it to properly set up student workstations (section <xref keyref="setup_client"/>&#160;). You will need to know either the numerical IP address (4 numbers separated by dots: <b>xxx.xxx.xxx.xxx</b>, e.g. <b>192.168.0.1</b>) or the network name of the computer running the teacher module.
 		</section>
 
 		<section>
-			<title>USB КЛЮЧ</title>
-			USB ключ — это USB устройство, служащее для защиты программного комплекса. В него внесены данные о максимально возможном числе подключенных учеников (п. <xref keyref="install_main"/>&#160;).
+			<title>USB dongle</title>
+			<indexterm>USB dongle</indexterm>USB dongle is a copy protection device that also has the maximum number of student workstation for current installations embedded in it (section <xref keyref="install_main"/>&#160;).
 		</section>
 
 		<section>
-			<title>АВТООБЗОР</title>
-			В этом режиме преподаватель может последовательно видеть копии экранов учащихся и одновременно слышать их (п. <xref keyref="autoscan"/>&#160;).
+			<title>Autoscan</title>
+			<indexterm>autoscan</indexterm>Autoscan is a mode in which the teacher can monitor screens of several students and simultaneously listen to them (section <xref keyref="autoscan"/>&#160;).
 		</section>
 
 		<section>
-			<title>АУДИОГРАФ</title>
-			Это графическое представление аудио файла  во времени в цифровом магнитофоне учащегося (п. <xref keyref="tracks_player"/>&#160;).
+			<title>Class layout</title>
+			<indexterm>class layout</indexterm>Class layout is a map of the virtual classroom that may or may not represent the physical layout of the classroom. Class layout is used to arrange student panels in the teacher module classroom console (section <xref keyref="student_class"/>&#160;).
 		</section>
 
 		<section>
-			<title>ВИД КЛАССА</title>
-			Это план расположения компьютеров учащихся. Он отображается в рабочем окне основного модуля программы (п. <xref keyref="student_class"/>&#160;).
+			<title>Discussion</title>
+			<indexterm>discussion</indexterm>Discussion is a mode in which students practice conversations either in pairs or in a group (section <xref keyref="discussion"/>&#160;).
 		</section>
 
-		<section>
-			<title>ДИСКУССИЯ</title>
-			Это режим, в котором учащиеся могут общаться между собой в парах или всей группой в режиме конференции (п. <xref keyref="discussion"/>&#160;).
-		</section>
-        
         <section>
-			<title>ЗАКЛАДКИ</title>
-			Закладки  - это маркеры, использующиеся для сохранения позиций в мультимедийном файле, которые дают возможность пользователю с легкостью к ним вернуться (п. <xref keyref="bookmarks_player"/>&#160;).
+			<title>Bookmarks</title>
+			<indexterm>bookmarks</indexterm>Bookmarks are used to mark certain positions in multimedia files for quick access to them later (section <xref keyref="bookmarks_player"/>&#160;).
 		</section>
 
 		<section>
-			<title>ЗАПУСК ПРОГРАММ</title>
-			В этом режиме преподаватель может запустить на компьютерах учащихся программы для выбранной группы или всего класса (п. <xref keyref="run_programs"/>&#160;).
+			<title>Launch applications</title>
+			<indexterm>launch applications</indexterm>Launch applications is a mode that allows the teacher to remotely launch applications on student workstations (section <xref keyref="run_programs"/>&#160;).
 		</section>
 
 		<section>
-			<title>МАСТЕР-ТРЕК</title>
-			Мастер-трек — это аудио файл в цифровом магнитофоне учащегося, с которым учащийся может работать (п. <xref keyref="tracks_player"/>&#160;) (прослушивать, выделять фрагмент для циклического прослушивания, устанавливать метки и др.).
+			<title>Master track</title>
+			<indexterm>master track</indexterm>Master track is an audio track that students can listen to, set bookmarks, select fragments for repeat listening, etc., but can not record over it (section <xref keyref="tracks_player"/>&#160;).
 		</section>
 
 		<section>
-			<title>МОДУЛЬ КЛИЕНТА</title>
-			Эта программа, устанавливаемая на компьютер учащегося,  представляет собой в своей основе цифровой магнитофон и  служит для взаимодействия с основным модулем и другими модулями клиентов (п. <xref keyref="description_client"/>&#160;).
+			<title>Student module</title>
+			<indexterm>student module</indexterm>Student module is a software module running on the student workstations. It has a media player at its core and works under the control of the teacher module (section <xref keyref="description_client"/>&#160;).
 		</section>
 
 		<section>
-			<title>ОСНОВНОЙ МОДУЛЬ</title>
-			Эта программа, устанавливаемая на компьютер преподавателя,  служит для управления модулями клиентов, прослушивания преподавателем и оцифровки различных аудио источников, а также для подготовки материалов для обучения (п. <xref keyref="description_main"/>&#160;).
+			<title>Teacher module</title>
+			<indexterm>teacher module</indexterm>Teacher module is a software module running on the teacher workstation. Teacher module performs many functions, including control over student modules, student monitoring, activities assignments, preparation of classroom multimedia materials, etc. (section <xref keyref="description_main"/>&#160;).
 		</section>
 
 		<section>
-			<title>ОЦИФРОВКА</title>
-			Перевод аналогового сигнала в цифровую форму с последующим сохранением его в аудио файл на жестком диске компьютера (п. <xref keyref="media_source"/>&#160;).
+			<title>Digitization</title>
+			<indexterm>digitization</indexterm>Digitization is conversion of an analog signal into digital form. <wintitle>Dialog Nibelung</wintitle> allows you to digitize audio sources and store results in files (section <xref keyref="media_source"/>&#160;).
 		</section>
 
 		<section>
-			<title>ПАНЕЛЬ ИНСТРУМЕНТОВ</title>
-			Эта панель служит для размещения кнопок быстрого доступа к наиболее часто используемым командам. Настройка панели инструментов описана в п. <xref keyref="customize_toolbar"/>.
+			<title>Toolbar</title>
+			<indexterm>toolbar</indexterm>Toolbar is a teacher module panel for quick access to frequently used functions. Customization of the toolbar is described in section <xref keyref="customize_toolbar"/>.
 		</section>
 
 		<section>
-			<title>ПАПКА ПРЕПОДАВАТЕЛЯ</title>
-			Папка преподавателя представляет собой каталог, создаваемый автоматически для каждого преподавателя, в котором содержится различная информация, индивидуальная для каждого преподавателя: файлы классов, аудио и видео материалы и др.
+			<title>Teacher folder</title>
+			<indexterm>teacher folders</indexterm>Teacher folder is a folder on permanent storage which is automatically created for every teacher upon creating an account for this teacher. Teacher folder is used for storing class files, multimedia teaching materials, quizzes, etc.
 		</section>
 
 		<section>
-			<title>ПЕРЕДАЧА АУДИО СИГНАЛА</title>
-			Учащимся для прослушивания по локальной сети могут быть переданы различные аудио сигналы: аудио файлы, треки с аудио CD дисков, линейный вход звуковой карты, микрофон преподавателя или определенного учащегося (п. <xref keyref="media_source"/>&#160;).
+			<title>Audio</title>
+			Students can receive different kinds of audio materials over the classroom network: files, CD tracks, signals from teacher and student microphones, external sources, etc. (section <xref keyref="media_source"/>&#160;).
 		</section>
-        
+
         <section>
 			<title>ПЕРЕДАЧА ВИДЕО СИГНАЛА</title>
-			Учащимся для просмотра по локальной сети могут быть переданы различные видео сигналы: видео файлы, информация с карты видеозахвата (п. <xref keyref="video_source"/>&#160;).
+			Students can receive different kinds of audio materials over the classroom network: files, Youtube videos, external streams from video capture interfaces, web cams, etc. (section <xref keyref="video_source"/>&#160;).
 		</section>
 
 		<section>
-			<title>ПЕРЕДАЧА ЭКРАНА</title>
-			Это режим, в котором на компьютерах учащихся отображается экран преподавателя или какого-то учащегося (п. <xref keyref="transfer_screen"/>&#160;).
+			<title>Live screen</title>
+			<indexterm>live screen</indexterm>Live screen is a mode that allows the students to see a screen from teacher or another student workstation in real time (section <xref keyref="transfer_screen"/>&#160;).
 		</section>
 
 		<section>
-			<title>ПЕРО</title>
-			Это режим, в котором преподаватель или учащийся могут рисовать мышкой на своем экране (на полупрозрачном белом экране, появляющемся поверх рабочего стола <wintitle>Windows</wintitle>) (п. <xref keyref="transfer_screen"/>&#160;).
+			<title>Scribble</title>
+			<indexterm>scribble</indexterm>Scribble is a mode that allows the teacher or a student to scribble notes on a white semitransparent layer on their screen and have them shown on another screen (section <xref keyref="transfer_screen"/>&#160;).
 		</section>
 
 		<section>
-			<title>ПРОСЛУШКА</title>
-			В этом режиме преподаватель может скрытно прослушать микрофон учащегося (п. <xref keyref="listen"/>&#160;), пары или группы в режиме конференции.
+			<title>Listen</title>
+			<indexterm>listen mode</indexterm>In the listen mode the teacher can listen to a student, pair of students, or a group discussion (section <xref keyref="listen"/>&#160;).
 		</section>
 
 		<section>
-			<title>РАЗГОВОР</title>
-			В этом режиме преподаватель может войти в диалог с выбранным учащимся, группой или всем классом (п. <xref keyref="dialog"/>&#160;).
+			<title>Conversation</title>
+			<indexterm>conversation mode</indexterm>Conversation mode allows the teacher to enter a conversation with a student, a group of students, or the whole class (section <xref keyref="dialog"/>&#160;).
 		</section>
 
 		<section>
-			<title>РЕГИСТРАЦИЯ УЧАЩИХСЯ</title>
-			Это процесс регистрации присутствующих учащихся в классе (п. <xref keyref="registration"/>&#160;).
+			<title>Roll call registration</title>
+			<indexterm>roll call registration</indexterm>Roll call registration is used to record student attendance at the start of a lesson (section <xref keyref="registration"/>&#160;).
 		</section>
 
 		<section>
-			<title>САМООБУЧЕНИЕ</title>
-			Это тип задания, при котором учащиеся работают самостоятельно со своим цифровым магнитофоном (п. <xref keyref="self_training"/>&#160;).
+			<title>Self access</title>
+			<indexterm>self access</indexterm>Self access is a type of classroom activity during which students work on their own on an assignment (section <xref keyref="self_training"/>&#160;).
 		</section>
 
 		<section>
-			<title>СУБТИТРЫ</title>
-			Это текстовое сопровождение, дублирующее звуковую дорожку в цифровом магнитофоне учащегося (п. <xref keyref="subtitles_player"/>&#160;).
+			<title>Subtitles</title>
+			<indexterm>subtitles</indexterm>Subtitles can be used to aid the students in speech comprehension in audio and video materials (section <xref keyref="subtitles_player"/>&#160;).
 		</section>
 
 		<section>
-			<title>ТРЕК УЧАЩЕГОСЯ</title>
-			Это запись голоса учащегося в виде аудио файла (п. <xref keyref="tracks_player"/>&#160;).
+			<title>Student track</title>
+			<indexterm>student track</indexterm>Student track is used for recording student voice (section <xref keyref="tracks_player"/>&#160;).
 		</section>
 
 		<section>
-			<title>УДАЛЕННОЕ УПРАВЛЕНИЕ</title>
-			В этом режиме преподаватель может просматривать экран выбранного учащегося и управлять его компьютером (п. <xref keyref="remote_control"/>&#160;).
+			<title>Remote control</title>
+			<indexterm>remote control</indexterm>Remote control is a mode using which the teacher can assume complete control over the student workstation (section <xref keyref="remote_control"/>&#160;).
 		</section>
 
 		<section>
-			<title>УПРАВЛЕНИЕ ПИТАНИЕМ</title>
-			В этом режиме преподаватель может управлять питанием компьютеров у выбранного учащегося, группы или всего класса (п. <xref keyref="power_management"/>&#160;): выключение, перезагрузка, переход в спящий режим, включение.
+			<title>Power control</title>
+			<indexterm>power control</indexterm>Power control is a mode that allows the teacher to remotely shut down, reboot, put to standby, and power on student workstation (section <xref keyref="power_management"/>&#160;).
 		</section>
 
 		<section>
-			<title>ЦИФРОВОЙ МАГНИТОФОН</title>
-			При помощи виртуального цифрового магнитофона учащиеся могут работать с аудио файлами и одновременно записывать свой голос (п. <xref keyref="media_player"/>&#160;).
+			<title>Media player</title>
+			<indexterm>media player</indexterm>Media player allows the students to play of audio and video materials, and to record their own voices (section <xref keyref="media_player"/>&#160;).
 		</section>
 
 		<section>
-			<title>ЧАТ</title>
-			Это средство общения учащихся в режиме реального времени с помощью коротких текстовых сообщений (п. <xref keyref="chat"/>&#160;).
+			<title>Chat</title>
+			<indexterm>chat</indexterm>Chat is a classroom instant messaging service (section <xref keyref="chat"/>&#160;).
 		</section>
 
 		<section>
-			<title>ЭСКИЗ ЭКРАНА</title>
-			В этом режиме преподаватель может увидеть копию экрана выбранного учащегося, группы или всего класса (п. <xref keyref="thumbnail"/>&#160;). Она появляется вместо основного изображения учащегося (<xref keyref="thumbnail/eskiz_png" type="fig"/>&#160;) и обновляется с периодичностью один раз в несколько секунд.
+			<title>Screen thumbnails</title>
+			<indexterm>screen thumbnails</indexterm>Screen thumbnails is a mode that replaces student images in the classroom console with the thumbnails of their screenshots (section <xref keyref="thumbnail"/>&#160;). These thumbnails will be updated every few seconds.
 		</section>
 	</refbody>
     <!--<related-links><link keyref="setup_client"/></related-links>-->
