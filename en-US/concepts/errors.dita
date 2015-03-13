@@ -41,7 +41,7 @@
 					<ul>
 						<li>check network interface and <b>BIOS</b> settings (see <xref keyref="setup_pc"/>&#160;);</li>
 						<li>on some PCs <b>BIOS</b> does not support power on from the standby mode, only wake on LAN from the sleep mode;</li>
-						<li>student workstation must previously be in communication with the teacher module at least once for it to record relevant <b>MAC</b> addresses and store them in a class file.</li>
+						<li>student workstation must previously have been at least once in communication with the teacher module for it to record relevant <b>MAC</b> addresses and store them in a class file.</li>
 					</ul>
 				</dd>
 			</dlentry>
