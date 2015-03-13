@@ -49,7 +49,7 @@
 			<dlentry><dt>Browser misbehaving on the teacher or student workstations:</dt>
 				<dd>
 					<ul>
-						<li>install the latest version of the <wintitle>Adobe Flash Player</wintitle> on all workstations.</li>
+						<li>check that all workstations have the same version of the browser installed with identical set of plug-ins.</li>
 					</ul>
 				</dd>
 			</dlentry>
