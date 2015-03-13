@@ -7,7 +7,7 @@
   <refbody>
     <section>
 	    <title>What computer hardware do you recommend for running <wintitle>Dialog Nibelung</wintitle>?</title>
-	    <p>Absolute minimum hardware requirements for the teacher workstation are listed in section _fixme_ xref of this manual.</p>
+	    <p>Absolute minimum hardware requirements for the teacher workstation are listed in section <xref keyref="hardware_requirements"/>&#160; of this manual.</p>
         <p>Student workstations have lower requirements. Essentially any modern desktop, notebook, or ultrabook with at least 512 MB of RAM will do the job. A more powerful computer may increase software responsiveness and/or quality of the video playback.</p>
         <p>We recommend a modern desktop or notebook computer with 1-2 GB of RAM or more and a dual core or more CPU for the teacher workstation. A more powerful computer is recommended if one or more of the following is required:
 		<ul>
@@ -36,13 +36,13 @@
 
     <section>
 	    <title>What operating systems does <wintitle>Dialog Nibelung</wintitle> support?</title>
-        <p><wintitle>Dialog Nibelung</wintitle> can run on any operating system where Microsoft .NET Framework 3.5 can be installed. For a complete list of supported operating systems, please see section _fixme_ xref.
+        <p><wintitle>Dialog Nibelung</wintitle> can run on any operating system where Microsoft .NET Framework 3.5 can be installed. For a complete list of supported operating systems, please see section <xref keyref="system_requirements"/>&#160;.
         </p>
     </section>
 
     <section>
 	    <title>What exactly is on the the installation disk?</title>
-	    <p>Please refer to section _fixme_ xref for the content listing of the installation disk.</p>
+	    <p>Please refer to section <xref keyref="installation_notes"/>&#160; for the content listing of the installation disk.</p>
     </section>
   </refbody>
 </reference>

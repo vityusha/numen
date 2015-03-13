@@ -25,7 +25,7 @@
     </fig>
     <p>A new <uicontrol>Audio hub</uicontrol> item will appear in the <uicontrol>Media sources</uicontrol> menu (section <xref keyref="media_source"/>&#160;) whenever <wintitle>Dialog Nibelung</wintitle> recognizes an audio hub.</p>
     <fig id="media_menu_hwa_png">
-	    <title><uicontrol>Media sources</uicontrol> menu _fixme_ [ui]</title>
+	    <title><uicontrol>Media sources</uicontrol> menu</title>
         <image href="img/media_menu_hwa.png" placement="break">
 		   <alt><uicontrol>Media sources</uicontrol> menu</alt>
         </image>
@@ -40,13 +40,13 @@
 				</ul>
     </p>
     <fig id="menu_hwa_png">
-	    <title><uicontrol>Audio hub</uicontrol> source control tab _fixme_ [ui]</title>
+	    <title><uicontrol>Audio hub</uicontrol> source control tab</title>
         <image href="img/menu_hwa.png" placement="break">
 		   <alt><uicontrol>Audio hub</uicontrol> source control tab</alt>
         </image>
     </fig>
     <p>If an external source is selected, you can also choose between several external sources connected to the audio hub, and adjust their volume.</p>
-    <note type="important">If <uicontrol>Student</uicontrol> is selected as the audio hub source, any student chosen by the teacher (see _fixme_ xref) and connected to the audio hub can be a media source for the selected group. All students in the group must also be served by the audio hub.</note>
+    <note type="important">If <uicontrol>Student</uicontrol> is selected as the audio hub source, any student chosen by the teacher (see <xref keyref="student_source"/>&#160;) and connected to the audio hub can be a media source for the selected group. All students in the group must also be served by the audio hub.</note>
     <p>The rest of the audio hub controls in this tab work as described in section <xref keyref="media_source"/>&#160;.</p>
   </conbody>
 </concept>
