@@ -29,9 +29,9 @@
   <topicref href="en-US/concepts/introduction.dita" />
   <topichead navtitle="Installation and setup">
     <topicref keys="composition" href="en-US/installation/Composition.dita" />
-    <topicref href="en-US/installation/system_requirements.dita" />
-    <topicref href="en-US/installation/hardware_requirements.dita" />
-    <topicref href="en-US/installation/installation_notes.dita" />
+    <topicref keys="system_requirements" href="en-US/installation/system_requirements.dita" />
+    <topicref keys="hardware_requirements" href="en-US/installation/hardware_requirements.dita" />
+    <topicref keys="installation_notes" href="en-US/installation/installation_notes.dita" />
     <topicref href="en-US/installation/installation.dita">
       <topicref keys="install_main" href="en-US/installation/installation_main.dita" />
       <topicref keys="install_client" href="en-US/installation/installation_client.dita" />
