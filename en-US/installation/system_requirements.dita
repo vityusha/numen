@@ -20,8 +20,8 @@
         <li>Windows Media Player 10.</li>
         </ul></p>
         <p><b>.NET Framework 3.5</b> and <b>JRE</b> are included in <wintitle>Dialog Nibelung</wintitle> installation package.</p>
-        <p><b>Windows Media Player 10</b> is included in Windows Vista and subsequent versions.
-        <note type="attention">Some antivirus software may interfere with certain functions of <wintitle>Dialog Nibelung</wintitle> (e.g. <xref keyref="files_working">file transfer</xref>). If this is the case, this antivirus software will have to be properly set up or even disabled.
+        <p><b>Windows Media Player 10</b> comes as a standard part of Windows Vista and subsequent Windows versions.
+        <note type="attention">Some anti-virus software may interfere with certain functions of <wintitle>Dialog Nibelung</wintitle> (e.g. <xref keyref="files_working">file transfer</xref>). If this is the case, this anti-virus software will have to be properly set up or even disabled.
         </note>
         </p>
     </conbody>
