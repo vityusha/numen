@@ -6,15 +6,15 @@
 
   <refbody>
     <section>
-      <title>Contents of the installation package</title>
+      <title>Contents of the installation package:</title>
       <ul>
         <li><filepath>Docs</filepath> – <wintitle>Dialog Nibelung</wintitle> documentation;</li>
         <li><filepath>Nibelung</filepath> – <wintitle>Dialog Nibelung</wintitle> distribution folder;
           <ul>
-            <li><filepath>DotNetFX35</filepath> – <wintitle>.Net Framework 3.5</wintitle> runtime software environment for <wintitle>Dialog Nibelung</wintitle> (already included by default in Windows Vista, 7 and 8);</li>
+            <li><filepath>DotNetFX35</filepath> – <wintitle>.Net Framework 3.5</wintitle> runtime software environment for <wintitle>Dialog Nibelung</wintitle> (already included in Windows Vista, 7 and 8);</li>
             <li><filepath>jre 1_7</filepath> – <wintitle>Java Runtime Environment</wintitle> for the quiz system;</li>
             <li><filepath>vcredist_x86</filepath> – software necessary to perform certain functions, such as video transmission;</li>
-            <li><filepath>WindowsInstaller3_1</filepath> – might be necessary for installation on outdated versions of Windows that do not include it);</li>
+            <li><filepath>WindowsInstaller3_1</filepath> – for installation on outdated versions of Windows that do not include the Installer);</li>
             <li><filepath>nibelungmain.msi</filepath> – <wintitle>Dialog Nibelung</wintitle> teacher module installation file;</li>
             <li><filepath>nibelungclient.msi</filepath> – <wintitle>Dialog Nibelung</wintitle> student module installation file;</li>
             <li><filepath>setup-nibelungmain.exe</filepath> – teacher module installer;</li>
@@ -34,21 +34,21 @@
 
           <li><filepath>SimpleDict</filepath> – freeware crossplatform multiformat dictionary distributed under Academic Free License;</li>
           <li><filepath>VideoConverter</filepath> – freeware video editor and format converter;</li>
-          <li><filepath>WMP</filepath> – <wintitle>Windows Media Player 10</wintitle> (might be necessary for old versions of Windows);</li>
+          <li><filepath>WMP</filepath> – <wintitle>Windows Media Player 10</wintitle> (might be necessary for older versions of Windows);</li>
         </ul>
       </p>
     </section>
 
     <section>
       <title>Before you begin</title>
-      <note type="attention">We highly recommend to familiarize yourself with the Installation Guide before starting the installation procedure.</note>
+      <note type="attention">We highly recommend to familiarize yourself with the Installation Guide before you start the installation.</note>
       <p>Since <wintitle>Dialog Nibelung</wintitle> student module has to be installed on a number of computers, it is advantageous to first copy the installation files (<filepath>Nibelung</filepath> folder on the CD) to a network share (if available) and start installation program from there:</p>
       <p><filepath>\Nibelung\setup-nibelungclient.exe</filepath></p>
       <p><wintitle>Dialog Nibelung</wintitle> installation program will first check your Windows system for missing components and will automatically install them as necessary. This might take up to 30 minutes and may require the computer to be rebooted.</p>
-      <p>During the student module installation you will have to enter the <indexterm>Student Workstation ID</indexterm><uicontrol><keyword>Student Workstation ID</keyword></uicontrol> (a number unique to every workstation), and <indexterm>IP address</indexterm> <uicontrol><keyword>IP address</keyword></uicontrol> or domain name of the teacher workstation. You can look up domain name on the teacher workstation via: click on the <uicontrol>Start</uicontrol>button, right-click on <uicontrol>Computer</uicontrol>, select <uicontrol>Properties</uicontrol>, your computer name will be listed near the bottom of the window that opens under <uicontrol>Computer name, domain, and workgrouop settings</uicontrol>.</p>
-      <p>During the teacher module installation you will have to enter the company name, license number and license key. You can find them inside the package together with the <wintitle>USB</wintitle> dongle and installation CD.</p>
-      <note type="attention">License number is the USB dongle number. It is not possible to recover the license number if the USB dongle is lost or stolen.</note>
-      <note type="important">Default teacher name: <userinput>Admin</userinput>, default password: <userinput>Admin</userinput>.</note>
+	 <p>During the student module installation you will have to enter the <indexterm>Student Workstation ID</indexterm><uicontrol><keyword>Student Workstation ID</keyword></uicontrol> (a number unique to every workstation), and <indexterm>IP address</indexterm> <uicontrol><keyword>IP address</keyword></uicontrol> or network name of the teacher workstation. Click the <uicontrol>Start</uicontrol> button on the teacher workstation, then right-click on <uicontrol>Computer</uicontrol>, select <uicontrol>Properties</uicontrol> to look up the network name. Your computer name will be listed near the bottom of the window that opens under <uicontrol>Computer name, domain, and workgroup settings</uicontrol>.</p>
+      <p>During the teacher module installation you will have to enter your company name, license number and license key. You can find them inside the package together with the <wintitle>USB</wintitle> dongle and installation CD.</p>
+      <note type="attention">License number is the USB dongle number. It is not possible to replace the USB dongle is it's lost or stolen.</note>
+	 <note type="important">Default teacher name: <userinput>Admin</userinput>, default password: <userinput>Admin</userinput>. We highly recommend creating <wintitle>Dialog Nibelung</wintitle> accounts for every teacher and use the <userinput>Admin</userinput> account only for administration purposes.</note>
     </section>
 
   </refbody>
