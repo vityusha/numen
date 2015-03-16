@@ -6,9 +6,9 @@
     <conbody>
         <p>Open the <wintitle>Control Panel</wintitle> (<xref keyref="setup_mic_vista/control_panel_vista_png" type="fig"/>&#160;) window and select <wintitle>Hardware and Sound</wintitle> to set up the microphone.</p>
         <fig id="control_panel_vista_png">
-            <title>Control Panel window</title>
+		   <title><wintitle>Control Panel</wintitle> window</title>
             <image href="img/control_panel_vista.png" placement="break" scalefit="yes">
-			  <alt>Control Panel window</alt>
+			  <alt><wintitle>Control Panel</wintitle> window</alt>
             </image>
         </fig>
         <p><wintitle>Sound</wintitle> (<xref keyref="setup_mic_vista/sound_vista_1_png" type="fig"/>&#160;) window will appear on your screen. Select the <wintitle>Recording</wintitle> tab. Select the microphone and press <uicontrol>Properties</uicontrol> button.</p>
@@ -26,21 +26,21 @@
 			  <alt><wintitle>Microphone Properties / General</wintitle> window</alt>
             </image>
         </fig>
-        <p>Next, select the <wintitle>Levels</wintitle> tab (<xref keyref="setup_mic_vista/sound_vista_2_png" type="fig"/>&#160;), Where you can adjust microphone gain and boost its sensitivity (if necessary).</p>
+        <p>Next, select the <wintitle>Levels</wintitle> tab (<xref keyref="setup_mic_vista/sound_vista_2_png" type="fig"/>&#160;). Here you can adjust the microphone gain to boost its sensitivity if necessary.</p>
         <fig id="sound_vista_2_png">
             <title><wintitle>Microphone Properties / Level</wintitle> window</title>
             <image href="img/sound_vista_2.png" placement="break">
 			  <alt><wintitle>Microphone Properties / Level</wintitle> window</alt>
             </image>
         </fig>
-        <p>The <wintitle>Advanced</wintitle> (<xref keyref="setup_mic_vista/sound_vista_3_png" type="fig"/>&#160;) tab contains additional settings that might prove to be useful: noise reduction, echo cancellation, etc.</p>
+        <p>The <wintitle>Advanced</wintitle> (<xref keyref="setup_mic_vista/sound_vista_3_png" type="fig"/>&#160;) tab contains additional settings that might prove to be useful, such as noise reduction, echo cancellation, etc.</p>
         <fig id="sound_vista_3_png">
 		   <title><wintitle>Microphone Properties / Advanced</wintitle> window</title>
             <image href="img/sound_vista_3.png" placement="break">
 			  <alt><wintitle>Microphone Properties / Advanced</wintitle> window</alt>
             </image>
         </fig>
-	   <note type="important">Availability of settings in the <wintitle>Advanced</wintitle> tab depends on the sound card features and driver support.</note>
-        <p>Press the <uicontrol>OK</uicontrol> button after finishing microphone setup.</p>
+	   <note type="important">Availability of settings in the <wintitle>Advanced</wintitle> tab depends on your hardware features and driver support.</note>
+        <p>Press <uicontrol>OK</uicontrol> button to finish microphone setup.</p>
     </conbody>
 </concept>
