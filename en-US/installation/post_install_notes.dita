@@ -8,7 +8,7 @@
 
         <section>
             <title><wintitle>Windows Media Player 10</wintitle> installation</title>
-		  <p><wintitle>Windows Media Player 10</wintitle> or higher is required to operate <wintitle>Dialog Nibelung</wintitle> digital recorder. It is included on the <wintitle>Dialog Nibelung</wintitle> installation disk for your convenience. Run <filepath>\WMP\MP10Setup.exe</filepath> from the installation disk to install <wintitle>Windows Media Player 10</wintitle> if it is missing from your system.</p>
+		  <p><wintitle>Windows Media Player 10</wintitle> or higher is required to operate <wintitle>Dialog Nibelung</wintitle> media player. <wintitle>Windows Media Player 10</wintitle> is included on the <wintitle>Dialog Nibelung</wintitle> installation disk for your convenience. Run <filepath>\WMP\MP10Setup.exe</filepath> from the installation disk to install <wintitle>Windows Media Player 10</wintitle> if it is missing from your system.</p>
         </section>
 
         <section>
@@ -18,17 +18,17 @@
 			  <li>on the teacher workstation: <filepath>NiubelungUI.exe</filepath></li>
                 <li>on student workstations: <filepath>NiubelungClient.exe</filepath> and <filepath>NiubelungHelper.exe</filepath></li>
             </ul>
-		  <p><wintitle>Windows Firewall</wintitle> exception list can be found in:</p>
+		  <p><wintitle>Windows Firewall</wintitle> exception list can be found under:</p>
 		  <ul>
 			<li><p><menucascade><uicontrol>Start</uicontrol><uicontrol>Control Panel</uicontrol><uicontrol>System and Security</uicontrol><uicontrol>Windows Firewall</uicontrol><uicontrol>Allow apps to communicate through Windows Firewall</uicontrol></menucascade></p><p>or</p></li>
 			<li><p><menucascade><uicontrol>Start</uicontrol><uicontrol>Control Panel</uicontrol><uicontrol>Windows Firewall</uicontrol><uicontrol>Exceptions</uicontrol></menucascade></p></li>
             </ul>
-            <p>Some anti-virus software may also issue warnings regarding <wintitle>Dialog Nibelung</wintitle>. You will have to create appropriate exceptions (add it to the list of trusted software) as well.</p>
+            <p>Some anti-virus software may also issue warnings regarding <wintitle>Dialog Nibelung</wintitle>. You will have to create appropriate exceptions and/or add it to the list of trusted software as well.</p>
         </section>
 
         <section>
-            <title>Sound card setup</title>
-            <p>The sound quality directly depends on proper setup of the sound card (whether internal or external).</p>
+            <title>Audio interface setup</title>
+            <p>The sound quality directly depends on proper setup of your computer audio interface (whether internal or external).</p>
             <p>Setup procedures vary greatly between different sound cards. Below are the just the general guidelines to help you to achieve optimal sound quality.</p>
             <ol>
                 <li>Disable the <uicontrol>Stereo Mixer</uicontrol>. Whenever stereo mixer is enabled, your conversation partners will hear their own voice, which can be distracting.</li>
@@ -46,10 +46,10 @@
 			  <li>Simultaneously press <userinput>Ctrl + Alt</userinput> on your keyboard and right click of the window title to enter setup menu of the <wintitle>Dialog Nibelung</wintitle> student module. The student module has to be launched with the administrator privileges to change its settings.</li>
 			  <li>In Windows Vista, 7 and 8 (with UAC enabled), right click on the software icon and select <uicontrol>Run as Administrator</uicontrol> to launch a program with administrator privileges.</li>
 			  <li>If the teacher module would not launch after the installation, we recommend to launch it at least once with administrator privileges.</li>
-			  <li>For day to day operations we recommend running the teacher module without administrator privileges for security reasons.</li>
+			  <li>For day to day operations, we highly recommend running the teacher module <b>without</b> the administrator privileges for security reasons.</li>
               <li>In Windows Vista, 7 and 8, in some cases it is recommended to disable the <wintitle>TCP/IPv6</wintitle> protocol in Network Connection Properties.</li>
 			 <li><wintitle>VirtualBox</wintitle> virtualization software installed on the same computer may interfere with audio and video streaming. If this is the case, try disabling <wintitle>VirtualBox Host-Only Ethernet Adapter</wintitle> in the network adapter list.</li>
-			 <li>When applying Windows Updates application software like <wintitle>Dialog Nibelung</wintitle> may become unstable. Close application software, finish installing all the updates, and restart the computer.</li>
+			 <li>When applying Windows Updates application software like <wintitle>Dialog Nibelung</wintitle> may become unstable. Close application software, finish installation of all updates, and restart the computer.</li>
             </ol>
         </section>
 
