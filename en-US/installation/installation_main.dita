@@ -15,10 +15,10 @@
                 In case the autorun window has not appeared, you will have to launch <filepath>\Nibelung\setup-nibelungmain.exe</filepath> from the installation disk manually.</cmd>
             </step>
             <step>
-                <cmd><wintitle>Dialog Nibelung Setup</wintitle> wizard window should appear on your screen (<xref keyref="install_main/install_m1_png" type="fig"/>&#160;). Press the <uicontrol>Next</uicontrol> button.</cmd>
+			  <cmd><wintitle>Dialog Nibelung Setup Wizard</wintitle> window should appear on your screen (<xref keyref="install_main/install_m1_png" type="fig"/>&#160;). Press the <uicontrol>Next</uicontrol> button.</cmd>
                 <info>
                     <p><fig id="install_m1_png">
-                        <title>Teacher module Setup Wizard window</title>
+					<title>Teacher module <wintitle>Setup Wizard</wintitle> window _fixme_ [ui]</title>
                         <image href="img/install_m1.png" placement="break">
                             <alt>Teacher module Setup Wizard window</alt>
                         </image>
@@ -26,10 +26,10 @@
                 </info>
             </step>
             <step>
-                <cmd><wintitle>End User License Agreement</wintitle> window should appear on your screen (<xref keyref="install_main/install_m2_png" type="fig"/>&#160;). You must accept the License Agreement to proceed by checking <uicontrol>I accept the terms of the License Agreement</uicontrol> box, followed by pressing the <uicontrol>Next</uicontrol> button. You can cancel the installation at any time by pressing the <uicontrol>Cancel</uicontrol> button.</cmd>
+                <cmd><wintitle>End User License Agreement</wintitle> window will appear on your screen (<xref keyref="install_main/install_m2_png" type="fig"/>&#160;). You must accept the License Agreement to proceed by checking <uicontrol>I accept the terms of the License Agreement</uicontrol> box, followed by pressing the <uicontrol>Next</uicontrol> button. You can cancel the installation at any time by pressing <uicontrol>Cancel</uicontrol> button.</cmd>
                 <info>
                     <p><fig id="install_m2_png">
-                        <title>Teacher module License Agreement window</title>
+					<title>Teacher module <wintitle>License Agreement</wintitle> window</title>
                         <image href="img/install_m2.png" placement="break">
                             <alt>Teacher module License Agreement window</alt>
                         </image>
@@ -40,9 +40,9 @@
                 <cmd>You should enter your company name, license number and license key into the <wintitle>License Key</wintitle> window that will appear next (<xref keyref="install_main/install_m3_png" type="fig"/>&#160;). The license number and key are unique for every customer and you have received them when you purchased the software.</cmd>
                 <info>
                     <p>Press the <uicontrol>Next</uicontrol> button after you are finished.</p>
-                    <note type="important">All our customers receive a <indexterm>USB dongle</indexterm><keyword>USB dongle</keyword> that has limits on the maximum number of student seats embedded in it. The USB dongle is only necessary for the operation of the teacher module and is not required during installation phase.</note>
+                    <note type="important">All our customers receive a <indexterm>USB dongle</indexterm><keyword>USB dongle</keyword> that sets the limits on the number of student seats. The USB dongle is only necessary to run the teacher module and is not required during installation.</note>
                     <p><fig id="install_m3_png">
-                        <title>Teacher module License Key window</title>
+						<title>Teacher module <wintitle>License Key</wintitle> window</title>
                         <image href="img/install_m3.png" placement="break">
                             <alt>Teacher module License Key window</alt>
                         </image>
@@ -53,38 +53,38 @@
                 <cmd>The next window on your screen will be the <wintitle>Setup Type</wintitle> selection window (<xref keyref="install_main/install_m4_png" type="fig"/>&#160;).</cmd>
                 <info>You can choose between:
                     <ul>
-                        <li>Typical Installation - installs the most typical configuration that should suit most users</li>
-                        <li>Custom Installation - you can select which <wintitle>Dialog Nibelung</wintitle> components to install</li>
-                        <li>Full Installation - installs all the components.</li>
+					<li><uicontrol>Typical installation</uicontrol> - installs default configuration that should suit most users</li>
+					<li><uicontrol>Custom installation</uicontrol> - you can select which <wintitle>Dialog Nibelung</wintitle> components to install</li>
+					<li><uicontrol>Full installation</uicontrol> - installs all the components.</li>
                     </ul>
                     <p><fig id="install_m4_png">
-                        <title>Teacher module Setup Type window</title>
+						<title>Teacher module <wintitle>Setup Type</wintitle> window</title>
                         <image href="img/install_m4.png" placement="break">
                             <alt>Teacher module Setup Type window</alt>
                         </image>
                     </fig></p>
-                    <note type="important">Most users should select Typical Installation.</note>
+		<note type="important">Most users should select <uicontrol>Typical installation</uicontrol>.</note>
                 </info>
             </step>
             <step>
-                <cmd>If you have selected Custom Installation, you will be able to choose components to install in the next window (<xref keyref="install_main/install_m5_png" type="fig"/>&#160;) .</cmd>
+			  <cmd>If you have selected <uicontrol>Custom installation</uicontrol>, you will be able to choose components to install in the next window (<xref keyref="install_main/install_m5_png" type="fig"/>&#160;) .</cmd>
                 <info>
                     <p><fig id="install_m5_png">
-                        <title>Teacher module Custom Setup window</title>
+						<title>Teacher module <wintitle>Custom Setup</wintitle> window</title>
                         <image href="img/install_m5.png" placement="break">
                             <alt>Teacher module Custom Setup window</alt>
                         </image>
                     </fig></p>
-                    <note type="attention">Only select Custom Installation after you have had sufficient experience working with <wintitle>Dialog Nibelung</wintitle>.</note>
+		<note type="attention">Only select <uicontrol>Custom installation</uicontrol> after you have had sufficient experience working with <wintitle>Dialog Nibelung</wintitle>.</note>
                 </info>
             </step>
             <step>
-                <cmd>After selecting installation type and pressing the <uicontrol>Next</uicontrol> button, you should see the Destination Folder window (<xref keyref="install_main/install_m6_png" type="fig"/>&#160;) on your screen.
+			  <cmd>After selecting installation type and pressing the <uicontrol>Next</uicontrol> button, you should see the <wintitle>Destination folder</wintitle> window (<xref keyref="install_main/install_m6_png" type="fig"/>&#160;) on your screen.
                 </cmd>
                 <info>
                     <note type="tip">Default destination path is <filepath>C:\Program Files\LAIN\Nibelung</filepath>.</note>
                     <p><fig id="install_m6_png">
-                        <title>Teacher module Destination Folder window</title>
+						<title>Teacher module <wintitle>Destination folder</wintitle> window</title>
                         <image href="img/install_m6.png" placement="break">
                             <alt>Teacher module Destination Folder window</alt>
                         </image>
@@ -96,7 +96,7 @@
                 <cmd>The next window on your screen informs you that everything is ready to start the installation (<xref keyref="install_main/install_m7_png" type="fig"/>&#160;).</cmd>
                 <info>
                     <p><fig id="install_m7_png">
-                        <title>Ready to install window</title>
+						<title><wintitle>Ready to install</wintitle> window</title>
                         <image href="img/install_m7.png" placement="break">
                             <alt>Ready to install window</alt>
                         </image>
@@ -113,7 +113,7 @@
                 </info>
             </step>
             <step>
-                <cmd>After the installation has successfully completed, <wintitle>Installation complete</wintitle> window will appear on your screen (<xref keyref="install_main/install_m8_png" type="fig"/>&#160;). You can press the  <uicontrol>Finish</uicontrol> button to exit Setup Wizard.</cmd>
+			  <cmd>After the installation has successfully completed, <wintitle>Installation complete</wintitle> window will appear on your screen (<xref keyref="install_main/install_m8_png" type="fig"/>&#160;). Press the <uicontrol>Finish</uicontrol> button to exit <wintitle>Setup Wizard</wintitle>.</cmd>
                 <info>
                     <p><fig id="install_m8_png">
                         <title>Installation complete window</title>
@@ -121,7 +121,7 @@
                             <alt>Installation complete window</alt>
                         </image>
                     </fig></p>
-                    <p><wintitle>Dialog Nibelung</wintitle> Setup Wizard will add a <uicontrol>Nibelung</uicontrol> menu item  to your <menucascade><uicontrol>Start</uicontrol><uicontrol>All programs</uicontrol></menucascade> menu. The newly created <uicontrol>Nibelung</uicontrol> menu contains items to launch the software, remove it, and open the user manual in <b>PDF</b> format.</p>
+                    <p><wintitle>Dialog Nibelung</wintitle> Setup Wizard will add a <uicontrol>Nibelung</uicontrol> menu item  to your <menucascade><uicontrol>Start</uicontrol><uicontrol>All programs</uicontrol></menucascade> menu. The newly created <uicontrol>Nibelung</uicontrol> menu contains items to launch the software, remove it, and open this user manual in <b>PDF</b> format.</p>
                     <note type="tip">You can open the user manual using <wintitle>Adobe Acrobat Reader</wintitle>, which is included on the installation disk for your convenience.</note>
                     <p>An icon to launch the teacher module will also be placed on your desktop.</p>
                     <p><fig id="install_icon_t_png">
@@ -133,7 +133,7 @@
                 </info>
             </step>
             <step>
-                <cmd>If the Setup Wizard is launched on a computer that already has <wintitle>Dialog Nibelung</wintitle> installed, the <wintitle>Change, repair or remove</wintitle> window (<xref keyref="install_main/install_m9_png" type="fig"/>&#160;) will appear on your screen. This window allows you to:</cmd>
+                <cmd>If the Setup Wizard is launched on a computer that already has <wintitle>Dialog Nibelung</wintitle> installed, then <wintitle>Change, repair or remove</wintitle> window (<xref keyref="install_main/install_m9_png" type="fig"/>&#160;) will appear on your screen. This window allows you to:</cmd>
                 <info>
                     <ul>
                         <li>Add or remove <wintitle>Dialog Nibelung</wintitle> components</li>
@@ -141,7 +141,7 @@
                         <li>Uninstall <wintitle>Dialog Nibelung</wintitle> from this computer.</li>
                     </ul>
                     <p><fig id="install_m9_png">
-                        <title>Teacher module Change, repair or remove installation window</title>
+						<title>Teacher module <wintitle>Change, repair or remove installation</wintitle> window</title>
                         <image href="img/install_m9.png" placement="break">
                             <alt>Teacher module Change, repair or remove installation window</alt>
                         </image>
@@ -149,7 +149,7 @@
                 </info>
             </step>
             <step>
-                <cmd>Press the corresponding button to change, repair or remove the installation and follow the instructions shown on your screen.</cmd>
+                <cmd>Press a corresponding button to change, repair or remove the installation and follow the instructions shown on your screen.</cmd>
             </step>
         </steps>
     </taskbody>
