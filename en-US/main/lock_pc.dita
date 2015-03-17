@@ -14,6 +14,6 @@
 	   <p>Select <uicontrol>Lock computer</uicontrol> from the student menu (see <xref keyref="menu_single"/>&#160;) to lock a single computer.</p>
 	   <p>Press <uicontrol>Remote control</uicontrol> button in the group tab menu (see <xref keyref="menu_group"/>&#160;) and select <uicontrol>Lock computer</uicontrol> to lock computers of a group of students.</p>
 	   <p>Press <uicontrol>Remote control</uicontrol> in the class tab menu (see <xref keyref="menu_class"/>&#160;) and select <uicontrol>Lock computer</uicontrol> to lock all computers in the class.</p>
-		<p>Repeat described above actions to release the lock.</p>
+	   <p>Repeat the actions described above to release the lock.</p>
 	</conbody>
 </concept>
