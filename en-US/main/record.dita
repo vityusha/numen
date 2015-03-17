@@ -5,7 +5,7 @@
     <title>Recording</title>
     <conbody>
 	    <p>The teacher can make voice recordings of a selected student, group, or the whole class.</p>
-	    <p>Select <uicontrol>Record</uicontrol> from the student pop-up menu (see section <xref keyref="menu_single"/>&#160;) to record selected student.</p>
+	    <p>Select <uicontrol>Record</uicontrol> from the student pop-up menu (see section <xref keyref="menu_single"/>&#160;) to record this student.</p>
 		<p>A recording icon (<xref keyref="record/icon_record_png" type="fig"/>&#160;) will appear on the student panel.</p>
 		<fig id="icon_record_png">
             <title>Recording student icon</title>
@@ -13,7 +13,7 @@
 			  <alt>Recording student icon</alt>
             </image>
         </fig>
-	   <p>Select group tab, press <uicontrol>Activity</uicontrol> button (see section <xref keyref="menu_group"/>&#160;), and select <uicontrol>Record</uicontrol> to record a particular group of students.</p>
+	   <p>Select group tab, press <uicontrol>Activity</uicontrol> button (see section <xref keyref="menu_group"/>&#160;), and select <uicontrol>Record</uicontrol> to record a group of students.</p>
 
 		<p>Select the Class tab, press <uicontrol>Activity</uicontrol> button (see section <xref keyref="menu_class"/>&#160;), and select <uicontrol>Record</uicontrol> from the menu to record the whole class.</p>
 
@@ -21,13 +21,13 @@
 		<p>Repeat the actions described above to stop the recording.</p>
 		<p>Student recordings are saved as <b>MP3</b> files in the <filepath>Waves</filepath> sub-folder of the teacher folder. For example, <filepath>Jane Austen\Waves\ENG101\2015-02-06\John Doe (13-05).mp3</filepath>, where
 			<ul>
-				<li><uicontrol>John Doe</uicontrol> – teacher name,</li>
+				<li><uicontrol>Jane Austen</uicontrol> – teacher name,</li>
 				<li><uicontrol>ENG101</uicontrol> – class,</li>
-				<li><uicontrol>2015-02-06</uicontrol> – recording date in form year-month-day,</li>
+				<li><uicontrol>2015-02-06</uicontrol> – recording date in year-month-day format,</li>
 				<li><uicontrol>John Doe</uicontrol> – student name,</li>
-				<li><uicontrol>13-05</uicontrol> – recording time.</li>
+				<li><uicontrol>13-05</uicontrol> – recording time in 24-hour format.</li>
 			</ul>
 		</p>
-		<note type="tip">If selected student is paired with another student for a conversation, both voices will be recorded in the same file. The file name will reflect this, e.g. <filepath>John Doe + Mike Brown (13-00).mp3</filepath>.</note>
+		<note type="tip">If selected student is paired with another student for a conversation, both voices will be recorded in the same file. The file name will reflect this, e.g. <filepath>John Doe + Mary Brown (13-00).mp3</filepath>.</note>
 	</conbody>
 </concept>
