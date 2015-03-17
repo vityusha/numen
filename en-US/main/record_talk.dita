@@ -5,7 +5,7 @@
     <title>Recording conversation with the teacher</title>
     <conbody>
 	    <p>You can record your conversation with a student using the <uicontrol>Record conversation</uicontrol> mode from the student menu.</p>
-		<p>An icon with double red dots will appear on the student panel (<xref keyref="record_talk/icon_record_talk_png" type="fig"/>&#160;).</p>
+		<p>An icon with double red dot will appear on the student panel (<xref keyref="record_talk/icon_record_talk_png" type="fig"/>&#160;).</p>
 		<fig id="icon_record_talk_png">
             <title>Recording conversation with the teacher</title>
             <image href="img/icon_record_talk.png" placement="break">
@@ -15,13 +15,13 @@
 		<p>Whenever conversation recording mode is engaged, a red dot next to the <uicontrol>Record conversation</uicontrol> item in pop-up menu will change to a check mark.</p>
 		<p>Conversation recording are saved as <b>MP3</b> file in a sub-folder of the teacher folder, e.g. <filepath>Jane Austen\Waves\ENG101\2015-02-06\John Doe (13-05) conversation.mp3</filepath>, where
 			<ul>
-				<li><uicontrol>John Doe</uicontrol> – teacher name,</li>
+				<li><uicontrol>Jane Austen</uicontrol> – teacher name,</li>
 				<li><uicontrol>ENG101</uicontrol> – class,</li>
-				<li><uicontrol>2015-02-06</uicontrol> – recording date in form year-month-day,</li>
-				<li><uicontrol>John Doe</uicontrol> – student's name,</li>
-				<li><uicontrol>13-05</uicontrol> – recording time.</li>
+				<li><uicontrol>2015-02-06</uicontrol> – recording date in year-month-day format,</li>
+				<li><uicontrol>John Doe</uicontrol> – student name,</li>
+				<li><uicontrol>13-05</uicontrol> – recording time in 24-hour format.</li>
 			</ul>
 		</p>
-		<note type="tip">If selected student is paired with another student for a conversation, both voices will be recorded in the same file. The file name will reflect this, e.g. <filepath>John Doe + Mike Brown (13-00) conversation.mp3</filepath>.</note>
+		<note type="tip">If selected student is paired with another student for a conversation, both voices will be recorded in the same file. The file name will reflect this, e.g. <filepath>John Doe + Mary Brown (13-00) conversation.mp3</filepath>.</note>
 	</conbody>
 </concept>
