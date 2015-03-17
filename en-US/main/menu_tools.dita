@@ -4,25 +4,25 @@
 <concept id="menu_tools" xml:lang="en-US">
 	<title><uicontrol>Tools</uicontrol> menu</title>
     <conbody>
-	    <p>Selecting <menucascade><uicontrol>Tools</uicontrol><uicontrol>Nibelung Media Player</uicontrol></menucascade> from the menu will launch the <wintitle>Nibelung Media Player</wintitle> (<xref keyref="menu_tools/nplayer_png" type="fig"/>&#160;), working with which is described in section <xref keyref="media_player"/> of this manual.</p>
+	    <p>Selecting <menucascade><uicontrol>Tools</uicontrol><uicontrol>Nibelung Media Player</uicontrol></menucascade> from the menu will launch the <wintitle>Nibelung Media Player</wintitle> (<xref keyref="menu_tools/nplayer_png" type="fig"/>&#160;), which is described in further details in section <xref keyref="media_player"/> of this manual.</p>
 		<fig id="nplayer_png">
             <title><wintitle>Nibelung Media Player</wintitle> window</title>
             <image href="img/nplayer.png" placement="break">
 		  <alt><wintitle>Nibelung Media Player</wintitle> window</alt>
             </image>
         </fig>
-		<p>Selecting <menucascade><uicontrol>Tools</uicontrol><uicontrol>Video converter</uicontrol></menucascade> will launch converter of video files to  <b>MPEG-1</b> format (<xref keyref="menu_tools/video_convert_png" type="fig"/>&#160;).</p>
+		<p>Select <menucascade><uicontrol>Tools</uicontrol><uicontrol>Video converter</uicontrol></menucascade> to launch a converter of video files to  <b>MPEG-1</b> format (<xref keyref="menu_tools/video_convert_png" type="fig"/>&#160;).</p>
 		<fig id="video_convert_png">
             <title><wintitle>Video converter</wintitle> window</title>
             <image href="img/video-convert.png" placement="break">
 			  <alt><wintitle>Video converter</wintitle> window</alt>
             </image>
         </fig>
-	   <p>Select the file to be converted into the <uicontrol>Input file</uicontrol> field by pressing the <uicontrol>Browse</uicontrol> button.</p>
+	   <p>Select the file to be converted into the <uicontrol>Input file</uicontrol> field using <uicontrol>Browse</uicontrol> button.</p>
 	   <p>The <uicontrol>Output file</uicontrol> filed will be filled automatically offering to save converted file in the teacher folder. You can change the output filename and path by pressing the <uicontrol>Browse</uicontrol> button.</p>
-		<p>You can adjust size of the output file relative to the original by using the <uicontrol>Change  size</uicontrol> panel. You can also select part of the video to be converted. The first and the last frames of the selected video segment are shown in icons on the left and the right of the slider control.</p>
+		<p>You can adjust size of the output file relative to the original by using  <uicontrol>Change  size</uicontrol> panel. You can also select a part of the video to be converted. The first and the last frames of the selected video segment are shown on the left and the right of the slider control.</p>
 		<p>Press the <uicontrol>Start</uicontrol> button to begin conversion.</p>
-		<p>A progress bar will appear. Left click on the <uicontrol>Output</uicontrol> field to show or hide a window with additional information about conversion process (<xref keyref="menu_tools/video_convert_work_png" type="fig"/>&#160;).</p>
+		<p>A progress bar will appear in the window. Click on the <uicontrol>Output</uicontrol> field to show or hide a panel with additional information about the conversion process (<xref keyref="menu_tools/video_convert_work_png" type="fig"/>&#160;).</p>
         <fig id="video_convert_work_png">
             <title><wintitle>Video converter</wintitle> window showing process output</title>
             <image href="img/video-convert-work.png" placement="break">
@@ -36,7 +36,7 @@
 			  <alt><wintitle>Tools editor</wintitle> window</alt>
             </image>
         </fig>
-	   <p>You can add, remove, and edit items appearing in the <uicontrol>Tools</uicontrol> menu using this window. You customize the menu by creating your own items to launch various external applications, for example, <wintitle>Microsoft Word</wintitle>, right from <wintitle>Dialog Nibelung</wintitle>.</p>
+	   <p>You can add, remove, and edit items appearing in the <uicontrol>Tools</uicontrol> menu using this window. You customize the menu by creating your own items to launch various external applications, for example <wintitle>Microsoft Word</wintitle>, right from <wintitle>Dialog Nibelung</wintitle>.</p>
 	   <p>A <wintitle>Tool properties</wintitle> window (<xref keyref="menu_tools/tools_menu_add_png" type="fig"/>&#160;) will appear on your screen upon pressing either <uicontrol>Add</uicontrol> or <uicontrol>Edit</uicontrol> buttons.</p>
         <fig id="tools_menu_add_png">
             <title><wintitle>Tool properties</wintitle> window</title>
@@ -44,11 +44,11 @@
 		  <alt><wintitle>Tool properties</wintitle> window</alt>
             </image>
         </fig>
-        <p>You can set the following properties of the tool:
+        <p>You can set the following properties for a tool:
             <ul>
 			  <li><uicontrol>Title</uicontrol> - title under which the tool will appear in the <uicontrol>Tools</uicontrol> menu;</li>
 			  <li><uicontrol>File name</uicontrol> - name of the executable file for the application to be launched;</li>
-			  <li><uicontrol>Arguments</uicontrol> - additional command line arguments.</li>
+			  <li><uicontrol>Arguments</uicontrol> - optional command line arguments.</li>
             </ul>
         </p>
     </conbody>
