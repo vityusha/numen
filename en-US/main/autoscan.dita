@@ -4,12 +4,12 @@
 <concept id="autoscan" xml:lang="en-US">
     <title><keyword>Autoscan</keyword></title>
     <conbody>
-	    <p><indexterm>autoscan</indexterm>This mode will help the teacher to monitor the screenshots of several students and simultaneously listen to them. Press <uicontrol>Remote control</uicontrol> button in the class tab menu (<xref keyref="menu_class/menu_class_png" type="fig"/>&#160;) and select <uicontrol>Autoscan</uicontrol> to activate autoscan mode for the whole class. Press <uicontrol>Remote control</uicontrol> button in the group tab menu (<xref keyref="menu_group/menu_group_png" type="fig"/>&#160;) and select <uicontrol>Autoscan</uicontrol> to activate autoscan mode for a group of students.</p>
-	    <p>A slide show of student screenshots will appear in the <wintitle>Remote desktop</wintitle> window (<xref keyref="autoscan/autoscan_png" type="fig"/>&#160;). Student names will be displayed in the window title bar.</p>
+	    <p><indexterm>autoscan</indexterm>This mode can help the teacher to monitor the screenshots of several students and simultaneously listen to them. Press <uicontrol>Remote control</uicontrol> button in the class tab menu (<xref keyref="menu_class/menu_class_png" type="fig"/>&#160;) and select <uicontrol>Autoscan</uicontrol> to activate autoscan mode for the whole class. Press <uicontrol>Remote control</uicontrol> button in the group tab menu (<xref keyref="menu_group/menu_group_png" type="fig"/>&#160;) and select <uicontrol>Autoscan</uicontrol> to activate autoscan mode for a group of students.</p>
+	    <p>A slide show of screenshots will appear in the <wintitle>Remote desktop</wintitle> window (<xref keyref="autoscan/autoscan_png" type="fig"/>&#160;). Student names will be displayed in the window title bar.</p>
 		<fig id="autoscan_png">
-			<title><wintitle>Remote desktop</wintitle> window in autoscan mode with a screenshot from student workstation</title>
+			<title><wintitle>Remote desktop</wintitle> window in autoscan mode displaying screenshot from a student workstation</title>
             <image href="img/autoscan.png" placement="break">
-			  <alt><wintitle>Remote desktop</wintitle> window in autoscan mode with a screenshot from student workstation</alt>
+			  <alt><wintitle>Remote desktop</wintitle> window in autoscan mode displaying screenshot from a student workstation</alt>
             </image>
         </fig>
 		<p>Delay between the screenshots can be adjusted by pressing <uicontrol>Autoscan</uicontrol> button and selecting <uicontrol>Set delay</uicontrol>. Select delay in seconds from the menu:
@@ -25,8 +25,8 @@
                 <li>Custom</li>
 			</ul>
 		</p>
-		<p>Press <uicontrol>Autoscan</uicontrol> button and uncheck corresponding menu item to deactivate the autoscan mode.</p>
-		<p>You can also deactivate simultaneous audio monitoring by unchecking <uicontrol>Audio/Listen</uicontrol>.</p>
+		<p>Press the <uicontrol>Autoscan</uicontrol> button and uncheck corresponding menu item to deactivate the autoscan mode.</p>
+		<p>You can turn off simultaneous audio monitoring by unchecking <uicontrol>Audio/Listen</uicontrol>.</p>
 		<p>Double click on a screenshot to stop autoscan and instantly enter remote control mode for the currently displayed student workstation (<xref keyref="remote_control/remote_control_png" type="fig"/>&#160;).</p>
 	</conbody>
 </concept>
