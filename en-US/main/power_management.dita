@@ -4,7 +4,7 @@
 <concept id="power_management" xml:lang="en-US">
     <title><keyword>Power control</keyword></title>
     <conbody>
-		<p><indexterm>power control</indexterm>The teacher perform power/on/off, logout and reboot actions on student workstations for individual workstation, group or the whole class.</p>
+		<p><indexterm>power control</indexterm>The teacher can perform shutdown, power on, logout and reboot actions on student workstations for an individual workstation, group of workstations or the whole class.</p>
 		<p>A total of five actions are available:
 			<ul>
 				<li><uicontrol>Logout</uicontrol>;</li>
@@ -14,8 +14,8 @@
 				<li><uicontrol>Power on</uicontrol>.</li>
 			</ul>
 		</p>
-		<note type="tip">Please note that <uicontrol>Power on</uicontrol> action is not available for a group because a powered off computer can not be a member of any groups.</note>
-		<p>Student workstation network interface has to be set up in a certain way (see <xref keyref="setup_net_vista"/>&#160;) for the remote <uicontrol>Power on</uicontrol> to function properly.</p>
+
+		<note type="important">Student workstation network interface has to be set up in a certain way (see <xref keyref="setup_net_vista"/>&#160;) for the remote <uicontrol>Power on</uicontrol> to function properly.</note>
 
 		<p>Select <uicontrol>Power control</uicontrol> from the student menu (see <xref keyref="menu_single"/>&#160;) and then select appropriate item from the sub-menu to perform power control actions on a single workstation.</p>
 
