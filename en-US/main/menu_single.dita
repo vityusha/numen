@@ -131,7 +131,7 @@
             <entry><image href="img/menu/grade5.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry>- Custom entry field (this field shows up whenever maximum lesson score for the class set in Teacher settings (see <xref keyref="tutor_settings"/>&#160;)</entry>
+			<entry>- Custom entry field (this field shows up whenever maximum lesson score for the class set in <wintitile>Teacher settings</wintitile> (see <xref keyref="tutor_settings"/>&#160;) is not equal to 5.</entry>
             <entry></entry>
           </row>
           <row>
