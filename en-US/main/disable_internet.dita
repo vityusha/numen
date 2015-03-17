@@ -5,7 +5,7 @@
     <title>Internet access control</title>
     <conbody>
 		<p>The teacher can control how students access the Internet by disabling access to certain ports, and therefore certain services.
-			You can specify semicolon separated list of port numbers in the <wintitle>Internet access control</wintitle> window (<xref keyref="disable_internet/message_block_inet_png" type="fig"/>&#160;). Access to these ports from the student workstations will be disabled.</p>
+			You can specify a semicolon separated list of port numbers in the <wintitle>Internet access control</wintitle> window (<xref keyref="disable_internet/message_block_inet_png" type="fig"/>&#160;). Access to these ports from affected student workstations will be disabled.</p>
 		<fig id="message_block_inet_png">
 			<title><wintitle>Internet access control</wintitle> window</title>
             <image href="img/message_block_inet.png" placement="break">
