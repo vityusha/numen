@@ -72,14 +72,14 @@
 			  <alt>Add assignment window</alt>
             </image>
         </fig>
-	   <p><uicontrol>Collect files without an assignment</uicontrol> button allows you co collect files which students may have prepared without a particular assignment. It actually creates a dummy assignment that facilitates collection of unattached files.</p>
+	   <p><uicontrol>Collect files without an assignment</uicontrol> button allows you co collect files that students may have prepared without a particular assignment. It actually creates a dummy assignment that facilitates collection of unattached files.</p>
 
 	   <p>The lower portion of the window contains a panel that accommodates either list of assignment files or list of students who received this assignment depending on whether <wintitle>Hand out</wintitle> or <wintitle>Collect</wintitle> tab is selected.</p>
 
-	   <p>In the <wintitle>Hand out</wintitle> mode this panel becomes the <wintitle>Handout files</wintitle> panel that contains list of assignment files for handing out to students.</p>
+	   <p>In the <wintitle>Hand out</wintitle> mode this panel becomes the <wintitle>Handout files</wintitle> panel that contains list of assignment files for distribution to the students.</p>
 		<p><uicontrol>Add file</uicontrol>, <uicontrol>Delete file</uicontrol>, <uicontrol>Delete all files</uicontrol>, and <uicontrol>View file</uicontrol> buttons for assembling handout files into an assignment are immediately above the file list.</p>
-		<p>After assembling the assignment you can press <uicontrol>Send</uicontrol> button to send it to the students. Progress bar is to the right of the <uicontrol>Send</uicontrol> button.</p>
-		<p>A soon as all assignment files have been received by the student module, an  <wintitle>Assignment handout</wintitle> window (<xref keyref="homework/hw_client_receive_png" type="fig"/>&#160;) will appear on the student's screen. This window displays received assignment(s) and files associated with them.</p>
+		<p>After assembling the assignment you can press the <uicontrol>Send</uicontrol> button to send it to the students. Assignment transfer progress bar is to the right of the <uicontrol>Send</uicontrol> button.</p>
+		<p>A soon as all assignment files have been received by a student module, an  <wintitle>Assignment handout</wintitle> window (<xref keyref="homework/hw_client_receive_png" type="fig"/>&#160;) will appear on the student's screen. This window displays received assignment(s) and files associated with them.</p>
 		<fig id="hw_client_receive_png">
             <title>Assignment handout window on student's screen</title>
             <image href="img/hw-client-receive.png" placement="break">
@@ -103,9 +103,9 @@
                 </tbody>
             </tgroup>
         </table>
-	   <p>Students can use <uicontrol>Open folder</uicontrol> button to open assignment folder in a file manager or <uicontrol>Save</uicontrol> button to save assignment files elsewhere.</p>
+	   <p>Students can use <uicontrol>Open folder</uicontrol> button to open the assignment folder in a file manager or <uicontrol>Save</uicontrol> button to save assignment files elsewhere.</p>
 
-	   <p>The teacher should to select <wintitle>Collect</wintitle> tab in the <wintitle>Homework assignments</wintitle> window (<xref keyref="homework/hw2_png" type="fig"/>&#160;) to initiate the process of collecting assignments that are due. Upon selection of <wintitle>Collect</wintitle> tab, the panel will display list of students who have received this assignment.</p>
+	   <p>The teacher should select <wintitle>Collect</wintitle> tab in the <wintitle>Homework assignments</wintitle> window (<xref keyref="homework/hw2_png" type="fig"/>&#160;) to initiate collecting assignments that are due. Upon selection of <wintitle>Collect</wintitle> tab, the panel will display a list of students who have received this assignment.</p>
 		<fig id="hw2_png">
 			<title><wintitle>Homework assignments</wintitle> window during collection</title>
             <image href="img/hw2.png" placement="break">
@@ -135,7 +135,7 @@
         </table>
 		<p>Student list displays student name, handout date, and received back date.</p>
 
-		<p>Press <uicontrol>Collect</uicontrol> button to collect the assignments. An <wintitle>Assignment return</wintitle> window (<xref keyref="homework/hw_client_send_png" type="fig"/>&#160;) will be displayed on the screens of selected students. If the <uicontrol>Only those who received this assignment</uicontrol> check box was selected, then only these students will be prompted to return it. The usual selection criteria - all students in the class, selected group, or selected students - apply otherwise.</p>
+		<p>Press <uicontrol>Collect assignments</uicontrol> button to collect the assignments. An <wintitle>Assignment return</wintitle> window (<xref keyref="homework/hw_client_send_png" type="fig"/>&#160;) will be displayed on the screens of selected students. If the <uicontrol>Only those who received this assignment</uicontrol> check box was selected, then only these students will be prompted to return it. The usual selection criteria - all students in the class, selected group, or selected students - apply otherwise.</p>
 
 		<note type="tip">Check selection box in the list header to select all students in the list.</note>
 		<fig id="hw_client_send_png">
@@ -146,7 +146,7 @@
         </fig>
 		<p>List of files that students received with the assignment is at the top of this window.</p>
 		<p>Bottom part of the window contains list of files to be returned. Students can add files to this list by dragging and dropping files to the panel or using <uicontrol>Browse files</uicontrol> button.</p>
-		<p>After the list of files to be returned has been assembled, students should press <uicontrol>Send</uicontrol> to return assignment to the teacher.</p>
+		<p>After the list of files to be returned has been assembled, students should press <uicontrol>Send</uicontrol> button to return assignment to the teacher.</p>
 
 		<p>Assignment collection process can be tracked using progress bar to the right of the <uicontrol>Collect</uicontrol> button on the teacher's screen (<xref keyref="homework/hw2_png" type="fig"/>&#160;).</p>
 
@@ -162,7 +162,7 @@
         </fig>
 	   <note type="important">Whenever the <wintitle>Homework assignments</wintitle> window was accessed through the pop-up student menu (see section <xref keyref="menu_single"/>&#160;), corresponding student will be selected automatically.</note>
 		<p>You can hand out assignment(s) to the student by selecting <wintitle>Hand out</wintitle> tab an following instruction above. All the actions will be applicable only to the selected student.</p>
-		<p>Whenever <wintitle>Received assignments</wintitle> tab is selected, assignment list in top panel becomes inactive and the bottom panel will contain list of assignments handed out to the student. You can select assignments in this list and collect the from the student by pressing  <uicontrol>Collect</uicontrol> button.</p>
+		<p>Whenever <wintitle>Received assignments</wintitle> tab is selected, assignment list in top panel becomes inactive and the bottom panel will contain list of assignments handed out to the student. You can select assignments in this list and collect the from the student by pressing  <uicontrol>Collect assignments</uicontrol> button.</p>
 		<note type="tip">Right click on the assignment selection field in the list header to select all assignments.</note>
 		<p><uicontrol>Collect files</uicontrol> and <uicontrol>Open</uicontrol> buttons work just like for multiple students (described above in this section).</p>
     </conbody>
