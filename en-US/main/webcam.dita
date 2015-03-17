@@ -4,7 +4,7 @@
 <concept id="webcam" xml:lang="en-US">
   <title><keyword>Video monitoring</keyword></title>
   <conbody>
-    <p><indexterm>video monitoring</indexterm>Video monitoring mode allows the teacher to monitor web cam feeds from the student workstations (if the latter are equipped for it). Web cam feeds will be displayed in the student panels (<xref keyref="webcam/webcam_png" type="fig"/>&#160;).</p>
+    <p><indexterm>video monitoring</indexterm>Video monitoring mode allows the teacher to monitor web cam feeds from the student workstations. Web cam feeds will be displayed in the student panels (<xref keyref="webcam/webcam_png" type="fig"/>&#160;).</p>
     <fig id="webcam_png">
       <title>Student panel displaying web cam feed</title>
       <image href="img/webcam.png" placement="break">
