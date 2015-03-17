@@ -4,7 +4,7 @@
 <concept id="message" xml:lang="en-US">
     <title>Messaging</title>
     <conbody>
-		<p>Use this mode to send messages to a student, group, or the whole class.</p>
+		<p>Use this mode to send text messages to a student, group, or the whole class.</p>
 		<ul>
 			<li>Select <uicontrol>Message</uicontrol> in the pop-up student menu (see section <xref keyref="menu_single"/>&#160;) to send a message to this particular student.</li>
 			<li>Press <uicontrol>Activity</uicontrol> button in a group tab menu (see section <xref keyref="menu_group"/>&#160;) and then select <uicontrol>Message</uicontrol> to send a message to the group.</li>
