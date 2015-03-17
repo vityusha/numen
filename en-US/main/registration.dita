@@ -17,7 +17,7 @@
 			  <alt>Panel of an absent student</alt>
             </image>
         </fig>
-		<p>Status line of the teacher module window will show time remaining for the roll call. You can stop the roll call early by selecting <menucascade><uicontrol>Class</uicontrol><uicontrol>Roll call</uicontrol></menucascade> menu again.</p>
+		<p>Status bar of the teacher module window will show time remaining for the roll call. You can stop the roll call early by selecting <menucascade><uicontrol>Class</uicontrol><uicontrol>Roll call</uicontrol></menucascade> menu again.</p>
 		<p>The <wintitle>Roll call results</wintitle> window (<xref keyref="registration/registration_result_png" type="fig"/>&#160;) will appear on your screen after registration is completed.</p>
 		<fig id="registration_result_png">
             <title><wintitle>Roll call results</wintitle> window</title>
