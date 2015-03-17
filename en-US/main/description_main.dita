@@ -4,7 +4,7 @@
 <concept id="description_main" xml:lang="en-US">
     <title>Teacher module</title>
     <conbody>
-	    <p><indexterm>teacher module</indexterm><keyword>Teacher module</keyword> (<xref keyref="description_main/main_png" type="fig"/>&#160;) is the <wintitle>Dialog Nibelung</wintitle> software module for control and management of a computer classroom with language lab functionality.</p>
+	    <p><indexterm>teacher module</indexterm><keyword>Teacher module</keyword> (<xref keyref="description_main/main_png" type="fig"/>&#160;) is the <wintitle>Dialog Nibelung</wintitle> software module for control and management of a language lab computer classroom.</p>
 		<fig id="main_png">
             <title>Teacher module window</title>
             <image href="img/main.png" placement="break">
@@ -43,7 +43,7 @@
                     </row>
 					<row>
                         <entry>7</entry>
-                        <entry>Sound card controls</entry>
+                        <entry>Sound controls</entry>
                     </row>
 					<row>
                         <entry>8</entry>
@@ -60,8 +60,8 @@
                 </tbody>
             </tgroup>
         </table>
-        <p>All computers in the classroom are shown as panels in the classroom console (up to maximum limited by the license key). Online computers are shown in color, while the offline ones are grayed out.</p>
-		<note type="important">You have received a USB dongle with the license key when you purchased the software.</note>
+        <p>Student workstations in the classroom are shown as panels in the classroom console. Online workstations are shown in color, while the offline ones are grayed out.</p>
+		<note type="important">You have received a USB dongle with the license key when you purchased the software. The USB dongle sets limits to the maximum number of student workstations in the class.</note>
 		<p>Student workstations that are connected to the classroom network and are running student modules become active in the classroom console.
 		A color icon appears on the left of active student panels (<xref keyref="description_main/icon_connect_png" type="fig"/>&#160;), while the panel background acquires group color or becomes white if the student is not a part of any group.</p>
         <fig id="icon_connect_png">
@@ -86,26 +86,26 @@
                     </row>
 					<row>
                         <entry>3</entry>
-                        <entry>Student assignment</entry>
+                        <entry>Assigned activity</entry>
                     </row>
 					<row>
                         <entry>4</entry>
-                        <entry>Assignment file</entry>
+                        <entry>Assigned file</entry>
                     </row>
                 </tbody>
             </tgroup>
         </table>
-	   <p>You can work with the students on an individual basis, using the drop down student menu, or group students into up to 10 groups and work with a group using the Group tabs menu. You can also work with the whole class at once using the Class tab menu.</p>
-		<p>Group tabs are immediately to the left of the classroom console. The top tab <wintitle>*</wintitle> is the class tab, while other tabs  <wintitle>A...J</wintitle> provide access to the corresponding groups. Whenever a group is assigned a task to work on, a task icon will appear on the group tab.</p>
-		<p>The toolbar panel is located along the left edge of the teacher module window. A teacher can add tool buttons to the toolbar to provide quick access to various functions of the software.</p>
-		<p>The sound card controls can be found in the lower left corner of the teacher module window (<xref keyref="description_main/controls_main_png" type="fig"/>&#160;).</p>
+	   <p>You can work with the students on an individual basis, using the drop down student menu, or group students into up to 10 groups and work with them using the <uicontrol>Group</uicontrol> tabs menu. You can also work with the whole class at once using the <uicontrol>Class</uicontrol> tab menu.</p>
+		<p>Group tabs are immediately to the left of the classroom console. The top tab <wintitle>*</wintitle> is the class tab, while the <wintitle>A...J</wintitle> tabs provide access to the corresponding groups. Whenever a group is assigned an activity to work on, activity icon will appear on the group tab.</p>
+		<p>The toolbar panel is located along the left edge of the teacher module window. A teacher can customize the toolbar to provide quick access to various functions of the software.</p>
+		<p>Sound controls can be found in the lower left corner of the teacher module window (<xref keyref="description_main/controls_main_png" type="fig"/>&#160;).</p>
 		<fig id="controls_main_png">
-            <title>Sound card controls and teacher module status line</title>
+            <title>Teacher module sound controls and status bar</title>
             <image href="img/controls_main.png" placement="break">
-			<alt>Sound card controls and teacher module status line</alt>
+			  <alt>Teacher module sound controls and status bar</alt>
             </image>
         </fig>
-        <p>Elements of the sound card controls and the status line:</p>
+        <p>Elements of the sound controls and the status bar:</p>
 		<table frame="topbot">
             <tgroup cols="2">
                 <colspec colname="COLSPEC0" colwidth="10*"/>
@@ -150,11 +150,11 @@
                 </tbody>
             </tgroup>
         </table>
-        <p>Teacher name, Class ID, lesson time left, and some other additional data (depending on the mode) are shown in the status line.</p>
-	   <note type="attention">Please note that the <uicontrol>Loopback disable</uicontrol> button is not accessible under Windows Vista, Windows 7 and Windows 8.x.</note>
+        <p>Teacher name, Class ID, lesson time left, and some other additional data (depending on the mode) are shown in the status bar.</p>
+	   <note type="attention">Please note that the <uicontrol>Loopback disable</uicontrol> button is not accessible under Windows Vista, Windows 7 and Windows 8.</note>
 		<p>An icon (<xref keyref="description_main/microphone_png" type="fig"/>&#160;) will appear in the upper right corner of the window whenever the teacher's microphone is turned on.</p>
         <fig id="microphone_png">
-            <title>Microphone on icon</title>
+		   <title><uicontrol>Microphone on</uicontrol> icon</title>
             <image href="img/microphone.png" placement="break">
 			  <alt>Microphone on icon</alt>
             </image>
