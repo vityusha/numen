@@ -4,8 +4,8 @@
 <concept id="applications_management" xml:lang="en-US">
     <title>Launch control</title>
     <conbody>
-		<p>The teacher can control which applications the students will be allowed to launch on their workstations. This mode is available only for the whole class or a group of workstations.</p>
-		<p>Upon activation of the launch control from the menu you will be presented with a window where you can switch class and group tabs with two application lists for each tab: allow list and deny list (<xref keyref="applications_management/appctrl_png" type="fig"/>&#160;).</p>
+		<p>The teacher can control which applications students will be allowed to launch on their workstations. This mode is available only for the whole class or a group of workstations.</p>
+		<p>Upon activation of <uicontrol>Launch control</uicontrol> from the menu you will be presented with a window where you can switch class and group tabs and two application lists for each tab: allow list and deny list (<xref keyref="applications_management/appctrl_png" type="fig"/>&#160;).</p>
 		<p>You can use <uicontrol>Open</uicontrol> and <uicontrol>Save</uicontrol> buttons to save and reuse the application control lists.</p>
 		<fig id="appctrl_png">
 			<title><wintitle>Launch control</wintitle> window</title>
@@ -18,8 +18,8 @@
 		<p>Use the <uicontrol>Add</uicontrol> to add application from the text field to the list.</p>
 		<p>Use the <uicontrol>Delete</uicontrol> button to remove items from the list.</p>
 		<p>Whenever <uicontrol>Allow</uicontrol> button is activated, the students will be able to launch on their workstations only those applications that are specified in the <uicontrol>Allowed applications</uicontrol> list.</p>
-		<note type="important">Please note that activating <uicontrol>Allow</uicontrol> mode will not close any already running applications.</note>
+		<note type="important">Activating <uicontrol>Allow</uicontrol> mode will not close any already running applications.</note>
 		<p>Whenever <uicontrol>Deny</uicontrol> button is activated, the students will not be able to launch on their workstations any application specified in the <uicontrol>Denied applications</uicontrol> list.</p>
-		<note type="important">Please note that activating <uicontrol>Deny</uicontrol> mode will force any running application that is in the <uicontrol>Denied applications</uicontrol> list to close.</note>
+		<note type="important">Activating <uicontrol>Deny</uicontrol> mode will force any running application that is in the <uicontrol>Denied applications</uicontrol> list to close.</note>
 	</conbody>
 </concept>
