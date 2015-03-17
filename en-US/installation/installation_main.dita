@@ -18,7 +18,7 @@
 			  <cmd><wintitle>Dialog Nibelung Setup Wizard</wintitle> window should appear on your screen (<xref keyref="install_main/install_m1_png" type="fig"/>&#160;). Press the <uicontrol>Next</uicontrol> button.</cmd>
                 <info>
                     <p><fig id="install_m1_png">
-					<title>Teacher module <wintitle>Setup Wizard</wintitle> window _fixme_ [ui]</title>
+					<title>Teacher module <wintitle>Setup Wizard</wintitle> window</title>
                         <image href="img/install_m1.png" placement="break">
                             <alt>Teacher module Setup Wizard window</alt>
                         </image>
