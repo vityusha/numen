@@ -4,7 +4,7 @@
 <concept id="union_in_group" xml:lang="en-US">
     <title>Grouping of students</title>
     <conbody>
-		<p>Students can be working on their own, or grouped together. You can create up to 10 groups in the class.</p>
+		<p>Students in the class can be working individually or grouped together. You can create up to 10 groups in the class.</p>
 		<p>Students can be assigned to a group using one of the several methods:
 			<ul>
 				<li>right click on a student panel, select <uicontrol>Set group</uicontrol>, then select one of the groups;</li>
@@ -13,6 +13,6 @@
 				<li>you can also assign all the students in the class to the same group by using the <uicontrol>Set group</uicontrol> button on the class tab (<xref keyref="menu_class/menu_class_png" type="fig"/>&#160;).</li>
 			</ul>
 		</p>
-		<p>Upon successfully joining a group, student's image in the classroom console will acquire color of that group, and group name will appear in the status line of the student module window (see <xref keyref="description_client/client_png" type="fig"/>&#160;).</p>
+		<p>Upon successfully joining a group, student icon in the classroom console will acquire color of that group, and group name will appear in the status bar of the student module window (see <xref keyref="description_client/client_png" type="fig"/>&#160;).</p>
 	</conbody>
 </concept>
