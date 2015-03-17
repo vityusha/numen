@@ -13,14 +13,14 @@
         </fig>
 		<p>Select <uicontrol>Terminate remote process</uicontrol> from the student menu (see <xref keyref="menu_single"/>&#160;) to terminate processes running on an individual workstation. A window with a list of processes running on that workstation will appear on your screen (<xref keyref="terminate_remote_process/kill_app_png" type="fig"/>&#160;). An active application or process will be displayed in color.</p>
 		<note type="tip">An application in this context is a process that has one or more windows displayed on the screen. A process in general can run in the background and display nothing on the screen.</note>
-		<p>Select <wintitle>Applications</wintitle> tab to see the list of running applications. Select one or more applications from the list (use <uicontrol>Ctrl</uicontrol>+click to select multiple items) and press the <uicontrol>OK</uicontrol> button to terminate them.</p>
+		<p>Select <wintitle>Applications</wintitle> tab to see the list of running applications. Select one or more applications from the list (use <uicontrol><shortcut>Ctrl</shortcut></uicontrol>+click to select multiple items) and press the <uicontrol>OK</uicontrol> button to terminate them.</p>
 		<fig id="kill_app_png">
 			<title><wintitle>Terminate remote process</wintitle> window with the <uicontrol>Applications</uicontrol> tab selected</title>
             <image href="img/kill_app.png" placement="break">
 			  <alt><wintitle>Terminate remote process</wintitle> window with the <uicontrol>Applications</uicontrol> tab selected</alt>
             </image>
         </fig>
-	   <p>Select <wintitle>Processes</wintitle> to see the list of running processes. Select one or more processes from the list (use <uicontrol>Ctrl</uicontrol>+click to select multiple items) and press the <uicontrol>OK</uicontrol> button to terminate them .</p>
+	   <p>Select <wintitle>Processes</wintitle> to see the list of running processes. Select one or more processes from the list (use <uicontrol><shortcut>Ctrl</shortcut></uicontrol>+click to select multiple items) and press the <uicontrol>OK</uicontrol> button to terminate them .</p>
 		<fig id="kill_process_png">
 			<title><wintitle>Terminate remote process</wintitle> window with the <uicontrol>Processes</uicontrol> tab selected</title>
             <image href="img/kill_process.png" placement="break">
