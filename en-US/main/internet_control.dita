@@ -4,9 +4,9 @@
 <concept id="internet_control" xml:lang="en-US">
   <title>Web access control</title>
   <conbody>
-	  <p>In addition to the Internet access control on the services level (see <xref keyref="disable_internet"/>&#160;), <wintitle>Dialog Nibelung</wintitle> allows you to perform a fine grain web access control on the individual sites and web pages level. This option, however, is not available for the individual students, only for the whole class or groups.</p>
+	  <p>In addition to the Internet access control on the service level (see <xref keyref="disable_internet"/>&#160;), <wintitle>Dialog Nibelung</wintitle> allows you to apply fine grained web access control on the individual sites and web pages level. This option, however, is not available for the individual students, only for the whole class or groups.</p>
 
-	  <p>Upon activation of the web access control from the whole class or groups menu you will be presented with a window where you can view and edit separate allow and deny access control lists for the class and individual groups (<xref keyref="internet_control/inetctrl_png" type="fig"/>&#160;).</p>
+	  <p>Upon activation of the web access control from the class or group tabs menu you will be presented with a window where you can view and edit separate allow and deny access control lists for the class and individual groups (<xref keyref="internet_control/inetctrl_png" type="fig"/>&#160;).</p>
 
     <fig id="inetctrl_png">
 	    <title><wintitle>Web access control</wintitle> window</title>
