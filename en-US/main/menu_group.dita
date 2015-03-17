@@ -4,7 +4,7 @@
 <concept id="menu_group" xml:lang="en-US">
     <title>Group tab</title>
     <conbody>
-        <p>A group tab allows you to perform certain actions to all the students who are members of a particular group.</p>
+        <p>A group tab allows you to perform certain actions to all students affiliated with a particular group.</p>
 	   <p>Click on the group tab (<uicontrol>A...J</uicontrol>) to open the group tab menu (<xref keyref="menu_group/menu_group_png" type="fig"/>&#160;).</p>
 		<fig id="menu_group_png">
             <title>Group tab</title>
@@ -20,15 +20,15 @@
 				<li><uicontrol>Media sources</uicontrol> (see <xref keyref="media_source"/>&#160;)</li>
 			</ul>
 		</p>
-    <p>A status line at the bottom of the tab contains icons indicating modes active for the current group:</p>
+    <p>A status bar at the bottom of the tab contains icons indicating active settings for the current group:</p>
 			<ul>
 				<li>Conversation (section <xref keyref="dialog"/>&#160;)</li>
 				<li>Microphones muted (section <xref keyref="disable_microphone"/>&#160;)</li>
 				<li>Launch applications (section <xref keyref="run_programs"/>&#160;)</li>
-				<li>Class chat (section <xref keyref="chat"/>&#160;)</li>
+				<li>Group chat (section <xref keyref="chat"/>&#160;)</li>
 				<li>Input locked (section <xref keyref="lock_input"/>&#160;)</li>
 				<li>Computers locked (section <xref keyref="lock_pc"/>&#160;)</li>
-				<li>Application management (section <xref keyref="applications_management"/>&#160;)</li>
+				<li>Application launch control (section <xref keyref="applications_management"/>&#160;)</li>
 				<li>Internet access control enabled (section <xref keyref="internet_control"/>&#160;)</li>
 				<li>Removable media disabled (section <xref keyref="disable_removable"/>&#160;)</li>
 			</ul>
