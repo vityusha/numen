@@ -4,15 +4,15 @@
 <concept id="call_tutor" xml:lang="en-US">
     <title>Students calling for help</title>
     <conbody>
-	    <p>A <b><msgph>Help me!</msgph></b> pop-up message (<xref keyref="call_tutor/icon_call_png" type="fig"/>&#160;) will appear over a student panel whenever this student presses <uicontrol>Call teacher</uicontrol> button in the student module. The student's icon will also change to a green phone receiver.</p>
+	    <p>A <b><msgph>Help me!</msgph></b> pop-up message (<xref keyref="call_tutor/icon_call_png" type="fig"/>&#160;) will appear over a student panel whenever this student presses <uicontrol>Call teacher</uicontrol> button in the student module. The student icon will also change to a green phone receiver.</p>
 		<fig id="icon_call_png">
             <title>Student calling for help</title>
             <image href="img/icon_call.png" placement="break">
 			  <alt>Student calling for help</alt>
             </image>
         </fig>
-	   <p>Click on the student panel to dismiss the message and start a conversation (see section <xref keyref="dialog"/>&#160;) with the student.</p>
+	   <p>Click on the student panel to dismiss the message and start a conversation with the student (see section <xref keyref="dialog"/>&#160;).</p>
 
-        <p>Double click on the student panel to open a messaging window (<xref keyref="message/message_class_png" type="fig"/>&#160;) addressed to the student where you can ask what is the nature of the problem.</p>
+        <p>Double click on the student panel to open a messaging window (<xref keyref="message/message_class_png" type="fig"/>&#160;) addressed to the student where you can inquire about the nature of the problem.</p>
 	</conbody>
 </concept>
