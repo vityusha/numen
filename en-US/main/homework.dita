@@ -81,9 +81,9 @@
 		<p>After assembling the assignment you can press the <uicontrol>Send</uicontrol> button to send it to the students. Assignment transfer progress bar is to the right of the <uicontrol>Send</uicontrol> button.</p>
 		<p>A soon as all assignment files have been received by a student module, an  <wintitle>Assignment handout</wintitle> window (<xref keyref="homework/hw_client_receive_png" type="fig"/>&#160;) will appear on the student's screen. This window displays received assignment(s) and files associated with them.</p>
 		<fig id="hw_client_receive_png">
-            <title>Assignment handout window on student's screen</title>
+			<title><wintitle>Assignment handout _fixme_ [ui]</wintitle> window on the student screen</title>
             <image href="img/hw-client-receive.png" placement="break">
-			  <alt>Assignment handout window on student's screen</alt>
+			  <alt><wintitle>Assignment handout</wintitle> window on the student screen</alt>
             </image>
         </fig>
 	   <p>Elements of the <wintitle>Assignment handout</wintitle> window:</p>
