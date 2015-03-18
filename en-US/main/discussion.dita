@@ -4,33 +4,33 @@
 <concept id="discussion" xml:lang="en-US">
     <title>Discussion</title>
     <conbody>
-	    <p><indexterm>discussion</indexterm>In the <uicontrol><keyword>Discussion</keyword></uicontrol> students have conversations either in pairs or groups. In the pair discussion mode, conversation partners within the group can be preset from the workstation ID, manually assigned by the teacher, selected by students themselves, or assigned by <wintitle>Dialog Nibelung</wintitle> at random.</p>
-		<p>Press <uicontrol>Discussion</uicontrol> button, select <uicontrol>Whole group</uicontrol> from the <wintitle>Select grouping method</wintitle> drop-down box, and press <uicontrol>Start</uicontrol> button (<xref keyref="discussion/menu_group_3_3_1_png" type="fig"/>&#160;) to initiate discussion for the whole group.</p>
+	    <p><indexterm>discussion</indexterm>During   <uicontrol><keyword>Discussion</keyword></uicontrol> activity students have conversations either in pairs or groups. In the paired discussion mode, conversation partners within the group can be assigned by the teacher, selected by students themselves, assigned by <wintitle>Dialog Nibelung</wintitle> at random, or preset based on the seat ID.</p>
+	    <p>Select <uicontrol>Discussion</uicontrol> from the <uicontrol>Activities</uicontrol> menu, then select <uicontrol>Whole group</uicontrol> from the <wintitle>Select grouping method</wintitle> drop-down box, and press <uicontrol>Start</uicontrol> button (<xref keyref="discussion/menu_group_3_3_1_png" type="fig"/>&#160;) to initiate discussion for the whole group.</p>
 		<fig id="menu_group_3_3_1_png">
-			<title><uicontrol>Discussion</uicontrol> menu with <uicontrol>Whole group</uicontrol> grouping method</title>
+			<title><uicontrol>Discussion</uicontrol> control tab for the <uicontrol>Whole group</uicontrol></title>
             <image href="img/menu_group_3_3_1.png" placement="break">
-			  <alt><uicontrol>Discussion</uicontrol> menu with <uicontrol>Whole group</uicontrol> grouping method</alt>
+			  <alt><uicontrol>Discussion</uicontrol> control tab for the <uicontrol>Whole group</uicontrol></alt>
             </image>
         </fig>
 		<p>Student panels of all students participating in the discussion will change their appearance (<xref keyref="discussion/icon_conf_png" type="fig"/>&#160;).</p>
 		<fig id="icon_conf_png">
-            <title>Discussion participants in the classroom console</title>
+            <title>Group discussion participants in the classroom console</title>
             <image href="img/icon_conf.png" placement="break">
-			  <alt>Discussion participants in the classroom console</alt>
+			  <alt>Group discussion participants in the classroom console</alt>
             </image>
         </fig>
 		<p>Select <uicontrol>Phone conversation</uicontrol> option if you would like to simulate speech quality characteristic to telephone conversations (reduced legibility, static noise, pops and clicks, etc.)</p>
-		<p>You can can listen to the conversation by selecting <uicontrol>Listen</uicontrol> option.</p>
+		<p>You can can listen to the discussion by selecting <uicontrol>Listen</uicontrol> option.</p>
 		<p>The teacher can also participate in the discussion by selecting <uicontrol>Talk</uicontrol> option.</p>
 
-		<p>Press <uicontrol>Discussion</uicontrol> button, and select <uicontrol>Preset</uicontrol> from the <wintitle>Grouping method</wintitle> drop-down box (<xref keyref="discussion/menu_group_3_3_2_png" type="fig"/>&#160;) button to initiate discussion between preset pairs of students.</p>
+		<p>Select <uicontrol>Preset</uicontrol> from the <wintitle>Grouping method</wintitle> drop-down box (<xref keyref="discussion/menu_group_3_3_2_png" type="fig"/>&#160;) button to initiate discussion between preset pairs of students.</p>
 
-		<note type="tip">Preset pairs are assigned in ascending student workstation ID order, e.g. 1-2, 3-4, 5-6 and so forth.</note>
+		<note type="tip">Preset partners are assigned in ascending student seat ID order, e.g. 1-2, 3-4, 5-6 and so forth.</note>
 
 		<fig id="menu_group_3_3_2_png">
-		<title><uicontrol>Discussion</uicontrol> menu for preset pairs</title>
+			<title><uicontrol>Discussion</uicontrol> menu for <uicontrol>Preset</uicontrol> pairs</title>
 		<image href="img/menu_group_3_3_2.png" placement="break">
-			<alt><uicontrol>Discussion</uicontrol> menu for preset pairs</alt>
+			<alt><uicontrol>Discussion</uicontrol> menu for <uicontrol>Preset</uicontrol> pairs</alt>
 		</image>
 		</fig>
 
@@ -43,29 +43,28 @@
 				<li><filepath>2-57 PM</filepath> is the recording time.</li>
 			</ul>
 		</p>
-		<note type="tip"><uicontrol>Listen</uicontrol> and <uicontrol>Recording</uicontrol> options are available only for the whole group. You can use corresponding facilities from the student menu (see <xref keyref="menu_single"/>&#160;) to listen and record individual pairs.</note>
+		<note type="tip"><uicontrol>Listen</uicontrol> and <uicontrol>Recording</uicontrol> options are available only for the group discussions. You can use similar facilities from the student menu (see <xref keyref="menu_single"/>&#160;) to listen and record individual pairs.</note>
 
-		<p>Conversation partners will be indicated in the classroom console by highlighting their names in the same color (<xref keyref="discussion/icon_pair_png" type="fig"/>&#160;).</p>
+		<p>Press the <uicontrol>Start</uicontrol> button to activate the discussion mode according to selected options.</p>
+		<p>Discussion partners will be indicated in the classroom console by highlighting their names in the same color (<xref keyref="discussion/icon_pair_png" type="fig"/>&#160;).</p>
 		<fig id="icon_pair_png">
-			<title>Conversation partners in the classroom console</title>
+			<title>Discussion partners in the classroom console</title>
             <image href="img/icon_pair.png" placement="break">
-			  <alt>Conversation partners in the classroom console</alt>
+			  <alt>Discussion partners in the classroom console</alt>
             </image>
         </fig>
 
-        <p>Press <uicontrol>Start</uicontrol> button to activate discussion mode according to selected options.</p>
-
-        <p>Select <uicontrol>Discussion</uicontrol> from the <uicontrol>Activity</uicontrol> menu, then select <uicontrol>Random</uicontrol> from the <wintitle>Grouping method</wintitle> drop-down box and press <uicontrol>Assign pairs</uicontrol> (<xref keyref="discussion/menu_group_3_3_3_png" type="fig"/>&#160;) to initiate discussion for randomly assigned pairs.</p>
+        <p>Select <uicontrol>Discussion</uicontrol> from the <uicontrol>Activity</uicontrol> menu, then select <uicontrol>Random</uicontrol> from the <wintitle>Grouping method</wintitle> drop-down box and press <uicontrol>Set pairs</uicontrol> (<xref keyref="discussion/menu_group_3_3_3_png" type="fig"/>&#160;) to initiate discussion in pairs assigned at random.</p>
 		<fig id="menu_group_3_3_3_png">
             <title><uicontrol>Discussion</uicontrol> menu for random pairs</title>
             <image href="img/menu_group_3_3_3.png" placement="break">
 			  <alt><uicontrol>Discussion</uicontrol> menu for random pairs</alt>
             </image>
         </fig>
-		<p>Press <uicontrol>Start</uicontrol> to activate discussion for randomly assigned pairs.</p>
-		<note type="tip">Press <uicontrol>Assign pairs</uicontrol> again to randomly assign new conversation partners.</note>
+		<p>Press the <uicontrol>Start</uicontrol> to activate discussion for random pairs.</p>
+		<note type="tip">Press <uicontrol>Set pairs</uicontrol> again to assign new random discussion partners.</note>
 
-		<p>To initiate discussion among manually assigned conversation partners, first select <uicontrol>Discussion</uicontrol> from the <uicontrol>Activity</uicontrol> menu, then select <uicontrol>Manual</uicontrol> from the <wintitle>Grouping method</wintitle> drop-down box and press <uicontrol>Select</uicontrol> (<xref keyref="discussion/menu_group_3_3_4_png" type="fig"/>&#160;). Now you can assign conversation pairs by clicking on student panels in the classroom console. Press <uicontrol>Select</uicontrol> again when all pairs have been assigned and press <uicontrol>Start</uicontrol> to activate the discussion.</p>
+		<p>To initiate discussion among manually assigned discussion partners, first select <uicontrol>Discussion</uicontrol> from the <uicontrol>Activity</uicontrol> menu, then select <uicontrol>Manual</uicontrol> from the <wintitle>Grouping method</wintitle> drop-down box and then press <uicontrol>Select</uicontrol> (<xref keyref="discussion/menu_group_3_3_4_png" type="fig"/>&#160;). Now you can assign discussion partners by clicking on student panels in the classroom console. Press <uicontrol>Select</uicontrol> again when all pairs have been assigned and press <uicontrol>Start</uicontrol> to activate the discussion.</p>
 		<fig id="menu_group_3_3_4_png">
             <title><uicontrol>Discussion</uicontrol> menu for manual grouping</title>
             <image href="img/menu_group_3_3_4.png" placement="break">
@@ -73,7 +72,7 @@
             </image>
         </fig>
 
-        <p>Select <uicontrol>Discussion</uicontrol> from the <uicontrol>Activity</uicontrol> menu, then select <uicontrol>Student choice</uicontrol> from the <wintitle>Grouping method</wintitle> drop-down box to allow the student to choose their own conversation partners (<xref keyref="discussion/menu_group_3_3_5_png" type="fig"/>&#160;).</p>
+        <p>Select <uicontrol>Discussion</uicontrol> from the <uicontrol>Activity</uicontrol> menu, then select <uicontrol>Student choice</uicontrol> from the <wintitle>Grouping method</wintitle> drop-down box to allow the student to choose their own discussion partners (<xref keyref="discussion/menu_group_3_3_5_png" type="fig"/>&#160;).</p>
 		<fig id="menu_group_3_3_5_png">
             <title><uicontrol>Discussion</uicontrol> menu for student choice of partners</title>
             <image href="img/menu_group_3_3_5.png" placement="break">
@@ -88,9 +87,9 @@
             </image>
         </fig>
 		<p>The left panel in this window contains a list of students available for invitation. Students should select a name from the list and press <uicontrol>Invite</uicontrol> to send an invitation. Already invited students have a green check mark displayed next to their name.</p>
-		<p>The right panel displays invitations received from other students. Student should select a name from this list and press <uicontrol>Accept invitation</uicontrol> to become conversation partners. This will form a pair and close the window.</p>
+		<p>The right panel displays invitations received from other students. Student should select a name from this list and press <uicontrol>Accept invitation</uicontrol> to become discussion partners. This will form a pair and close the window.</p>
 		<note type="attention">Please note that once this window is closed, the students will not be able to change their choice.</note>
-		<note type="tip">The teacher can override student choices and assign new conversation partners by pressing <uicontrol>Select</uicontrol> button.</note>
+		<note type="tip">The teacher can override student choices and assign new discussion partners by pressing <uicontrol>Select</uicontrol> button.</note>
 		<p>Press <uicontrol>Start</uicontrol> to activate the discussion mode.</p>
 		<p><uicontrol>Enable webcams</uicontrol> option is available in the paired discussion mode. When this option is selected the students will be able to see each other on their screens in the media player window.</p>
 	</conbody>
