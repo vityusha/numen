@@ -5,15 +5,15 @@
     <title>Teacher</title>
     <conbody>
 		<p>Select this menu item to use teacher's microphone as the media source.</p>
-		<p>The <uicontrol>Teacher</uicontrol> control tab (<xref keyref="tutor_source/menu_group_4_1_png" type="fig"/>&#160;) has only the <uicontrol>Start</uicontrol> with two additional options: <uicontrol>Record for students</uicontrol> and <uicontrol>Digitize</uicontrol>. They are described in <xref keyref="media_source"/>&#160;.</p>
+		<p>The <uicontrol>Teacher</uicontrol> media source control tab (<xref keyref="tutor_source/menu_group_4_1_png" type="fig"/>&#160;) has only the <uicontrol>Start</uicontrol> with two additional options: <uicontrol>Record for students</uicontrol> and <uicontrol>Digitize</uicontrol>. They are described in <xref keyref="media_source"/>&#160;.</p>
 		<fig id="menu_group_4_1_png">
 			<title><menucascade><uicontrol>Media sources</uicontrol><uicontrol>Teacher</uicontrol></menucascade> control tab</title>
             <image href="img/menu_group_4_1.png" placement="break">
 			  <alt><menucascade><uicontrol>Media sources</uicontrol><uicontrol>Teacher</uicontrol></menucascade> control tab</alt>
             </image>
         </fig>
-		<p>This allows the students to hear the teacher during any activity.</p>
-		<p>Immediately below the <uicontrol>Start</uicontrol> button there is a clock that displays time elapse since teacher microphone was selected as a source for broadcast.</p>
+		<p>Selecting this source allows the students to hear the teacher during any activity.</p>
+		<p>Immediately below the <uicontrol>Start</uicontrol> button there is a clock that displays time elapsed since teacher microphone was selected as the source for broadcast.</p>
 		<note type="tip">You can digitize and save teacher's voice for future use.</note>
 	</conbody>
 </concept>
