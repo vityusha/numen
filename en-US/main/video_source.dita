@@ -4,8 +4,8 @@
 <concept id="video_source" xml:lang="en-US">
     <title>Video</title>
     <conbody>
-	    <p>Select <uicontrol>Video</uicontrol> as the media source to broadcast a video stream to the students. The video will be displayed on the student workstations in the built in <wintitle>Dialog Nibelung</wintitle> video player. Video files on the teacher workstation, video signal from a video capture card on the teacher workstation, or <xref scope="external" href="http://www.youtube.com">YouTube</xref> videos can be used as the broadcast source.</p>
-	    <p>Select <uicontrol>File</uicontrol> from the <uicontrol>Select source</uicontrol> drop-down list and press <uicontrol>Browse</uicontrol> button (<xref keyref="video_source/menu_group_4_6_1_png" type="fig"/>&#160;) to pick up a video file for broadcasting. Selected file name will appear right above the <uicontrol>Browse</uicontrol> button.</p>
+	    <p>Select <uicontrol>Video</uicontrol> as the media source to broadcast a video stream to the students. The video will be displayed on the student workstations in the built in <wintitle>Dialog Nibelung</wintitle> video player. Video files on the teacher workstation, video signal from a video capture card on the teacher workstation, or a <xref scope="external" href="http://www.youtube.com">YouTube</xref> video can be used as the broadcast source.</p>
+	    <p>Select <uicontrol>File</uicontrol> from the <uicontrol>Select source</uicontrol> drop-down list and press <uicontrol>Browse</uicontrol> button (<xref keyref="video_source/menu_group_4_6_1_png" type="fig"/>&#160;) to pick up a video file for broadcasting. Selected file name will appear above the <uicontrol>Browse</uicontrol> button.</p>
 		<note type="tip"><wintitle>Dialog Nibelung</wintitle> supports many popular video file formats, including .avi, .mp4, .mpg, .wmv, etc.</note>
 		<fig id="menu_group_4_6_1_png">
 			<title><menucascade><uicontrol>Media sources</uicontrol><uicontrol>Video</uicontrol></menucascade> control tab with <uicontrol>File</uicontrol> selected as the source</title>
@@ -17,17 +17,17 @@
 		<note type="tip"><uicontrol>Pause</uicontrol>, <uicontrol>Repeat</uicontrol> , and and bookmarks control buttons will remain disabled if the <uicontrol>Optimize video for Wi-Fi networks</uicontrol> option was enabled in the teacher module settings (see <xref keyref="setup_main"/>&#160;).</note>
 		<p>The playback progress bar and playback clock displaying current position and video duration are immediately below the <uicontrol>Start</uicontrol>/<uicontrol>Stop</uicontrol> button.</p>
 
-		<note type="tip">Click on the playback bar to instantly change the playback position. Double click to reset playback position to the beginning of the file. This functionality is only available when <uicontrol>Optimize video for Wi-Fi networks</uicontrol> option n the teacher module settings (see <xref keyref="setup_main"/>&#160;) is turned off.</note>
+		<note type="tip">Click on the playback bar to instantly change the playback position. Double click to reset playback position to the beginning of the file. This functionality is only available when <uicontrol>Optimize video for Wi-Fi networks</uicontrol> option in the teacher module settings is turned off (see <xref keyref="setup_main"/>&#160;).</note>
 
-		<p id="fullscreen">Check <uicontrol>Full screen mode</uicontrol> option to display the video on student workstations in full screen mode instead of a window.</p>
-		<p id="lockinput">Check <uicontrol>Lock input</uicontrol> option to lock keyboard and mouse input on the student workstations for the duration of this video.</p>
-		<p id="watch">Press the <uicontrol>Watch stream</uicontrol> button to display the video on teacher workstation along with the students'.</p>
-		<p id="stop">Press <uicontrol>Stop</uicontrol> button to terminate the broadcast.</p>
-        <p conkeyref="file_source/ph_1"/>
-	   <p conkeyref="file_source/repeat" />
-	   <p conkeyref="file_source/ph_2"/>
+		<p id="fullscreen">Check the <uicontrol>Full screen mode</uicontrol> option to display the video on student workstations in full screen mode instead of a window.</p>
+		<p id="lockinput">Check the <uicontrol>Lock input</uicontrol> option to lock keyboard and mouse input on the student workstations for the duration of the video.</p>
+		<p id="watch">Press the <uicontrol>Watch stream</uicontrol> button to monitor the broadcast on the teacher workstation.</p>
+		<p id="stop">Press the <uicontrol>Stop</uicontrol> button to terminate the broadcast.</p>
+		<p conkeyref="file_source/repeat" />
+		<p conkeyref="file_source/ph_1"/>
+		<p conkeyref="file_source/ph_2"/>
 
-	   <p>Select a video capture card from the <uicontrol>Select source</uicontrol> drop-down list (<xref keyref="video_source/menu_group_4_6_2_png" type="fig"/>&#160;) to use an external video source connected to the card as the source of broadcast. You will also need to select input type (e.g. composite, S-video, TV tuner, USB,  FireWire IEEE 1394, etc.), <uicontrol>Frame size</uicontrol> in pixels, <uicontrol>Aspect ratio</uicontrol>, and an audio capture device.</p>
+		<p>Select a video capture card from the <uicontrol>Select source</uicontrol> drop-down list (<xref keyref="video_source/menu_group_4_6_2_png" type="fig"/>&#160;) to use an external video source connected to the card as the source of broadcast. You will also need to select input type (e.g. composite, S-video, TV tuner, USB,  FireWire IEEE 1394, etc.), <uicontrol>Frame size</uicontrol> in pixels, <uicontrol>Aspect ratio</uicontrol>, and an <uicontrol>Audio input device</uicontrol>.</p>
 		<fig id="menu_group_4_6_2_png">
             <title><menucascade><uicontrol>Media sources</uicontrol><uicontrol>Video</uicontrol></menucascade> control tab with video capture card selected as the source</title>
             <image href="img/menu_group_4_6_2.png" placement="break">
@@ -36,15 +36,15 @@
         </fig>
 		<note type="tip">Composite video connector is the most commonly used type in consumer grade analog video equipment.</note>
 
-		<p>Press <uicontrol>Start</uicontrol> button in the mini player to start the broadcast, at which point this button will be replaced by the <uicontrol>Stop</uicontrol> button, and the video stream will start playing in the media player window on student workstations.</p>
+		<p>Press the <uicontrol>Start</uicontrol> button in the mini player to start the broadcast, at which point this button will be replaced by the <uicontrol>Stop</uicontrol> button, and the video stream will start playing in the media player window on student workstations.</p>
 		<p conkeyref="video_source/fullscreen" />
 		<p conkeyref="video_source/lockinput" />
 		<p conkeyref="video_source/watch" />
 		<p conkeyref="video_source/stop" />
 
-		<note type="tip"><uicontrol>Pause</uicontrol>, <uicontrol>Repeat</uicontrol> , and and bookmarks control buttons will be disabled when a video capture card is selected as the media source.</note>
+		<note type="important"><uicontrol>Pause</uicontrol>, <uicontrol>Repeat</uicontrol> , and and the bookmarks control buttons are disabled when a video capture card is selected as the media source.</note>
 
-		<p>Select <uicontrol>YouTube</uicontrol> from the <uicontrol>Select source</uicontrol> drop-down list (<xref keyref="video_source/menu_group_4_6_3_png" type="fig"/>&#160;) and enter the URL into <uicontrol>Page URL</uicontrol> field to use a <xref scope="external" href="http://www.youtube.com">YouTube</xref> video as the broadcast source. The page address will be displayed in green after <wintitle>Dialog Nibelung</wintitle> decodes it. If the entered address is invalid, it will be displayed in red.</p>
+		<p>Select <uicontrol>YouTube</uicontrol> from the <uicontrol>Select source</uicontrol> drop-down list (<xref keyref="video_source/menu_group_4_6_3_png" type="fig"/>&#160;) and enter the URL into <uicontrol>Page URL</uicontrol> field to use a <xref scope="external" href="http://www.youtube.com">YouTube</xref> video as the broadcast source. The page address will be displayed in green after <wintitle>Dialog Nibelung</wintitle> decodes and validates it. If the entered address is invalid, it will be displayed in red.</p>
 		<fig id="menu_group_4_6_3_png">
             <title><menucascade><uicontrol>Media sources</uicontrol><uicontrol>Video</uicontrol></menucascade> control tab with <uicontrol>YouTube</uicontrol> video selected as source</title>
             <image href="img/menu_group_4_6_3.png" placement="break">
