@@ -4,15 +4,15 @@
 <concept id="self_training" xml:lang="en-US">
     <title>Self access</title>
     <conbody>
-		<p><indexterm>self access</indexterm><uicontrol><keyword>Self access</keyword></uicontrol> is a mode in which students perform self directed study in the classroom. The work individually, using either multimedia materials received from the teacher or files residing locally on their workstations. They can also record their voices from the headset microphone to compare with the samples.</p>
-        <p>Student modules will automatically open a media player window upon the teacher initiating <uicontrol>Self access</uicontrol> activity (<xref keyref="self_training/menu_group_3_1_png" type="fig"/>&#160;) .</p>
+		<p><indexterm>self access</indexterm><uicontrol><keyword>Self access</keyword></uicontrol> is a mode in which students study in the classroom on their own. They work individually, using either multimedia materials received from the teacher or files residing locally on their workstations. They can also record their voices from the headset microphone to compare with the samples.</p>
+		<p>Upon initiation of the <uicontrol>Self access</uicontrol> activity (<xref keyref="self_training/menu_group_3_1_png" type="fig"/>&#160;) student modules will automatically open a media player window.</p>
 		<fig id="menu_group_3_1_png">
             <title><uicontrol>Self access</uicontrol> activity control tab</title>
             <image href="img/menu_group_3_1.png" placement="break">
 			  <alt><uicontrol>Self access</uicontrol> activity control tab</alt>
             </image>
         </fig>
-	   <p>A set of files for a student self access assignments is called session files. You can add files to session files by pressing <uicontrol>Session files</uicontrol> button in the activity control tab (<xref keyref="self_training/menu_group_3_1_png" type="fig"/>&#160;). This will open the <wintitle>Session files</wintitle> window (<xref keyref="self_training/file_session_png" type="fig"/>&#160;).</p>
+	   <p><indexterm>session files</indexterm>A set of files for a student self access assignment is called session files. You can add files to session files by pressing <uicontrol>Session files</uicontrol> button in the activity control tab (<xref keyref="self_training/menu_group_3_1_png" type="fig"/>&#160;). This will open the <wintitle>Session files</wintitle> window (<xref keyref="self_training/file_session_png" type="fig"/>&#160;).</p>
 		<fig id="file_session_png">
 			<title><wintitle>Session files</wintitle> window</title>
             <image href="img/file_session.png" placement="break">
@@ -59,7 +59,7 @@
                     </row>
 					<row>
                         <entry>9</entry>
-                        <entry><uicontrol>Open teacher folder in Explorer</uicontrol> button</entry>
+                        <entry><uicontrol>Open teacher folder in file manager</uicontrol> button</entry>
                     </row>
 					<row>
                         <entry>10</entry>
@@ -84,37 +84,36 @@
                 </tbody>
             </tgroup>
         </table>
-	   <p><wintitle>Session files</wintitle> window has two panels.</p>
-	   <p>The top panel contains group and class switching tabs together with the list of session files for the class or current group.</p>
-		<p>The bottom panel displays contents of the teacher folder, from where you can add files to the session file list. File system navigation buttons are provided. You can also open the teacher folder in Windows Explorer</p>
-		<p>Select a file from the list and press <uicontrol>Preview</uicontrol> to view the file. You can also open a file by double clicking on it.</p>
-		<p>To add a file to the session files: first, select class or group tab; then select a file from the bottom panel, and press <uicontrol>Add to session file list</uicontrol> (6 in <xref keyref="self_training/file_session_png" type="fig"/>). Use the <uicontrol>+</uicontrol> button (13 in <xref keyref="self_training/file_session_png" type="fig"/>) to add file(s) to the teacher folder.</p>
-		<p>You can user the rest of the buttons to remove files from the session files, clear session file list, save and open the session file list.</p>
-		<p>A session file list will be sent to the student workstations. The actual files will be sent only when a student selects this file.</p>
-		<p>A teacher can also send files to the students bypassing the session file list. Press <uicontrol>Send file</uicontrol> button in the <uicontrol>Self access</uicontrol> activity control tab. Press <uicontrol>Browse</uicontrol> button in the appeared control area (<xref keyref="self_training/menu_group_3_1_2_png" type="fig"/>&#160;), select the file and press <uicontrol>Send</uicontrol>.</p>
+	   <p><wintitle>Session files</wintitle> window has two panels: <uicontrol>Session files</uicontrol> and <uicontrol>Teacher files</uicontrol>.</p>
+	   <p>The top panel (<uicontrol>Session files</uicontrol>) contains group and class switching tabs together with the list of session files for the class or current group.</p>
+	   <p>The bottom panel (<uicontrol>Teacher files</uicontrol>) displays contents of the teacher folder, from where you can add files to the session file list. File system navigation buttons are provided. You can also open the teacher folder in an external file manager.</p>
+		<p>Select a file from the list and press <uicontrol>Preview</uicontrol> to view the file. You can also open a file in an external application window by double clicking on it.</p>
+		<p>To add a file to the session files: select class or group tab; then select a file from the bottom panel, and press <uicontrol>Add to session file list</uicontrol> (6 in <xref keyref="self_training/file_session_png" type="fig"/>). Use the <uicontrol>+</uicontrol> button (13 in <xref keyref="self_training/file_session_png" type="fig"/>) to add file(s) to the teacher folder.</p>
+		<p>Other available buttons allow you to remove files from the session files, clear session file list, save and open session file list.</p>
+		<note type="tip">Session file list will be sent to the student workstations immediately. The actual files will be sent only when a student tries to access this particular file.</note>
+		<p>The teacher can also send files to the students bypassing the session file list. Press <uicontrol>Send file</uicontrol> button in the <uicontrol>Self access</uicontrol> activity control tab. Press <uicontrol>Browse</uicontrol> button in the <uicontrol>Send file</uicontrol> control area that will appear (<xref keyref="self_training/menu_group_3_1_2_png" type="fig"/>&#160;), select the file and press <uicontrol>Send</uicontrol>.</p>
 		<fig id="menu_group_3_1_2_png">
             <title><menucascade><uicontrol>Self access</uicontrol><uicontrol>Send file</uicontrol></menucascade> menu</title>
             <image href="img/menu_group_3_1_2.png" placement="break">
 			  <alt><menucascade><uicontrol>Self access</uicontrol><uicontrol>Send file</uicontrol></menucascade> menu</alt>
             </image>
         </fig>
-	   <p>File transfer progress bar will appear under the <uicontrol>Send</uicontrol> button. When the transfer is completed, the name of the file will appear in the student panel (see <xref keyref="description_main/icon_connect_png" type="fig"/>&#160;).</p>
-		<note type="important">Duration of a file transfer depends on the file size, number of students in the class, number of file recipients, overall network traffic, and several other factors.</note>
-		<p>Press the <uicontrol>Cancel</uicontrol> button to abort file transfer already in progress.</p>
+	   <p>File transfer progress bar will appear under the <uicontrol>Send</uicontrol> button. When the transfer is completed, name of the file will appear in the student panel (see <xref keyref="description_main/icon_connect_png" type="fig"/>&#160;).</p>
+		<note type="important">Duration of a file transfer depends on the file size, number of students in the class, number of file recipients, classroom network traffic, and several other factors.</note>
+		<p>Press the <uicontrol>Cancel</uicontrol> button to abort a file transfer already in progress.</p>
 		<p>If the file is an audio file in <b>WAV</b>, <b>MP3</b>, <b>WMA</b> or <b>NMF</b> (<wintitle>Dialog Nibelung</wintitle> native) formats, it will be opened in the student's media player. Other types of files will be opened using standard Windows file associations.</p>
-		<p>The teacher can collect student track (recording of the student's voice) or combined master track with student track. You can press <uicontrol>Collect recordings</uicontrol> to accomplish this.</p>
-		<p>The collect recording control area will appear (<xref keyref="self_training/menu_group_3_1_1_png" type="fig"/>&#160;) where you can select track type to collect from the students: master track, student track, combined master and student tracks, or everything from the student media player (master track, student track, assignment meta data, bookmarks, and subtitles in <wintitle>Dialog Nibelung</wintitle> format).</p>
+		<p>The teacher can collect just the student track (recording of the student's voice) or combination of master and student tracks. Press <uicontrol>Collect recordings</uicontrol> to accomplish this.</p>
+		<p><uicontrol>Collect recording</uicontrol> control area will appear in the tab (<xref keyref="self_training/menu_group_3_1_1_png" type="fig"/>&#160;) where you can select track type to collect from the students: <uicontrol>Master track</uicontrol>, <uicontrol>Student track</uicontrol>, <uicontrol>Combined</uicontrol> master and student tracks, or <uicontrol>Everything</uicontrol> (master track, student track, bookmarks,  subtitles, assignment meta data).</p>
 		<fig id="menu_group_3_1_1_png">
             <title><menucascade><uicontrol>Self access</uicontrol><uicontrol>Collect recordings</uicontrol></menucascade> menu</title>
             <image href="img/menu_group_3_1_1.png" placement="break">
 			  <alt><menucascade><uicontrol>Self access</uicontrol><uicontrol>Collect recordings</uicontrol></menucascade> menu</alt>
             </image>
         </fig>
-	   <p>Press <uicontrol>Collect</uicontrol> to start student recordings collection. Collected files will be either in <b>MP3</b> or <b>NMF</b> formats, the latter being used when collecting <uicontrol>Everything</uicontrol>, and will be saved in the teacher folder.</p>
+	   <p>Press <uicontrol>Collect</uicontrol> to start student recordings collection. Collected files will be either in <b>MP3</b> or <b>NMF</b> formats (the latter being used when collecting <uicontrol>Everything</uicontrol>) and will be saved in the teacher folder.</p>
 		<p>A progress bar will appear below the <uicontrol>Collect</uicontrol> button indicating recording collection progress.</p>
-		<note type="important">Speed of the recording collection will depend on the file size and number of students.</note>
+		<note type="important">Speed of the recording collection will depend on the file size and number of students in the class.</note>
 		<p>You can use <uicontrol>Cancel</uicontrol> button to abort recording collection already in progress.</p>
-		<p>You can use the <uicontrol>Open folder</uicontrol> button to review the recordings once their collection is finished.</p>
+		<p>Use the <uicontrol>Open folder</uicontrol> button to review the recordings once their collection is finished.</p>
 	</conbody>
 </concept>
-
