@@ -12,17 +12,17 @@
 			<alt><wintitle>Start a lesson</wintitle> window</alt>
             </image>
         </fig>
-        <p>In this window you can select course from the drop down list. You can also add new courses to the list or remove existing ones.</p>
-        <p>You can enter <uicontrol>Lesson topic</uicontrol> into the corresponding field Lesson topic will help identifying individual lessons later.</p>
+	   <p>In this window you can select a course from the drop down list. You can also add new courses to the list or remove existing ones using buttons to the right of the <uicontrol>Course</uicontrol> drop-down box.</p>
+        <p>You can enter <uicontrol>Lesson topic</uicontrol> into the corresponding field Lesson topic will help in identifying individual lessons later.</p>
 	   <p>Select an existing <uicontrol>Class</uicontrol> file from the list or <uicontrol>Create a new class</uicontrol>.</p>
-	   <p>You can change the expected <uicontrol>Lesson duration</uicontrol> time. You can also instruct <wintitle>Dialog Nibelung</wintitle> to issue a warning at a preset time before the lesson ends.</p>
+	   <p>You can change the expected <uicontrol>Lesson duration</uicontrol> time. You can also instruct <wintitle>Dialog Nibelung</wintitle> to issue a warning at a preset time before the end of the lesson.</p>
 		<note type="tip">Default value for <uicontrol>Lesson duration</uicontrol> can be set in the <wintitle>Teacher settings</wintitle> window (see <xref keyref="tutor_settings"/>&#160;).</note>
         <p>Press <uicontrol>OK</uicontrol> to start the lesson.</p>
-        <p>Once a lesson is in progress, lesson clock in the status line (<xref keyref="description_main/controls_main_png" type="fig"/>&#160;) will begin countdown, and a check mark will appear next to the <uicontrol>Start lesson</uicontrol> menu item.</p>
-	   <p><wintitle>Dialog Nibelung</wintitle> will automatically create an attendance record for the lesson based on the login information supplied by the students. Additionally, you can also perform a roll call registration (see <xref keyref="registration"/>&#160;).</p>
+        <p>Once a lesson is in progress, lesson clock in the status bar (<xref keyref="description_main/controls_main_png" type="fig"/>&#160;) will begin its countdown, and a check mark will appear next to the <uicontrol>Start lesson</uicontrol> menu item.</p>
+	   <p><wintitle>Dialog Nibelung</wintitle> will automatically create an attendance record for the lesson based on the registration information supplied by the students during previous lesson (based on the assumption that students sit at the same workstations). You can also perform roll call registration (see <xref keyref="registration"/>&#160;) to get a more accurate record.</p>
         <p>Students can be graded on their performance at the lesson by using the student menu (see <xref keyref="menu_single"/>&#160;).</p>
-		<note type="important">This menu allows for 5 preset grades with numerical value obtained by dividing the maximum score set in <wintitle>Teacher settings</wintitle> (see <xref keyref="tutor_settings"/>&#160;) into equal intervals. You can also enter the grade manually.</note>
-        <note type="tip">The teacher can edit the grades in the <wintitle>Lesson list</wintitle> (see <xref keyref="lessons_list"/>&#160;) window.</note>
+		<note type="important">This menu allows for 5 preset grades. Numerical values of the preset grades are obtained by dividing the maximum score set in <wintitle>Teacher settings</wintitle> (see <xref keyref="tutor_settings"/>&#160;) into equidistant steps. You can also enter the grade manually.</note>
+        <note type="tip">You can edit lesson grades in the <wintitle>Lesson list</wintitle> (see <xref keyref="lessons_list"/>&#160;) window.</note>
 	   <p>Whenever <uicontrol>Warn before the end</uicontrol> option was checked at the beginning of the lesson, <wintitle>Dialog Nibelung</wintitle> will show a warning on the student screens, and the lesson countdown clock in the teacher's status line will change its color to red.</p>
 	   <p>When lesson time is over, <wintitle>Dialog Nibelung</wintitle> will finish the lesson and prompt you to save the lesson record in the class log book (<xref keyref="current_lesson/end_lesson_remark_png" type="fig"/>&#160;). You can also enter some remarks for the lesson. These will be kept together with the lesson record.</p>
         <fig id="end_lesson_remark_png">
