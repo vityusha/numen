@@ -4,9 +4,9 @@
 <concept id="grades_statistics" xml:lang="en-US">
     <title>Performance statistics</title>
     <conbody>
-        <p>Select <menucascade><uicontrol>Logbook</uicontrol><uicontrol>Performance stats</uicontrol></menucascade> from the main menu to view student performance statistics.</p>
+        <p>Select <menucascade><uicontrol>Logbook</uicontrol><uicontrol>Performance</uicontrol></menucascade> from the main menu to view student performance records.</p>
 	   <p conkeyref="presents_statistics/filter_win" />
-	   <p>You can select <uicontrol>Statistics type</uicontrol>: <uicontrol>Summary</uicontrol> (<xref keyref="grades_statistics/grades_common_png" type="fig"/>&#160;) or <uicontrol>Detailed</uicontrol> (<xref keyref="grades_statistics/grades_full_png" type="fig"/>&#160;).</p>
+	   <p>You can select <uicontrol>Statistics type</uicontrol> between <uicontrol>Summary</uicontrol> (<xref keyref="grades_statistics/grades_common_png" type="fig"/>&#160;) and <uicontrol>Detailed</uicontrol> (<xref keyref="grades_statistics/grades_full_png" type="fig"/>&#160;).</p>
         <fig id="grades_common_png">
             <title>Summary of performance statistics</title>
             <image href="img/grades-common.png" placement="break">
@@ -117,7 +117,7 @@
                 </tbody>
             </tgroup>
         </table>
-	   <p>Summary statistics include list of students in the class; cumulative score, number of recorded grades, and average grade for each student for the specified dates. Detailed statistics include student list and individual grades for each student for the specified dates.</p>
+	   <p>Summary statistics include list of students in the class; cumulative score, number of recorded grades, and average grade for each student between specified dates. Detailed statistics include student list and individual grades for each student between specified dates.</p>
 	   <p>You can export attendance statistics into a file in HTML format. Press <uicontrol>Export to HTML</uicontrol> and enter file name. After export is completed you will be given an option to view the results in your default browser (<xref keyref="grades_statistics/grades_report_png" type="fig"/>&#160;).</p>
         <fig id="grades_report_png">
             <title>Performance report</title>
