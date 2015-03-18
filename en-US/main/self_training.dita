@@ -90,7 +90,9 @@
 		<p>Select a file from the list and press <uicontrol>Preview</uicontrol> to view the file. You can also open a file in an external application window by double clicking on it.</p>
 		<p>To add a file to the session files: select class or group tab; then select a file from the bottom panel, and press <uicontrol>Add to session file list</uicontrol> (6 in <xref keyref="self_training/file_session_png" type="fig"/>). Use the <uicontrol>+</uicontrol> button (13 in <xref keyref="self_training/file_session_png" type="fig"/>) to add file(s) to the teacher folder.</p>
 		<p>Other available buttons allow you to remove files from the session files, clear session file list, save and open session file list.</p>
-		<note type="tip">Session file list will be sent to the student workstations immediately. The actual files will be sent only when a student tries to access this particular file.</note>
+
+		<note type="tip">Session file list will be updated on the student workstations immediately after the teacher updates the list. The actual session files will be sent only when a student tries to access this particular file.</note>
+
 		<p>The teacher can also send files to the students bypassing the session file list. Press <uicontrol>Send file</uicontrol> button in the <uicontrol>Self access</uicontrol> activity control tab. Press <uicontrol>Browse</uicontrol> button in the <uicontrol>Send file</uicontrol> control area that will appear (<xref keyref="self_training/menu_group_3_1_2_png" type="fig"/>&#160;), select the file and press <uicontrol>Send</uicontrol>.</p>
 		<fig id="menu_group_3_1_2_png">
             <title><menucascade><uicontrol>Self access</uicontrol><uicontrol>Send file</uicontrol></menucascade> menu</title>
