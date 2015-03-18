@@ -4,7 +4,7 @@
 <concept id="internet" xml:lang="en-US">
     <title>Internet</title>
     <conbody>
-	    <p><indexterm>internet activity</indexterm><uicontrol>Internet</uicontrol> is a student activity mode in which they are viewing web pages in a browser remotely controlled from the teacher workstation.</p>
+	    <p><indexterm>internet activity</indexterm><uicontrol>Internet</uicontrol> is a student activity mode in which they are presented with web pages in a browser remotely controlled from the teacher workstation.</p>
 	    <p>Select <uicontrol>Internet</uicontrol> from the <uicontrol>Activity</uicontrol> menu (<xref keyref="internet/menu_group_3_5_png" type="fig"/>&#160;) and press <uicontrol>Start</uicontrol> button to activate this mode. At this point <wintitle>Microsoft Internet Explorer</wintitle> web browser will be launched on the student workstations, and the <uicontrol>Start</uicontrol> button will be replaced with the <uicontrol>Stop</uicontrol> button. Press <uicontrol>Stop</uicontrol> to exit the mode and close <wintitle>Microsoft Internet Explorer</wintitle> on the student workstations.</p>
 		<fig id="menu_group_3_5_png">
             <title><uicontrol>Internet</uicontrol> activity control tab</title>
@@ -65,12 +65,12 @@
 
         <p>Press <uicontrol>Send</uicontrol> button to send the URL in address field (7) to the student browsers.</p>
 
-        <p>Press <uicontrol>Follow</uicontrol> to make student browsers replicate the actions in your <wintitle>Browser control</wintitle> window.</p>
+        <p>Press <uicontrol>Follow</uicontrol> to force student browsers replicate actions in your <wintitle>Browser control</wintitle> window.</p>
 
-        <p><uicontrol>Start</uicontrol> button just duplicates the namesake button in the activity control tab.</p>
+        <p><uicontrol>Start</uicontrol> button duplicates the namesake button in the activity control tab.</p>
 
         <p>Window control buttons (8) allow you to minimize, maximize, and restore browser window on student workstations.</p>
 
-		<note type="attention">If web pages you are using in this activity contain flash animations, then <wintitle>Adobe Flash Player</wintitle> must be installed on all student workstations for this mode to function properly.</note>
+		<note type="attention">If web pages you are using in this activity contain flash animations, then <wintitle>Adobe Flash Player</wintitle> must be installed on all student workstations for this activity mode to function properly.</note>
 	</conbody>
 </concept>
