@@ -5,8 +5,8 @@
     <title>Student activities</title>
     <conbody>
 	    <p><wintitle>Dialog Nibelung</wintitle> provides you with the tools to assign, monitor and manage student activities in the classroom.</p>
-		<note type="tip">Please note that activities can be assigned only to groups of students.</note>
-		<p>Select the class or group tab (see <xref keyref="menu_group"/>&#160;) and press <uicontrol>Activity</uicontrol> to open up menu of student activities. (<xref keyref="students_tasks/menu_group_1_png" type="fig"/>&#160;):
+		<note type="tip">Classroom activities can only be assigned to groups of students.</note>
+		<p>Select a group tab (see <xref keyref="menu_group"/>&#160;) and press <uicontrol>Activity</uicontrol> to open up menu of student activities. (<xref keyref="students_tasks/menu_group_1_png" type="fig"/>&#160;):
 		<ul>
 				<li><uicontrol>None</uicontrol>;</li>
 				<li><uicontrol>Self access</uicontrol> (see <xref keyref="self_training"/>&#160;);</li>
@@ -23,7 +23,7 @@
 			  <alt>Group activity menu</alt>
             </image>
         </fig>
-	   <p>An activity control tab (<xref keyref="students_tasks/menu_group_tab_png" type="fig"/>&#160;) will appear upon selecting an item from the <uicontrol>Activities</uicontrol> menu and the selected item will get a check mark.</p>
+	   <p>An activity control tab (<xref keyref="students_tasks/menu_group_tab_png" type="fig"/>&#160;) will appear upon selecting an item from the <uicontrol>Activities</uicontrol> menu and the selected activity will receive a check mark.</p>
 		<fig id="menu_group_tab_png">
             <title>Current activities for a group</title>
             <image href="img/menu_group_tab.png" placement="break">
@@ -31,10 +31,10 @@
             </image>
         </fig>
 	   <p>Select <uicontrol>None</uicontrol> from the <uicontrol>Activities</uicontrol> to cancel all assigned activities.</p>
-		<p>All activity control tabs (except for <uicontrol>Self access</uicontrol>) also contain an elapsed time clock which starts upon activating the activity by pressing the <uicontrol>Start</uicontrol> button.</p>
+		<p>All activity control tabs (except for <uicontrol>Self access</uicontrol>) also contain an elapsed time clock which starts upon starting the activity with the <uicontrol>Start</uicontrol> button.</p>
 		<p>You can cancel an activity assignment by selecting a checked item from the <uicontrol>Activities</uicontrol> menu. Corresponding activity control tab will disappear.</p>
 		<note type="tip"><wintitle>Dialog Nibelung</wintitle> allows you to assign several activities to each group simultaneously.</note>
-		<p>A soon as the teacher assigns an activity (by pressing <uicontrol>Start</uicontrol> button in the activity control tab) the activity icon in the group or class tab becomes colored and is underlined in green.</p>
-		<note type="tip">Icon for the selected activity will be displayed in the group tab.</note>
+		<p>A soon as the teacher assigns an activity (by pressing <uicontrol>Start</uicontrol> button), activity icon at the top of the control tab becomes colored and underlined in green.</p>
+		<note type="tip">Icon for the selected activity will also be displayed in the group tab.</note>
 	</conbody>
 </concept>
