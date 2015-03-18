@@ -4,8 +4,8 @@
 <concept id="files_working" xml:lang="en-US">
     <title>Files</title>
     <conbody>
-		<p>In the <uicontrol>Files</uicontrol> activity the students are assigned to work with a specific file, which is sent from the teacher workstation. Results can be collected automatically as well.</p>
-		<p>On the student side the file will be opened with an associated application.</p>
+		<p>In the <uicontrol>Files</uicontrol> activity mode the students are assigned to work with a specific file, which is sent from the teacher workstation. Results can be collected automatically as well.</p>
+
 		<p>Press <uicontrol>Browse</uicontrol> button (<xref keyref="files_working/menu_group_3_7_png" type="fig"/>&#160;) and select a file to be sent to the students (<xref keyref="files_working/open_file_png" type="fig"/>&#160;).</p>
 		<fig id="menu_group_3_7_png">
             <title><uicontrol>Files</uicontrol> activity control tab</title>
@@ -28,10 +28,10 @@
 		</p>
 		<p>Press <uicontrol>Start</uicontrol> button to initiate file transfer. Transfer progress bar is immediately below that button.</p>
 		<note type="important">Transfer speed depends on the file size, number of recipients, and several other factors, and in general may take quite a long time.</note>
-		<p>The <uicontrol>Start</uicontrol> button will be replaced by <uicontrol>Stop</uicontrol> upon initiation of the file transfer  .</p>
-		<p>Press <uicontrol>Cancel</uicontrol> to abort transfer already in progress.</p>
+		<p><uicontrol>Start</uicontrol> button will be replaced by <uicontrol>Stop</uicontrol> upon initiation of the file transfer.</p>
+		<p>Press <uicontrol>Cancel</uicontrol> to abort a transfer already in progress.</p>
 		<p>The file will be opened with the associated application on the student workstation once transfer is complete.</p>
 		<p>Press <uicontrol>Stop</uicontrol> button to close the application which was used to open the file on student workstations. If the <uicontrol>Collect files</uicontrol> option was selected, files with results of the student work will be collected and saved in the teacher folder, e.g. <filepath>Jennifer Powell\Sessions\ENG101\2009-02-12\John Doe\...</filepath>.</p>
-		<note type="attention">Please note that students must save the file themselves before you close of the application.</note>
+		<note type="attention">Please note that students must save the file themselves before you close the application.</note>
 	</conbody>
 </concept>
