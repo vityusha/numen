@@ -5,7 +5,7 @@
     <title>Class statistics</title>
     <conbody>
         <p>Select <menucascade><uicontrol>Logbook</uicontrol><uicontrol>Class stats</uicontrol></menucascade> from the main menu to display class performance and attendance statistics.</p>
-        <p>A window will appear on your screen with a list of classes (<xref keyref="classes_statistics/classes_stat_png" type="fig"/>&#160;). You can select the course and time interval to filter classes included in the list. A list of classes with their respective statistical data will be displayed in the <wintitle>Class statistics</wintitle> panel. Statistical data includes number of lessons recorded,  attendance in per cent, and average grade for each class for the specified date interval.</p>
+        <p>A window will appear on your screen with a list of classes (<xref keyref="classes_statistics/classes_stat_png" type="fig"/>&#160;). You can select course and time interval to filter classes displayed in the list. A list of classes with their respective statistical data will be displayed in the <wintitle>Class statistics</wintitle> panel. Statistical data includes number of lessons recorded,  attendance percentage, and average grade for each class for the specified time interval.</p>
         <fig id="classes_stat_png">
 		   <title><wintitle>Class statistics</wintitle> window</title>
             <image href="img/classes-stat.png" placement="break">
@@ -57,7 +57,7 @@
                 </tbody>
             </tgroup>
         </table>
-	   <p>You can export attendance statistics into a file in HTML format. Press <uicontrol>Export to HTML</uicontrol> and enter file name. After export is completed you will be given an option to view the results in your default browser (<xref keyref="classes_statistics/classes_report_png" type="fig"/>&#160;).</p>
+	   <p>You can export class statistics report into a file in HTML format. Press <uicontrol>Export to HTML</uicontrol> and enter file name. After export is completed you will be given an option to view results in your default browser (<xref keyref="classes_statistics/classes_report_png" type="fig"/>&#160;).</p>
         <fig id="classes_report_png">
             <title>Class statistics report</title>
             <image href="img/classes-report.png" placement="break">
