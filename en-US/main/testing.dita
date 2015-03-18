@@ -5,21 +5,20 @@
     <title>Quiz</title>
     <conbody>
 	    <p><indexterm>quiz</indexterm><uicontrol>Quiz</uicontrol> is an activity for testing students' knowledge.</p>
-		<p>Only groups of students can be tested. </p>
+		<p>Only groups of students can be tested.</p>
 		<fig id="menu_group_3_8_png">
             <title><uicontrol>Quiz</uicontrol> activity control tab</title>
             <image href="img/menu_group_3_8.png" placement="break">
 			  <alt><uicontrol>Quiz</uicontrol> activity control tab</alt>
             </image>
         </fig>
-		<p>Use the <uicontrol>Browse</uicontrol> button to select a quiz file prepared in the Quiz Builder (see section <xref keyref="test_builder"/>&#160;).</p>
-		<p>Check the <uicontrol>Closed book</uicontrol> option if the quiz is to be performed under closed book conditions. In this case all other windows on the student workstation will be minimized and students will not be able to switch from the quiz window until they complete the test.</p>
-		<p>Press the <uicontrol>Start</uicontrol> to sent the quiz file to student workstations and launch the quiz module (see  <xref keyref="test_client"/>&#160;) on them.</p>
+	   <p>Use the <uicontrol>Browse</uicontrol> button to select a quiz file prepared in the <wintitle>Quiz Builder</wintitle> (see <xref keyref="test_builder"/>&#160;).</p>
+		<p>Check the <uicontrol>Closed book</uicontrol> option if the quiz is to be performed under closed book conditions. In this case all other windows on the student workstation will be minimized and students will not be able to leave the quiz window until they complete the test.</p>
+		<p>Press the <uicontrol>Start</uicontrol> to sent quiz file to the students and launch the quiz module on their workstations (see  <xref keyref="test_client"/>&#160;).</p>
 		<p>Transfer progress bar is below the <uicontrol>Start</uicontrol> button.</p>
 		<note type="important">Speed of file transfer depends on the file size, number of participating students, and several other factors, and in general may take some time.</note>
 		<p>Once the quiz has started, <uicontrol>Start</uicontrol> button will be replaced by the <uicontrol>Collect</uicontrol> button.</p>
-		<p>Press <uicontrol>Collect</uicontrol> button after the quiz has finished to initiate collecting completed quizzes from the student. The progress bar is below this button.</p>
+		<p>Press <uicontrol>Collect</uicontrol> button after the quiz has finished to initiate collection of completed quizzes from the students. The progress bar is below this button.</p>
 		<p>Once collection is finished, <uicontrol>Collect</uicontrol> button will be replaced by the <uicontrol>Start</uicontrol> button and <uicontrol>Show results</uicontrol> button becomes enabled. You can now press it to view results of the quiz (see <xref keyref="test_result"/>&#160;).</p>
 	</conbody>
 </concept>
-
