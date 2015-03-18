@@ -13,7 +13,7 @@
                 <tbody valign="top">
                     <row>
                         <entry>1</entry>
-                        <entry><uicontrol>Input</uicontrol> - allows the teacher to take control of student's keyboard and mouse;</entry>
+                        <entry><uicontrol>Input</uicontrol> - take control of student's keyboard and mouse;</entry>
                     </row>
 					<row>
                         <entry>2</entry>
@@ -21,7 +21,7 @@
                     </row>
 					<row>
                         <entry>3</entry>
-                        <entry><uicontrol>Scribble</uicontrol> - allows the teacher to quickly scribble notes on the screen (see section <uicontrol>Live screen</uicontrol> <xref keyref="transfer_screen"/> for further details);</entry>
+                        <entry><uicontrol>Scribble</uicontrol> - scribble notes on the screen (see section <uicontrol>Live screen</uicontrol> <xref keyref="transfer_screen"/> for further details);</entry>
                     </row>
 					<row>
                         <entry>4</entry>
@@ -72,7 +72,7 @@
                 </tbody>
             </tgroup>
         </table>
-		<p>Press <uicontrol>Close</uicontrol> button (10) at the bottom of the window to close it.</p>
+		<p>Press the <uicontrol>Close</uicontrol> button (10) at the bottom of the window to close it.</p>
 		<fig id="remote_control_png">
             <title><wintitle>Remote desktop</wintitle> window</title>
             <image href="img/remote_control.png" placement="break">
