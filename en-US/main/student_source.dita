@@ -4,7 +4,7 @@
 <concept id="student_source" xml:lang="en-US">
     <title>Student</title>
     <conbody>
-		<p>Select this menu item to use a student's microphone as the source of broadcast, allowing other student to hear him or her during any activity. Any student can be selected as the source, even one who is not affiliated with the current group.</p>
+		<p>Select this menu item to use a student's microphone as the source of broadcast, allowing other student to hear him or her during any activity. Any student can be selected as the source, even ones who are not affiliated with the current group.</p>
 		<p>The <uicontrol>Student</uicontrol> media source control tab (<xref keyref="student_source/menu_group_4_2_png" type="fig"/>&#160;) has a <uicontrol>Start</uicontrol> button, a drop-down list of students, and three additional options: <uicontrol>Record for students</uicontrol>, <uicontrol>Digitize</uicontrol> and <uicontrol>Listen</uicontrol> (these options are described in section <xref keyref="media_source"/>&#160;).</p>
 		<fig id="menu_group_4_2_png">
             <title><menucascade><uicontrol>Media sources</uicontrol><uicontrol>Student</uicontrol></menucascade> control tab</title>
@@ -14,11 +14,11 @@
         </fig>
 		<p>Immediately below the <uicontrol>Start</uicontrol> button there is a clock displaying time elapsed since the student has been selected as the source of broadcast.</p>
 		<note type="tip">You can digitize and save student's voice for future use.</note>
-		<note type="tip">Using <uicontrol>Student</uicontrol> from outside of the group as media source one can easily organize <indexterm>interpreting</indexterm><uicontrol><keyword>simultaneous interpreting</keyword></uicontrol> into several languages. Associate the interpreters with the same group, let's say, group <b>A</b>. This group listens to the speaker, who is using the teacher workstation. Each interpreter, in turn, is then selected as a source for another group of listeners. For example, in (<xref keyref="student_source/synchro_png" type="fig"/>&#160;) group <b>B</b> can listen to simultaneous interpretation of the speaker into Spanish, while group <b>C</b> can listen to the same in French.
+		<note type="tip">Using a <uicontrol>Student</uicontrol> from outside of the group as the media source one can easily organize <indexterm>interpreting</indexterm><uicontrol><keyword>simultaneous interpreting</keyword></uicontrol> into several languages. Associate the interpreters with the same group, e.g. group <b>A</b>. This group listens to the speaker. Each interpreter, in turn, is then selected as a source for another group of listeners. For example, in (<xref keyref="student_source/synchro_png" type="fig"/>&#160;) group <b>B</b> can listen to simultaneous interpretation of the speaker into Spanish, while group <b>C</b> can listen to the same in French.
 		<fig id="synchro_png">
-			<title>Simultaneous interpreting using <wintitle>Dialog Nibelung</wintitle></title>
+			<title>Simultaneous interpreting with <wintitle>Dialog Nibelung</wintitle></title>
             <image href="img/synchro.png" placement="break">
-			  <alt>Simultaneous interpreting  using <wintitle>Dialog Nibelung</wintitle></alt>
+			  <alt>Simultaneous interpreting with <wintitle>Dialog Nibelung</wintitle></alt>
             </image>
         </fig>
 		</note>
