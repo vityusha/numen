@@ -4,7 +4,7 @@
 <concept id="lessons_list" xml:lang="en-US">
     <title>Lesson list</title>
     <conbody>
-        <p>Select <menucascade><uicontrol>Logbook</uicontrol><uicontrol>Lesson list</uicontrol></menucascade> from the teacher module main menu to view a list of lessons.</p>
+        <p>Select <menucascade><uicontrol>Logbook</uicontrol><uicontrol>Lesson list</uicontrol></menucascade> from the teacher module main menu to view the list of lessons.</p>
 	   <p>A <wintitle>Lesson list</wintitle> window (<xref keyref="lessons_list/lessons_list_png" type="fig"/>&#160;) will appear on your screen. Lessons in the list can be filtered by course, class, and interval of dates by using controls in the <uicontrol>Lesson filter</uicontrol> panel. You can also edit lesson <uicontrol>Topic</uicontrol> and <uicontrol>Remarks</uicontrol> in the list by clicking on the corresponding fields.</p>
         <fig id="lessons_list_png">
 		   <title><wintitle>Lesson list</wintitle> window</title>
@@ -28,11 +28,11 @@
                     </row>
 					<row>
                         <entry>3</entry>
-                        <entry>Start date for lesson filtering</entry>
+                        <entry>Start date</entry>
                     </row>
 					<row>
                         <entry>4</entry>
-				    <entry>End date for lesson filtering</entry>
+				    <entry>End date</entry>
                     </row>
 					<row>
                         <entry>5</entry>
@@ -65,8 +65,8 @@
                 </tbody>
             </tgroup>
         </table>
-        <p>You can delete a selected lesson, or delete all lessons in the list using corresponding buttons (10 and 11).</p>
-        <p>Select a lesson and press <uicontrol>View</uicontrol> button to view details for this lesson (<xref keyref="lessons_list/lessons_details_png" type="fig"/>&#160;).</p>
+
+	   <p>Select a lesson and press <uicontrol>View</uicontrol> button to view details for this lesson (<xref keyref="lessons_list/lessons_details_png" type="fig"/>&#160;).</p>
         <fig id="lessons_details_png">
             <title>Lesson details</title>
             <image href="img/lesson-details.png" placement="break">
@@ -105,7 +105,7 @@
                     </row>
 					<row>
                         <entry>7</entry>
-                        <entry><uicontrol>Grade</uicontrol> field</entry>
+                        <entry><uicontrol>Grade _fixme_ [ui]</uicontrol> field</entry>
                     </row>
 					<row>
                         <entry>8</entry>
@@ -118,6 +118,6 @@
                 </tbody>
             </tgroup>
         </table>
-        <p>Lesson details (<xref keyref="lessons_list/lessons_details_png" type="fig"/>&#160;) contains attendance, grade, and remark records for individual students. You can edit these records by clicking on corresponding fields in the list.</p>
+        <p>Lesson details (<xref keyref="lessons_list/lessons_details_png" type="fig"/>&#160;) contains attendance, grade, and remarks for individual students. You can edit these records by clicking on the corresponding field in the list.</p>
 	</conbody>
 </concept>
