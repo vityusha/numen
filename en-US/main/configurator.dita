@@ -7,7 +7,7 @@
 	    <p>Select <uicontrol>Configure student modules</uicontrol> from the <uicontrol>Tools</uicontrol> menu to launch <wintitle>Nibelung Configurator</wintitle>.</p>
 		<p><indexterm>Configurator</indexterm><wintitle>Nibelung Configurator</wintitle> is a <wintitle>Dialog Nibelung</wintitle> application for remotely configuring student modules from the teacher workstation. It also allows you to change some additional settings of the teacher module.</p>
         <fig id="configurator_png">
-            <title><wintitle>Nibelung Configurator</wintitle> window _fixme_ [ui]</title>
+            <title><wintitle>Nibelung Configurator</wintitle> window</title>
             <image href="img/configurator.png" placement="break">
                 <alt><wintitle>Nibelung Configurator</wintitle> window</alt>
             </image>

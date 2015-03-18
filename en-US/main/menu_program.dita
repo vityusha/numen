@@ -128,15 +128,15 @@
                         <entry><image href="img/menu/viewlessons.png" placement="break" width="16" align="center" /></entry>
                     </row>
 					<row>
-						<entry><uicontrol>Performance _fixme_ [ui]</uicontrol> (see section <xref keyref="grades_statistics"/>&#160;)</entry>
+						<entry><uicontrol>Performance</uicontrol> (see section <xref keyref="grades_statistics"/>&#160;)</entry>
                         <entry><image href="img/menu/stat1.png" placement="break" width="16" align="center" /></entry>
                     </row>
 					<row>
-						<entry><uicontrol>Attendance _fixme_ [ui]</uicontrol> (see section <xref keyref="presents_statistics"/>&#160;)</entry>
+						<entry><uicontrol>Attendance</uicontrol> (see section <xref keyref="presents_statistics"/>&#160;)</entry>
                         <entry><image href="img/menu/stat2.png" placement="break" width="16" align="center" /></entry>
                     </row>
 					<row>
-						<entry><uicontrol>Class statistics _fixme_ [ui]</uicontrol> (see section <xref keyref="classes_statistics"/>&#160;)</entry>
+						<entry><uicontrol>Class statistics</uicontrol> (see section <xref keyref="classes_statistics"/>&#160;)</entry>
                         <entry><image href="img/menu/stat3.png" placement="break" width="16" align="center" /></entry>
                     </row>
                 </tbody>
