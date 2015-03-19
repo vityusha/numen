@@ -216,7 +216,7 @@
                 </thead>
                 <tbody>
                     <row>
-					<entry><uicontrol>Quiz builder _fixme_ [ui]</uicontrol> (see section <xref keyref="test_builder"/>&#160;)</entry>
+					<entry><uicontrol>Quiz builder</uicontrol> (see section <xref keyref="test_builder"/>&#160;)</entry>
                         <entry><image href="img/menu/quizbuilder.png" placement="break" width="16" align="center"/></entry>
                     </row>
 					<row>
