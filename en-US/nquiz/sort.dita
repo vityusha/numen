@@ -4,7 +4,7 @@
 <concept id="test_sort" xml:lang="en-US">
     <title>Ranking</title>
     <conbody>
-	    <p>Ranking type questions require students to rank items in the list according to a specified criteria.</p>
+	    <p>Ranking type questions require the students to rank items in the list according to a certain criteria.</p>
 	    <p>These types of question will be presented to the students as shown in <xref keyref="test_sort/view_ranking_png" type="fig"/>&#160;.</p>
 	    <fig id="view_ranking_png">
 		    <title><wintitle>Quiz Player</wintitle>: Ranking</title>
@@ -21,7 +21,7 @@
         </fig>
 	    <p>the <uicontrol>Answers</uicontrol> tab will contain a list of items on the left and <uicontrol>Add</uicontrol> and <uicontrol>Delete</uicontrol> button on the right. Use the buttons to add to or remove items from the list.</p>
         <p>Click on the fields in the <wintitle>Answer</wintitle> column to enter or edit the items.</p>
-        <note type="important">The order in which items appear on the list is the "correct" ranking against which this question will be scored.</note>
+        <note type="important">The order in which items appear on the list is the ranking order against which this question will be scored.</note>
 
    	</conbody>
 </concept>
