@@ -4,7 +4,7 @@
 <concept id="description_client" xml:lang="en-US">
     <title>Student module</title>
     <conbody>
-	    <p><indexterm>student module</indexterm><keyword>Student module</keyword> is a component of <wintitle>Dialog Nibelung</wintitle> that runs on the student workstations. Media player is at the core of the student module. The media player allows one to listen to audio, watch video, and record their own voice from microphone.</p>
+	    <p><indexterm>student module</indexterm><keyword>Student module</keyword> is a component of <wintitle>Dialog Nibelung</wintitle> that runs on the student workstations. Media player is at the core of the student module. The media player allows the students to listen to audio, watch video, and record their own voices from the microphone.</p>
         <p>Student module main window (<xref keyref="description_client/client_png" type="fig"/>&#160;) includes the following control elements:</p>
 		<table frame="topbot">
             <tgroup cols="2" >
@@ -13,7 +13,7 @@
                 <tbody valign="top">
                     <row>
                         <entry>1</entry>
-				    <entry>Media <uicontrol>Player</uicontrol> start button; whenever media player is active, player controls, master track and student track panels, and a playlist panel will also appear in the window (<xref keyref="media_player/client_player_png" type="fig"/>&#160;);</entry>
+				    <entry>Media <uicontrol>Player</uicontrol> start button; whenever the media player is active, player controls, master track and student track panels, and a playlist panel will also appear in the window (<xref keyref="media_player/client_player_png" type="fig"/>&#160;);</entry>
                     </row>
 					<row>
                         <entry>2</entry>
@@ -52,9 +52,9 @@
 			  <alt>Student module controls</alt>
             </image>
         </fig>
-	   <note type="attention">Please note that the <uicontrol>Disable loopback</uicontrol> button is not available in Windows Vista, Windows 7 and Windows 8.x.</note>
-	   <note type="attention">Please note that the <uicontrol>Player</uicontrol> button is only accessible when student module is running in a standalone mode, i.e. not in communication with the teacher module.</note>
-        <p>The students can sent teacher a message using <uicontrol>Message teacher</uicontrol> button and entering the message in a window that will appear on their screens (<xref keyref="description_client/message_png" type="fig"/>&#160;).</p>
+	   <note type="attention">Please note that the <uicontrol>Disable loopback</uicontrol> button is only available in Windows XP as support for this feature has been eliminated in subsequent versions of Windows.</note>
+	   <note type="attention">Please note that the <uicontrol>Player</uicontrol> button is only enabled when the student module is running in standalone mode, i.e. it is not in communication with the teacher module.</note>
+        <p>The students can sent teacher a message by pressing the <uicontrol>Message teacher</uicontrol> button and entering the message in a window that will appear on their screens (<xref keyref="description_client/message_png" type="fig"/>&#160;).</p>
         <fig id="message_png">
             <title>Sending a message to the teacher</title>
             <image href="img/message.png" placement="break">
