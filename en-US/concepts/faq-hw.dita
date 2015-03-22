@@ -12,15 +12,15 @@
         <p>We recommend a modern desktop or notebook computer with 1-2 GB of RAM or more and a dual core or more CPU for the teacher workstation. A more powerful computer is recommended if one or more of the following is required:
 		<ul>
 			   <li>more than 20 students in the class;</li>
-			   <li>class equipped with a wireless network;</li>
-			   <li>several video streams (particularly HD video) used as media sources simultaneously;</li>
-			   <li>video (particularly HD video) from external sources used as a media source;</li>
+			   <li>classroom equipped with a wireless network;</li>
+			   <li>several video streams (particularly HD video) are used as media sources simultaneously;</li>
+			   <li>video (particularly HD video) from external sources is used as a media source;</li>
 		</ul>
 		</p>
     </section>
 
     <section>
-        <title>What headsets can you recommend?</title>
+        <title>What type of headsets can you recommend?</title>
 	   <p>We recommend rugged circumaural (over-ear) noise isolating headsets with boom microphones, for example, Hamilton SchoolMate HA7M. VoIP headsets from recognized manufacturers (e.g. Plantronics, Jabra) also work quite well in language lab settings.</p>
     </section>
 
@@ -31,12 +31,12 @@
 
     <section>
         <title>What hardware is necessary for using an external video source as a media source?</title>
-	   <p>The teacher workstation has to be equipped with a video capture interface, either analog or digital, depending on the type of the video source.</p>
+	   <p>Teacher workstation has to be equipped with a video capture interface, either analog or digital, depending on the type of the video source.</p>
     </section>
 
     <section>
 	    <title>What operating systems does <wintitle>Dialog Nibelung</wintitle> support?</title>
-        <p><wintitle>Dialog Nibelung</wintitle> can run on any operating system where Microsoft .NET Framework 3.5 can be installed. For a complete list of supported operating systems, please see section <xref keyref="system_requirements"/>&#160;.
+        <p><wintitle>Dialog Nibelung</wintitle> can run on any operating system where Microsoft .NET Framework 3.5 can be installed. For a complete list of supported operating systems, please refer to section <xref keyref="system_requirements"/>.
         </p>
     </section>
 
