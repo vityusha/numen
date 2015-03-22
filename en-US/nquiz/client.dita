@@ -4,19 +4,19 @@
 <concept id="test_client" xml:lang="en-US">
     <title>Quiz Player</title>
     <conbody>
-	    <p><wintitle>Quiz Player</wintitle> is a software module that actually conducts the testing, i.e. displays questions to the students, records their answers, scores them, and transmits results to the teacher module.</p>
-	    <p product="nibelung">When a teacher assigns students a <uicontrol>Quiz</uicontrol> activity (see <xref keyref="testing"/>&#160;) <wintitle>Quiz Player</wintitle> will be launched on the workstations of the students affiliated with the group and a window with quiz introductory page will appear on their screens (<xref keyref="test_client/view_inst_png" type="fig"/>&#160;).</p>
+	    <p><wintitle>Quiz Player</wintitle> is a software module that conducts the test, i.e. displays questions to the students, records their answers, scores them, and submits the results to <wintitle>Dialog Nibelung</wintitle> teacher module.</p>
+	    <p product="nibelung">When teacher assigns a group of students a <uicontrol>Quiz</uicontrol> activity (see <xref keyref="testing"/>&#160;), <wintitle>Quiz Player</wintitle> will be launched on the workstations of the students affiliated with the group and a window with quiz introductory page will appear on their screens (<xref keyref="test_client/view_inst_png" type="fig"/>&#160;).</p>
 		<fig id="view_inst_png">
 			<title><wintitle>Quiz Player</wintitle> window displaying quiz introduction</title>
             <image href="img/view_inst.png" placement="break">
 			  <alt><wintitle>Quiz Player</wintitle> window displaying quiz introduction</alt>
             </image>
         </fig>
-        <p>Students must press the <uicontrol>Start</uicontrol> button to start the quiz. The first question will appear on their screens (<xref keyref="test_client/view_2_png" type="fig"/>&#160;).</p>
+        <p>Students should press the <uicontrol>Start</uicontrol> button to start the quiz. First question of the quiz will appear on their screens (<xref keyref="test_client/view_2_png" type="fig"/>&#160;).</p>
         <fig id="view_2_png">
-		   <title><wintitle>Quiz Player</wintitle> window displaying a question with set time limit</title>
+		   <title><wintitle>Quiz Player</wintitle> window displaying a question with a time limit</title>
             <image href="img/view_2.png" placement="break">
-			  <alt><wintitle>Quiz Player</wintitle> window displaying a question with set time limit</alt>
+			  <alt><wintitle>Quiz Player</wintitle> window displaying a question with a time limit</alt>
             </image>
         </fig>
 	   <p>Elements of the <wintitle>Quiz Player</wintitle> window displaying a question:</p>
@@ -75,7 +75,7 @@
                     </row>
                     <row>
                         <entry>13</entry>
-                        <entry>Record the answer and go to next question</entry>
+                        <entry>Record answer and go to the next question</entry>
                     </row>
                     <row>
                         <entry>14</entry>
@@ -84,8 +84,8 @@
                 </tbody>
             </tgroup>
         </table>
-        <p>Students' ability to navigate around the quiz depends on both the quiz and individual questions settings.</p>
-        <p>Whenever the quiz is enforcing strict sequence of questions (<xref keyref="test_builder"/>&#160;), only the <uicontrol>Answer</uicontrol> navigation button is enabled, which records the answer and proceeds on to the next question.</p>
+        <p>Students' ability to navigate around the quiz depends on both quiz and individual question settings.</p>
+        <p>Whenever the quiz is enforcing strict order of questions (<xref keyref="test_builder"/>&#160;), only the <uicontrol>Answer</uicontrol> navigation button is enabled, which records the answer and proceeds on to the next question.</p>
         <p>If the strict order is not enforced, students will be able to use <uicontrol>Previous</uicontrol> and <uicontrol>Next</uicontrol> buttons to navigate to the previous or next question or use the drop-down list (9) to jump to any question in the quiz.</p>
 	   <p>If quiz settings allow instant feedback, the students will be able to get question feedback by pressing the <uicontrol>Check</uicontrol> button. In this case <uicontrol>Check</uicontrol> will change into <uicontrol>Repeat</uicontrol> button that will allow students to make another attempt if they were wrong (<xref keyref="test_client/view_2_png" type="fig"/>&#160;).</p>
 	   <note type="tip">Instant feedback option greatly simplifies creation of learning assignments.</note>
@@ -97,9 +97,9 @@
         </fig>
 
 	   <p>Quiz title, quiz remaining time, and question title are displayed in the upper portion of the <wintitle>Quiz Player</wintitle> window. If the question has a time limit set, question remaining time will also be displayed in the upper right corner next to the quiz remaining time.</p>
-        <note type="important">Students will not be able to change their answers after the question time limit has elapsed. Moreover, whenever a question has a time limit, students will not be able to come back to this question later.</note>
-	   <p>Questions can have images, audio and video associated with them. If this is the case, <uicontrol>Play audio</uicontrol> and/or <uicontrol>Show video</uicontrol> buttons will appear in the question window (<xref keyref="test_client/view_2_png" type="fig"/>&#160;) that launch the media player. Images will be displayed automatically in the right portion of the <wintitle>Quiz Player</wintitle> window (e.g. the clock image with an exclamation point in <xref keyref="test_client/view_2_png" type="fig"/>).</p>
-        <p>If the question has the option for an oral answer, recording and playback buttons will appear in the lower left corner of the window (<xref keyref="test_client/view_1_png" type="fig"/>&#160;).</p>
+        <note type="important">Students will not be able to change their answers after the question time limit has elapsed. Moreover, if a question has a time limit set, students will not be able to return to this question later.</note>
+	   <p>Questions can have images, audio and video associated with them. If this is the case, <uicontrol>Play audio</uicontrol> and/or <uicontrol>Show video</uicontrol> buttons that launch the media player will appear in the question window (<xref keyref="test_client/view_2_png" type="fig"/>&#160;). Images will be displayed automatically in the right portion of the <wintitle>Quiz Player</wintitle> window (e.g. the clock image with an exclamation point in <xref keyref="test_client/view_2_png" type="fig"/>).</p>
+        <p>If the question has the option for an oral answer selected, recording and playback buttons will appear in the lower left corner of the window (<xref keyref="test_client/view_1_png" type="fig"/>&#160;).</p>
         <fig id="view_1_png">
 		   <title><wintitle>Quiz Player</wintitle> window with a <uicontrol>Single answer</uicontrol> question with audio and oral answer option</title>
             <image href="img/view_1.png" placement="break">
