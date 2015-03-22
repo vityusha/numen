@@ -102,7 +102,7 @@
                 <li>quiz time limit in minutes;</li>
 			 <li>enforce question order so that students can not go back and change their answers;</li>
                 <li>randomize question order;</li>
-                <li>allow the students to see their results after they complete the test;</li>
+			 <li>allow the students to see detailed results (individual questions) after they complete the test; otherwise, only the quiz summary will be shown (<xref keyref="test_client/view_sum_png" type="fig"/>);</li>
                 <li>provide instant feedback to students for correctness of their answers so they can make another attempt.</li>
             </ul>
         </p>
