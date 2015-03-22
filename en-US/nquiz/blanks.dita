@@ -4,7 +4,7 @@
 <concept id="test_blanks" xml:lang="en-US">
     <title>Fill in the blanks</title>
     <conbody>
-	    <p>A fill in the blanks is a type of question where students must fill in the blanks in given text. Multiple correct options may be specified for each blank. This question will receive full score when every blank was filled in with one of the correct options.</p>
+	    <p>Fill in the blanks is a type of question where students must fill in the blanks in a given text. Multiple correct options may be specified for each blank. This question will receive full score when every blank is filled in with one of the correct options.</p>
 	    <p>These types of question will be presented to the students as shown in <xref keyref="test_blanks/view_blank_png" type="fig"/>&#160;.</p>
 	    <fig id="view_blank_png">
 		    <title><wintitle>Quiz Player</wintitle>: Fill in the blanks</title>
