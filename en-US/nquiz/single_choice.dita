@@ -19,8 +19,8 @@
 			  <alt><wintitle>Quiz Builder</wintitle>: <uicontrol>Single answer</uicontrol></alt>
             </image>
         </fig>
-	    <p id="multichoice">For this type of questions the <uicontrol>Answers</uicontrol> panel in the <wintitle>Quiz Builder</wintitle> window will include a list of answer choices on the left and <uicontrol>Add</uicontrol> and <uicontrol>Delete</uicontrol> buttons on the right. Use these buttons to add or remove answer choices. A blank line will appear in the list upon pressing the <uicontrol>Add</uicontrol> button. Click on the <wintitle>Answers</wintitle> field in the line to enter answer text.</p>
-        <p>After entering all the choices, check a box next to the correct answer in the <wintitle>Correct answers</wintitle> column.</p>
+	    <p id="multichoice">For this type of questions the <uicontrol>Answers</uicontrol> panel in the <wintitle>Quiz Builder</wintitle> window will include a list of answer choices on the left and <uicontrol>Add</uicontrol> and <uicontrol>Delete</uicontrol> buttons on the right. Use these buttons to add or remove answer choices. A blank line will appear in the list upon pressing the <uicontrol>Add</uicontrol> button. Click on the <wintitle>Answers</wintitle> field to enter the answer text.</p>
+        <p>After entering all the choices, check the box next to the correct answer in the <wintitle>Correct answers</wintitle> column.</p>
 
    	</conbody>
 </concept>
