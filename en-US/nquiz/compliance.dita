@@ -4,7 +4,7 @@
 <concept id="test_compliance" xml:lang="en-US">
     <title>Relations</title>
     <conbody>
-	    <p>Relation type questions require students to match items from two lists to each other.</p>
+	    <p>Relation type questions require the students to match items from two lists to each other.</p>
 	    <p>These types of question will be presented to the students as shown in <xref keyref="test_compliance/view_relations_png" type="fig"/>&#160;.</p>
 	    <fig id="view_relations_png">
 		    <title><wintitle>Quiz Player</wintitle>: Relations</title>
