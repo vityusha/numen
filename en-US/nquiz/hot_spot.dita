@@ -4,7 +4,7 @@
 <concept id="test_hotspot" xml:lang="en-US">
     <title>Image hot spots</title>
     <conbody>
-	    <p>Image hot spots is a type of a visual question where students must click on an area of the image that corresponds to the correct answer (the hot spot). Several areas can be marked on the image, with several of them being correct ones. All those  areas must be picked out for the answer to be correct.</p>
+	    <p>Image hot spots is a type of visual question where students must click on an area of an image that corresponds to a correct answer (the hot spot). Several areas can be marked on the image, with several of them being the correct ones. All those  areas must be picked out for the answer to be considered correct.</p>
 		<p>These types of question will be presented to the students as shown in <xref keyref="test_hotspot/view_hotspot_png" type="fig"/>&#160;.</p>
 		    <fig id="view_hotspot_png">
 			    <title><wintitle>Quiz Player</wintitle>: Image hot spots</title>
