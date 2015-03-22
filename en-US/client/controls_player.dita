@@ -10,7 +10,7 @@
                 <alt>Media player controls</alt>
             </image>
         </fig>
-	   <p>Media player controls buttons with available keyboard shortcuts in parentheses (<xref keyref="controls_player/controls_png" type="fig"/>&#160;):</p>
+	   <p>Media player controls (<xref keyref="controls_player/controls_png" type="fig"/>&#160;) with available keyboard shortcuts in parentheses:</p>
 		<table frame="topbot">
             <tgroup cols="2">
                 <colspec colname="COLSPEC0" colwidth="10*"/>
@@ -42,7 +42,7 @@
                     </row>
 					<row>
                         <entry>7</entry>
-                        <entry><uicontrol>Repeat</uicontrol> (<uicontrol><shortcut>Ctrl+R</shortcut></uicontrol>) – repeat selected fragment in a loop. Click and drag the mouse pointer on the visualization of either track to select a fragment. Selected fragment will be marked by contrasting color.</entry>
+                        <entry><uicontrol>Repeat</uicontrol> (<uicontrol><shortcut>Ctrl+R</shortcut></uicontrol>) – repeat selected fragment in a loop. Click and drag the mouse pointer on the visualization of either master or student track to select a fragment. Selected fragment will be marked in contrasting color.</entry>
                     </row>
 					<row>
                         <entry>8</entry>
