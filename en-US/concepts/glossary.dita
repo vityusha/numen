@@ -12,13 +12,13 @@
 		</section>
 
 		<section>
-			<title>Teacher workstation IP address or network name</title>
-			<indexterm>IP address</indexterm>You will need it to properly set up student workstations (section <xref keyref="setup_client"/>&#160;). You will need to know either the numerical IP address (4 numbers separated by dots: <b>xxx.xxx.xxx.xxx</b>, e.g. <b>192.168.0.1</b>) or the network name of the computer running the teacher module.
+			<title>IP address</title>
+			<indexterm>IP address</indexterm>IP address is a unique numerical address assigned to each device connected to the network. It looks like 4 numbers, between 0 and 255 each, separated by dots, e.g. <b>192.168.0.1</b>. You will need the IP address or network name of the teacher workstation to properly set up student workstations (section <xref keyref="setup_client"/>&#160;).
 		</section>
 
 		<section>
 			<title>USB dongle</title>
-			<indexterm>USB dongle</indexterm>USB dongle is a copy protection device that also has the maximum number of student workstation for current installations embedded in it (section <xref keyref="install_main"/>&#160;).
+			<indexterm>USB dongle</indexterm>USB dongle is a copy protection device that also has the maximum number of student workstation for current installations embedded in it (section <xref keyref="install_main"/>&#160;). USB dongle must be plugged into the teacher workstation at any time it is running the <wintitle>Dialog Nibelung</wintitle> teacher module.
 		</section>
 
 		<section>
@@ -33,7 +33,7 @@
 
 		<section>
 			<title>Discussion</title>
-			<indexterm>discussion</indexterm>Discussion is a mode in which students practice conversations either in pairs or in a group (section <xref keyref="discussion"/>&#160;).
+			<indexterm>discussion</indexterm>Discussion is a classroom activity during which students have conversations either in pairs or in a group (section <xref keyref="discussion"/>&#160;).
 		</section>
 
         <section>
@@ -53,12 +53,12 @@
 
 		<section>
 			<title>Student module</title>
-			<indexterm>student module</indexterm>Student module is a software module running on the student workstations. It has a media player at its core and works under the control of the teacher module (section <xref keyref="description_client"/>&#160;).
+			<indexterm>student module</indexterm>Student module is a <wintitle>Dialog Nibelung</wintitle> software module running on the student workstations. It has a media player at its core and works under the control of the teacher module (section <xref keyref="description_client"/>&#160;).
 		</section>
 
 		<section>
 			<title>Teacher module</title>
-			<indexterm>teacher module</indexterm>Teacher module is a software module running on the teacher workstation. Teacher module performs many functions, including control over student modules, student monitoring, activities assignments, preparation of classroom multimedia materials, etc. (section <xref keyref="description_main"/>&#160;).
+			<indexterm>teacher module</indexterm>Teacher module is a <wintitle>Dialog Nibelung</wintitle> software module running on the teacher workstation. Teacher module performs many functions, including control over student modules, student monitoring, activities assignment, preparation of classroom multimedia materials, etc. (section <xref keyref="description_main"/>&#160;).
 		</section>
 
 		<section>
@@ -73,7 +73,7 @@
 
 		<section>
 			<title>Teacher folder</title>
-			<indexterm>teacher folders</indexterm>Teacher folder is a folder on permanent storage which is automatically created for every teacher upon creating an account for this teacher. Teacher folder is used for storing class files, multimedia teaching materials, quizzes, etc.
+			<indexterm>teacher folders</indexterm>Teacher folder is a folder on teacher workstation permanent storage which is automatically created for every teacher upon creating an account for this teacher. Teacher folder is used for storing class files, multimedia teaching materials, quizzes, etc.
 		</section>
 
 		<section>
@@ -83,22 +83,22 @@
 
         <section>
 			<title>Video</title>
-			Students can receive different kinds of audio materials over the classroom network: files, Youtube videos, external streams from video capture interfaces, web cams, etc. (section <xref keyref="video_source"/>&#160;).
+			Students can receive different kinds of video materials over the classroom network: files, Youtube videos, external streams from video capture interfaces, web cams, etc. (section <xref keyref="video_source"/>&#160;).
 		</section>
 
 		<section>
 			<title>Live screen</title>
-			<indexterm>live screen</indexterm>Live screen is a mode that allows the students to see a screen from teacher or another student workstation in real time (section <xref keyref="transfer_screen"/>&#160;).
+			<indexterm>live screen</indexterm>Live screen is a mode that allows the students to see in real time a screen from teacher or another student workstation (section <xref keyref="transfer_screen"/>&#160;).
 		</section>
 
 		<section>
 			<title>Scribble</title>
-			<indexterm>scribble</indexterm>Scribble is a mode that allows the teacher or a student to scribble notes on a white semitransparent layer on their screen and have them shown on another screen (section <xref keyref="transfer_screen"/>&#160;).
+			<indexterm>scribble</indexterm>Scribble is a mode that allows the teacher or a student to scribble notes on a white semitransparent layer on their screen and have them shown on another workstation (section <xref keyref="transfer_screen"/>&#160;).
 		</section>
 
 		<section>
 			<title>Listen</title>
-			<indexterm>listen mode</indexterm>In the listen mode the teacher can listen to a student, pair of students, or a group discussion (section <xref keyref="listen"/>&#160;).
+			<indexterm>listen mode</indexterm>Listen mode allows the teacher to listen to a student, a pair of students, or a group discussion (section <xref keyref="listen"/>&#160;).
 		</section>
 
 		<section>
@@ -108,7 +108,7 @@
 
 		<section>
 			<title>Roll call registration</title>
-			<indexterm>roll call registration</indexterm>Roll call registration is used to record student attendance at the start of a lesson (section <xref keyref="registration"/>&#160;).
+			<indexterm>roll call registration</indexterm>Roll call registration is used to record student attendance, typically at the beginning of a lesson (section <xref keyref="registration"/>&#160;).
 		</section>
 
 		<section>
@@ -133,7 +133,7 @@
 
 		<section>
 			<title>Power control</title>
-			<indexterm>power control</indexterm>Power control is a mode that allows the teacher to remotely shut down, reboot, put to standby, and power on student workstation (section <xref keyref="power_management"/>&#160;).
+			<indexterm>power control</indexterm>Power control is a mode that allows the teacher to remotely shut down, reboot, put to standby, and power on student workstations (section <xref keyref="power_management"/>&#160;).
 		</section>
 
 		<section>
