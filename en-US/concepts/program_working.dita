@@ -3,17 +3,17 @@
 "task.dtd">
 
 <task id="program_working" xml:lang="en-US">
-	<title>Recommended lesson workflow</title>
+	<title>Suggested lesson workflow</title>
 	<taskbody>
 		<steps>
 			<step>
-				<cmd>Turn on teacher and student workstations. Student workstation can be turned on remotely from the teacher workstation if they have been set up to do so (see <xref keyref="setup_net_vista"/>&#160;).</cmd>
+				<cmd>Turn on the teacher and student workstations. Student workstation can be turned on remotely from the teacher workstation if they have been set up to do so (see <xref keyref="setup_net_vista"/>&#160;).</cmd>
 			</step>
 			<step>
 				<cmd>Launch the teacher module and student modules if they have not been already launched upon Windows startup.</cmd>
 			</step>
 			<step>
-				<cmd>Login to your account in the teacher module. For a new teacher, log in as <userinput>Admin</userinput> and add a teacher account (section <xref keyref="choice_tutor"/>&#160;).</cmd>
+				<cmd>Log into your account in the teacher module. For a new teacher, log in as <userinput>Admin</userinput> and add a teacher account (section <xref keyref="choice_tutor"/>&#160;).</cmd>
 			</step>
 			<step>
 				<cmd>Open a class file. If this is a new class, select <menucascade><uicontrol>Class</uicontrol><uicontrol>New</uicontrol></menucascade> from the main menu, and enter number of students in the class and number of rows in the virtual classroom. You can also (re)arrange student seats manually and edit the class list. Save the class file on the teacher workstation (section <xref keyref="student_class"/>&#160;).</cmd>
@@ -25,13 +25,13 @@
 				<cmd>You can now arrange students into groups (section <xref keyref="union_in_group"/>&#160;) and assign them activities (section <xref keyref="students_tasks"/>&#160;).</cmd>
 			</step>
 			<step>
-				<cmd>The process of finishing a lesson depend on the types of the activities performed during the session. For example, after a self access activity it might be necessary to collect classroom assignments (section <xref keyref="self_training"/>&#160;).</cmd>
+				<cmd>Process of finishing a lesson depend on the types of activities performed during the session. For example, after a self access activity it might be necessary to collect classroom assignments (section <xref keyref="self_training"/>&#160;).</cmd>
 			</step>
 			<step>
 				<cmd>You can copy lesson materials between the teacher folder and removable media using standard <wintitle>Windows</wintitle> tools.</cmd>
 			</step>
 			<step>
-				<cmd>Student workstation can be shut down remotely from the teacher module (section <xref keyref="power_management"/>&#160;).</cmd>
+				<cmd>Student workstations can be shut down remotely from the teacher module (section <xref keyref="power_management"/>&#160;).</cmd>
 			</step>
 			<step>
 				<cmd>Exit the teacher module and shut down the teacher workstation (if necessary).</cmd>
