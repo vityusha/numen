@@ -22,12 +22,12 @@
 				<dd>
 					<ul>
 						<li>network switch does not support <b>IGMP v2</b>;</li>
-						<li>sound interface is mis-configured (see <xref keyref="setup_mic_vista"/>&#160;).</li>
+						<li>misconfigured sound interface (see <xref keyref="setup_mic_vista"/>&#160;).</li>
 					</ul>
 				</dd>
 			</dlentry>
 
-			<dlentry><dt>No recording in the student module player:</dt>
+			<dlentry><dt>No recording in the media player:</dt>
 				<dd>
 					<ul>
 						<li>check the headset connection;</li>
@@ -41,7 +41,7 @@
 					<ul>
 						<li>check network interface and <b>BIOS</b> settings (see <xref keyref="setup_pc"/>&#160;);</li>
 						<li>on some PCs <b>BIOS</b> does not support power on from the standby mode, only wake on LAN from the sleep mode;</li>
-						<li>student workstation must previously have been at least once in communication with the teacher module for it to record relevant <b>MAC</b> addresses and store them in a class file.</li>
+						<li>student workstation must have been previously at least once in communication with the teacher module (for it to learn the relevant <b>MAC</b> addresses).</li>
 					</ul>
 				</dd>
 			</dlentry>
@@ -57,12 +57,12 @@
 			<dlentry><dt>File transfer malfunction:</dt>
 				<dd>
 					<ul>
-						<li>check for presence and setup of any anti virus software.</li>
+						<li>check for presence and setup of any anti-virus software.</li>
 					</ul>
 				</dd>
 			</dlentry>
 
-			<dlentry><dt>Software becomes unresponsive when recording and playing back audio at the same time under <wintitle>Windows 7</wintitle>:</dt>
+			<dlentry><dt>Software becomes unresponsive when simultaneously recording and playing back audio under <wintitle>Windows 7</wintitle>:</dt>
 				<dd>
 					<ul>
 						<li>install <wintitle>KB841290</wintitle> update. See Microsoft Support for details: <xref scope="external" href="http://support.microsoft.com/kb/981679">http://support.microsoft.com/kb/981679</xref>.</li>
