@@ -4,9 +4,36 @@
 <concept id="subtitles_player" xml:lang="en-US">
     <title>Subtitles</title>
     <conbody>
-	    <p>An audio track can have <indexterm>subtitles</indexterm><keyword>subtitles</keyword> subtitles associated with it to help students understand the words spoken. During playback subtitles will be displayed in an overlay on the master track visualization (<xref keyref="subtitles_player/subtitle_text_png" type="fig"/>&#160;).</p>
-	    <note type="tip">If the subtitle text is too long to fit in the panel, it will appear scrolling.</note>
-	    <p>Select the <wintitle>Subtitles</wintitle> tab in the media player window (<xref keyref="subtitles_player/subtitle_list_png" type="fig"/>&#160;) to edit the subtitles. A list of subtitles will be displayed in the playlist panel. The first and second columns indicate subtitle display start and end time marks, third column displays the subtitle text. Subtitle <uicontrol>add</uicontrol> and <uicontrol>delete</uicontrol> buttons are on the right of the list.</p>
+	    <p>An audio track can have <indexterm>subtitles</indexterm><keyword>subtitles</keyword> associated with it to help students understand what was said. During playback subtitles will be displayed in an overlay on the master track visualization (<xref keyref="subtitles_player/subtitle_text_png" type="fig"/>&#160;).</p>
+	    <fig id="subtitle_text_png">
+		    <title>Subtitles display in the master track panel</title>
+		    <image href="img/subtitle_text.png" placement="break">
+			    <alt>Subtitles display in the master track panel</alt>
+		    </image>
+	    </fig>
+	    <p>Elements of the subtitle display:</p>
+	    <table frame="topbot">
+		    <tgroup cols="2">
+			    <colspec colname="COLSPEC0" colwidth="10*"/>
+			    <colspec colname="COLSPEC1" colwidth="120*"/>
+			    <tbody>
+				    <row>
+					    <entry>1</entry>
+					    <entry>Subtitle overlay</entry>
+				    </row>
+				    <row>
+					    <entry>2</entry>
+					    <entry>Playback position slider</entry>
+				    </row>
+				    <row>
+					    <entry>3</entry>
+					    <entry>Selected fragment</entry>
+				    </row>
+			    </tbody>
+		    </tgroup>
+	    </table>
+	    <note type="tip">If a subtitle text is too long to fit the panel, it will appear as scrolling line.</note>
+	    <p>Select the <wintitle>Subtitles</wintitle> tab in the media player window (<xref keyref="subtitles_player/subtitle_list_png" type="fig"/>&#160;) to edit the subtitles. A list of subtitles will be displayed in the playlist panel. The first and second columns indicate subtitle display start and end time, third column displays the subtitle text. Subtitle <uicontrol>add</uicontrol> and <uicontrol>delete</uicontrol> buttons are on the right of the list.</p>
 		<fig id="subtitle_list_png">
             <title>List of subtitles</title>
             <image href="img/subtitle_list.png" placement="break">
@@ -44,44 +71,17 @@
         </table>
 		<p>You can add a subtitle in one of the two ways:
 			<ul>
-				<li>Select a media file fragment by dragging mouse pointer (<xref keyref="subtitles_player/subtitle_text_png" type="fig"/>&#160;) and press the <uicontrol>Add</uicontrol> button or double click on an empty space in the subtitle list. Subtitle start and finish times will be set automatically to the boundaries of the selected fragment.</li>
-				<li>Position the slider to the where you want subtitle to start and press the <uicontrol>Add</uicontrol> button or double click on an empty space in the subtitle list. The new subtitle start time will be set to the slider position, while its end time will be set to 00:00.</li>
+				<li>Select a media file fragment by dragging the mouse pointer (<xref keyref="subtitles_player/subtitle_text_png" type="fig"/>&#160;) and press the <uicontrol>+</uicontrol> button or double click on an empty space in the subtitle list. Subtitle start and finish times will be set automatically to the boundaries of the selected fragment.</li>
+				<li>Position the slider to the where you want the subtitle to start and press the <uicontrol>+</uicontrol> button or double click on an empty space in the subtitle list. The new subtitle start time will be set to the slider position, while its end time will be set to 00:00.</li>
 			</ul>
 		</p>
 		<p>Enter the subtitle text into the list.</p>
-		<fig id="subtitle_text_png">
-			<title>Subtitles display in the master track panel</title>
-			<image href="img/subtitle_text.png" placement="break">
-				<alt>Subtitles display in the master track panel</alt>
-			</image>
-		</fig>
-		<p>Elements of the subtitle display:</p>
-		<table frame="topbot">
-            <tgroup cols="2">
-                <colspec colname="COLSPEC0" colwidth="10*"/>
-                <colspec colname="COLSPEC1" colwidth="120*"/>
-                <tbody>
-                    <row>
-                        <entry>1</entry>
-                        <entry>Subtitle overlay</entry>
-                    </row>
-					<row>
-                        <entry>2</entry>
-                        <entry>Playback position slider</entry>
-                    </row>
-					<row>
-                        <entry>3</entry>
-                        <entry>Selected fragment</entry>
-                    </row>
-                </tbody>
-            </tgroup>
-        </table>
         <note type="tip">Subtitle end time equal to <b>00:00</b> means that it will be displayed until the end of the track.</note>
 		<note type="important">If a new subtitle cuts into another subtitle display time that is marked as ending at <b>00:00</b> (end of the track), that other subtitle end time will be automatically adjusted to the start time of the new subtitle.</note>
 		<p>Select a subtitle in the list to edit the start time, end time and text fields.</p>
-        <note type="tip">Upon selection of a subtitle for editing, corresponding track fragment becomes selected in the master track panel (except for subtitles ending at <b>00:00</b>), and current playback k position will be also set to the start of the subtitle.</note>
+        <note type="tip">Upon selection of a subtitle for editing, corresponding track fragment becomes selected in the master track panel (except for subtitles ending at <b>00:00</b>), and current playback position will also be set to the start of the subtitle.</note>
 	   <p>Select a subtitle in the list and press the <uicontrol>Delete</uicontrol> button or <uicontrol><shortcut>Del</shortcut></uicontrol> on your keyboard to delete the subtitle.</p>
-		<note type="important">Subtitles start and end times should not overlap for correct subtitle display.</note>
+	   <note type="important">For correct display of the subtitles start and end times of different subtitles should not overlap.</note>
 		<note type="important">Subtitles can be reused whenever the media file is saved in a <wintitle>Dialog Nibelung</wintitle> <b>NMF</b> file.</note>
    	</conbody>
 </concept>
