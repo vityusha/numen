@@ -26,6 +26,6 @@
 			  <alt>Label editor</alt>
             </image>
         </fig>
-	   <p>Click on the image and drag the mouse pointer across to select an area, then click on the selection and type the label text inside the selected area. Press the white rectangle button at the bottom of the editor window to change opacity of the selected area. Click on the red <b>x</b> mark at the upper right corner of an area to delete the area.</p>
+	   <p>Click on the image and drag the mouse pointer to select an area, then click on the selection and type the label text inside the selected area. Press the button with the white rectangle at the bottom of the editor window to change opacity of the selected area. Click on the red <b>x</b> mark at the upper right corner of an area to delete the area.</p>
     </conbody>
 </concept>
