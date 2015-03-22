@@ -7,23 +7,23 @@
   <refbody>
 
     <section>
-        <title>What are default teacher login and password?</title>
+        <title>What is the default teacher login and password?</title>
         <p>Default teacher login name is <userinput>Admin</userinput>, password: <userinput>Admin</userinput>.</p>
     </section>
 
     <section>
         <title>Where can I find the license number, license key, etc?</title>
-	   <p>License number, license key and USB dongle are included in your <wintitle>Dialog Nibelung</wintitle> shipment together with the installation disk. License number is printed on the USB dongle.</p>
+	   <p>License number, license key and USB dongle are included in your <wintitle>Dialog Nibelung</wintitle> shipment together with the installation disk. The license number is printed on the USB dongle.</p>
     </section>
 
     <section>
         <title>Can you help us restoring the license number or license key?</title>
-        <p>Please contact your dealer or <wintitle>Dialog Nibelung</wintitle> customer service. Please have your organization name and license number ready. License number is printed on the USB dongle.</p>
+        <p>Contact your dealer or <wintitle>Dialog Nibelung</wintitle> customer service for the license key replacement. Please have your organization name and license number ready. License number is printed on the USB dongle.</p>
     </section>
 
     <section>
         <title>Can we have the USB dongle replaced?</title>
-        <p>We are sorry, it is not possible to replace a USB key as they are unique.</p>
+        <p>We are sorry, it is not possible to replace a USB dongle as they are unique.</p>
     </section>
 
     <section>
@@ -38,7 +38,7 @@
 
     <section>
 	    <title>How to set up <wintitle>Dialog Nibelung</wintitle> for a discussion with  students and a simultaneous broadcast of a media source?</title>
-        <p>Select the sound card as the media source (see <xref keyref="soundcard_source"/>&#160;) and enable <uicontrol>Stereo mixer</uicontrol>. However, with such setup students will hear their own voice echo if the teacher headset is connected to the same sound interface. There are two solutions for this problem:</p>
+        <p>Select the sound card as the media source (see <xref keyref="soundcard_source"/>&#160;) and enable <uicontrol>Stereo mixer</uicontrol>. However, with such setup students will hear echo of their own voices if the teacher headset is connected to the same sound interface. There are two solutions for this problem:</p>
         <ol>
             <li>Use two separate physical sound interfaces. Install the additional sound interface, connect it to the headset, and select this interface as the capture and playback device in the teacher module settings (see <xref keyref="setup_main"/>&#160;). Connect the output of the original sound interface to the input of the newly installed one.</li>
 		  <li>Use a virtual sound card, for example <wintitle>Virtual Audio Cable</wintitle> (<xref scope="external" href="http://www.ntonyx.com/vac.htm">http://www.ntonyx.com/vac.htm</xref>). Set the virtual sound card as the default Windows playback device and your physical sound interface as the default <wintitle>Dialog Nibelung</wintitle> capture and playback device.</li>
