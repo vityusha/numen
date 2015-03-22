@@ -32,7 +32,7 @@
                 </tbody>
             </tgroup>
         </table>
-	   <p><wintitle>Session files</wintitle> tab contains list of files received from the teacher module as a part of activity or assignment.</p>
+	   <p><wintitle>Session files</wintitle> tab contains a list of files received from the teacher module as a part of classroom activity or assignment.</p>
 	   <p>Each student can also have their own playlist, which is located in the <wintitle>My files</wintitle> tab. Whenever this tab is active, several additional controls appear in the panel:</p>
 		<table frame="topbot">
             <tgroup cols="2">
