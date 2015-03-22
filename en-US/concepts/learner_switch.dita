@@ -4,7 +4,7 @@
 <concept id="learner_switch" xml:lang="en-US">
     <title>Student interface</title>
     <conbody>
-        <p><indexterm>student interface</indexterm>Student interface is a device installed in the vicinity of the student workstation and connects student headset and workstation to the audio hub.</p>
+        <p><indexterm>student interface</indexterm>Student interface is a device installed in the vicinity of the student workstation that connects student workstation and headset to the audio hub.</p>
         <p>Connectors for the student workstation and two headsets are located on the rear panel of the student interface (<xref keyref="learner_switch/learner_png" type="fig"/>&#160;).</p>
 		<fig id="learner_png">
             <title>Student interface controls and connectors</title>
@@ -54,7 +54,7 @@
             </tgroup>
         </table>
 	   <p>The <wintitle>Call</wintitle> and <wintitle>Ring</wintitle> light are located on the top panel of the student interface.</p>
-        <note type="important">Line In of the student workstation sound card should be connected to the Line Out of the student interface and vice versa.</note>
-        <note type="tip">The cable connecting student interface to the audio hub should enter the student interface from the bottom and be connected to the circuit board before installation of the device. (?) _fixme_</note>
+	   <p>The <uicontrol>Call teacher</uicontrol> button operates just like the corresponding software button in the <wintitle>Dialog Nibelung</wintitle> student module.</p>
+	   <note type="important"><uicontrol>Line In</uicontrol> of the student workstation sound card should be connected to the <uicontrol>Line Out</uicontrol> of the student interface and vice versa.</note>
     </conbody>
 </concept>
