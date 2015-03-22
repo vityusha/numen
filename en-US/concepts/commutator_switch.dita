@@ -4,7 +4,7 @@
 <concept id="commutator_switch" xml:lang="en-US">
     <title>Audio hub overview</title>
     <conbody>
-        <p><indexterm>audio hub</indexterm>The audio hub facilitates high quality audio transmission in the classroom. It operates under the control of <wintitle>Dialog Nibelung</wintitle> via the classroom LAN.</p>
+        <p><indexterm>audio hub</indexterm>The audio hub facilitates high quality audio transmission in the classroom. It operates under the control of <wintitle>Dialog Nibelung</wintitle> teacher module, with which it communicates via the classroom LAN.</p>
 
 	   <p>The front panel of the audio hub contains the Power On/Off switch and three indicators (<xref keyref="commutator_switch/front_png" type="fig"/>&#160;) .</p>
 	   <fig id="front_png">
