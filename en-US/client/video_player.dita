@@ -4,20 +4,20 @@
 <concept id="video_player" xml:lang="en-US">
     <title>Video playback</title>
     <conbody>
-	    <p>During video playback and additional window will open, displaying the video (<xref keyref="video_player/client_video_png" type="fig"/>&#160;).</p>
+	    <p>An additional window displaying the video will open during video playback in the media player (<xref keyref="video_player/client_video_png" type="fig"/>&#160;).</p>
         <fig id="client_video_png">
-		   <title><wintitle>Video playback</wintitle> window</title>
+		   <title>Media player with the <wintitle>Video playback</wintitle> window</title>
             <image href="img/client-video.png" placement="break">
-			  <alt><wintitle>Video playback</wintitle> window</alt>
+			  <alt>Media player with the <wintitle>Video playback</wintitle> window</alt>
             </image>
         </fig>
-	   <p>Right click on the <wintitle>Video playback</wintitle> window and select a value from the pop-up menu (<xref keyref="video_player/client_video_menu_png" type="fig"/>&#160;) to resize the video. The window will be automatically resized to fit the video.</p>
+	   <p>Right click on the <wintitle>Video playback</wintitle> window and select a value from the pop-up menu to resize the video (<xref keyref="video_player/client_video_menu_png" type="fig"/>&#160;). The window will be automatically resized to fit the video.</p>
 		<fig id="client_video_menu_png">
             <title>Resizing video playback</title>
             <image href="img/client-video-menu.png" placement="break">
 			  <alt>Resizing video playback</alt>
             </image>
         </fig>
-        <p>Double click on the video playback window to reset video size back to 100%. A second double click will restore the size of the video to the value set via the pop-up menu.</p>
+        <p>Double click on the video playback window to reset video size back to 100%. A second double click will restore size of the video to the value set via the pop-up menu.</p>
 	</conbody>
 </concept>
