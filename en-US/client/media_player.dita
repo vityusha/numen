@@ -4,7 +4,7 @@
 <concept id="media_player" xml:lang="en-US">
     <title>Media player</title>
     <conbody>
-	    <p>The (<indexterm>media player</indexterm><keyword>media player</keyword>) can play back <b>WAV</b>, <b>MP3</b>, <b>WMA</b> and <b>NMF</b> (специальный формат <wintitle>Dialog Nibelung</wintitle> proprietary) files, as well as video files in many common formats.</p>
+	    <p>The (<indexterm>media player</indexterm><keyword>media player</keyword>) can play back <b>WAV</b>, <b>MP3</b>, <b>WMA</b> and <b>NMF</b> (<wintitle>Dialog Nibelung</wintitle> proprietary format) files, as well as video files in many common formats.</p>
         <note type="tip"><b>NMF</b> files are audio files containing master track and student track in <b>MP3</b> format, file description, bookmarks, and subtitles.</note>
         <p>Elements of the media player window (<xref keyref="media_player/client_player_png" type="fig"/>&#160;):</p>
 		<table frame="topbot">
