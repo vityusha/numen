@@ -4,7 +4,7 @@
 <concept id="test_builder" xml:lang="en-US">
     <title>Quiz Builder</title>
     <conbody>
-	    <p><wintitle>Quiz Builder</wintitle> (<xref keyref="test_builder/main_build_png" type="fig"/>&#160;) is a software module for creation of interactive tests consisting if different types of questions that may contain plain text, hypertext, audio and video media.</p>
+	    <p><wintitle>Quiz Builder</wintitle> (<xref keyref="test_builder/main_build_png" type="fig"/>&#160;) is a software module for creation of interactive multimedia tests consisting if different types of questions that may contain formatted text with hyperlinks, audio and video media.</p>
 		<fig id="main_build_png">
 			<title><wintitle>Quiz Builder</wintitle> window</title>
             <image href="img/main_build.png" placement="break">
@@ -88,7 +88,7 @@
                     </row>
 					<row>
                         <entry>2</entry>
-                        <entry><uicontrol>Quiz settings button</uicontrol></entry>
+				    <entry><uicontrol>Quiz settings</uicontrol> button</entry>
                     </row>
                 </tbody>
             </tgroup>
@@ -100,7 +100,7 @@
 			<li>quiz author;</li>
                 <li>maximum grade;</li>
                 <li>quiz time limit in minutes;</li>
-                <li>enforce the order of questions so that the students can not go back and change their answers;</li>
+			 <li>enforce question order so that students can not go back and change their answers;</li>
                 <li>randomize question order;</li>
                 <li>allow the students to see their results after they complete the test;</li>
                 <li>provide instant feedback to students for correctness of their answers so they can make another attempt.</li>
@@ -112,7 +112,8 @@
 			  <alt><wintitle>Quiz settings</wintitle> window</alt>
             </image>
         </fig>
-	   <note type="important">Whenever <uicontrol>Enforce question order</uicontrol> option is selected, the students must answer to every question in order they are presented. They will not be able to go back and correct their answers (<uicontrol>Previous</uicontrol> button in the <wintitle>Quiz Player</wintitle> will be disabled). This option may be useful, for example, when subsequent questions contain answers to the previous questions of the quiz.</note>
+	   <note type="important">Whenever <uicontrol>Enforce question order</uicontrol> option is selected, the students must answer to every question in exact order the questions are presented. They will not be able to go back and correct their answers (<uicontrol>Previous</uicontrol> button in the <wintitle>Quiz Player</wintitle> will be disabled).</note>
+	   <note type="tip"><uicontrol>Enforce question order</uicontrol> option may be useful, for example, when subsequent questions contain answers to the previous questions of the quiz.</note>
         <p>Press the <uicontrol>Grading scale</uicontrol> button to open a window (<xref keyref="test_builder/criterion_png" type="fig"/>&#160;) where you can set the grades corresponding to different raw percentage scores on the quiz. Double click on a grade to change its presentation (e.g. alphabetical from numerical).</p>
         <fig id="criterion_png">
 		   <title><wintitle>Grading scale</wintitle> window</title>
@@ -167,7 +168,7 @@
                 </tbody>
             </tgroup>
         </table>
-        <note type="tip">The quiz introduction editor is a simple visual <b>HTML</b> page editor equipped with common text formatting functions and is capable of handling hyperlinks, images, tables, etc.</note>
+        <note type="tip">The quiz introduction editor is a simple visual <b>HTML</b> editor equipped with common text formatting functions and capable of handling hyperlinks, images, tables, etc.</note>
 	   <p>Press the <uicontrol>Show</uicontrol> button located in the <wintitle>Quiz introduction</wintitle> field (<xref keyref="test_builder/param_test_png" type="fig"/>&#160;) to preview the introduction text as it will appear on student screens.</p>
 	   <p><uicontrol>Question list</uicontrol> panel is located on the left of the <wintitle>Quiz Builder</wintitle> window (<xref keyref="test_builder/list_instruc_png" type="fig"/>&#160;).</p>
         <fig id="list_instruc_png">
@@ -176,13 +177,14 @@
 			  <alt><uicontrol>Question list</uicontrol> panel</alt>
             </image>
         </fig>
-	   <note type="important">The panel lists questions in the order as they will appear in the quiz.</note>
-        <p>This list is used for organizing sequence of questions in the quiz as well as  quick access to editing a particular question.</p>
-        <p>Pres <uicontrol>Add</uicontrol> button to add a question to the quiz.</p>
+	   <note type="important">Questions appear in the list in the same order as they will appear in the quiz.</note>
+        <p>This list is used for organizing the order of questions in the quiz as well as  quick access to editing a particular question.</p>
+        <p>Press <uicontrol>Add</uicontrol> button to add a question to the quiz.</p>
         <p>Press <uicontrol>Delete</uicontrol> button to remove a question from the quiz.</p>
-        <p>Use <uicontrol>Up</uicontrol> and <uicontrol>Down</uicontrol> buttons to reorder the questions.</p>
+        <p>Select a question and press <uicontrol>Up</uicontrol> and <uicontrol>Down</uicontrol> buttons to reorder the questions.</p>
 	   <p>A simple HTML editor is provided in the question edit panel similar to the quiz introduction editor (<xref keyref="test_builder/edit_instruc_png" type="fig"/>&#160;). The editor is equipped with common text formatting functions and is capable of handling hyperlinks, images, tables, etc.</p>
-	   <p><wintitle>Quiz Builder</wintitle> allows you to insert images, audio, and video into quiz questions. Use corresponding tabs on the <uicontrol>Multimedia</uicontrol> panel: <uicontrol>Image</uicontrol> (<xref keyref="test_builder/media_pic_png" type="fig"/>&#160;), <uicontrol>Audio</uicontrol> (<xref keyref="test_builder/media_audio_png" type="fig"/>&#160;), and <uicontrol>Video</uicontrol> (<xref keyref="test_builder/media_video_png" type="fig"/>&#160;).</p>
+
+	   <p><wintitle>Quiz Builder</wintitle> allows you to insert images, audio, and video into the quiz questions by using corresponding tabs on the <uicontrol>Multimedia</uicontrol> panel: <uicontrol>Image</uicontrol> (<xref keyref="test_builder/media_pic_png" type="fig"/>&#160;), <uicontrol>Audio</uicontrol> (<xref keyref="test_builder/media_audio_png" type="fig"/>&#160;), and <uicontrol>Video</uicontrol> (<xref keyref="test_builder/media_video_png" type="fig"/>&#160;).</p>
         <fig id="media_pic_png">
             <title>Inserting image</title>
             <image href="img/media_pic.png" placement="break">
@@ -201,17 +203,17 @@
 			  <alt>Inserting video</alt>
             </image>
         </fig>
-	   <p>Each <uicontrol>Multimedia</uicontrol> panel tabs has <uicontrol>File</uicontrol> and <uicontrol>Link</uicontrol> check radio buttons with their entry fields, as well as <uicontrol>Browse</uicontrol> and <uicontrol>Check</uicontrol> buttons.</p>
+	   <p>Each of these tabs has <uicontrol>File</uicontrol> and <uicontrol>Link</uicontrol> radio buttons with their associated entry fields, as well as <uicontrol>Browse</uicontrol> and <uicontrol>Check</uicontrol> buttons.</p>
 	   <p>An image, an audio, or a video can be inserted either as a file or a hypertext link reference.</p>
 	   <p>Check the <uicontrol>File</uicontrol> box and press <uicontrol>Browse</uicontrol> button to select a file, or enter the file name manually into the field to insert a file.</p>
-        <p>Check the <uicontrol>Link</uicontrol> box and enter the link URL onto the box to insert a hypertext link. You can validate the URL by pressing <uicontrol>Check</uicontrol> button.</p>
-        <note type="important">By using hypertext links instead of files you can drastically reduce quiz file size. Hypertext links allow you to use any resource available on the local network or the Internet. Please note that students must be able to access the Internet when taking such quiz (see <xref keyref="disable_internet"/>&#160;).</note>
+        <p>Check the <uicontrol>Link</uicontrol> box and enter the link URL onto the box to insert a hypertext link. You can validate the URL by pressing the <uicontrol>Check</uicontrol> button.</p>
+        <note type="tip">By using hypertext links instead of files you can drastically reduce quiz file size. Hypertext links allow you to use any resource available on the local network or the Internet. Please note that students must be able to access the Internet when taking a quiz that uses links to the Internet (see <xref keyref="disable_internet"/>&#160;).</note>
 	   <p>A thumbnail image of the inserted graphics will be displayed on the right hand side of the <uicontrol>Multimedia</uicontrol> panel (<xref keyref="test_builder/media_pic_png" type="fig"/>&#160;). For audio and video, a playback button will appear in the same place (<xref keyref="test_builder/media_audio_png" type="fig"/> and <xref keyref="test_builder/media_video_png" type="fig"/>&#160;).</p>
         <p>You can specify the following parameters for each question individually in the question settings panel (<xref keyref="test_builder/param_quiz_png" type="fig"/>&#160;):
             <ul>
                 <li>question title;</li>
                 <li>optional time limit in seconds (can not exceed total limit for the quiz (see <xref keyref="test_builder/param_test_png" type="fig"/>);</li>
-                <li>question weight for overall quiz score;</li>
+                <li>question weight in the overall quiz score;</li>
                 <li>option for an oral answer (recorded from the student microphone).</li>
             </ul>
         </p>
@@ -221,7 +223,7 @@
 			  <alt>Question settings panel</alt>
             </image>
         </fig>
-	   <note type="important">Whenever <uicontrol>Time limit</uicontrol> option is selected, <uicontrol>Set equal time limit for all questions</uicontrol> button in the settings panel (1 on <xref keyref="test_builder/param_quiz_png" type="fig"/>&#160;) becomes enabled. Press this button to set equal time limits for all question in the quiz.</note>
+	   <note type="tip">Whenever <uicontrol>Time limit</uicontrol> option is selected, <uicontrol>Set equal time limit for all questions</uicontrol> button in the settings panel (1 on <xref keyref="test_builder/param_quiz_png" type="fig"/>&#160;) becomes enabled. Press this button to set equal time limits for all question in the quiz.</note>
 	   <note type="attention">Please note that if <uicontrol>Time limit</uicontrol> option was set for the whole quiz (<xref keyref="test_builder/param_test_png" type="fig"/>&#160;), then individual question time limits will have no effect.</note>
         <p>You can use several types of question on the quiz:
             <ul>
@@ -233,10 +235,10 @@
                 <li>image hot spots;</li>
                 <li>drag and drop labels;</li>
                 <li>open question;</li>
-                <li>dummy question (does not require students to give an answer and can be used to convey some information).</li>
+                <li>dummy question (does not require students to give an answer and can be used to convey to them some information).</li>
             </ul>
         </p>
 	   <p>All types of questions will be scored on an all-or-nothing basis, i.e. the question will receive a full score only when a correct and complete answer is provided. Partially correct answers will score zero.</p>
-	   <p>The look and feel of the <uicontrol>Answers</uicontrol> panel will depend on selected type of the question.</p>
+	   <p>The look and feel of the <uicontrol>Answers</uicontrol> panel depends on the selected type of the question and is described in the following sections.</p>
    	</conbody>
 </concept>
