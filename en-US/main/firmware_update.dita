@@ -5,8 +5,8 @@
     <title>Software updates</title>
     <conbody>
 	    <p>Select <menucascade><uicontrol>Help</uicontrol><uicontrol>Check for updates</uicontrol></menucascade> from the teacher module main menu to check for available <wintitle>Dialog Nibelung</wintitle> software updates.</p>
-		<note type="attention">Teacher workstation must have access to the Internet in order to check for available software updates.</note>
-        <p>When a new version of the software is available for download, a window will appear on your screen informing you on the version of the update and a list of new features an bug fixes in it (<xref keyref="firmware_update/update_exist_png" type="fig"/>&#160;).</p>
+		<note type="attention">The teacher workstation must have Internet access in order to be able to check for available software updates.</note>
+        <p>When a new version of the software is available for download, a window will appear on your screen informing you on the version of the update and showing a list of new features an bug fixes in it (<xref keyref="firmware_update/update_exist_png" type="fig"/>&#160;).</p>
         <fig id="update_exist_png">
 		   <title><wintitle>Software update available</wintitle> window</title>
             <image href="img/update-exist.png" placement="break">
@@ -20,7 +20,7 @@
 			  <alt>Software update download in progress</alt>
             </image>
         </fig>
-	   <p>After update has finished downloading, the <uicontrol>Install</uicontrol> button becomes enabled. Press this button to update the teacher module. After teacher module has been successfully updated, you can update student modules by selecting <menucascade><uicontrol>Help</uicontrol><uicontrol>Update student modules</uicontrol></menucascade> from the menu.</p>
+	   <p><uicontrol>Install</uicontrol> button in this window becomes enabled after update has been downloaded. Press this button to update the teacher module. After teacher module has been successfully updated, you can update student modules by selecting <menucascade><uicontrol>Help</uicontrol><uicontrol>Update student modules</uicontrol></menucascade> from the menu.</p>
         <p>Because student workstation may have to be rebooted during the update process, you will need to confirm your intention to proceed with the update of student modules (<xref keyref="firmware_update/update_clients_png" type="fig"/>&#160;).</p>
         <fig id="update_clients_png">
             <title>Student modules update confirmation</title>
