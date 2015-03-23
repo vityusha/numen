@@ -7,18 +7,18 @@
         <p>You can set <indexterm>bookmarks</indexterm><keyword>bookmarks</keyword> on the master track for easy access to certain playback positions.</p>
 	<p>Use the <uicontrol>Set</uicontrol> button to set up to 9 bookmarks per file. Each bookmark will be set at the current playback position. A new bookmark will get the first available number and the corresponding number button will become available. Press that button to instantly jump the playback to the bookmark position. Press  <uicontrol>Remove</uicontrol> button, followed by a number button to remove the bookmark.</p>
 	<note type="attention">Please note that only those number buttons that correspond to  set up bookmarks are enabled in the player.</note>
-        <p>You can also assign a comment to a bookmark. Press <uicontrol><shortcut>Ctrl</shortcut></uicontrol> on your keyboard and click on the bookmark number button to enter the comment.</p>
+        <p>You can also assign a name to a bookmark. Press <uicontrol><shortcut>Ctrl</shortcut></uicontrol> on your keyboard and click on the bookmark number button to enter the name.</p>
         <fig id="bookmark-comment_png">
-            <title>Editing a bookmark comment</title>
+            <title>Editing a bookmark name</title>
             <image href="img/bookmark-comment.png" placement="break">
-			  <alt>Editing a bookmark comment</alt>
+			  <alt>Editing a bookmark name</alt>
             </image>
         </fig>
-        <p>Hover the mouse pointer over a bookmark number button and the bookmark position and comment will be displayed in a floating panel.</p>
+        <p>Hover the mouse pointer over a bookmark number button and the bookmark position and name will be displayed in a floating panel.</p>
         <fig id="bookmark-tooltip_png">
-            <title>Bookmark position and comment display</title>
+            <title>Bookmark position and name display</title>
             <image href="img/bookmark-tooltip.png" placement="break">
-			  <alt>Bookmark position and comment display</alt>
+			  <alt>Bookmark position and name display</alt>
             </image>
         </fig>
    	</conbody>

@@ -68,7 +68,7 @@
 		<note type="important">Audio visualization and playback speed adjustment are not available during video playback.</note>
 		<p>Use the edit button (10 in <xref keyref="tracks_player/track_client_png" type="fig"/>&#160;) to edit description of the current file or assignment (<xref keyref="tracks_player/nmf_desc_png" type="fig"/>&#160;). The description will be saved along with audio/video data when the file is saved in <b>NMF</b> format. This description will be displayed in place of the file name in the master/student tracks panel title bar.</p>
         <fig id="nmf_desc_png">
-		   <title><wintitle>Edit file description _fixme_ [ui]</wintitle> window</title>
+		   <title><wintitle>Edit file description</wintitle> window</title>
             <image href="img/nmf_desc.png" placement="break">
 			  <alt><wintitle>Edit file description</wintitle> window</alt>
             </image>
