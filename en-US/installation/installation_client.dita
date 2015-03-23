@@ -14,7 +14,7 @@
 				  If the autorun window has not appeared, then you will have to launch <filepath>setup-nibelungclient.exe</filepath> from the installation disk manually.</cmd>
             </step>
             <step>
-			  <cmd><wintitle>Dialog Nibelung Setup</wintitle> wizard window will appear on your screen (<xref keyref="install_client/install_c1_png" type="fig"/>&#160;). Press the <uicontrol>Next</uicontrol> button.</cmd>
+			  <cmd><wintitle>Dialog Nibelung student module Setup</wintitle> wizard window will appear on your screen (<xref keyref="install_client/install_c1_png" type="fig"/>&#160;). Press the <uicontrol>Next</uicontrol> button.</cmd>
                 <info>
                     <p><fig id="install_c1_png">
 						<title>Student module <wintitle>Setup Wizard</wintitle> window</title>

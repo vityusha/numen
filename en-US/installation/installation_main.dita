@@ -79,12 +79,12 @@
                 </info>
             </step>
             <step>
-			  <cmd>After selecting installation type and pressing the <uicontrol>Next</uicontrol> button, you should see the <wintitle>Destination folder</wintitle> window (<xref keyref="install_main/install_m6_png" type="fig"/>&#160;) on your screen.
+			  <cmd>After selecting installation type and pressing the <uicontrol>Next</uicontrol> button, you should see the <wintitle>Destination Folder</wintitle> window (<xref keyref="install_main/install_m6_png" type="fig"/>&#160;) on your screen.
                 </cmd>
                 <info>
                     <note type="tip">Default destination path is <filepath>C:\Program Files\LAIN\Nibelung</filepath>.</note>
                     <p><fig id="install_m6_png">
-						<title>Teacher module <wintitle>Destination folder</wintitle> window</title>
+						<title>Teacher module <wintitle>Destination Folder</wintitle> window</title>
                         <image href="img/install_m6.png" placement="break">
                             <alt>Teacher module Destination Folder window</alt>
                         </image>
