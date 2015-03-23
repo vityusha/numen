@@ -13,6 +13,6 @@
         </fig>
 	   <p>Click on the student panel to dismiss the message and start a conversation with the student (see section <xref keyref="dialog"/>&#160;).</p>
 
-        <p>Double click on the student panel to open a messaging window (<xref keyref="message/message_class_png" type="fig"/>&#160;) addressed to the student where you can inquire about the nature of the problem.</p>
+        <p>Double click on the pop-up message to open a messaging window (<xref keyref="message/message_class_png" type="fig"/>&#160;) addressed to the student where you can inquire about the nature of the problem.</p>
 	</conbody>
 </concept>
