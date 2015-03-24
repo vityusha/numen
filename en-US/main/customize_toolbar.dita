@@ -82,7 +82,7 @@
 				<li>Exit <wintitle>Dialog Nibelung</wintitle>.</li>
 			</ul>
 		</p>
-		<p>Select an item from the list of <uicontrol>Available actions</uicontrol> on the left and press the <uicontrol>Move action to selected</uicontrol> button (3 in <xref keyref="customize_toolbar/tools_png" type="fig"/>) to move it to the list of actions that appear in the toolbar. You can rearrange the items in the selected actions list by using buttons 6 and 7 in <xref keyref="customize_toolbar/tools_png" type="fig"/>. You can also insert a separator onto the list to organize toolbar actions into logical groups.</p>
+		<p>Select an item from the list of <uicontrol>Available actions</uicontrol> on the left and press the <uicontrol>Move action to selected</uicontrol> button (3 in <xref keyref="customize_toolbar/tools_png" type="fig"/>&#160;) to move it to the list of actions that appear in the toolbar. You can rearrange the items in the selected actions list by using buttons 6 and 7 in <xref keyref="customize_toolbar/tools_png" type="fig"/>. You can also insert a separator onto the list to organize toolbar actions into logical groups.</p>
 		<note type="important">Don't forget to make the toolbar visible by selecting  <menucascade><uicontrol>View</uicontrol><uicontrol>Toolbar</uicontrol></menucascade> from the menu.</note>
     </conbody>
 </concept>

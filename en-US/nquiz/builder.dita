@@ -102,7 +102,7 @@
                 <li>quiz time limit in minutes;</li>
 			 <li>enforce question order so that students can not go back and change their answers;</li>
                 <li>randomize question order;</li>
-			 <li>allow the students to see detailed results (individual questions) after they complete the test; otherwise, only the quiz summary will be shown (<xref keyref="test_client/view_sum_png" type="fig"/>);</li>
+			 <li>allow the students to see detailed results (individual questions) after they complete the test; otherwise, only the quiz summary will be shown (<xref keyref="test_client/view_sum_png" type="fig"/>&#160;);</li>
                 <li>provide instant feedback to students for correctness of their answers so they can make another attempt.</li>
             </ul>
         </p>
@@ -212,7 +212,7 @@
         <p>You can specify the following parameters for each question individually in the question settings panel (<xref keyref="test_builder/param_quiz_png" type="fig"/>&#160;):
             <ul>
                 <li>question title;</li>
-                <li>optional time limit in seconds (can not exceed total limit for the quiz (see <xref keyref="test_builder/param_test_png" type="fig"/>);</li>
+                <li>optional time limit in seconds (can not exceed total limit for the quiz (see <xref keyref="test_builder/param_test_png" type="fig"/>&#160;);</li>
                 <li>question weight in the overall quiz score;</li>
                 <li>option for an oral answer (recorded from the student microphone).</li>
             </ul>
