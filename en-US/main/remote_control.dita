@@ -5,7 +5,14 @@
 	<title><keyword>Remote desktop window</keyword></title>
 	<conbody>
 		<p><indexterm>remote control</indexterm>A dedicated <wintitle>Remote Desktop</wintitle> window is also available for monitoring and control of individual workstations. This window presents at a glance both the remote screen and different remote control actions that are available for selected workstation.</p>
-		<p>Select <uicontrol>Remote desktop</uicontrol> in the student pop-up menu (see <xref keyref="menu_single"/>&#160;) to call up the <wintitle>Remote Desktop</wintitle> window (<xref keyref="remote_control/remote_control_png" type="fig"/>&#160;) on your screen. The window contains a copy of the student's screen (11), list of logged in students (9), and following buttons:</p>
+		<p>Select <uicontrol>Remote desktop</uicontrol> in the student pop-up menu (see <xref keyref="menu_single"/>&#160;) to call up the <wintitle>Remote Desktop</wintitle> window (<xref keyref="remote_control/remote_control_png" type="fig"/>&#160;) on your screen. This window contains a visual representation of the remote desktop together with local user interface elements for monitoring and remote control of the student workstation.</p>
+		<fig id="remote_control_png">
+			<title><wintitle>Remote desktop</wintitle> window</title>
+			<image href="img/remote_control.png" placement="break">
+				<alt><wintitle>Remote desktop</wintitle> window</alt>
+			</image>
+		</fig>
+		<p>Elements of the <wintitle>Remote desktop</wintitle> window:</p>
 		<table frame="topbot">
 			<tgroup cols="2">
 				<colspec colname="COLSPEC0" colwidth="10*"/>
@@ -29,7 +36,7 @@
 					</row>
 					<row>
 						<entry>5</entry>
-						<entry><uicontrol>Screenshot</uicontrol> - take a screenshot of remote computer and save a local copy;</entry>
+						<entry><uicontrol>Screenshot</uicontrol> - take a screenshot of the remote desktop and save a local copy;</entry>
 					</row>
 					<row>
 						<entry>6</entry>
@@ -69,15 +76,20 @@
 							</ul>
 						</entry>
 					</row>
+					<row>
+						<entry>9</entry>
+						<entry>Drop-down list of logged in students</entry>
+					</row>
+					<row>
+						<entry>10</entry>
+						<entry><uicontrol>Close</uicontrol> window button</entry>
+					</row>
+					<row>
+						<entry>11</entry>
+						<entry>Visual of the student desktop</entry>
+					</row>
 				</tbody>
 			</tgroup>
 		</table>
-		<p>Press the <uicontrol>Close</uicontrol> button (10) at the bottom of the window to close it.</p>
-		<fig id="remote_control_png">
-			<title><wintitle>Remote desktop</wintitle> window</title>
-			<image href="img/remote_control.png" placement="break">
-				<alt><wintitle>Remote desktop</wintitle> window</alt>
-			</image>
-		</fig>
 	</conbody>
 </concept>
