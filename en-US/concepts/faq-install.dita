@@ -33,7 +33,7 @@
 
     <section>
         <title>How do I launch it with the Administrator privileges?</title>
-	   <p>Right click on the software icon and select <uicontrol>Run as Administrator</uicontrol> to launch a piece of software with Administrator privileges in Windows Vista and Windows 7 with UAC enabled.</p>
+	   <p>Right click on the software icon and select <uicontrol>Run as Administrator</uicontrol> to launch a piece of software with Administrator privileges in Windows Vista, Windows 7 and Windows 8.x with UAC enabled.</p>
     </section>
 
     <section>
