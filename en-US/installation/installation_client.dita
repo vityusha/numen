@@ -10,8 +10,16 @@
 			  <cmd>Insert installation CD into your computer CD drive.</cmd>
             </step>
             <step>
-			  <cmd>An autorun window should appear on the screen. Select student module installation.
+			  <cmd>An autorun window should appear on the screen (<xref keyref="install_client/client_autorun_png" type="fig"/>&#160;). Select student module installation (Install Dialog Nibelung student module).
 				  If the autorun window has not appeared, then you will have to launch <filepath>setup-nibelungclient.exe</filepath> from the installation disk manually.</cmd>
+                <info>
+                    <p><fig id="client_autorun_png">
+					<title><wintitle>Autorun</wintitle> window</title>
+                        <image href="img/autorun.png" placement="break">
+                            <alt>Autorun window</alt>
+                        </image>
+                    </fig></p>
+                </info>
             </step>
             <step>
 			  <cmd><wintitle>Dialog Nibelung student module Setup</wintitle> wizard window will appear on your screen (<xref keyref="install_client/install_c1_png" type="fig"/>&#160;). Press the <uicontrol>Next</uicontrol> button.</cmd>

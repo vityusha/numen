@@ -11,8 +11,16 @@
                 <cmd>Insert installation CD into your computer CD drive.</cmd>
             </step>
             <step>
-                <cmd>An autorun window should appear on the screen. Select teacher module installation.
+                <cmd>An autorun window should appear on the screen (<xref keyref="install_main/main_autorun_png" type="fig"/>&#160;). Select teacher module installation (Install Dialog Nibelung teacher module).
                 In case the autorun window has not appeared, you will have to launch <filepath>\Nibelung\setup-nibelungmain.exe</filepath> from the installation disk manually.</cmd>
+                <info>
+                    <p><fig id="main_autorun_png">
+					<title><wintitle>Autorun</wintitle> window</title>
+                        <image href="img/autorun.png" placement="break">
+                            <alt>Autorun window</alt>
+                        </image>
+                    </fig></p>
+                </info>
             </step>
             <step>
 			  <cmd><wintitle>Dialog Nibelung Setup Wizard</wintitle> window should appear on your screen (<xref keyref="install_main/install_m1_png" type="fig"/>&#160;). Press the <uicontrol>Next</uicontrol> button.</cmd>
