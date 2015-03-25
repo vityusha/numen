@@ -12,9 +12,9 @@
 			    <alt><wintitle>Quiz Player</wintitle>: Single answer questions</alt>
 		    </image>
 	    </fig>
-	    <fig id="type_1_png">
+	    <fig id="type_2_png">
 		    <title><wintitle>Quiz Builder</wintitle>: <uicontrol>Multiple answer</uicontrol></title>
-            <image href="img/type_1.png" placement="break">
+            <image href="img/type_2.png" placement="break">
 			  <alt><wintitle>Quiz Builder</wintitle>: <uicontrol>Multiple answer</uicontrol></alt>
             </image>
         </fig>

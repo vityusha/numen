@@ -14,9 +14,9 @@
         </fig>
         <p>Students should press the <uicontrol>Start</uicontrol> button to start the quiz. First question of the quiz will appear on their screens (<xref keyref="test_client/view_2_png" type="fig"/>&#160;).</p>
         <fig id="view_2_png">
-		   <title><wintitle>Quiz Player</wintitle> window displaying a question with a time limit</title>
+		   <title><wintitle>Quiz Player</wintitle> window displaying a question</title>
             <image href="img/view_2.png" placement="break">
-			  <alt><wintitle>Quiz Player</wintitle> window displaying a question with a time limit</alt>
+			  <alt><wintitle>Quiz Player</wintitle> window displaying a question</alt>
             </image>
         </fig>
 	   <p>Elements of the <wintitle>Quiz Player</wintitle> window displaying a question:</p>
@@ -98,12 +98,13 @@
 
 	   <p>Quiz title, quiz remaining time, and question title are displayed in the upper portion of the <wintitle>Quiz Player</wintitle> window. If the question has a time limit set, question remaining time will also be displayed in the upper right corner next to the quiz remaining time.</p>
         <note type="important">Students will not be able to change their answers after the question time limit has elapsed. Moreover, if a question has a time limit set, students will not be able to return to this question later.</note>
-	   <p>Questions can have images, audio and video associated with them. If this is the case, <uicontrol>Play audio</uicontrol> and/or <uicontrol>Show video</uicontrol> buttons that launch the media player will appear in the question window (<xref keyref="test_client/view_2_png" type="fig"/>&#160;). Images will be displayed automatically in the right portion of the <wintitle>Quiz Player</wintitle> window (e.g. the clock image with an exclamation point in <xref keyref="test_client/view_2_png" type="fig"/>&#160;).</p>
-        <p>If the question has the option for an oral answer selected, recording and playback buttons will appear in the lower left corner of the window (<xref keyref="test_client/view_1_png" type="fig"/>&#160;).</p>
+	   <p>Questions can have images, audio and video associated with them. If this is the case, <uicontrol>Play audio</uicontrol> and/or <uicontrol>Show video</uicontrol> buttons that launch the media player will appear in the question window (<xref keyref="test_client/view_2_png" type="fig"/>&#160;). Images will be displayed automatically in the right portion of the <wintitle>Quiz Player</wintitle> window (e.g. the clock image in <xref keyref="test_client/view_2_png" type="fig"/>&#160;).</p>
+        <p>If the question has the option for an oral answer selected, recording and playback buttons will appear in the lower left corner of the window (see (7) and (8) in <xref keyref="test_client/view_2_png" type="fig"/>&#160;).</p>
+        <p>Whenever the quiz has a time limit set, a clock icon and a countdown clock for quiz remaining time will appear in the upper right corner.</p>
         <fig id="view_1_png">
-		   <title><wintitle>Quiz Player</wintitle> window with a <uicontrol>Single answer</uicontrol> question with audio and oral answer option</title>
+		   <title><wintitle>Quiz Player</wintitle> window with a <uicontrol>Single answer</uicontrol> question with a time limit</title>
             <image href="img/view_1.png" placement="break">
-			  <alt><wintitle>Quiz Player</wintitle> window with a <uicontrol>Single answer</uicontrol> question with audio and oral answer option</alt>
+			  <alt><wintitle>Quiz Player</wintitle> window with a <uicontrol>Single answer</uicontrol> question with a time limit</alt>
             </image>
         </fig>
 	   <p>Elements of the <wintitle>Quiz Player</wintitle> window:</p>
@@ -119,7 +120,6 @@
                 </tbody>
             </tgroup>
         </table>
-        <p>Whenever the quiz has a time limit set, a clock icon and a countdown clock for quiz remaining time will appear in the upper right corner.</p>
 		<p>Depending on the type of the questions, while taking the quiz the students can:
 		<ul>
                 <li>select a single answer from given choices;</li>
