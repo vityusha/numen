@@ -7,7 +7,7 @@
 
   <conbody>
 	  <p><wintitle>Dialog Nibelung</wintitle> will automatically find an audio hub connected to the classroom LAN and will reconfigure itself to take advantage of the available hardware. Otherwise, it will operate in regular mode as described in section <xref keyref="description_main"/>&#160;.</p>
-    <note type="tip">The audio hub allows for connections to a maximum of 30 student workstations. Student workstations with IDs above 30 will still be able to communicate via the classroom LAN.</note>
+    <note type="tip">The audio hub allows for connections to a maximum of 28 student workstations. Student workstations with IDs above 28 will still be able to communicate via the classroom LAN.</note>
 
     <p>There is an icon indicating presence of the audio hub in <wintitle>Dialog Nibelung</wintitle> teacher module status bar (#1 in <xref keyref="work_switch/hwa_icon_png" type="fig" />). This icon appears in color whenever <wintitle>Dialog Nibelung</wintitle> has established communications with the audio hub and gray otherwise.</p>
     <fig id="hwa_icon_png">

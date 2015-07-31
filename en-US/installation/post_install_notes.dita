@@ -15,8 +15,8 @@
             <title><wintitle>Windows Firewall</wintitle> setup</title>
 		  <p><wintitle>Dialog Nibelung</wintitle> must be included in the exceptions list of your <wintitle>Windows Firewall</wintitle> setup. Usually the <wintitle>Firewall</wintitle> will offer you to create this exception during first launch of the software. We recommend to double check if the following exceptions have been created for <wintitle>Dialog Nibelung</wintitle>:</p>
             <ul>
-			  <li>on the teacher workstation: <filepath>NiubelungUI.exe</filepath></li>
-                <li>on student workstations: <filepath>NiubelungClient.exe</filepath> and <filepath>NiubelungHelper.exe</filepath></li>
+			  <li>on the teacher workstation: <filepath>NibelungUI.exe</filepath></li>
+                <li>on student workstations: <filepath>NibelungClient.exe</filepath> and <filepath>NibelungHelper.exe</filepath></li>
             </ul>
 		  <p><wintitle>Windows Firewall</wintitle> exception list can be found under:</p>
 		  <ul>

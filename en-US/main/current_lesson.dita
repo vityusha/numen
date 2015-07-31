@@ -17,7 +17,7 @@
 	   <p>Select an existing <uicontrol>Class</uicontrol> file from the list or <uicontrol>Create a new class</uicontrol>.</p>
 	   <p>You can change the expected <uicontrol>Lesson duration</uicontrol> time. You can also instruct <wintitle>Dialog Nibelung</wintitle> to issue a warning at a preset time before the end of the lesson.</p>
 		<note type="tip">Default value for <uicontrol>Lesson duration</uicontrol> can be set in the <wintitle>Teacher settings</wintitle> window (see <xref keyref="tutor_settings"/>&#160;).</note>
-        <p>Press <uicontrol>OK</uicontrol> to start the lesson.</p>
+        <p>In order to start the lesson you may press <uicontrol>OK</uicontrol> button or, after validating lesson parameters, double-click on selected class.</p>
         <p>Once a lesson is in progress, lesson clock in the status bar (<xref keyref="description_main/controls_main_png" type="fig"/>&#160;) will begin its countdown, and a check mark will appear next to the <uicontrol>Start lesson</uicontrol> menu item.</p>
 	   <p><wintitle>Dialog Nibelung</wintitle> will automatically create an attendance record for the lesson based on the registration information supplied by the students during previous lesson (based on the assumption that students sit at the same workstations). You can also perform roll call registration (see <xref keyref="registration"/>&#160;) to get a more accurate record.</p>
         <p>Students can be graded on their performance at the lesson by using the student menu (see <xref keyref="menu_single"/>&#160;).</p>

@@ -54,7 +54,7 @@
         </fig>
 	   <note type="attention">Please note that the <uicontrol>Disable loopback</uicontrol> button is only available in Windows XP as support for this feature has been eliminated in subsequent versions of Windows.</note>
 	   <note type="attention">Please note that the <uicontrol>Player</uicontrol> button is only enabled when the student module is running in standalone mode, i.e. it is not in communication with the teacher module.</note>
-        <p>The students can sent teacher a message by pressing the <uicontrol>Message teacher</uicontrol> button and entering the message in a window that will appear on their screens (<xref keyref="description_client/message_png" type="fig"/>&#160;).</p>
+        <p>The students can send teacher a message by pressing the <uicontrol>Message teacher</uicontrol> button and entering the message in a window that will appear on their screens (<xref keyref="description_client/message_png" type="fig"/>&#160;).</p>
         <fig id="message_png">
             <title>Sending a message to the teacher</title>
             <image href="img/message.png" placement="break">
