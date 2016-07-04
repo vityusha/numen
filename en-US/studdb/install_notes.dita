@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
+"reference.dtd">
+
+<reference id="install_notes" xml:lang="ru-RU">
+
+  <title>Рекомендации по установке ПО <wintitle>Диалог Nibelung StudDB</wintitle>
+  </title>
+
+  <refbody>    
+    <section>
+      Для установки программы запустите ее установочный файл и следуйте указаниям установщика.
+    </section>
+    <section>
+      <note type="attention">Для установки программного обеспечения <wintitle>Диалог Nibelung StudDB</wintitle> не требуются права администратора.</note>
+      <note type="important">При установке программного обеспечения при необходимости будут автоматически инсталлированы зависимости: <wintitle>Microsoft .NET Framework 4.0 Client Profile</wintitle> и <wintitle>Windows Installer 4.5</wintitle>. В этом случае для установки потребуются дополнительное время, дисковое пространство и, в случае удаленной загрузки зависимостей, подключение к Интернету.</note>        
+      <note type="important">Для чтения документации в формате <b>pdf</b> на Вашем компьютере  должно быть установлено ПО <b>Adobe Acrobat Reader</b> или его аналоги.</note>
+    </section>
+
+  </refbody>
+
+</reference>

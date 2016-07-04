@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
+"reference.dtd">
+
+<reference id="winoptions" xml:lang="ru-RU">
+  <title>Окно настроек программы</title>
+  <refbody>
+  <section>
+  
+<p>
+<fig id="dlgProgramSettings_png">
+    <title>Окно настроек программы</title>
+    <image href="img/dlgProgramSettings.png" placement="break">
+      <alt>Окно настроек программы</alt>
+    </image>
+</fig>
+Окно настроек программы доступно только в административном режиме (п. <xref keyref="admin"/>&#160;) и позволяет указать основные параметры ее работы:
+<ul>
+  <li>Язык интерфейса;</li>
+  <li>Настройка запроса подтверждения операций удаления;</li>
+  <li>Настройка пути к файлу базы данных, с которой будут работать пользователи;</li>
+  <li>Настройка режима резервирования и автоматического сохранения базы данных (интервал задается в минутах).</li>
+</ul>
+Для вызова окна выполните команду <uicontrol>Файл -> Параметры</uicontrol> главного меню.
+</p>        
+
+  </section>
+  </refbody>
+</reference>

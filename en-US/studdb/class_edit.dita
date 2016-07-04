@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
+"reference.dtd">
+
+<reference id="class_edit" xml:lang="ru-RU">
+
+  <title>Редактирование подразделения</title>
+
+  <refbody>
+
+    <section>
+      <p>
+        Для редактирования существующего подразделения выполните любое из нижеуказанных действий для выделенного подразделения:
+        <ul>
+          <li>Выберите пункт меню <menucascade><uicontrol>Подразделение</uicontrol><uicontrol>Редактировать подразделение</uicontrol></menucascade>;</li>
+          <li>Нажмите кнопку <uicontrol>Редактировать подразделение</uicontrol> на панели инструментов;</li>
+          <li>Выберите соответствующий пункт контекстного меню подразделения в древовидном или табличном просмотре;</li>
+          <li>Нажмите сочетание клавиш <uicontrol><shortcut>Ctrl + Alt + E</shortcut></uicontrol>;</li>
+          <li>Выделив подразделение в области древовидного просмотра, нажмите клавишу <uicontrol><shortcut>Enter</shortcut></uicontrol> или <uicontrol><shortcut>F2</shortcut></uicontrol>.</li>
+        </ul>
+      </p>
+      
+      <p>
+        Справа от области древовидного просмотра появится диалог (см. <xref keyref="class_add/dlgDepartment_png" type="fig"/>&#160;) в режиме редактирования. Измените имя и описание подразделения на нужные. Для выполнения команды редактирования подразделения нажмите кнопку <uicontrol>Изменить</uicontrol> или клавишу <uicontrol>Enter</uicontrol>. Для отмены - нажмите кнопку <uicontrol>Отмена</uicontrol> или клавишу <uicontrol><shortcut>Esc</shortcut></uicontrol>.
+      </p>        
+    
+      <note type="important">Программа не даст отредактировать подразделение, если в базе данных уже существует подразделение с таким же именем, на которое Вы хотите отредактировать текущее подразделение. Возможные варианты действий в таком случае описаны в предыдущем разделе Руководства (п. <xref keyref="class_add"/>&#160;)</note>.
+              
+    </section>
+
+  </refbody>
+
+</reference>

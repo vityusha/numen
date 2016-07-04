@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
+"reference.dtd">
+
+<reference id="archive" xml:lang="ru-RU">
+
+  <title>Архив учащихся</title>
+  <refbody>
+  <section>
+  
+<p>
+В программе существуют два сравнительно независимых друг от друга хранилища учащихся:
+<ul>
+<li>Учебное заведение;</li>
+<li>Архив.</li>
+</ul>
+</p>
+
+<fig id="archive_png">
+    <title>Архив учебного заведения</title>
+    <image href="img/archive.png" placement="break">
+      <alt>Архив учебного заведения</alt>
+    </image>
+</fig>
+
+<p>
+Любого учащегося возможно как поместить в архив, так и перевести (восстановить) из архива в любое из имеющихся подразделений. Также можно удалить учащегося из архива; при этом он удаляется из базы данных <b>окончательно</b>. Архив возможно очистить целиком, выбрав пункт контекстного меню <uicontrol>Очистить архив</uicontrol>.
+</p>
+
+<fig id="msgDeleteUserRequest.png_png">
+    <title>Запрос на окончательное удаление</title>
+    <image href="img/msgDeleteUserRequest.png" placement="break">
+      <alt>Запрос на окончательное удаление</alt>
+    </image>
+</fig>
+
+<note type="important">При удалении подразделения все его учащиеся автоматически помещаются в архив</note>
+   
+  </section>
+  </refbody>
+  
+</reference>

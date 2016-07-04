@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
+"reference.dtd">
+
+<reference id="winschool" xml:lang="ru-RU">
+  <title>Диалог свойств учебного заведения</title>
+  <refbody>
+  <section>
+  
+<p>
+<fig id="dlgSchoolOpts_png">
+    <title>Диалог свойств учебного заведения</title>
+    <image href="img/dlgSchoolOpts.png" placement="break">
+      <alt>Диалог свойств учебного заведения</alt>
+    </image>
+</fig>
+Диалог свойств учебного заведения позволяет редактировать и просматривать основные свойства учебного заведения:
+<ul>
+<li>Название учебного заведения;</li>
+<li>Тип учебного заведения;</li>
+<li>Адрес учебного заведения.</li>
+</ul>
+</p>
+
+<p>
+Для вызова диалога можно вызвать контекстное меню для элемента учебного заведения в области древовидного просмотра или, выделив учебное заведение там же, нажать клавишу <uicontrol><shortcut>F2</shortcut></uicontrol>
+</p>        
+
+  </section>
+  </refbody>
+</reference>

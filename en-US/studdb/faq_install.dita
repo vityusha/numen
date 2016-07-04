@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
+"reference.dtd">
+
+<reference id="faq_install" xml:lang="ru-RU">
+
+  <title>Установка и настройка</title>
+  
+  <refbody>
+  
+    <section>
+        <title>Какие могут возникнуть трудности при установке и настройке программы?</title>
+        <p>Перед началом установки программы <wintitle>Диалог Nibelung StudDB</wintitle> рекомендуем ознакомиться со следующим разделом: <xref keyref="install_notes"/>&#160;.</p>
+    </section>
+
+    <section>
+        <title>Какое имя и пароль преподавателя по умолчанию?</title>
+        <p>По умолчанию имя преподавателя: <userinput>Admin</userinput>, пароль: <userinput>Admin</userinput>.</p>
+    </section>
+
+    <section>
+        <title>Где находятся настройки программы?</title>
+        <p>Для вызова диалога с настройками необходимо зайти в программу в режиме администратора. Диалог можно вызвать сочетанием клавиш
+        <uicontrol><shortcut>Ctrl</shortcut></uicontrol>+<uicontrol><shortcut>H</shortcut></uicontrol> или выбрать соответствующий пункт меню или кнопку панели инструментов</p>
+    </section>
+
+    <section>
+        <title>Как запустить программу в режиме администратора?</title>
+        <p>Для этого достаточно войти в программу под именем <b>Admin</b></p>
+    </section>
+    
+  </refbody>
+  
+</reference>
+

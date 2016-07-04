@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
+"reference.dtd">
+
+<reference id="statusbar" xml:lang="ru-RU">
+
+  <title>Статусная строка</title>
+  
+  <refbody>
+  
+  <section>
+<p>Строка состояния расположена внизу главного окна программы и отображает следующую информацию: в левой части - имя пользователя в текущем сеансе. В правой части:
+  <ul>
+    <li>Общее количество подразделений в текущем элементе;</li>
+    <li>Общее количество учащихся в текущем элементе.</li>
+  </ul>
+
+  <fig id="statusbar_png">
+    <title>Строка состояния</title>
+    <image href="img/statusbar.png" placement="break">
+      <alt>Строка состояния</alt>
+    </image>
+  </fig>
+</p>
+  </section>
+
+  </refbody>
+  
+</reference>

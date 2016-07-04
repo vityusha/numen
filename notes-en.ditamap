@@ -7,13 +7,13 @@
 		<shortdesc>This document contains Dialog Nibelung installation notes.</shortdesc>
 		<author type="creator">Titov S., Vinokurov V.</author>
 		<source/>
-		<publisher>"Lain" LLC</publisher>
+		<publisher>LLC "Lain"</publisher>
 		<copyright>
 			<copyryear year="2015"/>
-			<copyrholder>Lain Ltd.</copyrholder>
+			<copyrholder>LLC "Lain".</copyrholder>
 		</copyright>
 		<critdates>
-			<created date="30.03.2015"/>
+			<created date="23.06.2015"/>
 		</critdates>
 		<prodinfo>
 			<prodname>Dialog Nibelung - installation notes</prodname>
@@ -26,5 +26,6 @@
 	</topicmeta>
 
 	<topicref href="en-US/installation/installation_notes.dita"/>
-	<topicref href="en-US/concepts/contacts.dita" />
+    <topicref href="en-US/installation/post_install_notes.dita" />
+    <topicref href="en-US/concepts/contacts.dita" />
 </map>

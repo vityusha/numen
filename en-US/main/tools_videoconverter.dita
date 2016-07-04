@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="tools_videoconverter" xml:lang="en-US">
+  <title>Video converter</title>
+  <conbody>  
+		<p>Select <menucascade><uicontrol>Tools</uicontrol><uicontrol>Video converter</uicontrol></menucascade> to launch a converter of video files to  <b>MPEG-1</b> format (<xref keyref="tools_videoconverter/video_convert_png" type="fig"/>&#160;).</p>
+		<fig id="video_convert_png">
+            <title><wintitle>Video converter</wintitle> window</title>
+            <image href="img/video-convert.png" placement="break">
+			  <alt><wintitle>Video converter</wintitle> window</alt>
+            </image>
+        </fig>	   <p>Select the file to be converted into the <uicontrol>Input file</uicontrol> field using <uicontrol>Browse</uicontrol> button.</p>
+	   <p>The <uicontrol>Output file</uicontrol> filed will be filled automatically offering to save converted file in the teacher folder. You can change the output filename and path by pressing the <uicontrol>Browse</uicontrol> button.</p>
+		<p>You can adjust size of the output file relative to the original by using  <uicontrol>Change  size</uicontrol> panel. You can also select a part of the video to be converted. The first and the last frames of the selected video segment are shown on the left and the right of the slider control.</p>
+		<p>Press the <uicontrol>Start</uicontrol> button to begin conversion.</p>
+		<p>A progress bar will appear in the window. Click on the <uicontrol>Output</uicontrol> field to show or hide a panel with additional information about the conversion process (<xref keyref="tools_videoconverter/video_convert_work_png" type="fig"/>&#160;).</p>
+        <fig id="video_convert_work_png">
+            <title><wintitle>Video converter</wintitle> window showing process output</title>
+            <image href="img/video-convert-work.png" placement="break">
+			  <alt><wintitle>Video converter</wintitle> window showing process output</alt>
+            </image>
+        </fig>
+	   <p>Select <menucascade><uicontrol>Tools</uicontrol><uicontrol>Edit</uicontrol></menucascade> to edit contents of the <uicontrol>Tools</uicontrol> menu (<xref keyref="tools_videoconverter/tools_menu_png" type="fig"/>&#160;).</p>
+        <fig id="tools_menu_png">
+            <title><wintitle>Tools editor</wintitle> window</title>
+            <image href="img/tools_menu.png" placement="break">
+			  <alt><wintitle>Tools editor</wintitle> window</alt>
+            </image>
+        </fig>
+  </conbody>
+</concept>

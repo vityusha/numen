@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
+"reference.dtd">
+
+<reference id="winmain" xml:lang="ru-RU">
+  <title>Главное окно программы</title>
+  <refbody>
+  <section>
+  
+<p>
+Главное окно программы представлено на рисунке ниже.
+<fig id="winmain_png">
+    <title>Главное окно программы</title>
+    <image href="img/winmain.png" placement="break">
+      <alt>Главное окно программы</alt>
+    </image>
+</fig>
+Окно состоит из следующих областей:
+<ol>
+<li>Главное меню (см. <xref keyref="menu"/>&#160;), содержащее большинство команд, доступных при работе с программой;</li>
+<li>Панель инструментов (см. <xref keyref="toolbar"/>&#160;) для быстрого доступа к основным командам;</li>
+<li>Область древовидного просмотра (см. <xref keyref="tree"/>&#160;), в которой наглядно отображается вся структура учебного заведения;</li>
+<li>Основная область. В ней показываются элементы просмотра и редактирования учащихся и подразделений и таблицы;</li>
+<li>Статусная строка (см.<xref keyref="statusbar"/>&#160;) для отображения вспомогательной информации.</li>
+</ol>
+</p>
+
+  </section>
+  </refbody>
+</reference>

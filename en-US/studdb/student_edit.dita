@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
+"reference.dtd">
+
+<reference id="student_edit" xml:lang="ru-RU">
+  <title>Редактирование данных учащегося</title>
+  <refbody>
+    <section>
+
+      <p>
+        Для редактирования существующего учащегося выполните любое из нижеуказанных действий для выделенного учащегося:
+        <ul>
+          <li>Выберите пункт меню <menucascade>
+              <uicontrol>Учащийся</uicontrol>
+              <uicontrol>Редактировать учащегося</uicontrol>
+            </menucascade>;</li>
+          <li>Нажмите кнопку <uicontrol>Редактировать учащегося</uicontrol> на панели инструментов;</li>
+          <li>Выберите соответствующий пункт контекстного меню учащегося в древовидном или табличном просмотре;</li>
+          <li>Нажмите сочетание клавиш <uicontrol>
+              <shortcut>Alt + E</shortcut>
+            </uicontrol>;</li>
+          <li>Выделив учащегося в области древовидного просмотра, нажмите клавишу <uicontrol>
+              <shortcut>Enter</shortcut>
+            </uicontrol> или <uicontrol>
+              <shortcut>F2</shortcut>
+            </uicontrol>.</li>
+        </ul>
+      </p>
+
+      <p>
+Справа от области древовидного просмотра появится диалог (см. <xref keyref="winstudent"/>&#160;) в режиме <b>редактирования существующей записи</b>.
+      </p>
+
+      <p>
+Для выполнения команды изменения нажмите кнопку <b>Изменить</b> или клавишу <uicontrol>
+          <shortcut>Enter</shortcut></uicontrol>. Для отмены нажмите кнопку <b>Отмена</b> или клавишу <uicontrol>
+          <shortcut>Esc</shortcut>
+        </uicontrol>.
+      </p>
+
+    </section>
+  </refbody>
+</reference>

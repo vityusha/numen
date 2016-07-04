@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
+"reference.dtd">
+
+<reference id="toolbar" xml:lang="ru-RU">
+  <title>Панель инструментов</title>
+  <refbody>
+  <section>
+  
+<p>
+Панель инструментов используется для быстрого доступа к основным функциям программы с помощью мыши:
+все команды находятся перед глазами в виде соответствующих им пиктограмм.
+
+<fig id="toolbar_png">
+    <title>Панель инструментов</title>
+    <image href="img/toolbar.png" placement="break">
+      <alt>Панель инструментов</alt>
+    </image>
+</fig>
+
+<fig id="filter_png">
+    <title>Область фильтра панели инструментов</title>
+    <image href="img/filter.png" placement="break">
+      <alt>Область фильтра панели инструментов</alt>
+    </image>
+</fig>
+
+Помимо команд, дублирующих главное меню, в панели инструментов располагаются:
+<ul>
+<li>кнопка <uicontrol>Режим показа всех учащихся</uicontrol> (расположена левее поля для ввода строки фильтра);</li>
+<li>кнопка <uicontrol>Фильтр</uicontrol>, включающая или выключающая фильрацию по всем полям (см. <xref keyref="search"/>&#160;);</li>
+<li>поле для ввода строки фильтра (расположено левее кнопки фильтра).</li>
+</ul>
+</p>        
+
+<fig id="all_png">
+    <title>Кнопка режима показа всех учащихся</title>
+    <image href="img/icons/all.png" placement="break">
+      <alt>Кнопка управления режимом показа всех учащихся</alt>
+    </image>
+</fig>
+
+  </section>
+  </refbody>
+</reference>

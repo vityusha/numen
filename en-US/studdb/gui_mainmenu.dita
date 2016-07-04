@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
+"reference.dtd">
+
+<reference id="menu" xml:lang="ru-RU">
+
+  <title>Главное меню</title>
+  
+  <refbody>
+  
+    <section>
+<p>
+Главное меню состоит из четырех основных разделов:
+<ul>
+<li>Меню Файл;</li>
+<li>Меню Подразделение;</li>
+<li>Меню Учащийся;</li>
+<li>Меню Помощь;</li>
+</ul>
+</p>
+
+<fig id="menu_png">
+    <title>Главное меню</title>
+    <image href="img/menu.png" placement="break">
+      <alt>Главное меню</alt>
+    </image>
+</fig>
+
+<p>
+<uicontrol>Меню Файл</uicontrol>
+</p>
+
+<fig id="menuFile_png">
+    <title>Меню Файл</title>
+    <image href="img/menuFile.png" placement="break">
+      <alt>Меню Файл</alt>
+    </image>
+</fig>
+
+<table frame="topbot">
+          <tgroup cols="4">
+                <colspec colname="COLSPEC0" colwidth="12"/>
+                <colspec colname="COLSPEC1" colwidth="100"/>
+                <colspec colname="COLSPEC2" colwidth="30"/>
+                <colspec colname="COLSPEC3" colwidth="50*"/>
+                
+          <thead>
+          
+            <row>
+              <entry colname="COLSPEC0" align="left">№</entry>
+              <entry colname="COLSPEC1" align="center">Пункт меню</entry>
+              <entry colname="COLSPEC2" align="center">Иконка</entry>
+              <entry colname="COLSPEC3" align="center">Сочетание клавиш</entry>
+            </row>
+            
+          </thead>
+          
+                <tbody>
+                    <row>
+                        <entry>1</entry>
+                        <entry>Соединиться с базой данных *</entry>
+                        <entry><image href="img/icons/dbconnect.png" placement="break" width="16" align="center"/></entry>
+                        <entry align="center"><uicontrol><shortcut>Ctrl + O</shortcut></uicontrol></entry>
+                    </row>
+                    
+                    <row>
+                        <entry>2</entry>
+                        <entry>Отсоединиться от базы данных *</entry>
+                        <entry><image href="img/icons/dbdisconnect.png" placement="break" width="16" align="center"/></entry>
+                        <entry align="center"><uicontrol><shortcut>Ctrl + W</shortcut></uicontrol></entry>
+                    </row>
+                    
+                    <row>
+                        <entry>3</entry>
+                        <entry>Сохранить базу данных **</entry>
+                        <entry><image href="img/icons/save.png" placement="break" width="16" align="center"/></entry>
+                        <entry align="center"><uicontrol><shortcut>Ctrl + S</shortcut></uicontrol></entry>
+                    </row>
+                    
+                    <row>
+                        <entry>4</entry>
+                        <entry>Создать базу данных *</entry>
+                        <entry><image href="img/icons/dbcreate.png" placement="break" width="16" align="center"/></entry>
+                        <entry align="center"><uicontrol><shortcut>Ctrl + N</shortcut></uicontrol></entry>
+                    </row>
+                    
+                    <row>
+                        <entry>5</entry>
+                        <entry>Завершить сеанс...</entry>
+                        <entry><image href="img/icons/logout.png" placement="break" width="16" align="center"/></entry>
+                        <entry align="center"><uicontrol><shortcut>Ctrl + L</shortcut></uicontrol></entry>
+                    </row>
+                    
+                    <row>
+                        <entry>6</entry>
+                        <entry>Настройки *</entry>
+                        <entry><image href="img/icons/settings.png" placement="break" width="16" align="center"/></entry>
+                        <entry align="center"><uicontrol><shortcut>Ctrl + H</shortcut></uicontrol></entry>                        
+                    </row>
+                    
+                    <row>
+                        <entry>7</entry>
+                        <entry>Управление пользователями *</entry>
+                        <entry><image href="img/icons/usercontrol.png" placement="break" width="16" align="center"/></entry>
+                        <entry align="center"><uicontrol><shortcut>Ctrl + U</shortcut></uicontrol></entry>                        
+                    </row>        
+                    
+                    <row>
+                        <entry>8</entry>
+                        <entry>Выход</entry>
+                        <entry><image href="img/icons/exit.png" placement="break" width="16" align="center"/></entry>
+                        <entry align="center"><uicontrol><shortcut>Alt + F4</shortcut></uicontrol></entry>
+                    </row>
+                </tbody>
+                </tgroup>
+</table>
+
+<p>
+*  - команда доступна только в административном режиме;
+** - команда доступна только в режиме резервирования.
+</p>
+
+<p>
+<uicontrol>Меню Подразделение</uicontrol>
+</p>
+
+<fig id="menuDepartment_png">
+    <title>Меню Подразделение</title>
+    <image href="img/menuDepartment.png" placement="break">
+      <alt>Меню Подразделение</alt>
+    </image>
+</fig>
+
+<table frame="topbot">
+          <tgroup cols="4">
+                <colspec colname="COLSPEC0" colwidth="12"/>
+                <colspec colname="COLSPEC1" colwidth="100"/>
+                <colspec colname="COLSPEC2" colwidth="30"/>
+                <colspec colname="COLSPEC3" colwidth="50*"/>
+                
+          <thead>
+          
+            <row>
+              <entry colname="COLSPEC0" align="left">№</entry>
+              <entry colname="COLSPEC1" align="center">Пункт меню</entry>
+              <entry colname="COLSPEC2" align="center">Иконка</entry>
+              <entry colname="COLSPEC3" align="center">Сочетание клавиш</entry>
+            </row>
+            
+          </thead>
+          
+                <tbody>
+                    <row>
+                        <entry>1</entry>
+                        <entry>Добавить подразделение</entry>
+                        <entry><image href="img/icons/add.png" placement="break" width="16" align="center"/></entry>
+                        <entry align="center"><uicontrol><shortcut>Ctrl + Alt + A</shortcut></uicontrol></entry>
+                    </row>
+                    
+                    <row>
+                        <entry>2</entry>
+                        <entry>Редактировать подразделение</entry>
+                        <entry><image href="img/icons/edit.png" placement="break" width="16" align="center"/></entry>
+                        <entry align="center"><uicontrol><shortcut>Ctrl + Alt + E</shortcut></uicontrol></entry>
+                    </row>
+                    
+                    <row>
+                        <entry>3</entry>
+                        <entry>Удалить подразделение</entry>
+                        <entry><image href="img/icons/remove.png" placement="break" width="16" align="center"/></entry>
+                        <entry align="center"><uicontrol><shortcut>Ctrl + Alt + D </shortcut></uicontrol></entry>
+                    </row>
+                                  
+                </tbody>
+                </tgroup>
+</table>
+
+<p>
+<uicontrol>Меню Учащийся</uicontrol>
+</p>
+
+<fig id="menuStudent_png">
+    <title>Меню Учащийся</title>
+    <image href="img/menuStudent.png" placement="break">
+      <alt>Меню Учащийся</alt>
+    </image>
+</fig>
+
+<table frame="topbot">
+          <tgroup cols="4">
+                <colspec colname="COLSPEC0" colwidth="12"/>
+                <colspec colname="COLSPEC1" colwidth="100"/>
+                <colspec colname="COLSPEC2" colwidth="30"/>
+                <colspec colname="COLSPEC3" colwidth="50*"/>
+                
+          <thead>
+          
+            <row>
+              <entry colname="COLSPEC0" align="left">№</entry>
+              <entry colname="COLSPEC1" align="center">Пункт меню</entry>
+              <entry colname="COLSPEC2" align="center">Иконка</entry>
+              <entry colname="COLSPEC3" align="center">Сочетание клавиш</entry>
+            </row>
+            
+          </thead>
+          
+                <tbody>
+                    <row>
+                        <entry>1</entry>
+                        <entry>Добавить учащегося</entry>
+                        <entry><image href="img/icons/personadd.png" placement="break" width="16" align="center"/></entry>
+                        <entry align="center"><uicontrol><shortcut>Alt + A</shortcut></uicontrol></entry>
+                    </row>
+                    
+                    <row>
+                        <entry>2</entry>
+                        <entry>Редактировать данные учащегося</entry>
+                        <entry><image href="img/icons/personedit.png" placement="break" width="16" align="center"/></entry>
+                        <entry align="center"><uicontrol><shortcut>Alt + E</shortcut></uicontrol></entry>
+                    </row>
+                    
+                    <row>
+                        <entry>3</entry>
+                        <entry>Удалить учащегося из базы</entry>
+                        <entry><image href="img/icons/persondel.png" placement="break" width="16" align="center"/></entry>
+                        <entry align="center"><uicontrol><shortcut>Alt + D </shortcut></uicontrol></entry>
+                    </row>
+                                  
+                </tbody>
+                </tgroup>
+</table>
+
+<p>
+<uicontrol>Меню Помощь</uicontrol>
+</p>
+
+<fig id="menuHelp_png">
+    <title>Меню Помощь</title>
+    <image href="img/menuHelp.png" placement="break">
+      <alt>Меню Помощь</alt>
+    </image>
+</fig>
+
+<table frame="topbot">
+          <tgroup cols="4">
+                <colspec colname="COLSPEC0" colwidth="12"/>
+                <colspec colname="COLSPEC1" colwidth="100"/>
+                <colspec colname="COLSPEC2" colwidth="30"/>
+                <colspec colname="COLSPEC3" colwidth="50*"/>
+                
+          <thead>
+          
+            <row>
+              <entry colname="COLSPEC0" align="left">№</entry>
+              <entry colname="COLSPEC1" align="center">Пункт меню</entry>
+              <entry colname="COLSPEC2" align="center">Иконка</entry>
+              <entry colname="COLSPEC3" align="center">Сочетание клавиш</entry>
+            </row>
+            
+          </thead>
+          
+                <tbody>
+                    <row>
+                        <entry>1</entry>
+                        <entry>Инструкция</entry>
+                        <entry><image href="img/icons/manual.png" placement="break" width="16" align="center"/></entry>
+                        <entry align="center"><uicontrol><shortcut>F1</shortcut></uicontrol></entry>
+                    </row>
+                    
+                    <row>
+                        <entry>2</entry>
+                        <entry>О программе</entry>
+                        <entry><image href="img/icons/about.png" placement="break" width="16" align="center"/></entry>
+                        <entry align="center"><uicontrol><shortcut>-</shortcut></uicontrol></entry>
+                    </row>
+         
+                </tbody>
+                </tgroup>
+</table>
+
+<p>
+Доступ к каждому пункту можно получить как с помощью мыши, так и набрав
+соответствующее пункту сочетание клавиш. Навигация по меню <i>также включается</i> после нажатия на клавиатуре клавиши <uicontrol><shortcut>Alt</shortcut></uicontrol>.
+</p>
+
+<note type="tip">Если команда отображается серым цветом и не срабатывает по сочетанию клавиш, значит, в текущем контексте она неприменима. Например, нельзя отредактировать карточку учащегося, если в данный момент нет выделенного учащегося: программа не знает, о ком идет речь и не может применить операцию редактирования</note>
+
+  </section>
+  </refbody>
+</reference>

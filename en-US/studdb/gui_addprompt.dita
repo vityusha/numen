@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
+"reference.dtd">
+
+<reference id="addprompt" xml:lang="ru-RU">
+  <title>Приглашение к быстрому созданию элемента</title>
+  <refbody>
+  <section>
+  
+<p>
+Данное приглашение появляется в двух случаях:
+<ul>
+  <li>При выделении учебного заведения, в котором отсутствуют подразделения;</li>
+  <li>При выделении подразделения, в котором отсутствуют учащиеся.</li>
+</ul>
+</p>
+
+<fig id="addDepPrompt_png">
+    <title>Приглашение добавить подразделение</title>
+    <image href="img/addDepPrompt.png" placement="break">
+      <alt>Приглашение добавить подразделение</alt>
+    </image>
+</fig>
+
+<fig id="addStdPrompt_png">
+    <title>Приглашение добавить учащегося</title>
+    <image href="img/addStdPrompt.png" placement="break">
+      <alt>Приглашение добавить учащегося</alt>
+    </image>
+</fig>
+
+<p>
+Вышеуказанное приглашение служит как напоминанием, так и дополнительным средством автоматизации, призванным ускорить и упростить работу пользователя.
+</p>
+<note type="tip">Нажмите кнопку <b>Добавить</b> при желании или необходимости совершения предлагаемого действия, заполнив сначала требуемые данные</note>
+
+</section>
+</refbody>
+</reference>

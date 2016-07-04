@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
+"reference.dtd">
+
+<reference id="search" xml:lang="ru-RU">
+
+  <title>Поиск</title>
+  <refbody>
+  <section>
+  
+<p>
+В программе <wintitle>Диалог Nibelung StudDB</wintitle> реализована фильтрация записей для их эффективного поиска. Фильтрация работает в двух режимах: по всем полям и по каждому полю.
+
+<fig id="filter_png">
+    <title>Фильтр по всем полям</title>
+    <image href="img/filter.png" placement="break">
+      <alt>Фильтр по всем полям</alt>
+    </image>
+</fig>
+
+<fig id="filterTable_png">
+    <title>Фильтр по каждому полю</title>
+    <image href="img/filterTable.png" placement="break">
+      <alt>Фильтр по каждому полю</alt>
+    </image>
+</fig>
+
+<ul>
+
+  <li>В первом режиме поиск ведется <b>по всем полям</b> записей, отображаемых в данный момент в табличном виде. Например, после ввода в поле фильтра строки <userinput>"Влад"</userinput>, будут отображены учащиеся с именем "Владимир", отчеством "Владиславович" и так далее.
+  </li>
+
+  <li>Во втором режиме фильтр работает <b>по каждому полю</b>, позволяя производить избирательный поиск. Под заголовком каждого столбца имеется поле, ввод данных в которое будет оставлять в таблице только те записи, которые содержат данную строку в данном столбце.
+  </li>
+  
+</ul>
+</p>
+
+<note type="attention">Фильтр по всем полям и фильтр по каждому полю не работают одновременно</note>
+
+</section>
+</refbody>
+</reference>

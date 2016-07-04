@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+
+<concept id="sysreq" xml:lang="ru-RU">
+  <title>Системные требования</title>
+  <conbody>    
+
+    <ul>
+      <li>Операционная система:
+        <ul>
+          <li>Microsoft Windows XP;</li>
+          <li>Microsoft Windows Vista;</li>
+          <li>Microsoft Windows 7;</li>
+          <li>Microsoft Windows 8, Windows 8.1;</li>
+          <li>Microsoft Windows 10;</li>
+          <li>Microsoft Windows Server 2003;</li>
+          <li>Microsoft Windows Server 2008;</li>
+          <li>Microsoft Windows Server 2012.</li>
+        </ul>
+      </li>
+      <li>Microsoft .NET Framework 4.0 (включен в установку);</li>
+      <li>Microsoft Windows Installer 3.1 (включен в установку).</li>
+    </ul>
+    <p>Целевая операционная система может быть 32- или 64-битной разрядности.</p>
+
+  </conbody>
+</concept>

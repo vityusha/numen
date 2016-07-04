@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
+"reference.dtd">
+
+<reference id="winmove" xml:lang="ru-RU">
+  <title>Диалог перевода в другое подразделение</title>
+  <refbody>
+  <section>
+  
+<p>
+Диалог для перевода в другое подразделение появляется при восстановлении учащегося из архива (см. <xref keyref="archive"/>&#160;), а также совместно - при показе карточки учащегося (см. <xref keyref="winstudent"/>&#160;), во всех его режимах (добавление, редактирование, удаление, восстановление).
+</p>
+
+<fig id="dlgStudentEditDestSelCombo_png">
+    <title>Диалог для перевода совместно с диалогом учащегося</title>
+    <image href="img/dlgStudentEditDestSelCombo.png" placement="break">
+      <alt>Диалог для перевода совместно с диалогом учащегося</alt>
+    </image>
+</fig>
+
+<fig id="dlgStudentRestoreDestSelCombo_png">
+    <title>Диалог для перевода при восстановлении из архива</title>
+    <image href="img/dlgStudentRestoreDestSelCombo.png" placement="break">
+      <alt>Диалог для перевода при восстановлении из архива</alt>
+    </image>
+</fig>
+
+<p>
+В данном диалоге содержится информация о подразделении, в которое будет добавлен, переведен или восстановлен учащийся.
+</p>        
+
+<note type="tip">В случае показа в режиме редактирования автоматически выбирается текущее подразделение учащегося</note>
+
+  </section>
+  </refbody>
+</reference>

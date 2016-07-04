@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
+"reference.dtd">
+
+<reference id="student_remove" xml:lang="ru-RU">
+
+  <title>Удаление (архивация) учащегося</title>
+  
+  <refbody>
+  
+    <section>
+      <p>
+        Для удаления (архивации) существующего учащегося выполните любое из нижеуказанных действий для выделенного учащегося:
+        <ul>
+          <li>Выберите пункт меню <menucascade>
+              <uicontrol>Учащийся</uicontrol>
+              <uicontrol>Удалить учащегося</uicontrol>
+            </menucascade>;</li>
+          <li>Нажмите кнопку <uicontrol>Удалить учащегося</uicontrol> на панели инструментов;</li>
+          <li>Выберите соответствующий пункт контекстного меню учащегося в древовидном или табличном просмотре;</li>
+          <li>Нажмите сочетание клавиш <uicontrol>
+              <shortcut>Alt + D</shortcut>
+            </uicontrol>;</li>
+          <li>Выделив учащегося в области древовидного просмотра, нажмите клавишу <uicontrol>
+              <shortcut>Delete</shortcut>
+            </uicontrol>. (в этом случае появится не диалог, а запрос на удаление учащегося).</li>
+        </ul>
+      </p>
+
+      <p>
+Справа от области древовидного просмотра появится карточка учащегося (см. <xref keyref="winstudent"/>&#160;) в режиме <b>удаления (архивации) существующего учащегося</b>.
+      </p>
+
+      <p>
+Для выполнения команды удаления нажмите кнопку <b>Удалить</b> или клавишу <uicontrol>
+          <shortcut>Enter</shortcut>
+        </uicontrol>. Для отмены нажмите кнопку <b>Отмена</b> или клавишу <uicontrol>
+          <shortcut>Esc</shortcut>
+        </uicontrol>.
+      </p>
+    </section>
+
+  </refbody>
+  
+</reference>

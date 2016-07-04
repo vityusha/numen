@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="student_info" xml:lang="en-US">
+    <title>Учетная карточка учащегося</title>
+    <conbody>  
+        <p>При выборе контекстного пункта меню учащегося <menucascade><uicontrol>Профиль учащегося</uicontrol><uicontrol>Учетная карточка учащегося</uicontrol></menucascade> (см. п. <xref keyref="menu_single"/>&#160;) на экране появится окно ввода регистрационных данных учащегося (<xref keyref="student_info/student_card_png" type="fig"/>&#160;).</p>
+        <fig id="student_card_png">
+            <title>Окно <wintitle>Учетная карточка учащегося</wintitle></title>
+            <image href="img/student_card.png" placement="break">
+                <alt>Окно <wintitle>Учетная карточка учащегося</wintitle></alt>
+            </image>
+        </fig>
+        <p>Учетные данные учащихся могут быть сохранены в файле класса (сохраняются автоматически при сохранении класса - см. п. <xref keyref="student_class"/>&#160;) либо могут храниться в специальной базе данных учащихся. Работа с базой данных учащихся рассматривается в п. <xref keyref="studdb_intro"/>&#160;.</p>
+        <p>В учетной карточке учащегося содержатся следующие сведения:</p>
+        <table frame="topbot">
+            <tgroup cols="2">
+                <colspec colname="COLSPEC0" colwidth="10*"/>
+                <colspec colname="COLSPEC1" colwidth="120*"/>
+                <tbody>
+                    <row>
+                        <entry>1</entry>
+                        <entry>Фотография учащегося, либо любое другое изображение</entry>
+                    </row>
+                    <row>
+                        <entry>2</entry>
+                        <entry>Фамилия, Имя, Отчество учащегося</entry>
+                    </row>
+                    <row>
+                        <entry>3</entry>
+                        <entry>Отображаемое имя - имя, которое будет выводиться на графическом представлении учащегося в классе</entry>
+                    </row>
+                    <row>
+                        <entry>4</entry>
+                        <entry>Номер ученического билета</entry>
+                    </row>
+                    <row>
+                        <entry>5</entry>
+                        <entry>BYOD ID - уникальный номер персонального электронного устройства учащегося (например, планшета), на который установлена клиентская программа <wintitle>Диалог Nibelung</wintitle></entry>
+                    </row>
+                    <row>
+                        <entry>6</entry>
+                        <entry>Класс или группа, в которой обучается учащийся</entry>
+                    </row>
+                    <row>
+                        <entry>7</entry>
+                        <entry>Телефон учащегося</entry>
+                    </row>
+                    <row>
+                        <entry>8</entry>
+                        <entry>E-mail учащегося</entry>
+                    </row>
+                    <row>
+                        <entry>9</entry>
+                        <entry>Дата рождения учащегося</entry>
+                    </row>
+                    <row>
+                        <entry>10</entry>
+                        <entry>Пол учащегося</entry>
+                    </row>
+                    <row>
+                        <entry>11</entry>
+                        <entry>Дополнительные сведения</entry>
+                    </row>
+                </tbody> 
+            </tgroup>
+        </table>
+        <p>Если в карточке учащегося заполнен номер ученического билета, то при регистрации (см. п. <xref keyref="registration"/>&#160;) учащиеся могут ввести номер своего ученического билета. В этом случае в регистрационные данные автоматически подставятся данные того учащегося, номер ученического билета которого совпадет с введенным номером.</p>
+        <p>Чтобы изменить фотографию учащегося, необходимо щелкнуть мышкой на изображении учащегося и в появившемся диалоговом окне выбрать любой графический файл. Чтобы очистить фотографию учащегося, необходимо нажать на кнопку <uicontrol>Удалить</uicontrol> под фотографией.</p>
+    </conbody>
+</concept>

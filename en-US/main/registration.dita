@@ -26,5 +26,12 @@
             </image>
         </fig>
 	   <p>Right click on a student panel and select <uicontrol>Change name</uicontrol> from the pop-up menu to change student's name and/or ID number after the roll call. Enter the new name into <wintitle>Enter name</wintitle> window (<xref keyref="registration/registration_png" type="fig"/>&#160;).</p>
+        <p>Если при регистрации или задании имени учащегося вручную случилась ситуация, что в классе уже существует учащийся с таким же именем, то имя этого учащегося будет отображаться красным цветом и рядом с именем будет стоять знак <b>(!)</b> (<xref keyref="registration/existingname_png" type="fig"/>&#160;).</p>
+		<fig id="existingname_png">
+            <title>Дублирующееся имя учащегося</title>
+            <image href="img/existingname.png" placement="break">
+                <alt>Дублирующееся имя учащегося</alt>
+            </image>
+        </fig>
 	</conbody>
 </concept>

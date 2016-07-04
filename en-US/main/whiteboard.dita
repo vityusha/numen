@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="whiteboard" xml:lang="en-US">
+    <title><keyword>Интерактивная доска</keyword></title>
+    <conbody>  
+        <p><indexterm>Интерактивная доска</indexterm>В этом режиме учащиеся и преподаватель могут совместно рисовать на виртуальной интерактивной доске. При этом результаты рисования отображаются в специальном окне, открывающемся в этом режиме на экранах учащихся и на экране преподавателя.</p>
+        <p>Чтобы открыть интерактивную доску для всего класса или для определенной группы, преподаватель должен в меню всего класса (п. <xref keyref="menu_class"/>&#160;) или нужной группы (п. <xref keyref="menu_group"/>&#160;) нажать на кнопку <uicontrol>Взаимодействие</uicontrol>, а потом выбрать пункт <uicontrol>Интерактивная доска</uicontrol>.</p>
+        <p>На экране монитора преподавателя появится окно интерактивной доски (<xref keyref="whiteboard/whiteboard_png" type="fig"/>&#160;).</p> 
+        <fig id="whiteboard_png">
+            <title>Окно интерактивной доски</title>
+            <image href="img/whiteboard.png" placement="break">
+                <alt>Окно интерактивной доски</alt>
+            </image>
+        </fig>		
+        <p>На этом рисунке цифрами обозначены:</p>
+        <table frame="topbot">
+            <tgroup cols="2">
+                <colspec colname="COLSPEC0" colwidth="10*"/>
+                <colspec colname="COLSPEC1" colwidth="120*"/>
+                <tbody>
+                    <row>
+                        <entry>1</entry>
+                        <entry>Закладки групп.</entry>
+                    </row>
+                    <row>
+                        <entry>2</entry>
+                        <entry>Кнопка <uicontrol>Отмена</uicontrol> для отмены преподавателем последнего присланного каким-либо участником (включая самого преподавателя) изменения в картинке. Отмена применяется к преподавателю и всем подключенным учащимся текущей группы. Отменять можно не только последнее, но и предыдущие действия, последовательно нажимая данную кнопку.</entry>
+                    </row>
+                    <row>
+                        <entry>3</entry>
+                        <entry>Кнопка <uicontrol>Старт/Стоп</uicontrol> для запуска или останова сессии интерактивной доски.</entry>
+                    </row>
+                    <row>
+                        <entry>4</entry>
+                        <entry>Область рисования, ограниченная скругленным белым прямоугольником.</entry>
+                    </row>
+                    <row>
+                        <entry>5</entry>
+                        <entry>Инструменты рисования.</entry>
+                    </row>
+                    <row>
+                        <entry>6</entry>
+                        <entry>Настройки инструментов рисования.</entry>
+                    </row>
+                    <row>
+                        <entry>7</entry>
+                        <entry>Кнопка отправки в режиме с подтверждением.</entry>
+                    </row>
+                    <row>
+                        <entry>8</entry>
+                        <entry>Текущие координаты курсора на области рисования.</entry>
+                    </row>
+                    <row>
+                        <entry>9</entry>
+                        <entry>Кнопка отмены неотправленного в режиме с подтверждением.</entry>
+                    </row>
+                    <row>
+                        <entry>10</entry>
+                        <entry>Настройки для инструмента <uicontrol>Текст</uicontrol>.</entry>
+                    </row>
+                    <row>
+                        <entry>11</entry>
+                        <entry>Настройки режимов работы.</entry>
+                    </row>
+
+                    <row>
+                        <entry>12</entry>
+                        <entry>Кнопка сохранения рисунка.</entry>
+                    </row>
+                    <row>
+                        <entry>13</entry>
+                        <entry>Индикатор наличия связи с сервером интерактивной доски и сетевой активности.</entry>
+                    </row>
+                    <row>
+                        <entry>14</entry>
+                        <entry>Настройки и индикация цветов линий и заливки.</entry>
+                    </row>
+                </tbody> 
+            </tgroup>
+        </table>
+        <p>Для начала сессии интерактивной доски преподаватель должен нажать на кнопку <uicontrol>Старт</uicontrol> (название ее поменяется на <uicontrol>Стоп</uicontrol>), при этом на компьютерах членов группы запустится окно интерактивной доски.</p> 
+        <note type="important">Обратите внимание, что в группах, где запущена сессия интерактивной доски, имя группы на соответствующей закладке выводится красным цветом.</note>
+        <p>В активной сессии интерактивной доски преподаватель и учащиеся могут выбирать инструменты рисования и пользоваться ими для рисования на интерактивной доске. При этом результаты рисования будут отображаться у всех участников активной группы и у преподавателя.</p>
+        <p>Инструменты рисования, перечисленные в порядке сверху вниз:</p>
+        <ul>
+            <li>Кисть</li>
+            <li>Ластик</li>
+            <li>Прямоугольник</li>
+            <li>Квадрат</li>
+            <li>Эллипс</li>
+            <li>Круг</li>
+            <li>Линия</li>
+            <li>Стрелка</li>
+            <li>Точка</li>
+            <li>Звезда</li>
+            <li>Полигон</li>
+            <li>Ломаная</li>
+            <li>Кривая</li>
+            <li>Картинка</li>
+            <li>Текст</li>
+        </ul>
+
+        <p>Интерактивная доска имеет несколько режимов работы: режим <uicontrol>с подтверждением</uicontrol> и <uicontrol>простой</uicontrol> (без подтверждения) режим. При режиме <uicontrol>с подтверждением</uicontrol> преподаватель или учащийся может нарисовать одно или ряд графических элементов и отправить их остальным участником с помощью кнопки <uicontrol>Отправить</uicontrol>. До момента отправки он легко может изменить рисуемое или вовсе отменить его. При выключенном режиме подтверждения отправка нарисованного на сервер происходит сразу же после того, как закончено рисование элемента. В режиме с подтверждением есть подрежим т.н. <uicontrol>мультирисования</uicontrol>. В режиме <uicontrol>мультирисования</uicontrol> перед отправкой можно нарисовать пакет элементов, если же он выключен, то до отправки можно нарисовать единичный элемент, например, эллипс либо текст либо картинку.</p>
+
+        <p><uicontrol>Команды управления интерактивной доской и клавиши быстрого доступа:</uicontrol></p>
+        <table frame="topbot">
+            <tgroup cols="3">
+                <colspec colname="COLSPEC0" colwidth="12"/>
+                <colspec colname="COLSPEC1" colwidth="40"/>
+                <colspec colname="COLSPEC2" colwidth="150*"/>
+
+                <thead>
+
+                    <row>
+                        <entry colname="COLSPEC0" align="left">№</entry>
+                        <entry colname="COLSPEC1" align="center">Сочетание клавиш</entry>
+                        <entry colname="COLSPEC2" align="center">Команда</entry>
+                    </row>
+
+                </thead>
+
+                <tbody>
+                    <row>
+                        <entry>1</entry>
+                        <entry align="center"><uicontrol><shortcut>Enter
+                                </shortcut></uicontrol></entry>
+                        <entry>Подтвердить создание объекта типа <uicontrol>Текст</uicontrol>, <uicontrol>Картинка</uicontrol></entry>
+                    </row>
+                    <row>
+                        <entry>2</entry>
+                        <entry align="center"><uicontrol><shortcut>Escape
+                                </shortcut></uicontrol></entry>
+                        <entry>Отменить создание объекта или последнего объекта в режиме мультирисования. В режиме простого рисования следует нажимать до отпускания левой кнопки мыши (кроме режимов <uicontrol>Текст</uicontrol>, <uicontrol>Картинка</uicontrol>, <uicontrol>Кривая</uicontrol> и <uicontrol>Ломаная</uicontrol>). При этом в режиме мультирисования будет удалено столько неотправленных объектов из пакета, сколько раз была нажата клавиша <uicontrol>Escape</uicontrol> (но не более количества имеющихся объектов)</entry>
+                    </row>
+                    <row>
+                        <entry>3</entry>
+                        <entry align="center"><uicontrol><shortcut>Левая кнопка мыши, нажатие
+                                </shortcut></uicontrol></entry>
+                        <entry>Начало рисования или перемещения объекта (в режимах <uicontrol>Текст</uicontrol> и <uicontrol>Картинка</uicontrol>), либо вызов диалога выбора в режиме <uicontrol>Картинка</uicontrol>, либо добавление очередной базовой точки в режимах <uicontrol>Ломаная</uicontrol> и <uicontrol>Кривая</uicontrol></entry>
+                    </row>
+                    <row>
+                        <entry>4</entry>
+                        <entry align="center"><uicontrol><shortcut>Левая кнопка мыши, отпускание
+                                </shortcut></uicontrol></entry>
+                        <entry>Конец рисования или перемещения объекта, кроме режимов <uicontrol>Ломаная</uicontrol> и <uicontrol>Кривая</uicontrol>. Отпускание левой кнопки в режиме без подтверждения приводит к немедленной отправке нарисованного всем участникам, за исключением режимов <uicontrol>Ломаная</uicontrol>, <uicontrol>Кривая</uicontrol> (для них отправка произойдет при нажатии <uicontrol><shortcut>правой кнопки мыши</shortcut></uicontrol>), <uicontrol>Текст</uicontrol> и <uicontrol>Картинка</uicontrol> (для них отправка произойдет при нажатии клавиши <uicontrol><shortcut>Enter</shortcut></uicontrol>)</entry>
+                    </row>
+                    <row>
+                        <entry>5</entry>
+                        <entry align="center"><uicontrol><shortcut>Колесико мыши
+                                </shortcut></uicontrol></entry>
+                        <entry>Масштабирование объекта, при нажатой клавише <uicontrol><shortcut>Alt</shortcut></uicontrol> - задание количества лучей/ребер в режимах <uicontrol>Звезда</uicontrol> и <uicontrol>Полигон</uicontrol>, при нажатой клавише <uicontrol><shortcut>Shift</shortcut></uicontrol> - изменение угла для вращаемых фигур</entry>
+                    </row>
+                    <row>
+                        <entry>6</entry>
+                        <entry align="center"><uicontrol><shortcut>Правая кнопка мыши
+                                </shortcut></uicontrol></entry>
+                        <entry>Подтверждает окончание создания объектов в режимах <uicontrol>Картинка</uicontrol> (щелчок следует произвести по создаваемой картинке), <uicontrol>Кривая</uicontrol> и <uicontrol>Ломаная</uicontrol></entry>
+                    </row>
+                    <row>
+                        <entry>7</entry>
+                        <entry align="center"><uicontrol><shortcut>Shift
+                                </shortcut></uicontrol></entry>
+                        <entry>При совместном использовании с <uicontrol>колесиком мыши</uicontrol> задает режим вращения</entry>
+                    </row>
+                    <row>
+                        <entry>8</entry>
+                        <entry align="center"><uicontrol><shortcut>Alt
+                                </shortcut></uicontrol></entry>
+                        <entry>При совместном использовании с <uicontrol>колесиком мыши</uicontrol> задает режим изменения количества лучей / ребер. В режимах <uicontrol>Ломаная</uicontrol> и <uicontrol>Кривая</uicontrol> удержание клавиши <uicontrol><shortcut>Alt</shortcut></uicontrol> до начала создания элемента включает режим его заливки</entry>
+                    </row>
+                    <row>
+                        <entry>9</entry>
+                        <entry align="center"><uicontrol><shortcut>Ctrl
+                                </shortcut></uicontrol></entry>
+                        <entry>При совместном использовании с <uicontrol>колесиком мыши</uicontrol> задает режим масштабирования. При совместном использовании со стрелками клавиатуры (<uicontrol><shortcut>Влево</shortcut></uicontrol>, <uicontrol><shortcut>Вправо</shortcut></uicontrol>, <uicontrol><shortcut>Вверх</shortcut></uicontrol>, <uicontrol><shortcut>Вниз</shortcut></uicontrol>) задает режим ускоренного перемещения (с шагом 10 экранных пикселей) фигуры</entry>
+                    </row>
+                    <row>
+                        <entry>10</entry>
+                        <entry align="center"><uicontrol><shortcut>Q</shortcut></uicontrol>, <uicontrol><shortcut>W</shortcut></uicontrol></entry>
+                        <entry>Поворачивают вращаемую фигуру с шагом в 1 градус против и по часовой стрелке соответственно</entry>
+                    </row>
+                    <row>
+                        <entry>11</entry>
+                        <entry align="center"><uicontrol><shortcut>A</shortcut></uicontrol>, <uicontrol><shortcut>S</shortcut></uicontrol></entry>
+                        <entry>Поворачивают вращаемую фигуру с шагом в 10 градусов против и по часовой стрелке соответственно</entry>
+                    </row>
+                    <row>
+                        <entry>12</entry>
+                        <entry align="center"><uicontrol><shortcut>Ctrl + Z
+                                </shortcut></uicontrol></entry>
+                        <entry>Возвращает обратно удаленные в мультирежиме объекты в порядке, обратном порядку удаления, при их наличии</entry>
+                    </row>
+                    <row>
+                        <entry>12</entry>
+                        <entry align="center"><uicontrol><shortcut>Стрелки клавиатуры
+                                </shortcut></uicontrol></entry>
+                        <entry>Перемещают последний неотправленный объект в нужную сторону с шагом 1 экранный пиксель</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+
+        <p>Для большинства объектов до момента их отправки участникам возможно изменять общие (толщина, цвета заливки, положение, прозрачность, угол поворота, масштаб) и специфичные свойства (например, строка текста или файл добавляемой картинки).</p>
+        <p>Чтобы закончить сессию интерактивной доски, надо нажать на кнопку <uicontrol>Стоп</uicontrol>.</p>
+        <p>Для закрытия окна интерактивной доски используется кнопка <uicontrol>Закрыть</uicontrol>. При этом будет предложено остановить сессии интерактивной доски для активных групп.</p>
+        <note type="important">При нажатии в режиме мультирисования кнопки <uicontrol>Отмена</uicontrol> отменяется сразу весь неотправленный пакет, при этом сочетание <uicontrol>Ctrl+Z</uicontrol> работать не будет.</note>
+        <note type="tip">Возможна вставка картинки из файла методом <uicontrol>drag'n'drop</uicontrol>, т.е. просто перетаскивая нужный файл мышкой на область рисования интерактивной доски. При этом режим автоматически поменяется на <uicontrol>17 - Картинка</uicontrol> и появится изображение накладываемого файла, которое можно затем передвинуть, повернуть и отмасштабировать либо отменить.</note>
+        <note type="tip">В режиме мультирисования с подтверждением: когда необходимо создать несколько текстовых объектов подряд, после готовности очередного текста нажимайте клавишу <uicontrol>Enter</uicontrol> для фиксации. В противном случае будет происходить перемещение текста, а не добавление нового. Аналогично, если необходимо добавить несколько картинок подряд, после готовности картинки кликните непосредственно по ней правой кнопкой мыши. В противном случае будет продолжать редактироваться текущая картинка.</note>
+
+    </conbody>
+</concept>

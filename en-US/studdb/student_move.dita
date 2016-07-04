@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
+"reference.dtd">
+
+<reference id="student_move" xml:lang="ru-RU">
+  <title>Перевод учащегося</title>
+  <refbody>
+  <section>
+  
+<p>
+Для перевода учащегося в другое подразделение можно поступить двумя способами:
+<ul>
+<li>Вызвать карточку учащегося (см. <xref keyref="winstudent"/>&#160;) и указать в ниспадающем списке целевое подразделение;</li>
+<li>Находясь в области древовидного представления, "перетащить" учащегося методом drug'n'drop (см. <xref keyref="glossary"/>&#160;) в целевое подразделение.</li>
+</ul>
+</p>        
+
+  </section>
+  </refbody>  
+</reference>

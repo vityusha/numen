@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
+"reference.dtd">
+
+<reference id="shortcuts" xml:lang="ru-RU">
+
+  <title>Клавиатурные сокращения</title>
+  <refbody>
+  <section>
+  
+<p>    
+Для большинства действий в программе <wintitle>Диалог Nibelung StudDB</wintitle> имеются клавиатурные сочетания.
+</p>
+
+<p><uicontrol>Команды, работающие во всех режимах:</uicontrol></p>
+
+<table frame="topbot">
+          <tgroup cols="3">
+                <colspec colname="COLSPEC0" colwidth="12"/>
+                <colspec colname="COLSPEC1" colwidth="150"/>
+                <colspec colname="COLSPEC2" colwidth="30*"/>
+                
+          <thead>
+          
+            <row>
+              <entry colname="COLSPEC0" align="left">№</entry>
+              <entry colname="COLSPEC1" align="center">Команда</entry>
+              <entry colname="COLSPEC2" align="center">Сочетание клавиш</entry>
+            </row>
+            
+          </thead>
+          
+                <tbody>
+                    <row>
+                        <entry>1</entry>
+                        <entry>Сохранить базу данных *</entry>
+                        <entry align="center"><uicontrol><shortcut>Ctrl + S
+                        </shortcut></uicontrol></entry>
+                    </row>
+                    <row>
+                        <entry>2</entry>
+                        <entry>Завершить сеанс</entry>
+                        <entry align="center"><uicontrol><shortcut>Ctrl + L
+                        </shortcut></uicontrol></entry>
+                    </row>
+                    <row>
+                        <entry>3</entry>
+                        <entry>Выход</entry>
+                        <entry align="center"><uicontrol><shortcut>Alt + F4
+                        </shortcut></uicontrol></entry>
+                    </row>
+                    <row>
+                        <entry>4</entry>
+                        <entry>Добавить подразделение</entry>
+                        <entry align="center"><uicontrol><shortcut>Ctrl + Alt + A
+                        </shortcut></uicontrol></entry>
+                    </row>
+                    <row>
+                        <entry>5</entry>
+                        <entry>Редактировать подразделение</entry>
+                        <entry align="center"><uicontrol><shortcut>Ctrl + Alt + E
+                        </shortcut></uicontrol></entry>
+                    </row>
+                    <row>
+                        <entry>6</entry>
+                        <entry>Удалить подразделение</entry>
+                        <entry align="center"><uicontrol><shortcut>Ctrl + Alt + D
+                        </shortcut></uicontrol></entry>
+                    </row>
+                    <row>
+                        <entry>7</entry>
+                        <entry>Добавить учащегося</entry>
+                        <entry align="center"><uicontrol><shortcut>Alt + A
+                        </shortcut></uicontrol></entry>
+                    </row>
+                    <row>
+                        <entry>8</entry>
+                        <entry>Редактировать данные учащегося</entry>
+                        <entry align="center"><uicontrol><shortcut>Alt + E
+                        </shortcut></uicontrol></entry>
+                    </row>
+                    <row>
+                        <entry>9</entry>
+                        <entry>Удалить учащегося</entry>
+                        <entry align="center"><uicontrol><shortcut>Alt + D
+                        </shortcut></uicontrol></entry>
+                    </row>
+                    <row>
+                        <entry>10</entry>
+                        <entry>Показать настоящее руководство</entry>
+                        <entry align="center"><uicontrol><shortcut>F1
+                        </shortcut></uicontrol></entry>
+                    </row>                                        
+                </tbody>
+                </tgroup>
+</table>
+
+<p>
+* - команда доступна только в режиме резервирования.
+</p>
+
+<p><uicontrol>Команды, работающие только в административном режиме:</uicontrol></p>
+
+<table frame="topbot">
+          <tgroup cols="3">
+                <colspec colname="COLSPEC0" colwidth="12"/>
+                <colspec colname="COLSPEC1" colwidth="150"/>
+                <colspec colname="COLSPEC2" colwidth="30*"/>
+                
+          <thead>
+          
+            <row>
+              <entry colname="COLSPEC0" align="left">№</entry>
+              <entry colname="COLSPEC1" align="center">Команда</entry>
+              <entry colname="COLSPEC2" align="center">Сочетание клавиш</entry>
+            </row>
+            
+          </thead>
+          
+                <tbody>
+                    <row>
+                        <entry>1</entry>
+                        <entry>Создать базу данных</entry>
+                        <entry align="center"><uicontrol><shortcut>Ctrl + N
+                        </shortcut></uicontrol></entry>
+                    </row>
+                    <row>
+                        <entry>2</entry>
+                        <entry>Соединиться с базой данных</entry>
+                        <entry align="center"><uicontrol><shortcut>Ctrl + O
+                        </shortcut></uicontrol></entry>
+                    </row>
+                    <row>
+                        <entry>3</entry>
+                        <entry>Отсоединиться от базы данных</entry>
+                        <entry align="center"><uicontrol><shortcut>Ctrl + W
+                        </shortcut></uicontrol></entry>
+                    </row>
+                    <row>
+                        <entry>4</entry>
+                        <entry>Открыть диалог "Настройки программы"</entry>
+                        <entry align="center"><uicontrol><shortcut>Ctrl + H
+                        </shortcut></uicontrol></entry>
+                    </row>
+                    <row>
+                        <entry>5</entry>
+                        <entry>Открыть диалог "Управление пользователями"</entry>
+                        <entry align="center"><uicontrol><shortcut>Ctrl + U
+                        </shortcut></uicontrol></entry>
+                    </row>
+                    
+                </tbody>
+                </tgroup>
+</table>
+
+<p><uicontrol>Команды, доступные только из контекстных меню:</uicontrol></p>
+
+<ul>
+<li>Очистить архив;</li>
+<li>Свернуть (элемент древовидного представления);</li>
+<li>Раскрыть все (элемент древовидного представления);</li>
+<li>Правка учебного заведения;</li>
+<li>Восстановить учащегося;</li>
+<li>Удалить учащегося (из архива);</li>
+<li>Экспорт:
+<ul>
+<li>учебного заведения (все);</li>
+<li>учебного заведения (только учащиеся);</li>
+<li>учебного заведения (только сводная информация);</li>
+<li>всех учащихся;</li>
+<li>подразделения;</li>
+<li>учащегося;</li>
+<li>архива.</li>
+</ul>
+</li>
+</ul>
+
+<note type="tip">Если команда в данный момент неприменима, то соответствующий элемент меню, панели инструментов и клавиатурное сочетание работать не будут</note>
+    
+  </section>
+  </refbody>  
+</reference>

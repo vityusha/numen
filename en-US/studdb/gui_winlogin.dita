@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
+"reference.dtd">
+
+<reference id="winlogin" xml:lang="ru-RU">
+  <title>Окно авторизации</title>
+  <refbody>
+  <section>
+  
+<p>
+Окно авторизации появляется сразу после запуска программы <wintitle>Диалог Nibelung StudDB</wintitle>.
+</p>
+
+<fig id="login_png">
+    <title>Окно авторизации</title>
+    <image href="img/login.png" placement="break">
+      <alt>Окно авторизации</alt>
+    </image>
+</fig>
+
+<p>
+Для авторизации проделайте следующие действия:
+<ul>
+  <li>Выберите свое имя в ниспадающем списке. Это можно сделать:
+    <ol>
+      <li>мышкой, щелкнув по области с треугольником справа от ниспадающего списка;</li>
+      <li>прокруткой колеса мыши;</li>
+      <li>клавишей <uicontrol><shortcut>F4</shortcut></uicontrol> и, после выпадения списка, - стрелками вверх-вниз клавиатуры; после выбора нажимается клавиша <uicontrol><shortcut>Enter</shortcut></uicontrol>;</li>
+      <li>стрелками вверх-вниз клавиатуры.</li>
+    </ol>
+  </li>
+  <li>Введите свой пароль;</li>
+  <li>Для проверки данных и начала рабочей сессии нажмите кнопку <uicontrol>OК</uicontrol> или
+клавишу <uicontrol><shortcut>Enter</shortcut></uicontrol>.</li>
+</ul>
+
+В случае ввода неправильного пароля Вам будет предложено
+ввести его заново.
+
+<note type="attention">Если Вы хотите изменить пароль, нажмите мышкой на соответствующий
+текст <uicontrol>Изменить пароль</uicontrol>. Появится диалог (п. <xref keyref="winuser"/>&#160;).
+Для изменения пароля необходимо знать свой текущий пароль!</note>
+
+<note type="tip">При нажатой клавише <uicontrol><shortcut>CapsLock</shortcut></uicontrol> в окне появится соответствующий индикатор</note>
+
+Нажатие кнопки <uicontrol>Отмена</uicontrol> или клавиши <uicontrol><shortcut>Esc</shortcut></uicontrol> приводит к выходу из программы.
+</p>
+
+  </section>
+  </refbody>
+</reference>

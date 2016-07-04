@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN"
+"map.dtd">
+
+<map id="studdb" xml:lang="ru-RU">
+  <topicmeta>
+    <shortdesc>В данном документе представлено описание ПО Диалог Nibelung StudDB.</shortdesc>
+    <author type="creator">Титов С., Винокуров В.</author>
+    <source/>
+    <publisher>ООО "Лайн"</publisher>
+    <copyright>
+      <copyryear year="2015"/>
+      <copyrholder>ООО "Лайн".</copyrholder>
+    </copyright>
+    <critdates>
+      <created date="27.04.2015"/>
+    </critdates>
+    <prodinfo>
+      <prodname>Диалог Nibelung StudDB - руководство пользователя</prodname>
+      <vrmlist>
+        <vrm version="3.1.0.1"/>
+      </vrmlist>
+    </prodinfo>
+    <othermeta content="Руководство пользователя" name="doctype"/>
+    <othermeta content="3.1.0.1" name="docedition"/>
+  </topicmeta>
+  <topicref href="ru-RU/studdb/concepts/symbols.dita" />
+  <topicref href="ru-RU/studdb/concepts/introduction.dita" />
+  <topichead navtitle="Установка и настройка ПО">
+    <topicref href="ru-RU/studdb/installation/system_requirements.dita" />
+    <topicref href="ru-RU/studdb/installation/hardware_requirements.dita" />
+    <topicref href="ru-RU/studdb/installation/installation_notes.dita" />
+    <topicref href="ru-RU/studdb/installation/installation.dita" />
+  </topichead>
+  <topichead navtitle="Ответы на часто задаваемые вопросы (FAQ)">
+    <topicref keys="faq-sw" href="ru-RU/studdb/concepts/faq-sw.dita" />
+    <topicref href="ru-RU/studdb/concepts/faq-install.dita" />
+  </topichead>
+  <topicref keys="errors" href="ru-RU/studdb/concepts/errors.dita" />
+  <topicref keys="license_agreement" href="ru-RU/studdb/license/license_agreement.dita" />
+  <topicref keys="contacts" href="ru-RU/studdb/concepts/contacts.dita" />
+  <topicref keys="glossary" href="ru-RU/studdb/concepts/glossary.dita" />
+  <topicref keys="certificate" href="ru-RU/studdb/concepts/certificate.dita" />
+  <topicref keys="PS" href="ru-RU/studdb/concepts/ps.dita" toc="no" />
+</map>

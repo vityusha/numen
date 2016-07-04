@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="setup_mic_10" xml:lang="en-US">
+    <title>Настройка микрофона для ОС Windows 8/10</title>
+    <conbody>
+        <note type="important">Перед тем как производить настройку микрофона в операционных системах Windows 8/10, необходимо подключить микрофон к компьютеру (обычно это красный разьем на звуковой карте).</note>
+        <p>Для того, чтобы подключить и настроить микрофон в операционной системе Windows 8/10, нужно открыть <wintitle>Панель управления</wintitle> (<xref keyref="setup_mic_10/control_panel_10_png" type="fig"/>&#160;). Для этого щелкните правой клавишей мышки на кнопке <uicontrol>Пуск</uicontrol> или одновременно нажмите на клавиатуре клавиши <uicontrol><shortcut>Win + X</shortcut></uicontrol> и выберите в открывшемся меню пункт <uicontrol>Панель управления</uicontrol>.</p>
+        <fig id="control_panel_10_png">
+            <title>Панель управления в ОС Windows 8/10</title>
+            <image href="img/control_panel_10.png" placement="break" scalefit="yes">
+                <alt>Панель управления в ОС Windows 8/10</alt>
+            </image>
+        </fig>
+        <p>В окне <uicontrol>Панели управления</uicontrol> выберите <wintitle>Оборудование и звук</wintitle>, а затем <wintitle>Звук</wintitle>.</p>
+        <p>На экране монитора появится окно <wintitle>Звук</wintitle> (<xref keyref="setup_mic_10/sound_10_1_png" type="fig"/>&#160;), в котором нужно выбрать закладку <wintitle>Запись</wintitle>. Дальше необходимо выделить строку с микрофоном и нажать на кнопку <uicontrol>Свойства</uicontrol>.</p>        
+        <fig id="sound_10_1_png">
+            <title>Окно <wintitle>Звук</wintitle></title>
+            <image href="img/sound_10_1.png" placement="break">
+                <alt>Окно <wintitle>Звук</wintitle></alt>
+            </image>
+        </fig>
+        <p>На экране монитора появится окно <wintitle>Свойства: Микрофон</wintitle> (<xref keyref="setup_mic_10/sound_10_4_png" type="fig"/>&#160;). В закладке <wintitle>Общие</wintitle> в пункте <uicontrol>Применение устройства</uicontrol> должно быть установлено <uicontrol>Использовать это устройство (вкл.)</uicontrol>.
+        </p>
+        <fig id="sound_10_4_png">
+            <title>Окно <wintitle>Микрофон / Общие</wintitle></title>
+            <image href="img/sound_10_4.png" placement="break">
+                <alt>Окно <wintitle>Микрофон / Общие</wintitle></alt>
+            </image>
+        </fig>
+        <p>В закладке <wintitle>Уровни</wintitle> (<xref keyref="setup_mic_10/sound_10_2_png" type="fig"/>&#160;) можно выставить чувствительность микрофона и, если потребуется, добавить усиление.</p>
+        <fig id="sound_10_2_png">
+            <title>Окно <wintitle>Микрофон / Уровни</wintitle></title>
+            <image href="img/sound_10_2.png" placement="break">
+                <alt>Окно <wintitle>Микрофон / Уровни</wintitle></alt>
+            </image>
+        </fig>      
+        <p>В закладке <wintitle>Улучшения</wintitle> (<xref keyref="setup_mic_10/sound_10_3_png" type="fig"/>&#160;) можно установить дополнительные свойства микрофона: подавление шума, подавление эхо и другие.</p>
+        <fig id="sound_10_3_png">
+            <title>Окно <wintitle>Микрофон / Улучшения</wintitle></title>
+            <image href="img/sound_10_3.png" placement="break">
+                <alt>Окно <wintitle>Микрофон / Улучшения</wintitle></alt>
+            </image>
+        </fig>
+        <note type="important">Наличие дополнительных свойств зависит от установленной звуковой карты.</note>
+        <p>После завершения всех настроек микрофона нужно нажать на кнопку <uicontrol>OK</uicontrol>.</p>
+    </conbody>
+</concept>

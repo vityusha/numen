@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
+"reference.dtd">
+
+<reference id="faq" xml:lang="ru-RU">
+
+  <title>Требования к системному программному обеспечению</title>
+  <refbody>
+  <section>
+    
+        <title>В каких операционных системах работает программа Диалог Nibelung StudDB?</title>
+        <p>Программа <wintitle>Диалог Nibelung StudDB</wintitle> работает во всех операционных системах, в которых возможна установка .NET Framework 4.0, а именно:
+        <ul>
+            <li>Microsoft Windows XP</li>
+            <li>Microsoft Windows Vista</li>
+            <li>Microsoft Windows 7</li>
+            <li>Microsoft Windows 8</li>
+            <li>Microsoft Windows 8.1</li>
+            <li>Microsoft Windows 10</li>
+            <li>Microsoft Windows Server 2003</li>
+            <li>Microsoft Windows Server 2008</li>
+            <li>Microsoft Windows Server 2012</li>
+        </ul>
+        </p>
+        
+  </section>
+  </refbody>
+  
+</reference>
