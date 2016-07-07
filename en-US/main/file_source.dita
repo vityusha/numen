@@ -5,7 +5,7 @@
     <title>File</title>
     <conbody>
 	    <p>Select this <uicontrol>Media sources</uicontrol> menu item to use an audio file as a source of broadcast to the students, allowing them to hear the audio during any activity.</p>
-	    <p>The <uicontrol>File</uicontrol> media source control tab (<xref keyref="file_source/menu_group_4_3_png" type="fig"/>&#160;) has a <uicontrol>Browse</uicontrol> button; a mini player consisting of <uicontrol>Start</uicontrol>/<uicontrol>Stop</uicontrol>, <uicontrol>Pause</uicontrol> and <uicontrol>Repeat</uicontrol> buttons, a playback progress bar, and a time counter; bookmarks control buttons; and two additional options: <uicontrol>Record for students</uicontrol> and <uicontrol>Listen</uicontrol> (these options are described in section <xref keyref="media_source"/>&#160;).</p>
+	    <p>The <uicontrol>File</uicontrol> media source control tab (<xref keyref="file_source/menu_group_4_3_png" type="fig"/>&#160;) has a <uicontrol>Browse</uicontrol> button; a mini player consisting of <uicontrol>Start</uicontrol>/<uicontrol>Stop</uicontrol>, <uicontrol>Pause</uicontrol> and <uicontrol>Repeat</uicontrol> buttons, an audio waveform, a playback progress bar, and a time counter; bookmarks control buttons; and two additional options: <uicontrol>Record for students</uicontrol> and <uicontrol>Listen</uicontrol> (these options are described in section <xref keyref="media_source"/>&#160;).</p>
 		<fig id="menu_group_4_3_png">
             <title><menucascade><uicontrol>Media sources</uicontrol><uicontrol>File</uicontrol></menucascade> control tab</title>
             <image href="img/menu_group_4_3.png" placement="break">
@@ -16,11 +16,11 @@
 
 		<p>Press <uicontrol>Start</uicontrol> button in the mini player to begin the playback, at which point this button will be replaced by the <uicontrol>Stop</uicontrol> button and <uicontrol>Pause</uicontrol> button becomes available.</p>
 
-		<note type="tip">Click on the playback bar to instantly change the playback position. Double click to reset playback position to the beginning of the file.</note>
+		<note type="tip">Click on the playback bar or on audio waveform to instantly change the playback position. Double click to reset playback position to the beginning of the file.</note>
 
 		<p id="repeat"><uicontrol>Repeat</uicontrol> button allows you to to repeat selected fragment of the track in a loop.</p>
 
-		<p id="ph_1">You can select the fragment by dragging the mouse pointer on the playback bar. Selected fragment will be displayed in different color.</p>
+		<p id="ph_1">You can select the fragment by dragging the mouse pointer on the playback bar or on audio waveform. Selected fragment will be displayed in different color.</p>
 
 		<p  id="ph_2">You can set up to 4 bookmarks per track. Use the <uicontrol>+</uicontrol> button to set a bookmark at the current position. A first available number between 1 and 4 will be assigned to this bookmark and corresponding bookmark button becomes enabled. Press this button to instantly skip the playback to the bookmark position. Press the <uicontrol>Х</uicontrol> button followed by the bookmark number button to delete a bookmark.</p>
 

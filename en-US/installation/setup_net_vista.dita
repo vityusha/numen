@@ -2,7 +2,7 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="setup_net_vista" xml:lang="en-US">
-    <title>Network interface setup</title>
+    <title>Network interface setup on Windows Vista and windows 7</title>
     <conbody>
         <p>The <wintitle>System</wintitle> properties window (<xref keyref="setup_net_vista/system_vista_png" type="fig"/>&#160;) will appear on your screen. Click on the <uicontrol>Device Manager</uicontrol> link located in the left column of the window.</p>
         <fig id="system_vista_png">

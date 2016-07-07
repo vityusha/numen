@@ -18,9 +18,9 @@
 		<note type="tip">The teacher can save a digitized copy of the external program for future use and/or listen to it along with the students.</note>
 		<p>Press the <uicontrol>Open mixer</uicontrol> button to open Windows <wintitle>Sound</wintitle> settings window (<xref keyref="soundcard_source/sound_vista_1_png" type="fig"/>&#160;) where you can select desired card input.</p>
 		<fig id="sound_vista_1_png">
-			<title><wintitle>Sound</wintitle> settings window in Windows Vista</title>
+			<title><wintitle>Sound</wintitle> settings window in Windows 7</title>
             <image href="../installation/img/sound_vista_1.png" placement="break">
-			  <alt><wintitle>Sound</wintitle> settings window in Windows Vista</alt>
+			  <alt><wintitle>Sound</wintitle> settings window in Windows 7</alt>
             </image>
         </fig>
 	</conbody>

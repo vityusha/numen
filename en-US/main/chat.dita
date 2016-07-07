@@ -4,8 +4,8 @@
 <concept id="chat" xml:lang="en-US">
     <title><keyword>Chat</keyword></title>
     <conbody>
-		<p><indexterm>chat</indexterm>This mode can be used to start a chat session in the group.</p>
-		<p>Press <uicontrol>Activity</uicontrol> button in selected group tab (see section <xref keyref="menu_group"/>&#160;), followed by selecting <uicontrol>Chat</uicontrol> from the group menu to start a group chat session.</p>
+		<p><indexterm>chat</indexterm>This mode can be used to start a chat session in the whole class or in the group.</p>
+		<p>Press <uicontrol>Activity</uicontrol> button in class tab (see section <xref keyref="menu_class"/>&#160;) or in selected group tab (see section <xref keyref="menu_group"/>&#160;), followed by selecting <uicontrol>Chat</uicontrol> from the group menu to start a group chat session.</p>
 		<p>A chat session window (<xref keyref="chat/chat_main_png" type="fig"/>&#160;) will appear on your screen. The window has group tabs along its top border for quick switching between group chat sessions. Message panel is on the left, list of chat participants is on the right.</p>
 		<fig id="chat_main_png">
             <title>Chat session window</title>
