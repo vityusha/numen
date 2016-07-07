@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
-<concept id="whiteboard" xml:lang="en-US">
+<concept id="whiteboard" xml:lang="ru-RU">
     <title><keyword>Интерактивная доска</keyword></title>
     <conbody>  
         <p><indexterm>Интерактивная доска</indexterm>В этом режиме учащиеся и преподаватель могут совместно рисовать на виртуальной интерактивной доске. При этом результаты рисования отображаются в специальном окне, открывающемся в этом режиме на экранах учащихся и на экране преподавателя.</p>
-        <p>Чтобы открыть интерактивную доску для всего класса или для определенной группы, преподаватель должен в меню всего класса (п. <xref keyref="menu_class"/>&#160;) или нужной группы (п. <xref keyref="menu_group"/>&#160;) нажать на кнопку <uicontrol>Взаимодействие</uicontrol>, а потом выбрать пункт <uicontrol>Интерактивная доска</uicontrol>.</p>
+        <p>Чтобы открыть интерактивную доску для всего класса или для определенной группы, преподаватель должен в меню всего класса (см. <xref keyref="menu_class"/>&#160;) или нужной группы (см. <xref keyref="menu_group"/>&#160;) нажать на кнопку <uicontrol>Взаимодействие</uicontrol>, а потом выбрать пункт <uicontrol>Интерактивная доска</uicontrol>.</p>
         <p>На экране монитора преподавателя появится окно интерактивной доски (<xref keyref="whiteboard/whiteboard_png" type="fig"/>&#160;).</p> 
         <fig id="whiteboard_png">
             <title>Окно интерактивной доски</title>
@@ -25,56 +25,64 @@
                     </row>
                     <row>
                         <entry>2</entry>
-                        <entry>Кнопка <uicontrol>Отмена</uicontrol> для отмены преподавателем последнего присланного каким-либо участником (включая самого преподавателя) изменения в картинке. Отмена применяется к преподавателю и всем подключенным учащимся текущей группы. Отменять можно не только последнее, но и предыдущие действия, последовательно нажимая данную кнопку.</entry>
+                        <entry>Кнопка управления полноэкранным режимом интерактивной доски у учащихся.</entry>
                     </row>
                     <row>
                         <entry>3</entry>
-                        <entry>Кнопка <uicontrol>Старт/Стоп</uicontrol> для запуска или останова сессии интерактивной доски.</entry>
+                        <entry>Кнопка <uicontrol>Отмена</uicontrol> для отмены преподавателем последнего присланного каким-либо участником (включая самого преподавателя) изменения в картинке. Отмена применяется к преподавателю и всем подключенным учащимся текущей группы. Отменять можно не только последнее, но и предыдущие действия, последовательно нажимая данную кнопку.</entry>
                     </row>
                     <row>
                         <entry>4</entry>
-                        <entry>Область рисования, ограниченная скругленным белым прямоугольником.</entry>
+                        <entry>Кнопка <uicontrol>Старт/Стоп</uicontrol> для запуска или останова сессии интерактивной доски.</entry>
                     </row>
                     <row>
                         <entry>5</entry>
-                        <entry>Инструменты рисования.</entry>
+                        <entry>Область рисования, ограниченная скругленным белым прямоугольником.</entry>
                     </row>
                     <row>
                         <entry>6</entry>
-                        <entry>Настройки инструментов рисования.</entry>
+                        <entry>Инструменты рисования.</entry>
                     </row>
                     <row>
                         <entry>7</entry>
-                        <entry>Кнопка отправки в режиме с подтверждением.</entry>
+                        <entry>Настройки инструментов рисования.</entry>
                     </row>
                     <row>
                         <entry>8</entry>
-                        <entry>Текущие координаты курсора на области рисования.</entry>
+                        <entry>Кнопка отправки в режиме с подтверждением.</entry>
                     </row>
                     <row>
                         <entry>9</entry>
-                        <entry>Кнопка отмены неотправленного в режиме с подтверждением.</entry>
+                        <entry>Текущие координаты курсора на области рисования.</entry>
                     </row>
                     <row>
                         <entry>10</entry>
-                        <entry>Настройки для инструмента <uicontrol>Текст</uicontrol>.</entry>
+                        <entry>Кнопка отмены неотправленного в режиме с подтверждением.</entry>
                     </row>
                     <row>
                         <entry>11</entry>
+                        <entry>Настройки для инструмента <uicontrol>Текст</uicontrol>.</entry>
+                    </row>
+                    <row>
+                        <entry>12</entry>
                         <entry>Настройки режимов работы.</entry>
                     </row>
 
                     <row>
-                        <entry>12</entry>
+                        <entry>13</entry>
                         <entry>Кнопка сохранения рисунка.</entry>
                     </row>
                     <row>
-                        <entry>13</entry>
+                        <entry>14</entry>
                         <entry>Индикатор наличия связи с сервером интерактивной доски и сетевой активности.</entry>
                     </row>
                     <row>
-                        <entry>14</entry>
+                        <entry>15</entry>
                         <entry>Настройки и индикация цветов линий и заливки.</entry>
+                    </row>
+                    <row>
+                        <entry>16</entry>
+                        <entry>Полосы скроллинга (появляются у преподавателя и у учащихся, если настройки размера интдоски превышают стандартное значение).</entry>
                     </row>
                 </tbody> 
             </tgroup>
@@ -177,12 +185,12 @@
                     </row>
                     <row>
                         <entry>10</entry>
-                        <entry align="center"><uicontrol><shortcut>Q</shortcut></uicontrol>, <uicontrol><shortcut>W</shortcut></uicontrol></entry>
+                        <entry align="center"><uicontrol><shortcut>W</shortcut></uicontrol>, <uicontrol><shortcut>S</shortcut></uicontrol></entry>
                         <entry>Поворачивают вращаемую фигуру с шагом в 1 градус против и по часовой стрелке соответственно</entry>
                     </row>
                     <row>
                         <entry>11</entry>
-                        <entry align="center"><uicontrol><shortcut>A</shortcut></uicontrol>, <uicontrol><shortcut>S</shortcut></uicontrol></entry>
+                        <entry align="center"><uicontrol><shortcut>A</shortcut></uicontrol>, <uicontrol><shortcut>D</shortcut></uicontrol></entry>
                         <entry>Поворачивают вращаемую фигуру с шагом в 10 градусов против и по часовой стрелке соответственно</entry>
                     </row>
                     <row>

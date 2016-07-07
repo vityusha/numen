@@ -32,10 +32,6 @@
 				    <entry><uicontrol>Disable loopback</uicontrol> button;</entry>
                     </row>
 					<row>
-                        <entry>6</entry>
-				    <entry><uicontrol>Microphone level indicator</uicontrol>;</entry>
-                    </row>
-					<row>
                         <entry>7</entry>
 				    <entry><uicontrol>Disable microphone level indicator</uicontrol> button;</entry>
                     </row>
@@ -82,14 +78,10 @@
                     </row>
 					<row>
                         <entry>3</entry>
-                        <entry>current grade (if exist);</entry>
+                        <entry>student seat ID;</entry>
                     </row>
 					<row>
                         <entry>4</entry>
-                        <entry>student seat ID or student name;</entry>
-                    </row>
-					<row>
-                        <entry>5</entry>
                         <entry>online/offline status icon (whether in communication with the teacher module or not).</entry>
                     </row>
                 </tbody>

@@ -2,7 +2,7 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="setup_mic_vista" xml:lang="en-US">
-    <title>Microphone setup on Windows Vista and Windows 7</title>
+    <title>Microphone setup</title>
     <conbody>
         <p>Open the <wintitle>Control Panel</wintitle> (<xref keyref="setup_mic_vista/control_panel_vista_png" type="fig"/>&#160;) window and select <wintitle>Hardware and Sound</wintitle> to set up the microphone.</p>
         <fig id="control_panel_vista_png">

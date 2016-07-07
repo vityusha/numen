@@ -11,16 +11,16 @@
                 <li>Windows XP SP2;</li>
                 <li>Windows Vista;</li>
                 <li>Windows 7;</li>
-                <li>Windows 8, Windows 8.1;</li>
-                <li>Windows 10;</li>
+                <li>Windows 8 or 8.1;</li>
                 <li>Windows Server 2003;</li>
-                <li>Windows Server 2008, Windows Server 2008 R2;</li>
-                <li>Windows Server 2012, Windows Server 2012 R2;</li>
+                <li>Windows Server 2008;</li>
+                <li>Windows Server 2012;</li>
             </ul></li>
-        <li>.NET Framework 4.0 Client Profile;</li>
+        <li>.NET Framework 3.5;</li>
         <li>Java Runtime Environment (JRE) 1.6 or higher (<xref keyref="description_test">for the quiz system</xref>);</li>
+        <li>Windows Media Player 10.</li>
         </ul></p>
-        <p><b>.NET Framework 4.0 Client Profile</b> and <b>JRE</b> are included in <wintitle>Dialog Nibelung</wintitle> installation package.</p>
+        <p><b>.NET Framework 3.5</b> and <b>JRE</b> are included in <wintitle>Dialog Nibelung</wintitle> installation package.</p>
         <p><b>Windows Media Player 10</b> comes as a standard part of Windows Vista and subsequent Windows versions.
         <note type="attention">Some anti-virus software may interfere with certain functions of <wintitle>Dialog Nibelung</wintitle> (e.g. <xref keyref="files_working">file transfer</xref>). If this is the case, this anti-virus software will have to be properly set up or even disabled.
         </note>

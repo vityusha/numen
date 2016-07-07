@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <val> 
-	<prop att="product" val="nibelung" action="include" />
-	<prop att="product" val="ru" action="exclude" />
+	<prop att="product" val="en" action="exclude" />
 	<prop att="product" val="nquiz" action="exclude" />
 </val> 

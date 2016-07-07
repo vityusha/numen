@@ -57,14 +57,12 @@
 				<li>Recording of the whole class (see section <xref keyref="record"/>&#160;)</li>
 				<li>Message to the class (see section <xref keyref="message"/>&#160;)</li>
 				<li>Thumbnails of the whole class (see section <xref keyref="thumbnail"/>&#160;)</li>
-				<li>Webcams of the whole class (see section <xref keyref="webcam"/>&#160;)</li>
 				<li>Autoscan the class (see section <xref keyref="autoscan"/>&#160;)</li>
 				<li>Lock input on all student workstations (see section <xref keyref="lock_input"/>&#160;)</li>
 				<li>Lock all student workstations (see section <xref keyref="lock_pc"/>&#160;)</li>
 				<li>Launch applications (see section <xref keyref="run_programs"/>&#160;)</li>
 				<li>Terminate remote process (see section <xref keyref="terminate_remote_process"/>&#160;)</li>
 				<li>Disable internet access for the whole class (see section <xref keyref="disable_internet"/>&#160;)</li>
-				<li>Web access control (see section <xref keyref="internet_control"/>&#160;)</li>
 				<li>Disable removable media for the whole class (see section <xref keyref="disable_removable"/>&#160;)</li>
 				<li>Raise student module windows (see section <xref keyref="student_applications"/>&#160;)</li>
 				<li>Logout (see section <xref keyref="power_management"/>&#160;)</li>
@@ -81,9 +79,6 @@
 				<li>Registration roll call (see section <xref keyref="registration"/>&#160;)</li>
 				<li>Start a lesson (see section <xref keyref="current_lesson"/>&#160;)</li>
 				<li>Homework assignments (see section <xref keyref="homework"/>&#160;)</li>
-				<li>Voting / Polling (see section <xref keyref="vote"/>&#160;)</li>
-				<li>Chat (see section <xref keyref="chat"/>&#160;)</li>
-				<li>Whiteboard (see section <xref keyref="whiteboard"/>&#160;)</li>
 				<li>Exit <wintitle>Dialog Nibelung</wintitle>.</li>
 			</ul>
 		</p>

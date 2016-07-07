@@ -8,24 +8,20 @@
 
         <section>
             <title><wintitle>Windows Media Player 10</wintitle> installation</title>
-            <p><wintitle>Windows Media Player 10</wintitle> or higher is required to operate <wintitle>Dialog Nibelung</wintitle> media player. <wintitle>Windows Media Player 10</wintitle> is included on the <wintitle>Dialog Nibelung</wintitle> installation disk for your convenience. Run <filepath>\WMP\MP10Setup.exe</filepath> from the installation disk to install <wintitle>Windows Media Player 10</wintitle> if it is missing from your system.</p>
+		  <p><wintitle>Windows Media Player 10</wintitle> or higher is required to operate <wintitle>Dialog Nibelung</wintitle> media player. <wintitle>Windows Media Player 10</wintitle> is included on the <wintitle>Dialog Nibelung</wintitle> installation disk for your convenience. Run <filepath>\WMP\MP10Setup.exe</filepath> from the installation disk to install <wintitle>Windows Media Player 10</wintitle> if it is missing from your system.</p>
         </section>
 
         <section>
             <title><wintitle>Windows Firewall</wintitle> setup</title>
-            <p><wintitle>Dialog Nibelung</wintitle> must be included in the exceptions list of your <wintitle>Windows Firewall</wintitle> setup. Usually the <wintitle>Firewall</wintitle> will offer you to create this exception during first launch of the software. We recommend to double check if the following exceptions have been created for <wintitle>Dialog Nibelung</wintitle>:</p>
+		  <p><wintitle>Dialog Nibelung</wintitle> must be included in the exceptions list of your <wintitle>Windows Firewall</wintitle> setup. Usually the <wintitle>Firewall</wintitle> will offer you to create this exception during first launch of the software. We recommend to double check if the following exceptions have been created for <wintitle>Dialog Nibelung</wintitle>:</p>
             <ul>
-                <li>on the teacher workstation: <filepath>NibelungUI.exe</filepath></li>
+			  <li>on the teacher workstation: <filepath>NibelungUI.exe</filepath></li>
                 <li>on student workstations: <filepath>NibelungClient.exe</filepath> and <filepath>NibelungHelper.exe</filepath></li>
             </ul>
-            <p><wintitle>Windows Firewall</wintitle> exception list can be found under:</p>
-            <ul>
-                <li><p>Windows XP:</p> 
-                    <p><menucascade><uicontrol>Start</uicontrol><uicontrol>Control Panel</uicontrol><uicontrol>Windows Security Center</uicontrol><uicontrol>Windows Firewall</uicontrol><uicontrol>Exceptions</uicontrol></menucascade></p></li>
-                <li><p>Windows Vista и 7:</p> 
-                    <p><menucascade><uicontrol>Start</uicontrol><uicontrol>Control Panel</uicontrol><uicontrol>System and Security</uicontrol><uicontrol>Allow a program through Windows Firewall</uicontrol></menucascade></p> <p>or</p> <p><menucascade><uicontrol>Start</uicontrol><uicontrol>Control Panel</uicontrol><uicontrol>Windows Firewall</uicontrol><uicontrol>Exceptions</uicontrol></menucascade></p></li>
-                <li><p>Windows 8/10:</p> 
-                    <p>в окне поиска введите слово "firewall", а затем выберите <uicontrol>Windows Firewall</uicontrol>, выберите пункт <uicontrol>Allow an app or feature through Windows Firewall</uicontrol>, нажмите кнопку <uicontrol>Change settings</uicontrol> (требуются права администратора), а затем внизу нажмите <uicontrol>Allow another app...</uicontrol> и добавьте приложение Диалог Nibelung в список</p></li>
+		  <p><wintitle>Windows Firewall</wintitle> exception list can be found under:</p>
+		  <ul>
+			<li><p><menucascade><uicontrol>Start</uicontrol><uicontrol>Control Panel</uicontrol><uicontrol>System and Security</uicontrol><uicontrol>Windows Firewall</uicontrol><uicontrol>Allow apps to communicate through Windows Firewall</uicontrol></menucascade></p><p>or</p></li>
+			<li><p><menucascade><uicontrol>Start</uicontrol><uicontrol>Control Panel</uicontrol><uicontrol>Windows Firewall</uicontrol><uicontrol>Exceptions</uicontrol></menucascade></p></li>
             </ul>
             <p>Some anti-virus software may also issue warnings regarding <wintitle>Dialog Nibelung</wintitle>. You will have to create appropriate exceptions and/or add it to the list of trusted software as well.</p>
         </section>
@@ -47,15 +43,14 @@
         <section>
             <title>Miscellaneous tips</title>
             <ol>
-                <li>Simultaneously press <userinput>Ctrl + Alt</userinput> on your keyboard and right click of the window title to enter setup menu of the <wintitle>Dialog Nibelung</wintitle> student module. The student module has to be launched with the administrator privileges to change its settings.</li>
-                <li>In Windows Vista, 7, 8 and 10 (with UAC enabled), right click on the software icon and select <uicontrol>Run as Administrator</uicontrol> to launch a program with administrator privileges.</li>
-                <li>If the teacher module would not launch after the installation, we recommend to launch it at least once with administrator privileges.</li>
-                <li>For day to day operations, we highly recommend running the teacher module <b>without</b> the administrator privileges for security reasons.</li>
-                <li>In Windows Vista, 7, 8, and 10 in some cases it is recommended to disable the <wintitle>TCP/IPv6</wintitle> protocol in Network Connection Properties.</li>
-                <li>When applying Windows Updates application software like <wintitle>Dialog Nibelung</wintitle> may become unstable. Close application software, finish installation of all updates, and restart the computer.</li>
+			  <li>Simultaneously press <userinput>Ctrl + Alt</userinput> on your keyboard and right click of the window title to enter setup menu of the <wintitle>Dialog Nibelung</wintitle> student module. The student module has to be launched with the administrator privileges to change its settings.</li>
+			  <li>In Windows Vista, 7 and 8 (with UAC enabled), right click on the software icon and select <uicontrol>Run as Administrator</uicontrol> to launch a program with administrator privileges.</li>
+			  <li>If the teacher module would not launch after the installation, we recommend to launch it at least once with administrator privileges.</li>
+			  <li>For day to day operations, we highly recommend running the teacher module <b>without</b> the administrator privileges for security reasons.</li>
+              <li>In Windows Vista, 7 and 8, in some cases it is recommended to disable the <wintitle>TCP/IPv6</wintitle> protocol in Network Connection Properties.</li>
+			 <li><wintitle>VirtualBox</wintitle> virtualization software installed on the same computer may interfere with audio and video streaming. If this is the case, try disabling <wintitle>VirtualBox Host-Only Ethernet Adapter</wintitle> in the network adapter list.</li>
+			 <li>When applying Windows Updates application software like <wintitle>Dialog Nibelung</wintitle> may become unstable. Close application software, finish installation of all updates, and restart the computer.</li>
             </ol>
-
-            <note type="important"><wintitle>VirtualBox</wintitle> virtualization software installed on the same computer may interfere with audio and video streaming. If this is the case, try disabling <wintitle>VirtualBox Host-Only Ethernet Adapter</wintitle> in the network adapter list.</note>
         </section>
 
     </refbody>

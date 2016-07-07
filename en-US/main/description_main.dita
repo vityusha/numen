@@ -61,7 +61,7 @@
             </tgroup>
         </table>
         <p>Student workstations in the classroom are shown as panels in the classroom console. Online workstations are shown in color, while the offline ones are grayed out.</p>
-		<note type="important">You have received a license when you purchased the software. The license sets limits to the maximum number of student workstations in the class.</note>
+		<note type="important">You have received a USB dongle with the license key when you purchased the software. The USB dongle sets limits to the maximum number of student workstations in the class.</note>
 		<p>Student workstations that are connected to the classroom network and are running student modules become active in the classroom console.
 		A color icon appears on the left of active student panels (<xref keyref="description_main/icon_connect_png" type="fig"/>&#160;), while the panel background acquires group color or becomes white if the student is not a part of any group.</p>
         <fig id="icon_connect_png">
@@ -151,7 +151,7 @@
             </tgroup>
         </table>
         <p>Teacher name, Class ID, lesson time left, and some other additional data (depending on the mode) are shown in the status bar.</p>
-	   <note type="attention">Please note that the <uicontrol>Loopback disable</uicontrol> button is not accessible under Windows Vista and above.</note>
+	   <note type="attention">Please note that the <uicontrol>Loopback disable</uicontrol> button is not accessible under Windows Vista, Windows 7 and Windows 8.</note>
 		<p>An icon (<xref keyref="description_main/microphone_png" type="fig"/>&#160;) will appear in the upper right corner of the window whenever the teacher's microphone is turned on.</p>
         <fig id="microphone_png">
 		   <title><uicontrol>Microphone on</uicontrol> icon</title>

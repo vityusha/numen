@@ -6,18 +6,16 @@
 
     <conbody>
         <p>Select <menucascade><uicontrol>File</uicontrol><uicontrol>Settings</uicontrol></menucascade> from the main menu to set up the teacher module.</p>
-        <p><wintitle>Teacher module settings</wintitle> window (<xref keyref="setup_main/setup_main_png" type="fig"/>&#160;) will appear on your screen. Here you can change <uicontrol>Path to teacher folders</uicontrol><indexterm>teacher folders</indexterm> where each teacher can store class files, session files, student records, etc.</p>
+	   <p><wintitle>Teacher module settings</wintitle> window (<xref keyref="setup_main/setup_main_png" type="fig"/>&#160;) will appear on your screen. Here you can change <uicontrol>Path to teacher folders</uicontrol><indexterm>teacher folders</indexterm> where each teacher can store class files, session files, student records, etc.</p>
         <fig id="setup_main_png">
-            <title><wintitle>Teacher module settings</wintitle> window</title>
+		   <title><wintitle>Teacher module settings</wintitle> window</title>
             <image href="img/setup_main.png" placement="break">
-                <alt><wintitle>Teacher module settings</wintitle> window</alt>
+			  <alt><wintitle>Teacher module settings</wintitle> window</alt>
             </image>
         </fig>
         <p>Here you can also change user interface language, maximum number of groups in the class, and default sound devices for playback and capture.</p>
         <p>By selecting <uicontrol>Optimize audio for Wi-Fi networks (disable multicast)</uicontrol> option you can increase sound quality over the Wi-Fi networks at the expense of increase in network traffic.</p>
-        <p>By selecting <uicontrol>Optimize video for Wi-Fi networks (disable multicast)</uicontrol> option you can increase video quality over the Wi-Fi networks at the expense of increase in network traffic. Once this option is enabled, students will also be able to adjust video playback position.</p>
+	   <p>By selecting <uicontrol>Optimize video for Wi-Fi networks (disable multicast)</uicontrol> option you can increase video quality over the Wi-Fi networks at the expense of increase in network traffic. Once this option is enabled, students will also be able to adjust video playback position.</p>
         <note type="important">Check the <uicontrol>Use voice switch</uicontrol> option if you are experiencing poor sound quality over Wi-Fi networks. This will enable software voice switch that will increase sound quality at the expense of increase in sound delays and CPU load on the teacher workstation.</note>
-        <p>При работе программы Диалог Nibelung с аудиокоммутатором <wintitle>Диалог 5</wintitle> (см. п. <xref keyref="commutator_switch"/>&#160;) необходимо установить опцию <uicontrol>Transmit audio using &quot;Dialog-5&quot; audio hub</uicontrol>.</p>
-        <p>Здесь же задается размер по умолчанию для интерактивной доски (см. п. <xref keyref="whiteboard"/>&#160;)</p>
     </conbody>
 </concept>

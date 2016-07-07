@@ -5,271 +5,263 @@
     <title>Teacher module menu</title>
     <conbody>
         <p>The teacher module menu contains following items:
-            <ul>
-                <li><uicontrol>File</uicontrol></li>
-                <li><uicontrol>Class</uicontrol></li>
-                <li><uicontrol>Log</uicontrol></li>
-                <li><uicontrol>View</uicontrol></li>
-                <li><uicontrol>Tools</uicontrol></li>
-                <li><uicontrol>Quiz</uicontrol></li>
-                <li><uicontrol>Help</uicontrol></li>
-            </ul>
-        </p>
-        <p>
-            <table frame="all" rowsep="1" colsep="1">
-                <tgroup cols="2">
-                    <colspec colname="COLSPEC0" colwidth="120*"/>
-                    <colspec colname="COLSPEC1" colwidth="20*"/>
-                    <thead>
-                        <row>
-                            <entry colname="COLSPEC0" align="center"><uicontrol>File</uicontrol> menu items</entry>
-                            <entry colname="COLSPEC1" align="center">Icon</entry>
-                        </row>
-                    </thead>
-                    <tbody>
-                        <row>
-                            <entry><uicontrol>Open teacher folder</uicontrol> (see section <xref keyref="tutor_settings"/>&#160;)</entry>
-                            <entry><image href="img/menu/openfolder.png" placement="break" width="16" align="center"/></entry>
-                        </row>
-                        <row>
-                            <entry><uicontrol>Change teacher</uicontrol> (see section <xref keyref="choice_tutor"/>&#160;)</entry>
-                            <entry><image href="img/menu/change.png" placement="break" width="16" align="center"/></entry>
-                        </row>
-                        <row>
-                            <entry><uicontrol>Account management</uicontrol> (see section <xref keyref="choice_tutor"/>&#160;)</entry>
-                            <entry><image href="img/menu/account.png" placement="break" width="16" align="center"/></entry>
-                        </row>
-                        <row>
-                            <entry><uicontrol>Settings</uicontrol> (see section <xref keyref="setup_main"/>&#160;)</entry>
-                            <entry><image href="img/menu/settings.png" placement="break" width="16" align="center"/></entry>
-                        </row>
-                        <row>
-                            <entry><uicontrol>Teacher settings</uicontrol> (see section <xref keyref="tutor_settings"/>&#160;)</entry>
-                            <entry><image href="img/menu/tutorsettings.png" placement="break" width="16" align="center"/></entry>
-                        </row>
-                        <row>
-                            <entry><uicontrol>Exit</uicontrol></entry>
-                            <entry><image href="img/menu/exit.png" placement="break" width="16" align="center"/></entry>
-                        </row>
-                    </tbody>
-                </tgroup>
-            </table>
-        </p>
-        <p>
-            <table frame="all" rowsep="1" colsep="1">
-                <tgroup cols="2">
-                    <colspec colname="COLSPEC0" colwidth="120*"/>
-                    <colspec colname="COLSPEC1" colwidth="20*"/>
-                    <thead>
-                        <row>
-                            <entry colname="COLSPEC0" align="center"><uicontrol>Class</uicontrol> menu items</entry>
-                            <entry colname="COLSPEC1" align="center">Icon</entry>
-                        </row>
-                    </thead>
-                    <tbody>
-                        <row>
-                            <entry><uicontrol>New</uicontrol> (see section <xref keyref="student_class"/>&#160;)</entry>
-                            <entry><image href="img/menu/NewHS.png" placement="break" width="16" align="center" /></entry>
-                        </row>
-                        <row>
-                            <entry><uicontrol>Open</uicontrol> (see section <xref keyref="student_class"/>&#160;)</entry>
-                            <entry><image href="img/menu/openHS.png" placement="break" width="16" align="center" /></entry>
-                        </row>
-                        <row>
-                            <entry><uicontrol>Save</uicontrol> (see section <xref keyref="student_class"/>&#160;)</entry>
-                            <entry><image href="img/menu/saveHS.png" placement="break" width="16" align="center" /></entry>
-                        </row>
-                        <row>
-                            <entry><uicontrol>Save as</uicontrol> (see section <xref keyref="student_class"/>&#160;)</entry>
-                            <entry><image href="img/menu/saveAsHS.png" placement="break" width="16" align="center" /></entry>
-                        </row>
-                        <row>
-                            <entry><uicontrol>Edit</uicontrol> (see section <xref keyref="student_class"/>&#160;)</entry>
-                            <entry> </entry>
-                        </row>
-                        <row>
-                            <entry><uicontrol>Add student</uicontrol> (see section <xref keyref="student_class"/>&#160;)</entry>
-                            <entry><image href="img/menu/AddStudent.png" placement="break" width="16" align="center" /></entry>
-                        </row>
-                        <row>
-                            <entry><uicontrol>Remove student</uicontrol> (see section <xref keyref="student_class"/>&#160;)</entry>
-                            <entry><image href="img/menu/DelStudent.png" placement="break" width="16" align="center" /></entry>
-                        </row>
-                        <row>
-                            <entry><uicontrol>Arrange</uicontrol> (see section <xref keyref="student_class"/>&#160;)</entry>
-                            <entry><image href="img/menu/SortHS.png" placement="break" width="16" align="center" /></entry>
-                        </row>
-                        <row>
-                            <entry><uicontrol>Roll call</uicontrol> (see section <xref keyref="registration"/>&#160;)</entry>
-                            <entry><image href="img/menu/Registration.png" placement="break" width="16" align="center" /></entry>
-                        </row>
-                    </tbody>
-                </tgroup>
-            </table>
-        </p>
-        <p>
-            <table frame="all" rowsep="1" colsep="1">
-                <tgroup cols="2">
-                    <colspec colname="COLSPEC0" colwidth="120*"/>
-                    <colspec colname="COLSPEC1" colwidth="20*"/>
-                    <thead>
-                        <row>
-                            <entry colname="COLSPEC0" align="center"><uicontrol>Logbook</uicontrol> menu items</entry>
-                            <entry colname="COLSPEC1" align="center">Icon</entry>
-                        </row>
-                    </thead>
-                    <tbody>
-                        <row>
-                            <entry><uicontrol>Start lesson</uicontrol> (see section <xref keyref="current_lesson"/>&#160;)</entry>
-                            <entry><image href="img/menu/lesson.png" placement="break" width="16" align="center" /></entry>
-                        </row>
-                        <row>
-                            <entry><uicontrol>Lesson list</uicontrol> (see section <xref keyref="lessons_list"/>&#160;)</entry>
-                            <entry><image href="img/menu/viewlessons.png" placement="break" width="16" align="center" /></entry>
-                        </row>
-                        <row>
-                            <entry><uicontrol>Performance</uicontrol> (see section <xref keyref="grades_statistics"/>&#160;)</entry>
-                            <entry><image href="img/menu/stat1.png" placement="break" width="16" align="center" /></entry>
-                        </row>
-                        <row>
-                            <entry><uicontrol>Attendance</uicontrol> (see section <xref keyref="presents_statistics"/>&#160;)</entry>
-                            <entry><image href="img/menu/stat2.png" placement="break" width="16" align="center" /></entry>
-                        </row>
-                        <row>
-                            <entry><uicontrol>Class statistics</uicontrol> (see section <xref keyref="classes_statistics"/>&#160;)</entry>
-                            <entry><image href="img/menu/stat3.png" placement="break" width="16" align="center" /></entry>
-                        </row>
-                    </tbody>
-                </tgroup>
-            </table>
-        </p>
-        <p>
-            <table frame="all" rowsep="1" colsep="1">
-                <tgroup cols="2">
-                    <colspec colname="COLSPEC0" colwidth="120*"/>
-                    <colspec colname="COLSPEC1" colwidth="20*"/>
-                    <thead>
-                        <row>
-                            <entry colname="COLSPEC0" align="center"><uicontrol>View</uicontrol> menu items</entry>
-                            <entry colname="COLSPEC1" align="center">icon</entry>
-                        </row>
-                    </thead>
-                    <tbody>
-                        <row>
-                            <entry><uicontrol>Toolbar</uicontrol> show / hide</entry>
-                            <entry></entry>
-                        </row>
-                        <row>
-                            <entry><uicontrol>Status bar</uicontrol> show / hide</entry>
-                            <entry></entry>
-                        </row>
-                        <row>
-                            <entry><uicontrol>Customize toolbar</uicontrol> (see section <xref keyref="customize_toolbar"/>&#160;)</entry>
-                            <entry><image href="img/menu/CustomizeHS.png" placement="break" width="16" align="center"/></entry>
-                        </row>
-                    </tbody>
-                </tgroup>
-            </table>
-        </p>
-        <p>
-            <table frame="all" rowsep="1" colsep="1">
-                <tgroup cols="2">
-                    <colspec colname="COLSPEC0" colwidth="120*"/>
-                    <colspec colname="COLSPEC1" colwidth="20*"/>
-                    <thead>
-                        <row>
-                            <entry colname="COLSPEC0" align="center"><uicontrol>Tools</uicontrol> menu items</entry>
-                            <entry colname="COLSPEC1" align="center">Icon</entry>
-                        </row>
-                    </thead>
-                    <tbody>
-                        <row>
-                            <entry><uicontrol>Nibelung Media Player</uicontrol>: launch the <wintitle>Nibelung Media Player</wintitle> on the teacher workstation (see section <xref keyref="tools_nplayer"/>&#160;)</entry>
-                            <entry><image href="img/menu/NPlayer.png" placement="break" width="16" align="center"/></entry>
-                        </row>
-                        <row>
-                            <entry><uicontrol>Video converter</uicontrol> (convert video files into <b>MPEG-1</b> format) (see section <xref keyref="tools_videoconverter"/>&#160;)</entry>
-                            <entry><image href="img/menu/VideoConverter.png" placement="break" width="16" align="center"/></entry>
-                        </row>
-                        <row>
-                            <entry><uicontrol>Configure student modules</uicontrol> (see section <xref keyref="tools_configurator"/>&#160;)</entry>
-                            <entry><image href="img/menu/configure-icon.png" placement="break" width="16" align="center"/></entry>
-                        </row>
-                        <row>
-                            <entry><uicontrol>База данных учащихся</uicontrol> (запустить на компьютере преподавателя программу ведения базы данных учащихся данного учебного заведения (see section <xref keyref="studdb_intro"/>&#160;)</entry>
-                            <entry><image href="img/menu/studdb.png" placement="break" width="16" align="center"/></entry>
-                        </row>
-                        <row>
-                            <entry><uicontrol>Резервное копирование и восстановление</uicontrol> (инструмент создания резервных копий и восстановления из резервных копий настроек и данных преподавателей или всей программы <wintitle>Диалог-Nibelung</wintitle>) (see section <xref keyref="tools_backup"/>&#160;)</entry>
-                            <entry><image href="img/menu/backup.png" placement="break" width="16" align="center"/></entry>
-                        </row>
-                        <row>
-                            <entry><uicontrol>Edit</uicontrol> (edit contents of the <uicontrol>Tools</uicontrol> menu) (see section <xref keyref="tools_setup"/>&#160;)</entry>
-                            <entry><image href="img/menu/execute.png" placement="break" width="16" align="center"/></entry>
-                        </row>
-                    </tbody>
-                </tgroup>
-            </table>
-        </p>
-        <p>
-            <table frame="all" rowsep="1" colsep="1">
-                <tgroup cols="2">
-                    <colspec colname="COLSPEC0" colwidth="120*"/>
-                    <colspec colname="COLSPEC1" colwidth="20*"/>
-                    <thead>
-                        <row>
-                            <entry colname="COLSPEC0" align="center"><uicontrol>Quiz</uicontrol> menu items</entry>
-                            <entry colname="COLSPEC1" align="center">Icon</entry>
-                        </row>
-                    </thead>
-                    <tbody>
-                        <row>
-                            <entry><uicontrol>Quiz builder</uicontrol> (see section <xref keyref="test_builder"/>&#160;)</entry>
-                            <entry><image href="img/menu/quizbuilder.png" placement="break" width="16" align="center"/></entry>
-                        </row>
-                        <row>
-                            <entry><uicontrol>Results</uicontrol> (see section <xref keyref="test_result"/>&#160;)</entry>
-                            <entry><image href="img/menu/quizadmin.png" placement="break" width="16" align="center"/></entry>
-                        </row>
-                    </tbody>
-                </tgroup>
-            </table>
-        </p>
-        <p>
-            <table frame="all" rowsep="1" colsep="1">
-                <tgroup cols="2">
-                    <colspec colname="COLSPEC0" colwidth="120*"/>
-                    <colspec colname="COLSPEC1" colwidth="20*"/>
-                    <thead>
-                        <row>
-                            <entry colname="COLSPEC0" align="center"><uicontrol>Help</uicontrol> menu items</entry>
-                            <entry colname="COLSPEC1" align="center">Icon</entry>
-                        </row>
-                    </thead>
-                    <tbody>
-                        <row>
-                            <entry><uicontrol>Product website</uicontrol></entry>
-                            <entry><image href="img/menu/url.png" placement="break" width="16" align="center" /></entry>
-                        </row>
-                        <row>
-                            <entry><uicontrol>Contact Us</uicontrol></entry>
-                            <entry><image href="img/menu/mail.png" placement="break" width="16" align="center" /></entry>
-                        </row>
-                        <row>
-                            <entry><uicontrol>Check for updates</uicontrol> (see section <xref keyref="firmware_update"/>&#160;)</entry>
-                            <entry><image href="img/menu/Update.png" placement="break" width="16" align="center" /></entry>
-                        </row>
-                        <row>
-                            <entry><uicontrol>Update student modules</uicontrol>: remote update of the student modules after update of the teacher module (see section <xref keyref="firmware_update"/>&#160;)</entry>
-                            <entry><image href="img/menu/UpdateClient.png" placement="break" width="16" align="center" /></entry>
-                        </row>
-                        <row>
-                            <entry><uicontrol>About <wintitle>Dialog Nibelung</wintitle></uicontrol></entry>
-                            <entry><image href="img/menu/mainico.PNG" placement="break" width="16" align="center" /></entry>
-                        </row>
-                    </tbody>
-                </tgroup>
-            </table>
-        </p>
+			<ul>
+				<li><uicontrol>File</uicontrol></li>
+				<li><uicontrol>Class</uicontrol></li>
+				<li><uicontrol>Log</uicontrol></li>
+				<li><uicontrol>View</uicontrol></li>
+				<li><uicontrol>Tools</uicontrol></li>
+				<li><uicontrol>Quiz</uicontrol></li>
+				<li><uicontrol>Help</uicontrol></li>
+			</ul>
+		</p>
+		<p>
+		<table frame="all" rowsep="1" colsep="1">
+            <tgroup cols="2">
+                <colspec colname="COLSPEC0" colwidth="120*"/>
+                <colspec colname="COLSPEC1" colwidth="20*"/>
+                <thead>
+                    <row>
+					<entry colname="COLSPEC0" align="center"><uicontrol>File</uicontrol> menu items</entry>
+                        <entry colname="COLSPEC1" align="center">Icon</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+					<entry><uicontrol>Open teacher folder</uicontrol> (see section <xref keyref="tutor_settings"/>&#160;)</entry>
+                        <entry><image href="img/menu/openfolder.png" placement="break" width="16" align="center"/></entry>
+                    </row>
+					<row>
+						<entry><uicontrol>Change teacher</uicontrol> (see section <xref keyref="choice_tutor"/>&#160;)</entry>
+                        <entry><image href="img/menu/change.png" placement="break" width="16" align="center"/></entry>
+                    </row>
+					<row>
+						<entry><uicontrol>Account management</uicontrol> (see section <xref keyref="choice_tutor"/>&#160;)</entry>
+                        <entry><image href="img/menu/account.png" placement="break" width="16" align="center"/></entry>
+                    </row>
+					<row>
+						<entry><uicontrol>Settings</uicontrol> (see section <xref keyref="setup_main"/>&#160;)</entry>
+                        <entry><image href="img/menu/settings.png" placement="break" width="16" align="center"/></entry>
+                    </row>
+					<row>
+						<entry><uicontrol>Teacher settings</uicontrol> (see section <xref keyref="tutor_settings"/>&#160;)</entry>
+                        <entry><image href="img/menu/tutorsettings.png" placement="break" width="16" align="center"/></entry>
+                    </row>
+					<row>
+						<entry><uicontrol>Exit</uicontrol></entry>
+                        <entry><image href="img/menu/exit.png" placement="break" width="16" align="center"/></entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+		</p>
+		<p>
+		<table frame="all" rowsep="1" colsep="1">
+            <tgroup cols="2">
+                <colspec colname="COLSPEC0" colwidth="120*"/>
+                <colspec colname="COLSPEC1" colwidth="20*"/>
+                <thead>
+                    <row>
+					<entry colname="COLSPEC0" align="center"><uicontrol>Class</uicontrol> menu items</entry>
+                        <entry colname="COLSPEC1" align="center">Icon</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+					<entry><uicontrol>New</uicontrol> (see section <xref keyref="student_class"/>&#160;)</entry>
+                        <entry><image href="img/menu/NewHS.png" placement="break" width="16" align="center" /></entry>
+                    </row>
+					<row>
+						<entry><uicontrol>Open</uicontrol> (see section <xref keyref="student_class"/>&#160;)</entry>
+                        <entry><image href="img/menu/openHS.png" placement="break" width="16" align="center" /></entry>
+                    </row>
+					<row>
+						<entry><uicontrol>Save</uicontrol> (see section <xref keyref="student_class"/>&#160;)</entry>
+                        <entry><image href="img/menu/saveHS.png" placement="break" width="16" align="center" /></entry>
+                    </row>
+					<row>
+						<entry><uicontrol>Save as</uicontrol> (see section <xref keyref="student_class"/>&#160;)</entry>
+                        <entry><image href="img/menu/saveAsHS.png" placement="break" width="16" align="center" /></entry>
+                    </row>
+					<row>
+						<entry><uicontrol>Edit</uicontrol> (see section <xref keyref="student_class"/>&#160;)</entry>
+                        <entry> </entry>
+                    </row>
+					<row>
+						<entry><uicontrol>Add student</uicontrol> (see section <xref keyref="student_class"/>&#160;)</entry>
+                        <entry><image href="img/menu/AddStudent.png" placement="break" width="16" align="center" /></entry>
+                    </row>
+					<row>
+						<entry><uicontrol>Remove student</uicontrol> (see section <xref keyref="student_class"/>&#160;)</entry>
+                        <entry><image href="img/menu/DelStudent.png" placement="break" width="16" align="center" /></entry>
+                    </row>
+					<row>
+						<entry><uicontrol>Arrange</uicontrol> (see section <xref keyref="student_class"/>&#160;)</entry>
+                        <entry><image href="img/menu/SortHS.png" placement="break" width="16" align="center" /></entry>
+                    </row>
+					<row>
+						<entry><uicontrol>Roll call</uicontrol> (see section <xref keyref="registration"/>&#160;)</entry>
+                        <entry><image href="img/menu/Registration.png" placement="break" width="16" align="center" /></entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+		</p>
+		<p>
+		<table frame="all" rowsep="1" colsep="1">
+            <tgroup cols="2">
+                <colspec colname="COLSPEC0" colwidth="120*"/>
+                <colspec colname="COLSPEC1" colwidth="20*"/>
+                <thead>
+                    <row>
+					<entry colname="COLSPEC0" align="center"><uicontrol>Logbook</uicontrol> menu items</entry>
+                        <entry colname="COLSPEC1" align="center">Icon</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+					<entry><uicontrol>Start lesson</uicontrol> (see section <xref keyref="current_lesson"/>&#160;)</entry>
+                        <entry><image href="img/menu/lesson.png" placement="break" width="16" align="center" /></entry>
+                    </row>
+					<row>
+						<entry><uicontrol>Lesson list</uicontrol> (see section <xref keyref="lessons_list"/>&#160;)</entry>
+                        <entry><image href="img/menu/viewlessons.png" placement="break" width="16" align="center" /></entry>
+                    </row>
+					<row>
+						<entry><uicontrol>Performance</uicontrol> (see section <xref keyref="grades_statistics"/>&#160;)</entry>
+                        <entry><image href="img/menu/stat1.png" placement="break" width="16" align="center" /></entry>
+                    </row>
+					<row>
+						<entry><uicontrol>Attendance</uicontrol> (see section <xref keyref="presents_statistics"/>&#160;)</entry>
+                        <entry><image href="img/menu/stat2.png" placement="break" width="16" align="center" /></entry>
+                    </row>
+					<row>
+						<entry><uicontrol>Class statistics</uicontrol> (see section <xref keyref="classes_statistics"/>&#160;)</entry>
+                        <entry><image href="img/menu/stat3.png" placement="break" width="16" align="center" /></entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+		</p>
+		<p>
+		<table frame="all" rowsep="1" colsep="1">
+            <tgroup cols="2">
+                <colspec colname="COLSPEC0" colwidth="120*"/>
+                <colspec colname="COLSPEC1" colwidth="20*"/>
+                <thead>
+                    <row>
+					<entry colname="COLSPEC0" align="center"><uicontrol>View</uicontrol> menu items</entry>
+                        <entry colname="COLSPEC1" align="center">icon</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+					<entry><uicontrol>Toolbar</uicontrol> show / hide</entry>
+                        <entry></entry>
+                    </row>
+					<row>
+						<entry><uicontrol>Status bar</uicontrol> show / hide</entry>
+                        <entry></entry>
+                    </row>
+					<row>
+						<entry><uicontrol>Customize toolbar</uicontrol> (see section <xref keyref="customize_toolbar"/>&#160;)</entry>
+                        <entry><image href="img/menu/CustomizeHS.png" placement="break" width="16" align="center"/></entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+		</p>
+		<p>
+		<table frame="all" rowsep="1" colsep="1">
+            <tgroup cols="2">
+                <colspec colname="COLSPEC0" colwidth="120*"/>
+                <colspec colname="COLSPEC1" colwidth="20*"/>
+                <thead>
+                    <row>
+					<entry colname="COLSPEC0" align="center"><uicontrol>Tools</uicontrol> menu items</entry>
+                        <entry colname="COLSPEC1" align="center">Icon</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry><uicontrol>Nibelung Media Player</uicontrol>: launch the <wintitle>Nibelung Media Player</wintitle> on the teacher workstation (see section <xref keyref="menu_tools"/>&#160;)</entry>
+                        <entry><image href="img/menu/NPlayer.png" placement="break" width="16" align="center"/></entry>
+                    </row>
+					<row>
+                        <entry><uicontrol>Video converter</uicontrol> (convert video files into <b>MPEG-1</b> format) (see section <xref keyref="menu_tools"/>&#160;)</entry>
+                        <entry><image href="img/menu/VideoConverter.png" placement="break" width="16" align="center"/></entry>
+                    </row>
+					<row>
+                        <entry><uicontrol>Configure student modules</uicontrol> (see section <xref keyref="configurator"/>&#160;)</entry>
+                        <entry><image href="img/menu/configure-icon.png" placement="break" width="16" align="center"/></entry>
+                    </row>
+					<row>
+                        <entry><uicontrol>Edit</uicontrol> (edit contents of the <uicontrol>Tools</uicontrol> menu) (see section <xref keyref="menu_tools"/>&#160;)</entry>
+                        <entry><image href="img/menu/execute.png" placement="break" width="16" align="center"/></entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+		</p>
+		<p>
+		<table frame="all" rowsep="1" colsep="1">
+            <tgroup cols="2">
+                <colspec colname="COLSPEC0" colwidth="120*"/>
+                <colspec colname="COLSPEC1" colwidth="20*"/>
+                <thead>
+                    <row>
+					<entry colname="COLSPEC0" align="center"><uicontrol>Quiz</uicontrol> menu items</entry>
+                        <entry colname="COLSPEC1" align="center">Icon</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+					<entry><uicontrol>Quiz builder</uicontrol> (see section <xref keyref="test_builder"/>&#160;)</entry>
+                        <entry><image href="img/menu/quizbuilder.png" placement="break" width="16" align="center"/></entry>
+                    </row>
+					<row>
+						<entry><uicontrol>Results</uicontrol> (see section <xref keyref="test_result"/>&#160;)</entry>
+                        <entry><image href="img/menu/quizadmin.png" placement="break" width="16" align="center"/></entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+		</p>
+		<p>
+		<table frame="all" rowsep="1" colsep="1">
+            <tgroup cols="2">
+                <colspec colname="COLSPEC0" colwidth="120*"/>
+                <colspec colname="COLSPEC1" colwidth="20*"/>
+                <thead>
+                    <row>
+					<entry colname="COLSPEC0" align="center"><uicontrol>Help</uicontrol> menu items</entry>
+                        <entry colname="COLSPEC1" align="center">Icon</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+					<entry><uicontrol>Product website</uicontrol></entry>
+                        <entry><image href="img/menu/url.png" placement="break" width="16" align="center" /></entry>
+                    </row>
+					<row>
+						<entry><uicontrol>Contact Us</uicontrol></entry>
+                        <entry><image href="img/menu/mail.png" placement="break" width="16" align="center" /></entry>
+                    </row>
+					<row>
+						<entry><uicontrol>Check for updates</uicontrol> (see section <xref keyref="firmware_update"/>&#160;)</entry>
+                        <entry><image href="img/menu/Update.png" placement="break" width="16" align="center" /></entry>
+                    </row>
+					<row>
+						<entry><uicontrol>Update student modules</uicontrol>: remote update of the student modules after update of the teacher module (see section <xref keyref="firmware_update"/>&#160;)</entry>
+                        <entry><image href="img/menu/UpdateClient.png" placement="break" width="16" align="center" /></entry>
+                    </row>
+					<row>
+						<entry><uicontrol>About <wintitle>Dialog Nibelung</wintitle></uicontrol></entry>
+                        <entry><image href="img/menu/mainico.PNG" placement="break" width="16" align="center" /></entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+		</p>
     </conbody>
 </concept>

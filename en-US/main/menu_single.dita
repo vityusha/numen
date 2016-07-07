@@ -5,7 +5,6 @@
   <title>Student menu</title>
   <conbody>
     <p>Right click on a student panel to open a pop-up menu of actions for this student.</p>
-    <p>В заголовке меню будет отображаться имя учащегося, в скобках рядом с именем указывается порядковый номер учащегося в классе.</p>
     <table frame="all" rowsep="1" colsep="1">
       <tgroup cols="2">
         <colspec colname="COLSPEC0" colwidth="120*"/>
@@ -182,10 +181,6 @@
           <row>
 			<entry><uicontrol>Set photo</uicontrol></entry>
             <entry><image href="img/menu/setphoto.png" placement="break" width="16" align="center"/></entry>
-          </row>
-          <row>
-            <entry><uicontrol>Учетная карточка учащегося</uicontrol></entry>
-            <entry><image href="img/menu/card.png" placement="break" width="16" align="center"/></entry>
           </row>
         </tbody>
       </tgroup>

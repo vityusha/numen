@@ -26,7 +26,6 @@
 				<li>Microphones muted (section <xref keyref="disable_microphone"/>&#160;)</li>
 				<li>Launch applications (section <xref keyref="run_programs"/>&#160;)</li>
 				<li>Group chat (section <xref keyref="chat"/>&#160;)</li>
-				<li>Group whiteboard (section <xref keyref="whiteboard"/>&#160;)</li>
 				<li>Input locked (section <xref keyref="lock_input"/>&#160;)</li>
 				<li>Computers locked (section <xref keyref="lock_pc"/>&#160;)</li>
 				<li>Application launch control (section <xref keyref="applications_management"/>&#160;)</li>

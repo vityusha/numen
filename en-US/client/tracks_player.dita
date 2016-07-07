@@ -19,57 +19,45 @@
                 <colspec colname="COLSPEC0" colwidth="10*"/>
                 <colspec colname="COLSPEC1" colwidth="120*"/>
                 <tbody>
-					<row>
+                    <row>
                         <entry>1</entry>
-                        <entry>Edit file description button</entry>
+				    <entry>Master track <indexterm>audio visualization</indexterm><keyword>visualization</keyword></entry>
                     </row>
-					<row>
+				<row>
                         <entry>2</entry>
-                        <entry>Область воспроизведения субтитров</entry>
-                    </row>
-                    <row>
-                        <entry>3</entry>
-                        <entry>Master track <indexterm>audio visualization</indexterm><keyword>visualization</keyword></entry>
-                    </row>
-					<row>
-                        <entry>4</entry>
-                        <entry>Current position slider</entry>
-                    </row>
-                    <row>
-                        <entry>5</entry>
                         <entry>Student track visualization</entry>
                     </row>
 					<row>
-                        <entry>6</entry>
-                        <entry>Спектрограмма аудио-сигнала мастер-трека</entry>
+                        <entry>3</entry>
+                        <entry>Current position slider</entry>
                     </row>
 					<row>
-                        <entry>7</entry>
-                        <entry>Спектрограмма аудио-сигнала трека учащегося</entry>
-                    </row>
-					<row>
-                        <entry>8</entry>
-                        <entry>Playback speed</entry>
-                    </row>
-					<row>
-                        <entry>9</entry>
+                        <entry>4</entry>
                         <entry>Bookmark control buttons</entry>
                     </row>
 					<row>
-                        <entry>10</entry>
+                        <entry>5</entry>
+                        <entry>Playback speed</entry>
+                    </row>
+					<row>
+                        <entry>6</entry>
                         <entry>Mute master track</entry>
                     </row>
 					<row>
-                        <entry>11</entry>
+                        <entry>7</entry>
                         <entry>Master track volume</entry>
                     </row>
 					<row>
-                        <entry>12</entry>
+                        <entry>8</entry>
                         <entry>Mute student track</entry>
                     </row>
 					<row>
-                        <entry>13</entry>
+                        <entry>9</entry>
                         <entry>Student track volume</entry>
+                    </row>
+					<row>
+                        <entry>10</entry>
+                        <entry>Edit file description button</entry>
                     </row>
                 </tbody>
             </tgroup>
