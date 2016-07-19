@@ -54,7 +54,7 @@ See the accompanying license.txt file for applicable licenses.
     <!--variable id="Product Name">"EXPERA" Intelligent Network platform</variable-->
     
     <!-- Default copyrholder name to be placed inside headers etc. if don't present copyrholder element -->
-    <variable id="Default Copyrholder">Lain LLC.</variable>
+    <variable id="Default Copyrholder">Lain Laboratory LLC.</variable>
     
     <!-- Default year to be placed inside headers etc. if don't present copyryear element -->
     <variable id="Default Year">2012</variable>
@@ -284,28 +284,28 @@ See the accompanying license.txt file for applicable licenses.
     <variable id="This link">this link</variable>
         
     <!-- Image path to use for a note of "note" type. -->
-    <variable id="note Note Image Path">Customization/OpenTopic/common/artwork/hand.gif</variable>
+    <variable id="note Note Image Path">Customization/OpenTopic/common/artwork/note.png</variable>
 
     <!-- Image path to use for a note of "attention" type. -->
     <variable id="attention Note Image Path">Customization/OpenTopic/common/artwork/attention.png</variable>
 
     <!-- Image path to use for a note of "caution" type. -->
-    <variable id="caution Note Image Path">Customization/OpenTopic/common/artwork/warning.gif</variable>
+    <variable id="caution Note Image Path">Customization/OpenTopic/common/artwork/warning.png</variable>
 
     <!-- Image path to use for a note of "danger" type. -->
-    <variable id="danger Note Image Path">Customization/OpenTopic/common/artwork/hand.gif</variable>
+    <variable id="danger Note Image Path">Customization/OpenTopic/common/artwork/danger.png</variable>
   
     <!-- Image path to use for a note of "fastpath" type. -->
-    <variable id="fastpath Note Image Path">Customization/OpenTopic/common/artwork/hand.gif</variable>
+    <variable id="fastpath Note Image Path">Customization/OpenTopic/common/artwork/tip.png</variable>
   
     <!-- Image path to use for a note of "important" type. -->
     <variable id="important Note Image Path">Customization/OpenTopic/common/artwork/important.png</variable>
  
     <!-- Image path to use for a note of "remember" type. -->
-    <variable id="remember Note Image Path">Customization/OpenTopic/common/artwork/hand.gif</variable>
+    <variable id="remember Note Image Path">Customization/OpenTopic/common/artwork/tip.png</variable>
  
     <!-- Image path to use for a note of "restriction" type. -->
-    <variable id="restriction Note Image Path">Customization/OpenTopic/common/artwork/hand.gif</variable>
+    <variable id="restriction Note Image Path">Customization/OpenTopic/common/artwork/restriction.png</variable>
 
     <!-- Image path to use for a note of "tip" type. -->
     <variable id="tip Note Image Path">Customization/OpenTopic/common/artwork/tip.png</variable>
