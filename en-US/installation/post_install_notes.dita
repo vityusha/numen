@@ -22,10 +22,10 @@
             <ul>
                 <li><p>Windows XP:</p> 
                     <p><menucascade><uicontrol>Start</uicontrol><uicontrol>Control Panel</uicontrol><uicontrol>Windows Security Center</uicontrol><uicontrol>Windows Firewall</uicontrol><uicontrol>Exceptions</uicontrol></menucascade></p></li>
-                <li><p>Windows Vista и 7:</p> 
+                <li><p>Windows Vista and 7:</p> 
                     <p><menucascade><uicontrol>Start</uicontrol><uicontrol>Control Panel</uicontrol><uicontrol>System and Security</uicontrol><uicontrol>Allow a program through Windows Firewall</uicontrol></menucascade></p> <p>or</p> <p><menucascade><uicontrol>Start</uicontrol><uicontrol>Control Panel</uicontrol><uicontrol>Windows Firewall</uicontrol><uicontrol>Exceptions</uicontrol></menucascade></p></li>
                 <li><p>Windows 8/10:</p> 
-                    <p>в окне поиска введите слово "firewall", а затем выберите <uicontrol>Windows Firewall</uicontrol>, выберите пункт <uicontrol>Allow an app or feature through Windows Firewall</uicontrol>, нажмите кнопку <uicontrol>Change settings</uicontrol> (требуются права администратора), а затем внизу нажмите <uicontrol>Allow another app...</uicontrol> и добавьте приложение Диалог Nibelung в список</p></li>
+                    <p>Enter "firewall" into the search bar, select <uicontrol>Windows Firewall</uicontrol>, then select <uicontrol>Allow an app or feature through Windows Firewall</uicontrol>, press the <uicontrol>Change settings</uicontrol> button (you will need Administrator privileges), and then press <uicontrol>Allow another app...</uicontrol> at the bottom and add <wintitle>Dialog Nibelung</wintitle> to the list.</p></li>
             </ul>
             <p>Some anti-virus software may also issue warnings regarding <wintitle>Dialog Nibelung</wintitle>. You will have to create appropriate exceptions and/or add it to the list of trusted software as well.</p>
         </section>
