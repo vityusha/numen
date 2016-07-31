@@ -25,7 +25,7 @@
                     </row>
 					<row>
                         <entry>2</entry>
-                        <entry>Область воспроизведения субтитров</entry>
+                        <entry>Subtitles display panel</entry>
                     </row>
                     <row>
                         <entry>3</entry>
@@ -41,11 +41,11 @@
                     </row>
 					<row>
                         <entry>6</entry>
-                        <entry>Спектрограмма аудио-сигнала мастер-трека</entry>
+                        <entry>Master track spectrogram</entry>
                     </row>
 					<row>
                         <entry>7</entry>
-                        <entry>Спектрограмма аудио-сигнала трека учащегося</entry>
+                        <entry>Student track spectrogram</entry>
                     </row>
 					<row>
                         <entry>8</entry>
