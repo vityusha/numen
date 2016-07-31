@@ -2,47 +2,47 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="setup_mic_10" xml:lang="en-US">
-    <title>Настройка микрофона для ОС Windows 8/10</title>
+    <title>Microphone setup for Windows 8/10</title>
     <conbody>
-        <note type="important">Перед тем как производить настройку микрофона в операционных системах Windows 8/10, необходимо подключить микрофон к компьютеру (обычно это красный разьем на звуковой карте).</note>
-        <p>Для того, чтобы подключить и настроить микрофон в операционной системе Windows 8/10, нужно открыть <wintitle>Панель управления</wintitle> (<xref keyref="setup_mic_10/control_panel_10_png" type="fig"/>&#160;). Для этого щелкните правой клавишей мышки на кнопке <uicontrol>Пуск</uicontrol> или одновременно нажмите на клавиатуре клавиши <uicontrol><shortcut>Win + X</shortcut></uicontrol> и выберите в открывшемся меню пункт <uicontrol>Панель управления</uicontrol>.</p>
+        <note type="important">You will have to connect the microphone to the computer audio interface first (usually it's the red connector on the interface) before starting to set it up for Windows 8/10.</note>
+        <p>Open the <wintitle>Панель управления</wintitle> (<xref keyref="setup_mic_10/control_panel_10_png" type="fig"/>&#160;) window to set up the microphone for Windows 8/10. This can be accomplished by right clicking on the <uicontrol>Start</uicontrol> button or pressing <uicontrol><shortcut>Win + X</shortcut></uicontrol> on you keyboard and selecting <uicontrol>Control panel</uicontrol> in the menu.</p>
         <fig id="control_panel_10_png">
-            <title>Панель управления в ОС Windows 8/10</title>
+            <title>Windows 8/10 Control Panel</title>
             <image href="img/control_panel_10.png" placement="break" scalefit="yes">
-                <alt>Панель управления в ОС Windows 8/10</alt>
+                <alt>Windows 8/10 Control Panel</alt>
             </image>
         </fig>
-        <p>В окне <uicontrol>Панели управления</uicontrol> выберите <wintitle>Оборудование и звук</wintitle>, а затем <wintitle>Звук</wintitle>.</p>
-        <p>На экране монитора появится окно <wintitle>Звук</wintitle> (<xref keyref="setup_mic_10/sound_10_1_png" type="fig"/>&#160;), в котором нужно выбрать закладку <wintitle>Запись</wintitle>. Дальше необходимо выделить строку с микрофоном и нажать на кнопку <uicontrol>Свойства</uicontrol>.</p>        
+        <p>Select <wintitle>Hardware and Sound</wintitle> in the <uicontrol>Control Panel</uicontrol> window and then select<wintitle>Sound</wintitle>.</p>
+        <p>Select <wintitle>Recording</wintitle> tab in the <wintitle>Sound</wintitle> (<xref keyref="setup_mic_10/sound_10_1_png" type="fig"/>&#160;) window that appears on your display. Then select the microphone and press the <uicontrol>Properties</uicontrol> button.</p>        
         <fig id="sound_10_1_png">
-            <title>Окно <wintitle>Звук</wintitle></title>
+            <title><wintitle>Sound</wintitle> window</title>
             <image href="img/sound_10_1.png" placement="break">
-                <alt>Окно <wintitle>Звук</wintitle></alt>
+                <alt><wintitle>Sound</wintitle> window</alt>
             </image>
         </fig>
-        <p>На экране монитора появится окно <wintitle>Свойства: Микрофон</wintitle> (<xref keyref="setup_mic_10/sound_10_4_png" type="fig"/>&#160;). В закладке <wintitle>Общие</wintitle> в пункте <uicontrol>Применение устройства</uicontrol> должно быть установлено <uicontrol>Использовать это устройство (вкл.)</uicontrol>.
+        <p>You will be presented with the <wintitle>Microphone Properties</wintitle> window (<xref keyref="setup_mic_10/sound_10_4_png" type="fig"/>&#160;). Select the <wintitle>General</wintitle> tab and make sure that <uicontrol>Device usage</uicontrol> is set to <uicontrol>Use this device (enable)</uicontrol>.
         </p>
         <fig id="sound_10_4_png">
-            <title>Окно <wintitle>Микрофон / Общие</wintitle></title>
+            <title><wintitle>General</wintitle> tab of the <wintitle>Microphone Properties</wintitle> window</title>
             <image href="img/sound_10_4.png" placement="break">
-                <alt>Окно <wintitle>Микрофон / Общие</wintitle></alt>
+                <alt><wintitle>General</wintitle> tab of the <wintitle>Microphone Properties</wintitle> window</alt>
             </image>
         </fig>
-        <p>В закладке <wintitle>Уровни</wintitle> (<xref keyref="setup_mic_10/sound_10_2_png" type="fig"/>&#160;) можно выставить чувствительность микрофона и, если потребуется, добавить усиление.</p>
+        <p>Select <wintitle>Levels</wintitle> tab (<xref keyref="setup_mic_10/sound_10_2_png" type="fig"/>&#160;) to set up microphone level and boost its gain (if necessary).</p>
         <fig id="sound_10_2_png">
-            <title>Окно <wintitle>Микрофон / Уровни</wintitle></title>
+            <title><wintitle>Levels</wintitle> tab of the <wintitle>Microphone Properties</wintitle> window</title>
             <image href="img/sound_10_2.png" placement="break">
-                <alt>Окно <wintitle>Микрофон / Уровни</wintitle></alt>
+                <alt><wintitle>Levels</wintitle> tab of the <wintitle>Microphone Properties</wintitle> window</alt>
             </image>
         </fig>      
-        <p>В закладке <wintitle>Улучшения</wintitle> (<xref keyref="setup_mic_10/sound_10_3_png" type="fig"/>&#160;) можно установить дополнительные свойства микрофона: подавление шума, подавление эхо и другие.</p>
+        <p>Select <wintitle>Enhancements</wintitle> (<xref keyref="setup_mic_10/sound_10_3_png" type="fig"/>&#160;) tab to set up additional microphone features, such as noise suppression, echo cancellation, etc.</p>
         <fig id="sound_10_3_png">
-            <title>Окно <wintitle>Микрофон / Улучшения</wintitle></title>
+            <title><wintitle>Enhancements</wintitle> tab of the <wintitle>Microphone Properties</wintitle> window</title>
             <image href="img/sound_10_3.png" placement="break">
-                <alt>Окно <wintitle>Микрофон / Улучшения</wintitle></alt>
+                <alt><wintitle>Enhancements</wintitle> tab of the <wintitle>Microphone Properties</wintitle> window</alt>
             </image>
         </fig>
-        <note type="important">Наличие дополнительных свойств зависит от установленной звуковой карты.</note>
-        <p>После завершения всех настроек микрофона нужно нажать на кнопку <uicontrol>OK</uicontrol>.</p>
+        <note type="important">Microphone additional features and enhancements depend on the type of the sound interface in your computer.</note>
+        <p>Press <uicontrol>OK</uicontrol> button to finish microphone setup.</p>
     </conbody>
 </concept>
