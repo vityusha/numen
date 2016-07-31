@@ -2,43 +2,42 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="setup_net_10" xml:lang="en-US">
-    <title>Настройка сетевой карты для ОС Windows 8 и 10</title>
+    <title>Network interface setup on Windows 8 and 10</title>
     <conbody>
-        <p>Щелкните правой клавишей мышки на кнопке <uicontrol>Start</uicontrol> или одновременно нажмите на клавиатуре клавиши <uicontrol><shortcut>Win + X</shortcut></uicontrol> и выберите в открывшемся меню пункт <uicontrol>Device manager</uicontrol>.</p>
-        <p>В появившемся окне <wintitle>Device manager</wintitle> (<xref keyref="setup_net_10/dispetcher_10_png" type="fig"/>&#160;) откройте подменю <uicontrol>Network adapters</uicontrol> и дважды щелкните мышкой на названии сетевой карты, встроенной в компьютер (например, <b>Realtek PCIe GBE Family Controller</b>).</p> 
+        <p>Right click on the <uicontrol>Start</uicontrol> button or press <uicontrol><shortcut>Win + X</shortcut></uicontrol> on your keyboard and select <uicontrol>Device manager</uicontrol> from the menu.</p>
+        <p>In the <wintitle>Device manager</wintitle> window (<xref keyref="setup_net_10/dispetcher_10_png" type="fig"/>&#160;) select <uicontrol>Network adapters</uicontrol> and double click on the name of the network interface (e.g., <b>Realtek PCIe GBE Family Controller</b>).</p> 
         <fig id="dispetcher_10_png">
-            <title>Окно диспетчера устройств для Windows 8/10</title>
+            <title><wintitle>Device Manager</wintitle> window in Windows 8/10</title>
             <image href="img/dispetcher_10.png" placement="break">
-                <alt>Окно диспетчера устройств для Windows 8/10</alt>
+                <alt><wintitle>Device Manager</wintitle> window in Windows 8/10</alt>
             </image>
         </fig>        
-        <p>В открывшемся окне <wintitle>Properties</wintitle> (<xref keyref="setup_net_10/network_10_png" type="fig"/>&#160;) нужно перейти на закладку <uicontrol>Advanced</uicontrol> и, выбрав из списка нужные свойства, установить требуемые значения.</p>
+        <p>Select <uicontrol>Advanced</uicontrol> tab in the <wintitle>Properties</wintitle> window (<xref keyref="setup_net_10/network_10_png" type="fig"/>&#160;) and set the properties according to the table below.</p>
         <fig id="network_10_png">
             <title>Окно свойств сетевой платы для Windows 8/10</title>
             <image href="img/network_10.png" placement="break">
                 <alt>Окно свойств сетевой платы для Windows 8/10</alt>
             </image>
         </fig> 
-        <p>В таблице, приведенной ниже, для примера указывается список устанавливаемых свойств сетевой карты:</p>
         <table frame="all">
             <tgroup cols="2">
                 <colspec colname="COLSPEC0" colwidth="200*"/>
                 <colspec colname="COLSPEC1" colwidth="120*"/>
                 <thead>
                     <row>
-                        <entry colname="COLSPEC0">Свойства для Realtek PCIe GBE Family Controller</entry>
-                        <entry colname="COLSPEC1">Рекомендуемое значение</entry>
+                        <entry colname="COLSPEC0">Realtek PCIe GBE Family Controller properties</entry>
+                        <entry colname="COLSPEC1">Recommended value</entry>
                     </row>
                 </thead>
                 <tbody>
                     <row>
-                        <entry>Включить при совпадении шаблона</entry>
-                        <entry>Вкл</entry>
+                        <entry>Power on pattern match (?) _fixme_</entry>
+                        <entry>Enabled (?) _fixme_</entry>
                     </row>
                 </tbody> 
             </tgroup>
         </table>
-        <p>Это свойство необходимо для вывода компьютера учащегося из спящего режима по команде преподавателя.</p>
-        <note type="important">При первом запуске основного модуля и модуля клиента может потребоваться разрешить брандмауэру Windows (или стороннему межсетевому экрану) их работу по сети. Как правило, брандмауэр сам дает соответствующий запрос пользователю относительно программы Диалог Nibelung. На данный запрос следует ответить положительно.</note> 
+        <p>This property enables student workstation to be woken up remotely from the teacher module.</p>
+        <note type="important">During the first run of teacher or student module you may have to allow their network access in either built in Windows firewall or a third party one. Usially the firewall will prompt you about <wintitle>Dialog Nibelung</wintitle> network access, which you should confirm.</note> 
     </conbody>
 </concept>
