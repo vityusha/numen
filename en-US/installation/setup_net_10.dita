@@ -14,9 +14,9 @@
         </fig>        
         <p>Select <uicontrol>Advanced</uicontrol> tab in the <wintitle>Properties</wintitle> window (<xref keyref="setup_net_10/network_10_png" type="fig"/>&#160;) and set the properties according to the table below.</p>
         <fig id="network_10_png">
-            <title>Окно свойств сетевой платы для Windows 8/10</title>
+            <title>Network interface properties window for Windows 8/10</title>
             <image href="img/network_10.png" placement="break">
-                <alt>Окно свойств сетевой платы для Windows 8/10</alt>
+                <alt>Network interface properties window for Windows 8/10</alt>
             </image>
         </fig> 
         <table frame="all">

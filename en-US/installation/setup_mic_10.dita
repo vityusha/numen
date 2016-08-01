@@ -5,7 +5,7 @@
     <title>Microphone setup for Windows 8/10</title>
     <conbody>
         <note type="important">You will have to connect the microphone to the computer audio interface first (usually it's the red connector on the interface) before starting to set it up for Windows 8/10.</note>
-        <p>Open the <wintitle>Панель управления</wintitle> (<xref keyref="setup_mic_10/control_panel_10_png" type="fig"/>&#160;) window to set up the microphone for Windows 8/10. This can be accomplished by right clicking on the <uicontrol>Start</uicontrol> button or pressing <uicontrol><shortcut>Win + X</shortcut></uicontrol> on you keyboard and selecting <uicontrol>Control panel</uicontrol> in the menu.</p>
+        <p>Open the <wintitle>Control Panel</wintitle> (<xref keyref="setup_mic_10/control_panel_10_png" type="fig"/>&#160;) window to set up the microphone for Windows 8/10. This can be accomplished by right clicking on the <uicontrol>Start</uicontrol> button or pressing <uicontrol><shortcut>Win + X</shortcut></uicontrol> on you keyboard and selecting <uicontrol>Control panel</uicontrol> in the menu.</p>
         <fig id="control_panel_10_png">
             <title>Windows 8/10 Control Panel</title>
             <image href="img/control_panel_10.png" placement="break" scalefit="yes">
