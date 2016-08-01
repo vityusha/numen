@@ -31,8 +31,8 @@
                 </thead>
                 <tbody>
                     <row>
-                        <entry>Power on pattern match (?) _fixme_</entry>
-                        <entry>Enabled (?) _fixme_</entry>
+                        <entry>Wake on Magic Packet</entry>
+                        <entry>Enabled</entry>
                     </row>
                 </tbody> 
             </tgroup>

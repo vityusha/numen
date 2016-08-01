@@ -42,7 +42,7 @@
                 <alt><wintitle>Enhancements</wintitle> tab of the <wintitle>Microphone Properties</wintitle> window</alt>
             </image>
         </fig>
-        <note type="important">Microphone additional features and enhancements depend on the type of the sound interface in your computer.</note>
+        <note type="important">Microphone additional features and enhancements depend on the type of the audio interface in your computer.</note>
         <p>Press <uicontrol>OK</uicontrol> button to finish microphone setup.</p>
     </conbody>
 </concept>
