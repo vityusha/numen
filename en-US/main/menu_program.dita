@@ -196,11 +196,11 @@
                             <entry><image href="img/menu/configure-icon.png" placement="break" width="16" align="center"/></entry>
                         </row>
                         <row>
-                            <entry><uicontrol>База данных учащихся</uicontrol> (запустить на компьютере преподавателя программу ведения базы данных учащихся данного учебного заведения (see section <xref keyref="studdb_intro"/>&#160;)</entry>
+                            <entry><uicontrol>Student database</uicontrol> (Launch student database (see section <xref keyref="studdb_intro"/>&#160;) on the teacher workstation)</entry>
                             <entry><image href="img/menu/studdb.png" placement="break" width="16" align="center"/></entry>
                         </row>
                         <row>
-                            <entry><uicontrol>Резервное копирование и восстановление</uicontrol> (инструмент создания резервных копий и восстановления из резервных копий настроек и данных преподавателей или всей программы <wintitle>Диалог-Nibelung</wintitle>) (see section <xref keyref="tools_backup"/>&#160;)</entry>
+                            <entry><uicontrol>Backup and restore</uicontrol> (backup and restore files and data from teacher folder or <wintitle>Dialog Nibelung</wintitle> globally) (see section <xref keyref="tools_backup"/>&#160;)</entry>
                             <entry><image href="img/menu/backup.png" placement="break" width="16" align="center"/></entry>
                         </row>
                         <row>
