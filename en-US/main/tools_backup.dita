@@ -2,29 +2,31 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="tools_backup" xml:lang="en-US">
-  <title>Резервное копирование и восстановление</title>
+  <title>Backup and restore</title>
   <conbody>  
-    <p>При выборе пункта <menucascade><uicontrol>Инструменты</uicontrol><uicontrol>Резервное копирование и восстановление</uicontrol></menucascade> на экране компьютера преподавателя откроется окно резервного копирования и восстановления (<xref keyref="tools_backup/backup_png" type="fig"/>&#160;).</p>
+    <p>Select <menucascade><uicontrol>Tools</uicontrol><uicontrol>Backup and restore</uicontrol></menucascade> to open the backup and restore tool window (<xref keyref="tools_backup/backup_png" type="fig"/>&#160;) on the teacher workstation.</p>
     <fig id="backup_png">
-      <title>Окно <wintitle>Резервное копирование и восстановление</wintitle></title>
+      <title><wintitle>Backup and restore</wintitle> window</title>
       <image href="img/backup-window.png" placement="break">
-        <alt>Окно <wintitle>Резервное копирование и восстановление</wintitle></alt>
+        <alt><wintitle>Backup and restore</wintitle> window</alt>
       </image>
     </fig>
-    <p>С помощью этого инструмента преподаватель имеет возможность сохранить все данные, находящиеся в папке преподавателя, и настройки в отдельный файл. В дальнейшем преподаватель может восстановить эти данные и настройки из файла резервного копирования.</p>
-    <note type="important">Если резервное копирование/воостановление выполняется под учетной записью администратора программы, то сохраняются/восстанавливаются папки всех преподавателей и системные настройки программы. Обратите внимание, что данные, находящиеся на брелках преподавателей (см. п. <xref keyref="usb_keychain"/>&#160;), в данном случае в резервный архив не попадают.</note>
-    <p>Для того, чтобы начать процедуру резервного копирования, в окне <uicontrol>Резервное копирование и восстановление</uicontrol> необходимо выбрать режим <uicontrol>Резервное копирование</uicontrol>, затем выбрать папку назначения, куда будет помещен архив, при необходимости задать пароль на архив и нажать на кнопку <uicontrol>Старт</uicontrol>. В зависимости от размера архивируемых данных процедура резервного копирования может занять значительное время.</p>
-    <note type="tip">Задание пароля на архив позволяет защитить данные архива от несанкционированного просмотра, однако в случае утери пароля делает невозможным восстановление данных из этого архива.</note>
-    <p>Имя архивного файла назначается программой автоматически и имеет следующий вид:</p>
-    <p><filepath>&lt;Каталог&gt;\NibelungBackup-John Smith PhD-2016-04-21_12-55-03-.zip</filepath></p>
+    <p>With the help of the backup and restore tool you can create a backup copy of all data and setting from a teacher folder. The backup copy will be stored in a separate file, from which the data and settings can be restored.</p>
+    
+    <note type="important">When you perform backup or restore logged in as Dialog Nibelung administrator all teacher foders and settings will be backed up or restored. Please note that the data and settings stored in teacher keys (см. п. <xref keyref="usb_keychain"/>&#160;) have to be backed up separately.</note>
+    
+    <p>Select <uicontrol>Backup</uicontrol> mode, specify destination folder, and press <uicontrol>Start</uicontrol> button in the <uicontrol>Backup and restore</uicontrol> window to initiate the backup procedure. You can also optionally specify backup password. The backup may take some time depending on the amount of data needed to be copied to the archive.</p>
+    <note type="tip">By specifying a password you will protect backup archive from unauthorised access. Please not that the password can not be recovered and its loss will render backed up data unaccessible.</note>
+    <p>Backup archive files are assigned names automatically according to the following pattern:</p>
+    <p><filepath>&lt;Folder&gt;\NibelungBackup-John Smith PhD-2016-04-21_12-55-03-.zip</filepath></p>
     <ul>
-    <li><filepath>&lt;Каталог&gt;</filepath> - выбранный каталог, куда помещается архив</li>
-    <li><filepath>NibelungBackup</filepath> - префикс архивного файла, означающий, что данный архив создан программой <wintitle>Nibelung</wintitle></li>
-    <li><filepath>John Smith PhD</filepath> - имя преподавателя или <filepath>System</filepath> в случае резервного копирования под учетной записью администратора программы</li>
-    <li><filepath>2016-04-21_12-55-03</filepath> - время создания архива в виде год-месяц-день_часы-минуты-секунды</li>
+    <li><filepath>&lt;Folder&gt;</filepath> - destination folder;</li>
+    <li><filepath>NibelungBackup</filepath> - file prefix indicating that the file was created by <wintitle>Nibelung</wintitle>;</li>
+    <li><filepath>John Smith PhD</filepath> - teacher name (<filepath>System</filepath> in case of a full system backup performed by the administrator);</li>
+    <li><filepath>2016-04-21_12-55-03</filepath> - backup creation timestamp in year-month-day_hours-minutes-seconds format</li>
     </ul>
-    <p>Для того, чтобы начать процедуру восстановления данных из архива, в окне <uicontrol>Резервное копирование и восстановление</uicontrol> необходимо выбрать режим <uicontrol>Восстановление</uicontrol>, затем выбрать ранее созданный файл архива, при необходимости указать пароль на архив и нажать на кнопку <uicontrol>Старт</uicontrol>. В зависимости от размера архивируемых данных процедура восстановления может занять значительное время.</p>
-    <p>Если при восстановлении архива выбрана опция <uicontrol>Удалить все старое содержимое при восстановлении</uicontrol>, то все текущее содержимое папки преподавателя (или всех  преподавателей в случае работы под учетной записью администратора программы) и все текущие настройки будут полностью заменены данными из архивной копии.</p>
-    <note type="important">Будьте осторожны с опцией <uicontrol>Удалить все старое содержимое при восстановлении</uicontrol>, так как это заменит все текущие файлы и настройки данными из архива и отменить это действие нельзя.</note>
+    <p>Select <uicontrol>Restore</uicontrol> mode, specify a backup archive file and password (if necessary), and press <uicontrol>Start</uicontrol> button in the <uicontrol>Backup and restore</uicontrol> window to restore data and settings. This may take some time depending on the amount of data to be restored.</p>
+    <p>Select <uicontrol>Restore and replace _fixme_ [ui]</uicontrol> option to replace existing data and settings with restored ones.</p>
+    <note type="important">Be careful with the <uicontrol>Restore and replace</uicontrol> option as it can not be undone.</note>
   </conbody>
 </concept>
