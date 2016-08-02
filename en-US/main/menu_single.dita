@@ -183,7 +183,7 @@
             <entry><image href="img/menu/setphoto.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry><uicontrol>Student profile _fixme_ [here or above]</uicontrol></entry>
+            <entry><uicontrol>Edit profile _fixme_ (?)</uicontrol></entry>
             <entry><image href="img/menu/card.png" placement="break" width="16" align="center"/></entry>
           </row>
         </tbody>
