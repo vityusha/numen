@@ -4,8 +4,7 @@
 <concept id="menu_single" xml:lang="en-US">
   <title>Student menu</title>
   <conbody>
-    <p>Right click on a student panel to open a pop-up menu of actions for this student.</p>
-    <p>В заголовке меню будет отображаться имя учащегося, в скобках рядом с именем указывается порядковый номер учащегося в классе.</p>
+    <p>Right click on a student panel to open a pop-up menu of actions for this student. Menu title will contain name of the student and their sequential number in the class.</p>
     <table frame="all" rowsep="1" colsep="1">
       <tgroup cols="2">
         <colspec colname="COLSPEC0" colwidth="120*"/>
@@ -184,7 +183,7 @@
             <entry><image href="img/menu/setphoto.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-            <entry><uicontrol>Учетная карточка учащегося</uicontrol></entry>
+            <entry><uicontrol>Student profile _fixme_ [here or above]</uicontrol></entry>
             <entry><image href="img/menu/card.png" placement="break" width="16" align="center"/></entry>
           </row>
         </tbody>
