@@ -2,31 +2,31 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="usb_keychain" xml:lang="en-US">
-  <title>Брелок преподавателя</title>
+  <title>Teacher key</title>
   <conbody>  
-    <p><indexterm>брелок преподавателя</indexterm><wintitle>Брелок преподавателя</wintitle> - это специально подготовленный USB флэш накопитель, который содержит персональные файлы преподавателя. Использование <wintitle>Брелка преподавателя</wintitle> предоставляет следующие преимущества при работе с программой:</p>
+    <p><indexterm>teacher key</indexterm><wintitle>Teacher key</wintitle> is a specially initialized USB flash drive holding files that would otherwise be residing in the teacher folder. Using a <wintitle>Teacher key</wintitle> provides certain advantages:</p>
     <ul>
-      <li>автоматический запуск основной программы <wintitle>Диалог Nibelung</wintitle> при подсоединении брелка преподавателя к компьютеру с установленной программой <wintitle>Диалог Nibelung</wintitle>, а также автоматическое завершение основной программы <wintitle>Диалог Nibelung</wintitle> при отсоединении брелка преподавателя от компьютера;</li>
-      <li>отсутствует необходимость ввода пароля при запуске основной программы <wintitle>Диалог Nibelung</wintitle>, так как это пароль в зашифрованном виде присутстует на USB флэш накопителе;</li>
-      <li>хранение всех персональных файлов преподавателя непосредственно на USB флэш накопителе, а не на жестком диске компьютера, что позволяет работать с этими файлами в другом классе или вне класса.</li>
+      <li>autostart <wintitle>Dialog Nibelung</wintitle> teacher module when the key is plugged in, as well as its automatic termination when the key is removed;</li>
+      <li>autologin without password as the teacher key contains all necessary credentials for your authetification in <wintitle>Dialog Nibelung</wintitle>;</li>
+      <li>teacher key stores all your peronal data that otherwise would be store in the teacher folder on the hard drive, thus allowing portability between different computers.</li>
     </ul>
-    <p>Для того,чтобы создать <wintitle>Брелок преподавателя</wintitle> выполните следующие действия:</p>
+    <p>To intitialize a new <wintitle>Teacher key</wintitle>:</p>
     <ol>
-      <li>Вставьте USB флэш накопитель, имеющий достаточно свободного места, в любой USB разьем компьютера.</li>
-      <li>Запустите программу <wintitle>Диалог Nibelung</wintitle> и войдите в нее под своим имененм (см. п. <xref keyref="choice_tutor"/>&#160;).</li>
-      <li>Откройте диалог настроек преподавателя (см. п. <xref keyref="tutor_settings"/>&#160;), в нижней части этого диалога располагается инструмент создания брелка преподавателя  (<xref keyref="tools_setup/tools_menu_png" type="fig"/>&#160;).</li>
-      <li>Выберите диск USB, соответствующий вставленному USB флэш накопителю и нажмите кнопку <uicontrol>Создать</uicontrol>.</li>
-      <li>Вам будет предложено ввести пароль - введите пароль, который используется для входа в программу под Ващей учетной записью.</li>
-      <li>Далее программа оценит наличие свободного места на USB флэш накопителе, досточного для переноса файлов из папки преподавателя на жестком диске компьютера на USB флэш накопитель, и если свободного места достаточно, то начнется процесс переноса файлов.</li>
-      <li>После окончания переноса файлов кнопка <uicontrol>Создать</uicontrol> изменит надпись на <uicontrol>Уничтожить</uicontrol>, а брелок преподавателя будет готов к использованию.</li>
+      <li>Plug in a USB flash drive with enough free space for all your files.</li>
+      <li>Launch <wintitle>Dialog Nibelung</wintitle> and log into your account (see <xref keyref="choice_tutor"/>&#160;).</li>
+      <li>Open the <wintitle>Teacher settings</wintitle> window (см. п. <xref keyref="tutor_settings"/>&#160;). There is a teacher key panel at the bottom of the window (<xref keyref="tools_setup/tools_menu_png" type="fig"/>&#160;).</li>
+      <li>Select your USB flash drive and press <uicontrol>Initialize (?) _fixme_ [ui]</uicontrol>.</li>
+      <li>You will be prompted for your account password.</li>
+      <li>Files in the teacher folder will start to be moved to the teacher key if there is enough free space on the USB flash drive.</li>
+      <li>The <uicontrol>Initialize</uicontrol> button will beocme <uicontrol>Destroy</uicontrol> once the files are moved to the USB flash drive. The teacher key is now ready to use.</li>
     </ol>
-    <note type="attention">После создания брелка преподавателя все файлы из папки преподавателя с жесткого диска компьютера будут перенесены на USB флэш накопитель, а сам преподаватель будет удален из списка преподавателей, которые доступны при входе в программу. Соотвественно, работа преподавателя с программой будет возможна только при подключении брелка преподавателя к компьютеру.</note>
+    <note type="attention">Once a teacher key is initialized, all files from the teacher folder are now residing only on the teacher key. Teacher key also becomes the only means of logging into <wintitle>Dialog Nibelung</wintitle> as corresponding teacher account will no longer be offered for password authentication.</note>
     <fig id="usb_keychain_png">
-      <title>Создание брелка преподавателя</title>
+      <title>Initializing teacher key</title>
       <image href="img/usb_keychain.png" placement="break">
-        <alt>Создание брелка преподавателя</alt>
+        <alt>Initializing teacher key</alt>
       </image>
     </fig>
-    <p>Для того, чтобы отменить работу с брелком преподпвателя и вернуться к обычному входу в программу, необходимо снова открыть диалог преподавателя (см. п. <xref keyref="tutor_settings"/>&#160;) и нажать на кнопку <uicontrol>Уничтожить</uicontrol>. После ввода пароля преподавателя все файлы с USB флэш накопителя будет перенесены обратно на жесткий диск компьютера.</p>
+    <p>Open the <wintitle>Teacher settings</wintitle> window (see <xref keyref="tutor_settings"/>&#160;) and press <uicontrol>Destroy (?) _fixme_</uicontrol> button to destroy the teacher key. You will be prompted for account password, files will be transferred from the USB flash drive to the teacher folder, and the key will be deinitialized.</p>
   </conbody>
 </concept>
