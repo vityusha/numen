@@ -16,7 +16,7 @@
 		<p id="start">Press <uicontrol>Start</uicontrol> button in the mini player to begin the playback, at which point this button will be replaced by the <uicontrol>Stop</uicontrol> button and <uicontrol>Pause</uicontrol>, <uicontrol>Repeat</uicontrol>, and bookmarks control buttons become available.</p>
 		
         <note type="tip"><uicontrol>Pause</uicontrol>, <uicontrol>Repeat</uicontrol> , and and bookmarks control buttons will remain disabled if the <uicontrol>Optimize video for Wi-Fi networks</uicontrol> option was enabled in the teacher module settings (see <xref keyref="setup_main"/>&#160;).</note>
-		<p>The playback progress bar and playback clock displaying current position and video duration are immediately below the <uicontrol>Start</uicontrol>/<uicontrol>Stop</uicontrol> button. Если включена опция <uicontrol>Предпросмотр</uicontrol>, то преподаватель может также просматривать видео в специальной области предпросмотра.</p>
+		<p>The playback progress bar and playback clock displaying current position and video duration are immediately below the <uicontrol>Start</uicontrol>/<uicontrol>Stop</uicontrol> button. <uicontrol>Preview</uicontrol> option allows the teacher to preview the video before broadcasting it to students.</p>
 
 		<note type="tip">Click on the playback bar to instantly change the playback position. Double click to reset playback position to the beginning of the file. This functionality is only available when <uicontrol>Optimize video for Wi-Fi networks</uicontrol> option in the teacher module settings is turned off (see <xref keyref="setup_main"/>&#160;).</note>
 
@@ -37,7 +37,7 @@
         </fig>
 		<note type="tip">Composite video connector is the most commonly used type in consumer grade analog video equipment.</note>
 
-		<p>Press the <uicontrol>Start</uicontrol> button in the mini player to start the broadcast, at which point this button will be replaced by the <uicontrol>Stop</uicontrol> button, and the video stream will start playing in the media player window on student workstations. Если включена опция <uicontrol>Предпросмотр</uicontrol>, то преподаватель может также просматривать видео в специальной области предпросмотра.</p>
+		<p>Press the <uicontrol>Start</uicontrol> button in the mini player to start the broadcast, at which point this button will be replaced by the <uicontrol>Stop</uicontrol> button, and the video stream will start playing in the media player window on student workstations. <uicontrol>Preview</uicontrol> option allows the teacher to preview the video before broadcasting it to students.</p>
 		<p conkeyref="video_source/fullscreen" />
 		<p conkeyref="video_source/lockinput" />
 		<p conkeyref="video_source/watch" />
