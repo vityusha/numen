@@ -4,11 +4,11 @@
 <concept id="usb_keychain" xml:lang="en-US">
   <title>Teacher key</title>
   <conbody>  
-    <p><indexterm>teacher key</indexterm><wintitle>Teacher key</wintitle> is a specially initialized USB flash drive holding files that would otherwise be residing in the teacher folder. Using a <wintitle>Teacher key</wintitle> provides certain advantages:</p>
+    <p><indexterm>teacher key</indexterm><wintitle>Teacher key</wintitle> is a specially initialized USB flash drive holding teacher account login credentials as well as files that would otherwise be residing in the teacher folder. Using a <wintitle>Teacher key</wintitle> provides certain advantages:</p>
     <ul>
       <li>autostart <wintitle>Dialog Nibelung</wintitle> teacher module when the key is plugged in, as well as its automatic termination when the key is removed;</li>
-      <li>autologin without password as the teacher key contains all necessary credentials for your authetification in <wintitle>Dialog Nibelung</wintitle>;</li>
-      <li>teacher key stores all your peronal data that otherwise would be store in the teacher folder on the hard drive, thus allowing portability between different computers.</li>
+      <li>autologin without password as the key contains all necessary credentials for your authetification in <wintitle>Dialog Nibelung</wintitle>;</li>
+      <li>teacher key stores all your peronal data that otherwise would be stored in the teacher folder on hard drive, allowing portability between different computers.</li>
     </ul>
     <p>To intitialize a new <wintitle>Teacher key</wintitle>:</p>
     <ol>
@@ -27,6 +27,6 @@
         <alt>Initializing teacher key</alt>
       </image>
     </fig>
-    <p>Open the <wintitle>Teacher settings</wintitle> window (see <xref keyref="tutor_settings"/>&#160;) and press <uicontrol>Deinitialize</uicontrol> button to destroy the teacher key. You will be prompted for account password, files will be transferred from the USB flash drive to the teacher folder, and the key will be deinitialized.</p>
+    <p>Open the <wintitle>Teacher settings</wintitle> window (see <xref keyref="tutor_settings"/>&#160;) and press <uicontrol>Deinitialize</uicontrol> button to deinitialize a teacher key. You will be prompted for the account password, files will be transferred from the USB flash drive to the teacher folder, and the key will be deinitialized.</p>
   </conbody>
 </concept>
