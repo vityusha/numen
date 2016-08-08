@@ -15,7 +15,7 @@
       <li>Plug in a USB flash drive with enough free space for all your files.</li>
       <li>Launch <wintitle>Dialog Nibelung</wintitle> and log into your account (see <xref keyref="choice_tutor"/>&#160;).</li>
       <li>Open the <wintitle>Teacher settings</wintitle> window (см. п. <xref keyref="tutor_settings"/>&#160;). There is a teacher key panel at the bottom of the window (<xref keyref="tools_setup/tools_menu_png" type="fig"/>&#160;).</li>
-      <li>Select your USB flash drive and press <uicontrol>Initialize (?) _fixme_ [ui]</uicontrol>.</li>
+      <li>Select your USB flash drive and press <uicontrol>Initialize</uicontrol>.</li>
       <li>You will be prompted for your account password.</li>
       <li>Files in the teacher folder will start to be moved to the teacher key if there is enough free space on the USB flash drive.</li>
       <li>The <uicontrol>Initialize</uicontrol> button will beocme <uicontrol>Destroy</uicontrol> once the files are moved to the USB flash drive. The teacher key is now ready to use.</li>
@@ -27,6 +27,6 @@
         <alt>Initializing teacher key</alt>
       </image>
     </fig>
-    <p>Open the <wintitle>Teacher settings</wintitle> window (see <xref keyref="tutor_settings"/>&#160;) and press <uicontrol>Destroy (?) _fixme_</uicontrol> button to destroy the teacher key. You will be prompted for account password, files will be transferred from the USB flash drive to the teacher folder, and the key will be deinitialized.</p>
+    <p>Open the <wintitle>Teacher settings</wintitle> window (see <xref keyref="tutor_settings"/>&#160;) and press <uicontrol>Deinitialize</uicontrol> button to destroy the teacher key. You will be prompted for account password, files will be transferred from the USB flash drive to the teacher folder, and the key will be deinitialized.</p>
   </conbody>
 </concept>

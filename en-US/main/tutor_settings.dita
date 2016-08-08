@@ -26,7 +26,7 @@
         </ul>
         <p>Click on the button immediately to the right of <uicontrol>Browse</uicontrol> to reset background image and its parameters to the defaults.</p>
         <p>You can specify default settings for new lessons in the <uicontrol>New lesson</uicontrol> panel.</p>
-        <p>Select <uicontrol>Autostart new lesson _fixme_ [ui][</uicontrol>, to automatically start a new lesson upon a launch of <wintitle>Dialog Nibelung</wintitle> teacher module.</p>
+        <p>Select <uicontrol>Autostart new lesson</uicontrol>, to automatically start a new lesson upon a launch of <wintitle>Dialog Nibelung</wintitle> teacher module.</p>
 		<p>You can also specify lesson duration, lesson end notifications, and maximum lesson mark. Whenever <uicontrol>Warn about lesson end</uicontrol> is selected, all the students in the class will receive a warning at set time, and lesson time will be displayed in red in the status bar of the teacher module (<xref keyref="description_main/controls_main_png" type="fig"/>&#160;).</p>
 		<note type="important">Please note that these setting will affect only new lessons.</note>
 	</conbody>

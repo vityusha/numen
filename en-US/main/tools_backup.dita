@@ -4,7 +4,7 @@
 <concept id="tools_backup" xml:lang="en-US">
   <title>Backup and restore</title>
   <conbody>  
-    <p>Select <menucascade><uicontrol>Tools</uicontrol><uicontrol>Backup and restore</uicontrol></menucascade> to open the backup and restore tool window (<xref keyref="tools_backup/backup_png" type="fig"/>&#160;) on the teacher workstation.</p>
+    <p>Select <menucascade><uicontrol>Tools</uicontrol><uicontrol>Backup and restore</uicontrol></menucascade>&#160; to open the backup and restore tool window (<xref keyref="tools_backup/backup_png" type="fig"/>&#160;) on the teacher workstation.</p>
     <fig id="backup_png">
       <title><wintitle>Backup and restore</wintitle> window</title>
       <image href="img/backup-window.png" placement="break">
@@ -26,7 +26,7 @@
     <li><filepath>2016-04-21_12-55-03</filepath> - backup creation timestamp in year-month-day_hours-minutes-seconds format</li>
     </ul>
     <p>Select <uicontrol>Restore</uicontrol> mode, specify a backup archive file and password (if necessary), and press <uicontrol>Start</uicontrol> button in the <uicontrol>Backup and restore</uicontrol> window to restore data and settings. This may take some time depending on the amount of data to be restored.</p>
-    <p>Select <uicontrol>Restore and replace _fixme_ [ui]</uicontrol> option to replace existing data and settings with restored ones.</p>
+    <p>Select <uicontrol>Restore and replace</uicontrol> option to replace existing data and settings with restored ones.</p>
     <note type="important">Be careful with the <uicontrol>Restore and replace</uicontrol> option as it can not be undone.</note>
   </conbody>
 </concept>
