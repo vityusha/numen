@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
-<concept id="whiteboard" xml:lang="ru-RU">
+<concept id="whiteboard" xml:lang="en-US">
     <title><keyword>Интерактивная доска</keyword></title>
     <conbody>  
         <p><indexterm>Интерактивная доска</indexterm>В этом режиме учащиеся и преподаватель могут совместно рисовать на виртуальной интерактивной доске. При этом результаты рисования отображаются в специальном окне, открывающемся в этом режиме на экранах учащихся и на экране преподавателя.</p>

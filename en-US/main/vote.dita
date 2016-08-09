@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
-<concept id="vote" xml:lang="ru-RU">
+<concept id="vote" xml:lang="en-US">
     <title><keyword>Polling</keyword></title>
     <conbody>  
-        <p><indexterm>Polling</indexterm><wintitle>Polling</wintitle> is a mode for polling the students or conducting a quick and simple multiple choice pop quiz without envoking the full quiz system (_fixme_ [xref]).</p>
-        <p>Press the <uicontrol>Interact</uicontrol> button and select <uicontrol>Poll _fixme_ (?) [ui]</uicontrol> from the class (see <xref keyref="menu_class"/>&#160;) or group (see <xref keyref="menu_group"/>&#160;) menu to to initiate polling group of students or the whole class.</p>
+        <p><indexterm>Polling</indexterm><wintitle>Polling</wintitle> is a mode for polling the students or conducting a quick and simple multiple choice pop quiz without invoking the full quiz system (see <xref keyref="description_test"/>&#160;).</p>
+        <p>Press the <uicontrol>Interact</uicontrol> button and select <uicontrol>Poll</uicontrol> from the class (see <xref keyref="menu_class"/>&#160;) or group (see <xref keyref="menu_group"/>&#160;) menu to to initiate polling group of students or the whole class.</p>
         <p>Poll management window (<xref keyref="vote/vote_main_png" type="fig"/>&#160;) will appear on your screen.</p> 
         <fig id="vote_main_png">
             <title>Poll management window</title>
@@ -33,11 +33,11 @@
                     </row>
                     <row>
                         <entry>4</entry>
-                        <entry>Save the poll for future use _fixme_ [rus].</entry>
+                        <entry>Open previously saved poll.</entry>
                     </row>
                     <row>
                         <entry>5</entry>
-                        <entry>Open previously saved poll.</entry>
+                        <entry>Save the poll for future use.</entry>
                     </row>
                     <row>
                         <entry>6</entry>
@@ -45,15 +45,15 @@
                     </row>
                     <row>
                         <entry>7</entry>
-                        <entry>Poll progress _fixme_ [ui] tab.</entry>
+                        <entry>Poll progress and chart tab.</entry>
                     </row>
                     <row>
                         <entry>8</entry>
-                        <entry>Results _fixme_ [ui] tab.</entry>
+                        <entry>Results tab.</entry>
                     </row>
                     <row>
                         <entry>9</entry>
-                        <entry>Save results _fixme_ [ui] button.</entry>
+                        <entry>Save report button.</entry>
                     </row>
                     <row>
                         <entry>10</entry>
@@ -70,7 +70,7 @@
                     </row>
                     <row>
                         <entry>13</entry>
-                        <entry>Start a new poll _fixme_ [ui] with default settings .</entry>
+                        <entry>Start a new poll with default settings .</entry>
                     </row>
                     <row>
                         <entry>14</entry>
@@ -81,12 +81,12 @@
         </table>
         <p>To create a new poll: enter your question in the field <b>(3)</b>, add answer options as necessary using buttons (12), and optionally select one of the options from the drop down list <b>(10)</b> to designate one of the answer options as the correct one (for pop quizzes). You can save the poll for future reuse with the help of the button (4) (<xref keyref="vote/vote_list_png" type="fig"/>&#160;). You can also open a previously saved poll using button <b>(5)</b>.</p>
         <fig id="vote_list_png">
-            <title><wintitle>Saved polls</wintitle> _fixme_ [ui] window</title>
+            <title><wintitle>Saved polls</wintitle> window</title>
             <image href="img/vote_list.png" placement="break">
                 <alt><wintitle>Saved polls</wintitle> window</alt>
             </image>
         </fig>
-        <p>Press the <uicontrol>Start</uicontrol> button to initiate polling (at this point it will be replaced by a <uicontrol>Stop</uicontrol> button). A polling window (<xref keyref="vote/vote_student_png" type="fig"/>&#160;) will appear on the student screens. The students make their selections and press <uicontrol>Send</uicontrol>. <uicontrol>Results</uicontrol> tab in the poll management window (<xref keyref="vote/vote_main_png" type="fig"/>&#160;) will be autoselected on the teacher workstation.</p>
+        <p>Press the <uicontrol>Start</uicontrol> button to initiate polling (at this point it will be replaced by a <uicontrol>Stop</uicontrol> button). A polling window (<xref keyref="vote/vote_student_png" type="fig"/>&#160;) will appear on the student screens. The students make their selections and press <uicontrol>Send</uicontrol>. <uicontrol>Chart</uicontrol> tab in the poll management window (<xref keyref="vote/vote_main_png" type="fig"/>&#160;) will be autoselected on the teacher workstation.</p>
         <note type="important">Please note that title of the group(s) where you are conducting the poll will be dispalyed in red for the duration of the poll.</note>
         <fig id="vote_student_png">
             <title>Polling window on student workstation</title>
@@ -94,7 +94,7 @@
                 <alt>Polling window on student workstation</alt>
             </image>
         </fig>
-        <p>You can monitor the poll in real time in the <uicontrol>Progress</uicontrol> _fixme_ [ui] tab (<xref keyref="vote/vote_results_png" type="fig"/>&#160;). Poll results are represented as a histogram bar chart with each bin corresponding to every answer option. The chart is updated as soon as results arrive. Progress bar below the bar chart indicates fraction of the students who have already responded to the poll. You can press the <uicontrol>Stop</uicontrol> button at any time to terminate the poll.</p>
+        <p>You can monitor the poll in real time in the <uicontrol>Chart</uicontrol> tab (<xref keyref="vote/vote_results_png" type="fig"/>&#160;). Poll results are represented as a histogram bar chart with each bin corresponding to every answer option. The chart is updated as soon as results arrive. Progress bar below the bar chart indicates fraction of the students who have already responded to the poll. You can press the <uicontrol>Stop</uicontrol> button at any time to terminate the poll.</p>
         <fig id="vote_results_png">
             <title>Poll results overview tab</title>
             <image href="img/vote_results.png" placement="break">
@@ -106,7 +106,7 @@
             <li>Student name</li>
             <li>Selected option</li>
             <li>Responce timestamp</li>
-            <li>indication whether selected option is correct if the poll had one designated</li>
+            <li>Indication whether selected option is correct if the poll had one designated</li>
         </ol>
         <fig id="vote_answers_png">
             <title>Poll results</title>
@@ -114,7 +114,7 @@
                 <alt>Poll results</alt>
             </image>
         </fig>
-        <p>You can generate a report of the poll results in HTML format, convenient for viowing, printing, and posting online. Press the <uicontrol>Generate report</uicontrol> _fixme_ [ui] button, specify report file name, and press <uicontrol>Save</uicontrol>.  You will be prompted if you would like to view the report. The report (<xref keyref="vote/vote_saved_png" type="fig"/>&#160;) will be opened in a new window of your default web browser (usually <wintitle>Microsoft Internet Explorer</wintitle>).</p>
+        <p>You can generate a report of the poll results in HTML format, convenient for viewing, printing, and posting online. Press the <uicontrol>Save report</uicontrol> button, specify report file name, and press <uicontrol>Save</uicontrol>.  You will be prompted if you would like to view the report. The report (<xref keyref="vote/vote_saved_png" type="fig"/>&#160;) will be opened in a new window of your default web browser (usually <wintitle>Microsoft Internet Explorer</wintitle>).</p>
         <fig id="vote_saved_png">
             <title>Poll report</title>
             <image href="img/vote_saved.png" placement="break">
