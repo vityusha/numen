@@ -2,18 +2,18 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="vote" xml:lang="ru-RU">
-    <title><keyword>Голосование / Опрос</keyword></title>
+    <title><keyword>Polling</keyword></title>
     <conbody>  
-        <p><indexterm>Голосование / Опрос</indexterm><wintitle>Голосование / Опрос</wintitle> - это режим, с помощью которого преподаватель может оперативно провести несложное голосование в классе или быстрый опрос учащихся.</p>
-        <p>Чтобы начать голосование или быстрый опрос для всего класса или для определенной группы, преподаватель должен в меню всего класса (п. <xref keyref="menu_class"/>&#160;) или нужной группы (п. <xref keyref="menu_group"/>&#160;) нажать на кнопку <uicontrol>Взаимодействие</uicontrol>, а потом выбрать пункт <uicontrol>Голосование / Опрос</uicontrol>.</p>
-        <p>На экране монитора преподавателя появится окно управления голосованием или опросом (<xref keyref="vote/vote_main_png" type="fig"/>&#160;).</p> 
+        <p><indexterm>Polling</indexterm><wintitle>Polling</wintitle> is a mode for polling the students or conducting a quick and simple multiple choice pop quiz without envoking the full quiz system (_fixme_ [xref]).</p>
+        <p>Press the <uicontrol>Interact</uicontrol> button and select <uicontrol>Poll _fixme_ (?) [ui]</uicontrol> from the class (see <xref keyref="menu_class"/>&#160;) or group (see <xref keyref="menu_group"/>&#160;) menu to to initiate polling group of students or the whole class.</p>
+        <p>Poll management window (<xref keyref="vote/vote_main_png" type="fig"/>&#160;) will appear on your screen.</p> 
         <fig id="vote_main_png">
-            <title>Окно управления голосованием или опросом</title>
+            <title>Poll management window</title>
             <image href="img/vote_main.png" placement="break">
-                <alt>Окно управления голосованием или опросом</alt>
+                <alt>Poll management window</alt>
             </image>
         </fig>
-        <p>На этом рисунке цифрами обозначены:</p>
+        <p>Where:</p>
         <table frame="topbot">
             <tgroup cols="2">
                 <colspec colname="COLSPEC0" colwidth="10*"/>
@@ -21,39 +21,39 @@
                 <tbody>
                     <row>
                         <entry>1</entry>
-                        <entry>Закладки групп.</entry>
+                        <entry>Group tabs.</entry>
                     </row>
                     <row>
                         <entry>2</entry>
-                        <entry>Кнопка <uicontrol>Старт/Стоп</uicontrol> для запуска или останова режима голосования для всего класса или для определенной группы.</entry>
+                        <entry><uicontrol>Start/Stop</uicontrol> button to start and stop polling.</entry>
                     </row>
                     <row>
                         <entry>3</entry>
-                        <entry>Область вопроса, в которой преподаватель должен ввести вопрос для голосования или опроса.</entry>
+                        <entry>Question panel for specifying the poll question.</entry>
                     </row>
                     <row>
                         <entry>4</entry>
-                        <entry>Кнопка открытия ранее сохраненного вопроса для голосования или опроса.</entry>
+                        <entry>Save the poll for future use _fixme_ [rus].</entry>
                     </row>
                     <row>
                         <entry>5</entry>
-                        <entry>Кнопка сохранения текущего вопроса в базе данных вопросов для голосования или опроса.</entry>
+                        <entry>Open previously saved poll.</entry>
                     </row>
                     <row>
                         <entry>6</entry>
-                        <entry>Закладка управления вариантами ответов на вопрос голосования или опроса.</entry>
+                        <entry>Poll answer options tab.</entry>
                     </row>
                     <row>
                         <entry>7</entry>
-                        <entry>Закладка просмотра результатов голосования или опроса.</entry>
+                        <entry>Poll progress _fixme_ [ui] tab.</entry>
                     </row>
                     <row>
                         <entry>8</entry>
-                        <entry>Закладка просмотра ответов учащихся на вопрос голосования или опроса.</entry>
+                        <entry>Results _fixme_ [ui] tab.</entry>
                     </row>
                     <row>
                         <entry>9</entry>
-                        <entry>Кнопка сохранения отчета о результатах голосования или опроса.</entry>
+                        <entry>Save results _fixme_ [ui] button.</entry>
                     </row>
                     <row>
                         <entry>10</entry>
@@ -62,63 +62,63 @@
 
                     <row>
                         <entry>11</entry>
-                        <entry>Список варантов ответов на вопрос голосования или опроса.</entry>
+                        <entry>Multiple choice answers list.</entry>
                     </row>
                     <row>
                         <entry>12</entry>
-                        <entry>Кнопки управления списком ответов на вопрос голосования или опроса (добавить или удалить вариант ответа).</entry>
+                        <entry>Add / remove answer buttons.</entry>
                     </row>
                     <row>
                         <entry>13</entry>
-                        <entry>Кнопка сброса текущих установок голосования или опроса и начало нового голосования или опроса.</entry>
+                        <entry>Start a new poll _fixme_ [ui] with default settings .</entry>
                     </row>
                     <row>
                         <entry>14</entry>
-                        <entry>Кнопка закрытия окна управления голосованием или опросом.</entry>
+                        <entry>Close the window button.</entry>
                     </row>
                 </tbody> 
             </tgroup>
         </table>
-        <p>Далее для создания нового опроса или голосования необходимо в поле <b>(3)</b> ввести текст вопроса, в списке <b>(10)</b> выбрать один из вариантов ответов на вопрос и при необходимости отредактировать список ответов с помощью кнопок <b>(12)</b>. Также существует возможность выбрать ранее сохраненный опрос или голосование с помощью кнопки <b>(4)</b> (<xref keyref="vote/vote_list_png" type="fig"/>&#160;). С помощью кнопки <b>(5)</b> можно сохранить текущий сформированный опрос или голосование для последующего использования.</p>
+        <p>To create a new poll: enter your question in the field <b>(3)</b>, add answer options as necessary using buttons (12), and optionally select one of the options from the drop down list <b>(10)</b> to designate one of the answer options as the correct one (for pop quizzes). You can save the poll for future reuse with the help of the button (4) (<xref keyref="vote/vote_list_png" type="fig"/>&#160;). You can also open a previously saved poll using button <b>(5)</b>.</p>
         <fig id="vote_list_png">
-            <title>Список сохраненных голосований или опросов</title>
+            <title><wintitle>Saved polls</wintitle> _fixme_ [ui] window</title>
             <image href="img/vote_list.png" placement="break">
-                <alt>Список сохраненных голосований или опросов</alt>
+                <alt><wintitle>Saved polls</wintitle> window</alt>
             </image>
         </fig>
-        <p>После того, как сформирован опрос или голосование, необходимо нажать на кнопку <uicontrol>Старт</uicontrol> (название ее поменяется на <uicontrol>Стоп</uicontrol>). На экранах учащихся появится окно (<xref keyref="vote/vote_student_png" type="fig"/>&#160;), в котором они должны сделать свой выбор и нажать на кнопку <uicontrol>Отправить</uicontrol>. А в окне преподавателя автоматически откроется вкладка <uicontrol>Результаты</uicontrol>.</p>
-        <note type="important">Обратите внимание, что в группах, где запущен опрос или голосование, имя группы на соответствующей закладке выводится красным цветом.</note>
+        <p>Press the <uicontrol>Start</uicontrol> button to initiate polling (at this point it will be replaced by a <uicontrol>Stop</uicontrol> button). A polling window (<xref keyref="vote/vote_student_png" type="fig"/>&#160;) will appear on the student screens. The students make their selections and press <uicontrol>Send</uicontrol>. <uicontrol>Results</uicontrol> tab in the poll management window (<xref keyref="vote/vote_main_png" type="fig"/>&#160;) will be autoselected on the teacher workstation.</p>
+        <note type="important">Please note that title of the group(s) where you are conducting the poll will be dispalyed in red for the duration of the poll.</note>
         <fig id="vote_student_png">
-            <title>Окно выбора ответа на экране учащихся</title>
+            <title>Polling window on student workstation</title>
             <image href="img/vote_student.png" placement="break">
-                <alt>Окно выбора ответа на экране учащихся</alt>
+                <alt>Polling window on student workstation</alt>
             </image>
         </fig>
-        <p>Преподаватель может в режиме реального времени слежить за ходом голосования (<xref keyref="vote/vote_results_png" type="fig"/>&#160;). На данном рисунке ответы учащихся представлены в виде гистограммы. По гистограммой расположена шкала, отображающая количество ответивших учащихся. Когда данная шкала будет полностью заполнена, это будет означать, что в опросе или голосовании прняли все учащиеся. После этого можно нажать на кнопку <uicontrol>Стоп</uicontrol>, тем самым завершив текущий опрос или голосование.</p>
+        <p>You can monitor the poll in real time in the <uicontrol>Progress</uicontrol> _fixme_ [ui] tab (<xref keyref="vote/vote_results_png" type="fig"/>&#160;). Poll results are represented as a histogram bar chart with each bin corresponding to every answer option. The chart is updated as soon as results arrive. Progress bar below the bar chart indicates fraction of the students who have already responded to the poll. You can press the <uicontrol>Stop</uicontrol> button at any time to terminate the poll.</p>
         <fig id="vote_results_png">
-            <title>Результаты голосования</title>
+            <title>Poll results overview tab</title>
             <image href="img/vote_results.png" placement="break">
-                <alt>Результаты голосования</alt>
+                <alt>Poll results overview tab</alt>
             </image>
         </fig>
-        <p>После завершения опроса или голосования при нажатии на кнопку <uicontrol>Старт</uicontrol> в окне преподавателя атоматически откроется закладка <uicontrol>Ответы</uicontrol> (<xref keyref="vote/vote_answers_png" type="fig"/>&#160;), в которой будет представлен список ответов учащихся. Данный список состоит из:</p>
+        <p>You can view detailed results of the poll in the <uicontrol>Results</uicontrol> tab (<xref keyref="vote/vote_answers_png" type="fig"/>&#160;) that will be autoselected either when you terminate the poll by pressing the <uicontrol>Stop</uicontrol> button or the poll finishes when all the students have responded. This tab contains a detailed list of responces to the poll:</p>
         <ol>
-            <li>имени учащегося</li>
-            <li>ответа учащегося</li>
-            <li>времени, когда ответил учащийся</li>
-            <li>признака правильного ответа на вопрос (если вопрос подразумевал правильный ответ в списке ответов)</li>
+            <li>Student name</li>
+            <li>Selected option</li>
+            <li>Responce timestamp</li>
+            <li>indication whether selected option is correct if the poll had one designated</li>
         </ol>
         <fig id="vote_answers_png">
-            <title>Список ответов на вопрос опроса или голосования</title>
+            <title>Poll results</title>
             <image href="img/vote_answers.png" placement="break">
-                <alt>Список ответов на вопрос опроса или голосования</alt>
+                <alt>Poll results</alt>
             </image>
         </fig>
-        <p>Результаты опроса или голосования можно сохранить в HTML файл для дальнейшего анализа или печати, для этого необходимо выбрать закладку при нажатии на кнопку <uicontrol>Сохранить ответы</uicontrol>. В появившемся диалоге необходимо ввести имя файла для сохранения и нажать на кнопку <uicontrol>Сохранить</uicontrol>.Результаты голосования или опроса будут сохранены в выбранный файл. После сохранения будет предложено просмотреть результаты экспорта. Если нажать на кнопку <uicontrol>Да</uicontrol>,то откроется окно браузера по умолчанию (обычно <wintitle>Microsoft Internet Explorer</wintitle>) с содержимым сохраненного файла (<xref keyref="vote/vote_saved_png" type="fig"/>&#160;).</p>
+        <p>You can generate a report of the poll results in HTML format, convenient for viowing, printing, and posting online. Press the <uicontrol>Generate report</uicontrol> _fixme_ [ui] button, specify report file name, and press <uicontrol>Save</uicontrol>.  You will be prompted if you would like to view the report. The report (<xref keyref="vote/vote_saved_png" type="fig"/>&#160;) will be opened in a new window of your default web browser (usually <wintitle>Microsoft Internet Explorer</wintitle>).</p>
         <fig id="vote_saved_png">
-            <title>Отчет о результатах опроса или голосования</title>
+            <title>Poll report</title>
             <image href="img/vote_saved.png" placement="break">
-                <alt>Отчет о результатах опроса или голосования</alt>
+                <alt>Poll report</alt>
             </image>
         </fig>
     </conbody>
