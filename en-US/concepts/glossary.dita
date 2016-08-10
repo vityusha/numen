@@ -147,6 +147,11 @@
 		</section>
 
 		<section>
+			<title>Poll</title>
+			Режим, в котором преподаватель может провести быстрое голосвание или опрос на один вопрос с различными вариантами ответов (см. <xref keyref="vote"/>&#160;).
+		</section>
+
+		<section>
 			<title>Screen thumbnails</title>
 			<indexterm>screen thumbnails</indexterm>Screen thumbnails is a mode that replaces student images in the classroom console with the thumbnails of their screenshots (section <xref keyref="thumbnail"/>&#160;). These thumbnails will be updated every few seconds.
 		</section>

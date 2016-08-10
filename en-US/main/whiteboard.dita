@@ -37,7 +37,7 @@
                     </row>
                     <row>
                         <entry>5</entry>
-                        <entry>Drawing area (the white rectangle with rounded corners).</entry>
+                        <entry>Drawing area.</entry>
                     </row>
                     <row>
                         <entry>6</entry>
@@ -109,7 +109,7 @@
             <li>Text</li>
         </ul>
 
-        <p>The whiteboard can be in either manual or immediate mode as controlled by the <uicontrol>Manual mode</uicontrol> _fixme_ [ui] check button in the <wintitile>Whiteboard</wintitile> window (<xref keyref="whiteboard/whiteboard_png" type="fig"/>&#160;). In the immediate mode everything sketched on the whiteboard will instantly appear on evey participating whiteboard. In manual mode an object on the whiteboard will only be sent to the other participants once the <uicontrol>Send</uicontrol> button is pressed. This allows to edit the object or even delete it before anybody else sees it. This mode also has a <uicontrol>Multidraw</uicontrol> option that allows to finish several elements before sending them to the other participants. Otherwise, only a single element (e.g. a polygon or a text field) can be finished before you'll have to decide wheter to either <uicontrol>Send</uicontrol> or <uicontrol>Cancel</uicontrol> it.</p>
+        <p>The whiteboard can be in either manual or immediate mode as controlled by the <uicontrol>Manual mode</uicontrol> _fixme_ [ui] check button in the <wintitle>Whiteboard</wintitle> window (<xref keyref="whiteboard/whiteboard_png" type="fig"/>&#160;). In the immediate mode everything sketched on the whiteboard will instantly appear on evey participating whiteboard. In manual mode an object on the whiteboard will only be sent to the other participants once the <uicontrol>Send</uicontrol> button is pressed. This allows to edit the object or even delete it before anybody else sees it. This mode also has a <uicontrol>Multidraw</uicontrol> option that allows to finish several elements before sending them to the other participants. Otherwise, only a single element (e.g. a polygon or a text field) can be finished before you'll have to decide wheter to either <uicontrol>Send</uicontrol> or <uicontrol>Cancel</uicontrol> it.</p>
         
         <p><uicontrol>Whiteboard commands and hotkeys:</uicontrol></p>
         <table frame="topbot">
@@ -211,7 +211,7 @@
 
         <p>One can change general (?) _fixme_ (e.g. line thickness, fill colour, position, transparency, rotation angle, scale, etc.) or element specific (?) _fixme_ (e.g. line of text, image file) properties for most objects before they are committed.</p>
         <p>Press <uicontrol>Stop</uicontrol> button to finish a whiteboard session.</p>
-        <p>Use the <uicontrol>Close</uicontrol> to close the <wintitile>Whiteboard</wintitile> window. You will be prompted to finish still active sessions, if any.</p>
+        <p>Use the <uicontrol>Close</uicontrol> to close the <wintitle>Whiteboard</wintitle> window. You will be prompted to finish still active sessions, if any.</p>
         <note type="important">In the multidraw mode <uicontrol>Cancel</uicontrol> button cancels the whole uncommitted batch of objects, with <uicontrol>Ctrl+Z</uicontrol> undo hotkey having no effect.</note>
         <note type="tip">You can drag and drop an image from a file onto the whiteboard. This will automatically select the <uicontrol>Image</uicontrol> toll and insert the image object where it was dropped. You can further move, scale, rotate, or cancel the image.</note>
         <note type="tip">When creating a sequence of text objects in multidraw mode, don't forget to press <uicontrol>Enter</uicontrol> after each object. Otherwise you will be moving the old object instead of creating the next one. Likewise, when creating several images, do not forget to right click on an image once you are finished with it.</note>
