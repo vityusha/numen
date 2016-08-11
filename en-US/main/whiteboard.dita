@@ -106,10 +106,11 @@
             <li>Connected lines</li>
             <li>Curve</li>
             <li>Image</li>
+            <li>Library symbol</li>
             <li>Text</li>
         </ul>
 
-        <p>The whiteboard can be in either manual or immediate mode as controlled by the <uicontrol>Manual mode</uicontrol> _fixme_ [ui] check button in the <wintitle>Whiteboard</wintitle> window (<xref keyref="whiteboard/whiteboard_png" type="fig"/>&#160;). In the immediate mode everything sketched on the whiteboard will instantly appear on evey participating whiteboard. In manual mode an object on the whiteboard will only be sent to the other participants once the <uicontrol>Send</uicontrol> button is pressed. This allows to edit the object or even delete it before anybody else sees it. This mode also has a <uicontrol>Multidraw</uicontrol> option that allows to finish several elements before sending them to the other participants. Otherwise, only a single element (e.g. a polygon or a text field) can be finished before you'll have to decide wheter to either <uicontrol>Send</uicontrol> or <uicontrol>Cancel</uicontrol> it.</p>
+        <p>The whiteboard can be in either manual or immediate mode as controlled by the <uicontrol>Manual mode</uicontrol> check button in the <wintitle>Whiteboard</wintitle> window (<xref keyref="whiteboard/whiteboard_png" type="fig"/>&#160;). In the immediate mode everything sketched on the whiteboard will instantly appear on evey participating whiteboard. In manual mode an object on the whiteboard will only be sent to the other participants once the <uicontrol>Send</uicontrol> button is pressed. This allows to edit the object or even delete it before anybody else sees it. This mode also has a <uicontrol>Multidraw</uicontrol> option that allows to finish several elements before sending them to the other participants. Otherwise, only a single element (e.g. a polygon or a text field) can be finished before you'll have to decide wheter to either <uicontrol>Send</uicontrol> or <uicontrol>Cancel</uicontrol> it.</p>
         
         <p><uicontrol>Whiteboard commands and hotkeys:</uicontrol></p>
         <table frame="topbot">
