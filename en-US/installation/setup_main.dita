@@ -17,7 +17,7 @@
         <p>By selecting <uicontrol>Optimize audio for Wi-Fi networks (disable multicast)</uicontrol> option you can increase sound quality over the Wi-Fi networks at the expense of increase in network traffic.</p>
         <p>By selecting <uicontrol>Optimize video for Wi-Fi networks (disable multicast)</uicontrol> option you can increase video quality over the Wi-Fi networks at the expense of increase in network traffic. Once this option is enabled, students will also be able to adjust video playback position.</p>
         <note type="important">Check the <uicontrol>Use voice switch</uicontrol> option if you are experiencing poor sound quality over Wi-Fi networks. This will enable software voice switch that will increase sound quality at the expense of increase in sound delays and CPU load on the teacher workstation.</note>
-        <p>If you are using <wintitle>Dialog Nibelung</wintitle> together with the <wintitle>Dialog 5</wintitle> audio hub (see <xref keyref="commutator_switch"/>&#160;), you will have to set the <uicontrol>Transmit audio using "Dialog-5" audio hub</uicontrol> option here.</p>
+        <p>If you are using <wintitle>Dialog Nibelung</wintitle> together with the <wintitle>Dialog 5</wintitle> audio hub (see <xref keyref="commutator_switch"/>&#160;), you will have to set the <uicontrol>Transmit audio using Dialog 5 audio hub</uicontrol> option here.</p>
         <p>You can also set the deafault size for the whiteboard (see section <xref keyref="whiteboard"/>&#160;) here.</p>
     </conbody>
 </concept>
