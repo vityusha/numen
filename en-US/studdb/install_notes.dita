@@ -2,19 +2,19 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
 "reference.dtd">
 
-<reference id="install_notes" xml:lang="ru-RU">
+<reference id="install_notes" xml:lang="en-US">
 
-  <title>Рекомендации по установке ПО <wintitle>Диалог Nibelung StudDB</wintitle>
+  <title><wintitle>Dialog Nibelung StudDB</wintitle> installation notes
   </title>
 
   <refbody>    
     <section>
-      Для установки программы запустите ее установочный файл и следуйте указаниям установщика.
+      Launch <wintitle>Dialog Nibelung StudDB</wintitle> installer and follow onscreen instructions to install the software.
     </section>
     <section>
-      <note type="attention">Для установки программного обеспечения <wintitle>Диалог Nibelung StudDB</wintitle> не требуются права администратора.</note>
-      <note type="important">При установке программного обеспечения при необходимости будут автоматически инсталлированы зависимости: <wintitle>Microsoft .NET Framework 4.0 Client Profile</wintitle> и <wintitle>Windows Installer 4.5</wintitle>. В этом случае для установки потребуются дополнительное время, дисковое пространство и, в случае удаленной загрузки зависимостей, подключение к Интернету.</note>        
-      <note type="important">Для чтения документации в формате <b>pdf</b> на Вашем компьютере  должно быть установлено ПО <b>Adobe Acrobat Reader</b> или его аналоги.</note>
+      <note type="attention">You do not need adminitrator privileges to install <wintitle>Dialog Nibelung StudDB</wintitle>.</note>
+      <note type="important"><wintitle>Dialog Nibelung StudDB</wintitle> has both runtime and install time dependencies: <wintitle>Microsoft .NET Framework 4.0 Client Profile</wintitle> and <wintitle>Windows Installer 4.5</wintitle>. These will be installed as necessary if your computer lacks them. An internet connection is required if these dependencies have to be downloaded.</note>        
+      <note type="important"><wintitle>Dialog Nibelung StudDB</wintitle> online documentation is supplied in <b>PDF</b> format. You will need <b>Adobe Acrobat Reader</b> or other PDF reader to view the documentation.</note>
     </section>
 
   </refbody>
