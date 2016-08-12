@@ -175,7 +175,7 @@
             <entry><image href="img/menu/setname.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-			<entry><uicontrol>Set photo</uicontrol></entry>
+			<entry><uicontrol>Take student photo</uicontrol> using webcam and use it for student profile</entry>
             <entry><image href="img/menu/setphoto.png" placement="break" width="16" align="center"/></entry>
           </row>
         </tbody>
