@@ -4,34 +4,33 @@
 
 <concept id="init" xml:lang="ru-RU">
 
-  <title>Настройка программы</title>
+  <title>Software setup</title>
 <conbody>
 <p>
-Перед началом работы с программой <wintitle>Диалог Nibelung StudDB</wintitle> ее следует настроить системному администратору (см. информацию в разделе <xref keyref="admin"/>&#160;) или достаточно опытному пользователю.
+Before <wintitle>Dialog Nibelung StudDB</wintitle> is deployed, it should be set up by either a system administrator (<xref keyref="admin"/>&#160;) or a sufficiently experienced user (<xref keyref="admin"/>&#160;).
 </p>
 <p>
-Типовой порядок настройки следующий:
+Recommended setup procedure:
 <ul>
-  <li>Войдите в программу с именем <userinput>Admin</userinput> и административным паролем (пароль по умолчанию - <userinput>Admin</userinput>);</li>
-  <li>Создайте базу данных;</li>
-  <li>Укажите требуемые путь и имя файла базы данных;</li>
-  <li>Укажите свойства учебного заведения в появившемся диалоге;</li>
-  <li>При необходимости создайте структуру подразделений учебного заведения;</li>
-  <li>Сохраните базу (при включенном режиме резервирования, иначе база сохранится автоматически);</li>
-  <li>Закройте базу;</li>
-  <li>Вызовите диалог настроек программы с помощью соответствующей команды. Установите необходимые параметры:
+  <li>Log in as <userinput>Admin</userinput> (default password: <userinput>Admin</userinput>) (_fixme_ [xref]);</li>
+  <li>Create a database (_fixme_ [xref]);</li>
+  <li>Specify file name and path (_fixme_ [xref]);</li>
+  <li>Specify school name, type, and address (_fixme_ [xref]);</li>
+  <li>Define school subdivision structure if necessary (_fixme_ [xref]);</li>
+  <li>Save database (if deferred mode is active, otherwise it will be autosaved) (_fixme_ [xref]);</li>
+  <li>Close database (_fixme_ [xref]);</li>
+  <li>Open application settings window (_fixme_ [xref]) ans set the following:
     <ul>
-      <li>Укажите язык интерфейса программы;</li>
-      <li>Укажите для работы файл созданной ранее базы данных;</li>
-      <li>Установите режим подтверждения операций удаления (при включенном режиме любую операцию по удалению элемента из базы данных требуется подтверждать дополнительно);</li>
-      <li>При необходимости установите режим резервирования (при включенном режиме запись изменений в базу осуществляется пользователем командой <uicontrol>Сохранить</uicontrol>);</li>
-      <li>При необходимости установите режим автоматического сохранения и его интервал (задается в минутах). При включенном автосохранении команда сохранения вызывается автоматически;</li>
+      <li>user interface language;</li>
+      <li>path to the earlier created database;</li>
+      <li>set deletion confirmations as necessary;</li>
+      <li>set <uicontrol>Deferred mode</uicontrol> and <uicontrol>Autosave</uicontrol> modes as necessary as set autosave interval;</li>
+      <li>Press <uicontrol>OK</uicontrol>;</li>
     </ul>
   </li>
-  <li>Подтвердите изменения настроек и закройте диалог;</li>
-  <li>Вызовите диалог управления пользователями, создайте необходимые учетные записи. Закройте диалог и выйдите из программы.</li>
+    <li>Open account management window and create user accounts (_fixme_ [xref]).</li>
 </ul>
-Программа готова к работе. Далее пользователи заходят под своими учетными записями и производят редактирование установленной им для работы базы.
+<wintitle>Dialog Nibelung StudDB</wintitle> is set up and ready. End users can now log in with their credentials and work with the database.
 </p>
 </conbody>
 </concept>
