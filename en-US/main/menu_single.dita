@@ -167,7 +167,7 @@
             <entry><image href="img/menu/f.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
-			<entry><uicontrol>Student profile</uicontrol> (see <xref keyref="registration"/>&#160;)</entry>
+		  <entry><uicontrol>Student profile</uicontrol> (see <xref keyref="registration"/>&#160; _fixme_ [xref->student profile])</entry>
             <entry><image href="img/menu/card.png" placement="break" width="16" align="center"/></entry>
           </row>
           <row>
