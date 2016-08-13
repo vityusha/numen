@@ -9,13 +9,13 @@
 <conbody>
 
 <p>
-<wintitle>Диалог Nibelung StudDB</wintitle> is a student database management software with database format compatible with <wintitle>Dialog Nibelung</wintitle> (<xref scope="external" href="http://dialog.su"/>&#160;). It can thus be used in conjunction with <wintitle>Dialog Nibelung</wintitle> or as a standalone student management software.</p>
+<wintitle>Dialog Nibelung StudDB</wintitle> is a student database management software with database format compatible with <wintitle>Dialog Nibelung</wintitle> (<xref scope="external" href="http://lainlab.com/"/>&#160;). It can be used in conjunction with <wintitle>Dialog Nibelung</wintitle> or as a standalone student management software.</p>
 
 <p>
-<b>Основные возможности программы:</b>
+<b>Principal features:</b>
 
 <ul>
-<li>управление базой данных, основные операции:
+<li>database management:</li>
 <ul>
   <li>create database;</li>
   <li>set and edit school properties;</li>
