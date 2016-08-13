@@ -2,25 +2,25 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
 "reference.dtd">
 
-<reference id="winusers" xml:lang="ru-RU">
-  <title>Окно управления пользователями</title>
+<reference id="winusers" xml:lang="en-US">
+  <title>Accounts management window</title>
   <refbody>
   <section>
   
 <p>
-Для вызова окна управления пользователями зайдите в программу в административном режиме (см. раздел <xref keyref="admin"/>&#160;) и вызовите команду <uicontrol>Файл -> Управление пользователями</uicontrol>. Оно позволяет добавлять, редактировать и удалять учетные записи пользователей, которые могут работать с базой данных учебного заведения.
+(<xref keyref="admin"/>&#160;) Select <uicontrol>File -> Accounts _fixme_ [ui]</uicontrol> from the <wintitle>StudDB</wintitle> main menu to open the accounts management window. This command is only available when you are logged in as <userinput>Admin</userinput>. Here you can manage accounts of users that are authorised to modify the database.
 </p>
 
 <fig id="dlgUserControl_png">
-    <title>Окно управления пользователями</title>
+    <title>Accounts management window</title>
     <image href="img/dlgUserControl.png" placement="break">
-      <alt>Окно управления пользователями</alt>
+      <alt>Accounts management window</alt>
     </image>
 </fig>
 
-<note type="attention">Удаление учетной записи администратора не предусмотрено, поскольку без нее будет невозможно производить соответствующие операции по управлению настройками, базами данных и учетными записями пользователей.</note>
+<note type="attention"><userinput>Admin</userinput> account can not be deleted as this will preclude many essential operations that can only be performed by the administrator.</note>
 
-<note type="tip">Вы можете создавать пользователей без пароля или поменять их текущий пароль на пустой. Тем не менее каждому пользователю рекомендуется иметь непустой пароль.</note>
+<note type="tip">You can create user accounts with empty passwords or change passwords of existing account(s) to an empty value if it is absolutely necessary to do so. However, we strongly discourage you from such practices for security reasons.</note>
   </section>
   </refbody>
 </reference>
