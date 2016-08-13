@@ -2,26 +2,26 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
 "reference.dtd">
 
-<reference id="winmain" xml:lang="ru-RU">
-  <title>Главное окно программы</title>
+<reference id="winmain" xml:lang="en-US">
+  <title>StudDB main window</title>
   <refbody>
   <section>
   
 <p>
-Главное окно программы представлено на рисунке ниже.
+
 <fig id="winmain_png">
-    <title>Главное окно программы</title>
+    <title>StudDB main window</title>
     <image href="img/winmain.png" placement="break">
-      <alt>Главное окно программы</alt>
+      <alt>StudDB main window</alt>
     </image>
 </fig>
 Окно состоит из следующих областей:
 <ol>
-<li>Главное меню (см. <xref keyref="menu"/>&#160;), содержащее большинство команд, доступных при работе с программой;</li>
-<li>Панель инструментов (см. <xref keyref="toolbar"/>&#160;) для быстрого доступа к основным командам;</li>
-<li>Область древовидного просмотра (см. <xref keyref="tree"/>&#160;), в которой наглядно отображается вся структура учебного заведения;</li>
-<li>Основная область. В ней показываются элементы просмотра и редактирования учащихся и подразделений и таблицы;</li>
-<li>Статусная строка (см.<xref keyref="statusbar"/>&#160;) для отображения вспомогательной информации.</li>
+<li>Main menu (see <xref keyref="menu"/>&#160;), contains most of the StudDB command.</li>
+<li>Toolbar (see <xref keyref="toolbar"/>&#160;) for quick access to most often used functions.</li>
+<li>Tree view panel (see <xref keyref="tree"/>&#160;) provides an overview of the school structure.</li>
+<li>General view panel. This is the panel that displays and allows editing of student profiles and school subdivisions.</li>
+<li>Status bar (see <xref keyref="statusbar"/>&#160;).</li>
 </ol>
 </p>
 
