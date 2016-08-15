@@ -2,70 +2,71 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="student_info" xml:lang="en-US">
-    <title>Student profile</title>
-    <conbody>  
-        <p>Select <menucascade><uicontrol>Student profile</uicontrol><uicontrol>Edit...</uicontrol></menucascade> from the student menu (see section <xref keyref="menu_single"/>&#160;) to open the student profile editing window (<xref keyref="student_info/student_card_png" type="fig"/>&#160;).</p>
-        <fig id="student_card_png">
-            <title><wintitle>Student profile</wintitle> window</title>
-            <image href="img/student_card.png" placement="break">
-                <alt><wintitle>Student profile</wintitle> window</alt>
-            </image>
-        </fig>
-        <p>A student profile can be stored in either class file (see <xref keyref="student_class"/>&#160;) or in the student database (see <xref keyref="studdb_intro"/>&#160;).</p>
-        <p>Student profile may contain the following data:</p>
-        <table frame="topbot">
-            <tgroup cols="2">
-                <colspec colname="COLSPEC0" colwidth="10*"/>
-                <colspec colname="COLSPEC1" colwidth="120*"/>
-                <tbody>
-                    <row>
-                        <entry>1</entry>
-                        <entry>Student's photo or any other image</entry>
-                    </row>
-                    <row>
-                        <entry>2</entry>
-                        <entry>Full name</entry>
-                    </row>
-                    <row>
-                        <entry>3</entry>
-                        <entry>Display name that will be used in the class</entry>
-                    </row>
-                    <row>
-                        <entry>4</entry>
-                        <entry>Student ID</entry>
-                    </row>
-                    <row>
-                        <entry>5</entry>
-                        <entry>BYOD ID - unique ID for "bring your own device" with <wintitle>Dialog Nibelung</wintitle> student module installed</entry>
-                    </row>
-                    <row>
-                        <entry>6</entry>
-                        <entry>Class, group or other school subdivision associated with the student</entry>
-                    </row>
-                    <row>
-                        <entry>7</entry>
-                        <entry>Phone number</entry>
-                    </row>
-                    <row>
-                        <entry>8</entry>
-                        <entry>Email address</entry>
-                    </row>
-                    <row>
-                        <entry>9</entry>
-                        <entry>Date of birth</entry>
-                    </row>
-                    <row>
-                        <entry>10</entry>
-                        <entry>Gender</entry>
-                    </row>
-                    <row>
-                        <entry>11</entry>
-                        <entry>Other relevant information</entry>
-                    </row>
-                </tbody> 
-            </tgroup>
-        </table>
-        <p>Student ID can be used instead of student name during the roll call registration (см. п. <xref keyref="registration"/>&#160;). In this case <wintitle>Dialog Nibelung</wintitle> will pull up the rest of the data from corresponding student profile.</p>
-        <p>Click on the image and choose a file to change the image in the profile. Press <uicontrol>Clear image</uicontrol> to disassociate the image from the profile.</p>
-    </conbody>
+  <title>Student profile</title>
+  <conbody>  
+    <p>Select <menucascade><uicontrol>Student profile</uicontrol><uicontrol>Edit...</uicontrol></menucascade> from the student menu (see section <xref keyref="menu_single"/>&#160;) to open the student profile editing window (<xref keyref="student_info/student_card_png" type="fig"/>&#160;).</p>
+    <fig id="student_card_png">
+      <title><wintitle>Student profile</wintitle> window</title>
+      <image href="img/student_card.png" placement="break">
+        <alt><wintitle>Student profile</wintitle> window</alt>
+      </image>
+    </fig>
+    <p>A student profile can be stored in either class file (see <xref keyref="student_class"/>&#160;) or in the student database (see <xref keyref="studdb_intro"/>&#160;).</p>
+    <p>Student profile may contain the following data:</p>
+    <table frame="topbot">
+      <tgroup cols="2">
+        <colspec colname="COLSPEC0" colwidth="10*"/>
+        <colspec colname="COLSPEC1" colwidth="120*"/>
+        <tbody>
+          <row>
+            <entry>1</entry>
+            <entry>Student's photo or any other image</entry>
+          </row>
+          <row>
+            <entry>2</entry>
+            <entry>Full name</entry>
+          </row>
+          <row>
+            <entry>3</entry>
+            <entry>Display name that will be used in the class</entry>
+          </row>
+          <row>
+            <entry>4</entry>
+            <entry>Student ID</entry>
+          </row>
+          <row>
+            <entry>5</entry>
+            <entry>BYOD ID - unique ID for "bring your own device" with <wintitle>Dialog Nibelung</wintitle> student module installed</entry>
+          </row>
+          <row>
+            <entry>6</entry>
+            <entry>Class, group or other school subdivision associated with the student</entry>
+          </row>
+          <row>
+            <entry>7</entry>
+            <entry>Phone number</entry>
+          </row>
+          <row>
+            <entry>8</entry>
+            <entry>Email address</entry>
+          </row>
+          <row>
+            <entry>9</entry>
+            <entry>Date of birth</entry>
+          </row>
+          <row>
+            <entry>10</entry>
+            <entry>Gender</entry>
+          </row>
+          <row>
+            <entry>11</entry>
+            <entry>Other relevant information</entry>
+          </row>
+        </tbody> 
+      </tgroup>
+    </table>
+    <p>Student ID can be used instead of student name during the roll call registration (см. п. <xref keyref="registration"/>&#160;). In this case <wintitle>Dialog Nibelung</wintitle> will pull up the rest of the data from corresponding student profile.</p>
+    <p>Click on the image and choose a file to change the image in the profile. Press <uicontrol>Clear image</uicontrol> to disassociate the image from the profile.</p>
+    <p>Если у учащегося включена веб-камера (см. п. <xref keyref="webcam"/>&#160;), то текущее изображение с веб-камеры можно установить как фотографию учащегося с помощью кнопки <uicontrol>Снимок с веб-камеры</uicontrol> .</p>
+  </conbody>
 </concept>

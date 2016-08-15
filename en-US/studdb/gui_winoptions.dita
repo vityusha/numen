@@ -5,26 +5,26 @@
 <reference id="winoptions" xml:lang="en-US">
   <title><wintitle>Settings</wintitle> window</title>
   <refbody>
-  <section>
-  
-<p>Select <uicontrol>File -> Settings (?) _fixme_ [ui]</uicontrol> from the <wintitle>Dialog Nibelung StudDB</wintitle> main menu to open the <wintitle>Settings</wintitle> window.
+    <section>
 
-The <wintitle>Settings</wintitle> window is only accessible if you are logged in as <userinput>Admin</userinput> (see <xref keyref="admin"/>&#160;). It allows you to set:
-  <li>user interface language;</li>
-  <li>check <uicontrol>Confirm deletions</uicontrol> _fixme_ [ui] option to ask for confirmirmation of any action that removes records from any database;</li>
-  <li>path to user database;</li>
-  <li>deferred write mode and autosave mode.</li>
-</ul>
+      <p>Select <uicontrol>File -> Settings (?) _fixme_ [ui]</uicontrol> from the <wintitle>Dialog Nibelung StudDB</wintitle> main menu to open the <wintitle>Settings</wintitle> window.</p>
 
-<fig id="dlgProgramSettings_png">
-    <title><wintitle>Settings</wintitle> window</title>
-    <image href="img/dlgProgramSettings.png" placement="break">
-      <alt><wintitle>Settings</wintitle> window</alt>
-    </image>
-</fig>
-<ul>
-</p>        
+        <p>The <wintitle>Settings</wintitle> window is only accessible if you are logged in as <userinput>Admin</userinput> (see <xref keyref="admin"/>&#160;). It allows you to set:
+        <ul>
+          <li>user interface language;</li>
+          <li>check <uicontrol>Confirm deletions</uicontrol> option to ask for confirmirmation of any action that removes records from any database;</li>
+          <li>path to user database;</li>
+          <li>deferred write mode and autosave mode.</li>
+        </ul>
 
-  </section>
+        <fig id="dlgProgramSettings_png">
+          <title><wintitle>Settings</wintitle> window</title>
+          <image href="img/dlgProgramSettings.png" placement="break">
+            <alt><wintitle>Settings</wintitle> window</alt>
+          </image>
+        </fig>
+      </p>        
+
+    </section>
   </refbody>
 </reference>

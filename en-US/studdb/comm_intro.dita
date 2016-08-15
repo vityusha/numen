@@ -5,35 +5,35 @@
 <concept id="studdb_intro" xml:lang="ru-RU">
 
   <title>Introduction</title>
-  
-<conbody>
 
-<p>
-<wintitle>Dialog Nibelung StudDB</wintitle> is a student database management software with database format compatible with <wintitle>Dialog Nibelung</wintitle> (<xref scope="external" href="http://lainlab.com/"/>&#160;). It can be used in conjunction with <wintitle>Dialog Nibelung</wintitle> or as a standalone student management software.</p>
+  <conbody>
 
-<p>
-<b>Principal features:</b>
+    <p>
+      <wintitle>Dialog Nibelung StudDB</wintitle> is a student database management software with database format compatible with <wintitle>Dialog Nibelung</wintitle> (<xref scope="external" href="http://lainlab.com/"/>&#160;). It can be used in conjunction with <wintitle>Dialog Nibelung</wintitle> or as a standalone student management software.</p>
 
-<ul>
-<li>database management:</li>
-<ul>
-  <li>create database;</li>
-  <li>set and edit school properties;</li>
-  <li>create and edit school structure;</li>
-  <li>student profiles management;</li>
-  <li>student archives management;</li>
-</ul>
-</li> 
-<li>student profiles can include a photo or any other image;</li> 
-<li>full text search for students and school subdivisions;</li>
-<li>school, subdivision, or student data export into txt, csv, and html formats;</li> 
-<li>simplified navigation and full keyboard control;</li> 
-<li>internationalization and localization support;</li> 
-<li>instant and deferred database editing;</li> 
-<li>возможность автоматического сохранения базы данных;</li> 
-<li>user authentification and database access authorizaton.</li>
-</ul>
-</p>
+    <p>
+      <b>Principal features:</b>
 
-</conbody>
+      <ul>
+        <li>database management:
+          <ul>
+            <li>create database;</li>
+            <li>set and edit school properties;</li>
+            <li>create and edit school structure;</li>
+            <li>student profiles management;</li>
+            <li>student archives management;</li>
+          </ul>
+        </li> 
+        <li>student profiles can include a photo or any other image;</li> 
+        <li>full text search for students and school subdivisions;</li>
+        <li>school, subdivision, or student data export into txt, csv, and html formats;</li> 
+        <li>simplified navigation and full keyboard control;</li> 
+        <li>internationalization and localization support;</li> 
+        <li>instant and deferred database editing;</li> 
+        <li>возможность автоматического сохранения базы данных;</li> 
+        <li>user authentification and database access authorizaton.</li>
+      </ul>
+    </p>
+
+  </conbody>
 </concept>

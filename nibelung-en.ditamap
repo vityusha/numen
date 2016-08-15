@@ -156,8 +156,8 @@
   </topicref>
   <!-- StudDB -->
   <topichead navtitle="Программа управления базами данных учащихся">
-    <topicref keys="install_notes" href="en-US/studdb/install_notes.dita" />
     <topicref keys="studdb_intro" href="en-US/studdb/comm_intro.dita" />
+    <topicref keys="install_notes" href="en-US/studdb/install_notes.dita" />
     <topicref keys="init" href="en-US/studdb/workinit.dita" />
     <topicref keys="workflow" href="en-US/studdb/workflow.dita" />
     <topichead navtitle="Интерфейс программы">
