@@ -13,6 +13,7 @@
                 <alt><wintitle>Teacher module settings</wintitle> window</alt>
             </image>
         </fig>
+        <p>Также здесь можно изменить путь к единой базе данных учащихся, содержащей полные профили учащихся (see <xref keyref="studdb_intro"/>&#160;).</p>
         <p>Here you can also change user interface language, maximum number of groups in the class, and default sound devices for playback and capture.</p>
         <p>By selecting <uicontrol>Optimize audio for Wi-Fi networks (disable multicast)</uicontrol> option you can increase sound quality over the Wi-Fi networks at the expense of increase in network traffic.</p>
         <p>By selecting <uicontrol>Optimize video for Wi-Fi networks (disable multicast)</uicontrol> option you can increase video quality over the Wi-Fi networks at the expense of increase in network traffic. Once this option is enabled, students will also be able to adjust video playback position.</p>
