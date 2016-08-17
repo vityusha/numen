@@ -3,33 +3,37 @@
 "reference.dtd">
 
 <reference id="winclass" xml:lang="ru-RU">
-  <title>Диалог свойств подразделения</title>
+  <title>Subdivision settings</title>
   <refbody>
   <section>
     
 <p>
 <fig id="dlgDepartment_png">
-    <title>Диалог свойств подразделения в режиме добавления</title>
+    <title><wintitle>Subdivision settings</wintitle> window in addition mode</title>
     <image href="img/dlgDepartment.png" placement="break">
-      <alt>Диалог свойств подразделения в режиме добавления</alt>
+      <alt><wintitle>Subdivision settings</wintitle> window in addition mode</alt>
     </image>
 </fig>
 
-Диалог редактирования подразделения отображает информацию о подразделении и может показываться в трех режимах:
+The <wintitle>Subdivision settings</wintitle> window allows you to add, edit and delete school subdivisions. The exact nature of these school subdivisions depends on your school structure and how individual students are associated with them. Examples of subdivisons include: programs students are enrolled in, year in school, expected graduation year, etc.
+
+This window can appeat in one of the tree modes:
 <ol>
-<li>Добавление подразделения;</li>
-<li>Редактирование подразделения;</li>
-<li>Удаление подразделения.</li>
+<li>addition;</li>
+<li>editing;</li>
+<li>removal.</li>
 </ol>
-Режим показа диалога следует из контекста выполненной перед этим команды. Его всегда можно узнать по названию кнопки, подтверждающей операцию, и соответствующему суффиксу в конце заголовка диалога:
+
+the mode in which this window is displayed depends on how command used to open the window. <uicontrol>Add</uicontrol>, <uicontrol>Save</uicontrol> or <uicontrol>Delete</uicontrol> confirmation buttons will appear in the window depending on the mode. Different modes can also be recognized by the suffix in window title bar.
 <ul>
-  <li>[Добавить]</li>
-  <li>[Изменить]</li>
-  <li>[Удалить]</li>
+  <li>[Add]</li>
+  <li>[Edit]</li>
+  <li>[Delete]</li>
 </ul>
 </p>
 
-<note type="attention">При удалении подразделения его учащиеся перемещаются в архив. Учащихся затем необходимо вручную распределить (восстановить) по другим классам! Рекомендуется сначала переместить учащихся в нужные подразделения, а затем удалять уже пустое подразделение</note>
+<note type="attention">When you delete a subdivision, all students associated with it will be placed in the archive (see _fixme_ [xref]). You will have to manually move them into other subdivision if that is not what was intended. We therefore recommend to move the students first, and then remove the empty subdivision.
+</note>
   </section>
   </refbody>
 </reference>
