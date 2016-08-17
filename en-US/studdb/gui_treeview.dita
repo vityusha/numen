@@ -2,32 +2,41 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
 "reference.dtd">
 
-<reference id="tree" xml:lang="ru-RU">
-  <title>Древовидное представление элементов учебного заведения</title>
+<reference id="tree" xml:lang="en-US">
+  <title>Tree view</title>
   <refbody>
   <section>
   
 <p>
-Область древовидного просмотра располагается в левой части главного окна программы <wintitle>Диалог Nibelung StudDB</wintitle> и позволяет наглядно отобразить структуру учебного заведения и состав учащихся каждого из его подразделений. Предполагается, что основная часть работы с программой будет производиться с использованием области древовидного просмотра, тем не менее все основные действия по управлению учащимися можно производить и через область табличного просмотра.
+The tree view panel occupies the left portion of <wintitle>Dialog Nibelung StudDB</wintitle> main window (_fixme_ [xref->fig]). It displays the visual representation of the structure of the student body and each of its subdivisions. Most of the student management tasks can be performed from either the tree view or the table view panels.
 </p>
 
 <fig id="treeviewArea_png">
-    <title>Область древовидного просмотра</title>
+    <title>Tree view panel</title>
     <image href="img/treeviewArea.png" placement="break">
-      <alt>Область древовидного просмотра</alt>
+      <alt>Tree view panel</alt>
     </image>
 </fig>
+
 <p>
-Основные приемы работы с областью древовидного просмотра:
+Working with the tree view:
+
 <ul>
-<li>Нажатие левой кнопкой мыши по любому элементу вызывает диалог с его свойствами; тот же эффект достигается двойным нажатием, а также нажатием клавиши <userinput>Enter</userinput> или <userinput>F2</userinput> в случае, если элемент выделен;</li>
-<li>Запрос на удаление выделенного элемента появляется при нажатии клавиши <userinput>Delete</userinput>;</li>
-<li>Наведение мыши на любой элемент (кроме архива) показывает карточку с его основными свойствами;</li>
-<li>Нажатие правой кнопкой мыши на элемент вызывает его контекстное меню; тот же эффект достигается нажатием клавиши контекстного меню на клавиатуре;</li>
-<li>Любого учащегося можно быстро перевести в другое подразделение, просто перетащив его мышью методом drag'n'drop (см. <xref keyref="glossary"/>&#160;);</li>
-<li>Треугольная область слева от элемента означает, что у него есть дочерние элементы (например, в учебном заведении есть подразделения, а в подразделении есть учащиеся). Нажатие мышкой на треугольную область раскрывает дочерние элементы, повторное нажатие - сворачивает их обратно; того же эффекта можно достичь стрелками клавиатуры влево-вправо, если данный элемент выделен;</li>
-<li>Отмена любого диалога, достигаемая нажатием клавиши <uicontrol>Esc</uicontrol> или кнопки <uicontrol>Отмена</uicontrol> диалога, переводит фокус на выделенный элемент области древовидного просмотра; благодаря этому можно быстее просматривать и редактировать информацию об учащихся, а также видеть, с чьей карточкой (либо с каким подразделением) только что производилась работа;</li>
-<li>По области древовидного просмотра возможная быстрая навигация с помощью клавиатуры. Стрелки клавиатуры вниз и вверх, а также клавиши <uicontrol>Home</uicontrol>, <uicontrol>End</uicontrol>, <uicontrol>PageUp</uicontrol> и <uicontrol>PageDown</uicontrol> используются непосредственно для перемещения, стрелки влево и вправо - для сворачивания и разворачивания элементов, имеющих дочерние.</li>
+<li>Click on any item in the tree to open its properties window. This acn also be accomplished by pressing <userinput>Enter</userinput> or <userinput>F2</userinput> on the keyboard when the element is selected.</li>
+
+<li>Press <userinput>Delete</userinput> on your keyboard to delete the element. You will be prompted for confirmation.</li>
+
+<li>Hover the mouse pointer on any element (apart from the archive) to display a popup box with its main properties.</li>
+
+<li>Right click on any element to open its context menu. This can also be accomplished by pressing the context menu key on your keyboard (usually found between the right <userinput>Alt</userinput> and <userinput>Ctrl</userinput> or right <userinput>Win</userinput> and <userinput>Ctrl</userinput> keys.</li>
+
+<li>You can drag'n'drop (see <xref keyref="glossary"/>&#160;) student between the subdivisions to quickly move them.</li>
+
+<li>A triangle mark to the left of an element means that this element has a nested subtree (e.g. the school has subdivisions or a subdivision has students associated with them). Click on the triangle to open the subtree; click again to close it. You can also open and close subtrees using <userinput>Left</userinput> and <userinput>Right</userinput> keys on your keyboard once the element is selected.</li>
+
+<li>Press <uicontrol>Esc</uicontrol> on your keyboard or <uicontrol>Cancel</uicontrol> button in any dialog to cancel it and return focus back to the tree view element. This allows to quickly view and edit student profiles and check which profile or subdivision was the last to be worked with.</li>
+
+<li>Use the <uicontrol>Up</uicontrol>, <uicontrol>Down</uicontrol>, <uicontrol>Home</uicontrol>, <uicontrol>End</uicontrol>, <uicontrol>PageUp</uicontrol> and <uicontrol>PageDown</uicontrol> on your keyboard to quickly navigate around the tree view. Use <userinput>Left</userinput> and <userinput>Right</userinput> keys to open and close the nested subtrees.</li>
 </ul>
 
 </p>        
