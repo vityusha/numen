@@ -14,7 +14,7 @@
       <alt><wintitle>School settings</wintitle> window</alt>
     </image>
 </fig>
-<wintitle>School settings</wintitle> window _fixme_ [ui] allows you to view / enter the following properties for your school:
+<wintitle>School settings</wintitle> window _fixme_ [ui] allows you to view and edit the following properties for your school:
 <ul>
 <li>Name;</li>
 <li>Type of the school;</li>
@@ -22,9 +22,7 @@
 </ul>
 </p>
 
-<p>
-Select the school in the tree view panel (_fixme [xref]) and press <uicontrol><shortcut>F2</shortcut></uicontrol> to open this window. Alternatively, you can also open it from the context menu for school (?) _fixme_ in the same panel.
-</p>        
+<p>Right click on the school name in the tree view panel (_fixme [xref]) and select <uicontrol>Settings (?) _fixme_</wintitle> from the context menu to open this window.  You can also access it by selecting the school he tree view panel and pressing <uicontrol><shortcut>F2</shortcut></uicontrol> on your keyboard.</p>        
 
   </section>
   </refbody>
