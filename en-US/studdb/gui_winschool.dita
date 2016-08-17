@@ -3,18 +3,18 @@
 "reference.dtd">
 
 <reference id="winschool" xml:lang="ru-RU">
-  <title><wintitle>School settings</wintitle></title>
+  <title><wintitle>School profile</wintitle></title>
   <refbody>
   <section>
   
 <p>
 <fig id="dlgSchoolOpts_png">
-    <title><wintitle>School settings</wintitle> window</title>
+    <title><wintitle>School profile</wintitle> window</title>
     <image href="img/dlgSchoolOpts.png" placement="break">
-      <alt><wintitle>School settings</wintitle> window</alt>
+      <alt><wintitle>School profile</wintitle> window</alt>
     </image>
 </fig>
-<wintitle>School settings</wintitle> window _fixme_ [ui] allows you to view and edit the following properties for your school:
+<wintitle>School profile</wintitle> window _fixme_ [ui] allows you to view and edit the following information for your school:
 <ul>
 <li>Name;</li>
 <li>Type of the school;</li>
@@ -22,7 +22,7 @@
 </ul>
 </p>
 
-<p>Right click on the school name in the tree view panel (_fixme [xref]) and select <uicontrol>Settings (?) _fixme_</wintitle> from the context menu to open this window.  You can also access it by selecting the school he tree view panel and pressing <uicontrol><shortcut>F2</shortcut></uicontrol> on your keyboard.</p>        
+<p>Right click on the school name in the tree view panel (_fixme [xref]) and select <uicontrol>Profile (?) _fixme_</wintitle> from the context menu to open this window.  You can also access it by selecting the school he tree view panel and pressing <uicontrol><shortcut>F2</shortcut></uicontrol> on your keyboard.</p>        
 
   </section>
   </refbody>
