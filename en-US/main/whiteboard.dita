@@ -4,8 +4,8 @@
 <concept id="whiteboard" xml:lang="en-US">
     <title><keyword>Whiteboard</keyword></title>
     <conbody>  
-        <p><indexterm>Whiteboard</indexterm>The whiteboard mode provides a virtual interactive sketchboard that can be shared between the teacher and students.</p>
-        <p>Press the <uicontrol>Interact</uicontrol> button in either class (<xref keyref="menu_class"/>&#160;) or group menu (<xref keyref="menu_group"/>&#160;) and select <uicontrol>Whiteboard</uicontrol> to open the whiteboard window (<xref keyref="whiteboard/whiteboard_png" type="fig"/>&#160;) on teacher workstation.</p> 
+        <p><indexterm>Whiteboard</indexterm>The whiteboard mode provides a virtual interactive sketchboard that can be shared between the teacher and the students.</p>
+        <p>Press <uicontrol>Interact</uicontrol> button in either class (<xref keyref="menu_class"/>&#160;) or group menu (<xref keyref="menu_group"/>&#160;) and select <uicontrol>Whiteboard</uicontrol> to open the whiteboard window (<xref keyref="whiteboard/whiteboard_png" type="fig"/>&#160;) on teacher workstation.</p> 
         <fig id="whiteboard_png">
             <title>Whiteboard window</title>
             <image href="img/whiteboard.png" placement="break">
@@ -87,8 +87,8 @@
             </tgroup>
         </table>
         <p>Press the <uicontrol>Start</uicontrol> button to initiate a whiteboard session, at which point <uicontrol>Start</uicontrol> button will beacome <uicontrol>Stop</uicontrol> button and a whiteboard window will open on the screens of selected group of students.</p> 
-        <note type="important">Title of the group that has a running whiteboard sesion will be displayed in red for the duration of the session.</note>
-        <p>When a whitebopard session is active, any participant can pick a tool from the toolbox and start sketching on the whiteboard. Everyting they sketch will appear on the whiteboards of all participants.</p>
+        <note type="important">Title of the group that has an active whiteboard sesion will be displayed in red for the duration of the session.</note>
+        <p>When a whitebopard session is active, any participant can pick a tool from the toolbox and start sketching on the whiteboard. Everyting they sketch will appear on the whiteboards of all the participants.</p>
         <p>Drawing tools (from top to bottom of the toolbox):</p>
         <ul>
             <li>Pen</li>
@@ -101,13 +101,15 @@
             <li>Arrow</li>
             <li>Dot</li>
             <li>Star</li>
-            <li>Regular polygon</li>
+            <li>Polygon</li>
             <li>Connected lines</li>
             <li>Curve</li>
             <li>Image</li>
             <li>Library symbol</li>
             <li>Text</li>
         </ul>
+        
+        <note type="tip">The <uicontrol>Polygon</uicontrol> tool produces a symmetrical closed polygon, while <uicontrol>Connected lines</uicontrol> produces a free form chain of arbitrary shape.</note>
 
         <p>The whiteboard can be in either manual or immediate mode as controlled by the <uicontrol>Manual mode</uicontrol> check button in the <wintitle>Whiteboard</wintitle> window (<xref keyref="whiteboard/whiteboard_png" type="fig"/>&#160;). In the immediate mode everything sketched on the whiteboard will instantly appear on evey participating whiteboard. In manual mode an object on the whiteboard will only be sent to the other participants once the <uicontrol>Send</uicontrol> button is pressed. This allows  editing of the object or even discarding it before anybody else sees it. This mode also has a <uicontrol>Multidraw</uicontrol> option that allows you to finish several elements before sending them to the other participants. Otherwise, only a single element (e.g. a polygon or a text field) can be finished before you'll have to decide wheter to either <uicontrol>Send</uicontrol> or <uicontrol>Cancel</uicontrol> it.</p>
         
