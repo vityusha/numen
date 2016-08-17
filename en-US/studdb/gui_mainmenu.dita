@@ -2,38 +2,38 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
 "reference.dtd">
 
-<reference id="menu" xml:lang="ru-RU">
+<reference id="menu" xml:lang="en-US">
 
-  <title>Главное меню</title>
+  <title>Main menu</title>
   
   <refbody>
   
     <section>
 <p>
-Главное меню состоит из четырех основных разделов:
+<wintitile>Dialog Nibelung StudDB</wintitile> main menu consists of:
 <ul>
-<li>Меню Файл;</li>
-<li>Меню Подразделение;</li>
-<li>Меню Учащийся;</li>
-<li>Меню Помощь;</li>
+<li><uicontrol>File</uicontrol> menu;</li>
+<li><uicontrol>Subdivision</uicontrol> menu;</li>
+<li><uicontrol>Student</uicontrol> menu;</li>
+<li><uicontrol>Help</uicontrol> menu.</li>
 </ul>
 </p>
 
 <fig id="menu_png">
-    <title>Главное меню</title>
+    <title>Main menu</title>
     <image href="img/menu.png" placement="break">
-      <alt>Главное меню</alt>
+      <alt>Main menu</alt>
     </image>
 </fig>
 
 <p>
-<uicontrol>Меню Файл</uicontrol>
+<uicontrol>File</uicontrol> menu
 </p>
 
 <fig id="menuFile_png">
-    <title>Меню Файл</title>
+    <title><uicontrol>File</uicontrol> menu</title>
     <image href="img/menuFile.png" placement="break">
-      <alt>Меню Файл</alt>
+      <alt><uicontrol>File</uicontrol> menu</alt>
     </image>
 </fig>
 
@@ -47,10 +47,10 @@
           <thead>
           
             <row>
-              <entry colname="COLSPEC0" align="left">№</entry>
-              <entry colname="COLSPEC1" align="center">Пункт меню</entry>
-              <entry colname="COLSPEC2" align="center">Иконка</entry>
-              <entry colname="COLSPEC3" align="center">Сочетание клавиш</entry>
+              <entry colname="COLSPEC0" align="left">#</entry>
+              <entry colname="COLSPEC1" align="center">Item</entry>
+              <entry colname="COLSPEC2" align="center">Icon</entry>
+              <entry colname="COLSPEC3" align="center">Keyboard shortcut</entry>
             </row>
             
           </thead>
@@ -58,56 +58,56 @@
                 <tbody>
                     <row>
                         <entry>1</entry>
-                        <entry>Соединиться с базой данных *</entry>
+                        <entry>Open database * _fixme_ [ui]</entry>
                         <entry><image href="img/icons/dbconnect.png" placement="break" width="16" align="center"/></entry>
                         <entry align="center"><uicontrol><shortcut>Ctrl + O</shortcut></uicontrol></entry>
                     </row>
                     
                     <row>
                         <entry>2</entry>
-                        <entry>Отсоединиться от базы данных *</entry>
+                        <entry>Close database * _fixme_ [ui]</entry>
                         <entry><image href="img/icons/dbdisconnect.png" placement="break" width="16" align="center"/></entry>
                         <entry align="center"><uicontrol><shortcut>Ctrl + W</shortcut></uicontrol></entry>
                     </row>
                     
                     <row>
                         <entry>3</entry>
-                        <entry>Сохранить базу данных **</entry>
+                        <entry>Save database **</entry>
                         <entry><image href="img/icons/save.png" placement="break" width="16" align="center"/></entry>
                         <entry align="center"><uicontrol><shortcut>Ctrl + S</shortcut></uicontrol></entry>
                     </row>
                     
                     <row>
                         <entry>4</entry>
-                        <entry>Создать базу данных *</entry>
+                        <entry>Create database *</entry>
                         <entry><image href="img/icons/dbcreate.png" placement="break" width="16" align="center"/></entry>
                         <entry align="center"><uicontrol><shortcut>Ctrl + N</shortcut></uicontrol></entry>
                     </row>
                     
                     <row>
                         <entry>5</entry>
-                        <entry>Завершить сеанс...</entry>
+                        <entry>Logout</entry>
                         <entry><image href="img/icons/logout.png" placement="break" width="16" align="center"/></entry>
                         <entry align="center"><uicontrol><shortcut>Ctrl + L</shortcut></uicontrol></entry>
                     </row>
                     
                     <row>
                         <entry>6</entry>
-                        <entry>Настройки *</entry>
+                        <entry>Settings *</entry>
                         <entry><image href="img/icons/settings.png" placement="break" width="16" align="center"/></entry>
                         <entry align="center"><uicontrol><shortcut>Ctrl + H</shortcut></uicontrol></entry>                        
                     </row>
                     
                     <row>
                         <entry>7</entry>
-                        <entry>Управление пользователями *</entry>
+                        <entry>Accounts management *</entry>
                         <entry><image href="img/icons/usercontrol.png" placement="break" width="16" align="center"/></entry>
                         <entry align="center"><uicontrol><shortcut>Ctrl + U</shortcut></uicontrol></entry>                        
                     </row>        
                     
                     <row>
                         <entry>8</entry>
-                        <entry>Выход</entry>
+                        <entry>Exit</entry>
                         <entry><image href="img/icons/exit.png" placement="break" width="16" align="center"/></entry>
                         <entry align="center"><uicontrol><shortcut>Alt + F4</shortcut></uicontrol></entry>
                     </row>
@@ -116,18 +116,18 @@
 </table>
 
 <p>
-*  - команда доступна только в административном режиме;
-** - команда доступна только в режиме резервирования.
+*  - menu item is only available in administrator mode;
+** - menu item is only available in deferred write mode _fixme_ [xref].
 </p>
 
 <p>
-<uicontrol>Меню Подразделение</uicontrol>
+<uicontrol>Subdivision</uicontrol> menu
 </p>
 
 <fig id="menuDepartment_png">
-    <title>Меню Подразделение</title>
+    <title><uicontrol>Subdivision</uicontrol> menu</title>
     <image href="img/menuDepartment.png" placement="break">
-      <alt>Меню Подразделение</alt>
+      <alt><uicontrol>Subdivision</uicontrol> menu</alt>
     </image>
 </fig>
 
@@ -141,10 +141,10 @@
           <thead>
           
             <row>
-              <entry colname="COLSPEC0" align="left">№</entry>
-              <entry colname="COLSPEC1" align="center">Пункт меню</entry>
-              <entry colname="COLSPEC2" align="center">Иконка</entry>
-              <entry colname="COLSPEC3" align="center">Сочетание клавиш</entry>
+              <entry colname="COLSPEC0" align="left">#</entry>
+              <entry colname="COLSPEC1" align="center">Item</entry>
+              <entry colname="COLSPEC2" align="center">Icon</entry>
+              <entry colname="COLSPEC3" align="center">Keyboard shortcut</entry>
             </row>
             
           </thead>
@@ -152,21 +152,21 @@
                 <tbody>
                     <row>
                         <entry>1</entry>
-                        <entry>Добавить подразделение</entry>
+                        <entry>Add _fixme_ [ui]</entry>
                         <entry><image href="img/icons/add.png" placement="break" width="16" align="center"/></entry>
                         <entry align="center"><uicontrol><shortcut>Ctrl + Alt + A</shortcut></uicontrol></entry>
                     </row>
                     
                     <row>
                         <entry>2</entry>
-                        <entry>Редактировать подразделение</entry>
+                        <entry>Edit _fixme_ [ui]</entry>
                         <entry><image href="img/icons/edit.png" placement="break" width="16" align="center"/></entry>
                         <entry align="center"><uicontrol><shortcut>Ctrl + Alt + E</shortcut></uicontrol></entry>
                     </row>
                     
                     <row>
                         <entry>3</entry>
-                        <entry>Удалить подразделение</entry>
+                        <entry>Delete _fixme_ [ui]</entry>
                         <entry><image href="img/icons/remove.png" placement="break" width="16" align="center"/></entry>
                         <entry align="center"><uicontrol><shortcut>Ctrl + Alt + D </shortcut></uicontrol></entry>
                     </row>
@@ -176,13 +176,13 @@
 </table>
 
 <p>
-<uicontrol>Меню Учащийся</uicontrol>
+<uicontrol>Student</uicontrol> menu
 </p>
 
 <fig id="menuStudent_png">
-    <title>Меню Учащийся</title>
+    <title><uicontrol>Student</uicontrol> menu</title>
     <image href="img/menuStudent.png" placement="break">
-      <alt>Меню Учащийся</alt>
+      <alt><uicontrol>Student</uicontrol> menu</alt>
     </image>
 </fig>
 
@@ -196,10 +196,10 @@
           <thead>
           
             <row>
-              <entry colname="COLSPEC0" align="left">№</entry>
-              <entry colname="COLSPEC1" align="center">Пункт меню</entry>
-              <entry colname="COLSPEC2" align="center">Иконка</entry>
-              <entry colname="COLSPEC3" align="center">Сочетание клавиш</entry>
+              <entry colname="COLSPEC0" align="left">#</entry>
+              <entry colname="COLSPEC1" align="center">Item</entry>
+              <entry colname="COLSPEC2" align="center">Icon</entry>
+              <entry colname="COLSPEC3" align="center">Keyboard shortcut</entry>
             </row>
             
           </thead>
@@ -207,21 +207,21 @@
                 <tbody>
                     <row>
                         <entry>1</entry>
-                        <entry>Добавить учащегося</entry>
+                        <entry>Add _fixme_ [ui]</entry>
                         <entry><image href="img/icons/personadd.png" placement="break" width="16" align="center"/></entry>
                         <entry align="center"><uicontrol><shortcut>Alt + A</shortcut></uicontrol></entry>
                     </row>
                     
                     <row>
                         <entry>2</entry>
-                        <entry>Редактировать данные учащегося</entry>
+                        <entry>Edit profile _fixme_ [ui]</entry>
                         <entry><image href="img/icons/personedit.png" placement="break" width="16" align="center"/></entry>
                         <entry align="center"><uicontrol><shortcut>Alt + E</shortcut></uicontrol></entry>
                     </row>
                     
                     <row>
                         <entry>3</entry>
-                        <entry>Удалить учащегося из базы</entry>
+                        <entry>Delete _fixme_ [ui]</entry>
                         <entry><image href="img/icons/persondel.png" placement="break" width="16" align="center"/></entry>
                         <entry align="center"><uicontrol><shortcut>Alt + D </shortcut></uicontrol></entry>
                     </row>
@@ -231,13 +231,13 @@
 </table>
 
 <p>
-<uicontrol>Меню Помощь</uicontrol>
+<uicontrol>Help</uicontrol> menu
 </p>
 
 <fig id="menuHelp_png">
-    <title>Меню Помощь</title>
+    <title><uicontrol>Help</uicontrol> menu</title>
     <image href="img/menuHelp.png" placement="break">
-      <alt>Меню Помощь</alt>
+      <alt><uicontrol>Help</uicontrol> menu</alt>
     </image>
 </fig>
 
@@ -251,10 +251,10 @@
           <thead>
           
             <row>
-              <entry colname="COLSPEC0" align="left">№</entry>
-              <entry colname="COLSPEC1" align="center">Пункт меню</entry>
-              <entry colname="COLSPEC2" align="center">Иконка</entry>
-              <entry colname="COLSPEC3" align="center">Сочетание клавиш</entry>
+              <entry colname="COLSPEC0" align="left">#</entry>
+              <entry colname="COLSPEC1" align="center">Item</entry>
+              <entry colname="COLSPEC2" align="center">Icon</entry>
+              <entry colname="COLSPEC3" align="center">Keyboard shortcut</entry>
             </row>
             
           </thead>
@@ -262,14 +262,14 @@
                 <tbody>
                     <row>
                         <entry>1</entry>
-                        <entry>Инструкция</entry>
+                        <entry>User manual _fixme_ [ui]</entry>
                         <entry><image href="img/icons/manual.png" placement="break" width="16" align="center"/></entry>
                         <entry align="center"><uicontrol><shortcut>F1</shortcut></uicontrol></entry>
                     </row>
                     
                     <row>
                         <entry>2</entry>
-                        <entry>О программе</entry>
+                        <entry>About _fixme_ [ui]</entry>
                         <entry><image href="img/icons/about.png" placement="break" width="16" align="center"/></entry>
                         <entry align="center"><uicontrol><shortcut>-</shortcut></uicontrol></entry>
                     </row>
@@ -279,11 +279,10 @@
 </table>
 
 <p>
-Доступ к каждому пункту можно получить как с помощью мыши, так и набрав
-соответствующее пункту сочетание клавиш. Навигация по меню <i>также включается</i> после нажатия на клавиатуре клавиши <uicontrol><shortcut>Alt</shortcut></uicontrol>.
+Each command of the main menu can be invoked either by keyboard shortcut or selecting the item with a mouse. You can also access the main menu from the keyboard by pressing the <uicontrol><shortcut>Alt</shortcut></uicontrol> key.
 </p>
 
-<note type="tip">Если команда отображается серым цветом и не срабатывает по сочетанию клавиш, значит, в текущем контексте она неприменима. Например, нельзя отредактировать карточку учащегося, если в данный момент нет выделенного учащегося: программа не знает, о ком идет речь и не может применить операцию редактирования</note>
+<note type="tip">If the menu item is greyed out or does not respond to the shortcut, this means that the command is not available in current context. For example, you can not edit a student profile if no student is selected.</note>
 
   </section>
   </refbody>
