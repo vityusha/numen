@@ -2,41 +2,40 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
 "reference.dtd">
 
-<reference id="toolbar" xml:lang="ru-RU">
-  <title>Панель инструментов</title>
+<reference id="toolbar" xml:lang="en-US">
+  <title>Toolbar</title>
   <refbody>
   <section>
   
 <p>
-Панель инструментов используется для быстрого доступа к основным функциям программы с помощью мыши:
-все команды находятся перед глазами в виде соответствующих им пиктограмм.
+The toolbar can be used for quick access to the main fuctionality of <wintitile>StudDB</wintitile> without invoking the main menu.
 
 <fig id="toolbar_png">
-    <title>Панель инструментов</title>
+    <title>Toolbar</title>
     <image href="img/toolbar.png" placement="break">
-      <alt>Панель инструментов</alt>
+      <alt>Toolbar</alt>
     </image>
 </fig>
 
 <fig id="filter_png">
-    <title>Область фильтра панели инструментов</title>
+    <title>Toolbar filter</title>
     <image href="img/filter.png" placement="break">
-      <alt>Область фильтра панели инструментов</alt>
+      <alt>Toolbar filter</alt>
     </image>
 </fig>
 
-Помимо команд, дублирующих главное меню, в панели инструментов располагаются:
+Apart from providing visual shortcuts to the menu commands, the toolbar also gives access to:
 <ul>
-<li>кнопка <uicontrol>Режим показа всех учащихся</uicontrol> (расположена левее поля для ввода строки фильтра);</li>
-<li>кнопка <uicontrol>Фильтр</uicontrol>, включающая или выключающая фильрацию по всем полям (см. <xref keyref="search"/>&#160;);</li>
-<li>поле для ввода строки фильтра (расположено левее кнопки фильтра).</li>
+<li><uicontrol>Show all students</uicontrol> button (immediately to the left of the filter string field);</li>
+<li><uicontrol>Filter</uicontrol> button, used to toggle the global filter (see <xref keyref="search"/>&#160;);</li>
+<li>filter string entry field.</li>
 </ul>
 </p>        
 
 <fig id="all_png">
-    <title>Кнопка режима показа всех учащихся</title>
+    <title><uicontrol>Show all students</uicontrol> button</title>
     <image href="img/icons/all.png" placement="break">
-      <alt>Кнопка управления режимом показа всех учащихся</alt>
+      <alt><uicontrol>Show all students</uicontrol> button</alt>
     </image>
 </fig>
 
