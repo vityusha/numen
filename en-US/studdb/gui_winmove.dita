@@ -2,34 +2,30 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
 "reference.dtd">
 
-<reference id="winmove" xml:lang="ru-RU">
-  <title>Диалог перевода в другое подразделение</title>
+<reference id="winmove" xml:lang="en-US">
+  <title>Moving students</title>
   <refbody>
   <section>
   
 <p>
-Диалог для перевода в другое подразделение появляется при восстановлении учащегося из архива (см. <xref keyref="archive"/>&#160;), а также совместно - при показе карточки учащегося (см. <xref keyref="winstudent"/>&#160;), во всех его режимах (добавление, редактирование, удаление, восстановление).
+You can move a student from one school subdivision to another while editing their profile (see <xref keyref="winstudent"/>&#160;) or when restoring that student from the archive (see <xref keyref="archive"/>&#160;) by selecting a new subdivision from the drop down box.
 </p>
 
 <fig id="dlgStudentEditDestSelCombo_png">
-    <title>Диалог для перевода совместно с диалогом учащегося</title>
+    <title>Drop down list of school subdivisions</title>
     <image href="img/dlgStudentEditDestSelCombo.png" placement="break">
-      <alt>Диалог для перевода совместно с диалогом учащегося</alt>
+      <alt>Drop down list of school subdivisions</alt>
     </image>
 </fig>
 
 <fig id="dlgStudentRestoreDestSelCombo_png">
-    <title>Диалог для перевода при восстановлении из архива</title>
+    <title>Restoring student from archive</title>
     <image href="img/dlgStudentRestoreDestSelCombo.png" placement="break">
-      <alt>Диалог для перевода при восстановлении из архива</alt>
+      <alt>Restoring student from archive</alt>
     </image>
 </fig>
 
-<p>
-В данном диалоге содержится информация о подразделении, в которое будет добавлен, переведен или восстановлен учащийся.
-</p>        
-
-<note type="tip">В случае показа в режиме редактирования автоматически выбирается текущее подразделение учащегося</note>
+<note type="tip">While editing a student profile, their associated subdivision is automatically selected from the drop down box.</note>
 
   </section>
   </refbody>
