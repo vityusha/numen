@@ -2,7 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
 "reference.dtd">
 
-<reference id="winclass" xml:lang="ru-RU">
+<reference id="winclass" xml:lang="en-US">
   <title>Subdivision settings</title>
   <refbody>
   <section>
@@ -24,7 +24,7 @@ This window can appeat in one of the tree modes:
 <li>removal.</li>
 </ol>
 
-the mode in which this window is displayed depends on how command used to open the window. <uicontrol>Add</uicontrol>, <uicontrol>Save</uicontrol> or <uicontrol>Delete</uicontrol> confirmation buttons will appear in the window depending on the mode. Different modes can also be recognized by the suffix in window title bar.
+The mode in which this window is displayed depends on how command used to open the window. <uicontrol>Add</uicontrol>, <uicontrol>Save</uicontrol> or <uicontrol>Delete</uicontrol> confirmation buttons will appear in the window depending on the mode. Different modes can also be recognized by the suffix in window title bar.
 <ul>
   <li>[Add]</li>
   <li>[Edit]</li>
@@ -32,7 +32,7 @@ the mode in which this window is displayed depends on how command used to open t
 </ul>
 </p>
 
-<note type="attention">When you delete a subdivision, all students associated with it will be placed in the archive (see _fixme_ [xref]). You will have to manually move them into other subdivision if that is not what was intended. We therefore recommend to move the students first, and then remove the empty subdivision.
+<note type="attention">When you delete a subdivision, all student profiles associated with it will be filed in the archive (see _fixme_ [xref]). You will have to manually restore them from archive to other subdivision if that is not what was intended. We therefore recommend to move the students first, and then remove the empty subdivision.
 </note>
   </section>
   </refbody>
