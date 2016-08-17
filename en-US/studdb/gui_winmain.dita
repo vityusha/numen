@@ -17,7 +17,7 @@
 </fig>
 This window includes:
 <ol>
-<li>Main menu (see <xref keyref="menu"/>&#160;), contains most of the StudDB commands.</li>
+<li>Main menu (see <xref keyref="menu"/>&#160;), provides access to the principal <wintitile>StudDB</wintitile> functions.</li>
 <li>Toolbar (see <xref keyref="toolbar"/>&#160;) for quick access to most often used functions.</li>
 <li>Tree view panel (see <xref keyref="tree"/>&#160;) provides an overview of the school structure.</li>
 <li>General view panel. This is the panel that displays and allows editing of student profiles and school subdivisions.</li>
