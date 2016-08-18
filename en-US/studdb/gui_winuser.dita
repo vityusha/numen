@@ -3,23 +3,23 @@
 "reference.dtd">
 
 <reference id="winuser" xml:lang="ru-RU">
-  <title><wintitile>Change password</wintitile> window</title>
+  <title><wintitle>Change password</wintitle> window</title>
   <refbody>
   <section>
   
 <p>
 
 <fig id="dlgChangePwd_png">
-    <title><wintitile>Change password</wintitile> window</title>
+    <title><wintitle>Change password</wintitle> window</title>
     <image href="img/dlgChangePwd.png" placement="break">
-      <alt><wintitile>Change password</wintitile> window</alt>
+      <alt><wintitle>Change password</wintitle> window</alt>
     </image>
 </fig>
 
-<wintitile>Change password</wintitile> window will open in two cases:
+<wintitle>Change password</wintitle> window will open in two cases:
 <ol>
-<li>After clicking on <uicontrol>Change password</uicontrol> in <wintitile>Login</wintitile> window (см. <xref keyref="winlogin"/>&#160;)</li>
-<li>When adding or editing users in the <wintitile>Accounts management</wintitile> window (см. <xref keyref="winusers"/>&#160;)</li>
+<li>After clicking on <uicontrol>Change password</uicontrol> in <wintitle>Login</wintitle> window (см. <xref keyref="winlogin"/>&#160;)</li>
+<li>When adding or editing users in the <wintitle>Accounts management</wintitle> window (см. <xref keyref="winusers"/>&#160;)</li>
 </ol>
 </p>
 <note type="important">All users must confirm their old password before changing it to a new one. Contact your system administrator if you forgot your password.</note>
