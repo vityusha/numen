@@ -32,11 +32,11 @@ Working with the tree view:
 
 <li>You can drag'n'drop (see <xref keyref="glossary"/>&#160;) student between the subdivisions to quickly move them.</li>
 
-<li>A triangle mark to the left of a branch means that this branch has a nested subtree (e.g. the school has subdivisions or a subdivision has students associated with them). Click on the triangle to open the subtree; click again to collapse the branch. You can also open and collapse branches using <userinput>Left</userinput> and <userinput>Right</userinput> keys on your keyboard once the branch is selected.</li>
+<li>A triangle mark to the left of a branch means that this branch has a nested subtree (e.g. the school has subdivisions or a subdivision has students associated with them). Click on the triangle to expand the branch, click again to collapse it. You can also expand and collapse branches using <userinput>Left</userinput> and <userinput>Right</userinput> keys on your keyboard once the branch is selected.</li>
 
-<li>Press <uicontrol>Esc</uicontrol> on your keyboard or <uicontrol>Cancel</uicontrol> button in any dialog to cancel it and return focus back to the tree view branch. This allows to quickly view and edit student profiles and check which profile or subdivision was the last to be worked with.</li>
+<li>Press <uicontrol>Esc</uicontrol> on your keyboard or <uicontrol>Cancel</uicontrol> button in any dialog to cancel it and return focus back to the tree view. This allows to quickly view and edit student profiles and check which profile or subdivision was the last to be worked with.</li>
 
-<li>Use the <uicontrol>Up</uicontrol>, <uicontrol>Down</uicontrol>, <uicontrol>Home</uicontrol>, <uicontrol>End</uicontrol>, <uicontrol>PageUp</uicontrol> and <uicontrol>PageDown</uicontrol> on your keyboard to quickly navigate around the tree view. Use <userinput>Left</userinput> and <userinput>Right</userinput> keys to show and collapse nested branches.</li>
+<li>Use the <uicontrol>Up</uicontrol>, <uicontrol>Down</uicontrol>, <uicontrol>Home</uicontrol>, <uicontrol>End</uicontrol>, <uicontrol>PageUp</uicontrol> and <uicontrol>PageDown</uicontrol> on your keyboard to quickly navigate around the tree view. Use <userinput>Left</userinput> and <userinput>Right</userinput> keys to expand and collapse nested branches.</li>
 </ul>
 
 </p>        
