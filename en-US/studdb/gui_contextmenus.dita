@@ -2,136 +2,133 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
 "reference.dtd">
 
-<reference id="cm" xml:lang="ru-RU">
-  <title>Контекстные меню</title>
+<reference id="cm" xml:lang="en-US">
+  <title>Context menus</title>
   <refbody>
   <section>
   
 <p>
-В программе <i>Диалог Nibelung StudDB</i> для каждого структурного элемента базы данных существуют контекстные меню - как в области древовидного представления, так и в табличном виде (см. <xref keyref="winmain"/>&#160;).
+<wintitle>Dialog Nibelung StudDB</wintitle> provides context menus for every record in the database in both tree view and table view (<xref keyref="winmain"/>&#160;).
 </p>
 
-<p>Контекстные меню есть у:</p>
+<p>Context menus are available for:</p>
 <ul>
-<li>учебного заведения;</li>
-<li>подразделения;</li>
-<li>архива;</li>
-<li>учащегося, находящегося в подразделении;</li>
-<li>учащегося, находящегося в архиве.</li>
+<li>school;</li>
+<li>school subdivisions;</li>
+<li>archive;</li>
+<li>active students;</li>
+<li>archived students.</li>
 </ul>
 
 <p>
-Контекстное меню вызывается правой кнопкой мыши или клавишей контекстного меню клавиатуры. По своему действию пункты контекстное меню эквивалентны соответствующим пунктам главного меню и панели инструментов.
+The context menu for an element can be called up by right clicking on this element or selecting it and pressing the context menu key on your keyboard. The context menu key can usually be found between the right <userinput>Alt</userinput> and <userinput>Ctrl</userinput> or right <userinput>Win</userinput> and <userinput>Ctrl</userinput> keys. Commands available from the context menu are completely identical to the corresponding commands of the main menu and toolbar.
 </p>
 
-<p><uicontrol>Перечень контекстных меню программы:</uicontrol></p>
+<p><uicontrol>Available context menus:</uicontrol> _fixme_ [markup]</p>
 
 <p>
 <fig id="cmArchive_png">
-    <title>Контекстное меню архива</title>
+    <title>Archive context menu</title>
     <image href="img/cmArchive.png" placement="break">
-      <alt>Контекстное меню архива</alt>
+      <alt>Archive context menu</alt>
     </image>
 </fig>
-Пункты контекстного меню:
 <ul>
-<li>Свернуть все - сворачивает содержимое архива;</li>
-<li>Очистить архив - удаляет все записи архива;</li>
-<li>Экспорт  - позволяет экспортировать все содержимое архива.</li>
+<li><uicontrol>Collapse all</uicontrol> _fixme_ [ui] : collapse all branches in the archive;</li>
+<li><uicontrol>Clear archive</uicontrol>: clear all reacords from the archive;</li>
+<li><uicontrol>Export</uicontrol>: export contents of the archive.</li>
 </ul>
-<note type ="important">После очистки архива записи восстановить невозможно!</note>
+<note type ="important">Clearing the archive permanently deletes all records. This is a destructive operation that can not be undone, nor the records be recovered.</note>
 </p>
 
 <p>
 <fig id="cmArchiveStudent_png">
-    <title>Контекстное меню архивного учащегося</title>
+    <title>Archived student profile context menu</title>
     <image href="img/cmArchiveStudent.png" placement="break">
-      <alt>Контекстное меню архивного учащегося</alt>
+      <alt>Archived student profile context menu</alt>
     </image>
 </fig>
-Пункты контекстного меню:
 <ul>
-<li>Восстановить - восстанавливает учащегося в указанное подразделение;</li>
-<li>Удалить - окончательно удаляет учащегося из базы.</li>
+<li><uicontrol>Restore</uicontrol>: restore the student profile from the archive to the specified subdivision;</li>
+<li><uicontrol>Remove<uicontrol>: remove profile from the archive and delete all profile data.</li>
 </ul>
 </p>
 
 <p>
 <fig id="cmStudent_png">
-    <title>Контекстное меню учащегося</title>
+    <title>Student context menu</title>
     <image href="img/cmStudent.png" placement="break">
-      <alt>Контекстное меню учащегося</alt>
+      <alt>Student context menu</alt>
     </image>
 </fig>
-Пункты контекстного меню:
 <ul>
-<li>Редактировать данные учащегося - показывает диалог с карточкой учащегося в режиме редактирования;</li>
-<li>Удалить учащегося из базы - показывает диалог подтверждения перемещения учащегося в архив;</li>
-<li>Экспорт... - позволяет экспортировать карточку данного учащегося.</li>
+<li><uicontrol>Edit profile</uicontrol> _fixme_ [ui] : edit student profile;</li>
+<li><uicontrol>Archive</uicontrol> _fixme_ [ui] : prompts for confirmation to move the profile onto the archive;</li>
+<li><uicontrol>Export</uicontrol>: export student profile from the database.</li>
 </ul>
 </p>
 
 <p>
 <fig id="cmDepartment_png">
-    <title>Контекстное меню подразделения</title>
+    <title>Subdivision context menu</title>
     <image href="img/cmDepartment.png" placement="break">
-      <alt>Контекстное меню подразделения</alt>
+      <alt>Subdivision context menu</alt>
     </image>
 </fig>
 <ul>
-<li>Добавить учащегося - показывает диалог с карточкой учащегося в режиме добавления;</li>
-<li>Редактировать подразделение - показывает диалог с карточкой подразделения в режиме редактирования;</li>
-<li>Удалить подразделение - показывает диалог подтверждения удаления подразделения и автоматического перемещения всех его учащихся в архив;</li>
-<li>Свернуть - сворачивает графический элемент древовидного представления подразделения;</li>
-<li>Раскрыть все - разворачивает графический элемент древовидного представления подразделения;</li>
-<li>Экспорт... - позволяет экспортировать данные о подразделении и каждом из его учащихся.</li>
+<li><uicontrol>Add student</uicontrol>: open student profile in addition mode (see _fixme_ [xref]);</li>
+<li><uicontrol>Edit subdivision</uicontrol> _fixme_ [ui] : open <wintitle>Subdivision settings</wintitle> in editing mode (see _fixme_ [xref]);</li>
+<li><uicontrol>Remove subdivision</uicontrol>: removes subdivision with confirmation prompt and moves all students associated with it to the archive;</li>
+<li><uicontrol>Collapse</uicontrol>: collapse subdivision branch in tree view;</li>
+<li><uicontrol>Expand all</uicontrol>: expand subdivision branch in tree view;</li>
+<li><uicontrol>Export</uicontrol>: export subdivsion data together with all associated students (see _fixme_ [xref]).</li>
 </ul>
 </p>
 
 <p>
 <fig id="cmSchool_png">
-    <title>Контекстное меню учебного заведения</title>
+    <title>School context menu</title>
     <image href="img/cmSchool.png" placement="break">
-      <alt>Контекстное меню учебного заведения</alt>
+      <alt>School context menu</alt>
     </image>
 </fig>    
 <ul>
-<li>Правка учебного заведения - показывает диалог просмотра и редактирования данных об учебном заведении;</li>
-<li>Добавить подразделение - показывает диалог с карточкой подразделения в режиме добавления;</li>
-<li>Свернуть - сворачивает графический элемент древовидного представления учебного заведения;</li>
-<li>Раскрыть все - разворачивает графический элемент древовидного представления учебного заведения и каждый из его дочерних элементов;</li>
-<li>Экспорт сводной информации... - позволяет экспортировать сводные данные об учебном заведении и его подразделениях;</li>
-<li>Экспорт всего... - позволяет экспортировать все сведения, хранящиеся в базе данных по учебному заведению;</li>
-<li>Экспорт всех учащихся - позволяет экспортировать карточки всех учащихся, имеющиеся в базе данных, за исключением архива.</li>
+<li><uicontrol>Edit school profile</uicontrol> _fixme_ [ui];</li>
+<li><uicontrol>Add subdivision</uicontrol>: add a subdivision to the school structure;</li>
+<li><uicontrol>Collapse</uicontrol>: collapse tree view;</li>
+<li><uicontrol>Expand all</uicontrol>: expand all tree branches;</li>
+<li><uicontrol>Export structure<uicontrol> _fixme_ [ui] : export school data and subdivision structure  (see _fixme_ [xref]);</li>
+<li><uicontrol>Export all</uicontrol>: export all school data with subdivisions and all students (see _fixme_ [xref]);</li>
+<li><uicontrol>Export all students<uicontrol>: export all active students (excluding archive)  (see _fixme_ [xref]).</li>
 </ul>
 </p>
 
 <p>
 <fig id="cmTableDepartment_png">
-    <title>Контекстное меню подразделения (в таблице)</title>
+    <title>Subdivision context menu in table view</title>
     <image href="img/cmTableDepartment.png" placement="break">
-      <alt>Контекстное меню подразделения (в таблице)</alt>
+      <alt>Subdivision context menu in table view</alt>
     </image>
 </fig>
 <ul>
-<li>Добавить учащегося - показывает диалог с карточкой учащегося в режиме добавления в выбранное подразделение;</li>
-<li>Редактировать подразделение - показывает диалог с карточкой подразделения в режиме редактирования;</li>
-<li>Удалить подразделение - показывает диалог подтверждения удаления подразделения и автоматического перемещения всех его учащихся в архив;</li>
-<li>Экспорт... - позволяет экспортировать данные о подразделении и каждом из его учащихся.</li>
+<li><uicontrol>Add student</uicontrol>: open student profile in addition mode (see _fixme_ [xref]);;</li>
+<li>Edit subdivision</uicontrol> _fixme_ [ui] : open <wintitle>Subdivision settings</wintitle> in editing mode (see _fixme_ [xref]);</li>
+<li>Remove subdivision</uicontrol>: removes subdivision with confirmation prompt and moves all students associated with it to the archive;</li>
+<li><uicontrol>Export</uicontrol>: export subdivsion data together with all associated students (see _fixme_ [xref]).</li>
 </ul>
 </p>
 
 <p>
 <fig id="cmTableStudent_png">
-    <title>Контекстное меню учащегося (в таблице)</title>
+    <title>Student context menu in table view</title>
     <image href="img/cmTableStudent.png" placement="break">
-      <alt>Контекстное меню учащегося (в таблице)</alt>
+      <alt>Student context menu in table view</alt>
     </image>
 </fig>
-Контекстное меню учащегося в табличном виде аналогично таковому в древовидном представлении
+Student context menu in table view is completely identical to the one in tree view.
 </p>
 
-<note type ="attention">Все типы экспорт осуществляются через контекстное меню выделенного элемента!</note>
+<note type ="attention">All types of data export are performed via the context menu of the selected element.</note>
 
   </section>
   </refbody>
