@@ -28,7 +28,7 @@ Working with the tree view:
 
 <li>Hover the mouse pointer on any branch (apart from the archive) to display a popup box with its proncipal properties.</li>
 
-<li>Right click on any branch to open its context menu. This can also be accomplished by pressing the context menu key on your keyboard (usually found between the right <userinput>Alt</userinput> and <userinput>Ctrl</userinput> or right <userinput>Win</userinput> and <userinput>Ctrl</userinput> keys.</li>
+<li>Right click on any branch to open its context menu (see _fixme_ [xref]). This can also be accomplished by pressing the context menu key on your keyboard.</li>
 
 <li>You can drag'n'drop (see <xref keyref="glossary"/>&#160;) student between the subdivisions to quickly move them.</li>
 
