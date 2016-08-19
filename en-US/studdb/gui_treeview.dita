@@ -22,25 +22,25 @@ The tree view panel occupies the left portion of <wintitle>Dialog Nibelung StudD
 Working with the tree view:
 
 <ul>
-<li>Click on any item in the tree to open its properties window. This acn also be accomplished by pressing <userinput>Enter</userinput> or <userinput>F2</userinput> on the keyboard when the element is selected.</li>
+<li>Click on any branch in the tree to open its properties window. This acn also be accomplished by pressing <userinput>Enter</userinput> or <userinput>F2</userinput> on the keyboard when the branch is selected.</li>
 
-<li>Press <userinput>Delete</userinput> on your keyboard to delete the element. You will be prompted for confirmation.</li>
+<li>Press <userinput>Delete</userinput> on your keyboard to delete the branch. You will be prompted for confirmation.</li>
 
-<li>Hover the mouse pointer on any element (apart from the archive) to display a popup box with its main properties.</li>
+<li>Hover the mouse pointer on any branch (apart from the archive) to display a popup box with its proncipal properties.</li>
 
-<li>Right click on any element to open its context menu. This can also be accomplished by pressing the context menu key on your keyboard (usually found between the right <userinput>Alt</userinput> and <userinput>Ctrl</userinput> or right <userinput>Win</userinput> and <userinput>Ctrl</userinput> keys.</li>
+<li>Right click on any branch to open its context menu. This can also be accomplished by pressing the context menu key on your keyboard (usually found between the right <userinput>Alt</userinput> and <userinput>Ctrl</userinput> or right <userinput>Win</userinput> and <userinput>Ctrl</userinput> keys.</li>
 
 <li>You can drag'n'drop (see <xref keyref="glossary"/>&#160;) student between the subdivisions to quickly move them.</li>
 
-<li>A triangle mark to the left of an element means that this element has a nested subtree (e.g. the school has subdivisions or a subdivision has students associated with them). Click on the triangle to open the subtree; click again to close it. You can also open and close subtrees using <userinput>Left</userinput> and <userinput>Right</userinput> keys on your keyboard once the element is selected.</li>
+<li>A triangle mark to the left of a branch means that this branch has a nested subtree (e.g. the school has subdivisions or a subdivision has students associated with them). Click on the triangle to open the subtree; click again to collapse the branch. You can also open and collapse branches using <userinput>Left</userinput> and <userinput>Right</userinput> keys on your keyboard once the branch is selected.</li>
 
-<li>Press <uicontrol>Esc</uicontrol> on your keyboard or <uicontrol>Cancel</uicontrol> button in any dialog to cancel it and return focus back to the tree view element. This allows to quickly view and edit student profiles and check which profile or subdivision was the last to be worked with.</li>
+<li>Press <uicontrol>Esc</uicontrol> on your keyboard or <uicontrol>Cancel</uicontrol> button in any dialog to cancel it and return focus back to the tree view branch. This allows to quickly view and edit student profiles and check which profile or subdivision was the last to be worked with.</li>
 
-<li>Use the <uicontrol>Up</uicontrol>, <uicontrol>Down</uicontrol>, <uicontrol>Home</uicontrol>, <uicontrol>End</uicontrol>, <uicontrol>PageUp</uicontrol> and <uicontrol>PageDown</uicontrol> on your keyboard to quickly navigate around the tree view. Use <userinput>Left</userinput> and <userinput>Right</userinput> keys to open and close the nested subtrees.</li>
+<li>Use the <uicontrol>Up</uicontrol>, <uicontrol>Down</uicontrol>, <uicontrol>Home</uicontrol>, <uicontrol>End</uicontrol>, <uicontrol>PageUp</uicontrol> and <uicontrol>PageDown</uicontrol> on your keyboard to quickly navigate around the tree view. Use <userinput>Left</userinput> and <userinput>Right</userinput> keys to show and collapse nested branches.</li>
 </ul>
 
 </p>        
 
-  </section>
-  </refbody>
+</section>
+</refbody>
 </reference>
