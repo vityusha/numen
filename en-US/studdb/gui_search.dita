@@ -2,41 +2,34 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
 "reference.dtd">
 
-<reference id="search" xml:lang="ru-RU">
+<reference id="search" xml:lang="en-US">
 
-  <title>Поиск</title>
+  <title>Search</title>
   <refbody>
   <section>
   
 <p>
-В программе <wintitle>Диалог Nibelung StudDB</wintitle> реализована фильтрация записей для их эффективного поиска. Фильтрация работает в двух режимах: по всем полям и по каждому полю.
+<wintitle>Dialog Nibelung StudDB</wintitle> provides two facilities for searching and filtering database records: on any field and on specific fields.</p>
 
 <fig id="filter_png">
-    <title>Фильтр по всем полям</title>
+    <title>Filter for search on any field</title>
     <image href="img/filter.png" placement="break">
-      <alt>Фильтр по всем полям</alt>
+      <alt>Filter for search on any field</alt>
     </image>
 </fig>
 
 <fig id="filterTable_png">
-    <title>Фильтр по каждому полю</title>
+    <title>Filter for search on specific fields</title>
     <image href="img/filterTable.png" placement="break">
-      <alt>Фильтр по каждому полю</alt>
+      <alt>Filter for search on specific fields</alt>
     </image>
 </fig>
 
-<ul>
+<p>By applying a filter on any field (_fixme_ [xref->fig]) you can search for the records containing specified string anywhere in the records. For example, by entering <userinput>John</userinput> as a filter you can search for all students that have 'John' as a given or middle name as well as those that have 'John' as a part of their family name (or even email address, for that matter), e.g. 'Johnson'.</p>
 
-  <li>В первом режиме поиск ведется <b>по всем полям</b> записей, отображаемых в данный момент в табличном виде. Например, после ввода в поле фильтра строки <userinput>"Влад"</userinput>, будут отображены учащиеся с именем "Владимир", отчеством "Владиславович" и так далее.
-  </li>
-
-  <li>Во втором режиме фильтр работает <b>по каждому полю</b>, позволяя производить избирательный поиск. Под заголовком каждого столбца имеется поле, ввод данных в которое будет оставлять в таблице только те записи, которые содержат данную строку в данном столбце.
-  </li>
+<p>By applying filters on specific field you can perform a more selective search, e.g. selecting only those students who specifically have 'John' as their given name or 'Johnson' as their family name.</p>
   
-</ul>
-</p>
-
-<note type="attention">Фильтр по всем полям и фильтр по каждому полю не работают одновременно</note>
+<note type="attention">You can not apply both any field filter and specific fields filter at the same time. You can, however, apply more than one specific field filter.</note>
 
 </section>
 </refbody>
