@@ -2,23 +2,24 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
 "reference.dtd">
 
-<reference id="statusbar" xml:lang="ru-RU">
+<reference id="statusbar" xml:lang="en-US">
 
-  <title>Статусная строка</title>
+  <title>Status bar</title>
   
   <refbody>
   
   <section>
-<p>Строка состояния расположена внизу главного окна программы и отображает следующую информацию: в левой части - имя пользователя в текущем сеансе. В правой части:
+<p>The status bar at the bottom of the <wintitle>Dialog Nibelung StudDB</wintitle> main window displays
   <ul>
-    <li>Общее количество подразделений в текущем элементе;</li>
-    <li>Общее количество учащихся в текущем элементе.</li>
+    <li>user name on the left;
+    <li>total number of subdivisions in the school, and</li>
+    <li>total number of students in selected branch, on the right.</li>
   </ul>
 
   <fig id="statusbar_png">
-    <title>Строка состояния</title>
+    <title>Status bar</title>
     <image href="img/statusbar.png" placement="break">
-      <alt>Строка состояния</alt>
+      <alt>Status bar</alt>
     </image>
   </fig>
 </p>
