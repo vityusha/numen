@@ -2,17 +2,17 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
 "reference.dtd">
 
-<reference id="shortcuts" xml:lang="ru-RU">
+<reference id="shortcuts" xml:lang="en-US">
 
-  <title>Клавиатурные сокращения</title>
+  <title>Keyboard shortcuts</title>
   <refbody>
   <section>
   
 <p>    
-Для большинства действий в программе <wintitle>Диалог Nibelung StudDB</wintitle> имеются клавиатурные сочетания.
+<wintitle>Dialog Nibelung StudDB</wintitle> provides keyboard shortcuts for all major functionality of the database management.
 </p>
 
-<p><uicontrol>Команды, работающие во всех режимах:</uicontrol></p>
+<p>Shortcuts available for all users:</p>
 
 <table frame="topbot">
           <tgroup cols="3">
@@ -23,9 +23,9 @@
           <thead>
           
             <row>
-              <entry colname="COLSPEC0" align="left">№</entry>
-              <entry colname="COLSPEC1" align="center">Команда</entry>
-              <entry colname="COLSPEC2" align="center">Сочетание клавиш</entry>
+              <entry colname="COLSPEC0" align="left">#</entry>
+              <entry colname="COLSPEC1" align="center">Function</entry>
+              <entry colname="COLSPEC2" align="center">Shortcut</entry>
             </row>
             
           </thead>
@@ -33,61 +33,61 @@
                 <tbody>
                     <row>
                         <entry>1</entry>
-                        <entry>Сохранить базу данных *</entry>
+                        <entry>Save database *</entry>
                         <entry align="center"><uicontrol><shortcut>Ctrl + S
                         </shortcut></uicontrol></entry>
                     </row>
                     <row>
                         <entry>2</entry>
-                        <entry>Завершить сеанс</entry>
+                        <entry>Logout</entry>
                         <entry align="center"><uicontrol><shortcut>Ctrl + L
                         </shortcut></uicontrol></entry>
                     </row>
                     <row>
                         <entry>3</entry>
-                        <entry>Выход</entry>
+                        <entry>Quit</entry>
                         <entry align="center"><uicontrol><shortcut>Alt + F4
                         </shortcut></uicontrol></entry>
                     </row>
                     <row>
                         <entry>4</entry>
-                        <entry>Добавить подразделение</entry>
+                        <entry>Add subdivision</entry>
                         <entry align="center"><uicontrol><shortcut>Ctrl + Alt + A
                         </shortcut></uicontrol></entry>
                     </row>
                     <row>
                         <entry>5</entry>
-                        <entry>Редактировать подразделение</entry>
+                        <entry>Edit subdivision</entry>
                         <entry align="center"><uicontrol><shortcut>Ctrl + Alt + E
                         </shortcut></uicontrol></entry>
                     </row>
                     <row>
                         <entry>6</entry>
-                        <entry>Удалить подразделение</entry>
+                        <entry>Remove subdivision</entry>
                         <entry align="center"><uicontrol><shortcut>Ctrl + Alt + D
                         </shortcut></uicontrol></entry>
                     </row>
                     <row>
                         <entry>7</entry>
-                        <entry>Добавить учащегося</entry>
+                        <entry>Add student</entry>
                         <entry align="center"><uicontrol><shortcut>Alt + A
                         </shortcut></uicontrol></entry>
                     </row>
                     <row>
                         <entry>8</entry>
-                        <entry>Редактировать данные учащегося</entry>
+                        <entry>Edit student profile</entry>
                         <entry align="center"><uicontrol><shortcut>Alt + E
                         </shortcut></uicontrol></entry>
                     </row>
                     <row>
                         <entry>9</entry>
-                        <entry>Удалить учащегося</entry>
+                        <entry>Archive student</entry>
                         <entry align="center"><uicontrol><shortcut>Alt + D
                         </shortcut></uicontrol></entry>
                     </row>
                     <row>
                         <entry>10</entry>
-                        <entry>Показать настоящее руководство</entry>
+                        <entry>Display this manual</entry>
                         <entry align="center"><uicontrol><shortcut>F1
                         </shortcut></uicontrol></entry>
                     </row>                                        
@@ -96,10 +96,10 @@
 </table>
 
 <p>
-* - команда доступна только в режиме резервирования.
+* - command only available in deferred save mode.
 </p>
 
-<p><uicontrol>Команды, работающие только в административном режиме:</uicontrol></p>
+<p>Shortcuts available to the administrator:</p>
 
 <table frame="topbot">
           <tgroup cols="3">
@@ -110,9 +110,9 @@
           <thead>
           
             <row>
-              <entry colname="COLSPEC0" align="left">№</entry>
-              <entry colname="COLSPEC1" align="center">Команда</entry>
-              <entry colname="COLSPEC2" align="center">Сочетание клавиш</entry>
+              <entry colname="COLSPEC0" align="left">#</entry>
+              <entry colname="COLSPEC1" align="center">Function</entry>
+              <entry colname="COLSPEC2" align="center">Shortcut</entry>
             </row>
             
           </thead>
@@ -120,31 +120,31 @@
                 <tbody>
                     <row>
                         <entry>1</entry>
-                        <entry>Создать базу данных</entry>
+                        <entry>Create database</entry>
                         <entry align="center"><uicontrol><shortcut>Ctrl + N
                         </shortcut></uicontrol></entry>
                     </row>
                     <row>
                         <entry>2</entry>
-                        <entry>Соединиться с базой данных</entry>
+                        <entry>Open database</entry>
                         <entry align="center"><uicontrol><shortcut>Ctrl + O
                         </shortcut></uicontrol></entry>
                     </row>
                     <row>
                         <entry>3</entry>
-                        <entry>Отсоединиться от базы данных</entry>
+                        <entry>Close database</entry>
                         <entry align="center"><uicontrol><shortcut>Ctrl + W
                         </shortcut></uicontrol></entry>
                     </row>
                     <row>
                         <entry>4</entry>
-                        <entry>Открыть диалог "Настройки программы"</entry>
+                        <entry>StudDB settings (see _fixme_ [xref])</entry>
                         <entry align="center"><uicontrol><shortcut>Ctrl + H
                         </shortcut></uicontrol></entry>
                     </row>
                     <row>
                         <entry>5</entry>
-                        <entry>Открыть диалог "Управление пользователями"</entry>
+                        <entry>User accounts management (see _fixme_ [xref])</entry>
                         <entry align="center"><uicontrol><shortcut>Ctrl + U
                         </shortcut></uicontrol></entry>
                     </row>
@@ -153,29 +153,29 @@
                 </tgroup>
 </table>
 
-<p><uicontrol>Команды, доступные только из контекстных меню:</uicontrol></p>
+<p>The following functions are only available via the context menus (see _fixme_ [xref]):</p>
 
 <ul>
-<li>Очистить архив;</li>
-<li>Свернуть (элемент древовидного представления);</li>
-<li>Раскрыть все (элемент древовидного представления);</li>
-<li>Правка учебного заведения;</li>
-<li>Восстановить учащегося;</li>
-<li>Удалить учащегося (из архива);</li>
-<li>Экспорт:
+<li>Clear archive;</li>
+<li>Collapse tree view branch;</li>
+<li>Expand all;</li>
+<li>Edit school profile;</li>
+<li>Restore student from the archive;</li>
+<li>Remove student from the archive;</li>
+<li>Export:
 <ul>
-<li>учебного заведения (все);</li>
-<li>учебного заведения (только учащиеся);</li>
-<li>учебного заведения (только сводная информация);</li>
-<li>всех учащихся;</li>
-<li>подразделения;</li>
-<li>учащегося;</li>
-<li>архива.</li>
+<li>all school data;</li>
+<li>all students in the school;</li>
+<li>school profile and structure;</li>
+<li>all students;</li>
+<li>subdivisions;</li>
+<li>individual student profile;</li>
+<li>archive.</li>
 </ul>
 </li>
 </ul>
 
-<note type="tip">Если команда в данный момент неприменима, то соответствующий элемент меню, панели инструментов и клавиатурное сочетание работать не будут</note>
+<note type="tip">Menu item, toolbar entry, or keyboard shortcut corresponding to a function will have no effect if this function is currently unavailable for any reason.</note>
     
   </section>
   </refbody>  
