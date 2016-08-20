@@ -2,41 +2,37 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
 "reference.dtd">
 
-<reference id="archive" xml:lang="ru-RU">
+<reference id="archive" xml:lang="en-US">
 
-  <title>Архив учащихся</title>
+  <title>Student archive</title>
   <refbody>
   <section>
   
 <p>
-В программе существуют два сравнительно независимых друг от друга хранилища учащихся:
-<ul>
-<li>Учебное заведение;</li>
-<li>Архив.</li>
-</ul>
+For every school <wintitle>Dialog Nibelung StudDB</wintitle> provides an archive for storage of inactive student profiles.
 </p>
 
 <fig id="archive_png">
-    <title>Архив учебного заведения</title>
+    <title>School archive</title>
     <image href="img/archive.png" placement="break">
-      <alt>Архив учебного заведения</alt>
+      <alt>School archive</alt>
     </image>
 </fig>
 
 <p>
-Любого учащегося возможно как поместить в архив, так и перевести (восстановить) из архива в любое из имеющихся подразделений. Также можно удалить учащегося из архива; при этом он удаляется из базы данных <b>окончательно</b>. Архив возможно очистить целиком, выбрав пункт контекстного меню <uicontrol>Очистить архив</uicontrol>.
+Any student can be placed in the archive at any time. Students can be restored from the archive to any active school subdivision. You can also remove student profiles from the archive, which leads to student data being permanently and unrecoverably deleted. You can also remove all student data from the archive at once by selecting <uicontrol>Clear archive</uicontrol> from the context menu.
 </p>
 
 <fig id="msgDeleteUserRequest.png_png">
-    <title>Запрос на окончательное удаление</title>
+    <title>Prompt for removal from archive confirmation</title>
     <image href="img/msgDeleteUserRequest.png" placement="break">
-      <alt>Запрос на окончательное удаление</alt>
+      <alt>Prompt for removal from archive confirmation</alt>
     </image>
 </fig>
 
-<note type="important">При удалении подразделения все его учащиеся автоматически помещаются в архив</note>
+<note type="important">When a subdivision is removed, all student profiles associated with this subdivision are placed in the archive.</note>
    
-  </section>
-  </refbody>
+</section>
+</refbody>
   
 </reference>
