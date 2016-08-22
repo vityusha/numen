@@ -50,7 +50,7 @@ The context menu for an element can be called up by right clicking on this eleme
 </fig>
 <ul>
 <li><uicontrol>Restore</uicontrol>: restore the student profile from the archive to the specified subdivision;</li>
-<li><uicontrol>Remove<uicontrol>: remove profile from the archive and delete all profile data.</li>
+<li><uicontrol>Remove</uicontrol>: remove profile from the archive and delete all profile data.</li>
 </ul>
 </p>
 
