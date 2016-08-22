@@ -97,9 +97,9 @@ The context menu for an element can be called up by right clicking on this eleme
 <li><uicontrol>Add subdivision</uicontrol>: add a subdivision to the school structure;</li>
 <li><uicontrol>Collapse</uicontrol>: collapse tree view;</li>
 <li><uicontrol>Expand all</uicontrol>: expand all tree branches;</li>
-<li><uicontrol>Export structure<uicontrol> _fixme_ [ui] : export school data and subdivision structure  (see _fixme_ [xref]);</li>
+<li><uicontrol>Export structure</uicontrol> _fixme_ [ui] : export school data and subdivision structure  (see _fixme_ [xref]);</li>
 <li><uicontrol>Export all</uicontrol>: export all school data with subdivisions and all active students (see _fixme_ [xref]);</li>
-<li><uicontrol>Export all students<uicontrol>: export all active students (excluding archive)  (see _fixme_ [xref]).</li>
+<li><uicontrol>Export all students</uicontrol>: export all active students (excluding archive)  (see _fixme_ [xref]).</li>
 </ul>
 </p>
 
@@ -112,8 +112,8 @@ The context menu for an element can be called up by right clicking on this eleme
 </fig>
 <ul>
 <li><uicontrol>Add student</uicontrol>: open student profile in addition mode (see _fixme_ [xref]);;</li>
-<li>Edit subdivision</uicontrol> _fixme_ [ui] : open <wintitle>Subdivision settings</wintitle> in editing mode (see _fixme_ [xref]);</li>
-<li>Remove subdivision</uicontrol>: removes subdivision with confirmation prompt and moves all students associated with it to the archive;</li>
+<li><uicontrol>Edit subdivision</uicontrol> _fixme_ [ui] : open <wintitle>Subdivision settings</wintitle> in editing mode (see _fixme_ [xref]);</li>
+<li><uicontrol>Remove subdivision</uicontrol>: removes subdivision with confirmation prompt and moves all students associated with it to the archive;</li>
 <li><uicontrol>Export</uicontrol>: export subdivision data together with all associated students (see _fixme_ [xref]).</li>
 </ul>
 </p>
