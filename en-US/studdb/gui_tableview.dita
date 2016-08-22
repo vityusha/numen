@@ -38,6 +38,7 @@
 The table view allows you to:
 <ul>
 <li>sort the tables on any column by simply clicking on that column header (<xref keyref="table/tableHeadersSelected_png" type="fig"/>&#160;);</li>
+<li>subsequent clicks on column header reverse the sort order (ascending to descending and vice versa);</li>
 <li>double click on any row to edit it;</li>
 <li>context menus (_fixme_ [xref] are available for every row of the table;</li>
 <li>full text search on all fields using filter tool in the toolbar (see <xref keyref="toolbar"/>&#160;);</li>
