@@ -2,34 +2,29 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
 "reference.dtd">
 
-<reference id="class_remove" xml:lang="ru-RU">
+<reference id="class_remove" xml:lang="en-US">
 
-  <title>Удаление подразделения</title>
+  <title>Remove subdivision</title>
   
 <refbody>
 <section>
 
 <p>
-Для удаления существующего подразделения выполните любое из нижеуказанных действий для выделенного подразделения:
+A subdivision can be removed from the school structure by using either one of the following methods:
 <ul>
-<li>Выберите пункт меню <menucascade><uicontrol>Подразделение</uicontrol><uicontrol>Удалить подразделение</uicontrol></menucascade>;</li>
-<li>Нажмите кнопку <uicontrol>Удалить подразделение</uicontrol> на панели инструментов;</li>
-<li>Выберите соответствующий пункт контекстного меню подразделения в древовидном или табличном просмотре;</li>
-<li>Нажмите сочетание клавиш <uicontrol><shortcut>Ctrl + Alt + D</shortcut></uicontrol>.</li>
+<li>Select <menucascade><uicontrol>Subdivision</uicontrol><uicontrol>Delete</uicontrol></menucascade> from the main menu.</li>
+<li>Press the <uicontrol>Delete subdivision</uicontrol> button on the toolbar.</li>
+<li>Select appropriate item from the subdivision context menu in either tree or panel view.</li>
+<li>Use the <uicontrol><shortcut>Ctrl + Alt + D</shortcut></uicontrol> keyboard shortcut.</li>
 </ul>
 </p>
 
-<p>
-В зависимости от сделанной команды появится диалог (см. <xref keyref="class_add/dlgDepartment_png" type="fig"/>&#160;) в режиме удаления, либо информационный запрос, содержащий данные об удаляемом подразделении.
-</p>
+<p>A subdivision window in delete mode (see <xref keyref="class_add/dlgDepartment_png" type="fig"/>&#160;) or a confirmation prompt will appear to the right of the tree view panel, depending on the invocation method. Confirm or cancel the operation.
+ </p>
 
-<p>
-Подтвердите или отмените операцию удаления.
-</p>
+<note type="important">Once deleted, the subdivisions are lost forever. Associated students, however, will be filed in the archive. You can restore students from the archive to another subdivision, or clean the archive manually.</note>
 
-<note type="important">Подразделение при удалении удаляется безвозвратно, но его учащиеся помещаются в архив. При необходимости этих учащихся можно восстановить из архива, переведя в нужное подразделение, или удалить из базы данных окончательно.</note>
-
-<note type="tip">В режиме работы программы <wintitle>Диалог Nibelung StudDB</wintitle> с резервированием (п. <xref keyref="dbmodes"/>&#160;) фактическое применение всех операций происходит только после выполнения команды <b>Сохранить базу данных</b> либо после выполнения программой команды <b>автоматического сохранения</b> (если включен соответствующий пункт настроек (см. <xref keyref="winoptions"/>&#160;).</note>
+<note type="tip">When <wintitle>Dialog Nibelung StudDB</wintitle> is running in the deferred write mode (see <xref keyref="dbmodes"/>&#160;) the operations are actually performed only when <uicontrol>Save database</uicontrol> function is invoked, or the <uicontrol>autosave</uicontrol> option is activated in database settings (see <xref keyref="winoptions"/>&#160;).</note>
 
 </section>
 </refbody>
