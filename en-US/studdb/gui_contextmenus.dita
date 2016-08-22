@@ -35,7 +35,7 @@ The context menu for an element can be called up by right clicking on this eleme
 </fig>
 <ul>
 <li><uicontrol>Collapse all</uicontrol> _fixme_ [ui] : collapse all branches in the archive;</li>
-<li><uicontrol>Clear archive</uicontrol>: clear all reacords from the archive;</li>
+<li><uicontrol>Clear archive</uicontrol>: clear all records from the archive;</li>
 <li><uicontrol>Export</uicontrol>: export contents of the archive.</li>
 </ul>
 <note type ="important">Clearing the archive permanently deletes all records. This is a destructive operation that can not be undone, nor the records be recovered.</note>
@@ -81,7 +81,7 @@ The context menu for an element can be called up by right clicking on this eleme
 <li><uicontrol>Remove subdivision</uicontrol>: removes subdivision with confirmation prompt and moves all students associated with it to the archive;</li>
 <li><uicontrol>Collapse</uicontrol>: collapse subdivision branch in tree view;</li>
 <li><uicontrol>Expand all</uicontrol>: expand subdivision branch in tree view;</li>
-<li><uicontrol>Export</uicontrol>: export subdivsion data together with all associated students (see _fixme_ [xref]).</li>
+<li><uicontrol>Export</uicontrol>: export subdivision data together with all associated students (see _fixme_ [xref]).</li>
 </ul>
 </p>
 
@@ -98,7 +98,7 @@ The context menu for an element can be called up by right clicking on this eleme
 <li><uicontrol>Collapse</uicontrol>: collapse tree view;</li>
 <li><uicontrol>Expand all</uicontrol>: expand all tree branches;</li>
 <li><uicontrol>Export structure<uicontrol> _fixme_ [ui] : export school data and subdivision structure  (see _fixme_ [xref]);</li>
-<li><uicontrol>Export all</uicontrol>: export all school data with subdivisions and all students (see _fixme_ [xref]);</li>
+<li><uicontrol>Export all</uicontrol>: export all school data with subdivisions and all active students (see _fixme_ [xref]);</li>
 <li><uicontrol>Export all students<uicontrol>: export all active students (excluding archive)  (see _fixme_ [xref]).</li>
 </ul>
 </p>
@@ -114,7 +114,7 @@ The context menu for an element can be called up by right clicking on this eleme
 <li><uicontrol>Add student</uicontrol>: open student profile in addition mode (see _fixme_ [xref]);;</li>
 <li>Edit subdivision</uicontrol> _fixme_ [ui] : open <wintitle>Subdivision settings</wintitle> in editing mode (see _fixme_ [xref]);</li>
 <li>Remove subdivision</uicontrol>: removes subdivision with confirmation prompt and moves all students associated with it to the archive;</li>
-<li><uicontrol>Export</uicontrol>: export subdivsion data together with all associated students (see _fixme_ [xref]).</li>
+<li><uicontrol>Export</uicontrol>: export subdivision data together with all associated students (see _fixme_ [xref]).</li>
 </ul>
 </p>
 
