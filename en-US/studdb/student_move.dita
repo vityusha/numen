@@ -2,16 +2,16 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
 "reference.dtd">
 
-<reference id="student_move" xml:lang="ru-RU">
-  <title>Перевод учащегося</title>
+<reference id="student_move" xml:lang="en-US">
+  <title>Moving students</title>
   <refbody>
   <section>
   
 <p>
-Для перевода учащегося в другое подразделение можно поступить двумя способами:
+You can move student profile to another subdivision by either of the two methods:
 <ul>
-<li>Вызвать карточку учащегося (см. <xref keyref="winstudent"/>&#160;) и указать в ниспадающем списке целевое подразделение;</li>
-<li>Находясь в области древовидного представления, "перетащить" учащегося методом drug'n'drop (см. <xref keyref="glossary"/>&#160;) в целевое подразделение.</li>
+<li>Edit student profile (see <xref keyref="winstudent"/>&#160;) and select a different subdivision from the drop-down list.</li>
+<li>Drug and drop (<xref keyref="glossary"/>&#160;) a student to a different subdivision branch in the tree view panel.</li>
 </ul>
 </p>        
 
