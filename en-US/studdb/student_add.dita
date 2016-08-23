@@ -2,35 +2,34 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
 "reference.dtd">
 
-<reference id="student_add" xml:lang="ru-RU">
-  <title>Добавление учащегося</title>
+<reference id="student_add" xml:lang="en-US">
+  <title>Adding students</title>
   <refbody>
   <section>
   
 <p>
-Для добавления в подразделение нового учащегося выполните любое из нижеуказанных действий:
+A student profile can be added to a student body subdivision by any of the following methods:
 <ul>
-  <li>Выберите пункт меню <menucascade><uicontrol>Учащийся</uicontrol><uicontrol>Добавить учащегося</uicontrol></menucascade>;</li>
-  <li>Нажмите кнопку <uicontrol>Добавить учащегося</uicontrol> на панели инструментов;</li>
-  <li>Выберите соответствующий пункт контекстного меню подразделения или учебного заведения;</li>
-  <li>Нажмите кнопку <uicontrol>Добавить</uicontrol> (см. <xref keyref="addprompt"/>&#160;) в случае отсутствия учащихся в созданном ранее подразделении;</li>
-  <li>Нажмите сочетание клавиш <uicontrol><shortcut>Alt + A</shortcut></uicontrol>.</li>
+  <li>Select <menucascade><uicontrol>Student</uicontrol><uicontrol>Add</uicontrol></menucascade>.</li>
+  <li>Press <uicontrol>Add student</uicontrol> button on the toolbar.</li>
+  <li>Select <uicontrol>Add student</uicontrol> item from either school or subdivision context menu.</li>
+  <li>Press the <uicontrol>Add</uicontrol> button in the properties panel of a newly created subdivision (<xref keyref="addprompt"/>&#160;).</li>
+  <li>Use the <uicontrol><shortcut>Alt + A</shortcut></uicontrol> keyboard shortcut.</li>
 </ul>
 </p>
 
 <p>
-Справа от области древовидного просмотра (п. <xref keyref="tree"/>&#160;) появится диалог (см. <xref keyref="winstudent"/>&#160;) в режиме <b>добавления новой записи</b>.
+A student profile window (<xref keyref="winstudent"/>&#160;) will appear to the right of the tree view panel (see <xref keyref="tree"/>&#160;).
 </p>
 
 <p>
-Для выполнения команды добавления нажмите кнопку <b>Добавить</b> или клавишу <uicontrol><shortcut>Enter</shortcut></uicontrol>. Для отмены нажмите кнопку <b>Отмена</b> или клавишу <uicontrol><shortcut>Esc</shortcut></uicontrol>.
+Press the <uicontrol>Add</uicontrol> button or <uicontrol><shortcut>Enter</shortcut></uicontrol> to perform the action. Press <uicontrol>Cancel</uicontrol> or <uicontrol><shortcut>Esc</shortcut></uicontrol> to cancel it.
 </p>
 
-<note type="important">Программа не даст добавить учащегося, если в базе данных уже существует учащийся с таким же номером карточки. Возможно, в этом случае Вам не нужно добавлять учащегося, т.к. он уже был добавлен ранее. Если же речь идет о другом учащемся, то существуют такие варианты дальнейших действий:
+<note type="important">Active student IDs must be unique and the software will not let you add a profile with duplicate student ID. If you are absolutely sure you need to assign an already existing student ID to a new student, your only options are:
 <ul>
-  <li>изменить номер карточки создаваемого учащегося;</li>
-  <li>перед созданием нового учащегося изменить номер карточки у уже существующего в базе учащегося;</li>
-  <li>поместить учащегося с таким же номером карточки в архив.</li>
+  <li>change student ID for the already existing student profile;</li>
+  <li>deactivate existing student profile by moving it to the archive.</li>
 </ul>
 </note>
 
