@@ -2,31 +2,31 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
 "reference.dtd">
 
-<reference id="faq_install" xml:lang="ru-RU">
+<reference id="faq_install" xml:lang="en-US">
 
-  <title>Установка и настройка</title>
+  <title>Installation and setup</title>
   
   <refbody>
   
     <section>
-        <title>Какие могут возникнуть трудности при установке и настройке программы?</title>
-        <p>Перед началом установки программы <wintitle>Диалог Nibelung StudDB</wintitle> рекомендуем ознакомиться со следующим разделом: <xref keyref="install_notes"/>&#160;.</p>
+        <title>Any difficulties that can be expected during installation and setup of <wintitle>Dialog Nibelung StudDB</wintitle>?</title>
+        <p>We strongly recommend to read section <xref keyref="install_notes"/>&#160; before starting <wintitle>Dialog Nibelung StudDB</wintitle> installation.</p>
     </section>
 
     <section>
-        <title>Какое имя и пароль преподавателя по умолчанию?</title>
-        <p>По умолчанию имя преподавателя: <userinput>Admin</userinput>, пароль: <userinput>Admin</userinput>.</p>
+        <title>What if the default user name and password?</title>
+        <p>Default user name: <userinput>Admin</userinput>, password: <userinput>Admin</userinput>.</p>
     </section>
 
     <section>
-        <title>Где находятся настройки программы?</title>
-        <p>Для вызова диалога с настройками необходимо зайти в программу в режиме администратора. Диалог можно вызвать сочетанием клавиш
-        <uicontrol><shortcut>Ctrl</shortcut></uicontrol>+<uicontrol><shortcut>H</shortcut></uicontrol> или выбрать соответствующий пункт меню или кнопку панели инструментов</p>
+        <title>How can I change global <wintitle>Dialog Nibelung StudDB</wintitle> settings?</title>
+        <p>Log into <wintitle>Dialog Nibelung StudDB</wintitle> as administrator. Select <menucascade><uicontrol>File</uicontrol><uicontrol>Settings</uicontrol></menucascade> from the main menu or use 
+        <uicontrol><shortcut>Ctrl</shortcut></uicontrol>+<uicontrol><shortcut>H</shortcut></uicontrol> keyboard shortcut to access the settings window.</p>
     </section>
 
     <section>
-        <title>Как запустить программу в режиме администратора?</title>
-        <p>Для этого достаточно войти в программу под именем <b>Admin</b></p>
+        <title>What is administrator's user name?</title>
+        <p>The system administrator user name is <userinput>Admin</userinput></p>
     </section>
     
   </refbody>
