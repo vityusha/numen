@@ -2,46 +2,46 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
 "reference.dtd">
 
-<reference id="export" xml:lang="ru-RU">
+<reference id="export" xml:lang="en-US">
 
-  <title>Экспорт</title>
+  <title>Export</title>
   
   <refbody>
   
     <section>
 <p>
-Программа <wintitle>Диалог Nibelung StudDB</wintitle> позволяет экспортировать:
+<wintitle>Dialog Nibelung StudDB</wintitle> allows you to export:
 <ul>
-<li>карточку одного учащегося;</li>
-<li>подразделение вместе со всеми его учащимися;</li>
-<li>учебное заведение (сводная информация);</li>
-<li>учебное заведения (полная информация);</li>
-<li>всех учащихся, расположенных в архиве;</li>
-<li>всех учащихся учебного заведения.</li>
+<li>individual student profiles;</li>
+<li>subdivision with all associated students;</li>
+<li>school (brief report);</li>
+<li>school (detailed report);</li>
+<li>archive contents;</li>
+<li>all active school students.</li>
 </ul>
 </p>
 
 <p>
-Экспорт реализован в форматы csv, txt и html (см. <xref keyref="glossary"/>&#160;).
-<note type="tip">При экспорте учащихся (единичная карточка или набор учащихся) в формат html экспортируются также их фотографии. Они находятся в каталоге, расположенном там же, где и html файл экспорта и названном так же, однако имеющем приставку <userinput>_files</userinput> в конце имени</note>
+Supported export formats are CSV (comma separated values), TXT (plain text), and HTML (<xref keyref="glossary"/>&#160; _fixme_ [invalid xref] ).
+<note type="tip">Profile images are exported along with other profile data when exporting student profiles into HTML. The images will be stored in a folder located in the same directory as the export file and having the same name with addition of <userinput>_files _fixme_ [markup]</userinput> suffix.</note>
 </p>
 
 <p>
-Чтобы выполнить экспорт, вызовите контекстное меню учебного заведения, подразделения, архива или единичного учащегося и выберите пункт <b>Экспорт</b>. В появившемся диалоге выберите:
+All <uicontrol>Export</uicontrol> operation are performed from the corresponding context menus (_fixme_ [xref]). A <wintitle>save as</wintitle> window will appear, where you can specify:
 <ul>
-  <li>формат экспортируемых данных;</li>
-  <li>каталог, куда будет произведен экспорт;</li>
-  <li>имя файла для экспорта.</li>
+  <li>export format;</li>
+  <li>path;</li>
+  <li>filename.</li>
 </ul>
 
 <fig id="dlgExportExample_png">
-    <title>Пример диалога экспорта</title>
+    <title>Export parameters</title>
     <image href="img/dlgExportExample.png" placement="break">
-      <alt>Пример диалога экспорта</alt>
+      <alt>Export parameters</alt>
     </image>
 </fig>
 
-<note type="tip">При отсутствии расширения у экспортируемого файла программа добавит его самостоятельно</note>
+<note type="tip">If the filename is missing extension, it will be added automatically depending on the export format.</note>
 </p>        
 
     </section>
