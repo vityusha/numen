@@ -2,40 +2,34 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
 "reference.dtd">
 
-<reference id="student_edit" xml:lang="ru-RU">
-  <title>Редактирование данных учащегося</title>
+<reference id="student_edit" xml:lang="en-US">
+  <title>Editing student profiles</title>
   <refbody>
     <section>
 
       <p>
-        Для редактирования существующего учащегося выполните любое из нижеуказанных действий для выделенного учащегося:
+        Student profile can be edited by any of the following methods:
         <ul>
-          <li>Выберите пункт меню <menucascade>
-              <uicontrol>Учащийся</uicontrol>
-              <uicontrol>Редактировать учащегося</uicontrol>
-            </menucascade>;</li>
-          <li>Нажмите кнопку <uicontrol>Редактировать учащегося</uicontrol> на панели инструментов;</li>
-          <li>Выберите соответствующий пункт контекстного меню учащегося в древовидном или табличном просмотре;</li>
-          <li>Нажмите сочетание клавиш <uicontrol>
-              <shortcut>Alt + E</shortcut>
-            </uicontrol>;</li>
-          <li>Выделив учащегося в области древовидного просмотра, нажмите клавишу <uicontrol>
+          <li>Select <menucascade>
+              <uicontrol>Student</uicontrol>
+              <uicontrol>Edit</uicontrol>
+            </menucascade> from the main menu.</li>
+          <li>Press the <uicontrol>Edit student profile</uicontrol> button on the toolbar.</li>
+          <li>Select <uicontrol>Edit</uicontrol> item from the student context menu in either tree or table view.</li>
+          <li>Use the <uicontrol><shortcut>Alt + E</shortcut></uicontrol> keyboard shortcut.</li>
+          <li>Select a student in the tree view panel and press either <uicontrol>
               <shortcut>Enter</shortcut>
-            </uicontrol> или <uicontrol>
+            </uicontrol> or <uicontrol>
               <shortcut>F2</shortcut>
             </uicontrol>.</li>
         </ul>
       </p>
 
       <p>
-Справа от области древовидного просмотра появится диалог (см. <xref keyref="winstudent"/>&#160;) в режиме <b>редактирования существующей записи</b>.
+A student profile editing window (<xref keyref="winstudent"/>&#160;) will appear to the right of the tree view panel.
       </p>
 
-      <p>
-Для выполнения команды изменения нажмите кнопку <b>Изменить</b> или клавишу <uicontrol>
-          <shortcut>Enter</shortcut></uicontrol>. Для отмены нажмите кнопку <b>Отмена</b> или клавишу <uicontrol>
-          <shortcut>Esc</shortcut>
-        </uicontrol>.
+      <p>Press the <uicontrol>Add</uicontrol> button or <uicontrol><shortcut>Enter</shortcut></uicontrol> to perform the action. Press <uicontrol>Cancel</uicontrol> or <uicontrol><shortcut>Esc</shortcut></uicontrol> to cancel it.
       </p>
 
     </section>
