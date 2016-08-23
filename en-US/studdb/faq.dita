@@ -2,14 +2,14 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
 "reference.dtd">
 
-<reference id="faq" xml:lang="ru-RU">
+<reference id="faq" xml:lang="en-US">
 
-  <title>Требования к системному программному обеспечению</title>
+  <title>Software prerequisites</title>
   <refbody>
   <section>
     
-        <title>В каких операционных системах работает программа Диалог Nibelung StudDB?</title>
-        <p>Программа <wintitle>Диалог Nibelung StudDB</wintitle> работает во всех операционных системах, в которых возможна установка .NET Framework 4.0, а именно:
+        <title>What operating systems <wintitle>Dialog Nibelung StudDB</wintitle> is compatible with?</title>
+        <p>Any version of Windows that supports installation of .NET Framework 4.0:
         <ul>
             <li>Microsoft Windows XP</li>
             <li>Microsoft Windows Vista</li>
