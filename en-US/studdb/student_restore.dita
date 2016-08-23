@@ -2,16 +2,16 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
 "reference.dtd">
 
-<reference id="student_restore" xml:lang="ru-RU">
-  <title>Восстановление учащегося из архива</title>
+<reference id="student_restore" xml:lang="en-US">
+  <title>Restoring students from the archive</title>
   <refbody>
   <section>
     
 <p>
-Для восстановления учащегося из архива можно поступить следующими способами:
+You can restore student profile from the archive by any of the following methods:
 <ul>
-<li>выбрать пункт "Восстановить" контекстного меню учащегося, находящегося в архиве. Это можно сделать как в табличном виде, так и в области древовидного просмотра. Появится диалог, в котором можно будет указать целевое подразделение (т.е. то, в которое будет восстановлен учащийся);</li>
-<li>в области древовидного представления "перетащить" учащегося методом drag'n'drop (см. <xref keyref="glossary"/>&#160;) в целевое подразделение.</li>
+<li>Select <uicontrol>Restore</uicontrol> from the context menu of an archived student and assign a subdivision in the window that will appear. This can be performed from either tree or table view.</li>
+<li>In the tree view panel, drag and drop (<xref keyref="glossary"/>&#160;) a student profile from the archive to a subdivision.</li>
 </ul>
 </p>
 
