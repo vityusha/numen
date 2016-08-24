@@ -2,37 +2,35 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
 "reference.dtd">
 
-<reference id="tips" xml:lang="ru-RU">
-  <title>Советы по работе с программой</title>
+<reference id="tips" xml:lang="en-US">
+  <title>Tips and tricks</title>
   <refbody>
   <section>
 
 <ul>
-<li>Начните с создания нужных подразделений, затем добавляйте в них учащихся;</li>
+<li>Start with defining student body structure, then create subdivisions, then add students to them.</li>
 
-<li>Свойства выбранных в области древовидного представления можно посмотреть и изменить, нажав клавишу <uicontrol><shortcut>F2</shortcut></uicontrol>;</li>
+<li>You can view and edit items selected in the tree view panel by pressing <uicontrol><shortcut>F2</shortcut></uicontrol>key.</li>
 
-<li>Навигация по всему окну программы, а также по области древовидного представления, табличному виду и внутренним диалогам возможны как с помощью мышки, так и с помощью клавиатуры. Для навигации используются стандартные клавиатурные сочетания: <uicontrol><shortcut>Tab</shortcut></uicontrol>, <uicontrol><shortcut>Ctrl + Tab</shortcut></uicontrol>, стрелки <b>влево</b>, <b>вправо</b>, <b>вверх</b> и <b>вниз</b>. Эти клавиши используются как в области древовидного просмотра, так и в табличном виде и во всех диалогах и окнах программы;</li>
+<li>Navigate user interface with the help of your keyboard as well as mouse: use <uicontrol><shortcut>Tab</shortcut></uicontrol>, <uicontrol><shortcut>Ctrl + Tab</shortcut></uicontrol> and arrow keys on your keyboard. These shortcuts work in both tree and table view panels and all other windows.</li>
 
-<li>При наведении мышки на элемент в области древовидного просмотра будет показана карточка с основной информацией о нем;</li>
+<li>Hover the mouse pointer over an item in the tree view and a popup box will display a summary of this element.</li>
 
-<li>При необходимости можно изменить ширину области древовидного просмотра и навигации с помощью разделителя, расположенного справа от нее. При наведении на эту область мышкой появляется курсор, сигнализирующий о возможности изменения ширины области. Нажмите левую кнопку мыши и начните перемещение в нужную Вам сторону;</li>
+<li>Drag the separator between tree view and table view panels to change their proportion in the main window.</li>
 
-<li>У каждого элемента как в области древовидного просмотра, так и в табличном виде, имеется контекстное меню, которое можно вызвать правой кнопкой мыши или стандартной клавишей клавиатуры "контекстное меню";</li>
+<li>Every item in both the tree view and table view panels has a context menu which can be accesses by right clicking on the item or pressing the context menu key on your keyboard (see _fixme_ [xref->context menus] for more details).</li>
 
-<li>При вызове контекстного меню для произвольного (т.е., в общем случае - невыделенного) элемента он выделяется автоматически и любой пункт контекстного меню будет применяться к этому элементу;</li>
+<li><menucascade><uicontrol>File</uicontrol><uicontrol>Save database</uicontrol></menucascade> menu item along with the corresponding button on the toolbar becomes available whenever <wintitle>StudDB</wintitle> is running in deferred save mode (see <xref keyref="dbmodes"/>&#160;). In this case any database updates will only be saved to disk after this menu item is selected or toolbar button is pressed. The software will prompt to save any pending updates during logout. The database will be saved automatically in specified intervals if the <uicontrol>Autosave</uicontrol> option is checked in the settings (see _fixme_ [xref]).</li>
 
-<li>Если программа работает в режиме с резервированием (см. <xref keyref="dbmodes"/>&#160;), появляется соответствующая кнопка на панели инструментов и пункт меню <menucascade><uicontrol>Файл</uicontrol><uicontrol>Сохранить базу данных</uicontrol></menucascade>. В этом случае все изменения в базе данных будут зафиксированы <b>только после нажатия этого пункта меню</b> (или кнопки "Сохранить"). При выходе из программы или завершении сеанса работы программа предложит сохранить изменения. При включенном режиме <b>автосохранения</b> резервная база данных будет автоматически записываться в основную каждые несколько минут согласно заданному интервалу);</li>
+<li>Use keyboard arrow keys to quickly fill the <uicontrol>Date of birth</uicontrol> field in the student profile.</li>
 
-<li>Для быстрой установки даты рождения в карточке учащегося можно использовать стрелки клавиатуры;</li>
+<li>Drag and drop columns in the table view panel to change their display order.</li>
 
-<li>В области табличного просмотра можно поменять порядок столбцов, просто перетащив их мышкой;</li>
+<li>Drag and drop students in the tree view panel to quickly move them between subdivisions and to/from the archive. Target branch will become highlighted and moved element will be appended to the end of its list.</li>
 
-<li>Для быстрого перевода учащихся, их удаления или восстановления, используйте <b>drag'n'drop</b> (см. <xref keyref="glossary"/>&#160;). Целевое подразделение будет подсвечено, а перемещенный элемент окажется в конце древовидного представления соответствующего подразделения;</li>
+<li>Use <uicontrol>Show all students</uicontrol> toolbar button to search for a student for whom you are not sure about associated subdivision, but know some other data (e.g. name or date of birth).</li>
 
-<li>Используйте режим показа всех учащихся для поиска учащегося, подразделение которого Вам точно неизвестно, но о котором известны некоторые данные (например, фамилия или дата рождения);</li>
-
-<li>Для быстрой ревизии базы данных экспортируйте целиком учебное заведение, подразделение или список учащихся в формат <b>html</b>. Так Вы сможете быстрее найти учащихся, узнав их по фотографии, а также использовать во всей полноте средства поиска, встроенные в любой современный браузер.</li>
+<li>Export student list for a subdivision or even the whole school to HTML format (see _fixme_ [xref]) for at a glance overview. This might also be helpful if you need to find students by their images.</li>
 
 </ul>
   </section>
