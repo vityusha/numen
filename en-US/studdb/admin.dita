@@ -2,60 +2,61 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
 "reference.dtd">
 
-<reference id="admin" xml:lang="ru-RU">
+<reference id="admin" xml:lang="en-US">
 
-  <title>Системному администратору</title>
+  <title>System administration</title>
   
   <refbody>
   
     <section>
+
+    <p>This section is intended for the school system administrator.</p>
+
 <p>
-В программе <wintitle>Диалог Nibelung StudDB</wintitle> существует разграничение пользователей по уровню доступа. После установки существует единственная учетная запись <userinput>Admin</userinput> с паролем по умолчанию <userinput>Admin</userinput>.
-Для настройки зайдите в программу, введя <uicontrol>пароль администратора</uicontrol>. После этого можно производить следующие действия:
-</p>
+<wintitle>Dialog Nibelung StudDB</wintitle> grants different privileges to different users. Upon successful installation one privileged user account will be created automatically: <userinput>Admin</userinput> with default password <userinput>Admin</userinput>. Immediately log into this account and change the password.</p>
+
+<p>The following action are reserved for the user with administration privileges:</p>
 
 <ul>
-<li>С помощью диалога управления пользователями (п. <xref keyref="winusers"/>&#160;):
+<li>User accounts management (<xref keyref="winusers"/>&#160;):
 <ul>
-<li>добавление пользователя;</li>
-<li>изменения пароля пользователя;</li>
-<li>удаление пользователя.</li>
+<li>adding users;</li>
+<li>changing passwords of other users;</li>
+<li>removing users.</li>
 </ul>
 </li>
 
-<li>Создание новой базы данных StudDB;</li>
-<li>Подключение к произвольной базе данных StudDB;</li>
-<li>С помощью диалога настроек программы (п. <xref keyref="winoptions"/>&#160;):
+<li>Creating new databases.</li>
+<li>Opening new databases.</li>
+<li>Changing StudDB settings (<xref keyref="winoptions"/>&#160;):
 <ul>
-<li>Изменение языка интерфейса программы;</li>
-<li>Установка базы данных, с которой будут работать пользователи;</li>
-<li>Задание контактных данных для связи пользователей с администратором;</li>
-<li>Управление режимом запроса подтверждений при удалении;</li>
-<li>Управление режимом резервирования базы данных;</li>
-<li>Управление режимом автоматического сохранения и его интервалом.</li>
+<li>default user interface language;</li>
+<li>database for use by unprivileged users;</li>
+<li>system administrator contact information;</li>
+<li>confirmation prompt when deleting any information;</li>
+<li>deferral update mode;</li>
+<li>autosave mode.</li>
 </ul>
 </li>
 </ul>
-<note type="tip">Задайте данные для связи в настройках, чтобы пользователи в случае забытого пароля или иных проблем не оставались один на один со своей проблемой.</note>
+<note type="tip">It is always a good idea to fill in your contact info so that the users know where they can obtain help is case of any problems, e.g. forgotten password.</note>
 
-<note type="tip">Обычным пользователям задавать пароль желательно, но не обязательно.</note>
+<note type="important">Unprivileged user accounts can have empty passwords. We strongly discourage you, however, from such practices for security reasons.</note>
 
-<note type="important">После установки программы поменяйте административный пароль по умолчанию на новый!</note>
+<note type="important">Change the default administrator password immediately after the installation is complete.</note>
+
+<note type="tip"><wintitle>Dialog Nibelung StudDB</wintitle> keeps a <b>log file</b> of important actions. This file is located in <filepath>%TEMP%\Nibelung\StudDB.log</filepath> for the current operating system user.
+</note>
 
 <p>
-Во время работы программа <i>Диалог Nibelung StudDB</i> протоколирует действия в <b>log-файл</b>. В случае необходимости его можно посмотреть в каталоге <filepath>%TEMP%\Nibelung\StudDB.log</filepath> текущего пользователя операционной системы.
-</p>
-
-<p>
-При работе в режиме резервирования базы данных программа <wintitle>Диалог Nibelung StudDB</wintitle> оперирует с <i>базой данных</i>, расположенной
-в каталоге <filepath>%TEMP%</filepath>. Имя файла базы имеет вид <filepath>"1234567890-tmp.db"</filepath>. Временная база представляет с собой копию базы со времени последнего сеанса работы с ней, к которой добавлены изменения, сделанные в текущем сеансе. Если по каким-либо причинам (например, сбой питания) работа была прервана, можно попробовать восстановить последние изменения. Для этого надо:
-
+When <wintitle>Dialog Nibelung StudDB</wintitle> is running in deferred write mode (_fixme_ [xref]) it actually creates a temporary copy of the database in <filepath>%TEMP%</filepath> directory. The file name follows the <filepath>"1234567890-tmp.db"</filepath> pattern. This temporary database is a copy of the opened database with any changes performed since the last <uicontrol>Save database</uicontrol> action. If for any reason you need to try to recover these unsaved changes:
 <ul>
-  <li>Открыть сохраненную временную базу в административном режиме;</li>
-  <li>Убедиться в том, что это именно та база, которая редактировалась до завершения работы и что она <b>содержит последние изменения</b>, ради которых требуется восстановление;</li>
-  <li>Сделать резервную копию текущей базы (<xref keyref="winoptions"/>&#160; содержит информацию о текущем файле базы данных);</li>
-  <li>Вручную переместить временную базу в целевой каталог, задав ей удобное имя;</li>
-  <li>Выбрать используемую базу данных в окне настроек программы.</li>
+  <li>log in as system administrator;</li>
+  <li>open the temporary database file;</li>
+  <li>make sure that the temporary database is the right one and contains the changes you are trying to recover;</li>
+  <li>create a backup of the current master database (you can look up its path and filename in <xref keyref="winoptions"/>&#160;);</li>
+  <li>manually move temporary database file to the target directory and optionally rename it onto something meaningful to you;</li>
+  <li>select this moved / renamed file as the new database location in the <wintitle>Settings</wintitle> window.</li>
 </ul>
 
 </p>        
