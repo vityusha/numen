@@ -161,12 +161,10 @@
     <topicref keys="init" href="en-US/studdb/workinit.dita" />
     <topicref keys="workflow" href="en-US/studdb/workflow.dita" />
     <topichead navtitle="Интерфейс программы">
-      <topicref keys="winlogin" href="en-US/studdb/gui_winlogin.dita" />
       <topicref keys="winmain" href="en-US/studdb/gui_winmain.dita" />
       <topicref keys="winoptions" href="en-US/studdb/gui_winoptions.dita" />
       <topicref keys="winusers" href="en-US/studdb/gui_winusers.dita" />
       <topicref keys="winuser" href="en-US/studdb/gui_winuser.dita" />
-      <topicref keys="winabout" href="en-US/studdb/gui_winabout.dita" />
       <topicref keys="winschool" href="en-US/studdb/gui_winschool.dita" />
       <topicref keys="winclass" href="en-US/studdb/gui_winclass.dita" />
       <topicref keys="winstudent" href="en-US/studdb/gui_winstudent.dita" />
