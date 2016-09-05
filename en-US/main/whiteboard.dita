@@ -177,7 +177,7 @@
                         <entry>7</entry>
                         <entry align="center"><uicontrol><shortcut>Shift
                                 </shortcut></uicontrol></entry>
-                        <entry>Set rotation mode (direction? _fixme_) when used together with <uicontrol>mouse scroll wheel</uicontrol>.</entry>
+                        <entry>Set rotation mode when used together with <uicontrol>mouse scroll wheel</uicontrol> ([_translateme_ колёсико вверх вращает объект по часовой стрелке, колёсико вниз против часовой]).</entry>
                     </row>
                     <row>
                         <entry>8</entry>

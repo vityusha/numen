@@ -138,13 +138,13 @@
                     </row>
                     <row>
                         <entry>4</entry>
-                        <entry>StudDB settings (see _fixme_ [xref])</entry>
+                        <entry>StudDB settings (see (<xref keyref="winoptions"/>&#160;))</entry>
                         <entry align="center"><uicontrol><shortcut>Ctrl + H
                         </shortcut></uicontrol></entry>
                     </row>
                     <row>
                         <entry>5</entry>
-                        <entry>User accounts management (see _fixme_ [xref])</entry>
+                        <entry>User accounts management (see <xref keyref="winusers"/>&#160;)</entry>
                         <entry align="center"><uicontrol><shortcut>Ctrl + U
                         </shortcut></uicontrol></entry>
                     </row>
@@ -153,7 +153,7 @@
                 </tgroup>
 </table>
 
-<p>The following functions are only available via the context menus (see _fixme_ [xref]):</p>
+<p>The following functions are only available via the context menus (see <xref keyref="cm"/>&#160;):</p>
 
 <ul>
 <li>Clear archive;</li>

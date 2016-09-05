@@ -8,7 +8,7 @@
   <section>
   
 <p>
-The tree view panel occupies the left portion of <wintitle>Dialog Nibelung StudDB</wintitle> main window (_fixme_ [xref->fig]). It displays the visual representation of the structure of the student body and each of its subdivisions. Most of the student management tasks can be performed from either the tree view or the table view panels.
+The tree view panel occupies the left portion of <wintitle>Dialog Nibelung StudDB</wintitle> main window (<xref keyref="winmain/winmain_png" type="fig"/>&#160;). It displays the visual representation of the structure of the student body and each of its subdivisions. Most of the student management tasks can be performed from either the tree view or the table view panels.
 </p>
 
 <fig id="treeviewArea_png">
@@ -28,7 +28,7 @@ Working with the tree view:
 
 <li>Hover the mouse pointer on any branch (apart from the archive) to display a popup box with its proncipal properties.</li>
 
-<li>Right click on any branch to open its context menu (see _fixme_ [xref]). This can also be accomplished by pressing the context menu key on your keyboard.</li>
+<li>Right click on any branch to open its context menu (see <xref keyref="cm"/>&#160;). This can also be accomplished by pressing the context menu key on your keyboard.</li>
 
 <li>You can drag'n'drop (see <xref keyref="glossary"/>&#160;) student between the subdivisions to quickly move them.</li>
 

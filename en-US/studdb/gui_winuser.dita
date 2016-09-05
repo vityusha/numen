@@ -18,8 +18,8 @@
 
 <wintitle>Change password</wintitle> window will open in two cases:
 <ol>
-<li>After clicking on <uicontrol>Change password</uicontrol> in <wintitle>Login</wintitle> window (см. <xref keyref="winlogin"/>&#160;)</li>
-<li>When adding or editing users in the <wintitle>Accounts management</wintitle> window (см. <xref keyref="winusers"/>&#160;)</li>
+<li>After clicking on <uicontrol>Change password</uicontrol> in <wintitle>Login</wintitle> window;</li>
+<li>When adding or editing users in the <wintitle>Accounts management</wintitle> window (see <xref keyref="winusers"/>&#160;)</li>
 </ol>
 </p>
 <note type="important">All users must confirm their old password before changing it to a new one. Contact your system administrator if you forgot your password.</note>

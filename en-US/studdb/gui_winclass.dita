@@ -32,7 +32,7 @@ The mode in which this window is displayed depends on how command used to open t
 </ul>
 </p>
 
-<note type="attention">When you delete a subdivision, all student profiles associated with it will be filed in the archive (see _fixme_ [xref]). You will have to manually restore them from archive to other subdivision if that is not what was intended. We therefore recommend to move the students first, and then remove the empty subdivision.
+<note type="attention">When you delete a subdivision, all student profiles associated with it will be filed in the archive (see <xref keyref="archive"/>&#160;). You will have to manually restore them from archive to other subdivision if that is not what was intended. We therefore recommend to move the students first, and then remove the empty subdivision.
 </note>
   </section>
   </refbody>

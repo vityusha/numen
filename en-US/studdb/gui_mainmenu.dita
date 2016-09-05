@@ -58,14 +58,14 @@
                 <tbody>
                     <row>
                         <entry>1</entry>
-                        <entry>Open database * _fixme_ [ui]</entry>
+                        <entry>Connect to database *</entry>
                         <entry><image href="img/icons/dbconnect.png" placement="break" width="16" align="center"/></entry>
                         <entry align="center"><uicontrol><shortcut>Ctrl + O</shortcut></uicontrol></entry>
                     </row>
                     
                     <row>
                         <entry>2</entry>
-                        <entry>Close database * _fixme_ [ui]</entry>
+                        <entry>Disconnect from database *</entry>
                         <entry><image href="img/icons/dbdisconnect.png" placement="break" width="16" align="center"/></entry>
                         <entry align="center"><uicontrol><shortcut>Ctrl + W</shortcut></uicontrol></entry>
                     </row>
@@ -117,7 +117,7 @@
 
 <p>
 *  - menu item is only available in administrator mode;
-** - menu item is only available in deferred write mode _fixme_ [xref].
+** - menu item is only available in deferred write mode (see <xref keyref="dbmodes"/>&#160;).
 </p>
 
 <p>
@@ -152,21 +152,21 @@
                 <tbody>
                     <row>
                         <entry>1</entry>
-                        <entry>Add _fixme_ [ui]</entry>
+                        <entry>Add subdivision</entry>
                         <entry><image href="img/icons/add.png" placement="break" width="16" align="center"/></entry>
                         <entry align="center"><uicontrol><shortcut>Ctrl + Alt + A</shortcut></uicontrol></entry>
                     </row>
                     
                     <row>
                         <entry>2</entry>
-                        <entry>Edit _fixme_ [ui]</entry>
+                        <entry>Edit subdivision data</entry>
                         <entry><image href="img/icons/edit.png" placement="break" width="16" align="center"/></entry>
                         <entry align="center"><uicontrol><shortcut>Ctrl + Alt + E</shortcut></uicontrol></entry>
                     </row>
                     
                     <row>
                         <entry>3</entry>
-                        <entry>Delete _fixme_ [ui]</entry>
+                        <entry>Move subdivision to archive</entry>
                         <entry><image href="img/icons/remove.png" placement="break" width="16" align="center"/></entry>
                         <entry align="center"><uicontrol><shortcut>Ctrl + Alt + D </shortcut></uicontrol></entry>
                     </row>
@@ -207,21 +207,21 @@
                 <tbody>
                     <row>
                         <entry>1</entry>
-                        <entry>Add _fixme_ [ui]</entry>
+                        <entry>Add student</entry>
                         <entry><image href="img/icons/personadd.png" placement="break" width="16" align="center"/></entry>
                         <entry align="center"><uicontrol><shortcut>Alt + A</shortcut></uicontrol></entry>
                     </row>
                     
                     <row>
                         <entry>2</entry>
-                        <entry>Edit profile _fixme_ [ui]</entry>
+                        <entry>Edit student profile</entry>
                         <entry><image href="img/icons/personedit.png" placement="break" width="16" align="center"/></entry>
                         <entry align="center"><uicontrol><shortcut>Alt + E</shortcut></uicontrol></entry>
                     </row>
                     
                     <row>
                         <entry>3</entry>
-                        <entry>Delete _fixme_ [ui]</entry>
+                        <entry>Move student to archive</entry>
                         <entry><image href="img/icons/persondel.png" placement="break" width="16" align="center"/></entry>
                         <entry align="center"><uicontrol><shortcut>Alt + D </shortcut></uicontrol></entry>
                     </row>
@@ -262,14 +262,14 @@
                 <tbody>
                     <row>
                         <entry>1</entry>
-                        <entry>User manual _fixme_ [ui]</entry>
+                        <entry>User manual</entry>
                         <entry><image href="img/icons/manual.png" placement="break" width="16" align="center"/></entry>
                         <entry align="center"><uicontrol><shortcut>F1</shortcut></uicontrol></entry>
                     </row>
                     
                     <row>
                         <entry>2</entry>
-                        <entry>About _fixme_ [ui]</entry>
+                        <entry>About</entry>
                         <entry><image href="img/icons/about.png" placement="break" width="16" align="center"/></entry>
                         <entry align="center"><uicontrol><shortcut>-</shortcut></uicontrol></entry>
                     </row>

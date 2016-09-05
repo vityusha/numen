@@ -25,7 +25,7 @@
     </image>
 </fig>
 
-<p>By applying a filter on any field (_fixme_ [xref->fig]) you can search for the records containing specified string anywhere in the records. For example, by entering <userinput>John</userinput> as a filter you can search for all students that have 'John' as a given or middle name as well as those that have 'John' as a part of their family name (or even email address, for that matter), e.g. 'Johnson'.</p>
+<p>By applying a filter on any field (<xref keyref="search/filter_png" type="fig"/>&#160;) you can search for the records containing specified string anywhere in the records. For example, by entering <userinput>John</userinput> as a filter you can search for all students that have 'John' as a given or middle name as well as those that have 'John' as a part of their family name (or even email address, for that matter), e.g. 'Johnson'.</p>
 
 <p>By applying filters on specific field you can perform a more selective search, e.g. selecting only those students who specifically have 'John' as their given name or 'Johnson' as their family name.</p>
   

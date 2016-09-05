@@ -22,12 +22,12 @@
 </p>
 
 <p>
-Supported export formats are CSV (comma separated values), TXT (plain text), and HTML (<xref keyref="glossary"/>&#160; _fixme_ [invalid xref] ).
-<note type="tip">Profile images are exported along with other profile data when exporting student profiles into HTML. The images will be stored in a folder located in the same directory as the export file and having the same name with addition of <userinput>_files _fixme_ [markup]</userinput> suffix.</note>
+Supported export formats are CSV (comma separated values), TXT (plain text), and HTML (see <xref keyref="glossary"/>&#160;).
+<note type="tip">Profile images are exported along with other profile data when exporting student profiles into HTML. The images will be stored in a folder located in the same directory as the export file and having the same name with addition of <i>_files</i> suffix.</note>
 </p>
 
 <p>
-All <uicontrol>Export</uicontrol> operation are performed from the corresponding context menus (_fixme_ [xref]). A <wintitle>save as</wintitle> window will appear, where you can specify:
+All <uicontrol>Export</uicontrol> operation are performed from the corresponding context menus (see <xref keyref="cm"/>&#160;). A <wintitle>save as</wintitle> window will appear, where you can specify:
 <ul>
   <li>export format;</li>
   <li>path;</li>
