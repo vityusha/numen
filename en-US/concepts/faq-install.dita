@@ -61,7 +61,7 @@
           </ul>
         </li>
         <li><filepath>NPlayer</filepath> – <wintitle>Dialog NPlayer</wintitle> installation files for standalone use (e.g., on a home computer);</li>
-        <li><filepath>NPW</filepath> – <wintitle>Nibelung Power Watch</wintitle> installation file, NPW is application for display tablets' battery status;</li>
+        <li><filepath>NPW</filepath> – <wintitle>Nibelung Power Watch</wintitle> installation file, NPW is an application for display tablets' battery status;</li>
         <li><filepath>NQuiz</filepath> – <wintitle>Dialog NQuiz</wintitle> test system with documentation and cross platform installer for standalone use (e.g., on a home computer);</li>
         <li><filepath>SampleContent</filepath> – audio and video examples;</li>
       </ul>
