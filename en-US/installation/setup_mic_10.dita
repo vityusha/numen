@@ -4,16 +4,16 @@
 <concept id="setup_mic_10" xml:lang="en-US">
     <title>Microphone setup for Windows 8/10</title>
     <conbody>
-        <note type="important">You will have to connect the microphone to the computer audio interface first (usually it's the red connector on the interface) before starting to set it up for Windows 8/10.</note>
-        <p>Open the <wintitle>Control Panel</wintitle> (<xref keyref="setup_mic_10/control_panel_10_png" type="fig"/>&#160;) window to set up the microphone for Windows 8/10. This can be accomplished by right clicking on the <uicontrol>Start</uicontrol> button or pressing <uicontrol><shortcut>Win + X</shortcut></uicontrol> on you keyboard and selecting <uicontrol>Control panel</uicontrol> in the menu.</p>
+        <note type="important">You will have to connect the microphone to the computer audio interface before starting to set it up for Windows 8/10. Usually microphone socket is the red connector on your audio interface.</note>
+        <p>Open the <wintitle>Control Panel</wintitle> (<xref keyref="setup_mic_10/control_panel_10_png" type="fig"/>&#160;) window to set up the microphone for Windows 8/10. This can be accomplished by right clicking the <uicontrol>Start</uicontrol> button or pressing <uicontrol><shortcut>Win + X</shortcut></uicontrol> on you keyboard and selecting <uicontrol>Control panel</uicontrol> from the menu.</p>
         <fig id="control_panel_10_png">
             <title>Windows 8/10 Control Panel</title>
             <image href="img/control_panel_10.png" placement="break" scalefit="yes">
                 <alt>Windows 8/10 Control Panel</alt>
             </image>
         </fig>
-        <p>Select <wintitle>Hardware and Sound</wintitle> in the <uicontrol>Control Panel</uicontrol> window and then select<wintitle>Sound</wintitle>.</p>
-        <p>Select <wintitle>Recording</wintitle> tab in the <wintitle>Sound</wintitle> (<xref keyref="setup_mic_10/sound_10_1_png" type="fig"/>&#160;) window that appears on your display. Then select the microphone and press the <uicontrol>Properties</uicontrol> button.</p>        
+        <p>Select <wintitle>Hardware and Sound</wintitle> in the <uicontrol>Control Panel</uicontrol> window and then select <wintitle>Sound</wintitle>.</p>
+        <p>Select <wintitle>Recording</wintitle> tab in the <wintitle>Sound</wintitle> window (<xref keyref="setup_mic_10/sound_10_1_png" type="fig"/>&#160;), then select the appropriate microphone and press the <uicontrol>Properties</uicontrol> button.</p>
         <fig id="sound_10_1_png">
             <title><wintitle>Sound</wintitle> window</title>
             <image href="img/sound_10_1.png" placement="break">
@@ -42,7 +42,7 @@
                 <alt><wintitle>Enhancements</wintitle> tab of the <wintitle>Microphone Properties</wintitle> window</alt>
             </image>
         </fig>
-        <note type="important">Microphone additional features and enhancements depend on the type of the audio interface in your computer.</note>
+        <note type="important">Additional features and enhancements for your microphone depend on the capabilities of the audio interface in your computer.</note>
         <p>Press <uicontrol>OK</uicontrol> button to finish microphone setup.</p>
     </conbody>
 </concept>
