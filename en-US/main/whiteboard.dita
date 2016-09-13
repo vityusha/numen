@@ -4,7 +4,7 @@
 <concept id="whiteboard" xml:lang="en-US">
     <title><keyword>Whiteboard</keyword></title>
     <conbody>  
-        <p><indexterm>Whiteboard</indexterm>The whiteboard mode provides a virtual interactive sketchboard that can be shared between the teacher and the students.</p>
+        <p><indexterm>Whiteboard</indexterm>The whiteboard mode provides a virtual interactive sketchboard that can be shared between  teacher and students.</p>
         <p>Press <uicontrol>Interact</uicontrol> button in either class (<xref keyref="menu_class"/>&#160;) or group menu (<xref keyref="menu_group"/>&#160;) and select <uicontrol>Whiteboard</uicontrol> to open the whiteboard window (<xref keyref="whiteboard/whiteboard_png" type="fig"/>&#160;) on teacher workstation.</p> 
         <fig id="whiteboard_png">
             <title>Whiteboard window</title>
@@ -28,7 +28,7 @@
                     </row>
                     <row>
                         <entry>3</entry>
-                        <entry><uicontrol>Undo</uicontrol> button for reversing last update on the whiteboard. This update may have been made by either the teaher or any student from the participating group. Press this button repeatedly to undo a sequence of updates.</entry>
+                        <entry><uicontrol>Undo</uicontrol> button for reversing last update on the whiteboard. The update may have been made by either the teacher or any student from the participating group. Press this button repeatedly to undo  sequential updates.</entry>
                     </row>
                     <row>
                         <entry>4</entry>
@@ -86,9 +86,9 @@
                 </tbody> 
             </tgroup>
         </table>
-        <p>Press the <uicontrol>Start</uicontrol> button to initiate a whiteboard session, at which point <uicontrol>Start</uicontrol> button will beacome <uicontrol>Stop</uicontrol> button and a whiteboard window will open on the screens of selected group of students.</p> 
-        <note type="important">Title of the group that has an active whiteboard sesion will be displayed in red for the duration of the session.</note>
-        <p>When a whitebopard session is active, any participant can pick a tool from the toolbox and start sketching on the whiteboard. Everyting they sketch will appear on the whiteboards of all the participants.</p>
+        <p>Press the <uicontrol>Start</uicontrol> button to initiate a whiteboard session, at which point <uicontrol>Start</uicontrol> button will become <uicontrol>Stop</uicontrol> button and a whiteboard window will open on the screens of selected group of students.</p> 
+        <note type="important">Title of the group that has an active whiteboard session will be displayed in red for the duration of the session.</note>
+        <p>When a whiteboard session is active, any participant can pick a tool from the toolbox and start sketching on the whiteboard. Everything they sketch will appear on the whiteboards of all the participants.</p>
         <p>Drawing tools (from top to bottom of the toolbox):</p>
         <ul>
             <li>Pen</li>
@@ -109,9 +109,9 @@
             <li>Text</li>
         </ul>
         
-        <note type="tip">The <uicontrol>Polygon</uicontrol> tool produces a symmetrical closed polygon, while <uicontrol>Connected lines</uicontrol> produces a free form chain of arbitrary shape.</note>
+        <note type="tip">The <uicontrol>Polygon</uicontrol> tool produces a symmetrical closed polygon, while <uicontrol>Connected lines</uicontrol> tool produces a free form chain of arbitrary shape.</note>
 
-        <p>The whiteboard can be in either manual or immediate mode as controlled by the <uicontrol>Manual mode</uicontrol> check button in the <wintitle>Whiteboard</wintitle> window (<xref keyref="whiteboard/whiteboard_png" type="fig"/>&#160;). In the immediate mode everything sketched on the whiteboard will instantly appear on evey participating whiteboard. In manual mode an object on the whiteboard will only be sent to the other participants once the <uicontrol>Send</uicontrol> button is pressed. This allows  editing of the object or even discarding it before anybody else sees it. This mode also has a <uicontrol>Multidraw</uicontrol> option that allows you to finish several elements before sending them to the other participants. Otherwise, only a single element (e.g. a polygon or a text field) can be finished before you'll have to decide wheter to either <uicontrol>Send</uicontrol> or <uicontrol>Cancel</uicontrol> it.</p>
+        <p>The whiteboard can be in either manual or immediate mode as controlled by the <uicontrol>Manual mode</uicontrol> check button in the <wintitle>Whiteboard</wintitle> window (<xref keyref="whiteboard/whiteboard_png" type="fig"/>&#160;). In the immediate mode everything sketched on the whiteboard will instantly appear on every participating whiteboard. In manual mode an object on the whiteboard will only be sent to the other participants once the <uicontrol>Send</uicontrol> button is pressed. This allows  editing of the object or even discarding it before anybody else sees it. This mode also has a <uicontrol>Multidraw</uicontrol> option that allows you to finish several elements before sending them to the other participants. Otherwise, only a single element (e.g. a polygon or a text field) can be finished before you'll have to decide whether to <uicontrol>Send</uicontrol> or <uicontrol>Cancel</uicontrol> it.</p>
         
         <p><uicontrol>Whiteboard commands and hotkeys:</uicontrol></p>
         <table frame="topbot">
@@ -177,7 +177,7 @@
                         <entry>7</entry>
                         <entry align="center"><uicontrol><shortcut>Shift
                                 </shortcut></uicontrol></entry>
-                        <entry>Set rotation mode when used together with <uicontrol>mouse scroll wheel</uicontrol> ([_translateme_ колёсико вверх вращает объект по часовой стрелке, колёсико вниз против часовой]).</entry>
+                        <entry>Set rotation mode when used together with <uicontrol>mouse scroll wheel</uicontrol> (<uicontrol>shift + scroll up</uicontrol> rotates clockwise, <uicontrol>shift + scroll down</uicontrol> counterclockwise).</entry>
                     </row>
                     <row>
                         <entry>8</entry>
@@ -185,7 +185,7 @@
                                 </shortcut></uicontrol></entry>
                         <entry>
                         <ul>
-                            <li>Increase/decrease number of enges/vertices (together with the <uicontrol>mouse scroll wheel</uicontrol>).</li>
+                            <li>Increase/decrease number of edges/vertices (together with the <uicontrol>mouse scroll wheel</uicontrol>).</li>
                             <li>Press and hold <uicontrol><shortcut>Alt</shortcut></uicontrol> when creating <uicontrol>Connected lines</uicontrol> or <uicontrol>Curve</uicontrol> elements to close the line and fill the interior.</li>
                         </ul>
                         </entry>
@@ -227,11 +227,11 @@
             </tgroup>
         </table>
 
-        <p>One can change common (e.g. line thickness, fill colour, position, transparency, rotation angle, scale, etc.) or element specific (e.g. line of text, image file) properties for most objects before they are committed.</p>
+        <p>One can change common (e.g. line thickness, fill color, position, transparency, rotation angle, scale, etc.) or element specific (e.g. line of text, image file) properties for most objects before they are committed.</p>
         <p>Press <uicontrol>Stop</uicontrol> button to finish a whiteboard session.</p>
-        <p>Use the <uicontrol>Close</uicontrol> to close the <wintitle>Whiteboard</wintitle> window. You will be prompted to finish still active sessions, if any.</p>
-        <note type="important">In the multidraw mode <uicontrol>Cancel</uicontrol> button cancels the whole uncommitted batch of objects, with <uicontrol>Ctrl+Z</uicontrol> redo hotkey having no effect.</note>
-        <note type="tip">You can drag and drop an image from a file onto the whiteboard. This will automatically select  <uicontrol>Image</uicontrol> tool and insert the image where it was dropped. You can further move, scale, rotate, or discard the image.</note>
+        <p>Use <uicontrol>Close</uicontrol> button to close the <wintitle>Whiteboard</wintitle> window. You will be prompted to finish still active sessions, if any.</p>
+        <note type="important">In multidraw mode <uicontrol>Cancel</uicontrol> button cancels the whole uncommitted batch of objects, with <uicontrol>Ctrl+Z</uicontrol> redo hotkey having no effect.</note>
+        <note type="tip">You can drag and drop an image from a file onto the whiteboard. This will automatically select  <uicontrol>Image</uicontrol> tool and insert the image where it was dropped. You can then further move, scale, rotate, or discard the image.</note>
         <note type="tip">When creating a sequence of text objects in multidraw mode, don't forget to press <uicontrol>Enter</uicontrol> after each object. Otherwise you will be moving the old object instead of creating the next one. Likewise, when creating several images, do not forget to right click on an image once you are finished with it.</note>
 
     </conbody>
