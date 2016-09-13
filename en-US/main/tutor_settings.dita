@@ -4,24 +4,24 @@
 <concept id="tutor_settings" xml:lang="en-US">
     <title>Teacher settings</title>
     <conbody>
-		<p>Select <menucascade><uicontrol>File</uicontrol><uicontrol>Teacher settings</uicontrol></menucascade> from the menu to change settings for the current teacher account.</p>
+		<p>Select <menucascade><uicontrol>File</uicontrol><uicontrol>Teacher settings</uicontrol></menucascade> from the main menu to change settings for the current teacher account.</p>
 		<fig id="tutor_settings_png">
             <title><wintitle>Teacher settings</wintitle> window</title>
             <image href="img/tutor-settings.png" placement="break">
                 <alt><wintitle>Teacher settings</wintitle> window</alt>
             </image>
         </fig>
-		<p>A window will appear on your display (<xref keyref="tutor_settings/tutor_settings_png" type="fig"/>&#160;) where you can change the following personal settings:</p>
+		<p>A window will appear on your screen (<xref keyref="tutor_settings/tutor_settings_png" type="fig"/>&#160;) where you can change the following personal settings:</p>
         <ul>
             <li>workspace background;</li>
             <li>default new lesson settings;</li>
-            <li>default home page for <uicontrol>Internet</uicontrol> activity (see <xref keyref="internet"/>&#160;).</li>
+            <li>default home page for the <uicontrol>Internet</uicontrol> activity (see <xref keyref="internet"/>&#160;).</li>
         </ul>
-        <p>This window also allows you to create or destroy your personal <wintitle>Teacher key</wintitle> (see <xref keyref="usb_keychain"/>&#160;).</p>
-        <p>For workspace background you can set:</p>
+        <p>This window also allows you to create and deactivate your personal <wintitle>Teacher key</wintitle> (see <xref keyref="usb_keychain"/>&#160;).</p>
+        <p>For the workspace background you can set the following parameters:</p>
         <ul>
             <li>background image file;</li>
-            <li>specify image tiling; if the tiling property is not set, the image will be scaled to fit the workspace;</li>
+            <li>specify image tiling (otherwise image will be scaled to fit the workspace);</li>
             <li>background image transparency.</li>
         </ul>
         <p>Click on the button immediately to the right of <uicontrol>Browse</uicontrol> to reset background image and its parameters to the defaults.</p>
