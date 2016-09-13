@@ -25,7 +25,7 @@
                 <li><p>Windows Vista and 7:</p> 
                     <p><menucascade><uicontrol>Start</uicontrol><uicontrol>Control Panel</uicontrol><uicontrol>System and Security</uicontrol><uicontrol>Allow a program through Windows Firewall</uicontrol></menucascade></p> <p>or</p> <p><menucascade><uicontrol>Start</uicontrol><uicontrol>Control Panel</uicontrol><uicontrol>Windows Firewall</uicontrol><uicontrol>Exceptions</uicontrol></menucascade></p></li>
                 <li><p>Windows 8/10:</p> 
-                    <p>Enter "firewall" into the search bar, select <uicontrol>Windows Firewall</uicontrol>, then select <uicontrol>Allow an app or feature through Windows Firewall</uicontrol>, press the <uicontrol>Change settings</uicontrol> button (you will need Administrator privileges), and then press <uicontrol>Allow another app...</uicontrol> at the bottom and add <wintitle>Dialog Nibelung</wintitle> to the list.</p></li>
+			<p>Enter <userinput>firewall</userinput> into the search bar, select <uicontrol>Windows Firewall</uicontrol>, then select <uicontrol>Allow an app or feature through Windows Firewall</uicontrol>, press the <uicontrol>Change settings</uicontrol> button (you will need Administrator privileges), and then press <uicontrol>Allow another app...</uicontrol> at the bottom and add <wintitle>Dialog Nibelung</wintitle> to the list.</p></li>
             </ul>
             <p>Some anti-virus software may also issue warnings regarding <wintitle>Dialog Nibelung</wintitle>. You will have to create appropriate exceptions and/or add it to the list of trusted software as well.</p>
         </section>
