@@ -11,7 +11,7 @@
         <alt><wintitle>Student profile</wintitle> window</alt>
       </image>
     </fig>
-    <p>A student profile can be stored in either class file (see <xref keyref="student_class"/>&#160;) or in the student database (see <xref keyref="studdb_intro"/>&#160;).</p>
+    <p>A student profile can be stored in either class file (see <xref keyref="student_class"/>&#160;) or in the student database (see <xref keyref="studdb_intro"/>&#160;). If profile for a student exists when the student is added to a class, this profile will be retrieved from the database and copied to the class file. All subsequent changes to the profile via this menu item will only be applied to the copy stored in the class file, overriding information from the database. Use the profile management software (_fixme_ [xref]) to edit the database.</p>
     <p>Student profile may contain the following data:</p>
     <table frame="topbot">
       <tgroup cols="2">
@@ -20,7 +20,7 @@
         <tbody>
           <row>
             <entry>1</entry>
-            <entry>Student's photo or any other image</entry>
+            <entry>Student photo or any other image helping to identify the student</entry>
           </row>
           <row>
             <entry>2</entry>
@@ -36,7 +36,7 @@
           </row>
           <row>
             <entry>5</entry>
-            <entry>BYOD ID - unique ID for "bring your own device" with <wintitle>Dialog Nibelung</wintitle> student module installed</entry>
+            <entry>BYOD ID - unique ID for "bring your own device" running the student module</entry>
           </row>
           <row>
             <entry>6</entry>
@@ -65,8 +65,8 @@
         </tbody> 
       </tgroup>
     </table>
-    <p>Student ID can be used instead of student name during the roll call registration (см. п. <xref keyref="registration"/>&#160;). In this case <wintitle>Dialog Nibelung</wintitle> will pull up the rest of the data from corresponding student profile.</p>
+    <p>Student ID can be used instead of student name during the roll call registration (see <xref keyref="registration"/>&#160;). In this case <wintitle>Dialog Nibelung</wintitle> will pull up the rest of the data from the student profile.</p>
     <p>Click on the image and choose a file to change the image in the profile. Press <uicontrol>Clear image</uicontrol> to disassociate the image from the profile.</p>
-    <p>Если у учащегося включена веб-камера (см. п. <xref keyref="webcam"/>&#160;), то текущее изображение с веб-камеры можно установить как фотографию учащегося с помощью кнопки <uicontrol>Снимок с веб-камеры</uicontrol> .</p>
+    <p>You can also take a picture of the student and set it as their profile image by pressing the <uicontrol>Webcam snapshot</uicontrol> button if this student's workstation has a webcam enabled (see <xref keyref="webcam"/>&#160;).</p>
   </conbody>
 </concept>
