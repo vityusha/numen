@@ -15,7 +15,7 @@
           <li>Select <menucascade><uicontrol>Subdivision</uicontrol><uicontrol>Edit</uicontrol></menucascade> from the main menu.</li>
           <li>Press the <uicontrol>Edit subdivision</uicontrol> button on the toolbar.</li>
           <li>Select <uicontrol>Edit subdivision</uicontrol> item from the subdivision context menu (_fixme_ [xref]).</li>
-          <li>Use the <uicontrol><shortcut>Ctrl + Alt + E</shortcut></uicontrol>keyboard shortcut.</li>
+          <li>Use the <uicontrol><shortcut>Ctrl + Alt + E</shortcut></uicontrol> keyboard shortcut.</li>
           <li>Select a subdivision in tree view (_fixme_ [xref]) and press <uicontrol><shortcut>Enter</shortcut></uicontrol> or <uicontrol><shortcut>F2</shortcut></uicontrol> on your keyboard.</li>
         </ul>
       </p>
