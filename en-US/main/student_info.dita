@@ -11,7 +11,7 @@
         <alt><wintitle>Student profile</wintitle> window</alt>
       </image>
     </fig>
-    <p>A student profile can be stored in either class file (see <xref keyref="student_class"/>&#160;) or in the student database (see <xref keyref="studdb_intro"/>&#160;). If profile for a student exists when the student performs roll call registration using their student ID or BYO device, this profile will be retrieved from the database and copied to the class file. All subsequent changes to the profile via this menu item will only be applied to the copy stored in the class file. Use the profile management software (_fixme_ [xref]) to edit the database.</p>
+    <p>A student profile can be stored in either class file (see <xref keyref="student_class"/>&#160;) or in the student database (see <xref keyref="studdb_intro"/>&#160;). If profile for a student exists when the student performs roll call registration using their student ID or BYO device, this profile will be retrieved from the database and copied to the class file. All subsequent changes to the profile via this menu item will only be applied to the copy stored in the class file. Use the profile management software (see <xref keyref="studdb_intro"/>&#160;) to edit the database.</p>
     <p>Student profile may contain the following data:</p>
     <table frame="topbot">
       <tgroup cols="2">

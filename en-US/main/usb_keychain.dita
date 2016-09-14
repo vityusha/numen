@@ -10,7 +10,7 @@
       <li>autologin to <wintitle>Dialog Nibelung</wintitle> without password;</li>
       <li>portability between different computers: teacher key stores all your personal data that otherwise would be stored on the hard drive.</li>
     </ul>
-    <p>However, no convenience is without its disadvantages. The particular disadvantages of using a teacher key mostly stem from the fact that it is relatively easy to lose. Files on the teacher key are not subject to backup facilities provided by <wintitle>Dialog Nibelung</wintitle> (_fixme_ [xref]), and if you do not back up your key manually, loss of the key means also loss of all your files. Loss of your key without its backup copy also means that you will be locked out of your <wintitle>Dialog Nibelung</wintitle> account.</p>
+    <p>However, no convenience is without its disadvantages. The particular disadvantages of using a teacher key mostly stem from the fact that it is relatively easy to lose. Files on the teacher key are not subject to backup facilities provided by <wintitle>Dialog Nibelung</wintitle> (see <xref keyref="tools_backup"/>&#160;), and if you do not back up your key manually, loss of the key means also loss of all your files. Loss of your key without its backup copy also means that you will be locked out of your <wintitle>Dialog Nibelung</wintitle> account.</p>
     
     <p>To initialize a new <wintitle>Teacher key</wintitle>:</p>
     <ol>
