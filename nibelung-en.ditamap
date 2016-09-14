@@ -7,10 +7,10 @@
     <shortdesc>This document contains Dialog Nibelung user manual.</shortdesc>
     <author type="creator">Titov S., Vinokurov V.</author>
     <source/>
-    <publisher>LLC "Lain"</publisher>
+    <publisher>Lain LLC</publisher>
     <copyright>
       <copyryear year="2016"/>
-      <copyrholder>LLC "Lain".</copyrholder>
+      <copyrholder>Lain LLC</copyrholder>
     </copyright>
     <critdates>
       <created date="23.06.2016"/>
@@ -155,12 +155,12 @@
     <topicref keys="test_result" href="en-US/nquiz/result.dita" />
   </topicref>
   <!-- StudDB -->
-  <topichead navtitle="Программа управления базами данных учащихся">
+  <topichead navtitle="Student database management">
     <topicref keys="studdb_intro" href="en-US/studdb/comm_intro.dita" />
     <topicref keys="install_notes" href="en-US/studdb/install_notes.dita" />
     <topicref keys="init" href="en-US/studdb/workinit.dita" />
     <topicref keys="workflow" href="en-US/studdb/workflow.dita" />
-    <topichead navtitle="Интерфейс программы">
+    <topichead navtitle="User interface">
       <topicref keys="winmain" href="en-US/studdb/gui_winmain.dita" />
       <topicref keys="winoptions" href="en-US/studdb/gui_winoptions.dita" />
       <topicref keys="winusers" href="en-US/studdb/gui_winusers.dita" />
@@ -180,19 +180,19 @@
       <topicref keys="search" href="en-US/studdb/gui_search.dita" />
       <topicref keys="archive" href="en-US/studdb/gui_archive.dita" />
     </topichead>
-    <topichead navtitle="Работа с подразделениями">
+    <topichead navtitle="Student body subdivisions">
       <topicref keys="class_add" href="en-US/studdb/class_add.dita" />
       <topicref keys="class_edit" href="en-US/studdb/class_edit.dita" />
       <topicref keys="class_remove" href="en-US/studdb/class_remove.dita" />
     </topichead>
-    <topichead navtitle="Работа с учащимися">
+    <topichead navtitle="Student profiles">
       <topicref keys="student_add" href="en-US/studdb/student_add.dita" />
       <topicref keys="student_edit" href="en-US/studdb/student_edit.dita" />
       <topicref keys="student_move" href="en-US/studdb/student_move.dita" />
       <topicref keys="student_remove" href="en-US/studdb/student_remove.dita" />
       <topicref keys="student_restore" href="en-US/studdb/student_restore.dita" />
     </topichead>
-    <topichead navtitle="Ответы на часто задаваемые вопросы (FAQ)">
+    <topichead navtitle="Frequently Asked Questions">
       <topicref keys="faq" href="en-US/studdb/faq.dita" />
       <topicref keys="faq_install" href="en-US/studdb/faq_install.dita" />
     </topichead>
