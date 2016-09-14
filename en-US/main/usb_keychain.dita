@@ -10,7 +10,6 @@
       <li>autologin to <wintitle>Dialog Nibelung</wintitle> without password;</li>
       <li>portability between different computers: teacher key stores all your personal data that otherwise would be stored on the hard drive.</li>
     </ul>
-    <p>However, no convenience is without its disadvantages. The particular disadvantages of using a teacher key mostly stem from the fact that it is relatively easy to lose. Files on the teacher key are not subject to backup facilities provided by <wintitle>Dialog Nibelung</wintitle> (see <xref keyref="tools_backup"/>&#160;), and if you do not back up your key manually, loss of the key means also loss of all your files. Loss of your key without its backup copy also means that you will be locked out of your <wintitle>Dialog Nibelung</wintitle> account.</p>
     
     <p>To initialize a new <wintitle>Teacher key</wintitle>:</p>
     <ol>
@@ -23,6 +22,7 @@
       <li>The <uicontrol>Initialize</uicontrol> button will become <uicontrol>Deinitialize</uicontrol> once the files are moved to the USB flash drive. The teacher key is now ready to use.</li>
     </ol>
     <note type="attention">Once a teacher key is initialized, all files from the teacher folder are now residing only on the teacher key. Teacher key also becomes the only means of logging into <wintitle>Dialog Nibelung</wintitle> as corresponding teacher account will no longer be offered for password authentication.</note>
+    <note type="attention">You are solely responsible for backing up files your key on a regular basis (e.g. using the backup feature provided by <wintitle>Dialog Nibelung</wintitle> as described in <xref keyref="tools_backup"/>&#160;). Without regular backups, loss of your key means not only unrecoverable loss of your files, but also you will be locked out of your <wintitle>Dialog Nibelung</wintitle> account.</note>
     <fig id="usb_keychain_png">
       <title>Initializing teacher key</title>
       <image href="img/usb_keychain.png" placement="break">
