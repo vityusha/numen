@@ -15,7 +15,7 @@
               <uicontrol>Edit</uicontrol>
             </menucascade> from the main menu.</li>
           <li>Press the <uicontrol>Edit student profile</uicontrol> button on the toolbar.</li>
-          <li>Select <uicontrol>Edit</uicontrol> item from the student context menu in either tree or table view.</li>
+          <li>Select <uicontrol>Edit</uicontrol> item from the student context menu (_fixme_ [xref]) in either tree or table view (_fixme_ [xref]).</li>
           <li>Use the <uicontrol><shortcut>Alt + E</shortcut></uicontrol> keyboard shortcut.</li>
           <li>Select a student in the tree view panel and press either <uicontrol>
               <shortcut>Enter</shortcut>
@@ -26,10 +26,10 @@
       </p>
 
       <p>
-A student profile editing window (<xref keyref="winstudent"/>&#160;) will appear to the right of the tree view panel.
+A student profile editing window (<xref keyref="winstudent"/>&#160;) will appear on your screen, where you can edit profile data.
       </p>
 
-      <p>Press the <uicontrol>Add</uicontrol> button or <uicontrol><shortcut>Enter</shortcut></uicontrol> to perform the action. Press <uicontrol>Cancel</uicontrol> or <uicontrol><shortcut>Esc</shortcut></uicontrol> to cancel it.
+      <p>Press the <uicontrol>Add</uicontrol> button or <uicontrol><shortcut>Enter</shortcut></uicontrol> key to apply the changes. Press <uicontrol>Cancel</uicontrol> or <uicontrol><shortcut>Esc</shortcut></uicontrol> to cancel it.
       </p>
 
     </section>
