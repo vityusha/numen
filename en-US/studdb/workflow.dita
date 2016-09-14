@@ -6,13 +6,15 @@
   <title>Suggested workflow</title>
   <conbody>
   
-<p><wintitle>Dialog Nibelung StudDB</wintitle> should be ready for day-to-day operations after the initial setup which should have been performed by your school system administrator (<xref keyref="admin"/>&#160;). The suggested workflow is:
+<p><wintitle>Dialog Nibelung StudDB</wintitle> should be ready for day-to-day operations after the initial setup which should have been performed by your school system administrator (<xref keyref="admin"/>&#160;).</p>
+
+<p>The suggested workflow is as follows:
 <ul>
 <li>Launch the software and log in.</li>
-<li>Edit shool settings (<xref keyref="winschool"/>&#160;) if this has not been done previously.</li>
-<li>School structure is defined as a flat (non-hierarchical) list of school subdivisions. These subdivisions are the categories with which students are affiliated in your school, e.g. grades, year in school, expected graduation date, program enrolled, etc.</li>
+<li>Edit school settings (<xref keyref="winschool"/>&#160;) if this has not been done previously.</li>
+<li>Student body structure is defined as a flat (non-hierarchical) list of subdivisions. These subdivisions are the categories with which students are affiliated in your school, e.g. grades, year in school, expected graduation date, program enrolled, etc.</li>
 <li>Bulk of the work will probably be performed manipulating student profiles: creating, editing, moving from one subdivision into another, archiving, etc.</li>
-<li>Save your work (see <xref keyref="dbmodes"/>&#160;) or export the data.</li>
+<li>Save your work (see <xref keyref="dbmodes"/>&#160;) and/or export the data (_fixme_ [xref]).</li>
 <li>Log out and end session.</li>
 </ul>
 </p>
