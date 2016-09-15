@@ -2,7 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
 "reference.dtd">
 
-<reference id="winuser" xml:lang="ru-RU">
+<reference id="winuser" xml:lang="en-US">
   <title><wintitle>Change password</wintitle> window</title>
   <refbody>
   <section>
@@ -18,14 +18,14 @@
 
 <wintitle>Change password</wintitle> window will open in two cases:
 <ol>
-<li>After clicking on <uicontrol>Change password</uicontrol> in <wintitle>Login</wintitle> window;</li>
+<li>After clicking on <uicontrol>Change password</uicontrol> link in <wintitle>Login</wintitle> window;</li>
 <li>When adding or editing users in the <wintitle>Accounts management</wintitle> window (see <xref keyref="winusers"/>&#160;)</li>
 </ol>
 </p>
 <note type="important">All users must confirm their old password before changing it to a new one. Contact your system administrator if you forgot your password.</note>
-<note type="tip">An indicator will appear in the window whenever CapsLock key on your keyboard is active.</note>
+<note type="tip">An indicator will appear in the window whenever the <uicontrol><shortcut>CapsLock</shortcut></uicontrol> key on your keyboard is active.</note>
 <p>
-The color confirmation bar between <uicontrol>New password</uicontrol> and <uicontrol>Confirm new password</uicontrol> fields is orange as long as the contents of the two fields do not match. It will become green as soon as the match is acheved.
+The color confirmation bar between <uicontrol>New password</uicontrol> and <uicontrol>Confirm new password</uicontrol> fields will stay orange as long as the contents of the two fields do not match. It will become green as soon as the match is achieved.
 </p>
 
   </section>
