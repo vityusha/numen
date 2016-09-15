@@ -96,7 +96,7 @@
 </table>
 
 <p>
-* - command only available in deferred save mode.
+* - only available in deferred save mode (_fixme_ [xref]).
 </p>
 
 <p>Shortcuts available to the administrator:</p>
@@ -175,7 +175,7 @@
 </li>
 </ul>
 
-<note type="tip">Menu item, toolbar entry, or keyboard shortcut corresponding to a function will have no effect if this function is currently unavailable for any reason.</note>
+<note type="tip">Menu item, toolbar entry, or keyboard shortcut corresponding to a function will have no effect if this function is not  available in current context for any reason. For example, <uicontrol>Edit student profile</uicontrol> will have no effect unless a student is selected.</note>
     
   </section>
   </refbody>  
