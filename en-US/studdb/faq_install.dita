@@ -14,19 +14,19 @@
     </section>
 
     <section>
-        <title>What if the default user name and password?</title>
+        <title>What is default user name and password?</title>
         <p>Default user name: <userinput>Admin</userinput>, password: <userinput>Admin</userinput>.</p>
     </section>
 
     <section>
         <title>How can I change global <wintitle>Dialog Nibelung StudDB</wintitle> settings?</title>
-        <p>Log into <wintitle>Dialog Nibelung StudDB</wintitle> as administrator. Select <menucascade><uicontrol>File</uicontrol><uicontrol>Settings</uicontrol></menucascade> from the main menu or use 
+        <p>Log into <wintitle>Dialog Nibelung StudDB</wintitle> as an administrator. Select <menucascade><uicontrol>File</uicontrol><uicontrol>Settings</uicontrol></menucascade> from the main menu or use 
         <uicontrol><shortcut>Ctrl</shortcut></uicontrol>+<uicontrol><shortcut>H</shortcut></uicontrol> keyboard shortcut to access the settings window.</p>
     </section>
 
     <section>
         <title>What is administrator's user name?</title>
-        <p>The system administrator user name is <userinput>Admin</userinput></p>
+        <p>The system administrator user name is <userinput>Admin</userinput>.</p>
     </section>
     
   </refbody>
