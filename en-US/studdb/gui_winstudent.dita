@@ -7,11 +7,11 @@
   <refbody>
   <section>
   
-<p>At a typical school you will probably spend the bulk of your <wintitle>Dialog Nibelung StudDB</wintitle> time using this interface, as setting a school profile and defining the subdivisions is more or less a one time job. Student profile can be displayed in one of the four modes, depending on how it was invoked:
+<p>At a typical school you will probably spend the bulk of your <wintitle>Dialog Nibelung StudDB</wintitle> time using this interface, as setting the school profile and defining subdivisions is more or less a one time job. Student profile can be displayed in one of the four modes, depending on how it was invoked:
 <ul>
   <li>add student profile to a school subdivision;</li>
-  <li>edit a student profile, including moving to another subdivision;</li>
-  <li>delete student profile (the profile will be placed in the archive);</li>
+  <li>edit student profile, including moving to another subdivision;</li>
+  <li>delete student profile (the profile will be filed to the archive);</li>
   <li>restore profile from the archive (this mode is called up from the context menu for archived profiles).</li>
 </ul>
 </p>
@@ -21,20 +21,22 @@
       <alt>Editing a <wintitle>Student profile</wintitle></alt>
     </image>
 </fig>
-<note type="important">You don't have to select a subdivision before adding a student profile. The subdivision can be specified right in the profile (see <xref keyref="winmove"/>&#160;)</note>
-<p>
-Введите данные учащегося с клавиатуры или вставляйте их в нужные поля из буфера обмена. <b>Обязательно</b> указать следующие данные: <uicontrol>имя</uicontrol>, <uicontrol>фамилия</uicontrol>, <uicontrol>отчество</uicontrol> и <uicontrol>номер ученического билета</uicontrol>.
-<note type="tip">
-Если в Вашем учебном заведении отсутствует нумерация учащихся, Вы можете использовать любую другую информацию (например - ФИО + дата рождения: <uicontrol>ИвановПетрСеменович-10.12.2004</uicontrol>) вместо номера ученического билета. Важно понимать, что программа не позволяет добавить карточку учащегося с таким же номером, как у одного из уже имеющихся в базе данных</note>
+<note type="tip">You don't have to select a subdivision before adding a student profile. The subdivision can be specified right in the profile (see <xref keyref="winmove"/>&#160;)</note>
 
-<note type="tip">You can assign an image to every student profile. This could be a photo or an avatar in JPG or PNG format. We recommend using square images that are multiples of 128 by 128 pixels (e.g. 512 by 512). If you are using a photo, use a clear, well lit, full face or three-quarters head shot.
+<p>Fill in profile fields from the keyboard or by pasting from the clipboard. Most fields are optional and can be left blank if necessary. The only mandatory field is <uicontrol>Student ID</uicontrol>.</p>
 
-Click on the image at the top of <uicontrol>Student profile</uicontrol> panel to set an image. If an image is cleared from the profile, it is only disassociated with the profile without affecting the image file on disk.</note>
+<note type="tip">Student IDs must be unique within the given school. The software will not allow you to enter a Student ID that already exists in another student profile.</note>
+
+<note type="tip">BYOD ID (if applicable, see _fixme_ [xref]->glossary) can be looked up in the <wintitle>About</wintitle> window of the <wintitle>Dialog Nibelung</wintitle> student module installed on the device.</note>
+
+<note type="tip">You can assign an image to every student profile. This could be a photo or an avatar in JPG or PNG format. We recommend using square images that are multiples of 128 by 128 pixels (e.g. 512 by 512). If you are using a photo, use a clear, well lit, full face or three-quarters head shot.</note>
+
+<p>Click on the image at the top of <uicontrol>Student profile</uicontrol> panel to set an image. If an image is cleared from the profile, it is only disassociated with the profile without affecting the image file itself.
 
 <fig id="emptyPhoto_png">
-    <title>Empty image pictogram</title>
+    <title>Empty image icon</title>
     <image href="img/emptyPhoto.png" placement="break">
-      <alt>Empty image pictogram</alt>
+      <alt>Empty image icon</alt>
     </image>
 </fig>
 </p>
