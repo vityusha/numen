@@ -174,7 +174,13 @@
 	</topichead>
 	<topichead navtitle="User interface reference">
       <topicref keys="winmain" href="en-US/studdb/gui_winmain.dita" />
-      <topicref keys="winoptions" href="en-US/studdb/gui_winoptions.dita" />
+	  <topicref keys="menu" href="en-US/studdb/gui_mainmenu.dita" />
+	  <topicref keys="toolbar" href="en-US/studdb/gui_toolbar.dita" />
+	  <topicref keys="tree" href="en-US/studdb/gui_treeview.dita" />
+	  <topicref keys="table" href="en-US/studdb/gui_tableview.dita" />
+	  <topicref keys="cm" href="en-US/studdb/gui_contextmenus.dita" />
+	  <topicref keys="statusbar" href="en-US/studdb/gui_statusbar.dita" />
+	  <topicref keys="winoptions" href="en-US/studdb/gui_winoptions.dita" />
       <topicref keys="winusers" href="en-US/studdb/gui_winusers.dita" />
       <topicref keys="winuser" href="en-US/studdb/gui_winuser.dita" />
       <topicref keys="winschool" href="en-US/studdb/gui_winschool.dita" />
@@ -182,12 +188,6 @@
       <topicref keys="winstudent" href="en-US/studdb/gui_winstudent.dita" />
       <topicref keys="winmove" href="en-US/studdb/gui_winmove.dita" />
       <topicref keys="addprompt" href="en-US/studdb/gui_addprompt.dita" />
-      <topicref keys="menu" href="en-US/studdb/gui_mainmenu.dita" />
-      <topicref keys="toolbar" href="en-US/studdb/gui_toolbar.dita" />
-      <topicref keys="tree" href="en-US/studdb/gui_treeview.dita" />
-      <topicref keys="table" href="en-US/studdb/gui_tableview.dita" />
-      <topicref keys="cm" href="en-US/studdb/gui_contextmenus.dita" />
-      <topicref keys="statusbar" href="en-US/studdb/gui_statusbar.dita" />
       <topicref keys="shortcuts" href="en-US/studdb/gui_shortcuts.dita" />
       <topicref keys="search" href="en-US/studdb/gui_search.dita" />
       <topicref keys="archive" href="en-US/studdb/gui_archive.dita" />
