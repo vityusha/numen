@@ -8,7 +8,7 @@
   <section>
   
 <p>
-The tree view panel occupies the left portion of <wintitle>Dialog Nibelung StudDB</wintitle> main window (<xref keyref="winmain/winmain_png" type="fig"/>&#160;). It displays the visual representation of the structure of the student body and each of its subdivisions. Most of the student management tasks can be performed from either the tree view or the table view panels.
+The tree view panel occupies the left pane in of the <wintitle>Dialog Nibelung StudDB</wintitle> main window (<xref keyref="winmain/winmain_png" type="fig"/>&#160;). It displays the visual representation of the structure of the student body and each of its subdivisions. Most of the student management tasks can be performed from either the tree view or the table view panels.
 </p>
 
 <fig id="treeviewArea_png">
@@ -19,14 +19,14 @@ The tree view panel occupies the left portion of <wintitle>Dialog Nibelung StudD
 </fig>
 
 <p>
-Working with the tree view:
+How to use the tree view:
 
 <ul>
-<li>Click on any branch in the tree to open its properties window. This acn also be accomplished by pressing <userinput>Enter</userinput> or <userinput>F2</userinput> on the keyboard when the branch is selected.</li>
+<li>Click on any branch in the tree to open its properties window. This can also be accomplished by pressing the <userinput>Enter</userinput> or <userinput>F2</userinput> keys on your keyboard when a branch is selected.</li>
 
-<li>Press <userinput>Delete</userinput> on your keyboard to delete the branch. You will be prompted for confirmation.</li>
+<li>Select a branch and press <userinput>Delete</userinput> on your keyboard to delete the branch. You will be prompted for confirmation.</li>
 
-<li>Hover the mouse pointer on any branch (apart from the archive) to display a popup box with its proncipal properties.</li>
+<li>Hover the mouse pointer on any branch (apart from the archive) to display a popup box with its principal properties.</li>
 
 <li>Right click on any branch to open its context menu (see <xref keyref="cm"/>&#160;). This can also be accomplished by pressing the context menu key on your keyboard.</li>
 
@@ -34,9 +34,9 @@ Working with the tree view:
 
 <li>A triangle mark to the left of a branch means that this branch has a nested subtree (e.g. the school has subdivisions or a subdivision has students associated with them). Click on the triangle to expand the branch, click again to collapse it. You can also expand and collapse branches using <userinput>Left</userinput> and <userinput>Right</userinput> keys on your keyboard once the branch is selected.</li>
 
-<li>Press <uicontrol>Esc</uicontrol> on your keyboard or <uicontrol>Cancel</uicontrol> button in any dialog to cancel it and return focus back to the tree view. This allows to quickly view and edit student profiles and check which profile or subdivision was the last to be worked with.</li>
+<li>Press <userinput>Esc</userinput> on your keyboard or <uicontrol>Cancel</uicontrol> button in any dialog to cancel it and return focus back to the tree view. This allows to quickly view and edit student profiles and check which profile or subdivision was the last to be worked with.</li>
 
-<li>Use the <uicontrol>Up</uicontrol>, <uicontrol>Down</uicontrol>, <uicontrol>Home</uicontrol>, <uicontrol>End</uicontrol>, <uicontrol>PageUp</uicontrol> and <uicontrol>PageDown</uicontrol> on your keyboard to quickly navigate around the tree view. Use <userinput>Left</userinput> and <userinput>Right</userinput> keys to expand and collapse nested branches.</li>
+<li>Use the <userinput>Up</userinput>, <userinput>Down</userinput>, <userinput>Home</userinput>, <userinput>End</userinput>, <userinput>PageUp</userinput> and <userinput>PageDown</userinput> on your keyboard to quickly navigate around the tree view. Use <userinput>Left</userinput> and <userinput>Right</userinput> keys to expand and collapse nested branches.</li>
 </ul>
 
 </p>        
