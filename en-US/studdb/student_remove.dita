@@ -17,7 +17,7 @@
               <uicontrol>Delete</uicontrol>
             </menucascade> from the main menu.</li>
           <li>Press <uicontrol>Delete student</uicontrol> button on the toolbar.</li>
-          <li>Select corresponding item from the student context menu in either tree or table view (_fixme_ [xref]).</li>
+          <li>Select corresponding item from the student context menu in either tree or table view (see <xref keyref="tree"/>&#160; and <xref keyref="table"/>&#160;).</li>
           <li>Use the <uicontrol>
               <shortcut>Alt + D</shortcut>
             </uicontrol> keyboard shortcut;</li>
