@@ -10,8 +10,8 @@
 <p>
 The quick add prompt appears when either:
 <ul>
-  <li>You select a school with no subdivisions;</li>
-  <li>You select a school subdivision with no students associated with it.</li>
+  <li>you select a school with no subdivisions, or</li>
+  <li>you select a school subdivision with no students associated with it.</li>
 </ul>
 </p>
 
