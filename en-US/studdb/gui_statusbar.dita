@@ -11,9 +11,9 @@
   <section>
 <p>The status bar at the bottom of the <wintitle>Dialog Nibelung StudDB</wintitle> main window displays
   <ul>
-    <li>user name on the left;</li>
+    <li>current user name on the left;</li>
     <li>total number of subdivisions in the school, and</li>
-    <li>total number of students in selected branch, on the right.</li>
+    <li>total number of students in selected subdivision, on the right.</li>
   </ul>
 
   <fig id="statusbar_png">
