@@ -172,6 +172,7 @@
 		<topicref keys="student_remove" href="en-US/studdb/student_remove.dita" />
 		<topicref keys="student_restore" href="en-US/studdb/student_restore.dita" />
 	</topichead>
+	<topicref keys="tips" href="en-US/studdb/tips.dita" />
 	<topichead navtitle="User interface reference">
       <topicref keys="winmain" href="en-US/studdb/gui_winmain.dita" />
 	  <topicref keys="menu" href="en-US/studdb/gui_mainmenu.dita" />
@@ -192,17 +193,16 @@
       <topicref keys="search" href="en-US/studdb/gui_search.dita" />
       <topicref keys="archive" href="en-US/studdb/gui_archive.dita" />
     </topichead>
-    <topichead navtitle="Frequently Asked Questions">
-      <topicref keys="faq" href="en-US/studdb/faq.dita" />
-      <topicref keys="faq_install" href="en-US/studdb/faq_install.dita" />
-    </topichead>
     <topicref keys="export" href="en-US/studdb/export.dita" />  
-    <topicref keys="tips" href="en-US/studdb/tips.dita" />
-    <topicref keys="dbmodes" href="en-US/studdb/dbmodes.dita" />
-    <topicref keys="admin" href="en-US/studdb/admin.dita" />
-    <topicref keys="studdb_errors" href="en-US/studdb/errors.dita" />
+	<topicref keys="dbmodes" href="en-US/studdb/dbmodes.dita" />
+	<topicref keys="admin" href="en-US/studdb/admin.dita" />
+	<topichead navtitle="Frequently Asked Questions">
+		<topicref keys="faq" href="en-US/studdb/faq.dita" />
+		<topicref keys="faq_install" href="en-US/studdb/faq_install.dita" />
+	</topichead>
+	<topicref keys="studdb_errors" href="en-US/studdb/errors.dita" />
   </topichead>
-  <!-- Supplements -->
+  <!-- Appendices -->
   <topicref keys="program_working" href="en-US/concepts/program_working.dita" />
   <topichead navtitle="Audio hub">
     <topicref href="en-US/concepts/purpose_switch.dita" />
