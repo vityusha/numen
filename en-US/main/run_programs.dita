@@ -16,7 +16,7 @@
         </fig>
 	   <p>Class and group tabs are located just below the window title bar. They can be used to quickly switch the action to a different group.</p>
         <p>A <wintitle>Select application</wintitle> panel is in the top left part of the window. Use this panel to specify command line to launch an application.</p>
-		<p>You can select an executable file by pressing <uicontrol>Browse</uicontrol> button. You can also manually specify executable file including full path and command line parameters in the <uicontrol>Command line</uicontrol> field. This gives you an opportunity to remotely open files on the student workstations, e.g.: <filepath>C:\WINDOWS\NOTEPAD.EXE С:\TEST.TXT</filepath>.</p>
+		<p>You can select an executable file by pressing <uicontrol>Browse</uicontrol> button. You can also manually specify executable file including full path and command line parameters in the <uicontrol>Command line</uicontrol> field. This gives you an opportunity to remotely open files on the student workstations, e.g.: <filepath>C:\WINDOWS\NOTEPAD.EXE C:\TEST.TXT</filepath>.</p>
 		<note type="attention">Please note that the application to be launched has to be installed <b>on all student workstations</b>. The executable either has to be either accessible through the <filepath>PATH</filepath> environment variable (in which case you can specify just the executable, omitting the full path), or  path has to be <b>the same on all workstations</b>.</note>
 		<note type="attention">Please not that the file <filepath>C:\TEST.TXT</filepath> in the example shown above must exist on all student workstations.</note>
 
