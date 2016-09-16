@@ -21,14 +21,14 @@
 <li>User accounts management (<xref keyref="winusers"/>&#160;):
 <ul>
 <li>adding users;</li>
-<li>changing passwords of other users;</li>
+<li>changing password of any user;</li>
 <li>removing users.</li>
 </ul>
 </li>
 
 <li>Creating new databases.</li>
 <li>Opening new databases.</li>
-<li>Changing StudDB settings (<xref keyref="winoptions"/>&#160;):
+<li>Changing <wintitle>StudDB</wintitle> settings (<xref keyref="winoptions"/>&#160;):
 <ul>
 <li>default user interface language;</li>
 <li>database for use by unprivileged users;</li>
@@ -41,7 +41,7 @@
 </ul>
 <note type="tip">It is always a good idea to fill in your contact info so that the users know where they can obtain help is case of any problems, e.g. forgotten password.</note>
 
-<note type="important">Unprivileged user accounts can have empty passwords. We strongly discourage you, however, from such practices for security reasons.</note>
+<note type="important">Unprivileged user accounts can have empty passwords. However, we strongly discourage you from such practices for security reasons.</note>
 
 <note type="important">Change the default administrator password immediately after the installation is complete.</note>
 
@@ -49,13 +49,13 @@
 </note>
 
 <p>
-When <wintitle>Dialog Nibelung StudDB</wintitle> is running in deferred write mode (see <xref keyref="dbmodes"/>&#160;) it actually creates a temporary copy of the database in <filepath>%TEMP%</filepath> directory. The file name follows the <filepath>"yyyy-MM-DD-mm-ss-studdb-tmp.db"</filepath> pattern, for example <b>2016-09-01-18-55-studdb-tmp.db</b>. This temporary database is a copy of the opened database with any changes performed since the last <uicontrol>Save database</uicontrol> action. If for any reason you need to try to recover these unsaved changes:
+When <wintitle>Dialog Nibelung StudDB</wintitle> is running in deferred write mode (see <xref keyref="dbmodes"/>&#160;) it actually creates a temporary copy of the database in <filepath>%TEMP%</filepath> directory. The file name follows the <filepath>"yyyy-MM-DD-mm-ss-studdb-tmp.db"</filepath> pattern, for example <b>2016-09-01-18-55-studdb-tmp.db</b>. This temporary database is a copy of the opened database with any changes performed since the last <uicontrol>Save database</uicontrol> action. If for any reason you need to recover these unsaved changes, try the following:
 <ul>
   <li>log in as system administrator;</li>
-  <li>open the temporary database file;</li>
-  <li>make sure that the temporary database is the right one and contains the changes you are trying to recover;</li>
+  <li>locate and open temporary database file;</li>
+  <li>make sure are using the right temporary database and it contains changes you are trying to recover;</li>
   <li>create a backup of the current master database (you can look up its path and filename in <xref keyref="winoptions"/>&#160;);</li>
-  <li>manually move temporary database file to the target directory and optionally rename it onto something meaningful to you;</li>
+  <li>manually move temporary database file to the target directory and optionally rename it into something meaningful;</li>
   <li>select this moved / renamed file as the new database location in the <wintitle>Settings</wintitle> window.</li>
 </ul>
 
