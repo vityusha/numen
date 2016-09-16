@@ -24,7 +24,7 @@ A subdivision can be removed from the student body structure by using either one
 
 <note type="important">Once deleted, the subdivisions are lost forever. Associated student profiles, however, will be simply deactivated and filed to the archive. You can restore students from the archive to another subdivision, or clean the archive manually.</note>
 
-<note type="tip">When <wintitle>Dialog Nibelung StudDB</wintitle> is running in the deferred write mode (see <xref keyref="dbmodes"/>&#160;) the operations are actually performed only when <uicontrol>Save database</uicontrol> function is invoked, or the <uicontrol>autosave</uicontrol> option is activated in database settings (see <xref keyref="winoptions"/>&#160;).</note>
+<note type="tip">When <wintitle>Dialog Nibelung Student Manager</wintitle> is running in the deferred write mode (see <xref keyref="dbmodes"/>&#160;) the operations are actually performed only when <uicontrol>Save database</uicontrol> function is invoked, or the <uicontrol>autosave</uicontrol> option is activated in database settings (see <xref keyref="winoptions"/>&#160;).</note>
 
 </section>
 </refbody>

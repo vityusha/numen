@@ -20,7 +20,7 @@
 
 <li>Every item in both tree view and table view panels has a context menu which can be accesses by right clicking on the item or pressing the context menu key on your keyboard (see <xref keyref="cm"/>&#160; for more details).</li>
 
-<li><menucascade><uicontrol>File</uicontrol><uicontrol>Save database</uicontrol></menucascade> menu item along with the corresponding button on the toolbar becomes available whenever <wintitle>StudDB</wintitle> is running in deferred save mode (see <xref keyref="dbmodes"/>&#160;). In this case any database updates will only be saved to disk after this menu item is selected or toolbar button is pressed. The software will also prompt to save any pending updates on logout. The database will be saved automatically in specified intervals if <uicontrol>Autosave</uicontrol> option is checked in <wintitle>StudDB</wintitle> settings (see <xref keyref="winoptions"/>&#160;).</li>
+<li><menucascade><uicontrol>File</uicontrol><uicontrol>Save database</uicontrol></menucascade> menu item along with the corresponding button on the toolbar becomes available whenever <wintitle>Student Manager</wintitle> is running in deferred save mode (see <xref keyref="dbmodes"/>&#160;). In this case any database updates will only be saved to disk after this menu item is selected or toolbar button is pressed. The software will also prompt to save any pending updates on logout. The database will be saved automatically in specified intervals if <uicontrol>Autosave</uicontrol> option is checked in <wintitle>Student Manager</wintitle> settings (see <xref keyref="winoptions"/>&#160;).</li>
 
 <li>Use keyboard arrow keys to quickly fill the <uicontrol>Date of birth</uicontrol> field in the student profile.</li>
 

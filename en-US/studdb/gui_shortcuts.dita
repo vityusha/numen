@@ -9,7 +9,7 @@
   <section>
   
 <p>    
-<wintitle>Dialog Nibelung StudDB</wintitle> provides keyboard shortcuts for all major functionality of the database management.
+<wintitle>Dialog Nibelung Student Manager</wintitle> provides keyboard shortcuts for all major functionality of the database management.
 </p>
 
 <p>Shortcuts available for all users:</p>
@@ -138,7 +138,7 @@
                     </row>
                     <row>
                         <entry>4</entry>
-                        <entry>StudDB settings (see (<xref keyref="winoptions"/>&#160;))</entry>
+                        <entry>Student Manager settings (see (<xref keyref="winoptions"/>&#160;))</entry>
                         <entry align="center"><uicontrol><shortcut>Ctrl + H
                         </shortcut></uicontrol></entry>
                     </row>

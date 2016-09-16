@@ -8,7 +8,7 @@
   <section>
   
 <p>
-<wintitle>Dialog Nibelung StudDB</wintitle> presents two different views of the data: tree view (see <xref keyref="tree"/>&#160;) in the left pane of the main window and table view in the right one. Table view allows simultaneous display of a large number of database records, search them, sort, and filter. Keyboard hotkeys (<xref keyref="shortcuts"/>&#160;) and context menus (<xref keyref="cm"/>&#160;) are both available in the table view for quick access to the individual student profiles.
+<wintitle>Dialog Nibelung Student Manager</wintitle> presents two different views of the data: tree view (see <xref keyref="tree"/>&#160;) in the left pane of the main window and table view in the right one. Table view allows simultaneous display of a large number of database records, search them, sort, and filter. Keyboard hotkeys (<xref keyref="shortcuts"/>&#160;) and context menus (<xref keyref="cm"/>&#160;) are both available in the table view for quick access to the individual student profiles.
 </p>
 
 <fig id="tableArea_png">

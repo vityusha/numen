@@ -13,7 +13,7 @@
     <p>This section is intended for the school system administrator.</p>
 
 <p>
-<wintitle>Dialog Nibelung StudDB</wintitle> grants different privileges to different users. Upon successful installation one privileged user account will be created automatically: <userinput>Admin</userinput> with default password <userinput>Admin</userinput>. Immediately log into this account and change the password.</p>
+<wintitle>Dialog Nibelung Student Manager</wintitle> grants different privileges to different users. Upon successful installation one privileged user account will be created automatically: <userinput>Admin</userinput> with default password <userinput>Admin</userinput>. Immediately log into this account and change the password.</p>
 
 <p>The following action are reserved for the user with administration privileges:</p>
 
@@ -28,7 +28,7 @@
 
 <li>Creating new databases.</li>
 <li>Opening new databases.</li>
-<li>Changing <wintitle>StudDB</wintitle> settings (<xref keyref="winoptions"/>&#160;):
+<li>Changing <wintitle>Student Manager</wintitle> settings (<xref keyref="winoptions"/>&#160;):
 <ul>
 <li>default user interface language;</li>
 <li>database for use by unprivileged users;</li>
@@ -45,11 +45,11 @@
 
 <note type="important">Change the default administrator password immediately after the installation is complete.</note>
 
-<note type="tip"><wintitle>Dialog Nibelung StudDB</wintitle> keeps a <b>log file</b> of important actions. This file is located in <filepath>%TEMP%\Nibelung\StudDB.log</filepath> for the current operating system user.
+<note type="tip"><wintitle>Dialog Nibelung Student Manager</wintitle> keeps a <b>log file</b> of important actions. This file is located in <filepath>%TEMP%\Nibelung\Student Manager.log</filepath> for the current operating system user.
 </note>
 
 <p>
-When <wintitle>Dialog Nibelung StudDB</wintitle> is running in deferred write mode (see <xref keyref="dbmodes"/>&#160;) it actually creates a temporary copy of the database in <filepath>%TEMP%</filepath> directory. The file name follows the <filepath>"yyyy-MM-DD-mm-ss-studdb-tmp.db"</filepath> pattern, for example <b>2016-09-01-18-55-studdb-tmp.db</b>. This temporary database is a copy of the opened database with any changes performed since the last <uicontrol>Save database</uicontrol> action. If for any reason you need to recover these unsaved changes, try the following:
+When <wintitle>Dialog Nibelung Student Manager</wintitle> is running in deferred write mode (see <xref keyref="dbmodes"/>&#160;) it actually creates a temporary copy of the database in <filepath>%TEMP%</filepath> directory. The file name follows the <filepath>"yyyy-MM-DD-mm-ss-studdb-tmp.db"</filepath> pattern, for example <b>2016-09-01-18-55-studdb-tmp.db</b>. This temporary database is a copy of the opened database with any changes performed since the last <uicontrol>Save database</uicontrol> action. If for any reason you need to recover these unsaved changes, try the following:
 <ul>
   <li>log in as system administrator;</li>
   <li>locate and open temporary database file;</li>

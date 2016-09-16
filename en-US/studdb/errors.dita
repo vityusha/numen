@@ -22,8 +22,8 @@
                 </ul>
               </li>
               <li>check if database file access is blocked by any third party software, e.g. an antivirus;</li>
-              <li>check the memory for any spurious StudDB.exe processes and terminate them if necessary;</li>
-              <li>check that <filepath>System.Data.SQLite.dll</filepath> file is present in the <wintitle>Dialog Nibelung StudDB</wintitle> installation directory. Reinstall the software if it is, in fact, missing.</li>
+              <li>check the memory for any spurious Student Manager.exe processes and terminate them if necessary;</li>
+              <li>check that <filepath>System.Data.SQLite.dll</filepath> file is present in the <wintitle>Dialog Nibelung Student Manager</wintitle> installation directory. Reinstall the software if it is, in fact, missing.</li>
             </ul>
           </dd>
         </dlentry>

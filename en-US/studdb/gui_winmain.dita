@@ -3,21 +3,21 @@
 "reference.dtd">
 
 <reference id="winmain" xml:lang="en-US">
-  <title>StudDB main window</title>
+  <title>Student Manager main window</title>
   <refbody>
   <section>
   
 <p>
 
 <fig id="winmain_png">
-    <title>StudDB main window</title>
+    <title>Student Manager main window</title>
     <image href="img/winmain.png" placement="break">
-      <alt>StudDB main window</alt>
+      <alt>Student Manager main window</alt>
     </image>
 </fig>
 This window includes:
 <ol>
-<li>Main menu (see <xref keyref="menu"/>&#160;), provides access to the principal <wintitle>StudDB</wintitle> functions.</li>
+<li>Main menu (see <xref keyref="menu"/>&#160;), provides access to the principal <wintitle>Student Manager</wintitle> functions.</li>
 <li>Toolbar (see <xref keyref="toolbar"/>&#160;) for quick access to the most often used functions.</li>
 <li>Tree view panel (see <xref keyref="tree"/>&#160;) provides an overview of the student body structure.</li>
 <li>Table view panel (see <xref keyref="table"/>&#160;). This is the panel that displays and allows editing of student profiles and school subdivisions.</li>

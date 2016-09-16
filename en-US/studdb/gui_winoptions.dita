@@ -7,7 +7,7 @@
   <refbody>
     <section>
 
-      <p>Select <uicontrol>File -> Settings</uicontrol> from the <wintitle>Dialog Nibelung StudDB</wintitle> main menu to open the <wintitle>Settings</wintitle> window.</p>
+      <p>Select <uicontrol>File -> Settings</uicontrol> from the <wintitle>Dialog Nibelung Student Manager</wintitle> main menu to open the <wintitle>Settings</wintitle> window.</p>
 
         <p>The <wintitle>Settings</wintitle> window is only accessible if you are logged in as <userinput>Admin</userinput> (see <xref keyref="admin"/>&#160;). It allows you to set:
         <ul>
