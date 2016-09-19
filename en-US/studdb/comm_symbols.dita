@@ -2,49 +2,65 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
 "reference.dtd">
 
-<reference id="symbols" xml:lang="ru-RU">
-	<title>Условные обозначения</title>
+<reference id="symbols" xml:lang="en-US">
+	<title>Notation</title>
 	<prolog/>
 	<refbody>
-		
+
 		<section>
-			<title>Условные обозначения, принятые в данном описании:</title>
+			<title>Notation in this document:</title>
 			<table frame="none">
 				<tgroup cols="2">
-					<colspec colname="COLSPEC0" colwidth="10"/>
+					<colspec colname="COLSPEC0" colwidth="50"/>
 					<colspec colname="COLSPEC1" colwidth="120*"/>
 					<tbody>
 						<row>
 							<entry><image href="../../img/Symbol-Stop.png" placement="break" scalefit="yes" width="40"/></entry>
-							<entry>Критические замечания</entry>
+							<entry>Critical note</entry>
 						</row>
 						<row>
 							<entry><image href="../../img/Symbol-Error.png" placement="break" scalefit="yes" width="40"/></entry>
-							<entry>Важная информация</entry>
+							<entry>Important note</entry>
 						</row>
 						<row>
 							<entry><image href="../../img/Symbol-Information.png" placement="break" scalefit="yes" width="40"/></entry>
-							<entry>Информация к сведению</entry>
+							<entry>For your information</entry>
 						</row>
-					</tbody> 
+					</tbody>
 				</tgroup>
 			</table>
 		</section>
-		
+
 		<section>
-			<table frame="none">            
+			<table frame="none">
 				<tgroup cols="2">
-					<colspec colname="COLSPEC0" colwidth="20"/>
+					<colspec colname="COLSPEC0" colwidth="70"/>
 					<colspec colname="COLSPEC1" colwidth="120*"/>
 					<tbody>
 						<row>
-							<entry><b>Жирный</b></entry>
-							<entry>Жирным шрифтом выделены названия кнопок, меню, программ</entry>
+							<entry><wintitle>Nibelung</wintitle></entry>
+							<entry> - software and window titles</entry>
 						</row>
 						<row>
-							<entry><i>Курсив</i></entry>
-							<entry>Курсивом обозначены названия файлов, путей, ссылок</entry>
-						</row>            
+							<entry><uicontrol>Start</uicontrol></entry>
+							<entry> - user interface elements (menus, buttons, etc.)</entry>
+						</row>
+						<row>
+							<entry><filepath>\Nibelung\</filepath></entry>
+							<entry> - file names, paths, etc.</entry>
+						</row>
+						<row>
+							<entry><userinput>Admin</userinput></entry>
+							<entry> - keyboard input</entry>
+						</row>
+						<row>
+							<entry><uicontrol><shortcut>Ctrl+Enter</shortcut></uicontrol></entry>
+							<entry> - keyboard shortcut</entry>
+						</row>
+						<row>
+							<entry><cmdname>google.com</cmdname></entry>
+							<entry> - Internet addresses</entry>
+						</row>
 					</tbody>
 				</tgroup>
 			</table>
