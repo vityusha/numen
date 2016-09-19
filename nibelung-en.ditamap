@@ -160,19 +160,19 @@
     <topicref keys="install_notes" href="en-US/studdb/install_notes.dita" />
     <topicref keys="init" href="en-US/studdb/workinit.dita" />
     <topicref keys="workflow" href="en-US/studdb/workflow.dita" />
-	<topichead navtitle="Student body subdivisions">
-		<topicref keys="class_add" href="en-US/studdb/class_add.dita" />
-		<topicref keys="class_edit" href="en-US/studdb/class_edit.dita" />
-		<topicref keys="class_remove" href="en-US/studdb/class_remove.dita" />
-	</topichead>
-	<topichead navtitle="Student profiles">
-		<topicref keys="student_add" href="en-US/studdb/student_add.dita" />
-		<topicref keys="student_edit" href="en-US/studdb/student_edit.dita" />
-		<topicref keys="student_move" href="en-US/studdb/student_move.dita" />
-		<topicref keys="student_remove" href="en-US/studdb/student_remove.dita" />
-		<topicref keys="student_restore" href="en-US/studdb/student_restore.dita" />
-	</topichead>
-	<topichead navtitle="User interface reference">
+    <topichead navtitle="Student body subdivisions">
+      <topicref keys="class_add" href="en-US/studdb/class_add.dita" />
+      <topicref keys="class_edit" href="en-US/studdb/class_edit.dita" />
+      <topicref keys="class_remove" href="en-US/studdb/class_remove.dita" />
+    </topichead>
+    <topichead navtitle="Student profiles" >
+      <topicref keys="student_add" href="en-US/studdb/student_add.dita" />
+      <topicref keys="student_edit" href="en-US/studdb/student_edit.dita" />
+      <topicref keys="student_move" href="en-US/studdb/student_move.dita" />
+      <topicref keys="student_remove" href="en-US/studdb/student_remove.dita" />
+      <topicref keys="student_restore" href="en-US/studdb/student_restore.dita" />
+    </topichead>
+    <topichead navtitle="User interface reference">
       <topicref keys="winmain" href="en-US/studdb/gui_winmain.dita" />
       <topicref keys="winoptions" href="en-US/studdb/gui_winoptions.dita" />
       <topicref keys="winusers" href="en-US/studdb/gui_winusers.dita" />
