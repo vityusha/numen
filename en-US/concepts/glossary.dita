@@ -148,7 +148,7 @@
 
 		<section>
 			<title>Poll</title>
-			Режим, в котором преподаватель может провести быстрое голосвание или опрос на один вопрос с различными вариантами ответов (см. <xref keyref="vote"/>&#160;).
+			<indexterm>poll</indexterm>Poll is a mode for quickly polling the students or conducting simple pop quizzes with one multiple choice question (section <xref keyref="vote"/>&#160;).
 		</section>
 
 		<section>

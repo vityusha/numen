@@ -8,7 +8,7 @@
   <section>
   
 <p>
-<wintitle>Dialog Nibelung StudDB</wintitle> provides context menus for every record in the database in both tree view and table view (<xref keyref="winmain"/>&#160;).
+<wintitle>Dialog Nibelung Student Manager</wintitle> provides context menus for every record in the database in both tree view and table view (<xref keyref="winmain"/>&#160; _fixme_ [xref] target).
 </p>
 
 <p>Context menus are available for:</p>
@@ -21,10 +21,10 @@
 </ul>
 
 <p>
-The context menu for an element can be called up by right clicking on this element or selecting it and pressing the context menu key on your keyboard. The context menu key can usually be found between the right <userinput>Alt</userinput> and <userinput>Ctrl</userinput> or right <userinput>Win</userinput> and <userinput>Ctrl</userinput> keys. Commands available from the context menu are completely identical to the corresponding commands of the main menu and toolbar.
+Context menu for an element can be called up by right clicking on this element or selecting it and pressing the context menu key on your keyboard. The context menu key can usually be found between the right <userinput>Alt</userinput> and <userinput>Ctrl</userinput> keys or right <userinput>Win</userinput> and <userinput>Ctrl</userinput> keys. Commands available from the context menu are completely identical to the corresponding commands of the main menu and the toolbar.
 </p>
 
-<p><b>Available context menus:</b></p>
+<p><b>Available context menus: _fixme_ [markup]</b></p>
 
 <p>
 <fig id="cmArchive_png">
@@ -34,11 +34,12 @@ The context menu for an element can be called up by right clicking on this eleme
     </image>
 </fig>
 <ul>
-<li><uicontrol>Collapse all</uicontrol>: collapse all branches in the archive;</li>
+<li><uicontrol>Collapse</uicontrol>: collapse the archive;</li>
+<li><uicontrol>Expand</uicontrol>: expand the archive;</li>
 <li><uicontrol>Clear archive</uicontrol>: clear all records from the archive;</li>
 <li><uicontrol>Export</uicontrol>: export contents of the archive.</li>
 </ul>
-<note type ="important">Clearing the archive permanently deletes all records. This is a destructive operation that can not be undone, nor the records be recovered.</note>
+<note type ="important">Clearing the archive permanently deletes all records. Exercise caution as this is a destructive operation that can not be undone.</note>
 </p>
 
 <p>
@@ -62,9 +63,9 @@ The context menu for an element can be called up by right clicking on this eleme
     </image>
 </fig>
 <ul>
-<li><uicontrol>Edit student profile</uicontrol>open student profile in edit mode;</li>
-<li><uicontrol>Move student to archive</uicontrol>prompts for confirmation to move the profile onto the archive;</li>
-<li><uicontrol>Export...</uicontrol>: export student profile from the database.</li>
+<li><uicontrol>Edit student profile</uicontrol> open student profile editor;</li>
+<li><uicontrol>Move student to archive</uicontrol> prompts for confirmation to move the profile to the archive;</li>
+<li><uicontrol>Export</uicontrol>: export student profile from the database.</li>
 </ul>
 </p>
 
@@ -76,9 +77,9 @@ The context menu for an element can be called up by right clicking on this eleme
     </image>
 </fig>
 <ul>
-<li><uicontrol>Add student</uicontrol>: open student profile in addition mode (see <xref keyref="student_add"/>&#160;);</li>
+<li><uicontrol>Add student</uicontrol>: open student profile editor in addition mode (see <xref keyref="student_add"/>&#160;);</li>
 <li><uicontrol>Edit subdivision</uicontrol>: open <wintitle>Subdivision settings</wintitle> in editing mode (see <xref keyref="class_edit"/>&#160;);</li>
-<li><uicontrol>Move to archive</uicontrol>: removes subdivision with confirmation prompt and moves all students associated with it to the archive;</li>
+<li><uicontrol>Remove subdivision _fixme_ [ui]</uicontrol>: removes subdivision with confirmation prompt and moves all students associated with it to the archive;</li>
 <li><uicontrol>Collapse</uicontrol>: collapse subdivision branch in tree view;</li>
 <li><uicontrol>Expand</uicontrol>: expand subdivision branch in tree view;</li>
 <li><uicontrol>Export</uicontrol>: export subdivision data together with all associated students (see <xref keyref="export"/>&#160;).</li>
@@ -93,13 +94,13 @@ The context menu for an element can be called up by right clicking on this eleme
     </image>
 </fig>    
 <ul>
-<li><uicontrol>Edit school profile</uicontrol>;</li>
-<li><uicontrol>Add subdivision</uicontrol>: add a subdivision to the school structure;</li>
+<li><uicontrol>Edit school profile</uicontrol> school profile editor (see _fixme_ [xref];</li>
+<li><uicontrol>Add subdivision</uicontrol>: add a student body subdivision to the school structure;</li>
 <li><uicontrol>Collapse</uicontrol>: collapse tree view;</li>
 <li><uicontrol>Expand</uicontrol>: expand tree branches;</li>
 <li><uicontrol>Export structure</uicontrol>: export school data and subdivision structure  (see <xref keyref="export"/>&#160;);</li>
-<li><uicontrol>Export all</uicontrol>: export all school data with subdivisions and all active students (see <xref keyref="export"/>&#160;);</li>
-<li><uicontrol>Export all students</uicontrol>: export all active students (excluding archive) (see <xref keyref="export"/>&#160;).</li>
+<li><uicontrol>Export all</uicontrol>: export all school data with subdivisions and all active students (excluding the archive) (see <xref keyref="export"/>&#160;);</li>
+<li><uicontrol>Export all students</uicontrol>: export all active students (see <xref keyref="export"/>&#160;).</li>
 </ul>
 </p>
 
@@ -111,9 +112,9 @@ The context menu for an element can be called up by right clicking on this eleme
     </image>
 </fig>
 <ul>
-<li><uicontrol>Add student</uicontrol>: open student profile in addition mode (see <xref keyref="student_add"/>&#160;);</li>
+<li><uicontrol>Add student</uicontrol>: open student profile editor in addition mode (see <xref keyref="student_add"/>&#160;);</li>
 <li><uicontrol>Edit subdivision</uicontrol> : open <wintitle>Subdivision settings</wintitle> in editing mode (see <xref keyref="class_edit"/>&#160;);</li>
-<li><uicontrol>Move to archive</uicontrol>: removes subdivision with confirmation prompt and moves all students associated with it to the archive;</li>
+<li><uicontrol>Remove subdivision _fixme_ [ui]</uicontrol>: remove subdivision with confirmation prompt and move all associated students to the archive;</li>
 <li><uicontrol>Export</uicontrol>: export subdivision data together with all associated students (see <xref keyref="export"/>&#160;).</li>
 </ul>
 </p>
@@ -125,7 +126,7 @@ The context menu for an element can be called up by right clicking on this eleme
       <alt>Student context menu in table view</alt>
     </image>
 </fig>
-Student context menu in table view is completely identical to the one in tree view.
+Student context menu in table view is identical to the one in tree view (see above).
 </p>
 
 <note type ="attention">All types of data export are performed via the context menu of the selected element.</note>

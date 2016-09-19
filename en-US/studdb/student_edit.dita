@@ -15,7 +15,7 @@
               <uicontrol>Edit</uicontrol>
             </menucascade> from the main menu.</li>
           <li>Press the <uicontrol>Edit student profile</uicontrol> button on the toolbar.</li>
-          <li>Select <uicontrol>Edit</uicontrol> item from the student context menu (_fixme_ [xref]) in either tree or table view (_fixme_ [xref]).</li>
+          <li>Select <uicontrol>Edit</uicontrol> item from the student context menu (see <xref keyref="cm"/>&#160;) in either tree or table view (see <xref keyref="tree"/>&#160; and <xref keyref="table"/>&#160;).</li>
           <li>Use the <uicontrol><shortcut>Alt + E</shortcut></uicontrol> keyboard shortcut.</li>
           <li>Select a student in the tree view panel and press either <uicontrol>
               <shortcut>Enter</shortcut>

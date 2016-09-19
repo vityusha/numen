@@ -9,7 +9,7 @@
   <section>
   
 <p>    
-<wintitle>Dialog Nibelung StudDB</wintitle> provides keyboard shortcuts for all major functionality of the database management.
+<wintitle>Dialog Nibelung Student Manager</wintitle> provides keyboard shortcuts for all major functionality of the database management.
 </p>
 
 <p>Shortcuts available for all users:</p>
@@ -96,7 +96,7 @@
 </table>
 
 <p>
-* - command only available in deferred save mode.
+* - only available in deferred save mode (_fixme_ [xref]).
 </p>
 
 <p>Shortcuts available to the administrator:</p>
@@ -138,7 +138,7 @@
                     </row>
                     <row>
                         <entry>4</entry>
-                        <entry>StudDB settings (see (<xref keyref="winoptions"/>&#160;))</entry>
+                        <entry>Student Manager settings (see (<xref keyref="winoptions"/>&#160;))</entry>
                         <entry align="center"><uicontrol><shortcut>Ctrl + H
                         </shortcut></uicontrol></entry>
                     </row>
@@ -175,7 +175,7 @@
 </li>
 </ul>
 
-<note type="tip">Menu item, toolbar entry, or keyboard shortcut corresponding to a function will have no effect if this function is currently unavailable for any reason.</note>
+<note type="tip">Menu item, toolbar entry, or keyboard shortcut corresponding to a function will have no effect if this function is not  available in current context for any reason. For example, <uicontrol>Edit student profile</uicontrol> will have no effect unless a student is selected.</note>
     
   </section>
   </refbody>  

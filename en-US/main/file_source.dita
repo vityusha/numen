@@ -22,7 +22,7 @@
 
 		<p id="ph_1">You can select the fragment by dragging the mouse pointer on the playback bar or on audio waveform. Selected fragment will be displayed in different color.</p>
 
-		<p  id="ph_2">You can set up to 4 bookmarks per track. Use the <uicontrol>+</uicontrol> button to set a bookmark at the current position. A first available number between 1 and 4 will be assigned to this bookmark and corresponding bookmark button becomes enabled. Press this button to instantly skip the playback to the bookmark position. Press the <uicontrol>Х</uicontrol> button followed by the bookmark number button to delete a bookmark.</p>
+		<p  id="ph_2">You can set up to 4 bookmarks per track. Use the <uicontrol>+</uicontrol> button to set a bookmark at the current position. A first available number between 1 and 4 will be assigned to this bookmark and corresponding bookmark button becomes enabled. Press this button to instantly skip the playback to the bookmark position. Press the <uicontrol>X</uicontrol> button followed by the bookmark number button to delete a bookmark.</p>
 
 		<note type="tip">The teacher can listen to the file together with the students by selecting the <uicontrol>Listen</uicontrol> option.</note>
 

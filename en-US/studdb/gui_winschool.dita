@@ -2,7 +2,7 @@
 <!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
 "reference.dtd">
 
-<reference id="winschool" xml:lang="ru-RU">
+<reference id="winschool" xml:lang="en-US">
   <title><wintitle>School profile</wintitle></title>
   <refbody>
   <section>
@@ -20,12 +20,12 @@
 <li>Type of the school;</li>
 <li>Address;</li>
 <li>Phone;</li>
-<li>Url;</li>
-<li>Contacts (academic, technical and other).</li>
+<li>URL;</li>
+<li>Contact information (academic, technical and other).</li>
 </ul>
 </p>
 
-<p>Right click on the school name in the tree view panel (<xref keyref="tree"/>&#160;) and select <uicontrol>Edit school profile</uicontrol> from the context menu to open this window.  You can also access it by selecting the school he tree view panel and pressing <uicontrol><shortcut>F2</shortcut></uicontrol> on your keyboard.</p>        
+<p>This window can be accessed by right clicking on the school name in the tree view panel (<xref keyref="tree"/>&#160;) and selecting <uicontrol>Edit school profile</uicontrol> from the context menu or selecting the school and pressing <uicontrol><shortcut>F2</shortcut></uicontrol> on your keyboard.</p>
 
   </section>
   </refbody>

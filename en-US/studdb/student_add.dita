@@ -12,14 +12,14 @@ A student profile can be added to a student body subdivision by any of the follo
 <ul>
   <li>Select <menucascade><uicontrol>Student</uicontrol><uicontrol>Add</uicontrol></menucascade>.</li>
   <li>Press <uicontrol>Add student</uicontrol> button on the toolbar.</li>
-  <li>Select <uicontrol>Add student</uicontrol> item from either school or subdivision context menu (_fixme_ [xref]).</li>
+  <li>Select <uicontrol>Add student</uicontrol> item from either school or subdivision context menu (see <xref keyref="cm"/>&#160;).</li>
   <li>Press the <uicontrol>Add</uicontrol> button in the properties panel of a newly created subdivision (<xref keyref="addprompt"/>&#160;).</li>
   <li>Use the <uicontrol><shortcut>Alt + A</shortcut></uicontrol> keyboard shortcut.</li>
 </ul>
 </p>
 
 <p>
-A student profile window (<xref keyref="winstudent"/>&#160;) will appear on your screen (see <xref keyref="tree"/>&#160;).
+A student profile window (<xref keyref="winstudent"/>&#160;) will appear on your screen.
 </p>
 
 <p>

@@ -14,7 +14,7 @@ A subdivision can be removed from the student body structure by using either one
 <ul>
 <li>Select <menucascade><uicontrol>Subdivision</uicontrol><uicontrol>Delete</uicontrol></menucascade> from the main menu.</li>
 <li>Press the <uicontrol>Delete subdivision</uicontrol> button on the toolbar.</li>
-<li>Select appropriate item from the subdivision context menu (_fixme_ [xref]) in either tree or panel view (_fixme_ [xref]).</li>
+<li>Select appropriate item from the subdivision context menu (see <xref keyref="cm"/>&#160;) in either tree or panel view (see <xref keyref="tree"/>&#160; and <xref keyref="table"/>&#160;).</li>
 <li>Use the <uicontrol><shortcut>Ctrl + Alt + D</shortcut></uicontrol> keyboard shortcut.</li>
 </ul>
 </p>
@@ -24,7 +24,7 @@ A subdivision can be removed from the student body structure by using either one
 
 <note type="important">Once deleted, the subdivisions are lost forever. Associated student profiles, however, will be simply deactivated and filed to the archive. You can restore students from the archive to another subdivision, or clean the archive manually.</note>
 
-<note type="tip">When <wintitle>Dialog Nibelung StudDB</wintitle> is running in the deferred write mode (see <xref keyref="dbmodes"/>&#160;) the operations are actually performed only when <uicontrol>Save database</uicontrol> function is invoked, or the <uicontrol>autosave</uicontrol> option is activated in database settings (see <xref keyref="winoptions"/>&#160;).</note>
+<note type="tip">When <wintitle>Dialog Nibelung Student Manager</wintitle> is running in the deferred write mode (see <xref keyref="dbmodes"/>&#160;) the operations are actually performed only when <uicontrol>Save database</uicontrol> function is invoked, or the <uicontrol>autosave</uicontrol> option is activated in database settings (see <xref keyref="winoptions"/>&#160;).</note>
 
 </section>
 </refbody>

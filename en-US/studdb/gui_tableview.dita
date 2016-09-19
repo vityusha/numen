@@ -8,7 +8,7 @@
   <section>
   
 <p>
-<wintitle>Dialog Nibelung StudDB</wintitle> presents two different views of the data: tree view (see <xref keyref="tree"/>&#160;) in the left panel and table view in the right one. Table view allows simultaneous display of a large number of database records, search them, sort, and filter. Keyboard hotkeys (<xref keyref="shortcuts"/>&#160;) and context menus (<xref keyref="cm"/>&#160;) are both available in the table view for quick access to the individual student profiles.
+<wintitle>Dialog Nibelung Student Manager</wintitle> presents two different views of the data: tree view (see <xref keyref="tree"/>&#160;) in the left pane of the main window and table view in the right one. Table view allows simultaneous display of a large number of database records, search them, sort, and filter. Keyboard hotkeys (<xref keyref="shortcuts"/>&#160;) and context menus (<xref keyref="cm"/>&#160;) are both available in the table view for quick access to the individual student profiles.
 </p>
 
 <fig id="tableArea_png">
@@ -23,7 +23,7 @@
 <li>subdivision structure: when the school is selected in tree view;</li>
 <li>full list of students: when the school is selected in tree view and <uicontrol>Show all students</uicontrol> button is active in the toolbar (see <xref keyref="toolbar"/>&#160;);</li>
 <li>list of students in a given subdivision: when a subdivision is selected in the tree view;</li>
-<li>list of archived students: then the archive is selected in the tree view.</li>
+<li>list of students in the archive: then the archive is selected in the tree view.</li>
 </ul>
 </p>
 
@@ -38,11 +38,11 @@
 The table view allows you to:
 <ul>
 <li>sort the tables on any column by simply clicking on that column header (<xref keyref="table/tableHeadersSelected_png" type="fig"/>&#160;);</li>
-<li>subsequent clicks on column header reverse the sort order (ascending to descending and vice versa);</li>
+<li>subsequent clicks on column header reverse the sort order;</li>
 <li>double click on any row to edit it;</li>
 <li>context menus (<xref keyref="cm"/>&#160;) are available for every row of the table;</li>
 <li>full text search on all fields using filter tool in the toolbar (see <xref keyref="toolbar"/>&#160;);</li>
-<li>filter on any column by entering search string in the fields immediately below the column header; multiple simultaneous filters are also available.</li>
+<li>filter on any column by entering search string in the fields immediately below the column header; multiple filters can be used simultaneously.</li>
 </ul>
 
 <fig id="tableHeadersSelected_png">

@@ -9,7 +9,7 @@
   <section>
   
 <p>
-<wintitle>Dialog Nibelung StudDB</wintitle> provides two facilities for searching and filtering database records: on any field and on specific fields.</p>
+<wintitle>Dialog Nibelung Student Manager</wintitle> provides two facilities for searching and filtering database records: on any field and on specific fields.</p>
 
 <fig id="filter_png">
     <title>Filter for search on any field</title>
@@ -18,6 +18,8 @@
     </image>
 </fig>
 
+<p>By applying a filter on any field (<xref keyref="search/filter_png" type="fig"/>&#160;) you can search for the records containing specified string anywhere in the records. For example, by entering <userinput>John</userinput> as a filter you can search for all students that have 'John' as a given or middle name as well as those that have 'John' as a part of their family name, e.g. 'Johnson', or even email address, for that matter.</p>
+
 <fig id="filterTable_png">
     <title>Filter for search on specific fields</title>
     <image href="img/filterTable.png" placement="break">
@@ -25,11 +27,10 @@
     </image>
 </fig>
 
-<p>By applying a filter on any field (<xref keyref="search/filter_png" type="fig"/>&#160;) you can search for the records containing specified string anywhere in the records. For example, by entering <userinput>John</userinput> as a filter you can search for all students that have 'John' as a given or middle name as well as those that have 'John' as a part of their family name (or even email address, for that matter), e.g. 'Johnson'.</p>
 
 <p>By applying filters on specific field you can perform a more selective search, e.g. selecting only those students who specifically have 'John' as their given name or 'Johnson' as their family name.</p>
   
-<note type="attention">You can not apply both any field filter and specific fields filter at the same time. You can, however, apply more than one specific field filter.</note>
+<note type="attention">You can not apply both any field filter and specific field filters at the same time. You can, however, apply more than one specific field filter.</note>
 
 </section>
 </refbody>

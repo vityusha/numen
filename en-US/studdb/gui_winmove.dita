@@ -8,7 +8,7 @@
   <section>
   
 <p>
-You can move a student from one school subdivision to another while editing their profile (see <xref keyref="winstudent"/>&#160;) or when restoring that student from the archive (see <xref keyref="archive"/>&#160;) by selecting a new subdivision from the drop down box.
+You can move a student from one subdivision to another while editing their profile (see <xref keyref="winstudent"/>&#160;) or when restoring that student from the archive (see <xref keyref="archive"/>&#160;) by selecting a new subdivision from the drop down list.
 </p>
 
 <fig id="dlgStudentEditDestSelCombo_png">
@@ -19,9 +19,9 @@ You can move a student from one school subdivision to another while editing thei
 </fig>
 
 <fig id="dlgStudentRestoreDestSelCombo_png">
-    <title>Restoring student from archive</title>
+    <title>Restoring student from the archive</title>
     <image href="img/dlgStudentRestoreDestSelCombo.png" placement="break">
-      <alt>Restoring student from archive</alt>
+      <alt>Restoring student from the archive</alt>
     </image>
 </fig>
 

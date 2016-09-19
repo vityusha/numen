@@ -28,22 +28,22 @@
     
 		<section>
 			<title>School</title>
-			In <wintitle>Dialog Nibelung StudDB</wintitle> context: is the root element of the database.
+			In <wintitle>Dialog Nibelung Student Manager</wintitle> context: is the root element of the database.
     </section>
     
 		<section>
 			<title>Subdivision</title>
-			In <wintitle>Dialog Nibelung StudDB</wintitle> context: is a structural subdivision of the student body of the school.
+			In <wintitle>Dialog Nibelung Student Manager</wintitle> context: is a structural subdivision of the student body of the school.
     </section>
     
 		<section>
 			<title>Student</title>
-			In <wintitle>Dialog Nibelung StudDB</wintitle> context: is often interchangeable with student profile, i.e. a set of data about that student.
+			In <wintitle>Dialog Nibelung Student Manager</wintitle> context: is often interchangeable with student profile, i.e. a set of data about that student.
 		</section>
     
     <section>
 			<title>Archive</title>
-			In <wintitle>Dialog Nibelung StudDB</wintitle> context: storage for student profiles deleted from school; also a set of such student profiles.
+			In <wintitle>Dialog Nibelung Student Manager</wintitle> context: storage for student profiles deleted from school; also a set of such student profiles.
     </section>
     
     <section>
@@ -73,12 +73,12 @@
     
     <section>
 			<title>Tree view</title>
-			In <wintitle>Dialog Nibelung StudDB</wintitle> context: left panel of the main window, presenting school structure as a tree.
+			In <wintitle>Dialog Nibelung Student Manager</wintitle> context: left panel of the main window, presenting school structure as a tree.
     </section>
     
 		<section>
 			<title>Table view</title>
-			In <wintitle>Dialog Nibelung StudDB</wintitle> context: right panel of the main window that presents elements of the school as a table.
+			In <wintitle>Dialog Nibelung Student Manager</wintitle> context: right panel of the main window that presents elements of the school as a table.
     </section>
     
 		<section>
@@ -103,7 +103,7 @@
 
 		<section>
 			<title>BYOD (Bring Your Own Device)</title>
-			The practice of using personally owned mobile devices as student workstations. In <wintitle>Dialog Nibelung StudDB</wintitle> context: software feature that allows students to log in from the registered devices without supplying any further credentials.
+			The practice of using personally owned mobile devices as student workstations. In <wintitle>Dialog Nibelung Student Manager</wintitle> context: software feature that allows students to log in from the registered devices without supplying any further credentials.
     </section>
 
 	</refbody>

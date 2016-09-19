@@ -13,8 +13,8 @@
 A student body subdivision can be added to the school structure by either one of the following methods:
 <ul>
   <li>Select <menucascade><uicontrol>Subdivision</uicontrol><uicontrol>Add</uicontrol></menucascade> from the main menu;</li>
-  <li>Press <uicontrol>Add subdivision</uicontrol> button on the toolbar (_fixme_ [xref]);</li>
-  <li>Select <uicontrol>Add subdivision</uicontrol> item from the context menu for the school (_fixme_ [xref]->context menu);</li>
+  <li>Press <uicontrol>Add subdivision</uicontrol> button on the toolbar (see <xref keyref="toolbar"/>&#160;);</li>
+  <li>Select <uicontrol>Add subdivision</uicontrol> item from the context menu for the school (see <xref keyref="cm"/>&#160;);</li>
   <li>Press the <uicontrol>Add</uicontrol> button (see <xref keyref="addprompt"/>&#160;) in the properties panel for a newly created school database;</li>
   <li>Use the <uicontrol><shortcut>Ctrl + Alt + A</shortcut></uicontrol> keyboard shortcut.</li>
 </ul>
