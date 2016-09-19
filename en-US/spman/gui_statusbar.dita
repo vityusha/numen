@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
+"reference.dtd">
+
+<reference id="statusbar" xml:lang="en-US">
+
+  <title>Status bar</title>
+  
+  <refbody>
+  
+  <section>
+<p>The status bar at the bottom of the <wintitle>Dialog Nibelung Student Profiles Manager</wintitle> main window displays
+  <ul>
+    <li>current user name on the left;</li>
+    <li>total number of subdivisions in the school, and</li>
+    <li>total number of students in selected subdivision, on the right.</li>
+  </ul>
+
+  <fig id="statusbar_png">
+    <title>Status bar</title>
+    <image href="img/statusbar.png" placement="break">
+      <alt>Status bar</alt>
+    </image>
+  </fig>
+</p>
+  </section>
+
+  </refbody>
+  
+</reference>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
+"reference.dtd">
+
+<reference id="student_add" xml:lang="en-US">
+  <title>Adding students</title>
+  <refbody>
+  <section>
+  
+<p>
+A student profile can be added to a student body subdivision by any of the following methods:
+<ul>
+  <li>Select <menucascade><uicontrol>Student</uicontrol><uicontrol>Add</uicontrol></menucascade>.</li>
+  <li>Press <uicontrol>Add student</uicontrol> button on the toolbar.</li>
+  <li>Select <uicontrol>Add student</uicontrol> item from either school or subdivision context menu (see <xref keyref="cm"/>&#160;).</li>
+  <li>Press the <uicontrol>Add</uicontrol> button in the properties panel of a newly created subdivision (<xref keyref="addprompt"/>&#160;).</li>
+  <li>Use the <uicontrol><shortcut>Alt + A</shortcut></uicontrol> keyboard shortcut.</li>
+</ul>
+</p>
+
+<p>
+A student profile window (<xref keyref="winstudent"/>&#160;) will appear on your screen.
+</p>
+
+<p>
+Press the <uicontrol>Add</uicontrol> button or <uicontrol><shortcut>Enter</shortcut></uicontrol> key to apply the changes. Press <uicontrol>Cancel</uicontrol> or <uicontrol><shortcut>Esc</shortcut></uicontrol> to cancel it.
+</p>
+
+<note type="important">Active student IDs must be unique and the software will not let you add a profile with duplicate student ID. If you are absolutely sure you need to assign an already existing student ID to a new student, your only options are:
+<ul>
+  <li>change student ID in the already existing student profile;</li>
+  <li>deactivate existing student profile by moving it to the archive.</li>
+</ul>
+</note>
+
+  </section>
+  </refbody>
+</reference>

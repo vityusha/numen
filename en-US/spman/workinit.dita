@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+
+<concept id="init" xml:lang="en-US">
+
+  <title>Software setup</title>
+<conbody>
+<p>
+Before <wintitle>Dialog Nibelung Student Profiles Manager</wintitle> is deployed, it should be set up by either a system administrator (<xref keyref="admin"/>&#160;) or a sufficiently experienced user (<xref keyref="admin"/>&#160;).
+</p>
+<p>
+We recommend the following setup procedure:
+<ul>
+  <li>Log in as <userinput>Admin</userinput> (default password: <userinput>Admin</userinput>) (<xref keyref="admin"/>&#160;);</li>
+  <li>Create a database (<xref keyref="menu"/>&#160;);</li>
+  <li>Specify file name and path;</li>
+  <li>Specify school name, type, address, phone, URL, and contact information (<xref keyref="winschool"/>&#160;);</li>
+  <li>Define student body subdivision structure if necessary (<xref keyref="winclass"/>&#160;);</li>
+  <li>Save the database if deferred mode is active (see <xref keyref="dbmodes"/>&#160;);</li>
+  <li>Close database (<xref keyref="menu"/>&#160;);</li>
+  <li>Open application settings window (<xref keyref="winoptions"/>&#160;) and set the following:
+    <ul>
+      <li>user interface language;</li>
+      <li>path to the database created earlier;</li>
+      <li>set deletion confirmations as necessary;</li>
+      <li>if necessary, set <uicontrol>Deferred mode</uicontrol> and <uicontrol>Autosave</uicontrol> modes and autosave interval;</li>
+      <li>Press <uicontrol>OK</uicontrol>;</li>
+    </ul>
+  </li>
+    <li>Open account management window and create user accounts (<xref keyref="winusers"/>&#160;).</li>
+</ul>
+<wintitle>Dialog Nibelung Student Profiles Manager</wintitle> is set up and ready. End users can now log in with their credentials and work with the database.
+</p>
+</conbody>
+</concept>

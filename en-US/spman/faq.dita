@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
+"reference.dtd">
+
+<reference id="faq" xml:lang="en-US">
+
+  <title>Software prerequisites</title>
+  <refbody>
+  <section>
+    
+        <title>What operating systems <wintitle>Dialog Nibelung Student Profiles Manager</wintitle> is compatible with?</title>
+        <p>Any version of Windows that supports installation of .NET Framework 4.0:
+        <ul>
+            <li>Microsoft Windows XP</li>
+            <li>Microsoft Windows Vista</li>
+            <li>Microsoft Windows 7</li>
+            <li>Microsoft Windows 8</li>
+            <li>Microsoft Windows 8.1</li>
+            <li>Microsoft Windows 10</li>
+            <li>Microsoft Windows Server 2003</li>
+            <li>Microsoft Windows Server 2008</li>
+            <li>Microsoft Windows Server 2012</li>
+        </ul>
+        </p>
+        
+  </section>
+  </refbody>
+  
+</reference>

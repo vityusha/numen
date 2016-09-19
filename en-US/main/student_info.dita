@@ -12,9 +12,9 @@
       </image>
     </fig>
 
-    <p>A student profile can be stored in either class file (see <xref keyref="student_class"/>&#160;) or the student database (see <xref keyref="studdb_intro"/>&#160;). When a student is added to the class, an empty profile is created for them in the class file. This  profile will be used when the student performs roll call registration using their name. This is also the profile that can be edited using the student profile editing window (<xref keyref="student_info/student_card_png" type="fig"/>&#160;)</p>
+    <p>A student profile can be stored in either class file (see <xref keyref="student_class"/>&#160;) or the student database (see <xref keyref="spman_intro"/>&#160;). When a student is added to the class, an empty profile is created for them in the class file. This  profile will be used when the student performs roll call registration using their name. This is also the profile that can be edited using the student profile editing window (<xref keyref="student_info/student_card_png" type="fig"/>&#160;)</p>
     
-    <p>If a student connects from a BYO device or performs roll call registration using their student ID, their profile will be retrieved from the database. If no profile can be found in the database, one from the class file will be used. Use the Student Manager software (see <xref keyref="studdb_intro"/>&#160;) to edit profiles in the database.</p>
+    <p>If a student connects from a BYO device or performs roll call registration using their student ID, their profile will be retrieved from the database. If no profile can be found in the database, one from the class file will be used. Use the Student Manager software (see <xref keyref="spman_intro"/>&#160;) to edit profiles in the database.</p>
     
     <p>Student profile may contain the following data:</p>
     <table frame="topbot">

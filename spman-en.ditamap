@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN"
+"map.dtd">
+
+<map id="spman" xml:lang="en-US">
+  <topicmeta>
+    <shortdesc>This document is a user manual for Dialog Nibelung Student Profiles Manager product</shortdesc>
+    <author type="creator">V. Vinokurov, V. Alexeyev</author>
+    <source/>
+    <publisher>"LAIN" LLC</publisher>
+    <copyright>
+      <copyryear year="2016"/>
+      <copyrholder>"LAIN" LLC</copyrholder>
+    </copyright>
+    <critdates>
+      <created date="04.09.2016"/>
+    </critdates>
+    <prodinfo>
+      <prodname>Dialog Nibelung Student Profiles Manager User Manual</prodname>
+      <vrmlist>
+        <vrm version="3.1.0.1"/>
+      </vrmlist>
+    </prodinfo>
+    <othermeta content="User manual" name="doctype"/>
+    <othermeta content="3.1.0.1" name="docedition"/>
+  </topicmeta>
+  
+  <topicref keys="symbols" href="en-US/spman/comm_symbols.dita" />
+  
+  <topicref keys="spman_intro" href="en-US/spman/comm_intro.dita" />
+  
+  <topichead navtitle="Program setup">
+    <topicref keys="sysreq" href="en-US/spman/install_sysreq.dita" />
+    <topicref keys="hwreq" href="en-US/spman/install_hwreq.dita" />
+    <topicref keys="install_notes" href="en-US/spman/install_notes.dita" />
+  </topichead>
+  
+  <topicref keys="init" href="en-US/spman/workinit.dita" />
+  
+  <topicref keys="workflow" href="en-US/spman/workflow.dita" />
+  
+  <topichead navtitle="Program interface">
+    <topicref keys="winmain" href="en-US/spman/gui_winmain.dita" />
+    <topicref keys="winoptions" href="en-US/spman/gui_winoptions.dita" />
+    <topicref keys="winusers" href="en-US/spman/gui_winusers.dita" />
+    <topicref keys="winuser" href="en-US/spman/gui_winuser.dita" />
+    <topicref keys="winschool" href="en-US/spman/gui_winschool.dita" />
+    <topicref keys="winclass" href="en-US/spman/gui_winclass.dita" />
+    <topicref keys="winstudent" href="en-US/spman/gui_winstudent.dita" />
+    <topicref keys="winmove" href="en-US/spman/gui_winmove.dita" />
+    <topicref keys="addprompt" href="en-US/spman/gui_addprompt.dita" />
+    <topicref keys="menu" href="en-US/spman/gui_mainmenu.dita" />
+    <topicref keys="toolbar" href="en-US/spman/gui_toolbar.dita" />
+    <topicref keys="tree" href="en-US/spman/gui_treeview.dita" />
+    <topicref keys="table" href="en-US/spman/gui_tableview.dita" />
+    <topicref keys="cm" href="en-US/spman/gui_contextmenus.dita" />
+    <topicref keys="statusbar" href="en-US/spman/gui_statusbar.dita" />
+    <topicref keys="shortcuts" href="en-US/spman/gui_shortcuts.dita" />
+    <topicref keys="search" href="en-US/spman/gui_search.dita" />
+    <topicref keys="archive" href="en-US/spman/gui_archive.dita" />
+  </topichead>
+  
+  <topichead navtitle="Working with subdivisions">
+    <topicref keys="class_add" href="en-US/spman/class_add.dita" />
+    <topicref keys="class_edit" href="en-US/spman/class_edit.dita" />
+    <topicref keys="class_remove" href="en-US/spman/class_remove.dita" />
+  </topichead>
+
+  <topichead navtitle="Working with students">
+    <topicref keys="student_add" href="en-US/spman/student_add.dita" />
+    <topicref keys="student_edit" href="en-US/spman/student_edit.dita" />
+    <topicref keys="student_move" href="en-US/spman/student_move.dita" />
+    <topicref keys="student_remove" href="en-US/spman/student_remove.dita" />
+    <topicref keys="student_restore" href="en-US/spman/student_restore.dita" />
+  </topichead>
+
+  <topichead navtitle="Frequently asked questions (FAQ)">
+    <topicref keys="faq" href="en-US/spman/faq.dita" />
+    <topicref keys="faq_install" href="en-US/spman/faq_install.dita" />
+  </topichead>
+  
+  <topicref keys="export" href="en-US/spman/export.dita" />  
+  <topicref keys="tips" href="en-US/spman/tips.dita" />
+  <topicref keys="dbmodes" href="en-US/spman/dbmodes.dita" />
+  <topicref keys="admin" href="en-US/spman/admin.dita" />
+  <topicref keys="errors" href="en-US/spman/errors.dita" />
+  <topicref keys="license" href="en-US/license/license_agreement.dita" />
+  <topicref keys="contacts" href="en-US/concepts/contacts.dita" />
+  <topicref keys="glossary" href="en-US/spman/glossary.dita" />
+  <topicref keys="cert" href="en-US/concepts/certificate.dita" />
+  <topicref keys="ps" href="en-US/spman/ps.dita" toc="no" />
+</map>

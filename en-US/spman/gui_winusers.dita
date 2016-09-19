@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
+"reference.dtd">
+
+<reference id="winusers" xml:lang="en-US">
+  <title><wintitle>Accounts</wintitle> management window</title>
+  <refbody>
+  <section>
+  
+<p>Select <uicontrol>File -> Accounts</uicontrol> from the <wintitle>Student Profiles Manager</wintitle> main menu to open the accounts management window. This command is only available when you are logged in as <userinput>Admin</userinput> (<xref keyref="admin"/>&#160;). Here you can manage accounts of users that are authorized to access the database.</p>
+
+<note type="attention"><wintitle>Student Profiles Manager</wintitle> user accounts are the same as <wintitle>Dialog Nibelung</wintitle> teacher accounts.
+</note>
+
+<fig id="dlgUserControl_png">
+    <title><wintitle>Accounts management</wintitle> window</title>
+    <image href="img/dlgUserControl.png" placement="break">
+      <alt><wintitle>Accounts management</wintitle> window</alt>
+    </image>
+</fig>
+
+<note type="attention"><userinput>Admin</userinput> account can not be deleted as this will preclude many essential operations that can only be performed by the administrator.</note>
+
+<note type="important">You can create user accounts with empty passwords or change passwords of existing account(s) to an empty value if this is absolutely necessary to do so. However, we strongly discourage you from such practices for security reasons.</note>
+  </section>
+  </refbody>
+</reference>

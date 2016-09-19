@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
+"reference.dtd">
+
+<reference id="tips" xml:lang="en-US">
+  <title>Tips and tricks</title>
+  <refbody>
+  <section>
+
+<ul>
+<li>Start with defining student body structure (see <xref keyref="winschool"/>&#160;), then create subdivisions (see <xref keyref="class_add"/>&#160;), then add students to them (see <xref keyref="student_add"/>&#160;).</li>
+
+<li>You can view and edit items selected in the tree view panel (see <xref keyref="tree"/>&#160;) by pressing <uicontrol><shortcut>F2</shortcut></uicontrol> keyboard key.</li>
+
+<li>Navigate user interface with the help of your keyboard as well as mouse: use <uicontrol><shortcut>Tab</shortcut></uicontrol>, <uicontrol><shortcut>Ctrl + Tab</shortcut></uicontrol> and arrow keys on your keyboard. These shortcuts work in both tree and table view (see <xref keyref="winmain/winmain_png" type="fig"/>&#160;) and all other windows.</li>
+
+<li>Hover the mouse pointer over an item in the tree view and a popup box will display a summary of this element.</li>
+
+<li>Drag the separator between tree view and table view panels to change their proportions in the main window.</li>
+
+<li>Every item in both tree view and table view panels has a context menu which can be accesses by right clicking on the item or pressing the context menu key on your keyboard (see <xref keyref="cm"/>&#160; for more details).</li>
+
+<li><menucascade><uicontrol>File</uicontrol><uicontrol>Save database</uicontrol></menucascade> menu item along with the corresponding button on the toolbar becomes available whenever <wintitle>Student Profiles Manager</wintitle> is running in deferred save mode (see <xref keyref="dbmodes"/>&#160;). In this case any database updates will only be saved to disk after this menu item is selected or toolbar button is pressed. The software will also prompt to save any pending updates on logout. The database will be saved automatically in specified intervals if <uicontrol>Autosave</uicontrol> option is checked in <wintitle>Student Profiles Manager</wintitle> settings (see <xref keyref="winoptions"/>&#160;).</li>
+
+<li>Use keyboard arrow keys to quickly fill the <uicontrol>Date of birth</uicontrol> field in the student profile (see <xref keyref="winstudent"/>&#160;).</li>
+
+<li>Drag and drop columns in the table view panel to change their display order.</li>
+
+<li>Drag and drop students in the tree view panel to quickly move them between subdivisions and to/from the archive. Target branch will become highlighted and the element being moved will be appended to the end of the branch list.</li>
+
+<li>Use <uicontrol>Show all students</uicontrol> toolbar button (see <xref keyref="toolbar"/>&#160;) to search for a student for whom you are not sure about their associated subdivision, but know some other data (e.g. name or date of birth).</li>
+
+<li>Export student list for a subdivision or even the whole school to HTML format (see <xref keyref="glossary"/>&#160;) for an at-a-glance overview. This might also be helpful if you need to find students by their images (see section <xref keyref="export"/>&#160; for more details).</li>
+
+</ul>
+  </section>
+  </refbody>
+</reference>

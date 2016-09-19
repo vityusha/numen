@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
+"reference.dtd">
+
+<reference id="archive" xml:lang="en-US">
+
+  <title>Student archive</title>
+  <refbody>
+  <section>
+  
+<p>
+For every school <wintitle>Dialog Nibelung Student Profiles Manager</wintitle> provides an archive for storage of deactivated student profiles.
+</p>
+
+<fig id="archive_png">
+    <title>School archive</title>
+    <image href="img/archive.png" placement="break">
+      <alt>School archive</alt>
+    </image>
+</fig>
+
+<p>
+Any student can be placed in the archive at any time. Students can be restored from the archive to any subdivision. You can also remove student profiles from the archive, which leads to student data being permanently and unrecoverably erased from the database. You can also remove all student data from the archive at once by selecting <uicontrol>Clear archive</uicontrol> item from the context menu.
+</p>
+
+<fig id="msgDeleteUserRequest.png_png">
+    <title>Prompt for moving to archive</title>
+    <image href="img/msgDeleteUserRequest.png" placement="break">
+      <alt>Prompt for moving to archive</alt>
+    </image>
+</fig>
+
+<note type="important">When a subdivision is removed, all student profiles associated with this subdivision are placed in the archive.</note>
+   
+</section>
+</refbody>
+  
+</reference>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
+"reference.dtd">
+
+<reference id="export" xml:lang="en-US">
+
+  <title>Export</title>
+  
+  <refbody>
+  
+    <section>
+<p>
+<wintitle>Dialog Nibelung Student Profiles Manager</wintitle> allows you to export:
+<ul>
+<li>individual student profiles;</li>
+<li>subdivision with all associated students;</li>
+<li>school (brief report);</li>
+<li>school (detailed report);</li>
+<li>archive contents;</li>
+<li>all active students in the school.</li>
+</ul>
+</p>
+
+<p>
+Supported export formats are CSV (comma separated values), TXT (plain text), and HTML (see <xref keyref="glossary"/>&#160;).
+<note type="tip">Profile images are exported along with other profile data when exporting student profiles into HTML. The images will be stored in a folder located in the same directory as the export file and having the same name with addition of <filepath>_files</filepath> suffix.</note>
+</p>
+
+<p>
+All <uicontrol>Export</uicontrol> operations are performed from the corresponding context menus (see <xref keyref="cm"/>&#160;). A <wintitle>Save as</wintitle> window will appear, where you can specify:
+<ul>
+  <li>export format;</li>
+  <li>path;</li>
+  <li>filename.</li>
+</ul>
+
+<fig id="dlgExportExample_png">
+    <title>Export <wintitle>Save as</wintitle> window</title>
+    <image href="img/dlgExportExample.png" placement="break">
+      <alt>Export <wintitle>Save as</wintitle> window</alt>
+    </image>
+</fig>
+
+<note type="tip">If the filename is missing the extension, it will be appended automatically depending on the export format.</note>
+</p>        
+
+    </section>
+  </refbody>
+  
+</reference>

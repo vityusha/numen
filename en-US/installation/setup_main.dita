@@ -16,7 +16,7 @@
     <p>Here you can change:
       <ul>
         <li><uicontrol>path to teacher folders</uicontrol><indexterm>teacher folders</indexterm> where each teacher can store class files, session files, student records, etc.;</li>
-        <li>path to the student database file containing student profiles (see section <xref keyref="studdb_intro"/>&#160;);</li>
+        <li>path to the student database file containing student profiles (see section <xref keyref="spman_intro"/>&#160;);</li>
         <li>user interface language;</li>
         <li>maximum number of groups in the class</li>
         <li>default sound devices for playback and capture.</li>

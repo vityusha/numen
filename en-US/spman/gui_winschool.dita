@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
+"reference.dtd">
+
+<reference id="winschool" xml:lang="en-US">
+  <title><wintitle>School profile</wintitle></title>
+  <refbody>
+  <section>
+  
+<p>
+<fig id="dlgSchoolOpts_png">
+    <title><wintitle>School profile</wintitle> window</title>
+    <image href="img/dlgSchoolOpts.png" placement="break">
+      <alt><wintitle>School profile</wintitle> window</alt>
+    </image>
+</fig>
+<wintitle>School profile</wintitle> window allows you to view and edit the following information for your school:
+<ul>
+<li>Name;</li>
+<li>Type of the school;</li>
+<li>Address;</li>
+<li>Phone;</li>
+<li>URL;</li>
+<li>Contact information (academic, technical and other).</li>
+</ul>
+</p>
+
+<p>This window can be accessed by right clicking on the school name in the tree view panel (<xref keyref="tree"/>&#160;) and selecting <uicontrol>Edit school profile</uicontrol> from the context menu or selecting the school and pressing <uicontrol><shortcut>F2</shortcut></uicontrol> on your keyboard.</p>
+
+  </section>
+  </refbody>
+</reference>

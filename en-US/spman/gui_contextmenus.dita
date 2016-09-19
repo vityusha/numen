@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
+"reference.dtd">
+
+<reference id="cm" xml:lang="en-US">
+  <title>Context menus</title>
+  <refbody>
+  <section>
+  
+<p>
+<wintitle>Dialog Nibelung Student Profiles Manager</wintitle> provides context menus for every record in the database in both tree view and table view (<xref keyref="winmain/winmain_png" type="fig"/>&#160;).
+</p>
+
+<p>Context menus are available for:</p>
+<ul>
+<li>school;</li>
+<li>school subdivisions;</li>
+<li>archive;</li>
+<li>active students;</li>
+<li>archived students.</li>
+</ul>
+
+<p>
+Context menu for an element can be called up by right clicking on this element or selecting it and pressing the context menu key on your keyboard. The context menu key can usually be found between the right <uicontrol><shortcut>Alt</shortcut></uicontrol> and <uicontrol><shortcut>Ctrl</shortcut></uicontrol> keys or right <uicontrol><shortcut>Win</shortcut></uicontrol> and <uicontrol><shortcut>Ctrl</shortcut></uicontrol> keys. Commands available from the context menu are completely identical to the corresponding commands of the main menu and the toolbar.
+</p>
+
+<p>Available context menus:</p>
+
+<p>
+<fig id="cmArchive_png">
+    <title>Archive context menu</title>
+    <image href="img/cmArchive.png" placement="break">
+      <alt>Archive context menu</alt>
+    </image>
+</fig>
+<ul>
+<li><uicontrol>Collapse</uicontrol>: collapse the archive;</li>
+<li><uicontrol>Expand</uicontrol>: expand the archive;</li>
+<li><uicontrol>Clear archive</uicontrol>: clear all records from the archive;</li>
+<li><uicontrol>Export</uicontrol>: export contents of the archive.</li>
+</ul>
+<note type ="important">Clearing the archive permanently deletes all records. Exercise caution as this is a destructive operation that can not be undone.</note>
+</p>
+
+<p>
+<fig id="cmArchiveStudent_png">
+    <title>Archived student profile context menu</title>
+    <image href="img/cmArchiveStudent.png" placement="break">
+      <alt>Archived student profile context menu</alt>
+    </image>
+</fig>
+<ul>
+<li><uicontrol>Restore</uicontrol>: restore the student profile from the archive to the specified subdivision;</li>
+<li><uicontrol>Remove</uicontrol>: remove profile from the archive and delete all profile data.</li>
+</ul>
+</p>
+
+<p>
+<fig id="cmStudent_png">
+    <title>Student context menu</title>
+    <image href="img/cmStudent.png" placement="break">
+      <alt>Student context menu</alt>
+    </image>
+</fig>
+<ul>
+<li><uicontrol>Edit student profile</uicontrol> open student profile editor;</li>
+<li><uicontrol>Move student to archive</uicontrol> prompts for confirmation to move the profile to the archive;</li>
+<li><uicontrol>Export</uicontrol>: export student profile from the database.</li>
+</ul>
+</p>
+
+<p>
+<fig id="cmDepartment_png">
+    <title>Subdivision context menu</title>
+    <image href="img/cmDepartment.png" placement="break">
+      <alt>Subdivision context menu</alt>
+    </image>
+</fig>
+<ul>
+<li><uicontrol>Add student</uicontrol>: open student profile editor in addition mode (see <xref keyref="student_add"/>&#160;);</li>
+<li><uicontrol>Edit subdivision</uicontrol>: open <wintitle>Subdivision settings</wintitle> in editing mode (see <xref keyref="class_edit"/>&#160;);</li>
+<li><uicontrol>Remove subdivision</uicontrol>: removes subdivision with confirmation prompt and moves all students associated with it to the archive;</li>
+<li><uicontrol>Collapse</uicontrol>: collapse subdivision branch in tree view;</li>
+<li><uicontrol>Expand</uicontrol>: expand subdivision branch in tree view;</li>
+<li><uicontrol>Export</uicontrol>: export subdivision data together with all associated students (see <xref keyref="export"/>&#160;).</li>
+</ul>
+</p>
+
+<p>
+<fig id="cmSchool_png">
+    <title>School context menu</title>
+    <image href="img/cmSchool.png" placement="break">
+      <alt>School context menu</alt>
+    </image>
+</fig>    
+<ul>
+<li><uicontrol>Edit school profile</uicontrol> school profile editor (see <xref keyref="winschool"/>&#160;);</li>
+<li><uicontrol>Add subdivision</uicontrol>: add a student body subdivision to the school structure;</li>
+<li><uicontrol>Collapse</uicontrol>: collapse tree view;</li>
+<li><uicontrol>Expand</uicontrol>: expand tree branches;</li>
+<li><uicontrol>Export structure</uicontrol>: export school data and subdivision structure  (see <xref keyref="export"/>&#160;);</li>
+<li><uicontrol>Export all</uicontrol>: export all school data with subdivisions and all active students (excluding the archive) (see <xref keyref="export"/>&#160;);</li>
+<li><uicontrol>Export all students</uicontrol>: export all active students (see <xref keyref="export"/>&#160;).</li>
+</ul>
+</p>
+
+<p>
+<fig id="cmTableDepartment_png">
+    <title>Subdivision context menu in table view</title>
+    <image href="img/cmTableDepartment.png" placement="break">
+      <alt>Subdivision context menu in table view</alt>
+    </image>
+</fig>
+<ul>
+<li><uicontrol>Add student</uicontrol>: open student profile editor in addition mode (see <xref keyref="student_add"/>&#160;);</li>
+<li><uicontrol>Edit subdivision</uicontrol> : open <wintitle>Subdivision settings</wintitle> in editing mode (see <xref keyref="class_edit"/>&#160;);</li>
+<li><uicontrol>Remove subdivision</uicontrol>: remove subdivision with confirmation prompt and move all associated students to the archive;</li>
+<li><uicontrol>Export</uicontrol>: export subdivision data together with all associated students (see <xref keyref="export"/>&#160;).</li>
+</ul>
+</p>
+
+<p>
+<fig id="cmTableStudent_png">
+    <title>Student context menu in table view</title>
+    <image href="img/cmTableStudent.png" placement="break">
+      <alt>Student context menu in table view</alt>
+    </image>
+</fig>
+Student context menu in table view is identical to the one in tree view (see above).
+</p>
+
+<note type ="attention">All types of data export are performed via the context menu of the selected element.</note>
+
+  </section>
+  </refbody>
+</reference>

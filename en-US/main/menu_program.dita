@@ -196,8 +196,8 @@
                             <entry><image href="img/menu/configure-icon.png" placement="break" width="16" align="center"/></entry>
                         </row>
                         <row>
-                            <entry><uicontrol>Student database</uicontrol> (Launch student database manager software (see section <xref keyref="studdb_intro"/>&#160;) on the teacher workstation)</entry>
-                            <entry><image href="img/menu/studdb.png" placement="break" width="16" align="center"/></entry>
+                            <entry><uicontrol>Student database</uicontrol> (Launch student database manager software (see section <xref keyref="spman_intro"/>&#160;) on the teacher workstation)</entry>
+                            <entry><image href="img/menu/spman.png" placement="break" width="16" align="center"/></entry>
                         </row>
                         <row>
                             <entry><uicontrol>Backup and restore</uicontrol> (backup and restore files and data from teacher folder or <wintitle>Dialog Nibelung</wintitle> globally) (see section <xref keyref="tools_backup"/>&#160;)</entry>

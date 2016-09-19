@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
+"reference.dtd">
+
+<reference id="winstudent" xml:lang="en-US">
+  <title>Student profile</title>
+  <refbody>
+  <section>
+  
+<p>At a typical school you will probably spend the bulk of your <wintitle>Dialog Nibelung Student Profiles Manager</wintitle> time using this interface, as setting the school profile and defining subdivisions is more or less a one time job. Student profile can be displayed in one of the four modes, depending on how it was invoked:
+<ul>
+  <li>add student profile to a school subdivision;</li>
+  <li>edit student profile, including moving to another subdivision;</li>
+  <li>delete student profile (the profile will be filed to the archive);</li>
+  <li>restore profile from the archive (this mode is called up from the context menu for archived profiles).</li>
+</ul>
+</p>
+<fig id="dlgStudent_png">
+    <title>Editing a <wintitle>Student profile</wintitle></title>
+    <image href="img/dlgStudent.png" placement="break">
+      <alt>Editing a <wintitle>Student profile</wintitle></alt>
+    </image>
+</fig>
+<note type="tip">You don't have to select a subdivision before adding a student profile. The subdivision can be specified right in the profile (see <xref keyref="winmove"/>&#160;)</note>
+
+<p>Fill in profile fields from the keyboard or by pasting from the clipboard. Most fields are optional and can be left blank if necessary. The only mandatory field is <uicontrol>Student ID</uicontrol>.</p>
+
+<note type="tip">Student IDs must be unique within the given school. The software will not allow you to enter a Student ID that already exists in another student profile.</note>
+
+<note type="tip">BYOD ID (if applicable, see <xref keyref="glossary"/>&#160;) can be looked up in the <wintitle>About</wintitle> window of the <wintitle>Dialog Nibelung</wintitle> student module installed on the device.</note>
+
+<note type="tip">You can assign an image to every student profile. This could be a photo or an avatar in JPG or PNG format. We recommend using square images that are multiples of 128 by 128 pixels (e.g. 512 by 512). If you are using a photo, use a clear, well lit, full face or three-quarters head shot.</note>
+
+<p>Click on the image at the top of <uicontrol>Student profile</uicontrol> panel to set an image. If an image is cleared from the profile, it is only disassociated with the profile without affecting the image file itself.
+
+<fig id="emptyPhoto_png">
+    <title>Empty image icon</title>
+    <image href="img/emptyPhoto.png" placement="break">
+      <alt>Empty image icon</alt>
+    </image>
+</fig>
+</p>
+
+  </section>
+  </refbody>
+</reference>

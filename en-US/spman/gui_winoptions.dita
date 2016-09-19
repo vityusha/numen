@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
+"reference.dtd">
+
+<reference id="winoptions" xml:lang="en-US">
+  <title><wintitle>Settings</wintitle> window</title>
+  <refbody>
+    <section>
+
+      <p>Select <uicontrol>File -> Settings</uicontrol> from the <wintitle>Dialog Nibelung Student Profiles Manager</wintitle> main menu to open the <wintitle>Settings</wintitle> window.</p>
+
+        <p>The <wintitle>Settings</wintitle> window is only accessible if you are logged in as <userinput>Admin</userinput> (see <xref keyref="admin"/>&#160;). It allows you to set:
+        <ul>
+          <li>user interface language;</li>
+          <li><uicontrol>Confirm deletions</uicontrol> option to prompt for confirmation of any action that removes records from the database;</li>
+          <li>path to user database;</li>
+          <li>deferred write mode and autosave mode.</li>
+        </ul>
+
+        <fig id="dlgProgramSettings_png">
+          <title><wintitle>Settings</wintitle> window</title>
+          <image href="img/dlgProgramSettings.png" placement="break">
+            <alt><wintitle>Settings</wintitle> window</alt>
+          </image>
+        </fig>
+      </p>        
+
+    </section>
+  </refbody>
+</reference>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
+"reference.dtd">
+
+<reference id="shortcuts" xml:lang="en-US">
+
+  <title>Keyboard shortcuts</title>
+  <refbody>
+  <section>
+  
+<p>    
+<wintitle>Dialog Nibelung Student Profiles Manager</wintitle> provides keyboard shortcuts for all major functionality of the database management.
+</p>
+
+<p>Shortcuts available for all users:</p>
+
+<table frame="topbot">
+          <tgroup cols="3">
+                <colspec colname="COLSPEC0" colwidth="12"/>
+                <colspec colname="COLSPEC1" colwidth="150"/>
+                <colspec colname="COLSPEC2" colwidth="30*"/>
+                
+          <thead>
+          
+            <row>
+              <entry colname="COLSPEC0" align="left">#</entry>
+              <entry colname="COLSPEC1" align="center">Function</entry>
+              <entry colname="COLSPEC2" align="center">Shortcut</entry>
+            </row>
+            
+          </thead>
+          
+                <tbody>
+                    <row>
+                        <entry>1</entry>
+                        <entry>Save database *</entry>
+                        <entry align="center"><uicontrol><shortcut>Ctrl + S
+                        </shortcut></uicontrol></entry>
+                    </row>
+                    <row>
+                        <entry>2</entry>
+                        <entry>Logout</entry>
+                        <entry align="center"><uicontrol><shortcut>Ctrl + L
+                        </shortcut></uicontrol></entry>
+                    </row>
+                    <row>
+                        <entry>3</entry>
+                        <entry>Quit</entry>
+                        <entry align="center"><uicontrol><shortcut>Alt + F4
+                        </shortcut></uicontrol></entry>
+                    </row>
+                    <row>
+                        <entry>4</entry>
+                        <entry>Add subdivision</entry>
+                        <entry align="center"><uicontrol><shortcut>Ctrl + Alt + A
+                        </shortcut></uicontrol></entry>
+                    </row>
+                    <row>
+                        <entry>5</entry>
+                        <entry>Edit subdivision</entry>
+                        <entry align="center"><uicontrol><shortcut>Ctrl + Alt + E
+                        </shortcut></uicontrol></entry>
+                    </row>
+                    <row>
+                        <entry>6</entry>
+                        <entry>Remove subdivision</entry>
+                        <entry align="center"><uicontrol><shortcut>Ctrl + Alt + D
+                        </shortcut></uicontrol></entry>
+                    </row>
+                    <row>
+                        <entry>7</entry>
+                        <entry>Add student</entry>
+                        <entry align="center"><uicontrol><shortcut>Alt + A
+                        </shortcut></uicontrol></entry>
+                    </row>
+                    <row>
+                        <entry>8</entry>
+                        <entry>Edit student profile</entry>
+                        <entry align="center"><uicontrol><shortcut>Alt + E
+                        </shortcut></uicontrol></entry>
+                    </row>
+                    <row>
+                        <entry>9</entry>
+                        <entry>Archive student</entry>
+                        <entry align="center"><uicontrol><shortcut>Alt + D
+                        </shortcut></uicontrol></entry>
+                    </row>
+                    <row>
+                        <entry>10</entry>
+                        <entry>Display this manual</entry>
+                        <entry align="center"><uicontrol><shortcut>F1
+                        </shortcut></uicontrol></entry>
+                    </row>                                        
+                </tbody>
+                </tgroup>
+</table>
+
+<p>
+* - only available in deferred save mode (see <xref keyref="dbmodes"/>&#160;).
+</p>
+
+<p>Shortcuts available to the administrator:</p>
+
+<table frame="topbot">
+          <tgroup cols="3">
+                <colspec colname="COLSPEC0" colwidth="12"/>
+                <colspec colname="COLSPEC1" colwidth="150"/>
+                <colspec colname="COLSPEC2" colwidth="30*"/>
+                
+          <thead>
+          
+            <row>
+              <entry colname="COLSPEC0" align="left">#</entry>
+              <entry colname="COLSPEC1" align="center">Function</entry>
+              <entry colname="COLSPEC2" align="center">Shortcut</entry>
+            </row>
+            
+          </thead>
+          
+                <tbody>
+                    <row>
+                        <entry>1</entry>
+                        <entry>Create database</entry>
+                        <entry align="center"><uicontrol><shortcut>Ctrl + N
+                        </shortcut></uicontrol></entry>
+                    </row>
+                    <row>
+                        <entry>2</entry>
+                        <entry>Open database</entry>
+                        <entry align="center"><uicontrol><shortcut>Ctrl + O
+                        </shortcut></uicontrol></entry>
+                    </row>
+                    <row>
+                        <entry>3</entry>
+                        <entry>Close database</entry>
+                        <entry align="center"><uicontrol><shortcut>Ctrl + W
+                        </shortcut></uicontrol></entry>
+                    </row>
+                    <row>
+                        <entry>4</entry>
+                        <entry>Student Profiles Manager settings (see (<xref keyref="winoptions"/>&#160;))</entry>
+                        <entry align="center"><uicontrol><shortcut>Ctrl + H
+                        </shortcut></uicontrol></entry>
+                    </row>
+                    <row>
+                        <entry>5</entry>
+                        <entry>User accounts management (see <xref keyref="winusers"/>&#160;)</entry>
+                        <entry align="center"><uicontrol><shortcut>Ctrl + U
+                        </shortcut></uicontrol></entry>
+                    </row>
+                    
+                </tbody>
+                </tgroup>
+</table>
+
+<p>The following functions are only available via the context menus (see <xref keyref="cm"/>&#160;):</p>
+
+<ul>
+<li>Clear archive;</li>
+<li>Collapse tree view branch;</li>
+<li>Expand all;</li>
+<li>Edit school profile;</li>
+<li>Restore student from the archive;</li>
+<li>Remove student from the archive;</li>
+<li>Export:
+<ul>
+<li>all school data;</li>
+<li>all students in the school;</li>
+<li>school profile and structure;</li>
+<li>all students;</li>
+<li>subdivisions;</li>
+<li>individual student profile;</li>
+<li>archive.</li>
+</ul>
+</li>
+</ul>
+
+<note type="tip">Menu item, toolbar entry, or keyboard shortcut corresponding to a function will have no effect if this function is not  available in current context for any reason. For example, <uicontrol>Edit student profile</uicontrol> will have no effect unless a student is selected.</note>
+    
+  </section>
+  </refbody>  
+</reference>

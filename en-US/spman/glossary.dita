@@ -1,0 +1,111 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
+"reference.dtd">
+
+<reference id="glossary" xml:lang="en-US">
+
+	<title>Glossary</title>
+  
+	<prolog />
+  
+	<refbody>
+		
+    <section>
+			<title>Authorization</title>
+      The process of granting access according to a preset policy. This includes identification that establishes user identity, and authentication that ensures that the user is who they claim to be.
+    </section>
+    
+		<section>
+			<title>Database</title>
+		Database is a collection of data usually organized as interconnected tables.
+    </section>      
+
+		<section>
+			<title>Browser</title>
+			Web browser is a software application for retrieving, presenting, and traversing information resources on the World Wide Web.
+      Examples include Firefox, Chrome, Safari, Internet Explorer, etc. 
+    </section>      
+    
+		<section>
+			<title>School</title>
+			In <wintitle>Dialog Nibelung Student Profiles Manager</wintitle> context: is the root element of the database.
+    </section>
+    
+		<section>
+			<title>Subdivision</title>
+			In <wintitle>Dialog Nibelung Student Profiles Manager</wintitle> context: is a structural subdivision of the student body of the school.
+    </section>
+    
+		<section>
+			<title>Student</title>
+			In <wintitle>Dialog Nibelung Student Profiles Manager</wintitle> context: is often interchangeable with student profile, i.e. a set of data about that student.
+		</section>
+    
+    <section>
+			<title>Archive</title>
+			In <wintitle>Dialog Nibelung Student Profiles Manager</wintitle> context: storage for student profiles deleted from school; also a set of such student profiles.
+    </section>
+    
+    <section>
+			<title>Autosave</title>
+      Software feature that automatically saves open document, file, or database.
+    </section>
+    
+		<section>
+			<title>Drag'n'drop</title>
+			Graphic user interface feature that allows user to select an object with the pointing device (mouse), drag it on the screen and drop it to the target area. This can create many kinds of actions between the source and target area, but usually just moves the object from one to the other.
+    </section>
+    
+		<section>
+			<title>Log file</title>
+			A file that lists the actions that have occurred, usually together with their time stamps and other associated information.
+    </section>
+    
+		<section>
+			<title>Administration mode</title>
+			Software mode in which the logged in user is authorized to have administration privileges.
+    </section>
+    
+		<section>
+			<title>Dialog box</title>
+			A window that appears on a computer screen, presenting information or requesting input.
+    </section>
+    
+    <section>
+			<title>Tree view</title>
+			In <wintitle>Dialog Nibelung Student Profiles Manager</wintitle> context: left panel of the main window, presenting school structure as a tree.
+    </section>
+    
+		<section>
+			<title>Table view</title>
+			In <wintitle>Dialog Nibelung Student Profiles Manager</wintitle> context: right panel of the main window that presents elements of the school as a table.
+    </section>
+    
+		<section>
+			<title>TXT (Plain text)</title>
+      Simple text format suitable for viewing and editing by many tools, e.g. <wintitle>Microsoft Windows</wintitle> <wintitle>Notepad</wintitle>.
+    </section>
+    
+		<section>
+			<title>CSV (Comma Separated Values)</title>
+			Simple format for table representation of data. Can be imported and exported to/from most spreadsheet and database software, e.g. <wintitle>Microsoft Excel</wintitle> or its free equivalent <wintitle>Open Office (Libre Office) Calc.</wintitle>
+    </section>
+    
+		<section>
+			<title>HTML (Hypertext Markup Language)</title>
+			A data representation format commonplace on the Word Wide Web. Can be viewed by any web browser.
+    </section>
+
+		<section>
+			<title>PDF (Portable Document Format)</title>
+			Electronic format suitable for presenting documents in a manner independent from application software. hardware, and operating system.
+    </section>
+
+		<section>
+			<title>BYOD (Bring Your Own Device)</title>
+			The practice of using personally owned mobile devices as student workstations. In <wintitle>Dialog Nibelung Student Profiles Manager</wintitle> context: software feature that allows students to log in from the registered devices without supplying any further credentials.
+    </section>
+
+	</refbody>
+  
+</reference>
