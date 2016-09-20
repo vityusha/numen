@@ -196,7 +196,7 @@
                             <entry><image href="img/menu/configure-icon.png" placement="break" width="16" align="center"/></entry>
                         </row>
                         <row>
-                            <entry><uicontrol>Student database</uicontrol> (Launch student database manager software (see section <xref keyref="spman_intro"/>&#160;) on the teacher workstation)</entry>
+                            <entry><uicontrol>Student profiles manager</uicontrol> (Launch student database manager software (see section <xref keyref="spman_intro"/>&#160;) on the teacher workstation)</entry>
                             <entry><image href="img/menu/spman.png" placement="break" width="16" align="center"/></entry>
                         </row>
                         <row>
