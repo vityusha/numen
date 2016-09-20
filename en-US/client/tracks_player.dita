@@ -2,88 +2,89 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="tracks_player" xml:lang="en-US">
-    <title>Master track and student track</title>
-    <conbody>
-	    <p><wintitle>Dialog Nibelung</wintitle> media player supports two separate audio tracks: the master track and the student track. <indexterm>master track</indexterm><keyword>Master track</keyword> can contain any type of audio program from a file. <indexterm>student track</indexterm><keyword>Student track</keyword> is typically used to record student's voice and compare it to the master track.</p>
-		<note type="important">Student track can only be recorded from the student microphone and saved as an <b>NMF</b> file. It can not be imported from a <b>WAV</b> or <b>MP3</b> file.</note>
-		<p>After a file is open in the media player, its name will appear in the panel header and track waveforms will be visualized in the panel (1 and 2 in <xref keyref="tracks_player/track_client_png" type="fig"/>&#160;).</p>
-		<fig id="track_client_png">
-            <title>Master and student tracks panel</title>
-            <image href="img/track_client.png" placement="break">
-			  <alt>Master and student tracks panel</alt>
-            </image>
-        </fig>
-		<p>Elements of the master and student tracks panel:</p>
-		<table frame="topbot">
-            <tgroup cols="2">
-                <colspec colname="COLSPEC0" colwidth="10*"/>
-                <colspec colname="COLSPEC1" colwidth="120*"/>
-                <tbody>
-					<row>
-                        <entry>1</entry>
-                        <entry>Edit file description button</entry>
-                    </row>
-					<row>
-                        <entry>2</entry>
-                        <entry>Subtitles display panel</entry>
-                    </row>
-                    <row>
-                        <entry>3</entry>
-                        <entry>Master track <indexterm>audio visualization</indexterm><keyword>visualization</keyword></entry>
-                    </row>
-					<row>
-                        <entry>4</entry>
-                        <entry>Current position slider</entry>
-                    </row>
-                    <row>
-                        <entry>5</entry>
-                        <entry>Student track visualization</entry>
-                    </row>
-					<row>
-                        <entry>6</entry>
-                        <entry>Master track spectrum</entry>
-                    </row>
-					<row>
-                        <entry>7</entry>
-                        <entry>Student track spectrum</entry>
-                    </row>
-					<row>
-                        <entry>8</entry>
-                        <entry>Playback speed</entry>
-                    </row>
-					<row>
-                        <entry>9</entry>
-                        <entry>Bookmark control buttons</entry>
-                    </row>
-					<row>
-                        <entry>10</entry>
-                        <entry>Mute master track</entry>
-                    </row>
-					<row>
-                        <entry>11</entry>
-                        <entry>Master track volume</entry>
-                    </row>
-					<row>
-                        <entry>12</entry>
-                        <entry>Mute student track</entry>
-                    </row>
-					<row>
-                        <entry>13</entry>
-                        <entry>Student track volume</entry>
-                    </row>
-                </tbody>
-            </tgroup>
-        </table>
-        <p>Use the current position slider (3) to jump to different fragments of the video or audio.</p>
-		<p>Whenever a student track is present, any operation on the media file (playback start/stop/pause, repositioning, fragment selection, etc.) will be performed simultaneously on both master and student tracks.</p>
-		<p>The player has controls for independent volume adjustment (7 and 9) and muting (6 and 8) of both tracks, and playback speed adjustment (5, works in sync for both tracks).</p>
-		<note type="important">Audio visualization and playback speed adjustment are not available during video playback.</note>
-		<p>Use the edit button (10 in <xref keyref="tracks_player/track_client_png" type="fig"/>&#160;) to edit description of the current file or assignment (<xref keyref="tracks_player/nmf_desc_png" type="fig"/>&#160;). The description will be saved along with audio/video data when the file is saved in <b>NMF</b> format. This description will be displayed in place of the file name in the master/student tracks panel title bar.</p>
-        <fig id="nmf_desc_png">
-		   <title><wintitle>Edit file description</wintitle> window</title>
-            <image href="img/nmf_desc.png" placement="break">
-			  <alt><wintitle>Edit file description</wintitle> window</alt>
-            </image>
-        </fig>
-    </conbody>
+  <title>Master track and student track</title>
+  <conbody>
+    <p><wintitle>Dialog Nibelung</wintitle> media player supports two separate audio tracks: the master track and the student track. <indexterm>master track</indexterm><keyword>Master track</keyword> can contain any type of audio program from a file. <indexterm>student track</indexterm><keyword>Student track</keyword> is typically used to record student's voice and compare it to the master track.</p>
+    <note type="important">Student track can only be recorded from the student microphone and saved as an <b>NMF</b> file. It can not be imported from a <b>WAV</b> or <b>MP3</b> file.</note>
+    <p>After a file is open in the media player, its name will appear in the panel header and track waveforms will be visualized in the panel (1 and 2 in <xref keyref="tracks_player/track_client_png" type="fig"/>&#160;).</p>
+    <fig id="track_client_png">
+      <title>Master and student tracks panel</title>
+      <image href="img/track_client.png" placement="break">
+        <alt>Master and student tracks panel</alt>
+      </image>
+    </fig>
+    <p>Elements of the master and student tracks panel:</p>
+    <table frame="topbot">
+      <tgroup cols="2">
+        <colspec colname="COLSPEC0" colwidth="10*"/>
+        <colspec colname="COLSPEC1" colwidth="120*"/>
+        <tbody>
+          <row>
+            <entry>1</entry>
+            <entry>Edit file description button</entry>
+          </row>
+          <row>
+            <entry>2</entry>
+            <entry>Subtitles display panel</entry>
+          </row>
+          <row>
+            <entry>3</entry>
+            <entry>Master track <indexterm>audio visualization</indexterm><keyword>visualization</keyword></entry>
+          </row>
+          <row>
+            <entry>4</entry>
+            <entry>Current position slider</entry>
+          </row>
+          <row>
+            <entry>5</entry>
+            <entry>Student track visualization</entry>
+          </row>
+          <row>
+            <entry>6</entry>
+            <entry>Master track spectrum</entry>
+          </row>
+          <row>
+            <entry>7</entry>
+            <entry>Student track spectrum</entry>
+          </row>
+          <row>
+            <entry>8</entry>
+            <entry>Playback speed</entry>
+          </row>
+          <row>
+            <entry>9</entry>
+            <entry>Bookmark control buttons</entry>
+          </row>
+          <row>
+            <entry>10</entry>
+            <entry>Mute master track</entry>
+          </row>
+          <row>
+            <entry>11</entry>
+            <entry>Master track volume</entry>
+          </row>
+          <row>
+            <entry>12</entry>
+            <entry>Mute student track</entry>
+          </row>
+          <row>
+            <entry>13</entry>
+            <entry>Student track volume</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <note type="important">If video file has been opened track visualization will show audio track of the video file.</note>
+    <p>Use the current position slider (3) to jump to different fragments of the video or audio.</p>
+    <p>Whenever a student track is present, any operation on the media file (playback start/stop/pause, repositioning, fragment selection, etc.) will be performed simultaneously on both master and student tracks.</p>
+    <p>The player has controls for independent volume adjustment (7 and 9) and muting (6 and 8) of both tracks, and playback speed adjustment (5, works in sync for both tracks).</p>
+    <note type="important">Playback speed adjustment are not available during video playback.</note>
+    <p>Use the edit button (10 in <xref keyref="tracks_player/track_client_png" type="fig"/>&#160;) to edit description of the current file or assignment (<xref keyref="tracks_player/nmf_desc_png" type="fig"/>&#160;). The description will be saved along with audio/video data when the file is saved in <b>NMF</b> format. This description will be displayed in place of the file name in the master/student tracks panel title bar.</p>
+    <fig id="nmf_desc_png">
+      <title><wintitle>Edit file description</wintitle> window</title>
+      <image href="img/nmf_desc.png" placement="break">
+        <alt><wintitle>Edit file description</wintitle> window</alt>
+      </image>
+    </fig>
+  </conbody>
 </concept>

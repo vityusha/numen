@@ -22,7 +22,7 @@
                 </ul>
               </li>
               <li>check if database file access is blocked by any third party software, e.g. an antivirus;</li>
-              <li>check the memory for any spurious Student Profiles Manager.exe processes and terminate them if necessary;</li>
+              <li>check the memory for any spurious spman.exe processes and terminate them if necessary;</li>
               <li>check that <filepath>System.Data.SQLite.dll</filepath> file is present in the <wintitle>Dialog Nibelung Student Profiles Manager</wintitle> installation directory. Reinstall the software if it is, in fact, missing.</li>
             </ul>
           </dd>
