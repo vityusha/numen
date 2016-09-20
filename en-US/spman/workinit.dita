@@ -17,7 +17,7 @@ We recommend the following setup procedure:
   <li>Specify file name and path;</li>
   <li>Specify school name, type, address, phone, URL, and contact information (<xref keyref="winschool"/>&#160;);</li>
   <li>Define student body subdivision structure if necessary (<xref keyref="winclass"/>&#160;);</li>
-  <li>Save the database if deferred mode is active (see <xref keyref="dbmodes"/>&#160;);</li>
+  <li>Save the database if deferred mode is active (<xref keyref="dbmodes"/>&#160;);</li>
   <li>Close database (<xref keyref="menu"/>&#160;);</li>
   <li>Open application settings window (<xref keyref="winoptions"/>&#160;) and set the following:
     <ul>

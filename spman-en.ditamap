@@ -87,6 +87,5 @@
   <topicref keys="license" href="en-US/license/license_agreement.dita" />
   <topicref keys="contacts" href="en-US/concepts/contacts.dita" />
   <topicref keys="glossary" href="en-US/spman/glossary.dita" />
-  <topicref keys="cert" href="en-US/concepts/certificate.dita" />
   <topicref keys="ps" href="en-US/spman/ps.dita" toc="no" />
 </map>

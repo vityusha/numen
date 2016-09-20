@@ -12,7 +12,7 @@
         <p>The <wintitle>Settings</wintitle> window is only accessible if you are logged in as <userinput>Admin</userinput> (see <xref keyref="admin"/>&#160;). It allows you to set:
         <ul>
           <li>user interface language;</li>
-          <li><uicontrol>Confirm deletions</uicontrol> option to prompt for confirmation of any action that removes records from the database;</li>
+          <li><uicontrol>Confirm operations</uicontrol> option to prompt for confirmation of such actions as removing records from the database;</li>
           <li>path to user database;</li>
           <li>deferred write mode and autosave mode.</li>
         </ul>
