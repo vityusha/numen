@@ -4,7 +4,7 @@
 <concept id="composition" xml:lang="en-US">
   <title>Overview</title>
   <conbody>
-    <p><wintitle>Dialog Nibelung</wintitle> includes two principal modules: teacher module and student module, together with some additional modules, some of which can be run as standalone programs: quiz module, configuration module, media player, student profiles manager etc. Teacher module should be installed on the teacher workstation and student module should be installed on each student workstation.</p>
+    <p><wintitle>Dialog Nibelung</wintitle> includes two principal modules: teacher module and student module, together with some additional modules, some of which can be run as standalone programs: quiz module, configuration module, media player, student profiles manager, etc. Teacher module should be installed on the teacher workstation and the student module should be installed on each student workstation.</p>
     <p>Teacher module (<xref href="#composition/main_png" type="fig"/>&#160;) controls the computer classroom, transmits audio and video materials, documents, and other files. It also implements other functionality of the language lab.</p>
     <fig id="main_png">
         <title>Teacher module window</title>
