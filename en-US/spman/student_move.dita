@@ -6,13 +6,28 @@
   <title>Moving students</title>
   <refbody>
   <section>
-  
+ 
 <p>
-You can move student profile to another subdivision by either of the two methods:
-<ul>
-<li>Edit student profile (see <xref keyref="winstudent"/>&#160;) and select a different subdivision from the drop-down list.</li>
-<li>Drug and drop (<xref keyref="glossary"/>&#160;) a student to a different subdivision branch in the tree view panel (see <xref keyref="tree"/>&#160;).</li>
-</ul>
+You can move student profile from one subdivision to another while editing their profile (see <xref keyref="winstudent"/>&#160;) or when restoring that student from the archive (see <xref keyref="archive"/>&#160;) by selecting a new subdivision from the drop down list.
+
+<fig id="dlgStudentEditDestSelCombo_png">
+    <title>Drop down list of school subdivisions</title>
+    <image href="img/dlgStudentEditDestSelCombo.png" placement="break">
+      <alt>Drop down list of school subdivisions</alt>
+    </image>
+</fig>
+
+<fig id="dlgStudentRestoreDestSelCombo_png">
+    <title>Restoring student from the archive</title>
+    <image href="img/dlgStudentRestoreDestSelCombo.png" placement="break">
+      <alt>Restoring student from the archive</alt>
+    </image>
+</fig>
+
+<note type="tip">While editing a student profile, their associated subdivision is automatically selected from the drop down box.</note>
+
+<note type="tip">You can easily move student profiles to a different subdivision branch in the tree view panel (see <xref keyref="tree"/>&#160;) using drag and drop (<xref keyref="glossary"/>&#160;).</note>
+
 </p>        
 
   </section>

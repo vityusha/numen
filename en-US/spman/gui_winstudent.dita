@@ -21,7 +21,7 @@
       <alt>Editing a <wintitle>Student profile</wintitle></alt>
     </image>
 </fig>
-<note type="tip">You don't have to select a subdivision before adding a student profile. The subdivision can be specified right in the profile (see <xref keyref="winmove"/>&#160;)</note>
+<note type="tip">You don't have to select a subdivision before adding a student profile. The subdivision can be specified right in the profile (see <xref keyref="student_move"/>&#160;)</note>
 
 <p>Fill in profile fields from the keyboard or by pasting from the clipboard. Most fields are optional and can be left blank if necessary. The only mandatory field is <uicontrol>Student ID</uicontrol>.</p>
 

@@ -5,7 +5,8 @@
     <title>System requirements</title>
 
     <conbody>
-        <p><ul>
+        <p>
+<ul>
         <li>Operating system:
             <ul>
                 <li>Windows XP SP2;</li>
@@ -16,10 +17,11 @@
                 <li>Windows Server 2003;</li>
                 <li>Windows Server 2008, Windows Server 2008 R2;</li>
                 <li>Windows Server 2012, Windows Server 2012 R2;</li>
-            </ul></li>
+            </ul>
+</li>
         <li>.NET Framework 4.0 Client Profile;</li>
-        </ul></p>
-        <p><b>.NET Framework 4.0 Client Profile</b> is included in <wintitle>Dialog Nibelung</wintitle> installation package.</p>
+        </ul>
         </p>
+        <p><b>.NET Framework 4.0 Client Profile</b> is included in <wintitle>Dialog Nibelung</wintitle> installation package.</p>
     </conbody>
 </concept>
