@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
-<concept id="sysreq" xml:lang="en-US">
-    <title>System requirements</title>
 
-    <conbody>
-        <p>
-<ul>
-        <li>Operating system:
-            <ul>
-                <li>Windows XP SP2;</li>
-                <li>Windows Vista;</li>
-                <li>Windows 7;</li>
-                <li>Windows 8, Windows 8.1;</li>
-                <li>Windows 10;</li>
-                <li>Windows Server 2003;</li>
-                <li>Windows Server 2008, Windows Server 2008 R2;</li>
-                <li>Windows Server 2012, Windows Server 2012 R2;</li>
-            </ul>
-</li>
-        <li>.NET Framework 4.0 Client Profile;</li>
+<concept id="sysreq" xml:lang="en-US">
+  <title>System requirements</title>
+  <conbody>
+
+    <ul>
+      <li>Operating system:
+        <ul>
+          <li>Windows XP SP2;</li>
+          <li>Windows Vista;</li>
+          <li>Windows 7;</li>
+          <li>Windows 8, Windows 8.1;</li>
+          <li>Windows 10;</li>
+          <li>Windows Server 2003;</li>
+          <li>Windows Server 2008, Windows Server 2008 R2;</li>
+          <li>Windows Server 2012, Windows Server 2012 R2;</li>
         </ul>
-        </p>
-        <p><b>.NET Framework 4.0 Client Profile</b> is included in <wintitle>Dialog Nibelung</wintitle> installation package.</p>
-    </conbody>
+      </li>
+      <li>.NET Framework 4.0 Client Profile;</li>
+    </ul>
+    <p><b>.NET Framework 4.0 Client Profile</b> is included in <wintitle>Dialog Nibelung</wintitle> installation package.</p>
+
+  </conbody>
 </concept>

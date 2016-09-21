@@ -3,19 +3,18 @@
 "concept.dtd">
 
 <concept id="install_notes" xml:lang="en-US">
-
   <title><wintitle>Student Profiles Manager</wintitle> installation notes</title>
-
   <conbody>    
     <section>
-      Launch <wintitle>Dialog Nibelung Student Profiles Manager</wintitle> installer and follow instructions on your screen to install the software.
-    </section>
-    <section>
+
+      <p>Launch <wintitle>Dialog Nibelung Student Profiles Manager</wintitle> installer and follow instructions on your screen to install the software.</p>
+
       <note type="attention">You will need operating system administrator privileges to install <wintitle>Dialog Nibelung Student Profiles Manager</wintitle>. Day-to-day operations can and should be performed by other users.</note>
+
       <note type="important"><wintitle>Dialog Nibelung Student Profiles Manager</wintitle> has both runtime and install time dependencies: <wintitle>Microsoft .NET Framework 4.0 Client Profile</wintitle> and <wintitle>Windows Installer 4.5</wintitle>. These will be installed as necessary if your computer lacks them. An internet connection is required if these dependencies have to be downloaded.</note>        
+
       <note type="important"><wintitle>Dialog Nibelung Student Profiles Manager</wintitle> online documentation is supplied in <b>PDF</b> format. You will need <b>Adobe Acrobat Reader</b> or other PDF reader to view the documentation.</note>
+
     </section>
-
   </conbody>
-
 </concept>

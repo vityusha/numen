@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
-"concept.dtd">
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
+"reference.dtd">
 
-<concept id="ps" xml:lang="en-US">
+<reference id="ps" xml:lang="en-US">
   <title>Disclaimer</title>
-  <conbody>
+  <refbody>
     <p>Manufacturer reserves the right to modify this software product for the purpose of improvements and introduction of new features not affecting ability of the product to operate under reasonable conditions. This manual may contain certain inaccuracies as the result of such modifications.</p>
-  </conbody>
-</concept>
+  </refbody>
+</reference>

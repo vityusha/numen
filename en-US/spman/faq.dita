@@ -3,27 +3,25 @@
 "concept.dtd">
 
 <concept id="faq" xml:lang="en-US">
-
   <title>Software prerequisites</title>
   <conbody>
-  <section>
-    
-        <title>What operating systems <wintitle>Dialog Nibelung Student Profiles Manager</wintitle> is compatible with?</title>
-        <p>Any version of Windows that supports installation of .NET Framework 4.0:
+    <section>
+
+      <title>What operating systems <wintitle>Dialog Nibelung Student Profiles Manager</wintitle> is compatible with?</title>
+      <p>Any version of Windows that supports installation of .NET Framework 4.0:
         <ul>
-            <li>Microsoft Windows XP</li>
-            <li>Microsoft Windows Vista</li>
-            <li>Microsoft Windows 7</li>
-            <li>Microsoft Windows 8</li>
-            <li>Microsoft Windows 8.1</li>
-            <li>Microsoft Windows 10</li>
-            <li>Microsoft Windows Server 2003</li>
-            <li>Microsoft Windows Server 2008</li>
-            <li>Microsoft Windows Server 2012</li>
+          <li>Microsoft Windows XP</li>
+          <li>Microsoft Windows Vista</li>
+          <li>Microsoft Windows 7</li>
+          <li>Microsoft Windows 8</li>
+          <li>Microsoft Windows 8.1</li>
+          <li>Microsoft Windows 10</li>
+          <li>Microsoft Windows Server 2003</li>
+          <li>Microsoft Windows Server 2008</li>
+          <li>Microsoft Windows Server 2012</li>
         </ul>
-        </p>
-        
-  </section>
+      </p>
+
+    </section>
   </conbody>
-  
 </concept>

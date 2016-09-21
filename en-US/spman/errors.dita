@@ -3,22 +3,19 @@
 "concept.dtd">
 
 <concept id="spman_errors" xml:lang="en-US">
-
   <title>Troubleshooting</title>
-  
   <conbody>
-  
     <section>
+
       <dl>
-      
         <dlentry><dt>Can not open the database</dt>
           <dd>
             <ul>
               <li>Login as system administrator and check if the database file is present at the location specified in system settings. If the database file is missing, your options are:
-               <ul>
-                <li>locate the database file and change settings to point to it;</li>
-                <li>move the database file to the location specified in settings;</li>
-                <li>create a new database and set it as default database;</li>
+                <ul>
+                  <li>locate the database file and change settings to point to it;</li>
+                  <li>move the database file to the location specified in settings;</li>
+                  <li>create a new database and set it as default database;</li>
                 </ul>
               </li>
               <li>check if database file access is blocked by any third party software, e.g. an antivirus;</li>
@@ -36,11 +33,9 @@
             </ul>
           </dd>
         </dlentry>
-        
+
       </dl>
-      
+
     </section>
-    
   </conbody>
-  
 </concept>

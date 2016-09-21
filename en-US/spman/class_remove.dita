@@ -3,29 +3,25 @@
 "concept.dtd">
 
 <concept id="class_remove" xml:lang="en-US">
-
   <title>Removing subdivisions</title>
-  
-<conbody>
-<section>
+  <conbody>
+    <section>
 
-<p>
-A subdivision can be removed from the student body structure by using either one of the following methods:
-<ul>
-<li>Select <menucascade><uicontrol>Subdivision</uicontrol><uicontrol>Delete</uicontrol></menucascade> from the main menu.</li>
-<li>Press the <uicontrol>Delete subdivision</uicontrol> button on the toolbar.</li>
-<li>Select appropriate item from the subdivision context menu (see <xref keyref="cm"/>&#160;) in either tree or panel view (see <xref keyref="tree"/>&#160; and <xref keyref="table"/>&#160;).</li>
-<li>Use the <uicontrol><shortcut>Ctrl + Alt + D</shortcut></uicontrol> keyboard shortcut.</li>
-</ul>
-</p>
+      <p>A subdivision can be removed from the student body structure by using either one of the following methods:
+        <ul>
+          <li>Select <menucascade><uicontrol>Subdivision</uicontrol><uicontrol>Delete</uicontrol></menucascade> from the main menu.</li>
+          <li>Press the <uicontrol>Delete subdivision</uicontrol> button on the toolbar.</li>
+          <li>Select appropriate item from the subdivision context menu (see <xref keyref="cm"/>&#160;) in either tree or panel view (see <xref keyref="tree"/>&#160; and <xref keyref="table"/>&#160;).</li>
+          <li>Use the <uicontrol><shortcut>Ctrl + Alt + D</shortcut></uicontrol> keyboard shortcut.</li>
+        </ul>
+      </p>
 
-<p>A subdivision window in delete mode (see <xref keyref="class_add/dlgDepartment_png" type="fig"/>&#160;) or a confirmation prompt will appear on your screen, depending on the invocation method. Confirm or cancel the operation.
- </p>
+      <p>A subdivision window in delete mode (see <xref keyref="class_add/dlgDepartment_png" type="fig"/>&#160;) or a confirmation prompt will appear on your screen, depending on the invocation method. Confirm or cancel the operation.</p>
 
-<note type="important">Once deleted, the subdivisions are lost forever. Associated student profiles, however, will be simply deactivated and filed to the archive. You can restore students from the archive to another subdivision, or clean the archive manually.</note>
+      <note type="important">Once deleted, the subdivisions are lost forever. Associated student profiles, however, will be simply deactivated and filed to the archive. You can restore students from the archive to another subdivision, or clean the archive manually.</note>
 
-<note type="tip">When <wintitle>Dialog Nibelung Student Profiles Manager</wintitle> is running in the deferred write mode (see <xref keyref="dbmodes"/>&#160;) the operations are actually performed only when <uicontrol>Save database</uicontrol> function is invoked, or the <uicontrol>autosave</uicontrol> option is activated in database settings (see <xref keyref="winoptions"/>&#160;).</note>
+      <note type="tip">When <wintitle>Dialog Nibelung Student Profiles Manager</wintitle> is running in the deferred write mode (see <xref keyref="dbmodes"/>&#160;) the operations are actually performed only when <uicontrol>Save database</uicontrol> function is invoked, or the <uicontrol>autosave</uicontrol> option is activated in database settings (see <xref keyref="winoptions"/>&#160;).</note>
 
-</section>
-</conbody>
+    </section>
+  </conbody>
 </concept>

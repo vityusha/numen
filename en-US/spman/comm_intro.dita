@@ -3,37 +3,35 @@
 "concept.dtd">
 
 <concept id="spman_intro" xml:lang="ru-RU">
-
   <title><wintitle>Student Profiles Manager</wintitle> overview</title>
-
   <conbody>
+    <section>
 
-    <p>
-      <wintitle>Dialog Nibelung Student Profiles Manager</wintitle> is a student database management software with database format compatible with <wintitle>Dialog Nibelung</wintitle> (<xref scope="external" href="http://lainlab.com/"/>&#160;). It can be used in conjunction with <wintitle>Dialog Nibelung</wintitle> or as a standalone student management software.</p>
+      <p><wintitle>Dialog Nibelung Student Profiles Manager</wintitle> is a student database management software with database format compatible with <wintitle>Dialog Nibelung</wintitle> (<xref scope="external" href="http://lainlab.com/"/>&#160;). It can be used in conjunction with <wintitle>Dialog Nibelung</wintitle> or as a standalone student management software.</p>
 
-    <p>
-      <b>Principal features of the <wintitle>Student Profiles Manager</wintitle> are:</b>
+      <p>Principal features of the <wintitle>Student Profiles Manager</wintitle> are:
 
-      <ul>
-        <li>Database management:
-          <ul>
-            <li>create database;</li>
-            <li>set and edit school properties;</li>
-            <li>create and edit student body structure;</li>
-            <li>student profiles management;</li>
-            <li>student archives management;</li>
-          </ul>
-        </li> 
-        <li>student profiles can include a photo or any other image;</li> 
-        <li>full text search for students and school subdivisions;</li>
-        <li>school, subdivision, or student data export into TXT, CSV, and HTML formats;</li> 
-        <li>simplified navigation and full keyboard control;</li> 
-        <li>internationalization and localization support;</li> 
-        <li>instant and deferred database editing;</li> 
-        <li>autosave at preset intervals in deferred mode;</li> 
-        <li>user authentication and database access authorizaton.</li>
-      </ul>
-    </p>
+        <ul>
+          <li>Database management:
+            <ul>
+              <li>create database;</li>
+              <li>set and edit school properties;</li>
+              <li>create and edit student body structure;</li>
+              <li>student profiles management;</li>
+              <li>student archives management;</li>
+            </ul>
+          </li> 
+          <li>student profiles can include a photo or any other image;</li> 
+          <li>full text search for students and school subdivisions;</li>
+          <li>school, subdivision, or student data export into TXT, CSV, and HTML formats;</li> 
+          <li>simplified navigation and full keyboard control;</li> 
+          <li>internationalization and localization support;</li> 
+          <li>instant and deferred database editing;</li> 
+          <li>autosave at preset intervals in deferred mode;</li> 
+          <li>user authentication and database access authorizaton.</li>
+        </ul>
+      </p>
 
+    </section>
   </conbody>
 </concept>

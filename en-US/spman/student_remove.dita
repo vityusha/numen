@@ -3,14 +3,11 @@
 "concept.dtd">
 
 <concept id="student_remove" xml:lang="en-US">
-
   <title>Archiving students</title>
-  
   <conbody>
-  
     <section>
-      <p>
-        Student profiles can be filed to the school archive by any of the following methods:
+
+    <p>Student profiles can be filed to the school archive by any of the following methods:</p>
         <ul>
           <li>Select a student profile, then select <menucascade>
               <uicontrol>Student</uicontrol>
@@ -21,12 +18,9 @@
           <li>Use the <uicontrol><shortcut>Alt + D</shortcut></uicontrol> keyboard shortcut;</li>
           <li>Select a student in the tree view panel and press <uicontrol><shortcut>Delete</shortcut></uicontrol> key (you will be prompted for confirmation).</li>
         </ul>
-      </p>
 
-      <p>A student profile editing window (<xref keyref="winstudent"/>&#160;) will appear on your screen. Press <uicontrol>Delete</uicontrol> button or the <uicontrol><shortcut>Enter</shortcut></uicontrol> key to confirm moving to the archive. Press <uicontrol>Cancel</uicontrol> or <uicontrol><shortcut>Esc</shortcut></uicontrol> to cancel the operation.
-      </p>
+      <p>A student profile editing window (<xref keyref="winstudent"/>&#160;) will appear on your screen. Press <uicontrol>Delete</uicontrol> button or the <uicontrol><shortcut>Enter</shortcut></uicontrol> key to confirm moving to the archive. Press <uicontrol>Cancel</uicontrol> or <uicontrol><shortcut>Esc</shortcut></uicontrol> to cancel the operation.</p>
+      
     </section>
-
   </conbody>
-  
 </concept>

@@ -3,287 +3,274 @@
 "concept.dtd">
 
 <concept id="menu" xml:lang="en-US">
-
   <title>Main menu</title>
-  
   <conbody>
-  
     <section>
-<p>
-<wintitle>Dialog Nibelung Student Profiles Manager</wintitle> main menu consists of:
-<ul>
-<li><uicontrol>File</uicontrol> menu;</li>
-<li><uicontrol>Subdivision</uicontrol> menu;</li>
-<li><uicontrol>Student</uicontrol> menu;</li>
-<li><uicontrol>Help</uicontrol> menu.</li>
-</ul>
-</p>
 
-<fig id="menu_png">
-    <title>Main menu</title>
-    <image href="img/menu.png" placement="break">
-      <alt>Main menu</alt>
-    </image>
-</fig>
+    <p><wintitle>Dialog Nibelung Student Profiles Manager</wintitle> main menu consists of:
+        <ul>
+          <li><uicontrol>File</uicontrol> menu;</li>
+          <li><uicontrol>Subdivision</uicontrol> menu;</li>
+          <li><uicontrol>Student</uicontrol> menu;</li>
+          <li><uicontrol>Help</uicontrol> menu.</li>
+        </ul>
+      </p>
 
-<p>
-<uicontrol>File</uicontrol> menu
-</p>
+      <fig id="menu_png">
+        <title>Main menu</title>
+        <image href="img/menu.png" placement="break">
+          <alt>Main menu</alt>
+        </image>
+      </fig>
 
-<fig id="menuFile_png">
-    <title><uicontrol>File</uicontrol> menu</title>
-    <image href="img/menuFile.png" placement="break">
-      <alt><uicontrol>File</uicontrol> menu</alt>
-    </image>
-</fig>
+      <p><uicontrol>File</uicontrol> menu</p>
 
-<table frame="topbot">
-          <tgroup cols="4">
-                <colspec colname="COLSPEC0" colwidth="12"/>
-                <colspec colname="COLSPEC1" colwidth="100"/>
-                <colspec colname="COLSPEC2" colwidth="30"/>
-                <colspec colname="COLSPEC3" colwidth="50*"/>
-                
+      <fig id="menuFile_png">
+        <title><uicontrol>File</uicontrol> menu</title>
+        <image href="img/menuFile.png" placement="break">
+          <alt><uicontrol>File</uicontrol> menu</alt>
+        </image>
+      </fig>
+
+      <table frame="topbot">
+        <tgroup cols="4">
+          <colspec colname="COLSPEC0" colwidth="12"/>
+          <colspec colname="COLSPEC1" colwidth="100"/>
+          <colspec colname="COLSPEC2" colwidth="30"/>
+          <colspec colname="COLSPEC3" colwidth="50*"/>
+
           <thead>
-          
+
             <row>
               <entry colname="COLSPEC0" align="left">#</entry>
               <entry colname="COLSPEC1" align="center">Item</entry>
               <entry colname="COLSPEC2" align="center">Icon</entry>
               <entry colname="COLSPEC3" align="center">Keyboard shortcut</entry>
             </row>
-            
+
           </thead>
-          
-                <tbody>
-                    <row>
-                        <entry>1</entry>
-                        <entry>Connect to database *</entry>
-                        <entry><image href="img/icons/dbconnect.png" placement="break" width="16" align="center"/></entry>
-                        <entry align="center"><uicontrol><shortcut>Ctrl + O</shortcut></uicontrol></entry>
-                    </row>
-                    
-                    <row>
-                        <entry>2</entry>
-                        <entry>Disconnect from database *</entry>
-                        <entry><image href="img/icons/dbdisconnect.png" placement="break" width="16" align="center"/></entry>
-                        <entry align="center"><uicontrol><shortcut>Ctrl + W</shortcut></uicontrol></entry>
-                    </row>
-                    
-                    <row>
-                        <entry>3</entry>
-                        <entry>Save database **</entry>
-                        <entry><image href="img/icons/save.png" placement="break" width="16" align="center"/></entry>
-                        <entry align="center"><uicontrol><shortcut>Ctrl + S</shortcut></uicontrol></entry>
-                    </row>
-                    
-                    <row>
-                        <entry>4</entry>
-                        <entry>Create database *</entry>
-                        <entry><image href="img/icons/dbcreate.png" placement="break" width="16" align="center"/></entry>
-                        <entry align="center"><uicontrol><shortcut>Ctrl + N</shortcut></uicontrol></entry>
-                    </row>
-                    
-                    <row>
-                        <entry>5</entry>
-                        <entry>Logout</entry>
-                        <entry><image href="img/icons/logout.png" placement="break" width="16" align="center"/></entry>
-                        <entry align="center"><uicontrol><shortcut>Ctrl + L</shortcut></uicontrol></entry>
-                    </row>
-                    
-                    <row>
-                        <entry>6</entry>
-                        <entry>Settings *</entry>
-                        <entry><image href="img/icons/settings.png" placement="break" width="16" align="center"/></entry>
-                        <entry align="center"><uicontrol><shortcut>Ctrl + H</shortcut></uicontrol></entry>                        
-                    </row>
-                    
-                    <row>
-                        <entry>7</entry>
-                        <entry>Accounts management *</entry>
-                        <entry><image href="img/icons/usercontrol.png" placement="break" width="16" align="center"/></entry>
-                        <entry align="center"><uicontrol><shortcut>Ctrl + U</shortcut></uicontrol></entry>                        
-                    </row>        
-                    
-                    <row>
-                        <entry>8</entry>
-                        <entry>Exit</entry>
-                        <entry><image href="img/icons/exit.png" placement="break" width="16" align="center"/></entry>
-                        <entry align="center"><uicontrol><shortcut>Alt + F4</shortcut></uicontrol></entry>
-                    </row>
-                </tbody>
-                </tgroup>
-</table>
 
-<p>
-*  - menu item is only available in administrator mode;
-** - menu item is only available in deferred write mode (see <xref keyref="dbmodes"/>&#160;).
-</p>
+          <tbody>
+            <row>
+              <entry>1</entry>
+              <entry>Connect to database (1)</entry>
+              <entry><image href="img/icons/dbconnect.png" placement="break" width="16" align="center"/></entry>
+              <entry align="center"><uicontrol><shortcut>Ctrl + O</shortcut></uicontrol></entry>
+            </row>
 
-<p>
-<uicontrol>Subdivision</uicontrol> menu
-</p>
+            <row>
+              <entry>2</entry>
+              <entry>Disconnect from database (1)</entry>
+              <entry><image href="img/icons/dbdisconnect.png" placement="break" width="16" align="center"/></entry>
+              <entry align="center"><uicontrol><shortcut>Ctrl + W</shortcut></uicontrol></entry>
+            </row>
 
-<fig id="menuDepartment_png">
-    <title><uicontrol>Subdivision</uicontrol> menu</title>
-    <image href="img/menuDepartment.png" placement="break">
-      <alt><uicontrol>Subdivision</uicontrol> menu</alt>
-    </image>
-</fig>
+            <row>
+              <entry>3</entry>
+              <entry>Save database (2)</entry>
+              <entry><image href="img/icons/save.png" placement="break" width="16" align="center"/></entry>
+              <entry align="center"><uicontrol><shortcut>Ctrl + S</shortcut></uicontrol></entry>
+            </row>
 
-<table frame="topbot">
-          <tgroup cols="4">
-                <colspec colname="COLSPEC0" colwidth="12"/>
-                <colspec colname="COLSPEC1" colwidth="100"/>
-                <colspec colname="COLSPEC2" colwidth="30"/>
-                <colspec colname="COLSPEC3" colwidth="50*"/>
-                
+            <row>
+              <entry>4</entry>
+              <entry>Create database (1)</entry>
+              <entry><image href="img/icons/dbcreate.png" placement="break" width="16" align="center"/></entry>
+              <entry align="center"><uicontrol><shortcut>Ctrl + N</shortcut></uicontrol></entry>
+            </row>
+
+            <row>
+              <entry>5</entry>
+              <entry>Logout</entry>
+              <entry><image href="img/icons/logout.png" placement="break" width="16" align="center"/></entry>
+              <entry align="center"><uicontrol><shortcut>Ctrl + L</shortcut></uicontrol></entry>
+            </row>
+
+            <row>
+              <entry>6</entry>
+              <entry>Settings (1)</entry>
+              <entry><image href="img/icons/settings.png" placement="break" width="16" align="center"/></entry>
+              <entry align="center"><uicontrol><shortcut>Ctrl + H</shortcut></uicontrol></entry>                        
+            </row>
+
+            <row>
+              <entry>7</entry>
+              <entry>Accounts management (1)</entry>
+              <entry><image href="img/icons/usercontrol.png" placement="break" width="16" align="center"/></entry>
+              <entry align="center"><uicontrol><shortcut>Ctrl + U</shortcut></uicontrol></entry>                        
+            </row>        
+
+            <row>
+              <entry>8</entry>
+              <entry>Exit</entry>
+              <entry><image href="img/icons/exit.png" placement="break" width="16" align="center"/></entry>
+              <entry align="center"><uicontrol><shortcut>Alt + F4</shortcut></uicontrol></entry>
+            </row>
+          </tbody>
+        </tgroup>
+      </table>
+
+      <ol>
+        <li>menu item is only available in administrator mode;</li>
+        <li>menu item is only available in deferred write mode (see <xref keyref="dbmodes"/>&#160;).</li>
+      </ol>
+
+      <p><uicontrol>Subdivision</uicontrol> menu</p>
+
+      <fig id="menuDepartment_png">
+        <title><uicontrol>Subdivision</uicontrol> menu</title>
+        <image href="img/menuDepartment.png" placement="break">
+          <alt><uicontrol>Subdivision</uicontrol> menu</alt>
+        </image>
+      </fig>
+
+      <table frame="topbot">
+        <tgroup cols="4">
+          <colspec colname="COLSPEC0" colwidth="12"/>
+          <colspec colname="COLSPEC1" colwidth="100"/>
+          <colspec colname="COLSPEC2" colwidth="30"/>
+          <colspec colname="COLSPEC3" colwidth="50*"/>
+
           <thead>
-          
+
             <row>
               <entry colname="COLSPEC0" align="left">#</entry>
               <entry colname="COLSPEC1" align="center">Item</entry>
               <entry colname="COLSPEC2" align="center">Icon</entry>
               <entry colname="COLSPEC3" align="center">Keyboard shortcut</entry>
             </row>
-            
+
           </thead>
-          
-                <tbody>
-                    <row>
-                        <entry>1</entry>
-                        <entry>Add subdivision</entry>
-                        <entry><image href="img/icons/add.png" placement="break" width="16" align="center"/></entry>
-                        <entry align="center"><uicontrol><shortcut>Ctrl + Alt + A</shortcut></uicontrol></entry>
-                    </row>
-                    
-                    <row>
-                        <entry>2</entry>
-                        <entry>Edit subdivision data</entry>
-                        <entry><image href="img/icons/edit.png" placement="break" width="16" align="center"/></entry>
-                        <entry align="center"><uicontrol><shortcut>Ctrl + Alt + E</shortcut></uicontrol></entry>
-                    </row>
-                    
-                    <row>
-                        <entry>3</entry>
-                        <entry>Move subdivision to archive</entry>
-                        <entry><image href="img/icons/remove.png" placement="break" width="16" align="center"/></entry>
-                        <entry align="center"><uicontrol><shortcut>Ctrl + Alt + D </shortcut></uicontrol></entry>
-                    </row>
-                                  
-                </tbody>
-                </tgroup>
-</table>
 
-<p>
-<uicontrol>Student</uicontrol> menu
-</p>
+          <tbody>
+            <row>
+              <entry>1</entry>
+              <entry>Add subdivision</entry>
+              <entry><image href="img/icons/add.png" placement="break" width="16" align="center"/></entry>
+              <entry align="center"><uicontrol><shortcut>Ctrl + Alt + A</shortcut></uicontrol></entry>
+            </row>
 
-<fig id="menuStudent_png">
-    <title><uicontrol>Student</uicontrol> menu</title>
-    <image href="img/menuStudent.png" placement="break">
-      <alt><uicontrol>Student</uicontrol> menu</alt>
-    </image>
-</fig>
+            <row>
+              <entry>2</entry>
+              <entry>Edit subdivision data</entry>
+              <entry><image href="img/icons/edit.png" placement="break" width="16" align="center"/></entry>
+              <entry align="center"><uicontrol><shortcut>Ctrl + Alt + E</shortcut></uicontrol></entry>
+            </row>
 
-<table frame="topbot">
-          <tgroup cols="4">
-                <colspec colname="COLSPEC0" colwidth="12"/>
-                <colspec colname="COLSPEC1" colwidth="100"/>
-                <colspec colname="COLSPEC2" colwidth="30"/>
-                <colspec colname="COLSPEC3" colwidth="50*"/>
-                
+            <row>
+              <entry>3</entry>
+              <entry>Move subdivision to archive</entry>
+              <entry><image href="img/icons/remove.png" placement="break" width="16" align="center"/></entry>
+              <entry align="center"><uicontrol><shortcut>Ctrl + Alt + D </shortcut></uicontrol></entry>
+            </row>
+
+          </tbody>
+        </tgroup>
+      </table>
+
+      <p><uicontrol>Student</uicontrol> menu</p>
+
+      <fig id="menuStudent_png">
+        <title><uicontrol>Student</uicontrol> menu</title>
+        <image href="img/menuStudent.png" placement="break">
+          <alt><uicontrol>Student</uicontrol> menu</alt>
+        </image>
+      </fig>
+
+      <table frame="topbot">
+        <tgroup cols="4">
+          <colspec colname="COLSPEC0" colwidth="12"/>
+          <colspec colname="COLSPEC1" colwidth="100"/>
+          <colspec colname="COLSPEC2" colwidth="30"/>
+          <colspec colname="COLSPEC3" colwidth="50*"/>
+
           <thead>
-          
+
             <row>
               <entry colname="COLSPEC0" align="left">#</entry>
               <entry colname="COLSPEC1" align="center">Item</entry>
               <entry colname="COLSPEC2" align="center">Icon</entry>
               <entry colname="COLSPEC3" align="center">Keyboard shortcut</entry>
             </row>
-            
+
           </thead>
-          
-                <tbody>
-                    <row>
-                        <entry>1</entry>
-                        <entry>Add student</entry>
-                        <entry><image href="img/icons/personadd.png" placement="break" width="16" align="center"/></entry>
-                        <entry align="center"><uicontrol><shortcut>Alt + A</shortcut></uicontrol></entry>
-                    </row>
-                    
-                    <row>
-                        <entry>2</entry>
-                        <entry>Edit student profile</entry>
-                        <entry><image href="img/icons/personedit.png" placement="break" width="16" align="center"/></entry>
-                        <entry align="center"><uicontrol><shortcut>Alt + E</shortcut></uicontrol></entry>
-                    </row>
-                    
-                    <row>
-                        <entry>3</entry>
-                        <entry>Move student to archive</entry>
-                        <entry><image href="img/icons/persondel.png" placement="break" width="16" align="center"/></entry>
-                        <entry align="center"><uicontrol><shortcut>Alt + D </shortcut></uicontrol></entry>
-                    </row>
-                                  
-                </tbody>
-                </tgroup>
-</table>
 
-<p>
-<uicontrol>Help</uicontrol> menu
-</p>
+          <tbody>
+            <row>
+              <entry>1</entry>
+              <entry>Add student</entry>
+              <entry><image href="img/icons/personadd.png" placement="break" width="16" align="center"/></entry>
+              <entry align="center"><uicontrol><shortcut>Alt + A</shortcut></uicontrol></entry>
+            </row>
 
-<fig id="menuHelp_png">
-    <title><uicontrol>Help</uicontrol> menu</title>
-    <image href="img/menuHelp.png" placement="break">
-      <alt><uicontrol>Help</uicontrol> menu</alt>
-    </image>
-</fig>
+            <row>
+              <entry>2</entry>
+              <entry>Edit student profile</entry>
+              <entry><image href="img/icons/personedit.png" placement="break" width="16" align="center"/></entry>
+              <entry align="center"><uicontrol><shortcut>Alt + E</shortcut></uicontrol></entry>
+            </row>
 
-<table frame="topbot">
-          <tgroup cols="4">
-                <colspec colname="COLSPEC0" colwidth="12"/>
-                <colspec colname="COLSPEC1" colwidth="100"/>
-                <colspec colname="COLSPEC2" colwidth="30"/>
-                <colspec colname="COLSPEC3" colwidth="50*"/>
-                
+            <row>
+              <entry>3</entry>
+              <entry>Move student to archive</entry>
+              <entry><image href="img/icons/persondel.png" placement="break" width="16" align="center"/></entry>
+              <entry align="center"><uicontrol><shortcut>Alt + D </shortcut></uicontrol></entry>
+            </row>
+
+          </tbody>
+        </tgroup>
+      </table>
+
+      <p><uicontrol>Help</uicontrol> menu</p>
+
+      <fig id="menuHelp_png">
+        <title><uicontrol>Help</uicontrol> menu</title>
+        <image href="img/menuHelp.png" placement="break">
+          <alt><uicontrol>Help</uicontrol> menu</alt>
+        </image>
+      </fig>
+
+      <table frame="topbot">
+        <tgroup cols="4">
+          <colspec colname="COLSPEC0" colwidth="12"/>
+          <colspec colname="COLSPEC1" colwidth="100"/>
+          <colspec colname="COLSPEC2" colwidth="30"/>
+          <colspec colname="COLSPEC3" colwidth="50*"/>
+
           <thead>
-          
+
             <row>
               <entry colname="COLSPEC0" align="left">#</entry>
               <entry colname="COLSPEC1" align="center">Item</entry>
               <entry colname="COLSPEC2" align="center">Icon</entry>
               <entry colname="COLSPEC3" align="center">Keyboard shortcut</entry>
             </row>
-            
+
           </thead>
-          
-                <tbody>
-                    <row>
-                        <entry>1</entry>
-                        <entry>User manual</entry>
-                        <entry><image href="img/icons/manual.png" placement="break" width="16" align="center"/></entry>
-                        <entry align="center"><uicontrol><shortcut>F1</shortcut></uicontrol></entry>
-                    </row>
-                    
-                    <row>
-                        <entry>2</entry>
-                        <entry>About</entry>
-                        <entry><image href="img/icons/about.png" placement="break" width="16" align="center"/></entry>
-                        <entry align="center"><uicontrol><shortcut>-</shortcut></uicontrol></entry>
-                    </row>
-         
-                </tbody>
-                </tgroup>
-</table>
 
-<p>
-Each command of the main menu can be invoked either by keyboard shortcut or selecting the item with a mouse. You can also access the main menu from the keyboard by pressing the <uicontrol><shortcut>Alt</shortcut></uicontrol> key.
-</p>
+          <tbody>
+            <row>
+              <entry>1</entry>
+              <entry>User manual</entry>
+              <entry><image href="img/icons/manual.png" placement="break" width="16" align="center"/></entry>
+              <entry align="center"><uicontrol><shortcut>F1</shortcut></uicontrol></entry>
+            </row>
 
-<note type="tip">If the menu item is greyed out or does not respond to the shortcut, this means that the command is not available in current context. For example, you can not edit a student profile if no student is selected.</note>
+            <row>
+              <entry>2</entry>
+              <entry>About</entry>
+              <entry><image href="img/icons/about.png" placement="break" width="16" align="center"/></entry>
+              <entry align="center"><uicontrol><shortcut>-</shortcut></uicontrol></entry>
+            </row>
 
-  </section>
+          </tbody>
+        </tgroup>
+      </table>
+
+      <p>Each command of the main menu can be invoked either by keyboard shortcut or selecting the item with a mouse. You can also access the main menu from the keyboard by pressing the <uicontrol><shortcut>Alt</shortcut></uicontrol> key.</p>
+
+      <note type="tip">If the menu item is greyed out or does not respond to the shortcut, this means that the command is not available in current context. For example, you can not edit a student profile if no student is selected.</note>
+
+    </section>
   </conbody>
 </concept>
