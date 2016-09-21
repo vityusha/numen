@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
-"reference.dtd">
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
 
-<reference id="winstudent" xml:lang="en-US">
+<concept id="winstudent" xml:lang="en-US">
   <title>Student profile</title>
-  <refbody>
+  <conbody>
   <section>
   
 <p>At a typical school you will probably spend the bulk of your <wintitle>Dialog Nibelung Student Profiles Manager</wintitle> time using this interface, as setting the school profile and defining subdivisions is more or less a one time job. Student profile can be displayed in one of the four modes, depending on how it was invoked:
@@ -42,5 +42,5 @@
 </p>
 
   </section>
-  </refbody>
-</reference>
+  </conbody>
+</concept>

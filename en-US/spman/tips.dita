@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
-"reference.dtd">
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
 
-<reference id="tips" xml:lang="en-US">
+<concept id="tips" xml:lang="en-US">
   <title>Tips and tricks</title>
-  <refbody>
+  <conbody>
   <section>
 
 <ul>
@@ -34,5 +34,5 @@
 
 </ul>
   </section>
-  </refbody>
-</reference>
+  </conbody>
+</concept>

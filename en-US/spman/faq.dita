@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
-"reference.dtd">
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
 
-<reference id="faq" xml:lang="en-US">
+<concept id="faq" xml:lang="en-US">
 
   <title>Software prerequisites</title>
-  <refbody>
+  <conbody>
   <section>
     
         <title>What operating systems <wintitle>Dialog Nibelung Student Profiles Manager</wintitle> is compatible with?</title>
@@ -24,6 +24,6 @@
         </p>
         
   </section>
-  </refbody>
+  </conbody>
   
-</reference>
+</concept>

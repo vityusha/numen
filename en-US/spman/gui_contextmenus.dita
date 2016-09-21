@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
-"reference.dtd">
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
 
-<reference id="cm" xml:lang="en-US">
+<concept id="cm" xml:lang="en-US">
   <title>Context menus</title>
-  <refbody>
+  <conbody>
   <section>
   
 <p>
@@ -132,5 +132,5 @@ Student context menu in table view is identical to the one in tree view (see abo
 <note type ="attention">All types of data export are performed via the context menu of the selected element.</note>
 
   </section>
-  </refbody>
-</reference>
+  </conbody>
+</concept>

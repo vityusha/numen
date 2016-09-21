@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
-"reference.dtd">
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
 
-<reference id="toolbar" xml:lang="en-US">
+<concept id="toolbar" xml:lang="en-US">
   <title>Toolbar</title>
-  <refbody>
+  <conbody>
   <section>
   
 <p>
@@ -40,5 +40,5 @@ Apart from providing visual shortcuts to the menu commands, the toolbar also giv
 </fig>
 
   </section>
-  </refbody>
-</reference>
+  </conbody>
+</concept>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
-"reference.dtd">
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
 
-<reference id="student_restore" xml:lang="en-US">
+<concept id="student_restore" xml:lang="en-US">
   <title>Restoring students from the archive</title>
-  <refbody>
+  <conbody>
   <section>
     
 <p>
@@ -16,5 +16,5 @@ You can restore student profile from the archive by any of the following methods
 </p>
 
   </section>
-  </refbody>  
-</reference>
+  </conbody>  
+</concept>

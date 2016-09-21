@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
-"reference.dtd">
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
 
-<reference id="search" xml:lang="en-US">
+<concept id="search" xml:lang="en-US">
 
   <title>Search</title>
-  <refbody>
+  <conbody>
   <section>
   
 <p>
@@ -33,5 +33,5 @@
 <note type="attention">You can not apply both any field filter and specific field filters at the same time. You can, however, apply more than one specific field filter.</note>
 
 </section>
-</refbody>
-</reference>
+</conbody>
+</concept>

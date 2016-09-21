@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
-"reference.dtd">
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
 
-<reference id="faq_install" xml:lang="en-US">
+<concept id="faq_install" xml:lang="en-US">
 
   <title>Installation and setup</title>
   
-  <refbody>
+  <conbody>
   
     <section>
         <title>Any difficulties that can be expected during installation and setup of <wintitle>Dialog Nibelung Student Profiles Manager</wintitle>?</title>
@@ -29,7 +29,7 @@
         <p>The system administrator user name is <userinput>Admin</userinput>.</p>
     </section>
     
-  </refbody>
+  </conbody>
   
-</reference>
+</concept>
 

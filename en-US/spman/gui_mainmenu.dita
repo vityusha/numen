@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
-"reference.dtd">
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
 
-<reference id="menu" xml:lang="en-US">
+<concept id="menu" xml:lang="en-US">
 
   <title>Main menu</title>
   
-  <refbody>
+  <conbody>
   
     <section>
 <p>
@@ -285,5 +285,5 @@ Each command of the main menu can be invoked either by keyboard shortcut or sele
 <note type="tip">If the menu item is greyed out or does not respond to the shortcut, this means that the command is not available in current context. For example, you can not edit a student profile if no student is selected.</note>
 
   </section>
-  </refbody>
-</reference>
+  </conbody>
+</concept>

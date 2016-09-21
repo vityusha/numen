@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
-"reference.dtd">
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
 
-<reference id="winoptions" xml:lang="en-US">
+<concept id="winoptions" xml:lang="en-US">
   <title><wintitle>Settings</wintitle> window</title>
-  <refbody>
+  <conbody>
     <section>
 
       <p>Select <uicontrol>File -> Settings</uicontrol> from the <wintitle>Dialog Nibelung Student Profiles Manager</wintitle> main menu to open the <wintitle>Settings</wintitle> window.</p>
@@ -26,5 +26,5 @@
       </p>        
 
     </section>
-  </refbody>
-</reference>
+  </conbody>
+</concept>

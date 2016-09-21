@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
-"reference.dtd">
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
 
-<reference id="addprompt" xml:lang="en-US">
+<concept id="addprompt" xml:lang="en-US">
   <title>Quick add prompt</title>
-  <refbody>
+  <conbody>
   <section>
   
 <p>
@@ -32,5 +32,5 @@ The quick add prompt appears when either:
 <p>These prompts serve both as a reminder and a shortcut for the user. Just press <uicontrol>Add...</uicontrol> and fill in the form to add students or school subdivisions.</p>
 
 </section>
-</refbody>
-</reference>
+</conbody>
+</concept>

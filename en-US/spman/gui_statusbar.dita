@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
-"reference.dtd">
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
 
-<reference id="statusbar" xml:lang="en-US">
+<concept id="statusbar" xml:lang="en-US">
 
   <title>Status bar</title>
   
-  <refbody>
+  <conbody>
   
   <section>
 <p>The status bar at the bottom of the <wintitle>Dialog Nibelung Student Profiles Manager</wintitle> main window displays
@@ -25,6 +25,6 @@
 </p>
   </section>
 
-  </refbody>
+  </conbody>
   
-</reference>
+</concept>

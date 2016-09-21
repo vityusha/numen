@@ -1,14 +1,14 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
-"reference.dtd">
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
 
-<reference id="glossary" xml:lang="en-US">
+<concept id="glossary" xml:lang="en-US">
 
 	<title>Glossary</title>
   
 	<prolog />
   
-	<refbody>
+	<conbody>
 		
     <section>
 			<title>Authorization</title>
@@ -106,6 +106,6 @@
 			The practice of using personally owned mobile devices as student workstations. In <wintitle>Dialog Nibelung Student Profiles Manager</wintitle> context: software feature that allows students to log in from the registered devices without supplying any further credentials.
     </section>
 
-	</refbody>
+	</conbody>
   
-</reference>
+</concept>

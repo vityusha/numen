@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
-"reference.dtd">
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
 
-<reference id="tree" xml:lang="en-US">
+<concept id="tree" xml:lang="en-US">
   <title>Tree view</title>
-  <refbody>
+  <conbody>
   <section>
   
 <p>
@@ -42,5 +42,5 @@ How to use the tree view:
 </p>        
 
 </section>
-</refbody>
-</reference>
+</conbody>
+</concept>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
-"reference.dtd">
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
 
-<reference id="install_notes" xml:lang="en-US">
+<concept id="install_notes" xml:lang="en-US">
 
   <title><wintitle>Student Profiles Manager</wintitle> installation notes</title>
 
-  <refbody>    
+  <conbody>    
     <section>
       Launch <wintitle>Dialog Nibelung Student Profiles Manager</wintitle> installer and follow instructions on your screen to install the software.
     </section>
@@ -16,6 +16,6 @@
       <note type="important"><wintitle>Dialog Nibelung Student Profiles Manager</wintitle> online documentation is supplied in <b>PDF</b> format. You will need <b>Adobe Acrobat Reader</b> or other PDF reader to view the documentation.</note>
     </section>
 
-  </refbody>
+  </conbody>
 
-</reference>
+</concept>

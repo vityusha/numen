@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
-"reference.dtd">
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
 
-<reference id="export" xml:lang="en-US">
+<concept id="export" xml:lang="en-US">
 
   <title>Export</title>
   
-  <refbody>
+  <conbody>
   
     <section>
 <p>
@@ -45,6 +45,6 @@ All <uicontrol>Export</uicontrol> operations are performed from the correspondin
 </p>        
 
     </section>
-  </refbody>
+  </conbody>
   
-</reference>
+</concept>

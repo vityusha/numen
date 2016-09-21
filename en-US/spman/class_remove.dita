@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
-"reference.dtd">
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
 
-<reference id="class_remove" xml:lang="en-US">
+<concept id="class_remove" xml:lang="en-US">
 
   <title>Removing subdivisions</title>
   
-<refbody>
+<conbody>
 <section>
 
 <p>
@@ -27,5 +27,5 @@ A subdivision can be removed from the student body structure by using either one
 <note type="tip">When <wintitle>Dialog Nibelung Student Profiles Manager</wintitle> is running in the deferred write mode (see <xref keyref="dbmodes"/>&#160;) the operations are actually performed only when <uicontrol>Save database</uicontrol> function is invoked, or the <uicontrol>autosave</uicontrol> option is activated in database settings (see <xref keyref="winoptions"/>&#160;).</note>
 
 </section>
-</refbody>
-</reference>
+</conbody>
+</concept>

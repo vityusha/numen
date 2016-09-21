@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
-"reference.dtd">
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
 
-<reference id="table" xml:lang="en-US">
+<concept id="table" xml:lang="en-US">
   <title>Table view</title>
-  <refbody>
+  <conbody>
   <section>
   
 <p>
@@ -54,5 +54,5 @@ The table view allows you to:
 </p>        
 
   </section>
-  </refbody>
-</reference>
+  </conbody>
+</concept>

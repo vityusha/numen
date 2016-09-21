@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
-"reference.dtd">
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
 
-<reference id="winschool" xml:lang="en-US">
+<concept id="winschool" xml:lang="en-US">
   <title><wintitle>School profile</wintitle></title>
-  <refbody>
+  <conbody>
   <section>
   
 <p>
@@ -28,5 +28,5 @@
 <p>This window can be accessed by right clicking on the school name in the tree view panel (<xref keyref="tree"/>&#160;) and selecting <uicontrol>Edit school profile</uicontrol> from the context menu or selecting the school and pressing <uicontrol><shortcut>F2</shortcut></uicontrol> on your keyboard.</p>
 
   </section>
-  </refbody>
-</reference>
+  </conbody>
+</concept>

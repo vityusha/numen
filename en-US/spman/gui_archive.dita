@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
-"reference.dtd">
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
 
-<reference id="archive" xml:lang="en-US">
+<concept id="archive" xml:lang="en-US">
 
   <title>Student archive</title>
-  <refbody>
+  <conbody>
   <section>
   
 <p>
@@ -33,6 +33,6 @@ Any student can be placed in the archive at any time. Students can be restored f
 <note type="important">When a subdivision is removed, all student profiles associated with this subdivision are placed in the archive.</note>
    
 </section>
-</refbody>
+</conbody>
   
-</reference>
+</concept>

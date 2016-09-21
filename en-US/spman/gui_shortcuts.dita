@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
-"reference.dtd">
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
 
-<reference id="shortcuts" xml:lang="en-US">
+<concept id="shortcuts" xml:lang="en-US">
 
   <title>Keyboard shortcuts</title>
-  <refbody>
+  <conbody>
   <section>
   
 <p>    
@@ -178,5 +178,5 @@
 <note type="tip">Menu item, toolbar entry, or keyboard shortcut corresponding to a function will have no effect if this function is not  available in current context for any reason. For example, <uicontrol>Edit student profile</uicontrol> will have no effect unless a student is selected.</note>
     
   </section>
-  </refbody>  
-</reference>
+  </conbody>  
+</concept>

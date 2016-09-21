@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
-"reference.dtd">
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
 
-<reference id="student_edit" xml:lang="en-US">
+<concept id="student_edit" xml:lang="en-US">
   <title>Editing student profiles</title>
-  <refbody>
+  <conbody>
     <section>
 
       <p>
@@ -29,5 +29,5 @@ A student profile editing window (<xref keyref="winstudent"/>&#160;) will appear
       </p>
 
     </section>
-  </refbody>
-</reference>
+  </conbody>
+</concept>

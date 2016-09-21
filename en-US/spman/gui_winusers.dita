@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
-"reference.dtd">
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
 
-<reference id="winusers" xml:lang="en-US">
+<concept id="winusers" xml:lang="en-US">
   <title><wintitle>Accounts</wintitle> management window</title>
-  <refbody>
+  <conbody>
   <section>
   
 <p>Select <uicontrol>File -> Accounts</uicontrol> from the <wintitle>Student Profiles Manager</wintitle> main menu to open the accounts management window. This command is only available when you are logged in as <userinput>Admin</userinput> (<xref keyref="admin"/>&#160;). Here you can manage accounts of users that are authorized to access the database.</p>
@@ -23,5 +23,5 @@
 
 <note type="important">You can create user accounts with empty passwords or change passwords of existing account(s) to an empty value if this is absolutely necessary to do so. However, we strongly discourage you from such practices for security reasons.</note>
   </section>
-  </refbody>
-</reference>
+  </conbody>
+</concept>
