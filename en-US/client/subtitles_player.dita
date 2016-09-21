@@ -4,7 +4,7 @@
 <concept id="subtitles_player" xml:lang="en-US">
   <title>Subtitles</title>
   <conbody>
-    <p>An audio track can have <indexterm>subtitles</indexterm><keyword>subtitles</keyword> associated with it to help students understand what was said. During playback subtitles will be displayed in special area on the master track (<xref keyref="subtitles_player/subtitle_text_png" type="fig"/>&#160;).</p>
+    <p>An audio track can have <indexterm>subtitles</indexterm><keyword>subtitles</keyword> associated with it to help students understand what was said. During playback subtitles will be displayed in a reserved area of the master track panel (<xref keyref="subtitles_player/subtitle_text_png" type="fig"/>&#160;).</p>
     <fig id="subtitle_text_png">
       <title>Subtitles display in the master track panel</title>
       <image href="img/subtitle_text.png" placement="break">
