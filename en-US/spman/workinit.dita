@@ -28,7 +28,7 @@
       </li>
       <li>Open account management window and create user accounts (<xref keyref="winusers"/>&#160;).</li>
     </ul>
-    <wintitle>Dialog Nibelung Student Profiles Manager</wintitle> is set up and ready. End users can now log in with their credentials and work with the database.
+    <p><wintitle>Dialog Nibelung Student Profiles Manager</wintitle> is set up and ready. End users can now log in with their credentials and work with the database.</p>
 
   </conbody>
 </concept>

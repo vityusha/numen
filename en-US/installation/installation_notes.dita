@@ -8,6 +8,7 @@
     <section>
       <title>Contents of the installation package:</title>
       <ul>
+        <li><filepath>Android</filepath> – <wintitle>Dialog Nibelung</wintitle> student module files for OS <wintitle>Android</wintitle>;</li>
         <li><filepath>Docs</filepath> – <wintitle>Dialog Nibelung</wintitle> documentation;</li>
         <li><filepath>Nibelung</filepath> – <wintitle>Dialog Nibelung</wintitle> distribution folder;
           <ul>
@@ -24,6 +25,7 @@
         <li><filepath>NPW</filepath> – <wintitle>Nibelung Power Watch</wintitle> installation file; NPW is an application for displaying tablets battery status;</li>
         <li><filepath>NQuiz</filepath> – <wintitle>Dialog NQuiz</wintitle> test system with documentation and cross platform installer for standalone use (e.g., on a home computer);</li>
         <li><filepath>SampleContent</filepath> – audio and video examples;</li>
+        <li><filepath>SPMan</filepath> – <wintitle>Nibelung Student Profiles manager</wintitle> - installation files for standalone use (e.g., on a home computer);</li>
       </ul>
 
       <p>The following is also included on the installation CD for your convenience:

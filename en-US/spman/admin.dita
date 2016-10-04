@@ -45,7 +45,7 @@
 
       <note type="important">Change the default administrator password immediately after the installation is complete.</note>
 
-      <note type="tip"><wintitle>Dialog Nibelung Student Profiles Manager</wintitle> keeps a <b>log file</b> of important actions. This file is located in <filepath>%TEMP%\Nibelung\Student Profiles Manager.log</filepath> for the current operating system user.
+      <note type="tip"><wintitle>Dialog Nibelung Student Profiles Manager</wintitle> keeps a <b>log file</b> of important actions. This file is located in <filepath>%TEMP%\Nibelung\SPMan.log</filepath> for the current operating system user.
       </note>
 
       <p>When <wintitle>Dialog Nibelung Student Profiles Manager</wintitle> is running in deferred write mode (see <xref keyref="dbmodes"/>&#160;) it actually creates a temporary copy of the database in <filepath>%TEMP%</filepath> directory. The file name follows the <filepath>"yyyy-MM-DD-mm-ss-spman-tmp.db"</filepath> pattern, for example <b>2016-09-01-18-55-spman-tmp.db</b>. This temporary database is a copy of the opened database with any changes performed since the last <uicontrol>Save database</uicontrol> action. If for any reason you need to recover these unsaved changes, try the following:
