@@ -22,7 +22,8 @@
 				<dd>
 					<ul>
 						<li>network switch does not support <b>IGMP v2</b>;</li>
-						<li>misconfigured sound interface (see <xref keyref="setup_mic_vista"/>&#160;).</li>
+						<li>misconfigured sound interface (see <xref keyref="setup_mic_vista"/>&#160;);</li>
+						<li>в сетевых подключениях активирован "VirtualBox Host-Only Network".</li>
 					</ul>
 				</dd>
 			</dlentry>
@@ -58,6 +59,14 @@
 				<dd>
 					<ul>
 						<li>check for presence and setup of any anti-virus software.</li>
+					</ul>
+				</dd>
+			</dlentry>
+
+			<dlentry><dt>Не работает передача экрана:</dt>
+				<dd>
+					<ul>
+						<li>в настройках программы включите опцию "Оптимизировать Видео для сетей Wi-Fi (отключить multicast)".</li>
 					</ul>
 				</dd>
 			</dlentry>
