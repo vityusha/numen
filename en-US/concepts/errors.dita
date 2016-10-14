@@ -23,7 +23,7 @@
 					<ul>
 						<li>network switch does not support <b>IGMP v2</b>;</li>
 						<li>misconfigured sound interface (see <xref keyref="setup_mic_vista"/>&#160;);</li>
-						<li>disable VirtualBox Host-Only Network network adapter in network connections if it exists.</li>
+						<li>disable <uicontrol>VirtualBox Host-Only Network</uicontrol> network adapter in if it exists in Windows Network Connections.</li>
 					</ul>
 				</dd>
 			</dlentry>
