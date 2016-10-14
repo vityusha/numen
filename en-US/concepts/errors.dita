@@ -23,7 +23,7 @@
 					<ul>
 						<li>network switch does not support <b>IGMP v2</b>;</li>
 						<li>misconfigured sound interface (see <xref keyref="setup_mic_vista"/>&#160;);</li>
-						<li>в сетевых подключениях активирован "VirtualBox Host-Only Network".</li>
+						<li>disable "VirtualBox Host-Only Network" network adapter in network connections if exists.</li>
 					</ul>
 				</dd>
 			</dlentry>
@@ -63,10 +63,10 @@
 				</dd>
 			</dlentry>
 
-			<dlentry><dt>Не работает передача экрана:</dt>
+			<dlentry><dt>Live screen is not displayed on student workstations:</dt>
 				<dd>
 					<ul>
-						<li>в настройках программы включите опцию "Оптимизировать Видео для сетей Wi-Fi (отключить multicast)".</li>
+						<li>select "Optimize video for Wi-Fi networks (disable multicast)" option in teacher module settings (see <xref keyref="setup_main"/>&#160;).</li>
 					</ul>
 				</dd>
 			</dlentry>
