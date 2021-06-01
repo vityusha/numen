@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+
+<concept id="tasks_export" xml:lang="en-US">
+  <title>Экспорт отчета по опубликованным заданиям</title>
+  <conbody>
+  
+  <p>Для создания отчета необходимо на вкладке <uicontrol>Опубликованные задания</uicontrol> выбрать задание, по выполнению которого нужен отчет. Затем следует перейти на вкладку <uicontrol>Выполнение</uicontrol> (см. <xref keyref="tasks_progress"/>&#160;). Для управления отображением имен учащихся в отчете служит опция <uicontrol>Скрыть имена</uicontrol>. При выборе этой опции в отчет будут выводиться только ID учащихся вместо имен.</p>
+
+  <p>После выполнения указанных выше предварительных действий следует нажать кнопку <uicontrol>Экспорт отчета</uicontrol>. Появится стандартный диалог сохранения. Нажатие кнопки диалога <uicontrol>Сохранить</uicontrol> приведет к созданию отчета.</p>
+  
+          <fig id="publish_stage_export_png">
+            <title>Диалог сохранения отчета</title>
+            <image href="img/publish-stage-export.png" placement="break">
+                <alt>Диалог сохранения отчета</alt>
+            </image>
+        </fig>
+		
+  <p>Экспорт возможен в форматы <uicontrol>CSV</uicontrol> и <uicontrol>HTML</uicontrol>.</p>
+  
+<note type="tip">Шаблон для экспорта задания написан на языке <uicontrol>Liquid</uicontrol>, что дает возможность изменить состав и форму экспортируемых данных. Шаблон хранится в файле <filepath>%PROGRAMDATA%\ProgramData\LAIN\Nibelung\data\taskreport.htm</filepath>. До начала правки шаблона рекомендуется сделать его резервную копию, поскольку при повреждении исходного файла экспорт отчета в формат HTML может стать невозможным до переустановки модуля <wintitle>Задания через Интернет</wintitle>!</note>
+
+  </conbody>
+</concept>

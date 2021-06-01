@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+
+<concept id="teacher_mainwin" xml:lang="en-US">
+  <title>Главное окно преподавателя</title>
+  <conbody>
+  
+  <p>При запуске преподавателем модуля <wintitle>Задания через Интернет</wintitle> открывается главное окно.</p>
+  
+  <p>Окно преподавателя содержит следующие вкладки:
+  <ul>
+    <li><uicontrol>Задания</uicontrol> для просмотра, создания и управления шаблонами заданий</li>
+    <li><uicontrol>Опубликованные задания</uicontrol> для просмотра, создания и управления публикациями, созданными для выполнения их учащимися</li>
+    <li><uicontrol>Выполнение</uicontrol> для просмотра хода выполнения задания учащимися, проверки и выставления оценок</li>
+    <li><uicontrol>Обслуживание</uicontrol> (см. <xref keyref="admin_mode"/>&#160;) для проведения системных действий</li>
+  </ul>
+  </p>
+
+          <fig id="teacher_window_png">
+            <title>Главное окно</title>
+            <image href="img/teacher-window.png" placement="break">
+                <alt>Главное окно</alt>
+            </image>
+        </fig>
+  
+        <p>На этом рисунке цифрами обозначены:</p>
+
+<table frame="topbot">
+<tgroup cols="2">
+   <colspec colname="COLSPEC0" colwidth="12"/>
+   <colspec colname="COLSPEC1" colwidth="200*"/>
+   
+<tbody>
+
+<row>
+<entry>1</entry>
+<entry>Вкладка <uicontrol>Задания</uicontrol></entry>
+</row>
+
+<row>
+<entry>2</entry>
+<entry>Вкладка <uicontrol>Опубликованные задания</uicontrol></entry>
+</row>
+
+<row>
+<entry>3</entry>
+<entry>Вкладка <uicontrol>Выполнение</uicontrol></entry>
+</row>
+
+<row>
+<entry>4</entry>
+<entry>Вкладка <uicontrol>Обслуживание</uicontrol></entry>
+</row>
+
+<row>
+<entry>5</entry>
+<entry>Кнопки управления окном и вызова справки</entry>
+</row>
+
+<row>
+<entry>6</entry>
+<entry>Кнопка <uicontrol>Обновить список</uicontrol></entry>
+</row>
+
+<row>
+<entry>7</entry>
+<entry>Кнопка <uicontrol>Назад</uicontrol></entry>
+</row>
+
+<row>
+<entry>8</entry>
+<entry>Кнопка <uicontrol>Назад</uicontrol></entry>
+</row>
+
+<row>
+<entry>9</entry>
+<entry>Кнопка <uicontrol>Закрыть</uicontrol></entry>
+</row>
+
+<row>
+<entry>10</entry>
+<entry>Индикатор квоты</entry>
+</row>
+
+<row>
+<entry>11</entry>
+<entry>Текущий статус работы модуля</entry>
+</row>
+
+<row>
+<entry>12</entry>
+<entry>Индикатор состояния соединения с Интернетом и облачным хранилищем</entry>
+</row>
+
+</tbody>
+</tgroup>
+</table>  
+
+<p>В области с кнопками управления окном находятся стандартные кнопки (свернуть, закрыть, восстановить / максимизировать) и кнопка вызова диалога <uicontrol>О программе</uicontrol> (см. <xref keyref="uic_about"/>&#160;).</p>
+
+<p>Нажатие на кнопку <uicontrol>Обновить список</uicontrol>, в зависимости от текущей вкладки, загружает актуальные данные из облачного хранилища (см. <xref keyref="glossary"/>&#160;). Соотношение между активной вкладкой и типом обновляемых данных пояснено в таблице ниже.</p>
+
+<table frame="topbot">
+<tgroup cols="2">
+   <colspec colname="COLSPEC0" colwidth="150"/>
+   <colspec colname="COLSPEC1" colwidth="200*"/>
+<thead>
+<row>
+  <entry colname="COLSPEC0" align="center"><uicontrol>Активная вкладка</uicontrol></entry>
+  <entry colname="COLSPEC1" align="center">Обновляемая информация</entry>
+</row>
+</thead>
+<tbody>
+
+<row>
+<entry><uicontrol>Задания</uicontrol></entry>
+<entry>Информация о шаблонах заданий и опубликованных заданиях</entry>
+</row>
+
+<row>
+<entry><uicontrol>Опубликованные задания</uicontrol></entry>
+<entry>Информация о выполнении опубликованных заданиях</entry>
+</row>
+
+<row>
+<entry><uicontrol>Выполнение</uicontrol></entry>
+<entry>Информация о выполнении учащимися текущего задания</entry>
+</row>
+
+</tbody>
+</tgroup>
+</table>
+
+<note type="note">Если на момент нажатия кнопки <uicontrol>Обновить список</uicontrol> какие-либо из обновляемых данных были изменены, но не были сохранены пользователем, появится диалог с предложением сохранить сделанные изменения</note>
+
+<p>Статус в нижней части окна меняется при выполнении модулем фактических действий с облачным хранилищем. <uicontrol>Индикатор квоты</uicontrol> в правой части статусной строки визуально отображает процент использования дискового пространства в облачном хранилище. При наведении на него указателя мышки появляется более подробная информация об оставшейся квоте.</p> 
+
+  </conbody>
+</concept>

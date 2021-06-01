@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+
+<concept id="std_menu" xml:lang="en-US">
+  <title>Настройка и запуск модуля "Задания через Интернет" учащимся</title>
+  <conbody>
+  <p>После установки модуля на компьютер учащегося и запуска программы <wintitle>Диалог Nibelung NPlayer</wintitle>, в левом верхнем углу ее окна появится меню <menucascade><uicontrol>Дополнения</uicontrol><uicontrol>Задания через Интернет</uicontrol></menucascade>, изображенное на рисунке ниже.</p>
+  
+  <fig id="student_menu_png">
+            <title>Меню настройки и запуска модуля <wintitle>Задания через Интернет</wintitle> у учащегося (программа <wintitle>Диалог Nibelung NPlayer</wintitle>)</title>
+            <image href="img/student-menu.png" placement="break">
+                <alt>Меню настройки и запуска модуля у учащегося</alt>
+            </image>
+  </fig>
+  
+    <p>Меню содержит два пункта:
+      <ul>
+        <li>Пункт <uicontrol>Задания через Интернет</uicontrol>: открывает интерфейс учащегося (см. <xref keyref="std_mainwin"/>&#160;)</li>
+        <li>Пункт <uicontrol>Настройки дополнения</uicontrol>: открывает диалог настройки</li>
+      </ul>
+    </p>
+	
+	<fig id="student_idSetup_png">
+      <title>Диалог настройки модуля <wintitle>Задания через Интернет</wintitle> у учащегося</title>
+      <image href="img/student-idSetup.png" placement="break">
+        <alt>Диалог настройки модуля у учащегося</alt>
+      </image>
+    </fig>
+	
+	<p>В соответствующие поля необходимо ввести номер и код лицензии, а также ID пользователя. Для разных сценариев использования компьютера для работы с модулем <wintitle>Задания через Интернет</wintitle> настройка перед запуском производится по-разному:
+	
+	<ul>
+	  <li>Единственный учащийся: настройка <uicontrol>однократная</uicontrol></li>
+	  <li>Учащихся несколько, учебное заведение одно: перед началом работы очередного учащегося в диалоге настроек дополнения следует вводить <uicontrol>ID данного учащегося</uicontrol> </li>
+	  <li>Учащихся несколько, учебные заведения разные: перед началом работы очередного учащегося производится полная настройка дополнения (номер и код лицензии, ID)</li>
+	</ul>
+	
+	</p>
+	
+	<p>Номер, код лицензии и свой ID учащиеся получают от преподавателя или лица, ответственного за организацию удаленного обучения с использованием <wintitle>Диалог Nibelung</wintitle>. Про ID пользователя см. подробнее <xref keyref="glossary"/>&#160;.</p>
+ 
+  </conbody>
+</concept>

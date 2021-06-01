@@ -1,0 +1,136 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN"
+"reference.dtd">
+
+<reference id="glossary" xml:lang="en-US">
+  <title>Словарь терминов и определений&#160;</title>
+  <refbody>
+      <section>
+      <title>ID пользователя</title>
+	  
+	  <p>Уникальный идентификатор учащегося в рамках данного учебного заведения; в качестве ID могут использоваться:
+	  <ul>
+	  <li>номер СНИЛС</li>
+	  <li>номер полиса ОМС</li>
+	  <li>номер ученической карточки</li>
+	  <li>email учащегося</li>
+	  <li>номер студенческого билета или ISIC</li>
+	  <li>идентификатор для входа в электронный дневник</li>
+	  <li>номер телефона учащегося</li>
+	  <li>учетный номер учащегося во внутреннем делопроизводстве</li>
+	  <li>иные данные на выбор ответственного лица</li>
+	  </ul>
+	  </p>
+	  
+	  <p>Основными принципами выбора ID пользователя являются:
+      <ul>
+        <li>Наличие ID у <uicontrol>каждого</uicontrol> учащегося</li>
+        <li><uicontrol>Неповторяемость</uicontrol>: учащемуся должен соответствовать ID, <uicontrol>не встречающийся</uicontrol> у других учащихся</li>
+        <li><uicontrol>Согласованность</uicontrol>: сделанный выбор должен быть одинаковым для всех преподавателей и учащихся, использующих модуль в рамках одной лицензии</li>
+      </ul>
+	  
+	<note type="attention">Ошибочный ввод ID пользователя - как при назначении задания преподавателем, так и при настройке дополнения учащимся, - приведет к тому, что задания не будут им получены (а преподаватель, соответственно, не сможет получать результаты выполнения задания учащимся с этим ID)! Эта ситуация будет длиться до тех пор, пока ошибка в ID пользователя не будет исправлена.</note>
+	</p>
+	
+    </section>
+	
+      <section>
+      <title>Статус задания</title>
+	  
+	  <p>Статус задания - свойство опубликованного задания, отражающее ход его жизненного цикла. В терминологии модуля <wintitle>Задания через Интернет</wintitle> задания могут иметь следующие статусы в течение своего жизненного цикла:</p>
+
+<table frame="all" rowsep="1" colsep="1">
+<tgroup cols="3">
+   <colspec colname="COLSPEC0" colwidth="150"/>
+   <colspec colname="COLSPEC2" colwidth="150"/>
+   <colspec colname="COLSPEC3" colwidth="200*"/>
+<thead>
+<row>
+  <entry colname="COLSPEC0" align="center"><uicontrol>Название</uicontrol></entry>
+  <entry colname="COLSPEC1" align="center">Область действия</entry>
+  <entry colname="COLSPEC2" align="center">Описание</entry>
+</row>
+</thead>
+		  
+		  
+<tbody>
+
+<row>
+<entry><image href="img/status-published.png" placement="break" width="130" align="center" /></entry>
+<entry>Общий</entry>
+<entry>задание опубликовано преподавателем для учащихся</entry>
+</row>
+
+<row>
+<entry><image href="img/status-delivered.png" placement="break" width="130" align="center" /></entry>
+<entry>Персональный</entry>
+<entry>задание получено учащимся</entry>
+</row>
+
+<row>
+<entry><image href="img/status-in-progress.png" placement="break" width="130" align="center" /></entry>
+<entry>Персональный</entry>
+<entry>учащийся работает над заданием</entry>
+</row>
+
+<row>
+<entry><image href="img/status-wait-check.png" placement="break" width="130" align="center" /></entry>
+<entry>Персональный</entry>
+<entry>учащийся в ожидании; он закончил выполнение и отправил свой ответ на проверку</entry>
+</row>
+
+<row>
+<entry><image href="img/status-for-revision.png" placement="break" width="130" align="center" /></entry>
+<entry>Персональный</entry>
+<entry>выполнение задания учащимся проверено преподавателем, однако выдано обратно для доработки</entry>
+</row>
+
+<row>
+<entry><image href="img/status-checked.png" placement="break" width="130" align="center" /></entry>
+<entry>Персональный</entry>
+<entry>ответ учащегося проверен и оценен преподавателем</entry>
+</row>
+
+<row>
+<entry><image href="img/status-expired.png" placement="break" width="130" align="center" /></entry>
+<entry>Персональный</entry>
+<entry>выполнение задания учащимся просрочено</entry>
+</row>
+
+<row>
+<entry><image href="img/status-closed.png" placement="break" width="130" align="center" /></entry>
+<entry>Общий</entry>
+<entry>задание более не используется ни преподавателем, ни учащимися</entry>
+</row>
+
+</tbody>
+</tgroup>
+</table>
+
+	  <p>Область действия <uicontrol>Персональный</uicontrol> означает, что статус индивидуален для учащихся задания. Область действия <uicontrol>Общий</uicontrol> означает, что статус относится к к каждому из учащихся, которым выдано задание.</p>
+	  
+<note type="tip">Статусы <uicontrol>Опубликовано</uicontrol>, <uicontrol>На доработку</uicontrol>, <uicontrol>Проверено</uicontrol> и <uicontrol>Закрыто</uicontrol> присваиваются преподавателем. Статусы <uicontrol>Доставлено</uicontrol> и <uicontrol>Просрочено</uicontrol> назначаются автоматически. Статусы <uicontrol>В работе</uicontrol> и <uicontrol>Ожидает проверки</uicontrol> присваиваются учащимся.</note>
+
+    </section>
+	
+   <section>
+      <title>Дистанционное обучение</title>
+	  
+	  <p>В терминологии модуля <wintitle>Задания через Интернет</wintitle> под дистанционным обучением понимается любые форма и содержание учебного процесса, при которых используются возможности модуля. Это может быть:
+	  <ul>
+	    <li>заочное обучение</li>
+	    <li>работа с дополнительными заданиями при очной форме обучения</li>
+	    <li>дистанционная форма обучения, введенная особым распоряжением</li>
+	    <li>индивидуальная работа с учащимся в случае болезни или при иных обстоятельствах</li>
+		<li>любые другие ситуации и сценарии, в которых модуль <wintitle>Задания через Интернет</wintitle> используется преподавательским составом с целью обучения в рамках учебных программ или вне таковых</li>
+	  </ul>
+	  </p>
+   </section>
+   
+    <section>
+      <title>Облачное хранилище</title>
+	  <p>Инфраструктурная часть модуля <wintitle>Задания через Интернет</wintitle>, находящаяся в сети Интернет. В облачном хранилище находятся все шаблоны заданий, опубликованные задания, ответы учащихся и другие подобные данные. Обмен информацией между преподавателем и учащимися в процессе дистанционного обучения осуществляется через облачное хранилище.</p>
+   </section>
+   
+  </refbody>
+</reference>

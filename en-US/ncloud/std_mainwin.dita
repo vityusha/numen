@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+
+<concept id="std_mainwin" xml:lang="en-US">
+  <title>Окно для работы над заданиями</title>
+  <conbody>
+  <p>При запуске модуля <wintitle>Задания через Интернет</wintitle> учащимся (см. <xref keyref="std_menu"/>&#160;) открывается окно для работы над заданиями.</p>
+
+        <fig id="student_window_png">
+            <title>Окно учащегося</title>
+            <image href="img/student-window.png" placement="break">
+                <alt>Окно учащегося</alt>
+            </image>
+        </fig>
+        <p>На этом рисунке цифрами обозначены:</p>
+
+<table frame="topbot">
+<tgroup cols="2">
+   <colspec colname="COLSPEC0" colwidth="12"/>
+   <colspec colname="COLSPEC1" colwidth="200*"/>
+   
+<tbody>
+
+<row>
+<entry>1</entry>
+<entry>Область управления окном и вызова справки</entry>
+</row>
+
+<row>
+<entry>2</entry>
+<entry>Список назначенных заданий</entry>
+</row>
+
+<row>
+<entry>3</entry>
+<entry>Кнопка <uicontrol>Обновить список</uicontrol></entry>
+</row>
+
+<row>
+<entry>4</entry>
+<entry>Фильтр заданий</entry>
+</row>
+
+<row>
+<entry>5</entry>
+<entry>Область задания</entry>
+</row>
+
+<row>
+<entry>6</entry>
+<entry>Область действий над заданием</entry>
+</row>
+
+<row>
+<entry>7</entry>
+<entry>Статусная строка</entry>
+</row>
+
+<row>
+<entry>8</entry>
+<entry>Кнопка <uicontrol>Закрыть</uicontrol></entry>
+</row>
+
+</tbody>
+</tgroup>
+</table>
+
+<p>Область управления окном содержит стандартные кнопки (свернуть, закрыть, восстановить / максимизировать) и кнопку вызова диалога <uicontrol>О программе</uicontrol> (см. <xref keyref="uic_about"/>&#160;).</p>
+
+<p>Список заданий содержит основные сведения о существующих заданиях; для выбора задания следует выделить его в списке.</p>
+
+<p>Для обновления списка заданий служит кнопка <uicontrol>Обновить список</uicontrol>. При ее нажатии будет предложено сохранить сделанные изменения, после чего из облачного хранилища (см. <xref keyref="glossary"/>&#160;) будет загружена последняя версия заданий для учащегося, включая (при наличии): новые задания, изменения в статусах заданий, оценки, комментарии.</p>
+
+<p>Фильтр заданий предназначен для управления показом неактивных и закрытых заданий.</p>
+
+<table frame="topbot">
+<tgroup cols="2">
+   <colspec colname="COLSPEC0" colwidth="120"/>
+   <colspec colname="COLSPEC1" colwidth="200*"/>   
+
+<thead>
+<row>
+<entry colname="COLSPEC0">Фильтр</entry>
+<entry colname="COLSPEC1">Действие</entry>
+</row>
+</thead>
+
+<tbody>
+
+<row>
+<entry>Нет</entry>
+<entry>Показываются все задания</entry>
+</row>
+
+<row>
+<entry>Скрыть закрытые</entry>
+<entry>Из списка убираются задания, имеющие статус <uicontrol>Закрыто</uicontrol> и  <uicontrol>Просрочено</uicontrol> (см. <xref keyref="glossary"/>&#160;)</entry>
+</row>
+
+<row>
+<entry>Скрыть неактивные</entry>
+<entry>Из списка убираются задания со статусами <uicontrol>Закрыто</uicontrol>, <uicontrol>Просрочено</uicontrol>, <uicontrol>Ожидает проверки</uicontrol> и <uicontrol>Проверено</uicontrol></entry>
+</row>
+
+</tbody>
+</tgroup>
+</table>
+
+<p>Область задания содержит необходимые данные и инструменты для его выполнения. Область действий содержит кнопки, определяющие два возможных для учащегося действия: <uicontrol>сохранение</uicontrol> ответа на задание либо <uicontrol>завершение</uicontrol> задания.</p>
+
+<p>Кнопка <uicontrol>Сохранить задание</uicontrol> выгружает в облачное хранилище файлы ответа и/или комментарий (при наличии); эта информация станет доступна преподавателю; статус задания при этом изменится на <uicontrol>В работе</uicontrol>.</p>
+
+<p>Чтобы завершить работу над заданием и отправить его на проверку, следует воспользоваться кнопкой <uicontrol>Завершить задание</uicontrol>. После этого задание получит статус <uicontrol>На проверке</uicontrol> и будет считаться выполненным в срок. Учащийся при этом ожидает <uicontrol>проверки задания</uicontrol> и выставления <uicontrol>оценки</uicontrol>.</p>
+
+<note type="important">Если задание не было завершено в срок, оно считается просроченным и получает соответствующий статус <uicontrol>Просрочено</uicontrol>!</note>
+
+<note type="attention">Завершенное задание считается выполненным, однако может быть отправлено преподавателем на доработку неограниченное число раз! Также преподаватель имеет возможность сдвинуть срок выполнения задания (сдвиг будет осуществлен для всех учащихся задания). Подробнее про сроки выполнения см. <xref keyref="tasks_publish"/>&#160;</note>
+
+<note type="tip">Сохранив задание с набором файлов ответа и комментарием, можно тем самым запросить помощь у преподавателя, задать уточняющий вопрос по заданию какой-либо его части (подходит не для всех заданий и учебно-методических программ)</note>
+
+<note type="tip">Для задания, не отправленного на проверку (кнопкой <uicontrol>Завершить задание</uicontrol>), учащийся имеет возможность прикреплять файлы к ответу, а также комментировать ход выполнения задания</note>
+
+<p>В статусной строке отображается текущее использование дисковой квоты, а также статус соединения с Интернетом и облачным хранилищем модуля <wintitle>Задания через Интернет</wintitle>.</p>
+
+<p>Пример интерфейса учащегося для задания, имеющего статус <uicontrol>В работе</uicontrol>, показан на рисунке.</p>
+ 
+    	<fig id="student_answer_part_png">
+            <title>Вид интерфейса учащегося для задания со статусом <uicontrol>В работе</uicontrol></title>
+            <image href="img/student-answer-part.png" placement="break">
+                <alt>Вид интерфейса учащегося для задания со статусом <uicontrol>В работе</uicontrol></alt>
+            </image>
+  </fig>  
+
+<p>На этом рисунке цифрами обозначены:</p>
+		
+<table frame="topbot">
+<tgroup cols="2">
+   <colspec colname="COLSPEC0" colwidth="12"/>
+   <colspec colname="COLSPEC1" colwidth="200*"/>
+   
+<tbody>
+
+<row>
+<entry>1</entry>
+<entry>Поле комментария к заданию</entry>
+</row>
+
+<row>
+<entry>2</entry>
+<entry>Поле комментария</entry>
+</row>
+
+<row>
+<entry>3</entry>
+<entry>Вкладка <uicontrol>Информация о задании</uicontrol></entry>
+</row>
+
+<row>
+<entry>4</entry>
+<entry>Вкладка <uicontrol>Содержимое задания</uicontrol></entry>
+</row>
+
+<row>
+<entry>5</entry>
+<entry>Вкладка <uicontrol>Содержимое ответа</uicontrol></entry>
+</row>
+
+<row>
+<entry>6</entry>
+<entry>Вкладка <uicontrol>Файлы для отправки</uicontrol></entry>
+</row>
+
+<row>
+<entry>7</entry>
+<entry>Файл ответа</entry>
+</row>
+
+<row>
+<entry>8</entry>
+<entry>Кнопка просмотра</entry>
+</row>
+
+<row>
+<entry>9</entry>
+<entry>Контекстное меню элемента содержимого (см. <xref keyref="uic_fcloud"/>&#160;)</entry>
+</row>
+
+<row>
+<entry>10</entry>
+<entry>Кнопка сохранения текущего состояния выполнения задания</entry>
+</row>
+
+<row>
+<entry>11</entry>
+<entry>Кнопка отправки задания на проверку</entry>
+</row>
+
+</tbody>
+</tgroup>
+</table>
+
+<p>Каждое из заданий может иметь комментарий, общий для всех учащихся задания. Он находится в поле <uicontrol>Комментарий к заданию</uicontrol>.</p>
+
+<p>Поле комментария в зависимости от выбранной вкладки может содержать сообщение от преподавателя (относительно хода выполнения задания, оценки, доработки ответа и т.п.), либо комментарий учащегося к своему ответу.</p>
+
+<table frame="topbot">
+<tgroup cols="2">
+   <colspec colname="COLSPEC0" colwidth="200"/>
+   <colspec colname="COLSPEC1" colwidth="200*"/>   
+
+<thead>
+<row>
+<entry colname="COLSPEC0">Выбранная вкладка</entry>
+<entry colname="COLSPEC1">Информация в поле</entry>
+</row>
+</thead>
+
+<tbody>
+
+<row>
+<entry>Информация о задании</entry>
+<entry>Сообщение преподавателя</entry>
+</row>
+
+<row>
+<entry>Содержимое задания</entry>
+<entry>Сообщение преподавателя</entry>
+</row>
+
+<row>
+<entry>Содержимое ответа</entry>
+<entry>Комментарий учащегося</entry>
+</row>
+
+<row>
+<entry>Файлы для отправки</entry>
+<entry>Комментарий учащегося</entry>
+</row>
+
+</tbody>
+</tgroup>
+</table>
+
+<p>Чтобы сохранить промежуточный результат выполнения задания, следует нажать кнопку <uicontrol>Сохранить</uicontrol>. Промежуточный результат выполнения будет выгружен и доступен преподавателю. Задание при этом получит статус <uicontrol>В работе</uicontrol>. Этот статус означает, что задание выполняется, но работа над ним еще не завершена.</p>
+
+<p>Для отправки своего ответа на проверку служит кнопка <uicontrol>Завершить задание</uicontrol>. После этого задание получит статус <uicontrol>На проверке</uicontrol> и будет считаться выполненным. Учащийся при этом ожидает <uicontrol>проверки</uicontrol> задания и выставления <uicontrol>оценки</uicontrol>.</p>
+
+  	<fig id="student_complete_task_request_png">
+            <title>Запрос перед отправкой задания преподавателю на проверку</title>
+            <image href="img/student-complete-task-request.png" placement="break">
+                <alt>Запрос перед отправкой задания преподавателю на проверку</alt>
+            </image>
+  </fig>
+
+  </conbody>
+</concept>

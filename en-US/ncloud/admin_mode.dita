@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+
+<concept id="admin_mode" xml:lang="en-US">
+  <title>Административный режим</title>
+  
+  <conbody>
+     
+	 <p>Для выполнения некоторых служебных задач в модуле <wintitle>Задания через Интернет</wintitle> предусмотрен т.н. <uicontrol>административный режим</uicontrol>. Для запуска модуля в этом режиме необходимо, чтобы текущим пользователем программы <wintitle>Диалог Nibelung</wintitle> являлся встроенный пользователь <wintitle>Admin</wintitle>.</p>
+
+	 <p>Основные задачи, решаемые в административном режиме:</p>
+	 
+	 <ul>
+	   <li><uicontrol>Очистка места</uicontrol> и <uicontrol>сжатие данных</uicontrol> в облачном хранилище</li>
+       <li>Управление <uicontrol>всеми</uicontrol> задачами и публикациями, включая их <uicontrol>просмотр, экспорт, архивирование и удаление</uicontrol></li>
+     </ul>
+	 
+	 <note type="tip">В административном режиме недоступны некоторые стандартные действия, такие как публикация заданий и выставление оценок учащимся</note>
+	 
+	 <p>При запуске модуля <wintitle>Задания через Интернет</wintitle> пользователем <uicontrol>Admin</uicontrol> появится предупреждение:</p>
+	 
+	         <fig id="admin_mode_warn_png">
+            <title>Административный режим: предупреждение</title>
+            <image href="img/admin-mode-warn.png" placement="break">
+                <alt>Административный режим: предупреждение</alt>
+            </image>
+        </fig>
+	 
+	 <note type="important">Во избежание несанкционированных действий с заданиями, публикациями и ответами учащихся пользователю <wintitle>Admin</wintitle> рекомендуется использовать надежный пароль!</note>
+	 
+	 <p>При запуске в режиме администратора в окне преподавателя (см. <xref keyref="teacher_mainwin"/>&#160;) появляется вкладка <uicontrol>Обслуживание</uicontrol>, содержащая перечень доступных административных задач. По умолчанию доступна единственная задача - чистка облачного хранилища, запускаемая кнопкой <uicontrol>Чистка хранилища</uicontrol>. Операция чистки в некоторых случаях позволяет увеличить свободное место в облачном хранилище.</p>
+	 
+	    <fig id="cleanup_storage_png">
+            <title>Вкладка "Задачи"</title>
+            <image href="img/cleanup-storage.png" placement="break">
+                <alt>Вкладка "Задачи"</alt>
+            </image>
+        </fig>
+		
+	<p>Чистка требует некоторого времени. На это время окно будет заблокировано так же, как и при выполнении других протяженных по времени задач, имея вид, подобный показанному на рисунке ниже.</p>
+	
+		    <fig id="cleanup_performing_png">
+            <title>Процесс очистки облачного хранилища</title>
+            <image href="img/cleanup-performing.png" placement="break">
+                <alt>Процесс очистки облачного хранилища</alt>
+            </image>
+        </fig>
+	
+	<p>В административном режиме отображаются задачи и публикации <uicontrol>всех преподавателей</uicontrol>, что позволяет, в зависимости от текущих задач, произвести их <uicontrol>экспорт</uicontrol> (см. разделы <xref keyref="tasks_export"/>&#160;, <xref keyref="tasks_creation"/>&#160; и <xref keyref="tasks_publish"/>&#160;), <uicontrol>архивирование</uicontrol> (см. <xref keyref="tasks_archive"/>&#160;) или <uicontrol>удаление</uicontrol>.</p>
+	
+  </conbody>
+</concept>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+
+<concept id="teacher_menu" xml:lang="en-US">
+  <title>Запуск модуля преподавателем</title>
+  <conbody>
+  <p>При наличии установленного модуля <wintitle>Задания через Интернет</wintitle> в меню программы <wintitle>Диалог Nibelung</wintitle> появляется соответствующий пункт <menucascade><uicontrol>Инструменты</uicontrol><uicontrol>Дополнения</uicontrol><uicontrol>Задания через Интернет</uicontrol></menucascade> (<xref keyref="teacher_menu/teacher_menu_png" type="fig"/>&#160;).</p>
+  
+        <fig id="teacher_menu_png">
+            <title>Меню для запуска модуля <wintitle>Задания через Интернет</wintitle> преподавателем</title>
+            <image href="img/teacher-menu.png" placement="break">
+                <alt>Меню для запуска модуля преподавателем</alt>
+            </image>
+        </fig>
+		
+  <note type="tip">Настройка модуля <wintitle>Задания через Интернет</wintitle> преподавателем или администратором не требуется: достаточно установить его поверх установленной ранее программы <wintitle>Диалог Nibelung</wintitle> и иметь активную подписку (см. <xref keyref="subscription"/>&#160;).</note>
+  
+  </conbody>
+</concept>

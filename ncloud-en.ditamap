@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN"
+"map.dtd">
+
+<map id="ncloud" xml:lang="en-US">
+  <topicmeta>
+    <shortdesc>This document describes Nibelung "Remote homework" addon</shortdesc>
+    <author type="creator">Vinokurov V., Alexeyev V.</author>
+    <source/>
+    <publisher>"LAIN" LLC</publisher>
+    <copyright>
+      <copyryear year="2021"/>
+      <copyrholder>"LAIN" LLC</copyrholder>
+    </copyright>
+    <critdates>
+      <created date="03.03.2021"/>
+    </critdates>
+    <prodinfo>
+      <prodname>User manual for Nibelung "Remote homework" addon</prodname>
+      <vrmlist>
+        <vrm version="4.0.0.1"/>
+      </vrmlist>
+    </prodinfo>
+    <othermeta content="User manual" name="doctype"/>
+    <othermeta content="4.0.0.1" name="docedition"/>
+  </topicmeta>
+  
+  <topicref keys="symbols" href="en-US/concepts/symbols.dita" />
+  
+  <topichead navtitle="Introduction">
+    <topicref keys="comm_intro" href="en-US/ncloud/comm_intro.dita" />
+    <topicref keys="install_notes" href="en-US/ncloud/install_notes.dita" />
+    <topicref keys="workflow" href="en-US/ncloud/workflow.dita" />
+  </topichead>
+
+  <topichead navtitle="Module interface: a teacher">
+    <topicref keys="teacher_menu" href="en-US/ncloud/teacher_menu.dita" />
+    <topicref keys="teacher_mainwin" href="en-US/ncloud/teacher_mainwin.dita" />
+  </topichead>
+  
+  <topichead navtitle="Module interface: a student">
+	<topicref keys="std_mainwin" href="en-US/ncloud/std_mainwin.dita" />
+  </topichead>
+
+  <topichead navtitle="Instructions for teacher">
+	<topicref keys="tasks_creation" href="en-US/ncloud/tasks_creation.dita" />
+	<topicref keys="tasks_publish" href="en-US/ncloud/tasks_publish.dita" />
+	<topicref keys="tasks_progress" href="en-US/ncloud/tasks_progress.dita" />
+	<topicref keys="tasks_export" href="en-US/ncloud/tasks_export.dita" />
+	<topicref keys="tasks_archive" href="en-US/ncloud/tasks_archive.dita" />
+  </topichead>
+  
+  <topichead navtitle="Instructions for students">
+    <topicref keys="std_menu" href="en-US/ncloud/std_menu.dita" />
+  	<topicref keys="std_send_rcv" href="en-US/ncloud/std_send_rcv.dita" />
+  </topichead>
+  
+  <topicref keys="ui_common" href="en-US/ncloud/ui_common.dita" />
+  <topicref keys="faq" href="en-US/ncloud/faq.dita" />
+  <topicref keys="glossary" href="en-US/ncloud/glossary.dita" />
+  <topicref keys="subscription" href="en-US/ncloud/subscription.dita" />
+  
+  <topichead navtitle="Legal">
+    <topicref keys="license" href="en-US/license/license_agreement.dita" />
+    <topicref keys="contacts" href="en-US/concepts/contacts.dita" />
+    <topicref keys="cert" href="en-US/concepts/certificate.dita" />
+    <topicref keys="ps" href="en-US/ncloud/ps.dita" toc="no" />
+  </topichead>
+</map>
