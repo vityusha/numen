@@ -3,19 +3,48 @@
 "concept.dtd">
 
 <concept id="teacher_mainwin" xml:lang="en-US">
-  <title>Главное окно преподавателя</title>
+  <title>Главное окно</title>
   <conbody>
   
-  <p>При запуске преподавателем модуля <wintitle>Задания через Интернет</wintitle> открывается главное окно.</p>
-  
-  <p>Окно преподавателя содержит следующие вкладки:
-  <ul>
-    <li><uicontrol>Задания</uicontrol> для просмотра, создания и управления шаблонами заданий</li>
-    <li><uicontrol>Опубликованные задания</uicontrol> для просмотра, создания и управления публикациями, созданными для выполнения их учащимися</li>
-    <li><uicontrol>Выполнение</uicontrol> для просмотра хода выполнения задания учащимися, проверки и выставления оценок</li>
-    <li><uicontrol>Обслуживание</uicontrol> (см. <xref keyref="admin_mode"/>&#160;) для проведения системных действий</li>
-  </ul>
-  </p>
+  <p>При выборе пункта меню <wintitle>Задания через Интернет</wintitle> открывается главное окно, содержащее следующие вкладки:</p>
+
+<table frame="topbot">
+  <tgroup cols="2">
+   <colspec colname="COLSPEC0" colwidth="120"/>
+   <colspec colname="COLSPEC1" colwidth="200*"/>
+   
+   <thead>
+<row>
+  <entry colname="COLSPEC0" align="center"><uicontrol>Вкладка</uicontrol></entry>
+  <entry colname="COLSPEC1" align="center">Назначение</entry>
+</row>
+</thead>
+
+<tbody>
+
+<row>
+<entry><uicontrol>Задания</uicontrol></entry>
+<entry>Просмотр, создание и управление шаблонами заданий</entry>
+</row>
+
+<row>
+<entry><uicontrol>Опубликованные задания</uicontrol></entry>
+<entry>Просмотр, создание и управление публикациями</entry>
+</row>
+
+<row>
+<entry><uicontrol>Выполнение</uicontrol></entry>
+<entry>Просмотр хода выполнения публикации учащимися; проверка и выставление оценок</entry>
+</row>
+
+<row>
+<entry><uicontrol>Обслуживание</uicontrol></entry>
+<entry>Проведение системных действий (см. <xref keyref="admin_mode"/>&#160;)</entry>
+</row>
+
+</tbody>
+</tgroup>
+</table>
 
           <fig id="teacher_window_png">
             <title>Главное окно</title>
@@ -120,7 +149,7 @@
 
 <row>
 <entry><uicontrol>Опубликованные задания</uicontrol></entry>
-<entry>Информация о выполнении опубликованных заданиях</entry>
+<entry>Информация о выполнении опубликованных заданий</entry>
 </row>
 
 <row>
