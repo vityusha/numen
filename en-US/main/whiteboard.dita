@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="whiteboard" xml:lang="en-US">
+    <title><keyword>Whiteboard</keyword></title>
+    <conbody>  
+        <p><indexterm>Whiteboard</indexterm>The whiteboard mode provides a virtual interactive sketchboard that can be shared between  teacher and students.</p>
+        <p>Press <uicontrol>Interact</uicontrol> button in either class (<xref keyref="menu_class"/>&#160;) or group menu (<xref keyref="menu_group"/>&#160;) and select <uicontrol>Whiteboard</uicontrol> to open the whiteboard window (<xref keyref="whiteboard/whiteboard_png" type="fig"/>&#160;) on teacher workstation.</p> 
+        <fig id="whiteboard_png">
+            <title>Whiteboard window</title>
+            <image href="img/whiteboard.png" placement="break">
+                <alt>Whiteboard window</alt>
+            </image>
+        </fig>		
+        <p>Where:</p>
+        <table frame="topbot">
+            <tgroup cols="2">
+                <colspec colname="COLSPEC0" colwidth="10*"/>
+                <colspec colname="COLSPEC1" colwidth="120*"/>
+                <tbody>
+                    <row>
+                        <entry>1</entry>
+                        <entry>Group tabs.</entry>
+                    </row>
+                    <row>
+                        <entry>2</entry>
+                        <entry>Full screen button, controls whiteboard windows on student workstations.</entry>
+                    </row>
+                    <row>
+                        <entry>3</entry>
+                        <entry><uicontrol>Undo</uicontrol> button for reversing last update on the whiteboard. The update may have been made by either the teacher or any student from the participating group. Press this button repeatedly to undo  sequential updates.</entry>
+                    </row>
+                    <row>
+                        <entry>4</entry>
+                        <entry><uicontrol>Start/Stop</uicontrol> button for whiteboard session.</entry>
+                    </row>
+                    <row>
+                        <entry>5</entry>
+                        <entry>Drawing area.</entry>
+                    </row>
+                    <row>
+                        <entry>6</entry>
+                        <entry>Drawing toolbox.</entry>
+                    </row>
+                    <row>
+                        <entry>7</entry>
+                        <entry>Drawing tools settings.</entry>
+                    </row>
+                    <row>
+                        <entry>8</entry>
+                        <entry><uicontrol>Send</uicontrol> button for manual mode.</entry>
+                    </row>
+                    <row>
+                        <entry>9</entry>
+                        <entry>Pointer position in the drawing area.</entry>
+                    </row>
+                    <row>
+                        <entry>10</entry>
+                        <entry><uicontrol>Cancel</uicontrol> button, discards uncommitted updates in manual mode.</entry>
+                    </row>
+                    <row>
+                        <entry>11</entry>
+                        <entry><uicontrol>Text</uicontrol> tool settings: font face, size and style.</entry>
+                    </row>
+                    <row>
+                        <entry>12</entry>
+                        <entry>Mode settings.</entry>
+                    </row>
+
+                    <row>
+                        <entry>13</entry>
+                        <entry>Save the sketch.</entry>
+                    </row>
+                    <row>
+                        <entry>14</entry>
+                        <entry>Whiteboard network activity monitor.</entry>
+                    </row>
+                    <row>
+                        <entry>15</entry>
+                        <entry><uicontrol>Line</uicontrol> and <uicontrol>Fill</uicontrol> color bar.</entry>
+                    </row>
+                    <row>
+                        <entry>16</entry>
+                        <entry>Scroll bars (appear as necessary).</entry>
+                    </row>
+                </tbody> 
+            </tgroup>
+        </table>
+        <p>Press the <uicontrol>Start</uicontrol> button to initiate a whiteboard session, at which point <uicontrol>Start</uicontrol> button will become <uicontrol>Stop</uicontrol> button and a whiteboard window will open on the screens of selected group of students.</p> 
+        <note type="important">Title of the group that has an active whiteboard session will be displayed in red for the duration of the session.</note>
+        <p>When a whiteboard session is active, any participant can pick a tool from the toolbox and start sketching on the whiteboard. Everything they sketch will appear on the whiteboards of all the participants.</p>
+        <p>Drawing tools (from top to bottom of the toolbox):</p>
+        <ul>
+            <li>Pen</li>
+            <li>Eraser</li>
+            <li>Rectangle</li>
+            <li>Square</li>
+            <li>Ellipse</li>
+            <li>Circle</li>
+            <li>Line</li>
+            <li>Arrow</li>
+            <li>Dot</li>
+            <li>Star</li>
+            <li>Polygon</li>
+            <li>Connected lines</li>
+            <li>Curve</li>
+            <li>Image</li>
+            <li>Library symbol</li>
+            <li>Text</li>
+        </ul>
+        
+        <note type="tip">The <uicontrol>Polygon</uicontrol> tool produces a symmetrical closed polygon, while <uicontrol>Connected lines</uicontrol> tool produces a free form chain of arbitrary shape.</note>
+
+        <p>The whiteboard can be in either manual or immediate mode as controlled by the <uicontrol>Manual mode</uicontrol> check button in the <wintitle>Whiteboard</wintitle> window (<xref keyref="whiteboard/whiteboard_png" type="fig"/>&#160;). In the immediate mode everything sketched on the whiteboard will instantly appear on every participating whiteboard. In manual mode an object on the whiteboard will only be sent to the other participants once the <uicontrol>Send</uicontrol> button is pressed. This allows  editing of the object or even discarding it before anybody else sees it. This mode also has a <uicontrol>Multidraw</uicontrol> option that allows you to finish several elements before sending them to the other participants. Otherwise, only a single element (e.g. a polygon or a text field) can be finished before you'll have to decide whether to <uicontrol>Send</uicontrol> or <uicontrol>Cancel</uicontrol> it.</p>
+        
+        <p><uicontrol>Whiteboard commands and hotkeys:</uicontrol></p>
+        <table frame="topbot">
+            <tgroup cols="3">
+                <colspec colname="COLSPEC0" colwidth="12"/>
+                <colspec colname="COLSPEC1" colwidth="40"/>
+                <colspec colname="COLSPEC2" colwidth="150*"/>
+
+                <thead>
+
+                    <row>
+                        <entry colname="COLSPEC0" align="left">#</entry>
+                        <entry colname="COLSPEC1" align="center">Hotkey</entry>
+                        <entry colname="COLSPEC2" align="center">Command</entry>
+                    </row>
+
+                </thead>
+
+                <tbody>
+                    <row>
+                        <entry>1</entry>
+                        <entry align="center"><uicontrol><shortcut>Enter
+                                </shortcut></uicontrol></entry>
+                        <entry>Finish creation of <uicontrol>Text</uicontrol> or <uicontrol>Image</uicontrol> elements</entry>
+                    </row>
+                    <row>
+                        <entry>2</entry>
+                        <entry align="center"><uicontrol><shortcut>Escape
+                                </shortcut></uicontrol></entry>
+                        <entry>Cancel current object in miltidraw mode. In manual mode this only works before left mouse button is released (except for <uicontrol>Text</uicontrol>, <uicontrol>Image</uicontrol>, <uicontrol>Curve</uicontrol>, and  <uicontrol>Connected lines</uicontrol> tools). In multidraw mode you can also use multiple <uicontrol>Escape</uicontrol> commands to cancel several consecutive elements from the uncommitted batch.</entry>
+                    </row>
+                    <row>
+                        <entry>3</entry>
+                        <entry align="center"><uicontrol><shortcut>Left mouse button depress
+                                </shortcut></uicontrol></entry>
+                        <entry>
+                        <ul>
+                            <li>Start drawing or moving an element (for <uicontrol>Text</uicontrol> and <uicontrol>Image</uicontrol> tools);</li>
+                            <li>open file selection dialog for <uicontrol>Image</uicontrol> tool;</li>
+                            <li>add next node for <uicontrol>Connected lines</uicontrol> and <uicontrol>Curve</uicontrol> tools.</li>
+                        </ul>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>4</entry>
+                        <entry align="center"><uicontrol><shortcut>Left mouse button release
+                                </shortcut></uicontrol></entry>
+                        <entry>Finish drawing or moving an element (except for <uicontrol>Connected lines</uicontrol> and <uicontrol>Curve</uicontrol> tools). In manual mode, releasing left mouse button sends the element to whiteboards of other participants, except when using <uicontrol>Connected lines</uicontrol> or <uicontrol>Curve</uicontrol> tools (for both, press <uicontrol><shortcut>right mouse button</shortcut></uicontrol> to send), or <uicontrol>Text</uicontrol> and <uicontrol>Image</uicontrol> tools (press <uicontrol><shortcut>Enter</shortcut></uicontrol> to send for these)</entry>
+                    </row>
+                    <row>
+                        <entry>5</entry>
+                        <entry align="center"><uicontrol><shortcut>Mouse scroll wheel
+                                </shortcut></uicontrol></entry>
+                        <entry>Scale the element; together with <uicontrol><shortcut>Alt</shortcut></uicontrol> modifier key controls the number of edges/vertices for <uicontrol>Star</uicontrol> and <uicontrol>Polygon</uicontrol> tools; together with <uicontrol><shortcut>Shift</shortcut></uicontrol> modifier key changes the angle for rotating objects.</entry>
+                    </row>
+                    <row>
+                        <entry>6</entry>
+                        <entry align="center"><uicontrol><shortcut>Right click
+                                </shortcut></uicontrol></entry>
+                        <entry>Finish creating <uicontrol>Image</uicontrol> (click on the image itself), <uicontrol>Curve</uicontrol> or <uicontrol>Connected lines</uicontrol> types of elements.</entry>
+                    </row>
+                    <row>
+                        <entry>7</entry>
+                        <entry align="center"><uicontrol><shortcut>Shift
+                                </shortcut></uicontrol></entry>
+                        <entry>Set rotation mode when used together with <uicontrol>mouse scroll wheel</uicontrol> (<uicontrol>shift + scroll up</uicontrol> rotates clockwise, <uicontrol>shift + scroll down</uicontrol> counterclockwise).</entry>
+                    </row>
+                    <row>
+                        <entry>8</entry>
+                        <entry align="center"><uicontrol><shortcut>Alt
+                                </shortcut></uicontrol></entry>
+                        <entry>
+                        <ul>
+                            <li>Increase/decrease number of edges/vertices (together with the <uicontrol>mouse scroll wheel</uicontrol>).</li>
+                            <li>Press and hold <uicontrol><shortcut>Alt</shortcut></uicontrol> when creating <uicontrol>Connected lines</uicontrol> or <uicontrol>Curve</uicontrol> elements to close the line and fill the interior.</li>
+                        </ul>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>9</entry>
+                        <entry align="center"><uicontrol><shortcut>Ctrl
+                                </shortcut></uicontrol></entry>
+                        <entry>
+                        <ul>
+                            <li>Scaling modifier when used together with the <uicontrol>mouse scroll wheel</uicontrol>.</li>
+                            <li>Move accelerator when used together with <uicontrol><shortcut>Left</shortcut></uicontrol>, <uicontrol><shortcut>Right</shortcut></uicontrol>, <uicontrol><shortcut>Up</shortcut></uicontrol>, or <uicontrol><shortcut>Down</shortcut></uicontrol> keyboard keys.</li>
+                        </ul>
+                        </entry>
+                    </row>
+                    <row>
+                        <entry>10</entry>
+                        <entry align="center"><uicontrol><shortcut>W</shortcut></uicontrol>, <uicontrol><shortcut>S</shortcut></uicontrol></entry>
+                        <entry>Rotate an element clockwise or counterclockwise in 1 degree increments.</entry>
+                    </row>
+                    <row>
+                        <entry>11</entry>
+                        <entry align="center"><uicontrol><shortcut>A</shortcut></uicontrol>, <uicontrol><shortcut>D</shortcut></uicontrol></entry>
+                        <entry>Rotate an element clockwise or counterclockwise in 10 degrees increments.</entry>
+                    </row>
+                    <row>
+                        <entry>12</entry>
+                        <entry align="center"><uicontrol><shortcut>Ctrl + Z
+                                </shortcut></uicontrol></entry>
+                        <entry>Redo: undo discarded elements in multidraw mode.</entry>
+                    </row>
+                    <row>
+                        <entry>12</entry>
+                        <entry align="center"><uicontrol><shortcut>Keyboard arrow keys
+                                </shortcut></uicontrol></entry>
+                        <entry>Move active element by 1 screen pixel.</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+
+        <p>One can change common (e.g. line thickness, fill color, position, transparency, rotation angle, scale, etc.) or element specific (e.g. line of text, image file) properties for most objects before they are committed.</p>
+        <p>Press <uicontrol>Stop</uicontrol> button to finish a whiteboard session.</p>
+        <p>Use <uicontrol>Close</uicontrol> button to close the <wintitle>Whiteboard</wintitle> window. You will be prompted to finish still active sessions, if any.</p>
+        <note type="important">In multidraw mode <uicontrol>Cancel</uicontrol> button cancels the whole uncommitted batch of objects, with <uicontrol>Ctrl+Z</uicontrol> redo hotkey having no effect.</note>
+        <note type="tip">You can drag and drop an image from a file onto the whiteboard. This will automatically select  <uicontrol>Image</uicontrol> tool and insert the image where it was dropped. You can then further move, scale, rotate, or discard the image.</note>
+        <note type="tip">When creating a sequence of text objects in multidraw mode, don't forget to press <uicontrol>Enter</uicontrol> after each object. Otherwise you will be moving the old object instead of creating the next one. Likewise, when creating several images, do not forget to right click on an image once you are finished with it.</note>
+
+    </conbody>
+</concept>

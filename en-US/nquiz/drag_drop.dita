@@ -1,22 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
-<concept id="test_dragrop" xml:lang="en-US">
-    <title>Переместить и положить</title>
+<concept id="test_dragdrop" xml:lang="en-US">
+    <title>Drag and drop labels</title>
     <conbody>
-        <fig id="type_8_png">
-            <title>Тип ответа: переместить и положить</title>
+	    <p>For the <indexterm>drag and drop labels</indexterm><uicontrol>Drag and drop labels</uicontrol> types of questions students must drag text labels and drop them on certain areas of an image. All areas have to be labeled correctly in order for the answer to be correct.</p>
+	    <p>These types of question will be presented to the students as shown in <xref keyref="test_dragdrop/view_dnd_png" type="fig"/>&#160;.</p>
+	    <fig id="view_dnd_png">
+		    <title><wintitle>Quiz Player</wintitle>: Drag and drop labels</title>
+		    <image href="img/view_dnd.png" placement="break">
+			    <alt><wintitle>Quiz Player</wintitle>: Drag and drop labels</alt>
+		    </image>
+	    </fig>
+
+	    <fig id="type_8_png">
+		    <title><wintitle>Quiz Builder</wintitle>: Drag and drop labels</title>
             <image href="img/type_8.png" placement="break">
-                <alt>Тип ответа: переместить и положить</alt>
+			  <alt><wintitle>Quiz Builder</wintitle>: Drag and drop labels</alt>
             </image>
         </fig>
-        <p>В случае типа ответа <wintitle>Переместить и положить</wintitle> при помощи кнопки <uicontrol>Обзор</uicontrol> нужно выбрать графический файл. При нажатии на кнопку <uicontrol>Указать зоны</uicontrol> откроется окно редактора зон.</p>
+	   <p>Use the <uicontrol>Browse</uicontrol> button in <wintitle>Quiz Builder</wintitle> <uicontrol>Answers</uicontrol> panel to select a graphic file for the question. Press <uicontrol>Select hot spots</uicontrol> button to open label editor where you can specify the labels and where they should be placed.</p>
         <fig id="dnd_edit_png">
-            <title>Окно редактора зон</title>
+            <title>Label editor</title>
             <image href="img/dnd_edit.png" placement="break">
-                <alt>Окно редактора зон</alt>
+			  <alt>Label editor</alt>
             </image>
         </fig>
-        <p>Для установки зоны необходимо при помощи левой кнопки мыши выделить нужный участок изображения. Внутри выделенной зоны нужно ввести текст правильного ответа. Для изменения прозрачности зон при вводе текста необходимо нажать на кнопку с изображением белого прямоугольника внизу окна редактора зон. Для удаления зоны, необходимо щелкнуть левой кнопкой мыши на кнопке с изображением красного крестика.</p>
+	   <p>Click on the image and drag the mouse pointer to select an area, then click on the selection and type the label text inside the selected area. Press the button with the white rectangle at the bottom of the editor window to change opacity of the selected area. Click on the red <b>x</b> mark at the upper right corner of an area to delete the area.</p>
     </conbody>
 </concept>

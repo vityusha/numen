@@ -2,41 +2,40 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="transfer_screen" xml:lang="en-US">
-    <title>Передача экрана</title>
-    <conbody>  
-		<p><indexterm>передача экрана</indexterm><uicontrol><keyword>Передача экрана</keyword></uicontrol> — это режим, в котором на компьютерах учащихся будет отображаться экран преподавателя или какого-то учащегося.</p>
-		<p>Если преподаватель хочет передать учащимся копию экрана своего компьютера, то нужно выбрать из списка источников пункт <uicontrol>Преподаватель</uicontrol> (<xref keyref="transfer_screen/menu_group_3_4_1_png" type="fig"/>&#160;).</p>
+    <title>Live screen</title>
+    <conbody>
+	    <p><indexterm>live screen</indexterm>In the <uicontrol><keyword>Live screen</keyword></uicontrol> mode a copy of the teacher's or other student's screen will be displayed in real time on student workstations.</p>
+		<p>Select <uicontrol>Teacher</uicontrol> from the <uicontrol>Select sources</uicontrol> drop-down box (<xref keyref="transfer_screen/menu_group_3_4_1_png" type="fig"/>&#160;) to display a copy of the teacher workstation screen.</p>
 		<fig id="menu_group_3_4_1_png">
-            <title>Меню <uicontrol>Передача всего экрана</uicontrol> преподавателя</title>
+            <title><uicontrol>Live screen</uicontrol> activity control tab showing display of teacher's full screen</title>
             <image href="img/menu_group_3_4_1.png" placement="break">
-                <alt>Меню <uicontrol>Передача всего экрана</uicontrol> преподавателя</alt>
+			  <alt><uicontrol>Live screen</uicontrol> activity control tab showing display of teacher's full screen</alt>
             </image>
         </fig>
-		<p>При передаче экрана преподавателя имеется возможность выбора (<xref keyref="transfer_screen/menu_group_3_4_3_png" type="fig"/>&#160;) передачи экрана целиком (опция <uicontrol>Передавать весь экран</uicontrol> включена) или только окно одной из программ, запущенных на компьютере преподавателя (выбирается из соответствующего списка).</p>
+	   <p>You can select between showing full screen (check the <uicontrol>Show full screen</uicontrol> box) or one of the windows on the screen by selecting it from the <uicontrol>Select application</uicontrol> drop-down list that appears when this box is left unchecked (<xref keyref="transfer_screen/menu_group_3_4_3_png" type="fig"/>&#160;).</p>
 		<fig id="menu_group_3_4_3_png">
-            <title>Меню <uicontrol>Передача окна выбранной программы с экрана</uicontrol> преподавателя</title>
+			<title><uicontrol>Live screen</uicontrol> activity control tab showing display of a selected window from the teacher's screen</title>
             <image href="img/menu_group_3_4_3.png" placement="break">
-                <alt>Меню <uicontrol>Передача окна выбранной программы с экрана</uicontrol> преподавателя</alt>
-            </image>
-        </fig>		
-		<p>Если преподаватель хочет передать учащимся копию экрана определенного учащегося, то нужно выбрать в списке источников пункт <uicontrol>Учащийся</uicontrol>, а из списка учащихся выбирать необходимого учащегося (<xref keyref="transfer_screen/menu_group_3_4_2_png" type="fig"/>&#160;).</p>
-		<fig id="menu_group_3_4_2_png">
-            <title>Меню <uicontrol>Передача экрана</uicontrol> учащегося</title>
-            <image href="img/menu_group_3_4_2.png" placement="break">
-                <alt>Меню <uicontrol>Передача экрана</uicontrol> учащегося</alt>
-            </image>
-        </fig>		
-		<p>Для начала передачи экрана необходимо нажать на кнопку <uicontrol>Старт</uicontrol>, после чего надпись на ней изменится на <uicontrol>Стоп</uicontrol>.</p>
-		<p>Если выбрана опция <uicontrol>Включить микрофон</uicontrol>, то учащиеся слышат в своих наушниках голос преподавателя или учащегося в зависимости от выбора источника.</p>
-		<p>Если преподаватель нажмет на кнопку <indexterm>перо</indexterm><uicontrol><keyword>Перо</keyword></uicontrol>, то в зависимости от выбора источника на мониторе преподавателя или учащегося появится специальное полупрозрачное окно для рисования пером.</p>
-		<p>Справа на экране появится графическое меню управления режимом <uicontrol>Перо</uicontrol> (<xref keyref="transfer_screen/pero_png" type="fig"/>&#160;).</p>
-		<fig id="pero_png">
-            <title>Меню управления режимом <uicontrol>Перо</uicontrol></title>
-            <image href="img/pero.png" placement="break">
-                <alt>Меню управления режимом <uicontrol>Перо</uicontrol></alt>
+			  <alt><uicontrol>Live screen</uicontrol> activity control tab showing display of a selected window from the teacher's screen</alt>
             </image>
         </fig>
-		<p>На этом рисунке цифрами обозначены:</p>
+	   <p>Select <uicontrol>Student</uicontrol> as the source and select a student from the drop-down box to display this student's screen to the other students in the class (<xref keyref="transfer_screen/menu_group_3_4_2_png" type="fig"/>&#160;).</p>
+		<fig id="menu_group_3_4_2_png">
+            <title><uicontrol>Live screen</uicontrol> activity control tab showing display of a student's screen</title>
+            <image href="img/menu_group_3_4_2.png" placement="break">
+			  <alt><uicontrol>Live screen</uicontrol> activity control tab showing display of a student's screen</alt>
+            </image>
+        </fig>
+		<p>Press <uicontrol>Start</uicontrol> to start displaying of live screen, at which point this button will be replaced by the <uicontrol>Stop</uicontrol> button.</p>
+		<p>Select <uicontrol>Microphone on</uicontrol> option for the students to be able to also hear the source in their headsets .</p>
+		<p>Press the  <indexterm>scribble</indexterm><uicontrol><keyword>Scribble</keyword></uicontrol> button to enable scribbling notes on the screen. A semi-transparent window with scribble controls will appear on the source screen  (<xref keyref="transfer_screen/pero_png" type="fig"/>&#160;).</p>
+		<fig id="pero_png">
+            <title><uicontrol>Scribble</uicontrol> control menu</title>
+            <image href="img/pero.png" placement="break">
+                <alt><uicontrol>Scribble</uicontrol> control menu</alt>
+            </image>
+        </fig>
+		<p>Elements of the scribble control menu:</p>
 		<table frame="topbot">
             <tgroup cols="2">
                 <colspec colname="COLSPEC0" colwidth="10*"/>
@@ -44,35 +43,38 @@
                 <tbody>
 					<row>
                         <entry>1</entry>
-                        <entry>Кнопка <uicontrol>Очистить экран</uicontrol></entry>
+                        <entry><uicontrol>Clear scribbles</uicontrol> button</entry>
                     </row>
 					<row>
                         <entry>2</entry>
-                        <entry>Кнопка <uicontrol>Открыть рисунок</uicontrol></entry>
+				    <entry><uicontrol>Open drawing</uicontrol> button</entry>
                     </row>
 					<row>
                         <entry>3</entry>
-                        <entry>Кнопка <uicontrol>Сохранить рисунок</uicontrol></entry>
+				    <entry><uicontrol>Save drawing</uicontrol> button</entry>
                     </row>
 					<row>
                         <entry>4</entry>
-                        <entry>Кнопка <uicontrol>Толщина пера</uicontrol></entry>
+				    <entry><uicontrol>Pen width</uicontrol> button</entry>
                     </row>
 					<row>
                         <entry>5</entry>
-                        <entry>Кнопка <uicontrol>Цвет пера</uicontrol></entry>
+				    <entry><uicontrol>Pen color</uicontrol> button</entry>
                     </row>
 					<row>
                         <entry>6</entry>
-                        <entry>Кнопка <uicontrol>Выход</uicontrol></entry>
+				    <entry><uicontrol>Exit</uicontrol> button</entry>
                     </row>
-                </tbody> 
+                </tbody>
             </tgroup>
-        </table> 
-		<p>В нем можно установить толщину и цвет пера. Сделанный рисунок можно сохранить на жестком диске. Имеется возможность открыть сохраненный ранее рисунок. Меню также содержит кнопку очистки экрана.</p>
-		<p>Для закрытия экрана рисования пером необходимо нажать на кнопку <uicontrol>Выход</uicontrol> (6).</p>
-		<p>Также существует возможность записи трансляции экрана в видео файл. Для этого необходимо активировать опцию <uicontrol>Записать в файл</uicontrol>. При этом после нажатия на кнопку <uicontrol>Старт</uicontrol> будет предложено выбрать название файла для сохранения. По умолчанию файлы сохраняются в подкаталоге <filepath>Video</filepath> папки преподавателя.</p>
-		<p>Для прекращения передачи экрана преподаватель должен нажать на кнопку <uicontrol>Стоп</uicontrol>.</p>
+        </table>
+		<p>This menu allows you to change drawing pen color and width, save and open drawing files, and clear all drawings from the screen.</p>
+		<p>Press the <uicontrol>Exit</uicontrol> button (6) to close the scribble window and exit <uicontrol>Scribble</uicontrol> mode.</p>
+
+		<p>You can save a video copy of the <uicontrol>Live screen</uicontrol> display session to a file. Select <uicontrol>Record to file</uicontrol> option before activating this mode, and the system will prompt you for a file name upon pressing the <uicontrol>Start</uicontrol> button. By default files will be saved in the <filepath>Video</filepath> sub-folder of the teacher folder.</p>
+
+		<p>You can also record your audio commentary by selecting the <uicontrol>Record for students</uicontrol> option. This recording can be later used, for example, as an assignment in <uicontrol>Self access</uicontrol> student activity (see <xref keyref="self_training"/>&#160;).</p>
+
+		<p>Press <uicontrol>Stop</uicontrol> button in the activity control tab to exit the live screen mode.</p>
 	</conbody>
 </concept>
-

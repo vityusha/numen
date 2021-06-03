@@ -2,22 +2,31 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="test_hotspot" xml:lang="en-US">
-    <title>Выбор зоны</title>
+    <title>Image hot spots</title>
     <conbody>
-        <fig id="type_7_png">
-            <title>Тип ответа: выбор зоны</title>
+	    <p>Image hot spots is a type of visual question where students must click on an area of an image that corresponds to a correct answer (the hot spot). Several areas can be marked on the image, with several of them being the correct ones. All those  areas must be picked out for the answer to be considered correct.</p>
+		<p>These types of question will be presented to the students as shown in <xref keyref="test_hotspot/view_hotspot_png" type="fig"/>&#160;.</p>
+		    <fig id="view_hotspot_png">
+			    <title><wintitle>Quiz Player</wintitle>: Image hot spots</title>
+			    <image href="img/view_hotspot.png" placement="break">
+				    <alt><wintitle>Quiz Player</wintitle>: Image hot spots</alt>
+			    </image>
+		    </fig>
+
+		<fig id="type_7_png">
+		   <title><wintitle>Quiz Builder</wintitle>: Image hot spots</title>
             <image href="img/type_7.png" placement="break">
-                <alt>Тип ответа: выбор зоны</alt>
+			  <alt><wintitle>Quiz Builder</wintitle>: Image hot spots</alt>
             </image>
         </fig>
-        <p>В случае типа ответа <wintitle>Выбор зоны</wintitle> при помощи кнопки <uicontrol>Обзор</uicontrol> нужно выбрать графический файл. При нажатии на кнопку <uicontrol>Указать зоны</uicontrol> откроется окно редактора зон.</p>
+	   <p>Use the <uicontrol>Browse</uicontrol> button in the <wintitle>Quiz Builder</wintitle> <uicontrol>Answers</uicontrol> panel to select a graphic file. Press the <uicontrol>Select hot spots</uicontrol> button to open the spot editor.</p>
         <fig id="hotspot_edit_png">
-            <title>Окно редактора зон</title>
+            <title>Spot editor window</title>
             <image href="img/hotspot_edit.png" placement="break">
-                <alt>Окно редактора зон</alt>
+			  <alt>Spot editor window</alt>
             </image>
         </fig>
-        <p>Для установки зоны необходимо при помощи левой кнопки мыши выделить нужный участок изображения. Зоны, соответствующие правильному ответу, отображаются зеленой штрих пунктирной линией, а неправильному - красной. Для переключения типов ответа, необходимо щелкнуть левой кнопкой мыши на кнопке с изображением зеленой галочки. Для удаления зоны, необходимо щелкнуть левой кнопкой мыши на кнопке с изображением красного креста.</p>
+	   <p>Click on the image in the spot editor and drag the mouse pointer to select an area. The area will be marked with a dashed line, green for a correct spot and red otherwise. Click on the check mark in the upper right corner of the area to switch its type. Click on the red <b>x</b> mark to delete the area.</p>
+
    	</conbody>
 </concept>
-

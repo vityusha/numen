@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN"
+"task.dtd">
+
+<task id="workflow" xml:lang="en-US">
+<title>Типовой порядок работы с модулем</title>
+<taskbody>
+  
+<steps>
+
+<step>
+<cmd><uicontrol>Преподаватель:</uicontrol> создает шаблон задания (см. <xref keyref="tasks_creation"/>&#160;). В шаблоне содержатся общие сведения о задании и материалы (файлы для ознакомления, изучения, проверки, самопроверки и т.п.)</cmd>
+</step>
+
+<step>
+<cmd><uicontrol>Преподаватель:</uicontrol> публикует задание (см. <xref keyref="tasks_publish"/>&#160;). Публикация определяет список учащихся, которым назначено задание, пояснения к заданию и временные рамки его выполнения</cmd>
+</step>
+
+<step>
+<cmd><uicontrol>Учащиеся:</uicontrol> получают опубликованное задание (см. <xref keyref="std_send_rcv"/>&#160;) и приступают к его выполнению. При запуске модуля учащимся опубликованное задание появится в его списке на выполнение</cmd>
+</step>
+
+<step>
+<cmd><uicontrol>Преподаватель:</uicontrol> по мере выполнения задания учащимися видит их прогресс (см. <xref keyref="tasks_progress"/>&#160;); проверяет работу учащихся; выставляет предварительную оценку (при необходимости); отправляет ответ на доработку (также при необходимости); оставляет комментарии по ходу выполнения</cmd>
+</step>
+
+<step>
+<cmd><uicontrol>Учащиеся:</uicontrol> завершают выполнение задания (см. <xref keyref="std_send_rcv"/>&#160;)</cmd>
+</step>
+
+<step>
+<cmd><uicontrol>Преподаватель:</uicontrol> завершает проверку и оценку ответов учащихся (см. <xref keyref="tasks_progress"/>&#160;); при необходимости архивирует публикацию (см. <xref keyref="tasks_archive"/>&#160;), экспортирует отчет о выполнении (см. <xref keyref="tasks_export"/>&#160;)</cmd>
+</step>
+
+<step>
+<cmd><uicontrol>Учащиеся:</uicontrol> получают выставленную оценку и комментарий преподавателя (см. <xref keyref="std_mainwin"/>&#160;)</cmd>
+</step>
+
+<step>
+<cmd><uicontrol>Преподаватель:</uicontrol> завершает задание (см. <xref keyref="tasks_close"/>&#160;). Задание переходит в статус <uicontrol>Закрыто</uicontrol>, работа с ним считается завершенной.</cmd>
+</step>
+
+</steps>
+
+</taskbody>
+</task>

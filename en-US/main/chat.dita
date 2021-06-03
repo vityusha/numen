@@ -4,9 +4,9 @@
 <concept id="chat" xml:lang="en-US">
     <title><keyword>Chat</keyword></title>
     <conbody>
-		<p><indexterm>chat</indexterm>This mode can be used to start a chat session in the group.</p>
-		<p>Press <uicontrol>Activity</uicontrol> button in selected group tab (see section <xref keyref="menu_group"/>&#160;), followed by selecting <uicontrol>Chat</uicontrol> from the group menu to start a group chat session.</p>
-		<p>A chat session window (<xref keyref="chat/chat_main_png" type="fig"/>&#160;) will appear on your screen. The window has group tabs along its top border for quick switching between group chat sessions. Message panel is on the left, while list of chat participants is on the right.</p>
+		<p><indexterm>chat</indexterm>This mode can be used to start a chat session in the whole class or in the group.</p>
+		<p>Press <uicontrol>Activity</uicontrol> button in class tab (see section <xref keyref="menu_class"/>&#160;) or in selected group tab (see section <xref keyref="menu_group"/>&#160;), followed by selecting <uicontrol>Chat</uicontrol> from the group menu to start a group chat session.</p>
+		<p>A chat session window (<xref keyref="chat/chat_main_png" type="fig"/>&#160;) will appear on your screen. The window has group tabs along its top border for quick switching between group chat sessions. Message panel is on the left, list of chat participants is on the right.</p>
 		<fig id="chat_main_png">
             <title>Chat session window</title>
             <image href="img/chat_main.png" placement="break">
@@ -15,10 +15,10 @@
         </fig>
 	   <p>Press the <uicontrol>Start</uicontrol> button to activate a chat session (at which point <uicontrol>Start</uicontrol> button will be replaced with a <uicontrol>Stop</uicontrol> button). A chat window will open on every group member screen.</p>
 	   <note type="important">Please note that groups that have an active chat session will have their names displayed on their tabs in red color.</note>
-	   <p>Enter your message into the text field immediately below the <uicontrol>Messages</uicontrol> panel and press <uicontrol>Send</uicontrol> button to send a message to the chat session.</p>
+	   <p>Enter your message into the text field immediately below the <uicontrol>Messages</uicontrol> panel and press the <uicontrol>Send</uicontrol> button to send a message to the chat session.</p>
 		<p>Check the <uicontrol>Send message to all active groups</uicontrol> box before pressing <uicontrol>Send</uicontrol> to send a message to all groups that have a chat session active.</p>
 		<p>Use the <uicontrol>Clear</uicontrol> button to clear the message panel.</p>
-		<p>Use the <uicontrol>Save</uicontrol> button to save a text log of the chat session to your hard drive.</p>
+		<p>Use the <uicontrol>Save</uicontrol> button to save a text log of the chat session on your hard drive.</p>
 		<p>Use the <uicontrol>Stop</uicontrol> button to finish the current session.</p>
 		<p>Press <uicontrol>Close</uicontrol> button to close the <wintitle>Chat</wintitle> window. At this point you will be offered to close all active chat sessions.</p>
 	</conbody>

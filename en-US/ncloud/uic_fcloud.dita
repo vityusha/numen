@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+
+  <concept id="uic_fcloud" xml:lang="en-US">
+  <title>Область содержимого</title>
+  <conbody>
+  
+<p>Просмотр и управление файлами, являющимися частью задания (ответа), осуществляется в области просмотра и управления облачным содержимым.</p>
+
+        <fig id="task_remote_content_view_png">
+            <title>Область просмотра и управления облачным содержимым</title>
+            <image href="img/task-remote-content-view.png" placement="break">
+                <alt>Область просмотра и управления облачным содержимым</alt>
+            </image>
+        </fig>
+        <p>На этом рисунке цифрами обозначены:</p>
+
+<table frame="topbot">
+<tgroup cols="2">
+   <colspec colname="COLSPEC0" colwidth="12"/>
+   <colspec colname="COLSPEC1" colwidth="200*"/>
+   
+<tbody>
+
+<row>
+<entry>1</entry>
+<entry>Область просмотра содержимого</entry>
+</row>
+
+<row>
+<entry>2</entry>
+<entry>Выделенный файл задания</entry>
+</row>
+
+<row>
+<entry>3</entry>
+<entry>Кнопка загрузки файла задания</entry>
+</row>
+
+<row>
+<entry>4</entry>
+<entry>Кнопка просмотра файла задания</entry>
+</row>
+
+</tbody>
+</tgroup>
+</table>
+
+<p>Список с содержимым имеет столбцы с именем, типом и размером файла, комментарием (необязательное поле) и кнопкой действия. Если файл содержимого не был ранее загружен из облачного хранилища, для него будет показана кнопка <uicontrol>Загрузить</uicontrol>, нажатие на которую загрузит копию файла из облачного хранилища на компьютер. Когда файл содержимого уже загружен на компьютер, для него показывается кнопка <uicontrol>Открыть</uicontrol>.</p>
+
+<note type="tip">Файлы содержимого открываются программами по умолчанию для их типов. Если файл необходимо открыть с помощью другой программы, следует воспользоваться пунктом <menucascade><uicontrol>Копировать</uicontrol></menucascade> контекстного меню (см. ниже) и сохранить файл в удобном для себя месте</note>
+
+<p>Каждый файл - элемент списка содержимого - имеет контекстное меню, вызывающееся правой кнопкой мыши или клавишей <menucascade><uicontrol>Меню</uicontrol></menucascade>. На рисунке ниже показан вид контекстного меню элемента содержимого облачного хранилища.</p>
+
+        <fig id="task_remote_content_view_png">
+            <title>Контекстное меню файла в списке содержимого</title>
+            <image href="img/content-cmenu.png" placement="break">
+                <alt>Контекстное меню файла в списке содержимого</alt>
+            </image>
+        </fig>
+
+</conbody>
+</concept>

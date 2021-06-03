@@ -2,19 +2,32 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="tutor_settings" xml:lang="en-US">
-    <title>Teacher settings</title>
-    <conbody>
-		<p>Select <menucascade><uicontrol>File</uicontrol><uicontrol>Teacher settings</uicontrol></menucascade> from the menu to change settings for the current teacher account.</p>
-		<p>A <wintitle>teacher settings</wintitle> window (<xref keyref="tutor_settings/tutor_settings_png" type="fig"/>&#160;) will appear on your screen, where you can set parameters for a new lesson. Check the <uicontrol>Start new lesson automatically</uicontrol> box if you would like to start a new lesson upon successful login without having to start it manually via the <uicontrol>Log</uicontrol> menu.</p>
-		<fig id="tutor_settings_png">
-            <title><wintitle>Teacher settings</wintitle> window</title>
-            <image href="img/tutor-settings.png" placement="break">
-			  <alt><wintitle>Teacher settings</wintitle> window</alt>
-            </image>
-        </fig>
-		<p>In this window you can enter your lesson duration, set a warning before the lesson end and set maximum score for the lesson.</p>
-		<p>If you check the <uicontrol>Warn about lesson end</uicontrol> box, <wintitle>Dialog Nibelung</wintitle> will issue a reminder to the students at the set time to the end of the lesson. The countdown clock in your status line (<xref keyref="description_main/controls_main_png" type="fig"/>&#160;) will also change to red at the same time.</p>
-		<note type="important">Please note that these settings will only be in effect for a new lesson.</note>
-		<p>Here you can also set default homepage for the lesson (see section <xref keyref="internet"/>&#160;).</p>
-	    </conbody>
+  <title>Teacher settings</title>
+  <conbody>
+    <p>Select <menucascade><uicontrol>File</uicontrol><uicontrol>Teacher settings</uicontrol></menucascade> from the main menu to change settings for the current teacher account.</p>
+    <fig id="tutor_settings_png">
+      <title><wintitle>Teacher settings</wintitle> window</title>
+      <image href="img/tutor-settings.png" placement="break">
+        <alt><wintitle>Teacher settings</wintitle> window</alt>
+      </image>
+    </fig>
+    <p>A window will appear on your screen (<xref keyref="tutor_settings/tutor_settings_png" type="fig"/>&#160;) where you can change the following personal settings:</p>
+    <ul>
+      <li>workspace background;</li>
+      <li>default new lesson settings;</li>
+      <li>default home page for the <uicontrol>Internet</uicontrol> activity (see <xref keyref="internet"/>&#160;).</li>
+    </ul>
+    <p>This window also allows you to create and deactivate your personal <wintitle>Teacher key</wintitle> (see <xref keyref="usb_keychain"/>&#160;).</p>
+    <p>For the workspace background you can set the following parameters:</p>
+    <ul>
+      <li>background image file;</li>
+      <li>specify image tiling (otherwise image will be scaled to fit the workspace);</li>
+      <li>background image transparency.</li>
+    </ul>
+    <p>Click on the button immediately to the right of <uicontrol>Browse</uicontrol> to reset background image and its parameters to the defaults.</p>
+    <p>You can specify default settings for new lessons in the <uicontrol>New lesson defaults</uicontrol> panel.</p>
+    <p>Select <uicontrol>Autostart new lesson</uicontrol>, to automatically start a new lesson upon a launch of <wintitle>Dialog Nibelung</wintitle> teacher module.</p>
+    <p>You can also specify lesson duration, lesson end notifications, and maximum lesson mark. Whenever <uicontrol>Warning on lesson end</uicontrol> is selected, all the students in the class will receive a warning at set time, and lesson time will be displayed in red in the status bar of the teacher module (<xref keyref="description_main/controls_main_png" type="fig"/>&#160;).</p>
+    <note type="important">Please note that these setting will affect only new lessons.</note>
+  </conbody>
 </concept>

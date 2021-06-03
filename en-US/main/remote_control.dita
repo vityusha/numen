@@ -2,85 +2,94 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="remote_control" xml:lang="en-US">
-    <title><keyword>Удаленное управление</keyword></title>
-    <conbody>  
-		<p><indexterm>удаленное управление</indexterm>В этом режиме преподаватель может просматривать экран выбранного учащегося и управлять его компьютером.</p>		
-		<p>При выборе в меню учащегося (п. <xref keyref="menu_single"/>&#160;) пункта <uicontrol>Удаленное управление</uicontrol> на экране монитора преподавателя появится окно (<xref keyref="remote_control/remote_control_png" type="fig"/>&#160;), которое содержит изображение экрана учащегося (11), список подключенных учащихся (9) и следующие кнопки:</p>
-		<table frame="topbot">
-            <tgroup cols="2">
-                <colspec colname="COLSPEC0" colwidth="10*"/>
-                <colspec colname="COLSPEC1" colwidth="120*"/>
-                <tbody valign="top">
-                    <row>
-                        <entry>1</entry>
-                        <entry><uicontrol>Управление</uicontrol> - позволяет удаленно работать с клавиатурой и мышкой учащегося;</entry>
-                    </row>
-					<row>
-                        <entry>2</entry>
-                        <entry><uicontrol>Изменить размер</uicontrol> - изменить размер окна так, чтобы в нем полностью поместилась копия экрана учащегося;</entry>
-                    </row>
-					<row>
-                        <entry>3</entry>
-                        <entry><uicontrol>Перо</uicontrol> - включает режим рисования на экране, который более подробно описан в задании <uicontrol>Передача экрана</uicontrol> (п. <xref keyref="transfer_screen"/>&#160;);</entry>
-                    </row>
-					<row>
-                        <entry>4</entry>
-                        <entry><uicontrol>Растянуть</uicontrol> - размер копии экрана изменяется так, чтобы он полностью поместился внутри данного окна;</entry>
-                    </row>
-					<row>
-                        <entry>5</entry>
-                        <entry><uicontrol>Снимок</uicontrol> - дает возможность сохранить копию экрана учащегося на компьютере преподавателя;</entry>
-                    </row>
-					<row>
-                        <entry>6</entry>
-                        <entry><uicontrol>Аудио</uicontrol> - вызывает подменю работы со звуком:
-                        <ul>
-                            <li><uicontrol>Прослушка</uicontrol>;</li>
-                            <li><uicontrol>Разговор</uicontrol>;</li>
-                            <li><uicontrol>Запись</uicontrol>;</li>
-                        </ul>
-                        </entry>
-                    </row>
-					<row>
-                        <entry>7</entry>
-                        <entry><uicontrol>Автообзор</uicontrol> - вызывает подменю автосканирования:
-                        <ul>
-                            <li><uicontrol>Весь класс</uicontrol>;</li>
-                            <li><uicontrol>Группа A...J</uicontrol>;</li>
-                            <li><uicontrol>Задать интервал</uicontrol>;</li>
-                        </ul>
-                        </entry>
-                    </row>
-					<row>
-                        <entry>8</entry>
-                        <entry><uicontrol>Управление PC</uicontrol> - вызывает подменю управления компьютером учащегося:
-                        <ul>
-                            <li><uicontrol>Заблокировать ввод</uicontrol>;</li>
-                            <li><uicontrol>Заблокировать компьютер</uicontrol>;</li>
-                            <li><uicontrol>Отключить Интернет</uicontrol>;</li>
-                            <li><uicontrol>Приложения учащегося</uicontrol>;</li>
-                            <li><uicontrol>Управление питанием</uicontrol>;
-                                <ul>
-                                    <li><uicontrol>Выйти из системы</uicontrol>;</li>
-                                    <li><uicontrol>Ждущий режим</uicontrol>;</li>
-                                    <li><uicontrol>Перезагрузка</uicontrol>;</li>
-                                    <li><uicontrol>Выключение</uicontrol>;</li>
-                                </ul>
-                            </li>
-                        </ul>
-                        </entry>
-                    </row>
-                </tbody> 
-            </tgroup>
-        </table>
-		<p>Для выхода из  режима удаленного управления преподаватель должен нажать на кнопку <uicontrol>Закрыть</uicontrol> (10), находящуюся внизу окна.</p>
+	<title><keyword>Remote desktop window</keyword></title>
+	<conbody>
+		<p><indexterm>remote control</indexterm>A dedicated <wintitle>Remote Desktop</wintitle> window is also available for monitoring and control of individual workstations. This window presents at a glance both the remote screen and different remote control actions that are available for selected workstation.</p>
+		<p>Select <uicontrol>Remote desktop</uicontrol> in the student pop-up menu (see <xref keyref="menu_single"/>&#160;) to call up the <wintitle>Remote Desktop</wintitle> window (<xref keyref="remote_control/remote_control_png" type="fig"/>&#160;) on your screen. This window contains a visual representation of the remote desktop together with local user interface elements for monitoring and remote control of the student workstation.</p>
 		<fig id="remote_control_png">
-            <title>Окно <wintitle>Удаленное управление</wintitle></title>
-            <image href="img/remote_control.png" placement="break">
-                <alt>Окно <wintitle>Удаленное управление</wintitle></alt>
-            </image>
-        </fig>
+			<title><wintitle>Remote desktop</wintitle> window</title>
+			<image href="img/remote_control.png" placement="break">
+				<alt><wintitle>Remote desktop</wintitle> window</alt>
+			</image>
+		</fig>
+		<p>Elements of the <wintitle>Remote desktop</wintitle> window:</p>
+		<table frame="topbot">
+			<tgroup cols="2">
+				<colspec colname="COLSPEC0" colwidth="10*"/>
+				<colspec colname="COLSPEC1" colwidth="120*"/>
+				<tbody valign="top">
+					<row>
+						<entry>1</entry>
+						<entry><uicontrol>Input</uicontrol> - take control of student's keyboard and mouse;</entry>
+					</row>
+					<row>
+						<entry>2</entry>
+						<entry><uicontrol>Fit</uicontrol> - resize the window to fit  remote screen;</entry>
+					</row>
+					<row>
+						<entry>3</entry>
+						<entry><uicontrol>Scribble</uicontrol> - scribble notes on the screen (see section <uicontrol>Live screen</uicontrol> <xref keyref="transfer_screen"/> for further details);</entry>
+					</row>
+					<row>
+						<entry>4</entry>
+						<entry><uicontrol>Resize</uicontrol> - resize remote screen to fit the window;</entry>
+					</row>
+					<row>
+						<entry>5</entry>
+						<entry><uicontrol>Screenshot</uicontrol> - take a screenshot of the remote desktop and save a local copy;</entry>
+					</row>
+					<row>
+						<entry>6</entry>
+						<entry><uicontrol>Audio</uicontrol> - audio control sub-menu:
+							<ul>
+								<li><uicontrol>Listen</uicontrol> (see <xref keyref="listen"/>&#160;)</li>
+								<li><uicontrol>Conversation</uicontrol> (see <xref keyref="dialog"/>&#160;)</li>
+								<li><uicontrol>Record</uicontrol> (see <xref keyref="record"/>&#160;)</li>
+							</ul>
+						</entry>
+					</row>
+					<row>
+						<entry>7</entry>
+						<entry><uicontrol>Autoscan</uicontrol> - autoscan sub-menu:
+							<ul>
+								<li><uicontrol>Class</uicontrol>;</li>
+								<li><uicontrol>Group A...J</uicontrol>;</li>
+								<li><uicontrol>Set delay</uicontrol>;</li>
+							</ul>
+						</entry>
+					</row>
+					<row>
+						<entry>8</entry>
+						<entry><uicontrol>Remote control</uicontrol> - sub-menu for remote control functions of the student workstation:
+							<ul>
+								<li><uicontrol>Lock input</uicontrol> (see <xref keyref="lock_input"/>&#160;)</li>
+								<li><uicontrol>Lock computer</uicontrol> (see <xref keyref="lock_pc"/>&#160;)</li>
+								<li><uicontrol>Internet access</uicontrol> (see <xref keyref="disable_internet"/>&#160;)</li>
+								<li><uicontrol>Raise</uicontrol> (see <xref keyref="student_applications"/>&#160;)</li>
+								<li><uicontrol>Power control</uicontrol>;
+									<ul>
+										<li><uicontrol>Standby</uicontrol>;</li>
+										<li><uicontrol>Reboot</uicontrol>;</li>
+										<li><uicontrol>Shutdown</uicontrol>;</li>
+									</ul>
+								</li>
+							</ul>
+						</entry>
+					</row>
+					<row>
+						<entry>9</entry>
+						<entry>Drop-down list of logged in students</entry>
+					</row>
+					<row>
+						<entry>10</entry>
+						<entry><uicontrol>Close</uicontrol> window button</entry>
+					</row>
+					<row>
+						<entry>11</entry>
+						<entry>Visual of the student desktop</entry>
+					</row>
+				</tbody>
+			</tgroup>
+		</table>
 	</conbody>
 </concept>
-
-

@@ -2,18 +2,18 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="grades_statistics" xml:lang="en-US">
-    <title>Статистика успеваемости</title>
+    <title>Performance statistics</title>
     <conbody>
-        <p>Для того чтобы посмотреть статистику успеваемости уроков, необходимо выбрать меню <menucascade><uicontrol>Журнал</uicontrol><uicontrol>Статистика успеваемости</uicontrol></menucascade>.</p>
-        <p>На экране монитора преподавателя появится окно, содержащее список уроков, в котором он может отобрать нужные уроки по предметам, классам и временным интервалам.</p>
-        <p>Преподаватель может в поле <uicontrol>Тип статистики</uicontrol> выбрать сводную статистику по урокам (<xref keyref="grades_statistics/grades_common_png" type="fig"/>&#160;) или полную (<xref keyref="grades_statistics/grades_full_png" type="fig"/>&#160;).</p>
+        <p>Select <menucascade><uicontrol>Logbook</uicontrol><uicontrol>Performance</uicontrol></menucascade> from the main menu to view student performance records.</p>
+	   <p conkeyref="presents_statistics/filter_win" />
+	   <p>You can select <uicontrol>Statistics type</uicontrol> between <uicontrol>Summary</uicontrol> (<xref keyref="grades_statistics/grades_common_png" type="fig"/>&#160;) and <uicontrol>Detailed</uicontrol> (<xref keyref="grades_statistics/grades_full_png" type="fig"/>&#160;).</p>
         <fig id="grades_common_png">
-            <title>Сводная статистика успеваемости</title>
+            <title>Summary of performance statistics</title>
             <image href="img/grades-common.png" placement="break">
-                <alt>Сводная статистика успеваемости</alt>
+			  <alt>Summary of performance statistics</alt>
             </image>
         </fig>
-        <p>На этом рисунке цифрами обозначены:</p>
+	   <p>Elements of the <wintitle>Performance statistics</wintitle> window displaying summary statistics:</p>
 		<table frame="topbot">
             <tgroup cols="2">
                 <colspec colname="COLSPEC0" colwidth="10*"/>
@@ -21,58 +21,58 @@
                 <tbody>
                     <row>
                         <entry>1</entry>
-                        <entry>Список <uicontrol>Предмет</uicontrol></entry>
+                        <entry><uicontrol>Course</uicontrol> selection list</entry>
                     </row>
 					<row>
                         <entry>2</entry>
-                        <entry>Список <uicontrol>Класс</uicontrol></entry>
+                        <entry><uicontrol>Class</uicontrol> selection list</entry>
                     </row>
 					<row>
                         <entry>3</entry>
-                        <entry>Начальная дата</entry>
+                        <entry>Start date for filtering</entry>
                     </row>
 					<row>
                         <entry>4</entry>
-                        <entry>Конечная дата</entry>
+                        <entry>End date for filtering</entry>
                     </row>
 					<row>
                         <entry>5</entry>
-                        <entry>Поле данных <uicontrol>Учащийся</uicontrol></entry>
+                        <entry><uicontrol>Student</uicontrol> name</entry>
                     </row>
 					<row>
                         <entry>6</entry>
-                        <entry>Поле данных <uicontrol>Сумма баллов</uicontrol></entry>
+				    <entry><uicontrol>Cumulative score</uicontrol></entry>
                     </row>
 					<row>
                         <entry>7</entry>
-                        <entry>Поле данных <uicontrol>Количество оценок</uicontrol></entry>
+                        <entry><uicontrol>Grades recorded</uicontrol></entry>
                     </row>
 					<row>
                         <entry>8</entry>
-                        <entry>Поле данных <uicontrol>Средний балл</uicontrol></entry>
+                        <entry><uicontrol>Average grade</uicontrol></entry>
                     </row>
 					<row>
                         <entry>9</entry>
-                        <entry>Тип статистики</entry>
+				    <entry><uicontrol>Statistics type</uicontrol> selector panel</entry>
                     </row>
                     <row>
                         <entry>10</entry>
-                        <entry>Кнопка <uicontrol>Сохранить в формате HTML</uicontrol></entry>
+                        <entry><uicontrol>Export to HTML</uicontrol> button</entry>
                     </row>
                     <row>
                         <entry>11</entry>
-                        <entry>Кнопка <uicontrol>Закрыть окно</uicontrol></entry>
+                        <entry><uicontrol>Close</uicontrol> window button</entry>
                     </row>
-                </tbody> 
+                </tbody>
             </tgroup>
         </table>
         <fig id="grades_full_png">
-            <title>Полная статистика успеваемости</title>
+            <title>Detailed performance statistics</title>
             <image href="img/grades-full.png" placement="break">
-                <alt>Полная статистика успеваемости</alt>
+                <alt>Detailed performance statistics</alt>
             </image>
         </fig>
-        <p>На этом рисунке цифрами обозначены:</p>
+	   <p>Elements of the <wintitle>Performance statistics</wintitle> window displaying detailed statistics:</p>
 		<table frame="topbot">
             <tgroup cols="2">
                 <colspec colname="COLSPEC0" colwidth="10*"/>
@@ -80,49 +80,49 @@
                 <tbody>
                     <row>
                         <entry>1</entry>
-                        <entry>Список <uicontrol>Предмет</uicontrol></entry>
+                        <entry><uicontrol>Course</uicontrol> selection list</entry>
                     </row>
 					<row>
                         <entry>2</entry>
-                        <entry>Список <uicontrol>Класс</uicontrol></entry>
+                        <entry><uicontrol>Class</uicontrol> selection list</entry>
                     </row>
 					<row>
                         <entry>3</entry>
-                        <entry>Начальная дата</entry>
+                        <entry>Start date for filtering</entry>
                     </row>
 					<row>
                         <entry>4</entry>
-                        <entry>Конечная дата</entry>
+                        <entry>End date for filtering</entry>
                     </row>
 					<row>
                         <entry>5</entry>
-                        <entry>Тип статистики</entry>
+				    <entry><uicontrol>Statistics type</uicontrol> selector panel</entry>
                     </row>
                     <row>
                         <entry>6</entry>
-                        <entry>Поле данных <uicontrol>Учащийся</uicontrol></entry>
+                        <entry><uicontrol>Student</uicontrol> name</entry>
                     </row>
 					<row>
                         <entry>7</entry>
-                        <entry>Поле данных <uicontrol>Оценка за урок</uicontrol></entry>
+                        <entry>Grade for given <uicontrol>date</uicontrol></entry>
                     </row>
                     <row>
                         <entry>8</entry>
-                        <entry>Кнопка <uicontrol>Сохранить в формате HTML</uicontrol></entry>
+				    <entry><uicontrol>Export to HTML</uicontrol> button</entry>
                     </row>
                     <row>
                         <entry>9</entry>
-                        <entry>Кнопка <uicontrol>Закрыть окно</uicontrol></entry>
+				    <entry><uicontrol>Close</uicontrol> window button</entry>
                     </row>
-                </tbody> 
+                </tbody>
             </tgroup>
         </table>
-        <p>В сводной статистике приводится список учащихся выбранного класса, общая сумма баллов за все уроки, количество оценок и средний балл. В полной статистике приводится список учащихся и оценки по урокам за определенный интервал времени.</p>
-        <p>Преподаватель может сохранить данные статистики успеваемости в файл формата HTML. Для этого нужно нажать на кнопку <uicontrol>Сохранить</uicontrol> и ввести имя файла для сохранения. После сохранения будет предложено просмотреть результаты экспорта. Если нажать на кнопку <uicontrol>Да</uicontrol>,то откроется окно браузера по умолчанию (обычно <wintitle>Microsoft Internet Explorer</wintitle>) с содержимым сохраненного файла (<xref keyref="grades_statistics/grades_report_png" type="fig"/>&#160;).</p>
+	   <p>Summary statistics include list of students in the class; cumulative score, number of recorded grades, and average grade for each student between specified dates. Detailed statistics include student list and individual grades for each student between specified dates.</p>
+	   <p>You can export attendance statistics into a file in HTML format. Press <uicontrol>Export to HTML</uicontrol> and enter file name. After export is completed you will be given an option to view the results in your default browser (<xref keyref="grades_statistics/grades_report_png" type="fig"/>&#160;).</p>
         <fig id="grades_report_png">
-            <title>Отчет о статистике успеваемости</title>
+            <title>Performance report</title>
             <image href="img/grades-report.png" placement="break">
-                <alt>Отчет о статистике успеваемости</alt>
+                <alt>Performance report</alt>
             </image>
         </fig>
 	</conbody>

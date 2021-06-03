@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+
+<concept id="std_send_rcv" xml:lang="en-US">
+  <title>Работа над заданиями и отправка ответов</title>
+  <conbody>
+
+<p>После выбора учащимся выполняемого задания из списка вся информация о задании и нработа над ним производятся в области выполнения задания.</p>
+
+        <fig id="student_answer_part_png">
+            <title>Интерфейс окна учащегося: выполнение задания</title>
+            <image href="img/student-answer-part.png" placement="break">
+                <alt>Интерфейс окна учащегося: выполнение задания</alt>
+            </image>
+        </fig>
+        <p>На этом рисунке цифрами обозначены:</p>
+
+<table frame="topbot">
+<tgroup cols="2">
+   <colspec colname="COLSPEC0" colwidth="12"/>
+   <colspec colname="COLSPEC1" colwidth="200*"/>
+   
+<tbody>
+
+<row>
+<entry>1</entry>
+<entry>Пояснение к заданию</entry>
+</row>
+
+<row>
+<entry>2</entry>
+<entry>Комментарий учащегося</entry>
+</row>
+
+<row>
+<entry>3</entry>
+<entry>Вкладка <uicontrol>Информация о задании</uicontrol></entry>
+</row>
+
+<row>
+<entry>4</entry>
+<entry>Вкладка <uicontrol>Содержимое задания</uicontrol></entry>
+</row>
+
+<row>
+<entry>5</entry>
+<entry>Вкладка <uicontrol>Содержимое ответа</uicontrol></entry>
+</row>
+
+<row>
+<entry>6</entry>
+<entry>Вкладка <uicontrol>Файлы для отправки</uicontrol></entry>
+</row>
+
+<row>
+<entry>7</entry>
+<entry>Выделенный файл содержимого задания</entry>
+</row>
+
+<row>
+<entry>8</entry>
+<entry>Кнопка просмотра файла содержимого</entry>
+</row>
+
+<row>
+<entry>9</entry>
+<entry><uicontrol>Контекстное меню</uicontrol></entry>
+</row>
+
+<row>
+<entry>10</entry>
+<entry>Кнопка <uicontrol>Сохранить ответ</uicontrol></entry>
+</row>
+
+<row>
+<entry>11</entry>
+<entry>Кнопка <uicontrol>Отправить на проверку</uicontrol></entry>
+</row>
+
+</tbody>
+</tgroup>
+</table>
+
+<p>Пояснение преподавателя к заданию является общим для всех учащихся, которым оно назначено.</p>
+
+<note type="tip">Комментарий учащегося к своему ответу может являться как пояснением, так и коротким ответом на задание, если условие задания подразумевает такую возможность и не требует отправки файлов в качестве ответа.</note>
+
+<p>На вкладке <uicontrol>Содержимое задания</uicontrol> находится список файлов задания (подробнее см. <xref keyref="uic_fcloud"/>&#160;), а на вкладке <uicontrol>Содержимое овтета</uicontrol> - список файлов, которые <uicontrol>уже</uicontrol> сохранены учащимся или отправлены им на проверку.</p>
+
+<p>Вкладка <uicontrol>Файлы для отправки</uicontrol> отображает инструментарий для выбора файлов ответа, находящихся на компьютере (подробнее см. <xref keyref="uic_flocal"/>&#160;). Отправка выбранных файлов активизируется нажатием кнопки <uicontrol>Сохранить ответ</uicontrol> или <uicontrol>Отправить на проверку</uicontrol>.</p>
+
+<p>Кнопка <uicontrol>Сохранить ответ</uicontrol> служит для сохранения промежуточного результата выполнения. Промежуточный результат будет отправлен в облачное хранилище и станет доступен преподавателю. Задание при этом получит статус <uicontrol>В работе</uicontrol>, означающий, что задание выполняется, но работа над ним еще не завершена (подробнее см. <xref keyref="glossary"/>&#160;)</p>
+
+<note type="tip">Для задания, еще не отправленного на проверку, учащийся имеет возможность прикреплять файлы к ответу, комментировать ход выполнения задания и сохранять ответ произвольное число раз</note>
+
+<p>Для отправки ответа на проверку служит кнопка <uicontrol>Отправить на проверку</uicontrol>. После этого задание получит статус <uicontrol>На проверке</uicontrol>. Учащийся при этом ожидает <uicontrol>проверки</uicontrol> своего ответа и выставления <uicontrol>оценки</uicontrol>.</p>
+
+  	<fig id="student_complete_task_request_png">
+            <title>Запрос перед отправкой ответа на проверку</title>
+            <image href="img/student-complete-task-request.png" placement="break">
+                <alt>Запрос перед отправкой ответа на проверку</alt>
+            </image>
+  </fig>
+  
+<note type="important">Если задание не было завершено в срок, оно считается просроченным и получает соответствующий статус <uicontrol>Просрочено</uicontrol>!</note> 
+
+<p>Задание будет проверено и оценено либо (при необходимости) отправлено преподавателем на доработку.</p>
+
+<note type="attention">Ответ учащегося может быть отправлен преподавателем на доработку неограниченное число раз. Преподаватель имеет возможность сдвинуть срок выполнения задания (новый срок будет одинаковым для всех учащихся задания). Подробнее о сроках выполнения см. <xref keyref="tasks_publish"/>&#160;</note>
+
+<p>В статусной строке показывается состояние дисковой квоты, состояние соединения с Интернетом и облачным хранилищем.</p>
+
+<p><uicontrol>Поле комментария</uicontrol> в зависимости от выбранной вкладки может содержать сообщение от преподавателя (относительно хода выполнения задания, оценки, доработки ответа и т.п.) либо комментарий учащегося к своему ответу.</p>
+
+<table frame="topbot">
+<tgroup cols="2">
+   <colspec colname="COLSPEC0" colwidth="200"/>
+   <colspec colname="COLSPEC1" colwidth="200*"/>   
+
+<thead>
+<row>
+<entry colname="COLSPEC0">Выбранная вкладка</entry>
+<entry colname="COLSPEC1">Информация в поле</entry>
+</row>
+</thead>
+
+<tbody>
+
+<row>
+<entry>Информация о задании</entry>
+<entry>Сообщение преподавателя</entry>
+</row>
+
+<row>
+<entry>Содержимое задания</entry>
+<entry>Сообщение преподавателя</entry>
+</row>
+
+<row>
+<entry>Содержимое ответа</entry>
+<entry>Комментарий учащегося</entry>
+</row>
+
+<row>
+<entry>Файлы для отправки</entry>
+<entry>Комментарий учащегося</entry>
+</row>
+
+</tbody>
+</tgroup>
+</table>
+
+<p>На рисунке ниже показан интерфейс учащегося для ответа, требующего доработки</p>
+
+        <fig id="student_window_redo_png">
+            <title>Интерфейс окна учащегося: доработка ответа</title>
+            <image href="img/student-window-redo.png" placement="break">
+                <alt>Интерфейс окна учащегося: доработка ответа</alt>
+            </image>
+        </fig>
+        <p>На этом рисунке цифрами обозначены:</p>
+
+<table frame="topbot">
+<tgroup cols="2">
+   <colspec colname="COLSPEC0" colwidth="12"/>
+   <colspec colname="COLSPEC1" colwidth="200*"/>
+   
+<tbody>
+
+<row>
+<entry>1</entry>
+<entry>Столбец со статусом.</entry>
+</row>
+
+<row>
+<entry>2</entry>
+<entry>Столбец с оценкой.</entry>
+</row>
+
+<row>
+<entry>3</entry>
+<entry>Поле с сообщением от преподавателя.</entry>
+</row>
+
+<row>
+<entry>4</entry>
+<entry>Кнопка <uicontrol>Отправить на проверку</uicontrol>.</entry>
+</row>
+
+</tbody>
+</tgroup>
+</table>
+
+<p>Задания, требующие доработки, будут показываться со статусом <uicontrol>На доработку</uicontrol>. Оценка, сопровождаемая статусом <uicontrol>На доработку</uicontrol>, является предварительной; возможно, она будет изменена после доработки ответа. При отправке задания на доработку в поле <uicontrol>Сообщение преподавателя</uicontrol> может быть описана причина, по которой ответу требуется доработка.</p>
+
+<p>Для отправки доработанного ответа на проверку также служит кнопка <uicontrol>Отправить на проверку</uicontrol>. Ответ на завершенное задание более нельзя будет редактировать.</p>
+
+<note type="important">Ответ может быть отправлен преподавателем на доработку неоднократно</note>
+
+  </conbody>
+</concept>

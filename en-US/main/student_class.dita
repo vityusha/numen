@@ -5,7 +5,7 @@
     <title>Class layout</title>
     <conbody>
 		<p>At the start of a teacher module session you will typically open a class file or create a new one.</p>
-		<p>Select <menucascade><uicontrol>Class</uicontrol><uicontrol>New</uicontrol></menucascade> to open a new class window (<xref keyref="student_class/new_class_png" type="fig"/>&#160;) and enter number of students and number of rows in the classroom console. Press the <uicontrol>OK</uicontrol> button.</p>
+		<p>Select <menucascade><uicontrol>Class</uicontrol><uicontrol>New</uicontrol></menucascade> to open a <wintitle>New class</wintitle> window (<xref keyref="student_class/new_class_png" type="fig"/>&#160;) and enter number of students and number of rows in the classroom console. Press the <uicontrol>OK</uicontrol> button.</p>
 		<fig id="new_class_png">
             <title><wintitle>New class</wintitle> window</title>
             <image href="img/new_class.png" placement="break">

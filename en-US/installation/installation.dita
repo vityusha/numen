@@ -7,8 +7,8 @@
     <conbody>
         <note type="attention">You will need Windows administrator privileges to install <wintitle>Dialog Nibelung</wintitle>.</note>
         <note type="important">Only teacher module should be installed on the teacher workstation and only student modules on the student workstations. Do not attempt to install both <indexterm>teacher module</indexterm> teacher module and <indexterm>student module</indexterm> student module on the same computer.</note>
-        <note type="important">The following packages will be automatically installed whenever necessary: <wintitle>Microsoft .NET Framework 3.5</wintitle>, <wintitle>Windows Installer 3.1</wintitle>, <wintitle>Visual C++ Runtime Libraries (x86)</wintitle>, <wintitle>JRE</wintitle>.</note>
-	   <note type="important">Although the installation software described in this section is referred to as the <wintitle>Setup Wizard</wintitle> (consistent with the Windows ecosystem practices), it is in fact an installation wizard. It will produce a usable setup with default settings. Please refer to section (_fixme_ xref) Setup Guide for <wintitle>Dialog Nibelung</wintitle> for further setup instructions.</note>
+        <note type="important">The following packages will be automatically installed whenever necessary: <wintitle>Microsoft .NET Framework 4.0 Client Profile</wintitle>, <wintitle>Windows Installer 4.5</wintitle>, <wintitle>Java Runtime Environment (JRE)</wintitle>.</note>
+	   <note type="important">Although the installation software described in this section is referred to as the <wintitle>Setup Wizard</wintitle> (consistent with the Windows ecosystem practices), it is in fact an installation wizard. It will produce a usable setup with default settings. Please refer to section <xref keyref="setup_guide"/>&#160;) for further setup instructions.</note>
     </conbody>
 
 </concept>

@@ -2,19 +2,57 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="commutator_switch" xml:lang="en-US">
-    <title>Описание блока коммутации</title>
-    <conbody>  
-        <p><indexterm>блок коммутации</indexterm>Блок коммутации служит для передачи звуковых сигналов. Управление блоком осуществляется 
-        по локальной сети при помощи программы <wintitle>Диалог Nibelung</wintitle>.</p>
-        <p>На задней панели блока коммутации (<xref keyref="commutator_switch/back_png" type="fig"/>&#160;) расположены разъемы подключения 
-        кабелей от блоков учащихся, внешних источников, гарнитуры преподавателя, локальной сети и шнура питания.</p>
+    <title>Audio hub overview</title>
+    <conbody>
+        <p><indexterm>audio hub</indexterm>The audio hub facilitates high quality audio transmission in the classroom. It operates under the control of <wintitle>Dialog Nibelung</wintitle> teacher module, with which it communicates via the classroom LAN.</p>
+
+	   <p>The front panel of the audio hub contains the Power On/Off switch and three indicators (<xref keyref="commutator_switch/front_png" type="fig"/>&#160;) .</p>
+	   <fig id="front_png">
+		   <title>Audio hub: front panel</title>
+		   <image href="img/dialog_3_front.png" placement="break">
+			   <alt>Audio hub: front panel</alt>
+		   </image>
+	   </fig>
+	   <p>Front panel controls:</p>
+	   <table frame="topbot">
+		   <tgroup cols="2">
+			   <colspec colname="COLSPEC0" colwidth="10*"/>
+			   <colspec colname="COLSPEC1" colwidth="120*"/>
+			   <tbody>
+				   <row>
+					   <entry>1</entry>
+					   <entry><wintitle>Operational</wintitle> indicator light (green LED)</entry>
+				   </row>
+				   <row>
+					   <entry>2</entry>
+					   <entry><wintitle>+5V</wintitle> indicator light (red LED)</entry>
+				   </row>
+				   <row>
+					   <entry>3</entry>
+					   <entry><wintitle>-12V</wintitle> indicator light (red LED)</entry>
+				   </row>
+				   <row>
+					   <entry>4</entry>
+					   <entry>Power on/Off switch</entry>
+				   </row>
+			   </tbody>
+		   </tgroup>
+	   </table>
+	   <fig id="ind_png">
+		   <title>Audio hub: front panel indicators</title>
+		   <image href="img/dialog_3_ind.png" placement="break">
+			   <alt>Audio hub: front panel indicators</alt>
+		   </image>
+	   </fig>
+
+	   <p>The rear of the audio hub contains connectors for student interfaces (model shown in the picture can serve up to 20 students), 3 external audio sources, teacher workstation audio interface, teacher's headphones and microphone, LAN, and the power cord (<xref keyref="commutator_switch/back_png" type="fig"/>&#160;). The unit is equipped with a worldwide power supply and can be powered from 85-264 VAC / 47-63 Hz mains by connecting a compatible cord.</p>
 		<fig id="back_png">
-            <title>Блок коммутации. Вид сзади</title>
+            <title>Audio hub: rear panel view</title>
             <image href="img/dialog_3_back.png" placement="break">
-                <alt>Блок коммутации. Вид сзади</alt>
-            </image> 
+			  <alt>Audio hub: rear panel view</alt>
+            </image>
         </fig>
-        <p>На этом рисунке цифрами обозначены:</p>
+        <p>Connectors on the audio hub rear panel:</p>
 		<table frame="topbot">
             <tgroup cols="2">
                 <colspec colname="COLSPEC0" colwidth="10*"/>
@@ -22,117 +60,79 @@
                 <tbody>
                     <row>
                         <entry>1</entry>
-                        <entry>Разъем подключения шнура питания 220В (Евростандарт)</entry>
+				    <entry>Power cord connector (IEC60320/C14)</entry>
                     </row>
 					<row>
                         <entry>2</entry>
-                        <entry>Разъем подключения кабеля локальной сети (RJ-45)</entry>
+                        <entry>LAN connector (RJ-45)</entry>
                     </row>
 					<row>
                         <entry>3</entry>
-                        <entry>Разъем внешнего входа №1 (RCA)</entry>
+                        <entry>Input 1 connector (RCA)</entry>
                     </row>
 					<row>
                         <entry>4</entry>
-                        <entry>Разъем внешнего выхода №1 (RCA)</entry>
+                        <entry>Output 1 connector (RCA)</entry>
                     </row>
 					<row>
                         <entry>5</entry>
-                        <entry>Разъем внешнего входа №2 (RCA)</entry>
+                        <entry>Input 2 connector (RCA)</entry>
                     </row>
 					<row>
                         <entry>6</entry>
-                        <entry>Разъем внешнего выхода №2 (RCA)</entry>
+                        <entry>Output 2 connector (RCA)</entry>
                     </row>
                     <row>
                         <entry>7</entry>
-                        <entry>Разъем внешнего входа №3 (RCA)</entry>
+                        <entry>Input 3 connector (RCA)</entry>
                     </row>
 					<row>
                         <entry>8</entry>
-                        <entry>Разъем внешнего выхода №3 (RCA)</entry>
+                        <entry>Output 3 connector (RCA)</entry>
                     </row>
 					<row>
                         <entry>9</entry>
-                        <entry>Разъем внешнего входа №4 (RCA), подключается к линейному выходу звуковой карты ПК преподавателя</entry>
+				    <entry>Input 4 connector (RCA), to be connected to the <uicontrol>Line Out</uicontrol> of the teacher workstation audio interface</entry>
                     </row>
 					<row>
                         <entry>10</entry>
-                        <entry>Разъем внешнего выхода №4 (RCA), подключается к линейному входу звуковой карты ПК преподавателя</entry>
+				    <entry>Output 4 connector (RCA), to be connected to the <uicontrol>Line In</uicontrol> of the teacher workstation audio interface</entry>
                     </row>
 					<row>
                         <entry>11</entry>
-                        <entry>Разъем подключения наушника преподавателя (jack 3,5 mm)</entry>
+                        <entry>Teacher headphones connector (3.5 mm jack)</entry>
                     </row>
                     <row>
                         <entry>12</entry>
-                        <entry>Разъем подключения микрофона преподавателя (jack 3,5 mm)</entry>
+                        <entry>Teacher microphone connector (3.5 mm jack)</entry>
                     </row>
                     <row>
                         <entry>13</entry>
-                        <entry>Разъемы подключения блока учащиегося №1 (RJ-45)</entry>
+                        <entry>Student interface 1 connector (RJ-45)</entry>
                     </row>
                     <row>
                         <entry>14</entry>
-                        <entry>Разъемы подключения блока учащиегося №2 (RJ-45)</entry>
+				    <entry>Student interface 2 connector (RJ-45)</entry>
                     </row>
                     <row>
                         <entry>15</entry>
-                        <entry>Разъемы подключения блока учащиегося №19 (RJ-45)</entry>
+				    <entry>Student interface 19 connector (RJ-45)</entry>
                     </row>
                     <row>
                         <entry>16</entry>
-                        <entry>Разъемы подключения блока учащиегося №20 (RJ-45)</entry>
+				    <entry>Student interface 20 connector (RJ-45)</entry>
                     </row>
-                </tbody> 
+                </tbody>
             </tgroup>
         </table>
-        <p>На передней панели блока коммутации (<xref keyref="commutator_switch/front_png" type="fig"/>&#160;) расположены кнопка включения блока и индикаторы.</p>
-		<fig id="front_png">
-            <title>Блок коммутации. Вид спереди</title>
-            <image href="img/dialog_3_front.png" placement="break">
-                <alt>Блок коммутации. Вид спереди</alt>
-            </image> 
-        </fig>
-        <p>На этом рисунке цифрами обозначены:</p>
-		<table frame="topbot">
-            <tgroup cols="2">
-                <colspec colname="COLSPEC0" colwidth="10*"/>
-                <colspec colname="COLSPEC1" colwidth="120*"/>
-                <tbody>
-                    <row>
-                        <entry>1</entry>
-                        <entry>Индикатор <wintitle>Работа</wintitle> (зеленый)</entry>
-                    </row>
-					<row>
-                        <entry>2</entry>
-                        <entry>Индикатор <wintitle>+5В</wintitle> (красный)</entry>
-                    </row>
-					<row>
-                        <entry>3</entry>
-                        <entry>Индикатор <wintitle>-12В</wintitle> (красный)</entry>
-                    </row>
-					<row>
-                        <entry>4</entry>
-                        <entry>Кнопка включения сети</entry>
-                    </row>
-                </tbody> 
-            </tgroup>
-        </table>
-        <fig id="ind_png">
-            <title>Блок коммутации. Индикаторы</title>
-            <image href="img/dialog_3_ind.png" placement="break">
-                <alt>Блок коммутации. Индикаторы</alt>
-            </image> 
-        </fig>
-        <note type="tip">По умолчанию блок коммутации предусматривает получение IP адреса от сервера <wintitle>DHCP</wintitle>. Если данный сервер отсутствует в локальной сети, то блок устанавливает первый свободный IP адрес из диапазона <userinput>192.168.0.100 - 192.168.0.255</userinput>.</note>
-        <note type="attention">Если требуется установить статический IP адресс для блока, поменять MAC адрес или номер порта, нужно подключиться
-        по локальной сети к блоку, в браузере набрать <userinput>http://x.x.x.x/cmd.cgi?cmd=set</userinput>, где вместо <userinput>x.x.x.x</userinput> подставить текущий IP адрес блока. В появившейся форме (<xref keyref="commutator_switch/settings_png" type="fig"/>&#160;) вводятся необходимые параметры. Обратите внимание, что установка данных параметров защищена паролем! Для получения пароля обратитесь к разработчику.</note>   
+	   <note type="attention">Please note that the sequential number of student interface connector must correspond to the Student Seat ID number for correct operation of the audio hub with <wintitle>Dialog Nibelung</wintitle>.</note>
+	   <note type="tip">The audio hub will try to obtain an IP address via <wintitle>DHCP</wintitle>. If no <wintitle>DHCP</wintitle> servers can be reached, the audio hub will take first available address in the <userinput>192.168.0.100 - 192.168.0.255</userinput> range.</note>
+        <note type="attention">It is also possible to assign a static IP address to the hub, change the MAC address, and port number. Point your browser to <userinput>http://x.x.x.x/cmd.cgi?cmd=set</userinput>, where <userinput>x.x.x.x</userinput> is the current IP address of the audio hub. Edit the settings and submit the form (<xref keyref="commutator_switch/settings_png" type="fig"/>&#160;). Please note that these settings are password protected. Contact Lain Ltd. to obtain the password.</note>
         <fig id="settings_png">
-            <title>Окно установки параметров подключения блока по локальной сети</title>
+            <title>Audio hub network settings</title>
             <image href="img/settings.png" placement="break">
-                <alt>Окно установки параметров подключения блока по локальной сети</alt>
-            </image> 
-        </fig>        
+			  <alt>Audio hub network settings</alt>
+            </image>
+        </fig>
     </conbody>
 </concept>

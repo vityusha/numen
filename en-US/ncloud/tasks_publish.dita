@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+
+<concept id="tasks_publish" xml:lang="en-US">
+  <title>Публикация заданий</title>
+<conbody>
+
+<p>Для публикации задания следует выбрать требуемый шаблон на вкладке <uicontrol>Задания</uicontrol> главного окна (см. <xref keyref="teacher_mainwin"/>&#160;) и нажать кнопку <uicontrol>Опубликовать</uicontrol>. Откроется диалог публикации заданий.</p>
+
+          <fig id="publish_window_png">
+            <title>Диалог публикации заданий</title>
+            <image href="img/publish-window.png" placement="break">
+                <alt>Диалог публикации заданий</alt>
+            </image>
+        </fig>
+		
+<p>На этом рисунке цифрами обозначены:</p>
+
+<table frame="topbot">
+<tgroup cols="2">
+   <colspec colname="COLSPEC0" colwidth="12"/>
+   <colspec colname="COLSPEC1" colwidth="200*"/>
+   
+<tbody>
+
+<row>
+<entry>1</entry>
+<entry>Область общих сведений о публикуемом шаблоне заданий</entry>
+</row>
+
+<row>
+<entry>2</entry>
+<entry>Поле ввода комментария к данной публикации</entry>
+</row>
+
+<row>
+<entry>3</entry>
+<entry>Область установки сроков выполнения</entry>
+</row>
+
+<row>
+<entry>4</entry>
+<entry>Поле для выбора даты и времени</entry>
+</row>
+
+<row>
+<entry>5</entry>
+<entry>Кнопка вызова календаря</entry>
+</row>
+
+<row>
+<entry>6</entry>
+<entry>Ниспадающий список для выбора количества дней</entry>
+</row>
+
+<row>
+<entry>7</entry>
+<entry>Ниспадающий список для выбора количества часов</entry>
+</row>
+
+<row>
+<entry>8</entry>
+<entry>Поле с названием класса</entry>
+</row>
+
+<row>
+<entry>9</entry>
+<entry>Cписок учащихся, которым будет назначено данное задание</entry>
+</row>
+
+<row>
+<entry>10</entry>
+<entry>Поле для ввода ID учащегося</entry>
+</row>
+
+<row>
+<entry>11</entry>
+<entry>Поле для ввода отображаемого имени учащегося</entry>
+</row>
+
+<row>
+<entry>12</entry>
+<entry>Кнопка <uicontrol>Добавить учащегося</uicontrol></entry>
+</row>
+
+<row>
+<entry>13</entry>
+<entry>Кнопка <uicontrol>Редактировать данные об учащемся</uicontrol></entry>
+</row>
+
+<row>
+<entry>14</entry>
+<entry>Кнопка <uicontrol>Удалить учащегося из списка</uicontrol></entry>
+</row>
+
+<row>
+<entry>15</entry>
+<entry>Кнопка <uicontrol>Загрузить список учащихся</uicontrol></entry>
+</row>
+
+<row>
+<entry>16</entry>
+<entry>Кнопка <uicontrol>Сохранить список учащихся</uicontrol></entry>
+</row>
+
+<row>
+<entry>17</entry>
+<entry>Кнопка <uicontrol>Опубликовать</uicontrol></entry>
+</row>
+
+<row>
+<entry>18</entry>
+<entry>Кнопка <uicontrol>Отмена</uicontrol></entry>
+</row>
+
+</tbody>
+</tgroup>
+</table>
+
+<p>Общая информация об исходном шаблоне находится в области показа общих сведений. Для создания общего для учащихся описания служит поле ввода комментария к публикации.</p>
+
+<p>Для установки времени выполнения имеется несколько способов:
+
+<table frame="all" rowsep="1" colsep="1">
+<tgroup cols="2">
+   <colspec colname="COLSPEC0" colwidth="200"/>
+   <colspec colname="COLSPEC1" colwidth="200*"/>
+<thead>
+<row>
+  <entry colname="COLSPEC0" align="center"><uicontrol>Способ</uicontrol></entry>
+  <entry colname="COLSPEC1" align="center">Итоговое время на выполнение задания учащимися</entry>
+</row>
+</thead>
+		  
+		  
+<tbody>
+
+<row>
+<entry>В поле выбора даты и времени установить конкретные дату и время</entry>
+<entry>От момента публикации до указанных даты и времени</entry>
+</row>
+
+<row>
+
+<entry>Выбрать количество суток, отведенных на выполнение</entry>
+<entry>От момента публикации плюс указанное количество суток</entry>
+</row>
+
+<row>
+
+<entry>Выбрать количество часов, отведенных на выполнение</entry>
+<entry>От момента публикации плюс указанное количество часов</entry>
+</row>
+
+</tbody>
+</tgroup>
+</table>
+
+</p>
+
+<p>Для добавления или редактирования данных об учащемся следует воспользоваться соответствующими кнопками <uicontrol>Добавить учащегося</uicontrol> и <uicontrol>Редактировать данные об учащемся</uicontrol>. Откроется диалог добавления (редактирования данных) учащегося. Добавленные учащиеся появляются в списке учащихся. Этот список имеет два столбца. Первый содержит поля для ввода ID учащихся (<uicontrol>обязательные</uicontrol> для каждого учащегося). Второй столбец содержит поля ввода отображаемых имен (необязательное поле).</p>
+
+        <fig id="add_student_dialog_png">
+            <title>Диалог добавления (редактирования данных) учащегося</title>
+            <image href="img/add-student-dialog.png" placement="break">
+                <alt>Диалог добавления (редактирования данных) учащегося</alt>
+            </image>
+        </fig>
+		
+<p>Чтобы не вводить список учащихся вручную, можно импортировать готовый. Импорт списка производится из <uicontrol>файла класса Nibelung</uicontrol> (NCL) нажатием на кнопку <uicontrol>Загрузить список учащихся из файла класса Nibelung</uicontrol>. Откроется стандартный диалог выбора файла. После импорта будут автоматически заполнены поля c ID, отображаемыми именами и поле с названием класса.</p>
+
+<note type="attention">В импортируемом файле NCL должны присутствовать ID каждого учащегося</note>
+
+<p>Для удаления учащегося из списка выполняющих задание служит одноименная кнопка <uicontrol>Удалить учащегося из списка</uicontrol>.</p>
+
+<p>Кнопка <uicontrol>Сохранить список учащихся в файл класса Nibelung</uicontrol> сохраняет в файл список учащихся, назначенных к выполнению задания, в целях последующего использования при работе с модулем <wintitle>Задания через Интернет</wintitle> и в программе <wintitle>Диалог Nibelung</wintitle>. Экспорт списка учащихся также производится в <uicontrol>файл класса Nibelung</uicontrol>.</p>
+
+<note type="attention">При отсутствии ID у кого-либо из учащихся в списке (поля в данном случае будут обрамлены красной рамкой) или при отсутствии учащихся в списке публикация задания невозможна</note>
+
+<p>В поле с названием класса указывается, при необходимости, класс (группа, поток, курс и т.п.). Информация в поле необязательна и носит информативный характер.</p>
+
+<p>Для публикации задания служит кнопка <uicontrol>Опубликовать</uicontrol>. Только опубликованное задание получает первичный статус <uicontrol>Опубликовано</uicontrol>. С этого момента начинется отсчет времени выполнения, а учащиеся задания, открывшие у себя модуль <wintitle>Задания через Интернет</wintitle>, увидят его в списке и смогут приступить к выполнению.</p>
+
+<p>После того, как учащийся получил новое задание, статус <uicontrol>для данного учащегося</uicontrol> изменится с <uicontrol>Опубликовано</uicontrol> на <uicontrol>Доставлено</uicontrol>.</p>
+
+<p>Для отмены публикации служит кнопка <uicontrol>Отмена</uicontrol>, нажатие на котороую закрывает диалог публикации задания <uicontrol>без сохранения каких-либо изменений</uicontrol>.</p>
+
+<p>Вновь опубликованное задание появится в списке на вкладке <uicontrol>Опубликованные задания</uicontrol>.</p>
+
+        <fig id="teacher_publish_tab_png">
+            <title>Окно преподавателя: вкладка "Опубликованные задания"</title>
+            <image href="img/teacher-publish-tab.png" placement="break">
+                <alt>Окно преподавателя: вкладка "Опубликованные задания"</alt>
+            </image>
+        </fig>
+        <p>На этом рисунке цифрами обозначены:</p>
+
+<table frame="topbot">
+<tgroup cols="2">
+   <colspec colname="COLSPEC0" colwidth="12"/>
+   <colspec colname="COLSPEC1" colwidth="200*"/>
+
+<tbody>
+
+<row>
+<entry>1</entry>
+<entry>Список опубликованных заданий</entry>
+</row>
+
+<row>
+<entry>2</entry>
+<entry>Область просмотра общей информации о задании</entry>
+</row>
+
+<row>
+<entry>3</entry>
+<entry>Кнопка <uicontrol>Продлить</uicontrol></entry>
+</row>
+
+<row>
+<entry>4</entry>
+<entry>Кнопка <uicontrol>Закрыть</uicontrol></entry>
+</row>
+
+<row>
+<entry>5</entry>
+<entry>Кнопка <uicontrol>Удалить</uicontrol></entry>
+</row>
+
+<row>
+<entry>6</entry>
+<entry>Опция <uicontrol>Показать закрытые задания</uicontrol></entry>
+</row>
+
+<row>
+<entry>7</entry>
+<entry>Кнопка архивирования публикации</entry>
+</row>
+
+</tbody>
+</tgroup>
+</table>
+ 
+<p>Для изменения временных рамок выполнения задания следует нажать кнопку <uicontrol>Продлить</uicontrol>. Откроется диалоговое окно для продления времени выполнения.</p>
+
+          <fig id="publication_prolong_png">
+            <title>Диалог "Продлить"</title>
+            <image href="img/publication-prolong.png" placement="break">
+                <alt>Диалог "Продлить"</alt>
+            </image>
+        </fig>
+		
+<note type="tip">Информация при работе с ответами учащихся и выполнении иных задач на вкладке <wintitle>Выполнение</wintitle> (см. <xref keyref="tasks_progress"/>&#160;) относятся к публикации, выбранной на вкладке <wintitle>Опубликованные задания</wintitle></note>
+
+<p>Чтобы завершить работу над заданием, следует нажать кнопку <uicontrol>Закрыть</uicontrol> (см. <xref keyref="tasks_close"/>&#160;). Закрываются те публикации, по которым все учащиеся прислали ответы, а преподаватель проверил их и оценил.</p>
+
+<p>Управление отображением уже закрытых заданий осуществляется опцией <uicontrol>Показать закрытые задания</uicontrol>. При выставлении опции закрытые задания будут показаны серым цветом, иначе они будут скрыты из списка.</p>
+
+<note type="tip">Закрытое задание при необходимости можно открыть повторно </note>
+
+<p>Для удаления опубликованного задания, информация о котором более не интересует ни преподавателя, ни учащихся, которые выполняли (выполняют) данное задание, предназначена кнопка <uicontrol>Удалить</uicontrol>. Перед удалением появится предупреждение.</p>
+
+          <fig id="delete_published_request_png">
+            <title>Диалог подтверждения удаления опубликованного задания</title>
+            <image href="img/delete-published-request.png" placement="break">
+                <alt>Диалог подтверждения удаления опубликованного задания</alt>
+            </image>
+        </fig>
+		
+<note type="attention">Удаление опубликованного задания стирает из облачного хранилища (см. <xref keyref="glossary"/>&#160;) всю информацию о нем, включая ответы учащихся, оценки и комментарии! Восстановление удаленного задания невозможно! Перед выполнением удаления рекомендуется экспортировать отчет по выполнению (см. <xref keyref="tasks_export"/>&#160;), а также создать резервную копию (см. <xref keyref="tasks_archive"/>&#160;)</note>
+
+  </conbody>
+</concept>

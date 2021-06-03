@@ -2,16 +2,24 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="test_multiple_choice" xml:lang="en-US">
-    <title>Множественный выбор</title>
+    <title>Multiple answer questions</title>
     <conbody>
-        <fig id="type_1_png">
-            <title>Тип ответа: множественный выбор</title>
-            <image href="img/type_1.png" placement="break">
-                <alt>Тип ответа: множественный выбор</alt>
+	    <p>A multiple answer question is a multiple choice question where students can select more than one answer. The question will receive full score only when all correct answers have been selected.</p>
+	    <p>These types of question will be presented to the students as shown in: <xref keyref="test_multiple_choice/view_multi_png" type="fig"/>&#160;.</p>
+	    <fig id="view_multi_png">
+		    <title><wintitle>Quiz Player</wintitle>: Multiple answer questions</title>
+		    <image href="img/view_multi.png" placement="break">
+			    <alt><wintitle>Quiz Player</wintitle>: Single answer questions</alt>
+		    </image>
+	    </fig>
+	    <fig id="type_2_png">
+		    <title><wintitle>Quiz Builder</wintitle>: <uicontrol>Multiple answer</uicontrol></title>
+            <image href="img/type_2.png" placement="break">
+			  <alt><wintitle>Quiz Builder</wintitle>: <uicontrol>Multiple answer</uicontrol></alt>
             </image>
         </fig>
-        <p>В случае типа ответа <wintitle>Множественный выбор</wintitle> на панели слева будет располагаться список вариантов ответов, а справа кнопки <uicontrol>Добавить</uicontrol> и <uicontrol>Удалить</uicontrol>, при помощи которых можно добавить или удалить варианты ответа.</p>
-        <p>При добавлении нового варианта ответа с списке появляется пустая строка. Для того чтобы ввести текст варианта ответа, нужно щелкнуть мышкой на этой строке в столбце <wintitle>Вариант ответа</wintitle>.</p>
-        <p>По окончании ввода всех ответов нужно в столбце <wintitle>Правильный ответ</wintitle> поставить галочку напротив напротив всех правильных вариантов ответа.</p>
+	   <p conkeyref="test_single_choice/multichoice" />
+	    <p>After entering all the choices, check boxes next to all correct answers in the <wintitle>Correct answers</wintitle> column.</p>
+
    	</conbody>
 </concept>

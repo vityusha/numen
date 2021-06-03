@@ -2,8 +2,8 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="control_pc" xml:lang="en-US">
-    <title>Управление компьютером учащегося</title>
-    <conbody>  
-		<p>Основной модуль дает возможность управлять компьютерами учащихся.</p>
+    <title>Remote control of student workstations</title>
+    <conbody>
+	    <p><wintitle>Dialog Nibelung</wintitle> allows you to remotely control student workstations in the class from the teacher module.</p>
 	</conbody>
 </concept>

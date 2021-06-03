@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+
+<concept id="student_move" xml:lang="en-US">
+  <title>Moving students</title>
+  <conbody>
+    <section>
+
+      <p>You can move student profile from one subdivision to another while editing their profile (see <xref keyref="winstudent"/>&#160;) or when restoring that student from the archive (see <xref keyref="archive"/>&#160;) by selecting a new subdivision from the drop down list.</p>
+
+      <fig id="dlgStudentEditDestSelCombo_png">
+        <title>Drop down list of school subdivisions</title>
+        <image href="img/dlgStudentEditDestSelCombo.png" placement="break">
+          <alt>Drop down list of school subdivisions</alt>
+        </image>
+      </fig>
+
+      <fig id="dlgStudentRestoreDestSelCombo_png">
+        <title>Restoring student from the archive</title>
+        <image href="img/dlgStudentRestoreDestSelCombo.png" placement="break" scale="75">
+          <alt>Restoring student from the archive</alt>
+        </image>
+      </fig>
+
+      <note type="tip">While editing a student profile, their associated subdivision is automatically selected from the drop down box.</note>
+
+      <note type="tip">You can easily move student profiles to a different subdivision branch in the tree view panel (see <xref keyref="tree"/>&#160;) using drag and drop (<xref keyref="glossary"/>&#160;).</note>
+
+    </section>
+  </conbody>  
+</concept>

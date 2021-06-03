@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="setup_mic_10" xml:lang="en-US">
+    <title>Microphone setup for Windows 8/10</title>
+    <conbody>
+        <note type="important">You will have to connect the microphone to the computer audio interface before starting to set it up for Windows 8/10. Usually microphone socket is the red connector on your audio interface.</note>
+        <p>Open the <wintitle>Control Panel</wintitle> (<xref keyref="setup_mic_10/control_panel_10_png" type="fig"/>&#160;) window to set up the microphone for Windows 8/10. This can be accomplished by right clicking the <uicontrol>Start</uicontrol> button or pressing <uicontrol><shortcut>Win + X</shortcut></uicontrol> on you keyboard and selecting <uicontrol>Control panel</uicontrol> from the menu.</p>
+        <fig id="control_panel_10_png">
+            <title>Windows 8/10 Control Panel</title>
+            <image href="img/control_panel_10.png" placement="break" scalefit="yes">
+                <alt>Windows 8/10 Control Panel</alt>
+            </image>
+        </fig>
+        <p>Select <wintitle>Hardware and Sound</wintitle> in the <uicontrol>Control Panel</uicontrol> window and then select <wintitle>Sound</wintitle>.</p>
+        <p>Select <wintitle>Recording</wintitle> tab in the <wintitle>Sound</wintitle> window (<xref keyref="setup_mic_10/sound_10_1_png" type="fig"/>&#160;), then select the appropriate microphone and press the <uicontrol>Properties</uicontrol> button.</p>
+        <fig id="sound_10_1_png">
+            <title><wintitle>Sound</wintitle> window</title>
+            <image href="img/sound_10_1.png" placement="break">
+                <alt><wintitle>Sound</wintitle> window</alt>
+            </image>
+        </fig>
+        <p>You will be presented with the <wintitle>Microphone Properties</wintitle> window (<xref keyref="setup_mic_10/sound_10_4_png" type="fig"/>&#160;). Select the <wintitle>General</wintitle> tab and make sure that <uicontrol>Device usage</uicontrol> is set to <uicontrol>Use this device (enable)</uicontrol>.
+        </p>
+        <fig id="sound_10_4_png">
+            <title><wintitle>General</wintitle> tab of the <wintitle>Microphone Properties</wintitle> window</title>
+            <image href="img/sound_10_4.png" placement="break">
+                <alt><wintitle>General</wintitle> tab of the <wintitle>Microphone Properties</wintitle> window</alt>
+            </image>
+        </fig>
+        <p>Select <wintitle>Levels</wintitle> tab (<xref keyref="setup_mic_10/sound_10_2_png" type="fig"/>&#160;) to set up microphone level and boost its gain (if necessary).</p>
+        <fig id="sound_10_2_png">
+            <title><wintitle>Levels</wintitle> tab of the <wintitle>Microphone Properties</wintitle> window</title>
+            <image href="img/sound_10_2.png" placement="break">
+                <alt><wintitle>Levels</wintitle> tab of the <wintitle>Microphone Properties</wintitle> window</alt>
+            </image>
+        </fig>      
+        <p>Select <wintitle>Enhancements</wintitle> (<xref keyref="setup_mic_10/sound_10_3_png" type="fig"/>&#160;) tab to set up additional microphone features, such as noise suppression, echo cancellation, etc.</p>
+        <fig id="sound_10_3_png">
+            <title><wintitle>Enhancements</wintitle> tab of the <wintitle>Microphone Properties</wintitle> window</title>
+            <image href="img/sound_10_3.png" placement="break">
+                <alt><wintitle>Enhancements</wintitle> tab of the <wintitle>Microphone Properties</wintitle> window</alt>
+            </image>
+        </fig>
+        <note type="important">Additional features and enhancements for your microphone depend on the capabilities of the audio interface in your computer.</note>
+        <p>Press <uicontrol>OK</uicontrol> button to finish microphone setup.</p>
+    </conbody>
+</concept>

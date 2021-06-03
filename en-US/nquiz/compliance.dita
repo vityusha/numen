@@ -2,15 +2,25 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="test_compliance" xml:lang="en-US">
-    <title>Соответствие</title>
+    <title>Relations</title>
     <conbody>
-        <fig id="type_4_png">
-            <title>Тип ответа: соответствие</title>
+	    <p>Relation type questions require the students to match items from two lists to each other.</p>
+	    <p>These types of question will be presented to the students as shown in <xref keyref="test_compliance/view_relations_png" type="fig"/>&#160;.</p>
+	    <fig id="view_relations_png">
+		    <title><wintitle>Quiz Player</wintitle>: Relations</title>
+		    <image href="img/view_relations.png" placement="break">
+			    <alt><wintitle>Quiz Player</wintitle>: Relations</alt>
+		    </image>
+	    </fig>
+
+	    <fig id="type_4_png">
+		    <title><wintitle>Quiz Builder</wintitle>: <uicontrol>Relations</uicontrol></title>
             <image href="img/type_4.png" placement="break">
-                <alt>Тип ответа: соответствие</alt>
+			  <alt><wintitle>Quiz Builder</wintitle>: <uicontrol>Relations</uicontrol></alt>
             </image>
         </fig>
-        <p>В случае типа ответа <wintitle>Соответствие</wintitle> на панели слева будет располагаться список соответствий, а справа кнопки <uicontrol>Добавить</uicontrol> и <uicontrol>Удалить</uicontrol>, при помощи которых можно добавить или удалить строку списка.</p>
-        <p>При добавлении нового соответствия в столбцы <wintitle>Список А</wintitle> и <wintitle>Список Б</wintitle> заносится соответствующий текст.</p>
+	    <p>When <wintitle>Relations</wintitle> is selected as the question type, the <uicontrol>Answers</uicontrol> panel will include a list of matched pairs on the left and <uicontrol>Add</uicontrol> and <uicontrol>Delete</uicontrol> buttons on the right. Use these buttons to add or remove items to the list.</p>
+        <p>Click on the fields in <wintitle>List A</wintitle> and <wintitle>List B</wintitle> columns to enter or edit the text.</p>
+
    	</conbody>
 </concept>

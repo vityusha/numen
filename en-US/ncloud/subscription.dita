@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+
+<concept id="subscription" xml:lang="en-US">
+  <title>Подписка</title>
+  <conbody>
+	  <p>Форма лицензирования программного обеспечения, подразумевающая покупку лицензии на право использования в течение <uicontrol>определенного периода времени</uicontrol>. Функции модуля <wintitle>Задания через Интернет</wintitle> доступны при наличии активной подписки.</p>
+  </conbody>
+</concept>

@@ -5,56 +5,69 @@
 <map id="nibelung" xml:lang="en-US">
   <topicmeta>
     <shortdesc>This document contains Dialog Nibelung user manual.</shortdesc>
-    <author type="creator">Titov S., Vinokurov V.</author>
+    <author type="creator">S. Titov, V. Vinokurov</author>
     <source/>
-    <publisher>Lain Ltd.</publisher>
+    <publisher>Lain LLC</publisher>
     <copyright>
-      <copyryear year="2014"/>
-      <copyrholder>Lain Ltd.</copyrholder>
+      <copyryear year="2016"/>
+      <copyrholder>Lain LLC</copyrholder>
     </copyright>
     <critdates>
-      <created date="21.11.2014"/>
+      <created date="23.06.2016"/>
     </critdates>
     <prodinfo>
       <prodname>Dialog Nibelung - User Manual</prodname>
       <vrmlist>
-        <vrm version="2.4"/>
+        <vrm version="3.1.0.1"/>
       </vrmlist>
     </prodinfo>
     <othermeta content="User Manual" name="doctype"/>
-    <othermeta content="2.4" name="docedition"/>
+    <othermeta content="3.1.0.1" name="docedition"/>
   </topicmeta>
 
   <topicref href="en-US/concepts/symbols.dita" />
   <topicref href="en-US/concepts/introduction.dita" />
+  <!-- Install -->
   <topichead navtitle="Installation and setup">
     <topicref keys="composition" href="en-US/installation/Composition.dita" />
-    <topicref href="en-US/installation/system_requirements.dita" />
-    <topicref href="en-US/installation/hardware_requirements.dita" />
-    <topicref href="en-US/installation/installation_notes.dita" />
+    <topicref keys="system_requirements" href="en-US/installation/system_requirements.dita" />
+    <topicref keys="hardware_requirements" href="en-US/installation/hardware_requirements.dita" />
+    <topicref keys="installation_notes" href="en-US/installation/installation_notes.dita" />
     <topicref href="en-US/installation/installation.dita">
       <topicref keys="install_main" href="en-US/installation/installation_main.dita" />
       <topicref keys="install_client" href="en-US/installation/installation_client.dita" />
       <topicref href="en-US/installation/post_install_notes.dita" />
     </topicref>
-    <topichead navtitle="Setup guide">
+    <topichead id="setup_guide_head" navtitle="Setup guide">
+      <keydef keys="setup_guide" href="en-US/installation/setup_main.dita"/>
       <topicref keys="setup_main" href="en-US/installation/setup_main.dita" />
       <topicref keys="setup_client" href="en-US/installation/setup_client.dita" />
       <topicref keys="setup_pc" href="en-US/installation/setup_pc.dita">
         <topicref keys="setup_net_vista" href="en-US/installation/setup_net_vista.dita" />
+        <topicref keys="setup_net_10" href="en-US/installation/setup_net_10.dita" />
         <topicref keys="setup_mic_vista" href="en-US/installation/setup_mic_vista.dita" />
+        <topicref keys="setup_mic_10" href="en-US/installation/setup_mic_10.dita" />
       </topicref>
     </topichead>
   </topichead>
+  <!-- Main module -->
   <topicref keys="description_main" href="en-US/main/description_main.dita">
     <topicref keys="menu_program" href="en-US/main/menu_program.dita">
-      <topicref keys="menu_tools" href="en-US/main/menu_tools.dita" />
-      <topicref keys="configurator" href="en-US/main/configurator.dita" />
+      <topichead navtitle="Tools menu">
+        <topicref keys="tools_nplayer" href="en-US/main/tools_nplayer.dita" />
+        <topicref keys="tools_videoconverter" href="en-US/main/tools_videoconverter.dita" />
+        <topicref keys="tools_configurator" href="en-US/main/tools_configurator.dita" />
+        <topicref keys="tools_backup" href="en-US/main/tools_backup.dita" />
+        <topicref keys="tools_setup" href="en-US/main/tools_setup.dita" />
+      </topichead>
     </topicref>
     <topicref keys="choice_tutor" href="en-US/main/choice_tutor.dita" />
-    <topicref keys="tutor_settings" href="en-US/main/tutor_settings.dita" />
+    <topicref keys="tutor_settings" href="en-US/main/tutor_settings.dita">
+      <topicref keys="usb_keychain" href="en-US/main/usb_keychain.dita" />
+    </topicref>
     <topicref keys="student_class" href="en-US/main/student_class.dita" />
     <topicref keys="registration" href="en-US/main/registration.dita" />
+    <topicref keys="student_info" href="en-US/main/student_info.dita" />
     <topicref keys="menu_class" href="en-US/main/menu_class.dita" />
     <topicref keys="menu_group" href="en-US/main/menu_group.dita" />
     <topicref keys="menu_single" href="en-US/main/menu_single.dita" />
@@ -66,6 +79,8 @@
       <topicref keys="record_talk" href="en-US/main/record_talk.dita" />
       <topicref keys="run_programs" href="en-US/main/run_programs.dita" />
       <topicref keys="chat" href="en-US/main/chat.dita" />
+      <topicref keys="vote" href="en-US/main/vote.dita" />
+      <topicref keys="whiteboard" href="en-US/main/whiteboard.dita" />
       <topicref keys="message" href="en-US/main/message.dita" />
       <topicref keys="call_tutor" href="en-US/main/call_tutor.dita" />
       <topicref keys="student_message" href="en-US/main/student_message.dita" />
@@ -113,6 +128,7 @@
     </topicref>
     <topicref keys="firmware_update" href="en-US/main/firmware_update.dita" />
   </topicref>
+  <!-- Nibelung Client -->
   <topicref keys="description_client" href="en-US/client/description_client.dita">
     <topicref keys="media_player" href="en-US/client/media_player.dita">
       <topicref keys="playlist_player" href="en-US/client/playlist_player.dita" />
@@ -123,6 +139,7 @@
       <topicref keys="subtitles_player" href="en-US/client/subtitles_player.dita" />
     </topicref>
   </topicref>
+  <!-- NQuiz -->
   <topicref keys="description_test" href="en-US/nquiz/description_test.dita">
     <topicref keys="test_builder" href="en-US/nquiz/builder.dita">
       <topicref keys="test_single_choice" href="en-US/nquiz/single_choice.dita" />
@@ -137,15 +154,63 @@
     <topicref keys="test_client" href="en-US/nquiz/client.dita" />
     <topicref keys="test_result" href="en-US/nquiz/result.dita" />
   </topicref>
+  <!-- Student Profiles Manager -->
+  <topichead navtitle="Student database management">
+    <topicref keys="spman_intro" href="en-US/spman/comm_intro.dita" />
+    <topicref keys="install_notes" href="en-US/spman/install_notes.dita" />
+    <topicref keys="init" href="en-US/spman/workinit.dita" />
+    <topicref keys="workflow" href="en-US/spman/workflow.dita" />
+    <topichead navtitle="Student body subdivisions">
+      <topicref keys="class_add" href="en-US/spman/class_add.dita" />
+      <topicref keys="class_edit" href="en-US/spman/class_edit.dita" />
+      <topicref keys="class_remove" href="en-US/spman/class_remove.dita" />
+    </topichead>
+    <topichead navtitle="Student profiles">
+      <topicref keys="student_add" href="en-US/spman/student_add.dita" />
+      <topicref keys="student_edit" href="en-US/spman/student_edit.dita" />
+      <topicref keys="student_move" href="en-US/spman/student_move.dita" />
+      <topicref keys="student_remove" href="en-US/spman/student_remove.dita" />
+      <topicref keys="student_restore" href="en-US/spman/student_restore.dita" />
+    </topichead>
+    <topicref keys="tips" href="en-US/spman/tips.dita" />
+    <topichead navtitle="User interface reference">
+      <topicref keys="winmain" href="en-US/spman/gui_winmain.dita" />
+      <topicref keys="menu" href="en-US/spman/gui_mainmenu.dita" />
+      <topicref keys="toolbar" href="en-US/spman/gui_toolbar.dita" />
+      <topicref keys="tree" href="en-US/spman/gui_treeview.dita" />
+      <topicref keys="table" href="en-US/spman/gui_tableview.dita" />
+      <topicref keys="cm" href="en-US/spman/gui_contextmenus.dita" />
+      <topicref keys="statusbar" href="en-US/spman/gui_statusbar.dita" />
+      <topicref keys="winoptions" href="en-US/spman/gui_winoptions.dita" />
+      <topicref keys="winusers" href="en-US/spman/gui_winusers.dita" />
+      <topicref keys="winuser" href="en-US/spman/gui_winuser.dita" />
+      <topicref keys="winschool" href="en-US/spman/gui_winschool.dita" />
+      <topicref keys="winclass" href="en-US/spman/gui_winclass.dita" />
+      <topicref keys="winstudent" href="en-US/spman/gui_winstudent.dita" />
+      <topicref keys="addprompt" href="en-US/spman/gui_addprompt.dita" />
+      <topicref keys="shortcuts" href="en-US/spman/gui_shortcuts.dita" />
+      <topicref keys="search" href="en-US/spman/gui_search.dita" />
+      <topicref keys="archive" href="en-US/spman/gui_archive.dita" />
+    </topichead>
+    <topicref keys="export" href="en-US/spman/export.dita" />  
+    <topicref keys="dbmodes" href="en-US/spman/dbmodes.dita" />
+    <topicref keys="admin" href="en-US/spman/admin.dita" />
+    <topichead navtitle="Frequently Asked Questions">
+      <topicref keys="faq" href="en-US/spman/faq.dita" />
+      <topicref keys="faq_install" href="en-US/spman/faq_install.dita" />
+    </topichead>
+    <topicref keys="spman_errors" href="en-US/spman/errors.dita" />
+  </topichead>
+  <!-- Appendices -->
   <topicref keys="program_working" href="en-US/concepts/program_working.dita" />
-  <topichead navtitle="Работа программы с аудиокоммутатором">
+  <topichead navtitle="Audio hub">
     <topicref href="en-US/concepts/purpose_switch.dita" />
     <topicref keys="commutator_switch" href="en-US/concepts/commutator_switch.dita" />
     <topicref keys="learner_switch" href="en-US/concepts/learner_switch.dita" />
     <topicref keys="connect_switch" href="en-US/concepts/connect_switch.dita" />
     <topicref keys="work_switch" href="en-US/concepts/work_switch.dita" />
   </topichead>
-  <topichead navtitle="Ответы на часто задаваемые вопросы (FAQ)">
+  <topichead navtitle="Frequently asked questions">
     <topicref keys="faq-hw" href="en-US/concepts/faq-hw.dita" />
     <topicref href="en-US/concepts/faq-install.dita" />
   </topichead>
@@ -153,6 +218,6 @@
   <topicref keys="license_agreement" href="en-US/license/license_agreement.dita" />
   <topicref keys="contacts" href="en-US/concepts/contacts.dita" />
   <topicref keys="glossary" href="en-US/concepts/glossary.dita" />
-  <topicref keys="certificate" href="en-US/concepts/certificate.dita" />
+  <!-- topicref keys="certificate" href="en-US/concepts/certificate.dita" / -->
   <topicref keys="PS" href="en-US/concepts/ps.dita" toc="no" />
 </map>

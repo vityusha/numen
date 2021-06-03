@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="tools_nplayer" xml:lang="en-US">
+  <title>Nibelung Media Player</title>
+  <conbody>  
+	    <p>Selecting <menucascade><uicontrol>Tools</uicontrol><uicontrol>Nibelung Media Player</uicontrol></menucascade> from the menu will launch the <wintitle>Nibelung Media Player</wintitle> (<xref keyref="tools_nplayer/nplayer_png" type="fig"/>&#160;), which is described in further details in section <xref keyref="media_player"/> of this manual.</p>
+		<fig id="nplayer_png">
+            <title><wintitle>Nibelung Media Player</wintitle> window</title>
+            <image href="img/nplayer.png" placement="break">
+		  <alt><wintitle>Nibelung Media Player</wintitle> window</alt>
+            </image>
+        </fig>
+  </conbody>
+</concept>

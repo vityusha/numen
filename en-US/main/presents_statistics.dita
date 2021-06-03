@@ -2,18 +2,18 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="presents_statistics" xml:lang="en-US">
-    <title>Статистика посещаемости</title>
+    <title>Attendance statistics</title>
     <conbody>
-        <p>Для того чтобы посмотреть статистику посещаемости уроков, необходимо выбрать меню <menucascade><uicontrol>Журнал</uicontrol><uicontrol>Статистика посещаемости</uicontrol></menucascade>.</p>
-        <p>На экране монитора преподавателя появится окно, содержащее список уроков, в котором он может отобрать нужные уроки по предметам, классам и временным интервалам.</p>
-        <p>Преподаватель может в поле <uicontrol>Тип статистики</uicontrol> выбрать сводную статистику по урокам (<xref keyref="presents_statistics/presents_common_png" type="fig"/>&#160;) или полную (<xref keyref="presents_statistics/presents_full_png" type="fig"/>&#160;).</p>
+        <p>Select <menucascade><uicontrol>Logbook</uicontrol><uicontrol>Attendance</uicontrol></menucascade> from the main menu to view student attendance records.</p>
+        <p id="filter_win">A window will appear on your screen displaying statistics summary. Lessons included in the report can be filtered by course, class, and dates.</p>
+	   <p>You can select <uicontrol>Statistics type</uicontrol>: <uicontrol>Summary</uicontrol> (<xref keyref="presents_statistics/presents_common_png" type="fig"/>&#160;) or <uicontrol>Detailed</uicontrol> (<xref keyref="presents_statistics/presents_full_png" type="fig"/>&#160;).</p>
         <fig id="presents_common_png">
-            <title>Сводная статистика посещаемости</title>
+            <title>Summary of attendance statistics</title>
             <image href="img/presents-common.png" placement="break">
-                <alt>Сводная статистика посещаемости</alt>
+                <alt>Summary of attendance statistics</alt>
             </image>
         </fig>
-        <p>На этом рисунке цифрами обозначены:</p>
+	   <p>Elements of the <wintitle>Attendance statistics</wintitle> window displaying <uicontrol>Summary</uicontrol>:</p>
 		<table frame="topbot">
             <tgroup cols="2">
                 <colspec colname="COLSPEC0" colwidth="10*"/>
@@ -21,58 +21,58 @@
                 <tbody>
                     <row>
                         <entry>1</entry>
-                        <entry>Список <uicontrol>Предмет</uicontrol></entry>
+                        <entry><uicontrol>Course</uicontrol> selection list</entry>
                     </row>
-					<row>
+				<row>
                         <entry>2</entry>
-                        <entry>Список <uicontrol>Класс</uicontrol></entry>
+                        <entry><uicontrol>Class</uicontrol> selection list</entry>
                     </row>
-					<row>
+				<row>
                         <entry>3</entry>
-                        <entry>Начальная дата</entry>
+                        <entry>Start date for filtering</entry>
                     </row>
-					<row>
+				<row>
                         <entry>4</entry>
-                        <entry>Конечная дата</entry>
+                        <entry>End date for filtering</entry>
                     </row>
-					<row>
+				<row>
                         <entry>5</entry>
-                        <entry>Поле данных <uicontrol>Учащийся</uicontrol></entry>
+                        <entry><uicontrol>Student name</uicontrol></entry>
                     </row>
-					<row>
+				<row>
                         <entry>6</entry>
-                        <entry>Поле данных <uicontrol>Всего уроков</uicontrol></entry>
+                        <entry><uicontrol>Lessons</uicontrol> total field</entry>
                     </row>
-					<row>
+				<row>
                         <entry>7</entry>
-                        <entry>Поле данных <uicontrol>Пропущено</uicontrol></entry>
+                        <entry><uicontrol>Missed lessons</uicontrol></entry>
                     </row>
-					<row>
+				<row>
                         <entry>8</entry>
-                        <entry>Поле данных <uicontrol>Посещяемость в %</uicontrol></entry>
+                        <entry><uicontrol>Attendance, %</uicontrol></entry>
                     </row>
 					<row>
                         <entry>9</entry>
-                        <entry>Тип статистики</entry>
+				    <entry><uicontrol>Statistics type</uicontrol> selector panel</entry>
                     </row>
                     <row>
                         <entry>10</entry>
-                        <entry>Кнопка <uicontrol>Сохранить в формате HTML</uicontrol></entry>
+                        <entry><uicontrol>Export to HTML</uicontrol> button</entry>
                     </row>
                     <row>
                         <entry>11</entry>
-                        <entry>Кнопка <uicontrol>Закрыть окно</uicontrol></entry>
+                        <entry><uicontrol>Close</uicontrol> window button</entry>
                     </row>
-                </tbody> 
+                </tbody>
             </tgroup>
         </table>
         <fig id="presents_full_png">
-            <title>Полная статистика посещаемости</title>
+            <title>Detailed attendance statistics</title>
             <image href="img/presents-full.png" placement="break">
-                <alt>Полная статистика посещаемости</alt>
+			  <alt>Detailed attendance statistics</alt>
             </image>
         </fig>
-        <p>На этом рисунке цифрами обозначены:</p>
+	   <p>Elements of the <wintitle>Attendance statistics</wintitle> window displaying <uicontrol>Detailed</uicontrol> statistics:</p>
 		<table frame="topbot">
             <tgroup cols="2">
                 <colspec colname="COLSPEC0" colwidth="10*"/>
@@ -80,49 +80,49 @@
                 <tbody>
                     <row>
                         <entry>1</entry>
-                        <entry>Список <uicontrol>Предмет</uicontrol></entry>
+                        <entry><uicontrol>Course</uicontrol> selection list</entry>
                     </row>
-					<row>
-                        <entry>2</entry>
-                        <entry>Список <uicontrol>Класс</uicontrol></entry>
-                    </row>
-					<row>
-                        <entry>3</entry>
-                        <entry>Начальная дата</entry>
-                    </row>
-					<row>
-                        <entry>4</entry>
-                        <entry>Конечная дата</entry>
-                    </row>
-					<row>
+				<row>
+					<entry>2</entry>
+					<entry><uicontrol>Class</uicontrol> selection list</entry>
+				</row>
+				<row>
+					<entry>3</entry>
+					<entry>Start date for filtering</entry>
+				</row>
+				<row>
+					<entry>4</entry>
+					<entry>End date for filtering</entry>
+				</row>
+				<row>
                         <entry>5</entry>
-                        <entry>Тип статистики</entry>
-                    </row>
+				    <entry><uicontrol>Statistics type</uicontrol> selector panel</entry>
+			    </row>
                     <row>
                         <entry>6</entry>
-                        <entry>Поле данных <uicontrol>Учащийся</uicontrol></entry>
+                        <entry><uicontrol>Student name</uicontrol></entry>
                     </row>
 					<row>
                         <entry>7</entry>
-                        <entry>Поле данных <uicontrol>Посещение уроков</uicontrol></entry>
+                        <entry><uicontrol>Attendance record</uicontrol></entry>
                     </row>
                     <row>
                         <entry>8</entry>
-                        <entry>Кнопка <uicontrol>Сохранить в формате HTML</uicontrol></entry>
-                    </row>
+				    <entry><uicontrol>Export to HTML</uicontrol> button</entry>
+			    </row>
                     <row>
                         <entry>9</entry>
-                        <entry>Кнопка <uicontrol>Закрыть окно</uicontrol></entry>
-                    </row>
-                </tbody> 
+				    <entry><uicontrol>Close</uicontrol> window button</entry>
+			    </row>
+                </tbody>
             </tgroup>
         </table>
-        <p>В сводной статистике приводится список учащихся выбранного класса, количество проведенных уроков за определенный интервал времени, количество пропущенных уроков и процент посещаемости. В полной статистике приводится список учащихся и посещение каждого урока за определенный интервал времени.</p>
-        <p>Преподаватель может сохранить данные статистики посещения в файл формата HTML. Для этого нужно нажать на кнопку <uicontrol>Сохранить</uicontrol> и ввести имя файла для сохранения. После сохранения будет предложено просмотреть результаты экспорта. Если нажать на кнопку <uicontrol>Да</uicontrol>,то откроется окно браузера по умолчанию (обычно <wintitle>Microsoft Internet Explorer</wintitle>) с содержимым сохраненного файла (<xref keyref="presents_statistics/presents_report_png" type="fig"/>&#160;).</p>
+	   <p><uicontrol>Summary</uicontrol> statistics contains list of students in the class, number of lessons in the specified time interval, number of missed lessons and attendance percentage  for each student. <uicontrol>Detailed</uicontrol> statistics contains full attendance records for each student during specified time period.</p>
+	   <p>You can export attendance statistics into a file in HTML format. Press <uicontrol>Export to HTML</uicontrol> and enter file name. After export is completed you will be given an option to view the results in your default browser (<xref keyref="presents_statistics/presents_report_png" type="fig"/>&#160;).</p>
         <fig id="presents_report_png">
-            <title>Отчет о статистике посещаемости</title>
+            <title>Attendance report</title>
             <image href="img/presents-report.png" placement="break">
-                <alt>Отчет о статистике посещаемости</alt>
+                <alt>Attendance report</alt>
             </image>
         </fig>
 	</conbody>

@@ -2,31 +2,25 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="soundcard_source" xml:lang="en-US">
-    <title>Звуковая карта</title>
-    <conbody>  
-		<p>При выборе этого пункта меню преподаватель может в качестве источника звука выбрать аудио вход звуковой платы, встроенной в компьютер преподавателя.</p>
-		<note type="tip">Программа позволяет одновременную работу различных групп с различными звуковыми платами, при этом разные группы могут прослушивать звук со входа различных звуковых карт.</note>
-		<p>Меню <uicontrol>Звуковая карта</uicontrol> в качестве источника аудио (<xref keyref="soundcard_source/menu_group_4_5_png" type="fig"/>&#160;) имеет список для выбора звуковой карты, кнопку <uicontrol>Микшер</uicontrol>, для подключения нужного аудио входа звуковой карты, кнопку <uicontrol>Старт</uicontrol> и три дополнительные опции <uicontrol>Записать для учащихся</uicontrol>, <uicontrol>Оцифровать материал</uicontrol> и <uicontrol>Прослушивание</uicontrol>.</p>
+    <title>Sound card</title>
+    <conbody>
+	    <p>Select this <uicontrol>Media sources</uicontrol> menu item to use a sound interface in the teacher workstation as a source of group broadcast, allowing students to listen to a plugged in audio source during any activity.</p>
+	    <note type="tip"><wintitle>Dialog Nibelung</wintitle> allows use of different sound cards for different groups. Moreover, different groups can listen to audio sources connected to different inputs of the same sound card.</note>
+		<p>The <uicontrol>Sound card</uicontrol> media source control tab (<xref keyref="soundcard_source/menu_group_4_5_png" type="fig"/>&#160;) has a drop-down list for selecting a sound card; an <uicontrol>Open mixer</uicontrol> button for selecting sound card inputs; a <uicontrol>Start</uicontrol> button; and three additional options: <uicontrol>Record for students</uicontrol>, <uicontrol>Digitize</uicontrol> and <uicontrol>Listen</uicontrol> (these options are described in section <xref keyref="media_source"/>&#160;).</p>
 		<fig id="menu_group_4_5_png">
-            <title>Меню <menucascade><uicontrol>Медиа источники</uicontrol><uicontrol>Звуковая карта</uicontrol></menucascade></title>
+            <title><menucascade><uicontrol>Media sources</uicontrol><uicontrol>Sound card</uicontrol></menucascade> control tab</title>
             <image href="img/menu_group_4_5.png" placement="break">
-                <alt>Меню <menucascade><uicontrol>Медиа источники</uicontrol><uicontrol>Звуковая карта</uicontrol></menucascade></alt>
+			  <alt><menucascade><uicontrol>Media sources</uicontrol><uicontrol>Sound card</uicontrol></menucascade> control tab</alt>
             </image>
         </fig>
-		<p>Под кнопкой <uicontrol>Старт</uicontrol> находится счетчик времени активности данного медиа источника в качестве источника сигнала.</p>
-		<p>Таким образом, при любом задании участники группы могут слышать аудио сигнал любого внешнего устройства, подключенного к входу выбранной звуковой карты.</p>		
-		<note type="tip">Преподаватель может оцифровать звук внешнего аудио устройства на жесткий диск компьютера или прослушать его.</note>
-		<p>Если преподаватель нажмет на кнопку <uicontrol>Микшер</uicontrol>, то на экране монитора появится стандартное окно микшера (<xref keyref="soundcard_source/sound_set_4_png" type="fig"/> и <xref keyref="soundcard_source/sound_vista_1_png" type="fig"/>&#160;), в котором можно включить нужный вход звуковой карты.</p>
-		<fig id="sound_set_4_png">
-            <title>Окно микшера в ОС Windows XP</title>
-            <image href="../installation/img/sound_set_4.png" placement="break">
-                <alt>Окно микшера в ОС Windows XP</alt>
-            </image>
-        </fig>
+		<p>The clock counter below the <uicontrol>Start</uicontrol> button displays time elapsed since the sound card has been selected as the source of broadcast.</p>
+
+		<note type="tip">The teacher can save a digitized copy of the external program for future use and/or listen to it along with the students.</note>
+		<p>Press the <uicontrol>Open mixer</uicontrol> button to open Windows <wintitle>Sound</wintitle> settings window (<xref keyref="soundcard_source/sound_vista_1_png" type="fig"/>&#160;) where you can select desired card input.</p>
 		<fig id="sound_vista_1_png">
-            <title>Окно микшера в ОС Windows Vista</title>
+			<title><wintitle>Sound</wintitle> settings window in Windows 7</title>
             <image href="../installation/img/sound_vista_1.png" placement="break">
-                <alt>Окно микшера в ОС Windows Vista</alt>
+			  <alt><wintitle>Sound</wintitle> settings window in Windows 7</alt>
             </image>
         </fig>
 	</conbody>

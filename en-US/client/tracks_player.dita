@@ -2,77 +2,89 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="tracks_player" xml:lang="en-US">
-    <title>Мастер-трек и трек учащегося</title>
-    <conbody>
-		<p>Проигрыватель включает в себя два трека: мастер-трек и трек учащегося. <indexterm>мастер-трек</indexterm><keyword>Мастер-трек</keyword> служит для прослушивания аудио файлов. <indexterm>трек учащегося</indexterm><keyword>Трек учащегося</keyword> используется при записи и прослушивания голоса учащегося.</p>
-		<note type="important">Трек учащегося нельзя загрузить из файла, с ним можно работать только после записи голоса учащегося.</note>
-		<p>После загрузки в проигрыватель аудио файла в окне мастер-трека (<xref keyref="tracks_player/track_client_png" type="fig"/>&#160;) появится <indexterm>аудиограф</indexterm><keyword>аудиограф</keyword> (графическое отображение этого аудио файла во временной области), а название файла отобразится в заголовке окна мастер-трека.</p>
-		<fig id="track_client_png">
-            <title>Окно мастер-трека и  трека учащегося</title>
-            <image href="img/track_client.png" placement="break">
-                <alt>Окно мастер-трека и  трека учащегося</alt>
-            </image>
-        </fig>
-		<p>На этом рисунке цифрами обозначены:</p>
-		<table frame="topbot">
-            <tgroup cols="2">
-                <colspec colname="COLSPEC0" colwidth="10*"/>
-                <colspec colname="COLSPEC1" colwidth="120*"/>
-                <tbody>
-                    <row>
-                        <entry>1</entry>
-                        <entry>Аудиограф мастер-трека</entry>
-                    </row>
-					<row>
-                        <entry>2</entry>
-                        <entry>Аудиограф трека учащегося</entry>
-                    </row>
-					<row>
-                        <entry>3</entry>
-                        <entry>Текущее положение в аудиофайле</entry>
-                    </row>
-					<row>
-                        <entry>4</entry>
-                        <entry>Кнопки работы с закладками</entry>
-                    </row>
-					<row>
-                        <entry>5</entry>
-                        <entry>Скорость воспроизведения трека</entry>
-                    </row>
-					<row>
-                        <entry>6</entry>
-                        <entry>Отключение звука мастер-трека</entry>
-                    </row>
-					<row>
-                        <entry>7</entry>
-                        <entry>Громкость мастер-трека</entry>
-                    </row>
-					<row>
-                        <entry>8</entry>
-                        <entry>Отключение звука трека учащегося</entry>
-                    </row>
-					<row>
-                        <entry>9</entry>
-                        <entry>Громкость трека учащегося</entry>
-                    </row>
-					<row>
-                        <entry>10</entry>
-                        <entry>Кнопка редактирования описания файла</entry>
-                    </row>
-                </tbody> 
-            </tgroup>
-        </table>
-		<note type="important">При просмотре видео файла аудиограф мастер-трека будет оставаться пустым.</note>
-        <p>Двигая ползунком (3), можно перемещаться по времени для прослушивания различных фрагментов аудио файла или просмотра видео файла.</p>		
-		<p>Если была сделана запись, и в окне трека учащегося появилось соответствующее изображение, то любая работа с медиа файлом (прослушивание или просмотр, перемещение во времени, выделение фрагментов) будет производиться <b>одновременно</b> с мастер-треком и с треком учащегося.</p>
-		<p>При помощи соответствующих кнопок, расположенных ниже кнопок работы с закладками, можно изменять громкость треков или вообще отключать звук неиспользуемого трека, а также менять скорость воспроизведения трека.</p>
-        <note type="important">При просмотре видео файла изменение скорости воспроизведения трека недоступно.</note>
-		<p>При нажатии на кнопку редактирования описания файла (10) появится соответствующее окно, в котором имеется возможность ввести описание текущего файла или задания (<xref keyref="tracks_player/nmf_desc_png" type="fig"/>&#160;). Данное описание может быть сохранено в файле формата <b>NMF</b> (специальный формат <wintitle>Диалог Nibelung</wintitle>). Кроме того, данное описание будет отображаться в заголовке мастер-трека вместо названия файла.</p>
-        <fig id="nmf_desc_png">
-            <title>Окно редактирования описания файла</title>
-            <image href="img/nmf_desc.png" placement="break">
-                <alt>Окно редактирования описания файла</alt>
-            </image>
-        </fig>
-    </conbody>
+  <title>Master track and student track</title>
+  <conbody>
+    <p><wintitle>Dialog Nibelung</wintitle> media player supports two separate audio tracks: the master track and the student track. <indexterm>master track</indexterm><keyword>Master track</keyword> can contain any type of audio program from a file. <indexterm>student track</indexterm><keyword>Student track</keyword> is typically used to record student's voice and compare it to the master track.</p>
+    <note type="important">Student track can only be recorded from the student microphone and saved as an <b>NMF</b> file. It can not be imported from a <b>WAV</b> or <b>MP3</b> file.</note>
+    <p>After a file is open in the media player, its name will appear in the panel header and track waveforms will be visualized in the panel (1 and 2 in <xref keyref="tracks_player/track_client_png" type="fig"/>&#160;).</p>
+    <fig id="track_client_png">
+      <title>Master and student tracks panel</title>
+      <image href="img/track_client.png" placement="break">
+        <alt>Master and student tracks panel</alt>
+      </image>
+    </fig>
+    <p>Elements of the master and student tracks panel:</p>
+    <table frame="topbot">
+      <tgroup cols="2">
+        <colspec colname="COLSPEC0" colwidth="10*"/>
+        <colspec colname="COLSPEC1" colwidth="120*"/>
+        <tbody>
+          <row>
+            <entry>1</entry>
+            <entry>Edit file description button</entry>
+          </row>
+          <row>
+            <entry>2</entry>
+            <entry>Subtitles display panel</entry>
+          </row>
+          <row>
+            <entry>3</entry>
+            <entry>Master track <indexterm>audio visualization</indexterm><keyword>visualization</keyword></entry>
+          </row>
+          <row>
+            <entry>4</entry>
+            <entry>Current position slider</entry>
+          </row>
+          <row>
+            <entry>5</entry>
+            <entry>Student track visualization</entry>
+          </row>
+          <row>
+            <entry>6</entry>
+            <entry>Master track spectrum</entry>
+          </row>
+          <row>
+            <entry>7</entry>
+            <entry>Student track spectrum</entry>
+          </row>
+          <row>
+            <entry>8</entry>
+            <entry>Playback speed</entry>
+          </row>
+          <row>
+            <entry>9</entry>
+            <entry>Bookmark control buttons</entry>
+          </row>
+          <row>
+            <entry>10</entry>
+            <entry>Mute master track</entry>
+          </row>
+          <row>
+            <entry>11</entry>
+            <entry>Master track volume</entry>
+          </row>
+          <row>
+            <entry>12</entry>
+            <entry>Mute student track</entry>
+          </row>
+          <row>
+            <entry>13</entry>
+            <entry>Student track volume</entry>
+          </row>
+        </tbody>
+      </tgroup>
+    </table>
+    <note type="important">If video file has been opened track visualization will show audio track of the video file.</note>
+    <p>Use the current position slider (3) to jump to different fragments of the video or audio.</p>
+    <p>Whenever a student track is present, any operation on the media file (playback start/stop/pause, repositioning, fragment selection, etc.) will be performed simultaneously on both master and student tracks.</p>
+    <p>The player has controls for independent volume adjustment (7 and 9) and muting (6 and 8) of both tracks, and playback speed adjustment (5, works in sync for both tracks).</p>
+    <note type="important">Playback speed adjustment are not available during video playback.</note>
+    <p>Use the edit button (10 in <xref keyref="tracks_player/track_client_png" type="fig"/>&#160;) to edit description of the current file or assignment (<xref keyref="tracks_player/nmf_desc_png" type="fig"/>&#160;). The description will be saved along with audio/video data when the file is saved in <b>NMF</b> format. This description will be displayed in place of the file name in the master/student tracks panel title bar.</p>
+    <fig id="nmf_desc_png">
+      <title><wintitle>Edit file description</wintitle> window</title>
+      <image href="img/nmf_desc.png" placement="break">
+        <alt><wintitle>Edit file description</wintitle> window</alt>
+      </image>
+    </fig>
+  </conbody>
 </concept>

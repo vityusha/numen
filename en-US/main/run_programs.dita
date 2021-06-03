@@ -4,8 +4,8 @@
 <concept id="run_programs" xml:lang="en-US">
     <title><keyword>Launch applications</keyword></title>
     <conbody>
-	    <p><indexterm>remote applications launch</indexterm>This mode allows the teacher to remotely launch applications on a selected group of student workstations or the whole class.</p>
-		<p>Press <uicontrol>Activity</uicontrol> button in the selected group tab (see <xref keyref="menu_group"/>&#160;) and select <uicontrol>Launch</uicontrol> from the group menu to enable this mode for the group.</p>
+	    <p><indexterm>remote applications launch</indexterm>This mode allows the teacher to remotely launch applications on a selected group or the whole class of student workstations.</p>
+		<p>Press <uicontrol>Activity</uicontrol> button in the group tab (see <xref keyref="menu_group"/>&#160;) and select <uicontrol>Launch</uicontrol> from the group menu to enable this mode for the group.</p>
 		<p>Press <uicontrol>Activity</uicontrol> button in the class tab (see <xref keyref="menu_class"/>&#160;) and select <uicontrol>Launch</uicontrol> from the class tab menu to enable this mode for the whole class.</p>
 		<p>A <wintitle>Launch application</wintitle> window (<xref keyref="run_programs/run_program_png" type="fig"/>&#160;) will appear on your screen.</p>
 		<fig id="run_program_png">
@@ -16,9 +16,9 @@
         </fig>
 	   <p>Class and group tabs are located just below the window title bar. They can be used to quickly switch the action to a different group.</p>
         <p>A <wintitle>Select application</wintitle> panel is in the top left part of the window. Use this panel to specify command line to launch an application.</p>
-		<p>You can select an executable file by pressing <uicontrol>Browse</uicontrol> button. You can also manually specify executable file including full path and command line parameters in the <uicontrol>Command line</uicontrol> field. This gives you an opportunity to remotely open files on the student workstations, e.g.: <filepath>C:\WINDOWS\NOTEPAD.EXE С:\TEST.TXT</filepath>.</p>
+		<p>You can select an executable file by pressing <uicontrol>Browse</uicontrol> button. You can also manually specify executable file including full path and command line parameters in the <uicontrol>Command line</uicontrol> field. This gives you an opportunity to remotely open files on the student workstations, e.g.: <filepath>C:\WINDOWS\NOTEPAD.EXE C:\TEST.TXT</filepath>.</p>
 		<note type="attention">Please note that the application to be launched has to be installed <b>on all student workstations</b>. The executable either has to be either accessible through the <filepath>PATH</filepath> environment variable (in which case you can specify just the executable, omitting the full path), or  path has to be <b>the same on all workstations</b>.</note>
-		<note type="attention">Please not that the file <filepath>C:\TEST.TXT</filepath> in our example must exist on all student workstations.</note>
+		<note type="attention">Please not that the file <filepath>C:\TEST.TXT</filepath> in the example shown above must exist on all student workstations.</note>
 
 		<p>You can launch applications using any of the three methods:
 			<ul>
@@ -28,12 +28,13 @@
 			</ul>
 		</p>
 		<p>The application will be launched on the student workstations and will appear in the <wintitle>Running applications</wintitle> panel located in the lower left portion of the window.</p>
-		<p>If the <uicontrol>Lock desktop</uicontrol> button was selected prior to launching the application, then the application will be launched on an empty desktop.</p>
 		<note type="important">Please not that whenever an application was launched remotely on a group of student workstations, the name of this group on its tab will be displayed in red.</note>
+
+		<p>If the <uicontrol>Lock desktop</uicontrol> button was selected prior to launching the application, then the application will be launched on an empty desktop.</p>
 		<p>The students will still be able to close the application launched in locked desktop mode, however in this case they would be left with an empty desktop.</p>
 		<note type="tip">A student workstation will revert to the regular Windows desktop once all applications launched in the lock desktop mode have been closed remotely.</note>
 
-		<p>Use the <uicontrol>Add</uicontrol> button to add applications to the <wintitle>Shortcuts</wintitle> list. A shortcut properties window will appear on your screen (<xref keyref="run_programs/run_program_add_png" type="fig"/>&#160;). This window contains following fields:
+		<p>Use the <uicontrol>Add</uicontrol> button to add applications to the <wintitle>Shortcuts</wintitle> list. A <wintitle>Shortcut properties</wintitle> window will appear on your screen (<xref keyref="run_programs/run_program_add_png" type="fig"/>&#160;). This window contains following fields:
 			<ul>
 				<li><uicontrol>Shortcut name</uicontrol> – shortcut title that will be displayed in the application list;</li>
 				<li><uicontrol>Command line</uicontrol>;</li>
@@ -41,16 +42,16 @@
 			</ul>
 		</p>
 		<fig id="run_program_add_png">
-            <title>Application shortcut properties window</title>
+			<title>Application <wintitle>Shortcut properties</wintitle> window</title>
             <image href="img/run_program_add.png" placement="break">
-			  <alt>Application shortcut properties window</alt>
+			  <alt>Application <wintitle>Shortcut properties</wintitle> window</alt>
             </image>
         </fig>
-	   <p>Select an application from the list and press <uicontrol>Edit _fixme_ - missing from screenshot</uicontrol> button to edit shortcut properties. The shortcut properties window (<xref keyref="run_programs/run_program_add_png" type="fig"/>&#160;) where you can change the parameters will appear on your screen.</p>
+	   <p>Select an application from the list and press <uicontrol>Edit</uicontrol> button to edit shortcut properties. The <wintitle>Shortcut properties</wintitle> window (<xref keyref="run_programs/run_program_add_png" type="fig"/>&#160;) will appear, where you can change shortcut parameters.</p>
 		<p>Use the <uicontrol>Delete</uicontrol> button to remove shortcuts.</p>
 
 		<p>Double click on an application title in the <wintitle>Running applications</wintitle> panel to close it. Alternatively, select an application in the panel and press <uicontrol>Close</uicontrol> button. The students will be given a chance to save their files whenever <uicontrol>Allow students to save their work before closing</uicontrol> option is selected.</p>
 		<p>Use <uicontrol>Close all</uicontrol> button to close all remotely launched applications for the current group.</p>
-		<p>Press the <uicontrol>Close _fixme_ - two 'close' buttons in this window</uicontrol> to close this window.</p>
+		<p>Press <uicontrol>Close</uicontrol> button to close this window.</p>
 	</conbody>
 </concept>

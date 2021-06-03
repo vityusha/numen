@@ -2,24 +2,24 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="test_client" xml:lang="en-US">
-    <title>Модуль тестирования учащегося</title>
+    <title>Quiz Player</title>
     <conbody>
-        <p>Модуль тестирования учащегося  представляет собой программу, при помощи которой учащийся выполняет тестовое задание.</p>
-        <p product="nibelung">При запуске задания для группы <uicontrol>Тестирование</uicontrol> (п. <xref keyref="testing"/>&#160;) на экране монитора учащегося, входящего в данную группу, появится окно (<xref keyref="test_client/view_inst_png" type="fig"/>&#160;), содержащее инструкцию к тестовому заданию.</p>
+	    <p><wintitle>Quiz Player</wintitle> is a software module that conducts the test, i.e. displays questions to the students, records their answers, scores them, and submits the results to <wintitle>Dialog Nibelung</wintitle> teacher module.</p>
+	    <p product="nibelung">When teacher assigns a group of students a <uicontrol>Quiz</uicontrol> activity (see <xref keyref="testing"/>&#160;), <wintitle>Quiz Player</wintitle> will be launched on the workstations of the students affiliated with the group and a window with quiz introductory page will appear on their screens (<xref keyref="test_client/view_inst_png" type="fig"/>&#160;).</p>
 		<fig id="view_inst_png">
-            <title>Окно инструкции к заданию</title>
+			<title><wintitle>Quiz Player</wintitle> window displaying quiz introduction</title>
             <image href="img/view_inst.png" placement="break">
-                <alt>Окно инструкции к заданию</alt>
+			  <alt><wintitle>Quiz Player</wintitle> window displaying quiz introduction</alt>
             </image>
         </fig>
-        <p>Для начала прохождения тестового задания учащийся должен нажать на кнопку <uicontrol>Начать</uicontrol>. В окне программы появится первый вопрос (<xref keyref="test_client/view_2_png" type="fig"/>&#160;).</p>
+        <p>Students should press the <uicontrol>Start</uicontrol> button to start the quiz. First question of the quiz will appear on their screens (<xref keyref="test_client/view_2_png" type="fig"/>&#160;).</p>
         <fig id="view_2_png">
-            <title>Окно вопроса с ограничением по времени вопроса</title>
+		   <title><wintitle>Quiz Player</wintitle> window displaying a question</title>
             <image href="img/view_2.png" placement="break">
-                <alt>Окно вопроса с ограничением по времени вопроса</alt>
+			  <alt><wintitle>Quiz Player</wintitle> window displaying a question</alt>
             </image>
-        </fig>        
-		<p>На этом рисунке цифрами обозначены:</p>
+        </fig>
+	   <p>Elements of the <wintitle>Quiz Player</wintitle> window displaying a question:</p>
 		<table frame="topbot">
             <tgroup cols="2">
                 <colspec colname="COLSPEC0" colwidth="10*"/>
@@ -27,86 +27,87 @@
                 <tbody>
                     <row>
                         <entry>1</entry>
-                        <entry>Номер вопроса</entry>
+                        <entry>Question number</entry>
                     </row>
 					<row>
                         <entry>2</entry>
-                        <entry>Заголовок вопроса</entry>
+                        <entry>Title of the question</entry>
                     </row>
 					<row>
                         <entry>3</entry>
-                        <entry>Общее время</entry>
+				    <entry>Quiz clock: displays elapsed time if quiz time limit was not set; displays elapsed time and remaining time separated by a clock icon otherwise (see (1) in <xref keyref="test_client/view_1_png" type="fig"/>&#160;)</entry>
                     </row>
                     <row>
                         <entry>4</entry>
-                        <entry>Время для ответа</entry>
+                        <entry>Question time remaining</entry>
                     </row>
                     <row>
                         <entry>5</entry>
-                        <entry>Текст вопроса</entry>
+                        <entry>Question itself and answer choices (if applicable)</entry>
                     </row>
                     <row>
                         <entry>6</entry>
-                        <entry>Кнопка <uicontrol>Прослушивание аудио файла</uicontrol></entry>
+                        <entry><uicontrol>Play audio</uicontrol> button (if applicable)</entry>
                     </row>
                     <row>
                         <entry>7</entry>
-                        <entry>Кнопка <uicontrol>Запись голосового ответа</uicontrol></entry>
+                        <entry><uicontrol>Record an oral answer</uicontrol> button (if applicable)</entry>
                     </row>
                     <row>
                         <entry>8</entry>
-                        <entry>Кнопка <uicontrol>Прослушивание голосового ответа</uicontrol></entry>
+                        <entry><uicontrol>Listen to recorded answer</uicontrol> button (if applicable)</entry>
                     </row>
                     <row>
                         <entry>9</entry>
-                        <entry>Список вопросов</entry>
+                        <entry>List of questions in the quiz</entry>
                     </row>
                     <row>
                         <entry>10</entry>
-                        <entry>Переход к предыдущему вопросу</entry>
+                        <entry>Return to the previous question</entry>
                     </row>
                     <row>
                         <entry>11</entry>
-                        <entry>Переход к следующему вопросу (если разрешено в параметрах теста)</entry>
+                        <entry>Go to the next question without giving an answer to the current one (if allowed by quiz settings)</entry>
                     </row>
                     <row>
                         <entry>12</entry>
-                        <entry>Проверка правильности ответа на текущий вопрос (если разрешено в параметрах теста)</entry>
+                        <entry>Get instant feedback (if allowed by quiz settings)</entry>
                     </row>
                     <row>
                         <entry>13</entry>
-                        <entry>Ответить на текущий вопрос и перейти к следующему</entry>
+                        <entry>Record answer and go to the next question</entry>
                     </row>
                     <row>
                         <entry>14</entry>
-                        <entry>Завершить тестирование</entry>
+				    <entry>Submit all recorded answers and exit the quiz</entry>
                     </row>
-                </tbody> 
+                </tbody>
             </tgroup>
         </table>
-        <p>Дальнейшее прохождение теста зависит от параметров всего тестового задания и отдельных вопросов.</p>
-        <p>Если тестовое задание предусматривает прямой порядок вопросов, то учащемуся будет доступна только кнопка <uicontrol>Далее</uicontrol>, с помощью которой можно перейти к следующему вопросу.</p>
-        <note type="important">При прямом порядке вопросов возврат к предыдущему вопросу невозможен!</note>
-        <p>Если в тестовом задании не предусмотрен прямой порядок вопросов, то к отдельным вопросам можно перейти нажимая кнопки <uicontrol>Далее</uicontrol> и <uicontrol>Назад</uicontrol> или выбрав нужный вопрос из списка, расположенного в левом нижнем углу окна.</p>
-        <p>Если в тестовом задании разрешена немедленная проверка то по нажатии на кнопку <uicontrol>Проверить</uicontrol> учащийся сможет просмотреть правильность своего ответа на текущий вопрос. При этом название кнопки изменится на <uicontrol>Повторить</uicontrol> и учащийся в случае неправильного ответа сможет повторно ответить на текущий вопрос (<xref keyref="test_client/view_2_png" type="fig"/>&#160;). Данный режим удобен для создания обучающих заданий.</p>
+        <p>Students' ability to navigate around the quiz depends on both quiz and individual question settings.</p>
+        <p>Whenever the quiz is enforcing strict order of questions (<xref keyref="test_builder"/>&#160;), only the <uicontrol>Answer</uicontrol> navigation button is enabled, which records the answer and proceeds on to the next question.</p>
+        <p>If the strict order is not enforced, students will be able to use <uicontrol>Previous</uicontrol> and <uicontrol>Next</uicontrol> buttons to navigate to the previous or next question or use the drop-down list (9) to jump to any question in the quiz.</p>
+	   <p>If quiz settings allow instant feedback, the students will be able to get question feedback by pressing the <uicontrol>Check</uicontrol> button. In this case <uicontrol>Check</uicontrol> will change into <uicontrol>Repeat</uicontrol> button that will allow students to make another attempt if they were wrong (<xref keyref="test_client/view_2_png" type="fig"/>&#160;).</p>
+	   <note type="tip">Instant feedback option greatly simplifies creation of learning assignments.</note>
         <fig id="view_2_check_png">
-            <title>Окно вопроса с проверкой правильности ответа</title>
+		   <title><wintitle>Quiz Player</wintitle> window with an <uicontrol>Instant feedback</uicontrol> question</title>
             <image href="img/view_2_check.png" placement="break">
-                <alt>Окно вопроса с проверкой правильности ответа</alt>
+			  <alt><wintitle>Quiz Player</wintitle> window with an <uicontrol>Instant feedback</uicontrol> question</alt>
             </image>
-        </fig>        
+        </fig>
 
-        <p>В верхней части окна выводится название теста, общее время выполнения, номер и заголовок вопроса. Если вопрос ограничен по времени, то в верхнем правом углу окна появится изображение часов и время, оставшееся до конца ответа на данный вопрос.</p>
-        <note type="important">Если время, выделенное на ответ, истекло, то изменить ответ  нельзя! Кроме того, если вопрос ограничен по времени, учащийся не сможет вернуться к нему позднее.</note>
-        <p>Вопросы могут содержать различные рисунки. Также в них могут располагаться ссылки на аудио и видео файлы. В этом случае в окне появится кнопка <uicontrol>Слушать аудио</uicontrol> или <uicontrol>Смотреть видео</uicontrol> (<xref keyref="test_client/view_2_png" type="fig"/>&#160;). При нажатии на эти кнопки, будет запускаться соответствующий проигрыватель медиа файлов.</p>
-        <p>Если вопрос предусматривает голосовой ответ учащегося, то в левом нижнем углу окна вопроса появятся кнопки записи и прослушивания устного ответа учащегося (<xref keyref="test_client/view_1_png" type="fig"/>&#160;).</p>
+	   <p>Quiz title, quiz remaining time, and question title are displayed in the upper portion of the <wintitle>Quiz Player</wintitle> window. If the question has a time limit set, question remaining time will also be displayed in the upper right corner next to the quiz remaining time.</p>
+        <note type="important">Students will not be able to change their answers after the question time limit has elapsed. Moreover, if a question has a time limit set, students will not be able to return to this question later.</note>
+	   <p>Questions can have images, audio and video associated with them. If this is the case, <uicontrol>Play audio</uicontrol> and/or <uicontrol>Show video</uicontrol> buttons that launch the media player will appear in the question window (<xref keyref="test_client/view_2_png" type="fig"/>&#160;). Images will be displayed automatically in the right portion of the <wintitle>Quiz Player</wintitle> window (e.g. the clock image in <xref keyref="test_client/view_2_png" type="fig"/>&#160;).</p>
+        <p>If the question has the option for an oral answer selected, recording and playback buttons will appear in the lower left corner of the window (see (7) and (8) in <xref keyref="test_client/view_2_png" type="fig"/>&#160;).</p>
+        <p>Whenever the quiz has a time limit set, a clock icon and a countdown clock for quiz remaining time will appear in the upper right corner.</p>
         <fig id="view_1_png">
-            <title>Окно вопроса с одним ответом</title>
+		   <title><wintitle>Quiz Player</wintitle> window with a <uicontrol>Single answer</uicontrol> question with a time limit</title>
             <image href="img/view_1.png" placement="break">
-                <alt>Окно вопроса с одним ответом</alt>
+			  <alt><wintitle>Quiz Player</wintitle> window with a <uicontrol>Single answer</uicontrol> question with a time limit</alt>
             </image>
-        </fig>        
-		<p>На этом рисунке цифрой обозначено:</p>
+        </fig>
+	   <p>Elements of the <wintitle>Quiz Player</wintitle> window:</p>
 		<table frame="topbot">
             <tgroup cols="2">
                 <colspec colname="COLSPEC0" colwidth="10*"/>
@@ -114,52 +115,44 @@
                 <tbody>
                     <row>
                         <entry>1</entry>
-                        <entry>Время до окончания тестирования</entry>
+                        <entry>Quiz time remaining</entry>
                     </row>
-                </tbody> 
+                </tbody>
             </tgroup>
         </table>
-        <p>Если тестовое задание ограничено по времени выполнения, то в верхнем правом углу окна появится изображение часов и время, оставшееся до конца тестового задания.</p>
-		<p>В зависимости от типа ответов учащийся может осуществить:
-			<ul>
-                <li>одиночный выбор из нескольких вариантов ответа;</li>
-                <li>выбор нескольких вариантов ответа;</li>
-				<li>вставить пропущенные слова;</li>
-                <li>произвести соответствие двух таблиц;</li>
-                <li>упорядочить таблицу в соответствии с заданным критерием;</li>
-                <li>выбрать области изображения, соответствующие правильному ответу;</li>
-                <li>перетащить текст в правильную область изображения;</li>
-                <li>набрать текст, отвечая на поставленный вопрос.</li>
-            </ul>
+		<p>Depending on the type of the questions, while taking the quiz the students can:
+		<ul>
+                <li>select a single answer from given choices;</li>
+                <li>select several answers from given choices;</li>
+			<li>fill in the blacks in given text;</li>
+                <li>establish relationships between items on two lists according to given criteria;</li>
+                <li>rank items on the list according to given criteria;</li>
+                <li>select areas on an image corresponding to the correct answer;</li>
+                <li>drag and drop labels on an image;</li>
+                <li>type a free form answer to a question.</li>
+          </ul>
 		</p>
-        
-        <p>Учащийся имеет возможность досрочно завершить тестирование. Для этого он должен нажать на кнопку <uicontrol>Закончить</uicontrol> (1) (<xref keyref="test_client/view_6_png" type="fig"/>&#160;).</p>
-        <fig id="view_6_png">
-            <title>Завершение тестирования</title>
-            <image href="img/view_6.png" placement="break">
-                <alt>Завершение тестирования</alt>
-            </image>
-        </fig>     
-        
-        <p>При завершении тестового задания в окне программы (<xref keyref="test_client/view_sum_png" type="fig"/>&#160;) отобразится информация, содержащая  содержащее результаты выполнения тестового задания.</p>        
+        <p>A student can stop taking the quiz at any time by pressing <uicontrol>Submit</uicontrol> button (14 on <xref keyref="test_client/view_2_png" type="fig"/>&#160;).</p>
+
+        <p>Quiz results summary will be displayed to the students upon completion of a quiz (<xref keyref="test_client/view_sum_png" type="fig"/>&#160;).</p>
         <fig id="view_sum_png">
-            <title>Окно результатов теста</title>
+            <title>Quiz results summary</title>
             <image href="img/view_sum.png" placement="break">
-                <alt>Окно результатов теста</alt>
+			  <alt>Quiz results summary</alt>
             </image>
-        </fig>  
-        
-        <p>Если параметры теста разрешают просмотр ответов учащимися, то в данном окне появится кнопка <uicontrol>Смотреть результаты</uicontrol>, нажав на которую учащийся может увидеть правильно ли он ответил на вопросы (<xref keyref="test_client/view_yes_png" type="fig"/>&#160;) и где он допустил ошибку (<xref keyref="test_client/view_no_png" type="fig"/>&#160;).</p>
+        </fig>
+
+        <p>If quiz settings allow the students to see detailed results, a <uicontrol>View answers</uicontrol> button will appear in this window. By pressing this button students will be able to see which questions they have answered correctly (<xref keyref="test_client/view_yes_png" type="fig"/>&#160;) and which not (<xref keyref="test_client/view_no_png" type="fig"/>&#160;).</p>
         <fig id="view_yes_png">
-            <title>Окно правильного ответа</title>
+            <title>Correct answer</title>
             <image href="img/view_yes.png" placement="break">
-                <alt>Окно правильного ответа</alt>
+			  <alt>Correct answer</alt>
             </image>
-        </fig> 
+        </fig>
         <fig id="view_no_png">
-            <title>Окно неправильного ответа</title>
+            <title>Incorrect answer</title>
             <image href="img/view_no.png" placement="break">
-                <alt>Окно неправильного ответа</alt>
+			  <alt>Incorrect answer</alt>
             </image>
         </fig>
     </conbody>

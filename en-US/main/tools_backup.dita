@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="tools_backup" xml:lang="en-US">
+  <title>Backup and restore</title>
+  <conbody>  
+    <p>Select <menucascade><uicontrol>Tools</uicontrol><uicontrol>Backup and restore</uicontrol></menucascade>&#160; to open the backup and restore tool window (<xref keyref="tools_backup/backup_png" type="fig"/>&#160;) on the teacher workstation.</p>
+    <fig id="backup_png">
+      <title><wintitle>Backup and restore</wintitle> window</title>
+      <image href="img/backup-window.png" placement="break">
+        <alt><wintitle>Backup and restore</wintitle> window</alt>
+      </image>
+    </fig>
+    <p>With the help of the backup and restore tool you can create a backup copy of all the data and setting from a teacher folder. The backup copy will be stored in a separate file, from which the data and settings can be restored.</p>
+    
+    <note type="important">When you perform backup or restore logged into <wintitle>Dialog Nibelung</wintitle> administrator account, all teacher folders and settings will be backed up or restored. Please note that the data and settings stored in teacher keys (see <xref keyref="usb_keychain"/>&#160;) have to be backed up separately.</note>
+    
+    <p>Select <uicontrol>Backup</uicontrol> mode, specify destination folder, and press <uicontrol>Start</uicontrol> button in the <uicontrol>Backup and restore</uicontrol> window to initiate the backup procedure. You can also optionally specify backup password. The backup may take some time depending on the amount of data needed to be copied to the archive.</p>
+    <note type="tip">By specifying a password you will protect backup archive from unauthorized access. Please note that the password can not be recovered and its loss will render backed up data inaccessible.</note>
+    <p>Backup archive files are assigned names automatically according to the following pattern:</p>
+    <p><filepath>&lt;Folder&gt;\NibelungBackup-John Smith PhD-2016-04-21_12-55-03-.zip</filepath></p>
+    <ul>
+    <li><filepath>&lt;Folder&gt;</filepath> - destination folder;</li>
+    <li><filepath>NibelungBackup</filepath> - file prefix indicating that the file was created by <wintitle>Nibelung</wintitle>;</li>
+    <li><filepath>John Smith PhD</filepath> - teacher name ('<filepath>System</filepath>' in case of a full system backup performed by the administrator);</li>
+    <li><filepath>2016-04-21_12-55-03</filepath> - backup creation time stamp in year-month-day_hours-minutes-seconds format</li>
+    </ul>
+    <p>Select <uicontrol>Restore</uicontrol> mode, specify backup archive file and password (if necessary), and press <uicontrol>Start</uicontrol> button in the <uicontrol>Backup and restore</uicontrol> window to restore data and settings. This may take some time depending on the amount of data to be restored.</p>
+    <p>Select <uicontrol>Restore and replace</uicontrol> option to replace existing data and settings with restored ones.</p>
+    <note type="important">Be careful with the <uicontrol>Restore and replace</uicontrol> option as it can not be undone.</note>
+  </conbody>
+</concept>

@@ -5,7 +5,7 @@
     <title><keyword>Conversation</keyword></title>
     <conbody>
 		<p><indexterm>conversation mode</indexterm>In this mode the teacher can enter a conversation with a student, a group of students, or the whole class.</p>
-		<p>An icon (<xref keyref="dialog/icon_dialog_png" type="fig"/>&#160;) will appear on panels of the students working in conversation with the teacher mode.</p>
+		<p>An icon (<xref keyref="dialog/icon_dialog_png" type="fig"/>&#160;) will appear on panel of a student in conversation with the teacher mode.</p>
 		<fig id="icon_dialog_png">
             <title>Conversation icon</title>
             <image href="img/icon_dialog.png" placement="break">
@@ -16,6 +16,6 @@
 	   <p>Press  <uicontrol>Activity</uicontrol> button in the group tab (see section <xref keyref="menu_group"/>&#160;), and select <uicontrol>Conversation</uicontrol> to enter conversation with a group.</p>
 	   <p>Press <uicontrol>Activity</uicontrol> button in the class tab (see section <xref keyref="menu_class"/>&#160;), and select <uicontrol>Conversation</uicontrol> to enter conversation with the whole class.</p>
 		<note type="tip">Conversation mode can also be used to make announcements to a group or the whole class.</note>
-		<p>Repeat the action described above to exit conversation mode.</p>
+		<p>Repeat the action described above to exit the conversation mode.</p>
 	</conbody>
 </concept>

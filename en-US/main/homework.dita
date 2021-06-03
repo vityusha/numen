@@ -2,18 +2,18 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="homework" xml:lang="en-US">
-    <title>Домашнее задание</title>
-    <conbody>  
-		<note type="important">Домашнее задание представляет собой файл или набор файлов с описанием, с которыми учащиеся работают в свободное от занятий время.</note>
-		<p>При выборе данного пункта меню преподаватель может формировать, раздавать и собирать домашнее задание от всего класса, группы учащихся и отдельного учащегося.</p>
-		<p>Если преподаватель в меню всего класса или группы выберет пункт <uicontrol>Домашнее задание</uicontrol>, на экране его монитора появится соответствующее окно (<xref keyref="homework/hw1_png" type="fig"/>&#160;), содержащее список заданий, а также средства раздачи и сбора домашних заданий учащихся.</p>
+    <title>Homework assignments</title>
+    <conbody>
+	    <note type="important">A homework assignment in <wintitle>Dialog Nibelung</wintitle> is a set of files together with their descriptions for the students to work with outside the classroom.</note>
+		<p>Using this mode the teacher can assemble, distribute, and collect homework assignments for the whole class, selected group(s) and individual students.</p>
+		<p>Select <uicontrol>Homework</uicontrol> from the class or group menu to open the <wintitle>Homework assignments</wintitle> window (<xref keyref="homework/hw1_png" type="fig"/>&#160;), which contains list of assignments and tools to distribute and collect them.</p>
 		<fig id="hw1_png">
-            <title>Окно домашнего задания у преподавателя</title>
+            <title>Homework assignments window in the teacher module</title>
             <image href="img/hw1.png" placement="break">
-                <alt>Окно домашнего задания у преподавателя</alt>
+                <alt>Homework assignments window in the teacher module</alt>
             </image>
         </fig>
-		<p>На этом рисунке цифрами обозначены:</p>
+	   <p>Elements of the <wintitle>Homework assignments</wintitle> window:</p>
 		<table frame="topbot">
             <tgroup cols="2">
                 <colspec colname="COLSPEC0" colwidth="10*"/>
@@ -21,69 +21,72 @@
                 <tbody>
                     <row>
                         <entry>1</entry>
-                        <entry>Кнопка <uicontrol>Добавить задание</uicontrol></entry>
+                        <entry><uicontrol>Add assignment</uicontrol> button</entry>
                     </row>
 					<row>
                         <entry>2</entry>
-                        <entry>Кнопка <uicontrol>Удалить задание</uicontrol></entry>
+                        <entry><uicontrol>Delete assignment</uicontrol> button</entry>
                     </row>
 					<row>
                         <entry>3</entry>
-                        <entry>Кнопка <uicontrol>Редактировать задание</uicontrol></entry>
+                        <entry><uicontrol>Edit assignment</uicontrol> button</entry>
                     </row>
 					<row>
                         <entry>4</entry>
-                        <entry>Кнопка <uicontrol>Собрать файлы без задания</uicontrol></entry>
+                        <entry><uicontrol>Collect files without an assignment</uicontrol> button</entry>
                     </row>
 					<row>
                         <entry>5</entry>
-                        <entry>Список заданий</entry>
+                        <entry>List of assignments</entry>
                     </row>
 					<row>
                         <entry>6</entry>
-                        <entry>Кнопка <uicontrol>Добавить файл</uicontrol></entry>
+                        <entry><uicontrol>Add file</uicontrol> button</entry>
                     </row>
 					<row>
                         <entry>7</entry>
-                        <entry>Кнопка <uicontrol>Удалить файл</uicontrol></entry>
+                        <entry><uicontrol>Delete file</uicontrol> button</entry>
                     </row>
 					<row>
                         <entry>8</entry>
-                        <entry>Кнопка <uicontrol>Удалить все файлы</uicontrol></entry>
+                        <entry><uicontrol>Delete all files</uicontrol> button</entry>
                     </row>
 					<row>
                         <entry>9</entry>
-                        <entry>Кнопка <uicontrol>Просмотреть файл</uicontrol></entry>
+                        <entry><uicontrol>View file</uicontrol> button</entry>
                     </row>
 					<row>
                         <entry>10</entry>
-                        <entry>Список файлов задания</entry>
+                        <entry>List of assignment files</entry>
                     </row>
-                </tbody> 
+                </tbody>
             </tgroup>
         </table>
-		<p>Вверху окна расположены закладки для доступа к домашним заданиям всего класса, групп или отдельного учащегося.</p>
-		<note type="important">При выборе закладки <wintitle>Учащийся</wintitle> это окно будет отображать домашнее задание для отдельного учащегося (<xref keyref="homework/hw3_png" type="fig"/>&#160;).</note>		
-		<p>Под закладками групп расположен список всех домашних заданий. Для ввода, удаления и редактирования названия и текста заданий предусмотрены соответствующие кнопки.</p>
-		<p>При нажатии на кнопки <uicontrol>Ввести задание</uicontrol> и <uicontrol>Редактировать задание</uicontrol> на экране монитора преподавателя появится окно, в котором можно ввести название и описание задания (<xref keyref="homework/hw_edit_png" type="fig"/>&#160;).</p>
+		<p>Select a tab at the top of the window to switch between lists of assignments for the whole class, particular groups, and individual students.</p>
+		<note type="important">Whenever the <wintitle>Student</wintitle> tab is selected, this window will contain assignments for this student only (<xref keyref="homework/hw3_png" type="fig"/>&#160;).</note>
+		<p>List of assignments together with buttons for adding, removing and editing assignments is immediately below the tabs lineup. </p>
+		<p>Press <uicontrol>Add assignment</uicontrol> or <uicontrol>Edit assignment</uicontrol> button to open a window where you can enter or edit assignment title and description (<xref keyref="homework/hw_edit_png" type="fig"/>&#160;).</p>
 		<fig id="hw_edit_png">
-            <title>Окно ввода домашнего задания</title>
+			<title>Add assignment window</title>
             <image href="img/hw-edit.png" placement="break">
-                <alt>Окно ввода домашнего задания</alt>
-            </image>
-        </fig>		
-		<p>Также в списке заданий расположена кнопка <uicontrol>Собрать файлы без задания</uicontrol>, при нажатии на которую в данном списке появится новое, так называемое, &quot;пустое&quot; задание, позволяющие собрать файлы учащихся, которые были подготовлены ими без выдачи соответствующего домашнего задания.</p>
-		<p>Внизу окна домашнего задания у преподавателя при выбранной закладке <wintitle>Раздать</wintitle> расположен список файлов выбранного задания.</p>
-		<p>Вверху этого списка имеются кнопки <uicontrol>Добавить файл</uicontrol>, <uicontrol>Удалить файл</uicontrol>, <uicontrol>Удалить все файлы</uicontrol>, <uicontrol>Просмотреть файл</uicontrol>, позволяющие сформировать набор файлов домашнего задания для учащихся.</p>
-		<p>После окончания формирования домашнего задания преподаватель должен нажать на кнопку <uicontrol>Послать</uicontrol>. При этом выбранным учащимся будут переданы файлы, с которыми они могут работать в свободное от занятий время. Процесс передачи файлов будет отображаться специальным индикатором, расположенным рядом с этой кнопкой.</p>
-		<p>После передачи файлов домашнего задания на экране монитора этих учащихся появится окно (<xref keyref="homework/hw_client_receive_png" type="fig"/>&#160;), содержащее список выданных домашних заданий и список файлов, входящих в эти задания.</p>
-		<fig id="hw_client_receive_png">
-            <title>Окно домашнего задания у учащихся при выдаче заданий</title>
-            <image href="img/hw-client-receive.png" placement="break">
-                <alt>Окно домашнего задания у учащихся при выдаче заданий</alt>
+			  <alt>Add assignment window</alt>
             </image>
         </fig>
-		<p>На этом рисунке цифрами обозначены:</p>
+	   <p><uicontrol>Collect files without an assignment</uicontrol> button allows you co collect files that students may have prepared without a particular assignment. It actually creates a dummy assignment that facilitates collection of unattached files.</p>
+
+	   <p>The lower portion of the window contains a panel that accommodates either list of assignment files or list of students who received this assignment depending on whether <wintitle>Hand out</wintitle> or <wintitle>Collect</wintitle> tab is selected.</p>
+
+	   <p>In the <wintitle>Hand out</wintitle> mode this panel becomes the <wintitle>Handout files</wintitle> panel that contains list of assignment files for distribution to the students.</p>
+		<p><uicontrol>Add file</uicontrol>, <uicontrol>Delete file</uicontrol>, <uicontrol>Delete all files</uicontrol>, and <uicontrol>View file</uicontrol> buttons for assembling handout files into an assignment are immediately above the file list.</p>
+		<p>After assembling the assignment you can press the <uicontrol>Send</uicontrol> button to send it to the students. Assignment transfer progress bar is to the right of the <uicontrol>Send</uicontrol> button.</p>
+		<p>A soon as all assignment files have been received by a student module, an  <wintitle>Assignment handout</wintitle> window (<xref keyref="homework/hw_client_receive_png" type="fig"/>&#160;) will appear on the student's screen. This window displays received assignment(s) and files associated with them.</p>
+		<fig id="hw_client_receive_png">
+			<title><wintitle>Assignment handout</wintitle> window on the student screen</title>
+            <image href="img/hw-client-receive.png" placement="break">
+			  <alt><wintitle>Assignment handout</wintitle> window on the student screen</alt>
+            </image>
+        </fig>
+	   <p>Elements of the <wintitle>Assignment handout</wintitle> window:</p>
 		<table frame="topbot">
             <tgroup cols="2">
                 <colspec colname="COLSPEC0" colwidth="10*"/>
@@ -91,24 +94,25 @@
                 <tbody>
 					<row>
                         <entry>1</entry>
-                        <entry>Список заданий</entry>
+                        <entry>List of assignments</entry>
                     </row>
 					<row>
                         <entry>2</entry>
-                        <entry>Список файлов выбранного задания</entry>
+                        <entry>List of files for selected assignment</entry>
                     </row>
-                </tbody> 
+                </tbody>
             </tgroup>
         </table>
-		<p>Учащийся при помощи кнопки <uicontrol>Сохранить</uicontrol> может переписать файлы задания в указанное им место или, нажав кнопку <uicontrol>Открыть папку</uicontrol>, он может открыть в отдельном окне папку с файлами задания.</p>
-		<p>Процесс сбора домашних заданий от учащихся преподавателю осуществляется следующим образом. Преподаватель должен выбрать закладку <wintitle>Собрать</wintitle> (<xref keyref="homework/hw2_png" type="fig"/>&#160;), при этом список файлов задания в окне будет заменен на список учащихся, которым было выдано выделенное домашнее задание.</p>
+	   <p>Students can use <uicontrol>Open folder</uicontrol> button to open the assignment folder in a file manager or <uicontrol>Save</uicontrol> button to save assignment files elsewhere.</p>
+
+	   <p>The teacher should select <wintitle>Collect</wintitle> tab in the <wintitle>Homework assignments</wintitle> window (<xref keyref="homework/hw2_png" type="fig"/>&#160;) to initiate collecting assignments that are due. Upon selection of <wintitle>Collect</wintitle> tab, the panel will display a list of students who have received this assignment.</p>
 		<fig id="hw2_png">
-            <title>Окно домашнего задания у преподавателя при сборе заданий</title>
+			<title><wintitle>Homework assignments</wintitle> window during collection</title>
             <image href="img/hw2.png" placement="break">
-                <alt>Окно домашнего задания у преподавателя при сборе заданий</alt>
+			  <alt><wintitle>Homework assignments</wintitle> window during collection</alt>
             </image>
         </fig>
-		<p>На этом рисунке цифрами обозначены:</p>
+	   <p>Elements of <xref keyref="homework/hw2_png" type="fig"/> window:</p>
 		<table frame="topbot">
             <tgroup cols="2">
                 <colspec colname="COLSPEC0" colwidth="10*"/>
@@ -116,49 +120,50 @@
                 <tbody>
 					<row>
                         <entry>1</entry>
-                        <entry>Кнопка <uicontrol>Удалить файлы задания</uicontrol></entry>
+				    <entry><uicontrol>Delete assignment files</uicontrol> button</entry>
                     </row>
 					<row>
                         <entry>2</entry>
-                        <entry>Кнопка <uicontrol>Экспортировать файлы задания</uicontrol></entry>
+                        <entry><uicontrol>Export assignment files</uicontrol> button</entry>
                     </row>
 					<row>
                         <entry>3</entry>
-                        <entry>Список учащихся</entry>
+                        <entry>Student list</entry>
                     </row>
-                </tbody> 
+                </tbody>
             </tgroup>
-        </table> 
-		<p>В списке учащихся указывается имя учащегося, дата раздачи и сбора домашнего задания. При помощи кнопки <uicontrol>Открыть</uicontrol> можно просмотреть собранное домашнее задание отдельного учащегося.</p>
-		<p>Вверху списка учащихся расположены кнопки <uicontrol>Удалить файлы задания</uicontrol> и <uicontrol>Экспортировать файлы задания</uicontrol>. При помощи этих кнопок можно удалить файлы задания выбранных учащихся или экспортировать файлы задания выбранных учащихся в указанный преподавателем каталог.</p>
-		<p>Для того чтобы собрать файлы домашнего задания преподаватель должен выбрать учащихся, от которых необходимо собрать задания, и нажать кнопку <uicontrol>Собрать задание</uicontrol>. Если включена опция <uicontrol>Только тем, кто получал это задание</uicontrol>, то у учащихся, получивших это задание, на экране монитора появится окно (<xref keyref="homework/hw_client_send_png" type="fig"/>&#160;), позволяющее передать преподавателю необходимые файлы. Если эта опция не включена, то окно сбора задания появится у всех выбранных учащихся (класс, группа или отдельный учащийся).</p>
-		<note type="tip">Чтобы выбрать сразу всех учащихся в списке можно щелкнуть правой кнопкой мышки на поле выбора учащихся в заголовке списка учащихся.</note>
+        </table>
+		<p>Student list displays student name, handout date, and received back date.</p>
+
+		<p>Press <uicontrol>Collect assignments</uicontrol> button to collect the assignments. An <wintitle>Assignment return</wintitle> window (<xref keyref="homework/hw_client_send_png" type="fig"/>&#160;) will be displayed on the screens of selected students. If the <uicontrol>Only those who received this assignment</uicontrol> check box was selected, then only these students will be prompted to return it. The usual selection criteria - all students in the class, selected group, or selected students - apply otherwise.</p>
+
+		<note type="tip">Check selection box in the list header to select all students in the list.</note>
 		<fig id="hw_client_send_png">
-            <title>Окно домашнего задания у учащихся при сборе заданий</title>
+            <title>Assignment return window</title>
             <image href="img/hw-client-send.png" placement="break">
-                <alt>Окно домашнего задания у учащихся при сборе заданий</alt>
+			  <alt>Assignment return window</alt>
             </image>
         </fig>
-		<p>В верхней части этого окна расположен список заданий, содержащий название выданных файлов.</p>
-		<p>В нижней части окна расположен список возвращаемых файлов. Учащийся выбирает файлы для передачи преподавателю или при помощи кнопки <uicontrol>Выбрать файл</uicontrol>, или перетаскивая требуемые файлы в этот список.</p>
-		<p>Закончив формировать список, учащийся должен нажать на кнопку <uicontrol>Послать</uicontrol> для передачи файлов выполненного задания преподавателю.</p>
-		<p>Процесс сбора файлов у преподавателя будет отображаться специальным индикатором, расположенным рядом с кнопкой <uicontrol>Собрать задание</uicontrol> (<xref keyref="homework/hw2_png" type="fig"/>&#160;).</p>
-        <p>После завершения сбора заданий собранные файлы можно просмотреть нажав на кнопку <uicontrol>Открыть</uicontrol> в строке задания. Кроме того, преподаватель может написать комментарии к заданию, щелкнув левой кнопкой мышки на соответствующем поле в строке задания.</p>
-		<p>Также у преподавателя внизу окна расположена кнопка <uicontrol>Собрать файлы</uicontrol>, при нажатии на которую в списке заданий появится новое, так называемое, &quot;пустое&quot; задание, позволяющие собрать файлы учащихся, которые были подготовлены ими без выдачи соответствующего домашнего задания.</p>
-		<p>При выборе закладки <wintitle>Учащийся</wintitle>  у преподавателя в окне домашнего задания появится список, в котором можно выбрать нужного учащегося (<xref keyref="homework/hw3_png" type="fig"/>&#160;).</p>
+		<p>List of files that students received with the assignment is at the top of this window.</p>
+		<p>Bottom part of the window contains list of files to be returned. Students can add files to this list by dragging and dropping files to the panel or using <uicontrol>Browse files</uicontrol> button.</p>
+		<p>After the list of files to be returned has been assembled, students should press <uicontrol>Send</uicontrol> button to return assignment to the teacher.</p>
+
+		<p>Assignment collection process can be tracked using progress bar to the right of the <uicontrol>Collect</uicontrol> button on the teacher's screen (<xref keyref="homework/hw2_png" type="fig"/>&#160;).</p>
+
+		<p>You can view received assignments by pressing <uicontrol>Open</uicontrol> button in the student list. You can also add comments to the assignment by clicking on the <uicontrol>Comments</uicontrol> field.</p>
+		<p>Use <uicontrol>Delete assignment files</uicontrol> and <uicontrol>Export assignment files</uicontrol> on top of the student list to remove assignment files for selected students or to export files to a specified folder.</p>
+
+		<p>If the <wintitle>Student</wintitle> tab is selected in the <wintitle>Homework assignments</wintitle> window, then a drop down list of students will appear to the right of the tab (<xref keyref="homework/hw3_png" type="fig"/>&#160;).</p>
 		<fig id="hw3_png">
-            <title>Окно домашнего задания учащегося</title>
+			<title><wintitle>Homework assignments</wintitle> window with the  <uicontrol>Student</uicontrol> tab selected</title>
             <image href="img/hw3.png" placement="break">
-                <alt>Окно домашнего задания учащегося</alt>
+			  <alt><wintitle>Homework assignments</wintitle> window with the <uicontrol>Student</uicontrol> tab selected</alt>
             </image>
         </fig>
-		<note type="important">При выборе пункта меню учащегося <uicontrol>Домашнее задание</uicontrol> (см. п. <xref keyref="menu_single"/>&#160;) этот ученик будет выбран в списке автоматически.</note>
-		<p>Если выбрана закладка <wintitle>Раздать</wintitle>, то все соответствующие действия по раздаче домашнего задания, рассмотренные выше, доступны только для выбранного учащегося.</p>
-		<p>Если выбрана закладка <wintitle>Полученные домашние задания</wintitle>,  то список домашних заданий становится недоступным, а внизу будет отображаться список, содержащий домашние задания, выданные данному учащемуся.</p>
-		<p>В этом списке необходимо выбрать задания, которые необходимо собрать от учащегося, и далее собрать их, нажав на кнопку <uicontrol>Собрать задание</uicontrol>.</p>
-		<note type="tip">Чтобы выбрать сразу все задания в списке можно щелкнуть правой кнопкой мышки на поле выбора задания в заголовке списка заданий.</note>
-		<p>Если при работе с одним учащимся нажать на кнопку <uicontrol>Собрать файлы</uicontrol>, то для выбранного учащегося в списке заданий появится новое, так называемое, &quot;пустое&quot; задание, позволяющие собрать файлы учащегося, которые были подготовлены им без выдачи соответствующего домашнего задания.</p>
-        <p>После завершения сбора заданий собранные файлы можно просмотреть нажав на кнопку <uicontrol>Открыть</uicontrol> в строке задания. Кроме того, преподаватель может написать комментарии к заданию, щелкнув левой кнопкой мышки на соответствующем поле в строке задания.</p>
+	   <note type="important">Whenever the <wintitle>Homework assignments</wintitle> window was accessed through the pop-up student menu (see section <xref keyref="menu_single"/>&#160;), corresponding student will be selected automatically.</note>
+		<p>You can hand out assignment(s) to the student by selecting <wintitle>Hand out</wintitle> tab an following instruction above. All the actions will be applicable only to the selected student.</p>
+		<p>Whenever <wintitle>Received assignments</wintitle> tab is selected, assignment list in top panel becomes inactive and the bottom panel will contain list of assignments handed out to the student. You can select assignments in this list and collect the from the student by pressing  <uicontrol>Collect assignments</uicontrol> button.</p>
+		<note type="tip">Right click on the assignment selection field in the list header to select all assignments.</note>
+		<p><uicontrol>Collect files</uicontrol> and <uicontrol>Open</uicontrol> buttons work just like for multiple students (described above in this section).</p>
     </conbody>
 </concept>
-

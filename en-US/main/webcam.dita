@@ -2,19 +2,19 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="webcam" xml:lang="en-US">
-  <title><keyword>Веб камера</keyword></title>
-  <conbody>  
-    <p><indexterm>веб камера</indexterm>В этом режиме преподаватель может посмотреть изображение с веб камеры учащегося (если на компьютере учащегося установлено соответствующее оборудование), группы или всего класса. Видео с веб камеры появляется вместо основного изображения учащегося (<xref keyref="webcam/webcam_png" type="fig"/>&#160;).</p>
+  <title><keyword>Video monitoring</keyword></title>
+  <conbody>
+    <p><indexterm>video monitoring</indexterm>Video monitoring mode allows the teacher to monitor web cam feeds from the student workstations. Web cam feeds will be displayed in the student panels (<xref keyref="webcam/webcam_png" type="fig"/>&#160;).</p>
     <fig id="webcam_png">
-      <title>Изображение с веб камеры учащегося</title>
+      <title>Student panel displaying web cam feed</title>
       <image href="img/webcam.png" placement="break">
-        <alt>Изображение с веб камеры учащегося</alt>
+		 <alt>Student panel displaying web cam feed</alt>
       </image>
     </fig>
-    <p>Для получения изображения с веб камеры одного учащегося преподаватель должен в меню учащегося (п. <xref keyref="menu_single"/>&#160;) выбрать пункт <uicontrol>Веб камера</uicontrol>.</p>
-    <p>Для получения изображения с веб камер у группы учащихся преподаватель должен в меню нужной группы (п. <xref keyref="menu_group"/>&#160;) нажать на кнопку <uicontrol>Управление PC</uicontrol>, а потом выбрать пункт <uicontrol>Веб камера</uicontrol>.</p>
-    <p>Для получения изображения с веб камер у всего класса преподаватель должен в меню всего класса (п. <xref keyref="menu_class"/>&#160;) нажать на кнопку <uicontrol>Управление PC</uicontrol>, а потом выбрать пункт <uicontrol>Веб камера</uicontrol>.</p> 
-    <p>Если щелкнуть два раза на изображении с веб камеры учащегося, на экране монитора преподавателя откроется окно просмотра видео с изображением с веб камеры учащегося.</p>
-    <p>Чтобы отключить изображение с веб камеры, нужно повторить приведенные выше действия.</p>
+    <p>Select <uicontrol>Web cam</uicontrol> from the student menu (see <xref keyref="menu_single"/>&#160;) to monitor video feed for this particular student.</p>
+    <p>Press <uicontrol>Remote control</uicontrol> button in the group tab menu (see <xref keyref="menu_group"/>&#160;) and select <uicontrol>Remote control</uicontrol> to monitor video feeds for selected group.</p>
+    <p>Press <uicontrol>Remote control</uicontrol> button in the class tab menu (see <xref keyref="menu_class"/>&#160;) and select <uicontrol>Web cam</uicontrol> to monitor video feeds.</p>
+    <p>Double click on a student panel displaying a video feed to open this feed in a larger window.</p>
+    <p>Repeat the actions described above to turn off video feed display.</p>
   </conbody>
 </concept>

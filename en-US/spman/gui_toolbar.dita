@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+
+<concept id="toolbar" xml:lang="en-US">
+  <title>Toolbar</title>
+  <conbody>
+    <section>
+
+      <p>The toolbar can be used for quick access to the main functionality of <wintitle>Student Profiles Manager</wintitle> without invoking the main menu.</p>
+
+      <fig id="toolbar_png">
+        <title>Toolbar</title>
+        <image href="img/toolbar.png" placement="break">
+          <alt>Toolbar</alt>
+        </image>
+      </fig>
+
+      <fig id="filter_png">
+        <title>Toolbar filter</title>
+        <image href="img/filter.png" placement="break">
+          <alt>Toolbar filter</alt>
+        </image>
+      </fig>
+
+      <p>Apart from providing visual shortcuts to the menu commands, the toolbar also gives access to:</p>
+      <ul>
+        <li><uicontrol>Show all students</uicontrol> button (immediately to the left of the filter string field);</li>
+        <li><uicontrol>Filter</uicontrol> button, used to toggle the global filter (see <xref keyref="search"/>&#160;);</li>
+        <li>filter string entry field.</li>
+      </ul>
+
+      <fig id="all_png">
+        <title><uicontrol>Show all students</uicontrol> button</title>
+        <image href="img/icons/all.png" placement="break">
+          <alt><uicontrol>Show all students</uicontrol> button</alt>
+        </image>
+      </fig>
+
+    </section>
+  </conbody>
+</concept>

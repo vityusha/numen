@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="tools_setup" xml:lang="en-US">
+  <title>Edit tools menu</title>
+  <conbody>  
+	   <p>Select <menucascade><uicontrol>Tools</uicontrol><uicontrol>Edit</uicontrol></menucascade> to edit contents of the <uicontrol>Tools</uicontrol> menu (<xref keyref="tools_setup/tools_menu_png" type="fig"/>&#160;).</p>
+        <fig id="tools_menu_png">
+            <title><wintitle>Tools editor</wintitle> window</title>
+            <image href="img/tools_menu.png" placement="break">
+			  <alt><wintitle>Tools editor</wintitle> window</alt>
+            </image>
+        </fig>
+	   <p>You can add, remove, and edit items appearing in the <uicontrol>Tools</uicontrol> menu using this window. You customize the menu by creating your own items to launch various external applications, for example <wintitle>Microsoft Word</wintitle>, right from <wintitle>Dialog Nibelung</wintitle>.</p>
+	   <p>A <wintitle>Tool properties</wintitle> window (<xref keyref="tools_setup/tools_menu_add_png" type="fig"/>&#160;) will appear on your screen upon pressing either <uicontrol>Add</uicontrol> or <uicontrol>Edit</uicontrol> buttons.</p>
+        <fig id="tools_menu_add_png">
+            <title><wintitle>Tool properties</wintitle> window</title>
+            <image href="img/tools_menu_add.png" placement="break">
+		  <alt><wintitle>Tool properties</wintitle> window</alt>
+            </image>
+        </fig>
+        <p>You can set the following properties for a tool:
+            <ul>
+			  <li><uicontrol>Title</uicontrol> - title under which the tool will appear in the <uicontrol>Tools</uicontrol> menu;</li>
+			  <li><uicontrol>File name</uicontrol> - name of the executable file for the application to be launched;</li>
+			  <li><uicontrol>Arguments</uicontrol> - optional command line arguments.</li>
+            </ul>
+        </p>
+  </conbody>
+</concept>

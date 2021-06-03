@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+
+<concept id="tasks_delete" xml:lang="en-US">
+  <title>Удаление шаблонов заданий</title>
+<conbody>
+
+<p>При нажатии на кнопку <uicontrol>Удалить</uicontrol>, находящуюся на вкладке <uicontrol>Задания</uicontrol> главного окна (см. <xref keyref="teacher_mainwin"/>&#160;), откроется диалог подтверждения удаления шаблона задания</p>
+
+          <fig id="delete_task_confirm_dialog_png">
+            <title>Диалог подтверждения удаления шаблона заданий</title>
+            <image href="img/delete-task-confirm-dialog.png" placement="break">
+                <alt>Диалог подтверждения удаления шаблона заданий</alt>
+            </image>
+        </fig>
+
+<p>Удаление шаблона задания приводит к удалению всех связанных публикаций, <uicontrol>включая ответы учащихся и выставленные оценки</uicontrol>.</p>
+
+<note type="attention">Удаленный шаблон задания и связанные с ним данные невозможно восстановить! Перед операцией удаления следует убедиться, что ни этот шаблон задания, ни его публикации, более не понадобятся!</note>
+
+  </conbody>
+</concept>

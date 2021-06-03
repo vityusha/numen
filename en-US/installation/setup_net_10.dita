@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="setup_net_10" xml:lang="en-US">
+    <title>Network interface setup for Windows 8 and 10</title>
+    <conbody>
+        <p>Right click on the <wintitle>Windows</wintitle> <uicontrol>Start</uicontrol> button or press <uicontrol><shortcut>Win + X</shortcut></uicontrol> on your keyboard and select <uicontrol>Device manager</uicontrol> from the menu.</p>
+        <p>In the <wintitle>Device manager</wintitle> window (<xref keyref="setup_net_10/dispetcher_10_png" type="fig"/>&#160;) select <uicontrol>Network adapters</uicontrol> and double click on the title of the appropriate network interface (e.g. <b>Realtek PCIe GBE Family Controller</b>).</p> 
+        <fig id="dispetcher_10_png">
+            <title><wintitle>Device Manager</wintitle> window in Windows 8/10</title>
+            <image href="img/dispetcher_10.png" placement="break">
+                <alt><wintitle>Device Manager</wintitle> window in Windows 8/10</alt>
+            </image>
+        </fig>        
+        <p>Select <uicontrol>Advanced</uicontrol> tab in the <wintitle>Properties</wintitle> window (<xref keyref="setup_net_10/network_10_png" type="fig"/>&#160;) and make sure the following properties are set.</p>
+        <fig id="network_10_png">
+            <title>Network interface properties window for Windows 8/10</title>
+            <image href="img/network_10.png" placement="break">
+                <alt>Network interface properties window for Windows 8/10</alt>
+            </image>
+        </fig> 
+        <table frame="all">
+            <tgroup cols="2">
+                <colspec colname="COLSPEC0" colwidth="200*"/>
+                <colspec colname="COLSPEC1" colwidth="120*"/>
+                <thead>
+                    <row>
+                        <entry colname="COLSPEC0">Realtek PCIe GBE Family Controller properties</entry>
+                        <entry colname="COLSPEC1">Recommended value</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>Wake on Magic Packet</entry>
+                        <entry>Enabled</entry>
+                    </row>
+                </tbody> 
+            </tgroup>
+        </table>
+        <p>This property enables student workstation to be woken up remotely from the teacher module.</p>
+        <note type="important">During the first run of teacher or student module you may have to allow their network access in either built in Windows firewall or a third party one. Usually the firewall software will ask you about <wintitle>Dialog Nibelung</wintitle> network access, which you should confirm.</note> 
+    </conbody>
+</concept>

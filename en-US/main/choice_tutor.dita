@@ -2,48 +2,48 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="choice_tutor" xml:lang="en-US">
-    <title>Teacher accounts</title>
-    <conbody>
-        <p>You will see the login window (<xref keyref="choice_tutor/registration_main_png" type="fig"/>&#160;) on your screen upon successful launch of the teacher module. One must enter a valid teacher name and password to access the teacher account.</p>
+	<title>Teacher accounts</title>
+	<conbody>
+		<p>Upon successful launch of the teacher module you will presented with the login window (<xref keyref="choice_tutor/registration_main_png" type="fig"/>&#160;) on your screen. One must enter a valid teacher name and password to access a teacher account.</p>
 		<fig id="registration_main_png">
-            <title><wintitle>Teacher login</wintitle> window</title>
-            <image href="img/registration_main.png" placement="break">
-			  <alt><wintitle>Teacher login</wintitle> window</alt>
-            </image>
-        </fig>
-	   <p><wintitle>Dialog Nibelung</wintitle> creates a teacher folder upon creation of the teacher account. This teacher folder can be used to store class files, session files, student records, teacher log book, etc. Each teacher has a separate folder with the name being the same as account's name. </p>
-	   <note type="tip">The Setup Wizard creates an account with <userinput>Admin</userinput> user name and <userinput>Admin</userinput> password (case sensitive) for administration of <wintitle>Dialog Nibelung</wintitle>.</note>
-	   <note type="danger">It is imperative to change <userinput>Admin</userinput> password upon the first login into the system. Failure to do so will put your classroom into an extremely vulnerable position for computer intrusion.</note>
-	   <p>You can change the teacher at any time during the session by selecting <menucascade><uicontrol>File</uicontrol><uicontrol>Change teacher</uicontrol></menucascade> from the menu. A <wintitle>Teacher login</wintitle> window (<xref keyref="choice_tutor/registration_main_png" type="fig"/>&#160;) will appear on your screen.</p>
-	   <p>Select <menucascade><uicontrol>File</uicontrol><uicontrol>Account management</uicontrol></menucascade> from the menu to add and remove teacher accounts or to change an account password. A <wintitle>Manage teacher accounts</wintitle> window (<xref keyref="choice_tutor/users_png" type="fig"/>&#160;) will appear on your screen. This window has a list of teacher accounts and <uicontrol>Add</uicontrol>, <uicontrol>Delete</uicontrol>, and <uicontrol>Change password</uicontrol> buttons.</p>
+			<title><wintitle>Teacher login</wintitle> window</title>
+			<image href="img/registration_main.png" placement="break">
+				<alt><wintitle>Teacher login</wintitle> window</alt>
+			</image>
+		</fig>
+		<p><wintitle>Dialog Nibelung</wintitle> will create a corresponding teacher folder upon creation of the teacher account. This teacher folder can be used to store class files, session files, student records, teacher log book, etc. Each teacher has a separate folder with the name being the same as account's name.</p>
+		<note type="tip">The <wintitle>Setup Wizard</wintitle> creates an account with <userinput>Admin</userinput> user name and <userinput>Admin</userinput> password (case sensitive) for administration of <wintitle>Dialog Nibelung</wintitle>.</note>
+		<note type="danger">It is imperative to change <userinput>Admin</userinput> password upon the first login into the system. Failure to do so will put your classroom into an extremely vulnerable position for computer intrusion.</note>
+		<p>You can change the teacher account at any time during the session by selecting <menucascade><uicontrol>File</uicontrol><uicontrol>Change teacher</uicontrol></menucascade> from the menu. A <wintitle>Teacher login</wintitle> window (<xref keyref="choice_tutor/registration_main_png" type="fig"/>&#160;) will appear on your screen.</p>
+		<p>Select <menucascade><uicontrol>File</uicontrol><uicontrol>Account management</uicontrol></menucascade> from the menu to add and remove teacher accounts or to change an account password. A <wintitle>Account management</wintitle> window (<xref keyref="choice_tutor/users_png" type="fig"/>&#160;) will appear on your screen. This window has a list of teacher accounts and <uicontrol>Add</uicontrol>, <uicontrol>Delete</uicontrol>, and <uicontrol>Change password</uicontrol> buttons.</p>
 		<note type="attention">Please note that you can only add or remove accounts when you are logged in as <userinput>Admin</userinput>.</note>
 		<fig id="users_png">
-			<title><wintitle>Manage teacher accounts</wintitle> window</title>
-            <image href="img/users.png" placement="break">
-			  <alt><wintitle>Manage teacher accounts</wintitle> window</alt>
-            </image>
-        </fig>
-	   <p>An <wintitle>Add teacher account</wintitle> window (<xref keyref="choice_tutor/users_add_png" type="fig"/>&#160;) will appear on your screen upon pressing the <uicontrol>Add</uicontrol> button. You should enter teacher's name, password, and confirm the password. The system will automatically put a link to teacher folder for this account on the desktop if the <uicontrol>Add teacher folder link to desktop</uicontrol> check box is selected.</p>
+			<title><wintitle>Account management</wintitle> window</title>
+			<image href="img/users.png" placement="break">
+				<alt><wintitle>Account management</wintitle> window</alt>
+			</image>
+		</fig>
+		<p>An <wintitle>Add teacher account</wintitle> window (<xref keyref="choice_tutor/users_add_png" type="fig"/>&#160;) will appear on your screen upon pressing the <uicontrol>Add</uicontrol> button. You should enter teacher's name, password, and confirm the password. The system will automatically put an icon for this account's teacher folder on the desktop if the <uicontrol>Add teacher folder link to desktop</uicontrol> check box is selected.</p>
 		<fig id="users_add_png">
-            <title><wintitle>Add teacher account</wintitle> window</title>
-            <image href="img/users_add.png" placement="break">
-			  <alt><wintitle>Add teacher account</wintitle> window</alt>
-            </image>
-        </fig>
+			<title><wintitle>Add teacher account</wintitle> window</title>
+			<image href="img/users_add.png" placement="break">
+				<alt><wintitle>Add teacher account</wintitle> window</alt>
+			</image>
+		</fig>
 		<p>Select a teacher's name from the list and press the <uicontrol>Delete</uicontrol> button to remove an account from the system.</p>
 		<p>Confirm your actions in the <wintitle>Remove teacher account</wintitle> window (<xref keyref="choice_tutor/users_delete_png" type="fig"/>&#160;) that will appear next.</p>
 		<fig id="users_delete_png">
-            <title><wintitle>Remove teacher account</wintitle> window</title>
-            <image href="img/users_delete.png" placement="break">
-			  <alt><wintitle>Remove teacher account</wintitle> window</alt>
-            </image>
-        </fig>
-	   <p>Select a teacher's name from the list and press the <uicontrol>Change password</uicontrol> button to change account password. A <wintitle>Password change</wintitle> window (<xref keyref="choice_tutor/users_change_png" type="fig"/>&#160;) will appear on your screen. Enter the old password, new password, and confirm the new password. Press the <uicontrol>Change</uicontrol> button to apply the new password.</p>
+			<title><wintitle>Remove teacher account</wintitle> window</title>
+			<image href="img/users_delete.png" placement="break">
+				<alt><wintitle>Remove teacher account</wintitle> window</alt>
+			</image>
+		</fig>
+		<p>Select a teacher's name from the list and press the <uicontrol>Change password</uicontrol> button to change account password. A <wintitle>Password change</wintitle> window (<xref keyref="choice_tutor/users_change_png" type="fig"/>&#160;) will appear on your screen. Enter the old password, new password, and confirm the new password. Press the <uicontrol>Change</uicontrol> button to apply the new password.</p>
 		<fig id="users_change_png">
-            <title><wintitle>Change password</wintitle></title>
-            <image href="img/users_change.png" placement="break">
-			  <alt><wintitle>Change password</wintitle></alt>
-            </image>
-        </fig>
-	    </conbody>
+			<title><wintitle>Change password</wintitle></title>
+			<image href="img/users_change.png" placement="break">
+				<alt><wintitle>Change password</wintitle></alt>
+			</image>
+		</fig>
+	</conbody>
 </concept>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+<concept id="usb_keychain" xml:lang="en-US">
+  <title>Teacher key</title>
+  <conbody>  
+    <p><indexterm>teacher key</indexterm><wintitle>Teacher key</wintitle> is a specially initialized USB flash drive holding teacher account login credentials as well as files that would otherwise be residing in the teacher folder. Using a <wintitle>Teacher key</wintitle> provides certain advantages:</p>
+    <ul>
+      <li>autostart <wintitle>Dialog Nibelung</wintitle> teacher module when the key is plugged in as well as its automatic termination when the key is removed;</li>
+      <li>autologin to <wintitle>Dialog Nibelung</wintitle> without password;</li>
+      <li>portability between different computers: teacher key stores all your personal data that otherwise would be stored on the hard drive.</li>
+    </ul>
+    
+    <p>To initialize a new <wintitle>Teacher key</wintitle>:</p>
+    <ol>
+      <li>Plug a USB flash drive with enough free space into the teacher workstation.</li>
+      <li>Launch <wintitle>Dialog Nibelung</wintitle> and log into your account (see <xref keyref="choice_tutor"/>&#160;).</li>
+      <li>Open the <wintitle>Teacher settings</wintitle> window (see <xref keyref="tutor_settings"/>&#160;). There is a teacher key panel at the bottom of that window (<xref keyref="tools_setup/tools_menu_png" type="fig"/>&#160;).</li>
+      <li>Select your USB flash drive and press <uicontrol>Initialize</uicontrol>.</li>
+      <li>You will be prompted for your account password.</li>
+      <li>Files in the teacher folder will start to be moved to the teacher key if there is enough free space on the USB flash drive.</li>
+      <li>The <uicontrol>Initialize</uicontrol> button will become <uicontrol>Deinitialize</uicontrol> once the files are moved to the USB flash drive. The teacher key is now ready to use.</li>
+    </ol>
+    <note type="attention">Once a teacher key is initialized, all files from the teacher folder are now residing only on the teacher key. Teacher key also becomes the only means of logging into <wintitle>Dialog Nibelung</wintitle> as corresponding teacher account will no longer be offered for password authentication.</note>
+    <note type="attention">You are solely responsible for backing up files your key on a regular basis (e.g. using the backup feature provided by <wintitle>Dialog Nibelung</wintitle> as described in <xref keyref="tools_backup"/>&#160;). Without regular backups, loss of your key means not only unrecoverable loss of your files, but also you will be locked out of your <wintitle>Dialog Nibelung</wintitle> account.</note>
+    <fig id="usb_keychain_png">
+      <title>Initializing teacher key</title>
+      <image href="img/usb_keychain.png" placement="break">
+        <alt>Initializing teacher key</alt>
+      </image>
+    </fig>
+    <p>Open the <wintitle>Teacher settings</wintitle> window (see <xref keyref="tutor_settings"/>&#160;) and press <uicontrol>Deinitialize</uicontrol> button to deinitialize a teacher key. You will be prompted for the account password, files will be transferred from the USB flash drive to the teacher folder, and the key will be deinitialized.</p>
+  </conbody>
+</concept>

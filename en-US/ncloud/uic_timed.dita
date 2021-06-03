@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+
+  <concept id="uic_timed" xml:lang="en-US">
+  <title>Индикация длительных операций</title>
+  <conbody>
+  
+<p><uicontrol>Индикация длительных операций</uicontrol> включается в различных ситуациях, требующих ожидания, таких как обновление информации о задании или сохранение большого файла.</p>
+
+        <fig id="wait_progress_png">
+            <title>Окно с индикацией длительной операции</title>
+            <image href="img/wait-progress.png" placement="break">
+                <alt>Окно с индикацией длительной операции</alt>
+            </image>
+        </fig>
+
+</conbody>
+</concept>

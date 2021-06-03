@@ -2,18 +2,18 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="lock_pc" xml:lang="en-US">
-    <title>Заблокировать компьютер</title>
-    <conbody>  
-		<p>В этом режиме преподаватель может заблокировать компьютер выбранного учащегося, группы или всего класса. На мониторах учащихся появится черный экран с сообщением, которое можно ввести в окне (<xref keyref="lock_pc/message_block_png" type="fig"/>&#160;), открывшемся на экране компьютера преподавателя. Клавиатура и мышь учащихся будут также заблокированы.</p>
+    <title>Lock computer</title>
+    <conbody>
+		<p>This mode allows the teacher to black out and lock the screen, as well as block keyboard and mouse input for computers of an individual student, group, or the whole class. Upon initiation of this mode you will be given a chance to specify a message displayed on the locked screens (<xref keyref="lock_pc/message_block_png" type="fig"/>&#160;).</p>
 		<fig id="message_block_png">
-            <title>Окно ввода сообщения блокировки компьютера</title>
+            <title>Specifying a message to be displayed on locked out screens</title>
             <image href="img/message_block.png" placement="break">
-                <alt>Окно ввода сообщения блокировки компьютера</alt>
+			  <alt>Specifying a message to be displayed on locked out screens</alt>
             </image>
         </fig>
-		<p>Для блокировки компьютера одного учащегося преподаватель должен в меню учащегося (п. <xref keyref="menu_single"/>&#160;) выбрать пункт <uicontrol>Заблокировать компьютер</uicontrol>.</p>
-		<p>Для блокировки компьютеров у группы учащихся преподаватель должен в меню нужной группы (п. <xref keyref="menu_group"/>&#160;) нажать на кнопку <uicontrol>Управление PC</uicontrol>, а потом выбрать пункт <uicontrol>Заблокировать компьютер</uicontrol>.</p>
-		<p>Для блокировки компьютеров у всего класса преподаватель должен в меню всего класса (п. <xref keyref="menu_class"/>&#160;) нажать на кнопку <uicontrol>Управление PC</uicontrol>, а потом выбрать пункт <uicontrol>Заблокировать компьютер</uicontrol>.</p> 
-		<p>Чтобы разблокировать компьютер, нужно повторить приведенные выше действия.</p>
+	   <p>Select <uicontrol>Lock computer</uicontrol> from the student menu (see <xref keyref="menu_single"/>&#160;) to lock a single computer.</p>
+	   <p>Press <uicontrol>Remote control</uicontrol> button in the group tab menu (see <xref keyref="menu_group"/>&#160;) and select <uicontrol>Lock computer</uicontrol> to lock computers of a group of students.</p>
+	   <p>Press <uicontrol>Remote control</uicontrol> in the class tab menu (see <xref keyref="menu_class"/>&#160;) and select <uicontrol>Lock computer</uicontrol> to lock all computers in the class.</p>
+	   <p>Repeat the actions described above to release the lock.</p>
 	</conbody>
 </concept>

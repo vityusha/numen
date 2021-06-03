@@ -2,34 +2,32 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="firmware_update" xml:lang="en-US">
-    <title>Обновление программы</title>
+    <title>Software updates</title>
     <conbody>
-        <p>Для того чтобы проверить не появилась ли на сайте разработчиков новая версия программного обеспечения <wintitle>Диалог Nibelung</wintitle>, необходимо выбрать меню <menucascade><uicontrol>Справка</uicontrol><uicontrol>Проверить обновления</uicontrol></menucascade>.</p>
-		<note type="attention">Не забывайте, что у компьютера преподавателя должен быть открыт доступ в Интернет!</note>
-        <p>Если для скачивания доступна новая версия, то на экране монитора преподавателя появится соответствующее окно с информацией о номере версии и изменениях, которые были внесены в программное обеспечение (<xref keyref="firmware_update/update_exist_png" type="fig"/>&#160;).</p>
+	    <p>Select <menucascade><uicontrol>Help</uicontrol><uicontrol>Check for updates</uicontrol></menucascade> from the teacher module main menu to check for available <wintitle>Dialog Nibelung</wintitle> software updates.</p>
+		<note type="attention">The teacher workstation must have Internet access in order to be able to check for available software updates.</note>
+        <p>When a new version of the software is available for download, a window will appear on your screen informing you on the version of the update and showing a list of new features an bug fixes in it (<xref keyref="firmware_update/update_exist_png" type="fig"/>&#160;).</p>
         <fig id="update_exist_png">
-            <title>Информация о доступности новой версии</title>
+		   <title><wintitle>Software update available</wintitle> window</title>
             <image href="img/update-exist.png" placement="break">
-                <alt>Информация о доступности новой версии</alt>
+			  <alt><wintitle>Software update available</wintitle> window</alt>
             </image>
         </fig>
-        <p>Для того чтобы запустить процесс загрузки новой версии, преподаватель должен нажать на кнопку <uicontrol>Загрузить</uicontrol>.</p>
-        <p>В появившемся окне (<xref keyref="firmware_update/update_download_png" type="fig"/>&#160;) будет отображаться процесс загрузки обновлений с сайта разработчиков.</p>
+        <p>Press <uicontrol>Download</uicontrol> button to download new version of the software. A window will appear with a download progress bar (<xref keyref="firmware_update/update_download_png" type="fig"/>&#160;).</p>
         <fig id="update_download_png">
-            <title>Информация о загрузке обновлений</title>
+            <title>Software update download in progress</title>
             <image href="img/update-download.png" placement="break">
-                <alt>Информация о загрузке обновлений</alt>
+			  <alt>Software update download in progress</alt>
             </image>
         </fig>
-        <p>Для того чтобы установить новую версию основного модуля программы, после завершения процесса загрузки необходимо нажать на кнопку <uicontrol>Установить</uicontrol>.</p>
-        <p>После обновления основного модуля преподаватель может обновить модули клиентов. Для этого он должен выбрать пункт меню <menucascade><uicontrol>Справка</uicontrol><uicontrol>Обновить модули клиентов</uicontrol></menucascade>.</p>
-        <p>В появившемся окне (<xref keyref="firmware_update/update_clients_png" type="fig"/>&#160;) преподаватель должен подтвердить свое желание обновить модули клиентов.</p>
+	   <p><uicontrol>Install</uicontrol> button in this window becomes enabled after update has been downloaded. Press this button to update the teacher module. After teacher module has been successfully updated, you can update student modules by selecting <menucascade><uicontrol>Help</uicontrol><uicontrol>Update student modules</uicontrol></menucascade> from the menu.</p>
+        <p>Because student workstation may have to be rebooted during the update process, you will need to confirm your intention to proceed with the update of student modules (<xref keyref="firmware_update/update_clients_png" type="fig"/>&#160;).</p>
         <fig id="update_clients_png">
-            <title>Окно обновления модулей клиентов</title>
+            <title>Student modules update confirmation</title>
             <image href="img/update-clients.png" placement="break">
-                <alt>Окно обновления модулей клиентов</alt>
+			  <alt>Student modules update confirmation</alt>
             </image>
         </fig>
-        <note type="attention">Не забывайте, что для обновления модулей клиентов из основного окна программы необходимо, чтобы все модули клиентов были подключены к программе (<xref keyref="description_main/icon_connect_png" type="fig"/>&#160;)!</note>
+        <note type="attention">Please note that all student modules must be active and in communication with the teacher module to perform their update (<xref keyref="description_main/icon_connect_png" type="fig"/>&#160;).</note>
 	</conbody>
 </concept>

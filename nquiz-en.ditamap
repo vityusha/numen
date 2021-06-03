@@ -7,13 +7,13 @@
 		<shortdesc>This document contains Dialog NQuiz user's manual.</shortdesc>
 		<author type="creator">Titov S., Vinokurov V.</author>
 		<source/>
-		<publisher>"Lain" LLC</publisher>
+		<publisher>LLC "Lain"</publisher>
 		<copyright>
-			<copyryear year="2014"/>
-			<copyrholder>"Lain" LLC.</copyrholder>
+			<copyryear year="2015"/>
+			<copyrholder>LLC "Lain".</copyrholder>
 		</copyright>
 		<critdates>
-			<created date="21.11.2014"/>
+			<created date="23.06.2015"/>
 		</critdates>
 		<prodinfo>
 			<prodname>Dialog NQuiz - User's manual</prodname>
@@ -33,8 +33,8 @@
 			<topicref keys="test_blanks" href="en-US/nquiz/blanks.dita" />
 			<topicref keys="test_compliance" href="en-US/nquiz/compliance.dita" />
 			<topicref keys="test_sort" href="en-US/nquiz/sort.dita" />
-            <topicref keys="test_hotspot" href="en-US/nquiz/hot_spot.dita" />
-            <topicref keys="test_dragdrop" href="en-US/nquiz/drag_drop.dita" />
+			<topicref keys="test_hotspot" href="en-US/nquiz/hot_spot.dita" />
+			<topicref keys="test_dragdrop" href="en-US/nquiz/drag_drop.dita" />
 			<topicref keys="test_free" href="en-US/nquiz/free.dita" />
 		</topicref>
 		<topicref keys="test_client" href="en-US/nquiz/client.dita" />

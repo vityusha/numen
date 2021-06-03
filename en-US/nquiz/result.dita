@@ -2,17 +2,17 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="test_result" xml:lang="en-US">
-    <title>Просмотр результатов тестов </title>
+    <title>Viewing test results</title>
     <conbody>
-        <p product="nibelung">По завершению тестирования преподаватель должен собрать результаты учащихся (п. <xref keyref="testing"/>&#160;). После окончания сбора результатов, нажав на кнопку <uicontrol>Просмотр результатов</uicontrol>, преподаватель может в появившемся окне (<xref keyref="test_result/main_admin_png" type="fig"/>&#160;) просмотреть результаты текущего тестирования.</p>
-        <p product="nquiz">С помощью этой программы преподаватель может в появившемся окне (<xref keyref="test_result/main_admin_png" type="fig"/>&#160;) просмотреть результаты текущего тестирования.</p>
+	    <p product="nibelung"><indexterm>quiz administrator></indexterm><indexterm>viewing test results (teacher)</indexterm>Upon completion of the quiz, the teacher normally would initiate collection of test results in <wintitle>Dialog Nibelung</wintitle> teacher module (see <xref keyref="testing"/>&#160;). After the test results have been collected, the teacher can use <uicontrol>View results</uicontrol> button to open the <wintitle>Quiz Administrator</wintitle> window with results of the quiz (<xref keyref="test_result/main_admin_png" type="fig"/>&#160;).</p>
+	    <p product="nquiz">One can view results of the quiz using the <wintitle>Quiz Administrator</wintitle> module (<xref keyref="test_result/main_admin_png" type="fig"/>&#160;).</p>
         <fig id="main_admin_png">
-            <title>Окно результатов теста</title>
+		   <title><wintitle>Quiz Administrator</wintitle> window with test results</title>
             <image href="img/main_admin.png" placement="break">
-                <alt>Окно результатов теста</alt>
+			  <alt><wintitle>Quiz Administrator</wintitle> window with test results</alt>
             </image>
         </fig>
-        <p>В верхней части окна расположены кнопки:</p>
+	   <p>Elements of the <wintitle>Quiz Administrator</wintitle> window:</p>
 		<table frame="topbot">
             <tgroup cols="2">
                 <colspec colname="COLSPEC0" colwidth="10*"/>
@@ -20,24 +20,41 @@
                 <tbody>
                     <row>
                         <entry>1</entry>
-                        <entry><uicontrol>Открыть</uicontrol>, позволяющая открыть файл с ранее сохраненными результатами тестирования;</entry>
+                        <entry><uicontrol>Open</uicontrol> button to open a quiz file with test results;</entry>
                     </row>
 					<row>
                         <entry>2</entry>
-                        <entry><uicontrol>Сохранить всё</uicontrol>, позволяющая записать на диск все файлы с результатами тестирования, открытые в окне;</entry>
+                        <entry><uicontrol>Save all</uicontrol> button to save all opened quizzes;</entry>
                     </row>
-					<row>
+				<row>
                         <entry>3</entry>
-                        <entry><uicontrol>Выход</uicontrol>, позволяющая выйти из программы просмотра.</entry>
+				    <entry><uicontrol>Exit</uicontrol> button to exit from  <wintitle>Quiz Administrator</wintitle> and close the window.</entry>
                     </row>
-                </tbody> 
+				<row>
+					<entry>4</entry>
+					<entry>Quiz tabs for switching between multiple opened quizzes</entry>
+				</row>
+				<row>
+					<entry>5</entry>
+					<entry><uicontrol>Information</uicontrol> button that will open a window with additional information for the quiz: author, creation date, and last modification date</entry>
+				</row>
+				<row>
+					<entry>6</entry>
+					<entry><uicontrol>Save</uicontrol> button to save modified quiz results</entry>
+				</row>
+				<row>
+					<entry>7</entry>
+					<entry><uicontrol>Export to HTML</uicontrol> button to export quiz results to an HTML file</entry>
+				</row>
+				<row>
+					<entry>8</entry>
+					<entry>Class list with quiz results</entry>
+				</row>
+                </tbody>
             </tgroup>
         </table>
-		<p>Ниже этих кнопок располагаются закладки с именами открытых файлов с результатами тестирования (4), позволяющие легко переключаться к просмотру нужных файлов.</p>
-        <p>Выбрав нужную закладку (4), преподаватель может просмотреть название теста, предмет обучения, описание, параметры теста (максимальное количество очков и максимальную оценку), время прохождения тестирования, список с общими результатами (8), а также отредактировать данные учащихся (очки и оценки) и добавить комментарии. Для этого он должен дважды щелкнуть мышкой на нужном месте записи и внести необходимые изменения.</p>
-        <p>Чтобы сохранить изменения, преподаватель должен нажать на кнопку <uicontrol>Сохранить результаты теста</uicontrol> (6).</p>
-        <p>Если преподаватель нажмет на кнопку <uicontrol>Экспорт результатов в HTML файл</uicontrol> (7), то программа предложит сохранить результаты тестирования в виде <b>HTML</b> страницы, которую можно просмотреть и/или распечатать в стандартном Интернет браузере.</p>
-        <p>Для того чтобы подробно посмотреть ответы конкретного учащегося, преподаватель должен нажать на кнопку <uicontrol>Смотреть</uicontrol> в соответствующей строке. В этом случае будет запущен модуль тестирования (п. <xref keyref="test_client"/>&#160;), в котором будут показаны ответы этого учащегося.</p>
-        <p>Если нажать на кнопку <uicontrol>Информация</uicontrol> (5), то в отдельном окне можно увидеть автора тестового задания, время его создания и модифицирования.</p>
+        <p>Select a quiz tab (4) to view quiz title, course, quiz description, maximum score and grade, date the quiz was conducted, and a class list for the quiz with individual scores, grades and notes. You can edit scores, grades and notes by double clicking on the appropriate field. Press <uicontrol>Save</uicontrol> button (6) to save modified quiz results and/or notes.</p>
+	    <p>You can use the <uicontrol>Export to HTML</uicontrol> button (7) to export quiz results into an <b>HTML</b> page that can be viewed in any browser, posted online, or printed out.</p>
+	    <p>Press the <uicontrol>View</uicontrol> button in the <uicontrol>Details</uicontrol> column to see detailed results for individual students. This will launch the <wintitle>Quiz Player</wintitle> (see <xref keyref="test_client"/>&#160;) with this student's quiz results.</p>
     </conbody>
 </concept>

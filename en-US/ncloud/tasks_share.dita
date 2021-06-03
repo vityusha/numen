@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+
+<concept id="tasks_share" xml:lang="en-US">
+  <title>Общие задания</title>
+  <conbody>
+
+<p>Если при создании шаблона задания (см. <xref keyref="tasks_creation"/>&#160;) устанавливалась опция <uicontrol>Общее для всех преподавателей</uicontrol>, то после создания он станет доступен всем преподавателям учебного заведения, использующим модуль <wintitle>Задания через Интернет</wintitle>.</p>
+
+<p>Для импорта общих задач служит кнопка <uicontrol>Импортировать общие задачи</uicontrol> вкладки <uicontrol>Задания</uicontrol>, открывающая соответствующее диалоговое окно.</p>
+  
+          <fig id="shared_tasks_import_window_png">
+            <title>Окно импорта общих задач</title>
+            <image href="img/shared-tasks-import-window.png" placement="break">
+                <alt>Окно импорта общих задач</alt>
+            </image>
+        </fig>
+		
+        <p>На этом рисунке цифрами обозначены:</p>
+
+<table frame="topbot">
+<tgroup cols="2">
+   <colspec colname="COLSPEC0" colwidth="12"/>
+   <colspec colname="COLSPEC1" colwidth="200*"/>
+   
+<tbody>
+
+<row>
+<entry>1</entry>
+<entry>Задача, не выбранная для импорта</entry>
+</row>
+
+<row>
+<entry>2</entry>
+<entry>Задача, выбранная для импорта</entry>
+</row>
+
+<row>
+<entry>3</entry>
+<entry>Кнопка-переключатель статуса импорта выделенной общей задачи</entry>
+</row>
+
+<row>
+<entry>4</entry>
+<entry>Кпопка начала импорта выбранных задач</entry>
+</row>
+
+<row>
+<entry>5</entry>
+<entry>Кнопка закрытия и отмены импорта</entry>
+</row>
+
+</tbody>
+</tgroup>
+</table>
+
+<p>После выбора желаемых задач и нажатия кнопки <uicontrol>OK</uicontrol> они появятся в списке шаблонов заданий.</p>
+
+  </conbody>
+</concept>

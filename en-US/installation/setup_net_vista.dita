@@ -2,23 +2,23 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="setup_net_vista" xml:lang="en-US">
-    <title>Network interface setup</title>
+    <title>Network interface setup on Windows Vista and windows 7</title>
     <conbody>
-        <p>The <wintitle>System</wintitle> properties window (<xref keyref="setup_net_vista/system_vista_png" type="fig"/>&#160;) will appear on your screen. Press the <uicontrol>Device Manager</uicontrol> button located in the left column.</p>
+        <p>The <wintitle>System</wintitle> properties window (<xref keyref="setup_net_vista/system_vista_png" type="fig"/>&#160;) will appear on your screen. Click on the <uicontrol>Device Manager</uicontrol> link located in the left column of the window.</p>
         <fig id="system_vista_png">
             <title><wintitle>System</wintitle> properties window</title>
             <image href="img/system_vista.png" placement="break">
 			<alt><wintitle>System</wintitle> properties window</alt>
             </image>
         </fig>
-        <p><wintitle>Device Manager</wintitle> window (<xref keyref="setup_net_vista/dispetcher_vista_png" type="fig"/>&#160;) should appear on your screen. Expand the <uicontrol>network adapters</uicontrol> sub-menu and double click on the network adapter name (for example <uicontrol>Intel(R) PRO/1000 MT Desktop Adapter</uicontrol>).</p>
+        <p><wintitle>Device Manager</wintitle> window (<xref keyref="setup_net_vista/dispetcher_vista_png" type="fig"/>&#160;) should appear on your screen. Expand the <uicontrol>network adapters</uicontrol> sub-menu and double click your network adapter name (for example <uicontrol>Intel(R) PRO/1000 MT Desktop Adapter</uicontrol>).</p>
         <fig id="dispetcher_vista_png">
-            <title>Device Manager window</title>
+		   <title><wintitle>Device Manager</wintitle> window</title>
             <image href="img/dispetcher_vista.png" placement="break">
-			  <alt>Device Manager window</alt>
+			  <alt><wintitle>Device Manager</wintitle> window</alt>
             </image>
         </fig>
-	   <p>Select the <uicontrol>Advanced _fixme_</uicontrol> tab in the <wintitle>Network Adapter Properties _fixme_</wintitle> window (<xref keyref="setup_net_vista/network_vista_png" type="fig"/>&#160;) and set the following properties:</p>
+	   <p>Select the <uicontrol>Power management</uicontrol> tab in the <wintitle>Network Adapter Properties</wintitle> window (<xref keyref="setup_net_vista/network_vista_png" type="fig"/>&#160;) and set the following properties:</p>
         <table frame="all">
             <tgroup cols="2">
                 <colspec colname="COLSPEC0" colwidth="200*"/>
@@ -31,16 +31,20 @@
                 </thead>
                 <tbody>
                     <row>
-                        <entry>Wake on Magic Packet</entry>
+                        <entry>Allow this device to wake computer</entry>
+                        <entry>Enabled</entry>
+                    </row>
+                    <row>
+                        <entry>Only allow a magic packet to wake the computer</entry>
                         <entry>Enabled</entry>
                     </row>
                 </tbody>
             </tgroup>
         </table>
 	   <fig id="network_vista_png">
-		   <title>Network Adapter Properties _fixme_ window</title>
+		   <title>Network Adapter Properties window</title>
 		   <image href="img/network_vista.png" placement="break">
-			   <alt>Network Adapter Properties _fixme_ window</alt>
+			   <alt>Network Adapter Properties window</alt>
 		   </image>
 	   </fig>
 	   <p>This property is necessary to turn on the student computer remotely from the teacher workstation.</p>

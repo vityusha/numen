@@ -2,16 +2,16 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="playlist_player" xml:lang="en-US">
-    <title>Список  воспроизведения медиа файлов</title>
+    <title>Playlist</title>
     <conbody>
-        <p>Основной модуль может передать список файлов задания в закладку <wintitle>Файлы задания</wintitle>. Учащийся может работать со своим списком воспроизведения, размещенном в закладке <wintitle>Мои файлы</wintitle>.</p>
+	    <p>The playlist panel  contains three tabs: <uicontrol>My files</uicontrol>, <uicontrol>Session files</uicontrol> and <uicontrol>Subtitles</uicontrol>.</p>
 		<fig id="list_media_client_png">
-            <title>Список воспроизведения</title>
+			<title><uicontrol>Playlist</uicontrol> panel</title>
             <image href="img/list_media_client.png" placement="break">
-                <alt>Список воспроизведения</alt>
+			  <alt><uicontrol>Playlist</uicontrol> panel</alt>
             </image>
         </fig>
-		<p>На этом рисунке цифрами обозначены:</p>
+		<p>Elements of the playlist panel:</p>
 		<table frame="topbot">
             <tgroup cols="2">
                 <colspec colname="COLSPEC0" colwidth="10*"/>
@@ -19,20 +19,21 @@
                 <tbody>
                     <row>
                         <entry>1</entry>
-                        <entry>Закладка собственного списка файлов</entry>
+				    <entry><uicontrol>My files</uicontrol> tab</entry>
                     </row>
 					<row>
                         <entry>2</entry>
-                        <entry>Закладка файлов задания</entry>
+				    <entry><uicontrol>Session files</uicontrol> tab</entry>
                     </row>
 					<row>
                         <entry>3</entry>
-                        <entry>Закладка редактирования субтитров</entry>
+				    <entry><uicontrol>Subtitles</uicontrol> edit tab</entry>
                     </row>
-                </tbody> 
+                </tbody>
             </tgroup>
         </table>
-		<p>При выборе закладки <wintitle>Мои файлы</wintitle> в окне появляются дополнительные кнопки:</p>
+	   <p><wintitle>Session files</wintitle> tab contains a list of files received from the teacher module as a part of classroom activity or assignment.</p>
+	   <p>Each student can also have their own playlist, which is located in the <wintitle>My files</wintitle> tab. Whenever this tab is active, several additional controls appear in the panel:</p>
 		<table frame="topbot">
             <tgroup cols="2">
                 <colspec colname="COLSPEC0" colwidth="10*"/>
@@ -40,33 +41,31 @@
                 <tbody>
                     <row>
                         <entry>4</entry>
-                        <entry>открыть ранее сохраненный список файлов;</entry>
+                        <entry>open playlist;</entry>
                     </row>
 					<row>
                         <entry>5</entry>
-                        <entry>добавить файл в текущий список;</entry>
+                        <entry>add file to playlist;</entry>
                     </row>
 					<row>
                         <entry>6</entry>
-                        <entry>удалить файл из текущего списка;</entry>
+                        <entry>remove file from playlist;</entry>
                     </row>
 					<row>
                         <entry>7</entry>
-                        <entry>сохранить список на диске компьютера учащегося.</entry>
+                        <entry>save playlist on the student workstation.</entry>
                     </row>
-                </tbody> 
+                </tbody>
             </tgroup>
         </table>
-		<p>При добавлении файла в список или при открытии файла списка в соответствующем окне появляются названия файлов, которые можно будет прослушать или просмотреть.</p>
-		<p>Для того чтобы начать работу с проигрывателем нужно загрузить в него медиа файлы.</p>
-        <p>Это может быть сделано следующими способами:
+		<p>Files can be loaded into the media player in one of the following ways:
             <ul>
-                <li>при помощи кнопки <uicontrol>Открыть медиа файл</uicontrol>, находящейся на панели кнопок управления;</li>
-                <li>дважды щелкнув левой кнопкой мыши на имени файла в списке воспроизведения в закладке <wintitle>Мои файлы</wintitle>;</li>
-				<li>дважды щелкнув левой кнопкой мыши на имени файла в списке воспроизведения в закладке <wintitle>Файлы задания</wintitle>;</li>
-                <li>удаленно с компьютера преподавателя.</li>
+                <li>using the <uicontrol>Open media file</uicontrol> button in the media player control panel (see <xref keyref="controls_player"/>&#160;);</li>
+                <li>double click on a file in the <wintitle>My files</wintitle> playlist tab;</li>
+				<li>double click on a file in the <wintitle>Session files</wintitle> playlist tab;</li>
+                <li>remotely from the teacher workstation (see <xref keyref="media_source"/>&#160;).</li>
             </ul>
         </p>
-        <note type="tip">Обратите внимание, что загрузка файлов из списка <wintitle>Файлы задания</wintitle> представляет собой режим <uicontrol>Медиа по запросу</uicontrol>.</note>
+	   <note type="tip">Files listed in the <wintitle>Session files</wintitle> tab are downloaded from the teacher workstation on demand, i.e. only when they are actually accessed.</note>
    	</conbody>
 </concept>

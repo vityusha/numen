@@ -2,24 +2,23 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="cd_source" xml:lang="en-US">
-    <title>CD-проигрыватель</title>
-    <conbody>  
-		<p>При выборе этого пункта меню преподаватель может в качестве источника звука выбрать CD-DVD дисковод, встроенный в компьютер преподавателя.</p>
-		<note type="tip">Программа позволяет одновременную работу различных групп с одним аудио диском, причем разные группы могут прослушивать разные треки с этого диска.</note>
-		<p>Меню <uicontrol>Аудио CD</uicontrol> в качестве источника аудио (<xref keyref="cd_source/menu_group_4_4_png" type="fig"/>&#160;) имеет список для выбора CD-привода, кнопки перемещения на предыдущий и последующий треки аудио диска, открытия лотка CD-DVD дисковода, кнопки <uicontrol>Старт</uicontrol>, <uicontrol>Пауза</uicontrol>, <uicontrol>Повтор</uicontrol>, кнопки управления закладками и три дополнительные опции <uicontrol>Записать для учащихся</uicontrol>, <uicontrol>Оцифровать материал</uicontrol> и <uicontrol>Прослушивание</uicontrol>.</p>
+    <title>Audio CD</title>
+    <conbody>
+	    <p>Select this <uicontrol>Media sources</uicontrol> menu item to use an audio CD in the teacher workstation CD-ROM drive as a source of broadcast, thus allowing the students to hear the CD during any activity.</p>
+	    <note type="tip"><wintitle>Dialog Nibelung</wintitle> allows several different groups to use the same CD simultaneously. Moreover, different groups can listen to different tracks on the same CD.</note>
+	    <p>The <uicontrol>Audio CD</uicontrol> media source control tab (<xref keyref="cd_source/menu_group_4_4_png" type="fig"/>&#160;) contains a CD drive selection list; <uicontrol>previous</uicontrol> and <uicontrol>next</uicontrol> track buttons with track counter between them; drive eject button; <uicontrol>Start</uicontrol>, <uicontrol>Pause</uicontrol>, and <uicontrol>Repeat</uicontrol> buttons; bookmark control buttons; and three additional options: <uicontrol>Record for students</uicontrol>, <uicontrol>Digitize</uicontrol>, and  <uicontrol>Listen</uicontrol> (described in section <xref keyref="media_source"/>&#160;).</p>
 		<fig id="menu_group_4_4_png">
-            <title>Меню <menucascade><uicontrol>Медиа источники</uicontrol><uicontrol>Аудио CD</uicontrol></menucascade></title>
+			<title><menucascade><uicontrol>Media sources</uicontrol><uicontrol>Audio CD</uicontrol></menucascade> control tab</title>
             <image href="img/menu_group_4_4.png" placement="break">
-                <alt>Меню <menucascade><uicontrol>Медиа источники</uicontrol><uicontrol>Аудио CD</uicontrol></menucascade></alt>
+			  <alt><menucascade><uicontrol>Media sources</uicontrol><uicontrol>Audio CD</uicontrol></menucascade> control tab</alt>
             </image>
         </fig>
-		<p>Таким образом при любом задании участники группы могут прослушивать прослушивать аудио диск с компьютера преподавателя.</p>
-		<p>Под кнопками расположен индикатор, отображающий процесс проигрывания диска.</p>
-		<p>Под индикатором расположен счетчик времени, отображающий текущее положение в аудиотреке и продолжительность всего аудиотрека.</p>
-		<note type="tip">Щелкая мышкой на индикаторе воспроизведения, можно изменять текущее положение в аудиотреке. Двойной щелчок мышкой на индикаторе воспроизведения устанавливает текущую позицию в аудиотреке на начало.</note>
-		<p>Кнопка <uicontrol>Повтор</uicontrol> позволяет зациклить прослушивание выбранного фрагмента аудио трека.</p>
+
+        <p>Current track playback progress bar together with the track clock displaying current position and track duration are immediately below the <uicontrol>Start</uicontrol>/<uicontrol>Stop</uicontrol> button.</p>
+		<note type="tip">Click on the progress bar to instantly change the playback position. Double click on the bar to set playback position to the beginning of the track.</note>
+		<p><uicontrol>Repeat</uicontrol> button allows you to repeat selected fragment in a loop.</p>
         <p conkeyref="file_source/ph_1"/>
         <p conkeyref="file_source/ph_2"/>
-		<note type="tip">Преподаватель может оцифровать аудио диск на жесткий диск компьютера или прослушать его.</note>
+	   <note type="tip">The teacher can listen to the CD along with the students or save a digital copy (using <uicontrol>Digitize</uicontrol> option) for future use.</note>
 	</conbody>
 </concept>

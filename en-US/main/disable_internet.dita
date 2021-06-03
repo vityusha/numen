@@ -2,56 +2,58 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="disable_internet" xml:lang="en-US">
-    <title>Отключить интернет</title>
-    <conbody>  
-		<p>В этом режиме преподаватель может отключить доступ в Интернет у выбранного учащегося, группы или всего класса. В окне, которое появится на экране компьютера преподавателя (<xref keyref="disable_internet/message_block_inet_png" type="fig"/>&#160;), можно ввести номера портов для выхода в Интернет, которые будут блокированы.</p>
+    <title>Internet access control</title>
+    <conbody>
+		<p>The teacher can control how students access the Internet by disabling access to certain ports, and therefore certain services.
+			You can specify a semicolon separated list of port numbers in the <wintitle>Internet access control</wintitle> window (<xref keyref="disable_internet/message_block_inet_png" type="fig"/>&#160;). Access to these ports from affected student workstations will be disabled.</p>
 		<fig id="message_block_inet_png">
-            <title>Окно отключения Интернета</title>
+			<title><wintitle>Internet access control</wintitle> window</title>
             <image href="img/message_block_inet.png" placement="break">
-                <alt>Окно отключения Интернета</alt>
+			  <alt><wintitle>Internet access control</wintitle> window</alt>
             </image>
         </fig>
+		<note type="important">Below is a table with examples of Internet services commonly abused in the classroom and their port numbers. This list is by no means exhaustive and is provided only as a starting point.</note>
 		<table frame="all">
             <tgroup cols="2">
                 <colspec colname="COLSPEC0" colwidth="120*"/>
                 <colspec colname="COLSPEC1" colwidth="200*"/>
                 <thead>
                     <row>
-                        <entry colname="COLSPEC0">Номер порта</entry>
-                        <entry colname="COLSPEC1">Описание</entry>
+                        <entry colname="COLSPEC0">Port number</entry>
+                        <entry colname="COLSPEC1">Internet Service</entry>
                     </row>
                 </thead>
                 <tbody>
                     <row>
                         <entry>80,443,8080</entry>
-                        <entry>Стандартные номера портов для просмотра Интернет-страниц в браузере</entry>
+                        <entry>WWW</entry>
                     </row>
                     <row>
                         <entry>53</entry>
-                        <entry>Порт DNS (отключает возможность использования доменных имен)</entry>
+                        <entry>DNS (domain addresses resolution)</entry>
                     </row>
                     <row>
-                        <entry>25,110</entry>
-                        <entry>Порты электронной почты</entry>
+                        <entry>25,465,587,110,143,993,995</entry>
+                        <entry>Send and receive email</entry>
                     </row>
                     <row>
-                        <entry>5190</entry>
-                        <entry>Порт ICQ</entry>
+					<entry>5190</entry>
+                        <entry>ICQ instant messaging</entry>
                     </row>
                     <row>
                         <entry>21</entry>
-                        <entry>Порт FTP</entry>
+                        <entry>FTP</entry>
                     </row>
                     <row>
                         <entry>194</entry>
-                        <entry>Порт IRC</entry>
+                        <entry>IRC (chat rooms)</entry>
                     </row>
-                </tbody> 
+                </tbody>
             </tgroup>
-        </table>
-		<p>Для отключения доступа в Интернет одного учащегося преподаватель должен в меню учащегося (п. <xref keyref="menu_single"/>&#160;) выбрать пункт <uicontrol>Отключить Интернет</uicontrol>.</p>
-		<p>Для отключения доступа в Интернет у группы учащихся преподаватель должен в меню нужной группы (п. <xref keyref="menu_group"/>&#160;) нажать на кнопку <uicontrol>Управление PC</uicontrol>, а потом выбрать пункт <uicontrol>Отключить Интернет</uicontrol>.</p>
-		<p>Для отключения доступа в Интернет у всего класса преподаватель должен в меню всего класса (п. <xref keyref="menu_class"/>&#160;) нажать на кнопку <uicontrol>Управление PC</uicontrol>, а потом выбрать пункт <uicontrol>Отключить Интернет</uicontrol>.</p> 
-		<p>Чтобы разрешить доступ в Интернет, нужно повторить приведенные выше действия.</p>
+		</table>
+		<p>Select <uicontrol>Internet access</uicontrol> from the student menu (see <xref keyref="menu_single"/>&#160;) to set up Internet access control for a single student.</p>
+		<p>Press <uicontrol>Remote control</uicontrol> button in the group tab menu (see <xref keyref="menu_group"/>&#160;) and select <uicontrol>Internet access</uicontrol> to set up Internet access control for the group.</p>
+		<p>Press <uicontrol>Remote control</uicontrol> button in the class tab menu (see <xref keyref="menu_class"/>&#160;) and select <uicontrol>Internet access</uicontrol> to set up Internet access control for the whole class.</p>
+		<p>Uncheck <uicontrol>Internet access</uicontrol> from the student menu (see <xref keyref="menu_single"/>&#160;) to disable Internet access control.</p>
 	</conbody>
 </concept>

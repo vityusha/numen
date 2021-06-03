@@ -8,15 +8,15 @@
         <p>PC hardware prerequisites:
             <ul>
                 <li>at least 1 GHz CPU clock frequency;</li>
-                <li>at least 512 MB of RAM (1 GB recommended);</li>
+                <li>at least 1 GB of RAM (2 GB or more recommended);</li>
                 <li>30 MB hard drive storage for software installation;</li>
                 <li>screen resolution of at least 1024x768 with color depth of at least 16 bits;</li>
-                <li>AC97 or RealTek HD Audio sound card;</li>
+                <li>AC97 or Realtek HD Audio compatible sound interface;</li>
                 <li>100 Mbps network interface;</li>
-                <li>microphone equipped headset.</li>
+                <li>headset equipped with a microphone.</li>
             </ul>
         </p>
-        <note type="attention">Local Area Network switch in the classroom must support <b>IGMP 2.0</b> protocol.
+        <note type="attention">Local Area Network switch in the classroom must support <b>IGMP v2</b> protocol.
         </note>
         <note type="important">We recommend that the teacher workstation be provided with a static IP address.
         </note>

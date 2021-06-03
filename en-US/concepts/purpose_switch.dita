@@ -3,19 +3,20 @@
 "concept.dtd">
 
 <concept id="purpose_switch" xml:lang="en-US">
-  <title>Преимущества использования аудиокоммутатора</title>
+  <title>Advantages of using an audio hub</title>
 
   <conbody>
-    <p>Аудиокоммутатор <wintitle>Диалог 5</wintitle> вместе с блоками учащихся является средством передачи звуковых сигналов учащимся по выделенным линиям.</p>
+    <p><wintitle>Dialog 5</wintitle> audio hub together with student interface devices  allows you to transmit audio over dedicated lines bypassing the classroom LAN.</p>
 
-    <p>Применение аудиокомутатора позволяет решить следующие проблемы, возникающие  при передаче аудио сигналов по локальной сети программным комплексом <wintitle>Диалог Nibelung</wintitle>:</p>
+    <p>By using <wintitle>Dialog Nibelung</wintitle> with the audio hub you can avoid the following problems frequently arising from transmission of audio across computer networks:</p>
 
     <p><ul>
-        <li>повышается качество аудио-сигналов;</li>
-        <li>отсутствует эхо;</li>
-        <li>отсутствует задержка аудио-сигнала;</li>
-		<li>используется аппаратная самопрослушка.</li>
+        <li>degraded audio quality: pops, clicks and dropouts;</li>
+        <li>echo;</li>
+        <li>delay;</li>
+		<li>lack of hardware loopback.</li>
     </ul></p>
-    <note type="tip">В <wintitle>Windows Vista</wintitle> и <wintitle>Windows 7</wintitle> отсутствует аппаратная самопрослушка, а ее программная реализация приводит к появлению эха и задержке сигнала.</note>
+    <note type="tip">Audio loopback allows you to hear yourself through your headset. Support for audio hardware loopback was eliminated in <wintitle>Windows Vista</wintitle> and subsequent versions, while its software emulation introduces additional delay and echo.</note>
+    <note type="attention">Installation of the audio hub should be performed by a qualified technician. Please contact the manufacturer (<xref scope="external" href="http://www.lainlab.com">http://www.lainlab.com</xref>) if you require further assistance.</note>
   </conbody>
 </concept>

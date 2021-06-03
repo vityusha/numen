@@ -2,16 +2,26 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="test_sort" xml:lang="en-US">
-    <title>Упорядочить</title>
+    <title>Ranking</title>
     <conbody>
-        <fig id="type_6_png">
-            <title>Тип ответа: упорядочить</title>
+	    <p>Ranking type questions require the students to rank items in the list according to a certain criteria.</p>
+	    <p>These types of question will be presented to the students as shown in <xref keyref="test_sort/view_ranking_png" type="fig"/>&#160;.</p>
+	    <fig id="view_ranking_png">
+		    <title><wintitle>Quiz Player</wintitle>: Ranking</title>
+		    <image href="img/view_ranking.png" placement="break">
+			    <alt><wintitle>Quiz Player</wintitle>: Ranking</alt>
+		    </image>
+	    </fig>
+
+	    <fig id="type_6_png">
+		    <title><wintitle>Quiz Builder</wintitle>: <uicontrol>Ranking</uicontrol></title>
             <image href="img/type_6.png" placement="break">
-                <alt>Тип ответа: упорядочить</alt>
+			  <alt><wintitle>Quiz Builder</wintitle>: <uicontrol>Ranking</uicontrol></alt>
             </image>
         </fig>
-        <p>В случае типа ответа <wintitle>Упорядочить</wintitle> на панели слева будет располагаться список, соответствующий правильному варианту ответа, а справа кнопки <uicontrol>Добавить</uicontrol> и <uicontrol>Удалить</uicontrol>, при помощи которых можно добавить или удалить строку списка.</p>
-        <p>При добавлении новой строки в столбце <wintitle>Ответ</wintitle> заносится соответствующий текст.</p>
-       <note type="important">Обратите внимание, что при наборе строк списка нужно соблюдать порядок ввода, соответствующий правильному варианту ответа!</note>
+	    <p>the <uicontrol>Answers</uicontrol> tab will contain a list of items on the left and <uicontrol>Add</uicontrol> and <uicontrol>Delete</uicontrol> button on the right. Use the buttons to add to or remove items from the list.</p>
+        <p>Click on the fields in the <wintitle>Answer</wintitle> column to enter or edit the items.</p>
+        <note type="important">The order in which items appear on the list is the ranking order against which this question will be scored.</note>
+
    	</conbody>
 </concept>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+
+<concept id="faq_install" xml:lang="en-US">
+  <title>Installation and setup</title>
+  <conbody>
+    <section>
+      <title>Any difficulties that can be expected during installation and setup of <wintitle>Dialog Nibelung Student Profiles Manager</wintitle>?</title>
+      <p>We strongly recommend to read section <xref keyref="install_notes"/>&#160; before starting <wintitle>Dialog Nibelung Student Profiles Manager</wintitle> installation.</p>
+    </section>
+
+    <section>
+      <title>What is default user name and password?</title>
+      <p>Default user name: <userinput>Admin</userinput>, password: <userinput>Admin</userinput>.</p>
+    </section>
+
+    <section>
+      <title>How can I change global <wintitle>Dialog Nibelung Student Profiles Manager</wintitle> settings?</title>
+      <p>Log into <wintitle>Dialog Nibelung Student Profiles Manager</wintitle> as an administrator. Select <menucascade><uicontrol>File</uicontrol><uicontrol>Settings</uicontrol></menucascade> from the main menu or use 
+        <uicontrol><shortcut>Ctrl + H</shortcut></uicontrol> keyboard shortcut to access the settings window.</p>
+    </section>
+
+    <section>
+      <title>What is administrator's user name?</title>
+      <p>The system administrator user name is <userinput>Admin</userinput>.</p>
+    </section>
+
+  </conbody>
+</concept>
+

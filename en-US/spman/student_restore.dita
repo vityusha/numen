@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+
+<concept id="student_restore" xml:lang="en-US">
+  <title>Restoring students from the archive</title>
+  <conbody>
+    <section>
+
+      <p>You can restore student profile from the archive by any of the following methods:</p>
+      <ul>
+        <li>Select <uicontrol>Restore</uicontrol> from the context menu (see <xref keyref="cm"/>&#160;) of an archived student and assign a subdivision in the window that will appear. This can be performed from either tree or table view (see <xref keyref="tree"/>&#160; and <xref keyref="table"/>&#160;).</li>
+        <li>In the tree view panel, drag and drop (<xref keyref="glossary"/>&#160;) a student profile from the archive to required subdivision.</li>
+      </ul>
+
+    </section>
+  </conbody>  
+</concept>

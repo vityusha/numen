@@ -18,6 +18,6 @@
 			  <alt>Answering student message</alt>
             </image>
         </fig>
-		<p>Top panel contains message from the student. Below is the text field where you can answer the message. Press <uicontrol>OK _fixme_</uicontrol> to send the message.</p>
+		<p>Top panel contains message from the student. Below is the text field where you can answer the message. Press <uicontrol>Send</uicontrol> to send the message.</p>
 	</conbody>
 </concept>

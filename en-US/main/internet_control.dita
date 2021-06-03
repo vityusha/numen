@@ -2,31 +2,45 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="internet_control" xml:lang="en-US">
-  <title>Управление доступом в интернет</title>
-  <conbody> 
-    <p>Преподаватель может разрешать или запрещать доступ к определенным страницам или целым сайтам в сети интернет для учащихся. Этот пункт меню доступен только для группы учащихся или для всего класса.</p>
-    <p>При выборе данного пункта меню на экране монитора преподавателя появится окно, содержащее кнопки выбора групп или всего класса, списки разрешенных и запрещенных страниц и сайтов в интернет (<xref keyref="internet_control/inetctrl_png" type="fig"/>&#160;).</p>
-    <p>Данные списки можно сохранить на компьютере преподавателя для последующего применения, используя соответствующие кнопки <uicontrol>Открыть</uicontrol> и <uicontrol>Сохранить</uicontrol>.</p>	
+  <title>Web access control</title>
+  <conbody>
+	  <p>In addition to the Internet access control on the service level (see <xref keyref="disable_internet"/>&#160;), <wintitle>Dialog Nibelung</wintitle> allows you to apply fine grained web access control on the individual sites and web pages level. This option, however, is not available for the individual students, only for the whole class or groups.</p>
+
+    <note type="important">Please note that restricting web access is only possible when the sites are being accessed using the <cmdname>HTTP</cmdname> protocol, but not the more secure <cmdname>HTTPS</cmdname> one.</note>
+
+    <p>Upon activation of the web access control from the class or group tabs menu you will be presented with a window where you can view and edit separate allow and deny access control lists for the class and individual groups (<xref keyref="internet_control/inetctrl_png" type="fig"/>&#160;).</p>
+
     <fig id="inetctrl_png">
-      <title>Окно управления доступом в интернет</title>
+	    <title><wintitle>Web access control</wintitle> window</title>
       <image href="img/inetctrl.png" placement="break">
-        <alt>Окно управления доступом в интернет</alt>
+		 <alt><wintitle>Web access control</wintitle> window</alt>
       </image>
     </fig>
-    <p>Управление списками осуществляется при помощи кнопок <uicontrol>Добавить</uicontrol>, <uicontrol>Изменить</uicontrol> и <uicontrol>Удалить</uicontrol>.</p> 
-    <p>Имя разрешенной или запрещенной страницы или сайта заносится в соответствующее текстовое поле, расположенное над этими кнопками.</p>
-    <p>Для того чтобы добавить адрес страницы или сайта в соответствующий список, необходимо нажать на кнопку <uicontrol>Добавить</uicontrol>.</p>
-    <p>Для удаления адреса страницы или сайта из списка используется кнопка <uicontrol>Удалить</uicontrol>.</p>
-    <p>При нажатии на кнопку <uicontrol>Разрешить</uicontrol> на компьютерах учащихся будет возможен доступ только к тем страницам или сайтам, которые находятся в списке разрешенных.</p>
-    <note type="important">Обратите внимание, что страница или сайт считается разрешенной если хотя бы часть ее адреса полностью совпадает с одним из разрешенных вариантов! Например, если разрешен <cmdname>dialog.su/production</cmdname>, но в списке разрешенных сайтов нет <cmdname>dialog.su</cmdname> то доступ к <cmdname>dialog.su/about</cmdname> будет невозможен, но в то же время доступ к <cmdname>dialog.su/production/manuals</cmdname> будет разрешен.</note>
-    <p>При нажатии на кнопку <uicontrol>Запретить</uicontrol> на компьютерах  учащихся будет блокирован доступ к страницам и сайтам в сети интернет, которые находятся в списке запрещенных.</p>
-    <note type="important">Обратите внимание, что страница или сайт считается запрещенной если хотя бы часть ее адреса полностью совпадает с одним из запрещенных вариантов! Таким образом, если запрещен доступ к <cmdname>google.ru</cmdname>, то любая страница, имеющая в своем адресе <cmdname>google.ru</cmdname> будет недоступна, например будут недоступны <cmdname>play.google.ru</cmdname>, <cmdname>google.ru/news</cmdname> и тд.</note>
-    <p>Кроме того, в данном режиме для преподавателя имеется возможность отслеживать активность учащихся в сети интернет. Если учащийся пытается получить доступ к какой-либо странице в сети интернет (например, набрав в поле адреса браузера <cmdname>yandex.ru/news</cmdname>, то имя сайта <cmdname>yandex.ru</cmdname> отобразится на изображении учащегося. Если же учащийся пытается получить доступ к запрещенной странице, то данное имя сайта отобразится красным цветом (<xref keyref="internet_control/inetaccess_png" type="fig"/>&#160;).</p>
+
+    <p>List of allowed URLs is on the left panel, while list of denied URLs is on the right.</p>
+    <p>You can save and restore the access control lists by using <uicontrol>Open</uicontrol> and <uicontrol>Save</uicontrol> buttons.</p>
+
+    <p>Use <uicontrol>Add</uicontrol>, <uicontrol>Change</uicontrol> and <uicontrol>Delete</uicontrol> buttons to respectively add, edit, and remove elements to/from the lists. The entry/edit field is immediately above these buttons.</p>
+
+    <p>Whenever the <uicontrol>Allow</uicontrol> button is activated, web access will be blocked to all sites and pages except those listed in the <uicontrol>Allowed URLs</uicontrol> list.</p>
+
+    <note type="important">Please note that a page or site will be allowed if any part of its address matches any of the allowed strings. For example, if <cmdname>dialog.su/production</cmdname> is allowed but not <cmdname>dialog.su</cmdname>, then access to <cmdname>dialog.su/about</cmdname> will be denied, while access to <cmdname>dialog.su/production/manuals</cmdname> will be allowed.</note>
+
+    <p>Whenever the <uicontrol>Deny</uicontrol> button is activated, web access will be allowed to all sites and pages except those listed in the <uicontrol>Denied URLs</uicontrol> list.</p>
+
+    <note type="important">Please note that a page or site will be denied if any part of its address matches any of the denied strings. E.g. if <cmdname>example.com</cmdname> is in the list of denied URLs, then all pages that have <cmdname>example.com</cmdname> in their addresses (such as <cmdname>mobile.example.com</cmdname>, <cmdname>example.com/news</cmdname>, etc.) will be denied.</note>
+
+    <note type="important">The <uicontrol>Allow</uicontrol> and <uicontrol>Deny</uicontrol> modes are mutually exclusive, i.e. activating one button will disable the other.</note>
+
+    <p>Whenever the web access control mode is activated, the teacher will also be able to monitor students internet access. If a student tries to access, for example, <cmdname>example.org/news</cmdname>, then site name <cmdname>example.org</cmdname> will be displayed in his or her student panel. If a student is trying to access a denied page, the site name will be displayed in red (<xref keyref="internet_control/inetaccess_png" type="fig"/>&#160;).</p>
     <fig id="inetaccess_png">
-      <title>Мониторинг активности учащегося в сети интернет</title>
+      <title>Monitoring student Internet access</title>
       <image href="img/inetaccess.png" placement="break">
-        <alt>Мониторинг активности учащегося в сети интернет</alt>
+		 <alt>Monitoring student Internet access</alt>
       </image>
     </fig>
+
+    <p>Deactivate both <uicontrol>Allow</uicontrol> and <uicontrol>Deny</uicontrol> buttons to turn web access control off.</p>
+
   </conbody>
 </concept>

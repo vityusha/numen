@@ -2,109 +2,104 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 <concept id="configurator" xml:lang="en-US">
-    <title><keyword>Nibelung Configurator</keyword></title>
-    <conbody>
-		<p><indexterm>Configurator</indexterm><wintitle>Nibelung Configurator</wintitle> is a <wintitle>Dialog Nibelung</wintitle> application for remotely configuring student modules from the teacher workstation. It will also allow you to change some additional settings of the teacher module.</p>
-        <fig id="configurator_png">
-            <title><wintitle>Nibelung Configurator</wintitle> window</title>
-            <image href="img/configurator.png" placement="break">
-                <alt><wintitle>Nibelung Configurator</wintitle> window</alt>
-            </image>
-        </fig>
+	<title>Configure student modules</title>
+	<conbody>
+		<p>Select <uicontrol>Configure student modules</uicontrol> from the <uicontrol>Tools</uicontrol> menu to launch <wintitle>Nibelung Configurator</wintitle>.</p>
+		<p><indexterm>Configurator</indexterm><wintitle>Nibelung Configurator</wintitle> is a <wintitle>Dialog Nibelung</wintitle> application for remotely configuring student modules from the teacher workstation. It also allows you to change some additional settings of the teacher module.</p>
+		<fig id="configurator_png">
+			<title><wintitle>Nibelung Configurator</wintitle> window</title>
+			<image href="img/configurator.png" placement="break">
+				<alt><wintitle>Nibelung Configurator</wintitle> window</alt>
+			</image>
+		</fig>
 		<p><wintitle>Nibelung Configurator</wintitle> main window (<xref keyref="configurator/configurator_png" type="fig"/>&#160;) displays the list of local network computers that are running student modules and the following buttons:
-            <ul>
-			  <li><uicontrol>Find clients</uicontrol> – scans the local network for computers running student modules;</li>
-                <li><uicontrol>Configure</uicontrol> – opens the student modules' settings window (<xref keyref="configurator/configurator_students_png" type="fig"/>&#160;);</li>
-                <li><uicontrol>Configure teacher workstation</uicontrol> – opens the teacher module settings window (<xref keyref="configurator/configurator_teacher_png" type="fig"/>&#160;);</li>
-                <li><uicontrol>Exit</uicontrol> – exit <wintitle>Nibelung Configurator</wintitle>.</li>
-            </ul>
-        </p>
-        <p>Fields in the student workstation list:
-		<ul>
-			<li><uicontrol>Select</uicontrol> – marks student workstations for mass editing of the configuration using (<xref keyref="configurator/configurator_students_png" type="fig"/>&#160;) called up by pressing the <uicontrol>Configure</uicontrol> button;</li>
-			<li><uicontrol>Domain name</uicontrol> - network name (WINS) of the student workstation;</li>
-			<li><uicontrol>IP address</uicontrol> - IP address of the student workstation;</li>
-			<li><uicontrol>Seat ID</uicontrol> – Student Seat ID - an identification number of the student workstation in <wintitle>Dialog Nibelung</wintitle> (see section <xref keyref="setup_client"/>&#160;);</li>
-			<li><uicontrol>Server</uicontrol> - IP address or domain name of the teacher workstation (see section <xref keyref="setup_client"/>&#160;);</li>
-			<li><uicontrol>Apply</uicontrol> button - applies new configuration to the current student workstation;</li>
-			<li><uicontrol>Status</uicontrol> - transfer status.</li>
-		</ul>
-		</p>
-        <p>Double click on the <uicontrol>Seat ID</uicontrol> or <uicontrol>Server</uicontrol> fields to edit parameters for the student workstation and press <uicontrol>Apply</uicontrol> button to send the new configuration.</p>
-	   <p>You can also adjust other settings for selected workstations in the student modules' settings window (<xref keyref="configurator/configurator_students_png" type="fig"/>&#160;):
-            <ul>
-				<li><uicontrol>General</uicontrol>:
-                        <ul>
-					    <li><uicontrol>Launch student module at Windows Startup</uicontrol>;</li>
-                            <li><uicontrol>Language</uicontrol> - user interface language;</li>
-                        </ul>
-                </li>
-                <li><uicontrol>Mixers</uicontrol>:
-                        <ul>
-                            <li><uicontrol>Recording</uicontrol> - capture volume;</li>
-                            <li><uicontrol>Playback</uicontrol> - playback volume;</li>
-                        </ul>
-                </li>
-                <li><uicontrol>Audio devices</uicontrol>:
-                        <ul>
-                            <li><uicontrol>Default audio device for recording</uicontrol> - set default Windows recording audio device for student module recording;</li>
-					   <li><uicontrol>Default audio device for playback</uicontrol> - set default Windows playback audio device for student module playback;</li>
-                        </ul>
-                </li>
-			 <li><uicontrol>Proxy server</uicontrol> - Internet access proxy settings for online updates. Set these if your classroom network has to access the Internet via a proxy server:
-                        <ul>
-                            <li><uicontrol>IP address</uicontrol>;</li>
-                            <li><uicontrol>Port</uicontrol>;</li>
-                        </ul>
-                </li>
-			 <li><uicontrol>External video player</uicontrol>:
-				 <ul>
-					 <li><uicontrol>File path</uicontrol> - full path to the external video player executable file;</li>
-					 <li><uicontrol>Fullscreen command</uicontrol> - command line parameter to launch the video player in full screen mode.</li>
-				 </ul>
-			 </li>
+			<ul>
+				<li><uicontrol>Find clients</uicontrol>: scan the local network for computers running <wintitle>Dialog Nibelung</wintitle> student modules;</li>
+				<li><uicontrol>Configure</uicontrol>: open the student modules settings window (<xref keyref="configurator/configurator_students_png" type="fig"/>&#160;);</li>
+				<li><uicontrol>Configure teacher workstation</uicontrol>: open the teacher module settings window (<xref keyref="configurator/configurator_teacher_png" type="fig"/>&#160;);</li>
+				<li><uicontrol>Exit</uicontrol>: exit <wintitle>Nibelung Configurator</wintitle>.</li>
 			</ul>
-        </p>
-        <fig id="configurator_students_png">
-            <title>Student modules' settings window</title>
-            <image href="img/configurator_students.png" placement="break">
-			  <alt>Student modules' settings window</alt>
-            </image>
-        </fig>
-	   <p>Please refer to section <xref keyref="setup_client" />&#160; of this manual for further details of the student module settings.</p>
-        <p>You can change the following parameters in the teacher module settings window (<xref keyref="configurator/configurator_teacher_png" type="fig"/>&#160;):
-            <ul>
-                <li><uicontrol>External video player</uicontrol>:
-                        <ul>
-                            <li><uicontrol>File path</uicontrol> - full path to the external video player executable file;</li>
-                        </ul>
-                </li>
-			 <li><uicontrol>Mixers</uicontrol>:
-				 <ul>
-					 <li><uicontrol>Recording</uicontrol> - capture volume;</li>
-					 <li><uicontrol>Playback</uicontrol> - playback volume;</li>
-				 </ul>
-			 </li>
-			 <li><uicontrol>Audio devices</uicontrol>:
-				 <ul>
-					 <li><uicontrol>Default audio device for recording</uicontrol> - set default Windows recording audio device for student module recording;</li>
-					 <li><uicontrol>Default audio device for playback</uicontrol> - set default Windows playback audio device for student module playback;</li>
-				 </ul>
-			 </li>
-			 <li><uicontrol>Proxy server</uicontrol> - Internet access proxy settings for online updates. Set these if your classroom network has to access the Internet via a proxy server:
-				 <ul>
-					 <li><uicontrol>IP address</uicontrol>;</li>
-					 <li><uicontrol>Port</uicontrol>;</li>
-				 </ul>
-			 </li>
-		 </ul>
-        </p>
-        <fig id="configurator_teacher_png">
-            <title>Teacher module settings window</title>
-            <image href="img/configurator_teacher.png" placement="break">
-			  <alt>Teacher module settings window</alt>
-            </image>
-        </fig>
-        <p>Please refer to the section <xref keyref="setup_main" />&#160; of this manual for further details of the teacher module settings.</p>
+		</p>
+		<p>Fields in the student workstation list:
+			<ul>
+				<li><uicontrol>Select</uicontrol>: mark student workstations for mass editing in the <wintitle>Edit settings</wintitle> window (<xref keyref="configurator/configurator_students_png" type="fig"/>&#160;) called up by pressing the <uicontrol>Configure</uicontrol> button;</li>
+				<li><uicontrol>Network name</uicontrol>: network (WINS) name of the student workstation;</li>
+				<li><uicontrol>IP address</uicontrol>: IP address of the student workstation;</li>
+				<li><uicontrol>Seat ID</uicontrol>: Student Seat ID: an identification number of the student workstation in <wintitle>Dialog Nibelung</wintitle> (see section <xref keyref="setup_client"/>&#160;);</li>
+				<li><uicontrol>Server</uicontrol>: IP address or network name of the teacher workstation (see section <xref keyref="setup_client"/>&#160;);</li>
+				<li><uicontrol>Apply</uicontrol> button: applies new configuration to the current student workstation;</li>
+				<li><uicontrol>Status</uicontrol>: configuration transfer status.</li>
+			</ul>
+		</p>
+		<p>Double click on the <uicontrol>Seat ID</uicontrol> or <uicontrol>Server</uicontrol> fields to edit parameters for the student workstation and press <uicontrol>Apply</uicontrol> button to send the new configuration.</p>
+		<p>You can also adjust other settings for selected workstations in the student modules settings window (<xref keyref="configurator/configurator_students_png" type="fig"/>&#160;):
+			<ul>
+				<li><uicontrol>General</uicontrol>:
+					<ul>
+						<li><uicontrol>Launch student module at Windows Startup</uicontrol>;</li>
+						<li><uicontrol>Language</uicontrol>: user interface language;</li>
+					</ul>
+				</li>
+				<li><uicontrol>Mixers</uicontrol>:
+					<ul>
+						<li><uicontrol>Recording</uicontrol>: capture volume;</li>
+						<li><uicontrol>Playback</uicontrol>: playback volume;</li>
+					</ul>
+				</li>
+				<li><uicontrol>Audio devices</uicontrol>:
+					<ul>
+						<li><uicontrol>Default audio device for recording</uicontrol>: set default Windows recording audio device for the student module recording;</li>
+						<li><uicontrol>Default audio device for playback</uicontrol>: set default Windows playback audio device for the student module playback;</li>
+					</ul>
+				</li>
+				<li><uicontrol>Proxy server</uicontrol> - Internet access proxy settings for online updates. Set these if your classroom network has to access the Internet via a proxy server:
+					<ul>
+						<li><uicontrol>IP address</uicontrol>;</li>
+						<li><uicontrol>Port</uicontrol>;</li>
+					</ul>
+				</li>
+			</ul>
+		</p>
+		<fig id="configurator_students_png">
+			<title>Student modules' settings window</title>
+			<image href="img/configurator_students.png" placement="break">
+				<alt>Student modules' settings window</alt>
+			</image>
+		</fig>
+		<p>Please refer to section <xref keyref="setup_client" />&#160; of this manual for further details of the student module settings.</p>
+		<p>In addition to student modules setup, the <wintitle>Configurator</wintitle> allows you to change the following parameters of the teacher module (<xref keyref="configurator/configurator_teacher_png" type="fig"/>&#160;):
+			<ul>
+				<li><uicontrol>External video player</uicontrol>:
+					<ul>
+						<li><uicontrol>File path</uicontrol>: full path to the external video player executable file;</li>
+					</ul>
+				</li>
+				<li><uicontrol>Mixers</uicontrol>:
+					<ul>
+						<li><uicontrol>Recording</uicontrol>: capture volume;</li>
+						<li><uicontrol>Playback</uicontrol>: playback volume;</li>
+					</ul>
+				</li>
+				<li><uicontrol>Audio devices</uicontrol>:
+					<ul>
+						<li><uicontrol>Default audio device for recording</uicontrol> - set default Windows recording audio device for student module recording;</li>
+						<li><uicontrol>Default audio device for playback</uicontrol> - set default Windows playback audio device for student module playback;</li>
+					</ul>
+				</li>
+				<li><uicontrol>Proxy server</uicontrol>: Internet access proxy settings for online updates. Set these if your classroom network has to access the Internet via a proxy server:
+					<ul>
+						<li><uicontrol>IP address</uicontrol>;</li>
+						<li><uicontrol>Port</uicontrol>;</li>
+					</ul>
+				</li>
+			</ul>
+		</p>
+		<fig id="configurator_teacher_png">
+			<title>Teacher module settings window</title>
+			<image href="img/configurator_teacher.png" placement="break">
+				<alt>Teacher module settings window</alt>
+			</image>
+		</fig>
+		<p>Please refer to the section <xref keyref="setup_main" /> of this manual for further details of the teacher module settings.</p>
 	</conbody>
 </concept>

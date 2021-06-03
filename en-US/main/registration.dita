@@ -17,7 +17,7 @@
 			  <alt>Panel of an absent student</alt>
             </image>
         </fig>
-		<p>Status line of the teacher module window will show time remaining for the roll call. You can stop the roll call early by selecting <menucascade><uicontrol>Class</uicontrol><uicontrol>Roll call</uicontrol></menucascade> menu again.</p>
+		<p>Status bar of the teacher module window will show time remaining for the roll call. You can stop the roll call early by selecting <menucascade><uicontrol>Class</uicontrol><uicontrol>Roll call</uicontrol></menucascade> menu again.</p>
 		<p>The <wintitle>Roll call results</wintitle> window (<xref keyref="registration/registration_result_png" type="fig"/>&#160;) will appear on your screen after registration is completed.</p>
 		<fig id="registration_result_png">
             <title><wintitle>Roll call results</wintitle> window</title>
@@ -26,5 +26,12 @@
             </image>
         </fig>
 	   <p>Right click on a student panel and select <uicontrol>Change name</uicontrol> from the pop-up menu to change student's name and/or ID number after the roll call. Enter the new name into <wintitle>Enter name</wintitle> window (<xref keyref="registration/registration_png" type="fig"/>&#160;).</p>
+        <p>If for whatever reasons there appears to be duplicate student names in the class, one of them will be displayed in red and marked with the exclamation point <uicontrol>(!)</uicontrol> sign (<xref keyref="registration/existingname_png" type="fig"/>&#160;).</p>
+		<fig id="existingname_png">
+            <title>Duplicate student name</title>
+            <image href="img/existingname.png" placement="break">
+                <alt>Duplicate student name</alt>
+            </image>
+        </fig>
 	</conbody>
 </concept>

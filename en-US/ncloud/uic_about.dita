@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+
+  <concept id="uic_about" xml:lang="en-US">
+  <title>Диалог "О программе"</title>
+  <conbody>
+
+<p>Рядом с кнопками управления окном в его верхней правой части и у преподавателя, и у учащегося располагается кнопка вызова диалога <uicontrol>О программе</uicontrol>. Основная информация, которую можно взять из этого диалога - используемая версия модуля <wintitle>Задания через Интернет</wintitle>. Также из диалога <uicontrol>О программе</uicontrol> вызывается настоящее <uicontrol>Руководство пользователя</uicontrol>.</p>
+
+<fig id="addon_about_dialog_png">
+<title>Диалог <uicontrol>О программе</uicontrol></title>
+<image href="img/addon-about-dialog.png" placement="break">
+  <alt>Диалог <uicontrol>О программе</uicontrol></alt>
+</image>
+</fig>
+</conbody>
+</concept>

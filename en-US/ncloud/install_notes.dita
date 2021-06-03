@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+
+<concept id="install_notes" xml:lang="en-US">
+  <title>Замечания по установке</title>
+  <conbody>
+  
+  <p>Перед инсталляцией модуля <wintitle>Задания через Интернет</wintitle> на компьютер следует установить:</p>
+  
+  <ul>
+    <li> Преподавателю: программу <wintitle>Диалог Nibelung</wintitle> (требуется лицензия)</li>
+    <li> Учащимся: программу <wintitle>Диалог Nibelung NPlayer</wintitle> (распространяется свободно)</li>
+  </ul>
+  
+  <p>Установка модуля <wintitle>Задания через Интернет</wintitle> производится стандартным способом. Дополнительных настроек модуля со стороны преподавателя <uicontrol>не требуется</uicontrol>; учащимся <uicontrol>необходимо</uicontrol> будет настроить модуль (настройка, за редкими исключениями, делается <uicontrol>один раз</uicontrol>, перед первым запуском модуля; подробности см. в разделе <xref keyref="std_menu"/>&#160;)</p>
+  
+  <p>После установки модуля и запуска программы (у преподавателя <wintitle>Диалог Nibelung</wintitle>, у учащихся - <wintitle>Диалог Nibelung NPlayer</wintitle>) в меню появится соответствующий пункт <menucascade><uicontrol>Задания через Интернет</uicontrol></menucascade>.</p>
+  
+  <note type="attention">Для работы с модулем <wintitle>Задания через Интернет</wintitle> компьютер должен быть подключен к Интернету</note>
+
+  <note type="important">Модуль <wintitle>Задания через Интернет</wintitle> должен быть установлен у каждого из учащихся, участвующих в дистанционном обучении</note>
+
+  <note type="attention">Использование модуля <wintitle>Задания через Интернет</wintitle> требует наличия активной <uicontrol>Подписки</uicontrol> (см. <xref keyref="subscription"/>&#160;)</note>
+
+  </conbody>
+</concept>
