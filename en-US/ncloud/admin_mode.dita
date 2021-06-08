@@ -2,7 +2,7 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 
-<concept id="admin_mode" xml:lang="en-US">
+<concept id="admin_mode" xml:lang="ru-RU">
   <title>Административный режим</title>
   
   <conbody>
@@ -13,10 +13,11 @@
 	 
 	 <ul>
 	   <li><uicontrol>Очистка места</uicontrol> и <uicontrol>сжатие данных</uicontrol> в облачном хранилище</li>
+	   <li><uicontrol>Загрузка</uicontrol> и <uicontrol>установка</uicontrol> обновлений</li>
        <li>Управление <uicontrol>всеми</uicontrol> задачами и их публикациями, включая следующие операции: <uicontrol>просмотр</uicontrol>, <uicontrol>экспорт</uicontrol>, <uicontrol>архивирование</uicontrol> и <uicontrol>удаление</uicontrol></li>
      </ul>
 	 
-	 <note type="tip">В административном режиме недоступны некоторые стандартные действия, такие как публикация заданий и выставление оценок учащимся</note>
+	 <note type="tip">В административном режиме недоступны некоторые стандартные действия, такие как создание и публикация заданий, выставление оценок учащимся</note>
 	 
 	 <p>При запуске модуля <wintitle>Задания через Интернет</wintitle> пользователем <uicontrol>Admin</uicontrol> появится предупреждение:</p>
 	 
@@ -29,11 +30,15 @@
 	 
 	 <note type="important">Во избежание несанкционированных действий с заданиями, публикациями и ответами учащихся пользователю <wintitle>Admin</wintitle> рекомендуется использовать надежный пароль!</note>
 	 
-	 <p>При запуске в режиме администратора в окне преподавателя (см. <xref keyref="teacher_mainwin"/>&#160;) появляется вкладка <uicontrol>Обслуживание</uicontrol>, содержащая перечень доступных административных задач. Кнопка <uicontrol>Чистка хранилища</uicontrol> запускает операцию чистки, в некоторых случаях приводящую к увеличению свободного места в облачном хранилище.</p>
+	 <p>При запуске в режиме администратора в окне преподавателя (см. <xref keyref="teacher_mainwin"/>&#160;) появляется вкладка <uicontrol>Обслуживание</uicontrol>, содержащая перечень доступных административных действий.</p>
+
+	<note type="important">В административном режиме отображаются задачи и публикации <uicontrol>всех преподавателей</uicontrol>, что позволяет, в зависимости от текущих задач, произвести их <uicontrol>экспорт</uicontrol> (см. разделы <xref keyref="tasks_export"/>&#160;, <xref keyref="tasks_creation"/>&#160; и <xref keyref="tasks_publish"/>&#160;), <uicontrol>архивирование</uicontrol> (см. <xref keyref="tasks_archive"/>&#160;) или <uicontrol>удаление</uicontrol></note>
+	
+	<p>Нажатие на кнопку <uicontrol>Чистка хранилища</uicontrol> запускает операцию чистки, в некоторых случаях позволяющую увеличить свободное место в облачном хранилище.</p>
 	 
-	    <fig id="cleanup_storage_png">
+	    <fig id="maintenance_png">
             <title>Вкладка "Задачи"</title>
-            <image href="img/cleanup-storage.png" placement="break">
+            <image href="img/maintenance.png" placement="break">
                 <alt>Вкладка "Задачи"</alt>
             </image>
         </fig>
@@ -47,7 +52,30 @@
             </image>
         </fig>
 	
-	<p>В административном режиме отображаются задачи и публикации <uicontrol>всех преподавателей</uicontrol>, что позволяет, в зависимости от текущих задач, произвести их <uicontrol>экспорт</uicontrol> (см. разделы <xref keyref="tasks_export"/>&#160;, <xref keyref="tasks_creation"/>&#160; и <xref keyref="tasks_publish"/>&#160;), <uicontrol>архивирование</uicontrol> (см. <xref keyref="tasks_archive"/>&#160;) или <uicontrol>удаление</uicontrol>.</p>
+	<p>Кнопка <wintitle>Проверить обновления</wintitle> служит для проверки наличия обновлений на сайте разработчиков модуля <wintitle>Задания через Интернет</wintitle>.</p>
 	
+	<note type="attention">Не забывайте, что у компьютера преподавателя должен быть доступ в Интернет!</note>
+	
+    <p>При наличии обновления появится диалог с информацией о доступной версии: номере и произведенных изменениях (<xref keyref="admin_mode/update_info_png" type="fig"/>&#160;).</p>
+	
+    <fig id="update_info_png">
+            <title>Информация о доступности новой версии</title>
+            <image href="img/update-info.png" placement="break">
+                <alt>Информация о доступности новой версии</alt>
+            </image>
+    </fig>
+		
+    <p>Для запуска процесса загрузки новой версии преподаватель должен нажать на кнопку <uicontrol>Загрузить</uicontrol>.</p>
+	 
+    <p>В появившемся окне (<xref keyref="admin_mode/update_download_png" type="fig"/>&#160;) будет отображаться процесс загрузки обновления с сайта разработчиков.</p>
+	 
+        <fig id="update_download_png">
+            <title>Информация о загрузке обновления</title>
+            <image href="img/update-download.png" placement="break">
+                <alt>Информация о загрузке обновления</alt>
+            </image>
+        </fig>
+		
+    <p>Для установки новой версии модуля <wintitle>Задания через Интернет</wintitle> после завершения процесса загрузки необходимо нажать на кнопку <uicontrol>Установить</uicontrol>.</p>	
   </conbody>
 </concept>

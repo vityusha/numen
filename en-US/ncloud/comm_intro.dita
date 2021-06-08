@@ -2,7 +2,7 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 
-<concept id="comm_intro" xml:lang="en-US">
+<concept id="comm_intro" xml:lang="ru-RU">
   <title>Общие сведения</title>
   <conbody>
   <p>Модуль <wintitle>Задания через Интернет</wintitle> - дополнение к программе <wintitle>Диалог Nibelung</wintitle>, позволяющее организовать выдачу и проверку учебных заданий через Интернет при осуществлении тех или иных форм <uicontrol>Дистанционного обучения</uicontrol> (см. <xref keyref="glossary"/>&#160;).</p>

@@ -4,7 +4,7 @@
 
 <map id="ncloud" xml:lang="en-US">
   <topicmeta>
-    <shortdesc>This document describes Nibelung "Remote homework" addon</shortdesc>
+    <shortdesc>This document describes Nibelung "Remote tasks" addon</shortdesc>
     <author type="creator">Vinokurov V., Alexeyev V.</author>
     <source/>
     <publisher>"LAIN" LLC</publisher>
@@ -16,7 +16,7 @@
       <created date="03.03.2021"/>
     </critdates>
     <prodinfo>
-      <prodname>User manual for Nibelung "Remote homework" addon</prodname>
+      <prodname>User manual for Nibelung "Remote tasks" addon</prodname>
       <vrmlist>
         <vrm version="4.0.0.1"/>
       </vrmlist>

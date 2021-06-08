@@ -2,7 +2,7 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 
-<concept id="std_mainwin" xml:lang="en-US">
+<concept id="std_mainwin" xml:lang="ru-RU">
   <title>Окно для работы над заданиями</title>
   <conbody>
   <p>При запуске модуля <wintitle>Задания через Интернет</wintitle> учащимся (см. <xref keyref="std_menu"/>&#160;) открывается окно для работы над заданиями.</p>

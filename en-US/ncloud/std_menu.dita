@@ -2,7 +2,7 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 
-<concept id="std_menu" xml:lang="en-US">
+<concept id="std_menu" xml:lang="ru-RU">
   <title>Настройка и запуск</title>
   <conbody>
   <p>После установки модуля на компьютер учащегося и запуска программы <wintitle>Диалог Nibelung NPlayer</wintitle>, в левом верхнем углу ее окна появится меню <menucascade><uicontrol>Дополнения</uicontrol><uicontrol>Задания через Интернет</uicontrol></menucascade>, изображенное на рисунке ниже.</p>
