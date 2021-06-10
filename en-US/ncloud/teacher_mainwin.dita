@@ -2,7 +2,7 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 
-<concept id="teacher_mainwin" xml:lang="ru-RU">
+<concept id="teacher_mainwin" xml:lang="en-US">
   <title>Главное окно</title>
   <conbody>
   
@@ -99,7 +99,7 @@
 
 <row>
 <entry>8</entry>
-<entry>Кнопка <uicontrol>Назад</uicontrol></entry>
+<entry>Кнопка <uicontrol>Далее</uicontrol></entry>
 </row>
 
 <row>

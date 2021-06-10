@@ -2,7 +2,7 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 
-<concept id="install_notes" xml:lang="ru-RU">
+<concept id="install_notes" xml:lang="en-US">
   <title>Замечания по установке</title>
   <conbody>
   
@@ -17,7 +17,7 @@
   
   <p>После установки модуля и запуска программы (у преподавателя <wintitle>Диалог Nibelung</wintitle>, у учащихся - <wintitle>Диалог Nibelung NPlayer</wintitle>) в меню появится соответствующий пункт <menucascade><uicontrol>Задания через Интернет</uicontrol></menucascade>.</p>
   
-  <note type="attention">Для работы с модулем <wintitle>Задания через Интернет</wintitle> компьютер должен быть подключен к Интернету</note>
+  <note type="attention">Для работы с модулем <wintitle>Задания через Интернет</wintitle> компьютер должен быть подключен к Интернету (не обязательно при работе учащегося над <uicontrol>уже загруженными заданиями</uicontrol>)</note>
 
   <note type="important">Модуль <wintitle>Задания через Интернет</wintitle> должен быть установлен у каждого из учащихся, участвующих в дистанционном обучении</note>
 
