@@ -3,18 +3,18 @@
 "concept.dtd">
 
 <concept id="teacher_menu" xml:lang="en-US">
-  <title>Запуск модуля</title>
+  <title>Starting the module</title>
   <conbody>
-  <p>При наличии установленного модуля <wintitle>Задания через Интернет</wintitle> в меню программы <wintitle>Диалог Nibelung</wintitle> появляется соответствующий пункт <menucascade><uicontrol>Инструменты</uicontrol><uicontrol>Дополнения</uicontrol><uicontrol>Задания через Интернет</uicontrol></menucascade>.</p>
+  <p>A <menucascade><uicontrol>Tools</uicontrol><uicontrol>Extensions</uicontrol><uicontrol>Remote Assignments</uicontrol></menucascade> item will appear in <wintitle>Dialog Nibelung</wintitle> main menu upon successful installation of the <wintitle>Remote Assignments</wintitle> module.</p>
   
         <fig id="teacher_menu_png">
-            <title>Меню для запуска модуля <wintitle>Задания через Интернет</wintitle> преподавателем</title>
+            <title><wintitle>Remote Assignments</wintitle> in teacher menu</title>
             <image href="img/teacher-menu.png" placement="break">
                 <alt>Меню для запуска модуля преподавателем</alt>
             </image>
         </fig>
 		
-  <note type="tip">Настройка модуля <wintitle>Задания через Интернет</wintitle> преподавателем или администратором не требуется: достаточно установить его поверх установленной ранее программы <wintitle>Диалог Nibelung</wintitle> и иметь активную подписку (см. <xref keyref="subscription"/>&#160;)</note>
+  <note type="tip"><wintitle>Remote Assignments</wintitle> module does not require any additional setup beyon installation on top of <wintitle>Dialog Nibelung</wintitle> and making sure that the school has an active subscription (see <xref keyref="subscription"/>&#160;)</note>
   
   </conbody>
 </concept>
