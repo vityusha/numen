@@ -4,7 +4,7 @@
 
 <map id="ncloud" xml:lang="en-US">
   <topicmeta>
-    <shortdesc>This document describes Nibelung Remote Learning addon module</shortdesc>
+    <shortdesc>This document describes Nibelung Remote Assignments addon module</shortdesc>
     <author type="creator">Vinokurov V., Alexeyev V.</author>
     <source/>
     <publisher>"LAIN" LLC</publisher>
@@ -16,7 +16,7 @@
       <created date="03.03.2021"/>
     </critdates>
     <prodinfo>
-      <prodname>Nibelung Remote Learning module user manual</prodname>
+      <prodname>Nibelung Remote Assignments module user manual</prodname>
       <vrmlist>
         <vrm version="4.0.0.1"/>
       </vrmlist>
