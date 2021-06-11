@@ -3,24 +3,24 @@
 "concept.dtd">
 
 <concept id="comm_intro" xml:lang="en-US">
-  <title>Общие сведения</title>
+  <title>General</title>
   <conbody>
-  <p>Модуль <wintitle>Задания через Интернет</wintitle> - дополнение к программе <wintitle>Диалог Nibelung</wintitle>, позволяющее организовать выдачу и проверку учебных заданий через Интернет при осуществлении тех или иных форм <uicontrol>Дистанционного обучения</uicontrol> (см. <xref keyref="glossary"/>&#160;).</p>
+  <p><wintitle>Remote Learning</wintitle> is an addon module for the <wintitle>Dialog Nibelung</wintitle> software package that extends its capabilities by allowing the teacher to assign, review, and grade home- and classwork remotely to facilitate different aspects of <uicontrol>Remote Learning</uicontrol> (see. <xref keyref="glossary"/>).</p>
   
-  <p><uicontrol>Основные</uicontrol> функции модуля:</p>
+  <p>Core functionality of the module:</p>
   
   <ul>
-    <li>Возможность осуществления <uicontrol>дистанционного обучения</uicontrol> учащихся для всех преподавателей учебного заведения</li>
-    <li>Возможность выдачи и проверки заданий <uicontrol>классу</uicontrol>, выбранной <uicontrol>группе</uicontrol> учащихся и в <uicontrol>индивидуальном</uicontrol> порядке</li>
-    <li>Произвольный набор файлов для учебного задания</li>
-    <li>Сохранение заданий как шаблона для многократного <uicontrol>использования</uicontrol> в будущем, с возможностью <uicontrol>обмена</uicontrol> заданиями между преподавателями</li>
-    <li>Возможность <uicontrol>итерационного</uicontrol> выполнения заданий учащимися с отправкой ответа на доработку, прежде чем будет выставлена окончательная оценка</li>
-	<li>Возможность <uicontrol>параллельного</uicontrol> назначения заданий различным классам, группам и учащимся</li>
-    <li>Возможность использовать задания, созданные в <uicontrol>тест-системе</uicontrol> <wintitle>Nibelung NQuiz</wintitle> (распространяется свободно)</li>
-    <li>Встроенные возможности <uicontrol>импорта</uicontrol>, <uicontrol>экспорта</uicontrol>, <uicontrol>резервного копирования</uicontrol>; <uicontrol>архивация</uicontrol>, создание <uicontrol>отчетов</uicontrol> по выполненным и выполняемым заданиям</li>
+    <li>Allows any teacher at school to engage in <uicontrol>distant learning</uicontrol> process;</li>
+    <li>remotely hand out, review, and grade assignments for the whole <uicontrol>class</uicontrol>, a <uicontrol>group</uicontrol> of selected students in the class, or <uicontrol>individual students</uicontrol>;</li>
+    <li>use your own files for the assignments;</li>
+    <li>save assignments as template for future <uicontrol>reuse</uicontrol> and/or <uicontrol>sharing</uicontrol> between teachers;</li>
+    <li>students can work on the assignments in <uicontrol>iterations</uicontrol> with periodic review of their progress by the teacher, possibility to send it back to the student for reworking, all before issuing the final grade;</li>
+	<li>same assignment can be handed out to different classes, group, and individual students in <uicontrol>parallel</uicontrol>;</li>
+    <li>you can use assignments created in <wintitle>Nibelung NQuiz</wintitle> (freely distributed) <uicontrol>quiz builder</uicontrol>;</li>
+    <li>built in facilities for <uicontrol>import</uicontrol>, <uicontrol>export</uicontrol>, <uicontrol>backup</uicontrol>, and filing assignments to the <uicontrol>archive</uicontrol>, as well as generating <uicontrol>reports</uicontrol> on active and completed assignments.</li>
   </ul>  
   
-  <p>Архитектура модуля <wintitle>Задания через Интернет</wintitle> обеспечивает параллельную работу преподавателей и учащихся учебного заведения с произвольным количеством учебных заданий.</p>
+  <p>Architecture of the <wintitle>Remote Learning</wintitle> module does not have a built in limit on the number of of assignments, with all of them can be used simultaneously. In practice, this is limited only by the available school resourses: disk space, internet connection, cloud storage, etc.</p>
   
   </conbody>
 </concept>
