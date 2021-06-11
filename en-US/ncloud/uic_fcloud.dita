@@ -53,7 +53,7 @@
 
 <p>Каждый файл - элемент списка содержимого - имеет контекстное меню, вызывающееся правой кнопкой мыши или клавишей <menucascade><uicontrol>Меню</uicontrol></menucascade>. На рисунке ниже показан вид контекстного меню элемента содержимого облачного хранилища.</p>
 
-        <fig id="task_remote_content_view_png">
+        <fig id="task_remote_content_cmenu_png">
             <title>Контекстное меню файла в списке содержимого</title>
             <image href="img/content-cmenu.png" placement="break">
                 <alt>Контекстное меню файла в списке содержимого</alt>
