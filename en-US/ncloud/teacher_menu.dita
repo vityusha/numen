@@ -2,7 +2,7 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 
-<concept id="teacher_menu" xml:lang="ru-RU">
+<concept id="teacher_menu" xml:lang="en-US">
   <title>Запуск модуля</title>
   <conbody>
   <p>При наличии установленного модуля <wintitle>Задания через Интернет</wintitle> в меню программы <wintitle>Диалог Nibelung</wintitle> появляется соответствующий пункт <menucascade><uicontrol>Инструменты</uicontrol><uicontrol>Дополнения</uicontrol><uicontrol>Задания через Интернет</uicontrol></menucascade>.</p>

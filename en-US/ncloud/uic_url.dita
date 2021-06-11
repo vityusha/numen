@@ -2,9 +2,9 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 
-  <concept id="uic_url" xml:lang="ru-RU">
-  <title>Диалог создания гиперссылки</title>
-  <conbody>
+<concept id="uic_url" xml:lang="en-US">
+<title>Диалог создания гиперссылки</title>
+<conbody>
   
 <p>Диалог добавления файла гиперссылки открывается при нажатии кнопки <uicontrol>Добавить URL</uicontrol> в интерфейсе выбора файлов для отправки.</p>
 
@@ -16,8 +16,6 @@
         </fig>
 
 <p>Поле <uicontrol>Введите имя</uicontrol> служит для ввода имени файла с гиперссылкой. В поле <uicontrol>Введите URL</uicontrol> необходимо ввести или вставить из буфера обмена желаемый адрес в Интернете.</p>
-
-<note type="important">Адрес необходимо вводить полностью!</note>
 
 </conbody>
 </concept>
