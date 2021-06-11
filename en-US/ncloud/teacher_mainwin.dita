@@ -3,10 +3,10 @@
 "concept.dtd">
 
 <concept id="teacher_mainwin" xml:lang="en-US">
-  <title>Главное окно</title>
+  <title>Main window</title>
   <conbody>
   
-  <p>При выборе пункта меню <wintitle>Задания через Интернет</wintitle> открывается главное окно, содержащее следующие вкладки:</p>
+  <p>Select <wintitle>Remote assignments</wintitle> item from the menu. A remote assignments window will appear on your screen, containing several tabs:</p>
 
 <table frame="topbot">
   <tgroup cols="2">
@@ -15,31 +15,31 @@
    
    <thead>
 <row>
-  <entry colname="COLSPEC0" align="center"><uicontrol>Вкладка</uicontrol></entry>
-  <entry colname="COLSPEC1" align="center">Назначение</entry>
+  <entry colname="COLSPEC0" align="center"><uicontrol>Tab</uicontrol></entry>
+  <entry colname="COLSPEC1" align="center">Desciption</entry>
 </row>
 </thead>
 
 <tbody>
 
 <row>
-<entry><uicontrol>Задания</uicontrol></entry>
-<entry>Просмотр, создание и управление шаблонами заданий</entry>
+<entry><uicontrol>Assignments</uicontrol></entry>
+<entry>Create and manage assignments</entry>
 </row>
 
 <row>
-<entry><uicontrol>Опубликованные задания</uicontrol></entry>
-<entry>Просмотр, создание и управление публикациями</entry>
+<entry><uicontrol>Published assignments</uicontrol></entry>
+<entry>Manage published assignments</entry>
 </row>
 
 <row>
-<entry><uicontrol>Выполнение</uicontrol></entry>
-<entry>Просмотр хода выполнения публикации учащимися; проверка и выставление оценок</entry>
+<entry><uicontrol>Progress</uicontrol></entry>
+<entry>Monitor students' progress on a published assignment; review and grade their work</entry>
 </row>
 
 <row>
-<entry><uicontrol>Обслуживание</uicontrol></entry>
-<entry>Проведение системных действий (см. <xref keyref="admin_mode"/>&#160;)</entry>
+<entry><uicontrol>Maintenance</uicontrol></entry>
+<entry>System maintenance (performed by administrator, see <xref keyref="admin_mode"/>&#160;)</entry>
 </row>
 
 </tbody>
@@ -47,13 +47,13 @@
 </table>
 
           <fig id="teacher_window_png">
-            <title>Главное окно</title>
+            <title>Remote assignments main window on the teacher side</title>
             <image href="img/teacher-window.png" placement="break">
-                <alt>Главное окно</alt>
+                <alt>Main window</alt>
             </image>
         </fig>
   
-        <p>На этом рисунке цифрами обозначены:</p>
+        <p>Controls of the remote assignment main window:</p>
 
 <table frame="topbot">
 <tgroup cols="2">
@@ -64,71 +64,71 @@
 
 <row>
 <entry>1</entry>
-<entry>Вкладка <uicontrol>Задания</uicontrol></entry>
+<entry><uicontrol>Assignments</uicontrol> tab</entry>
 </row>
 
 <row>
 <entry>2</entry>
-<entry>Вкладка <uicontrol>Опубликованные задания</uicontrol></entry>
+<entry><uicontrol>Published assignments</uicontrol> tab</entry>
 </row>
 
 <row>
 <entry>3</entry>
-<entry>Вкладка <uicontrol>Выполнение</uicontrol></entry>
+<entry><uicontrol>Progress</uicontrol> tab</entry>
 </row>
 
 <row>
 <entry>4</entry>
-<entry>Вкладка <uicontrol>Обслуживание</uicontrol></entry>
+<entry><uicontrol>Maintenance</uicontrol> tab</entry>
 </row>
 
 <row>
 <entry>5</entry>
-<entry>Кнопки управления окном и вызова справки</entry>
+<entry>Window control and help buttons</entry>
 </row>
 
 <row>
 <entry>6</entry>
-<entry>Кнопка <uicontrol>Обновить список</uicontrol></entry>
+<entry><uicontrol>Refresh</uicontrol> list button</entry>
 </row>
 
 <row>
 <entry>7</entry>
-<entry>Кнопка <uicontrol>Назад</uicontrol></entry>
+<entry><uicontrol>Previous</uicontrol> tab button</entry>
 </row>
 
 <row>
 <entry>8</entry>
-<entry>Кнопка <uicontrol>Далее</uicontrol></entry>
+<entry><uicontrol>Next</uicontrol> tab button</entry>
 </row>
 
 <row>
 <entry>9</entry>
-<entry>Кнопка <uicontrol>Закрыть</uicontrol></entry>
+<entry><uicontrol>Close</uicontrol> window button</entry>
 </row>
 
 <row>
 <entry>10</entry>
-<entry>Индикатор квоты</entry>
+<entry>Cloud quota indicator</entry>
 </row>
 
 <row>
 <entry>11</entry>
-<entry>Текущий статус работы модуля</entry>
+<entry>Module status</entry>
 </row>
 
 <row>
 <entry>12</entry>
-<entry>Индикатор состояния соединения с Интернетом и облачным хранилищем</entry>
+<entry>Online and cloud connection indicator</entry>
 </row>
 
 </tbody>
 </tgroup>
 </table>  
 
-<p>В области с кнопками управления окном находятся стандартные кнопки (свернуть, закрыть, восстановить / максимизировать) и кнопка вызова диалога <uicontrol>О программе</uicontrol> (см. <xref keyref="uic_about"/>&#160;).</p>
+<p>Window control area <uicontrol>5</uicontrol> contain the standard Minimize/Restore, Maximize, and close buttons, plus a button that displays <uicontrol>About</uicontrol> dialog box (see <xref keyref="uic_about"/>&#160;), from where an online copy of this manual can be consulted.</p>
 
-<p>Нажатие на кнопку <uicontrol>Обновить список</uicontrol>, в зависимости от текущей вкладки, загружает актуальные данные из облачного хранилища (см. <xref keyref="glossary"/>&#160;). Соотношение между активной вкладкой и типом обновляемых данных пояснено в таблице ниже.</p>
+<p><uicontrol>Refresh list</uicontrol> refreshes the list displayed in the current tab from the cloud (see <xref keyref="glossary"/>&#160;). Please see the table below for detailed explanation of what exactly is refreshed in each case.</p>
 
 <table frame="topbot">
 <tgroup cols="2">
@@ -136,34 +136,34 @@
    <colspec colname="COLSPEC1" colwidth="200*"/>
 <thead>
 <row>
-  <entry colname="COLSPEC0" align="center"><uicontrol>Активная вкладка</uicontrol></entry>
-  <entry colname="COLSPEC1" align="center">Обновляемая информация</entry>
+  <entry colname="COLSPEC0" align="center"><uicontrol>Active tab</uicontrol></entry>
+  <entry colname="COLSPEC1" align="center">Refreshed information</entry>
 </row>
 </thead>
 <tbody>
 
 <row>
-<entry><uicontrol>Задания</uicontrol></entry>
-<entry>Информация о шаблонах заданий и опубликованных заданиях</entry>
+<entry><uicontrol>Assignments</uicontrol></entry>
+<entry>List of assignments, both published and unpublished</entry>
 </row>
 
 <row>
-<entry><uicontrol>Опубликованные задания</uicontrol></entry>
-<entry>Информация о выполнении опубликованных заданий</entry>
+<entry><uicontrol>Published assignments</uicontrol></entry>
+<entry>List of published assignments with progress summary for each</entry>
 </row>
 
 <row>
-<entry><uicontrol>Выполнение</uicontrol></entry>
-<entry>Информация о выполнении учащимися текущего задания</entry>
+<entry><uicontrol>Progress</uicontrol></entry>
+<entry>Detailed progress of each student on the selected assignment</entry>
 </row>
 
 </tbody>
 </tgroup>
 </table>
 
-<note type="note">Если на момент нажатия кнопки <uicontrol>Обновить список</uicontrol> какие-либо из обновляемых данных были изменены, но не были сохранены пользователем, появится диалог с предложением сохранить сделанные изменения</note>
+<note type="note">If you hit <uicontrol>Refresh</uicontrol> with having any unsaved modifications, the software will prompt you to save them before proceeding.</note>
 
-<p>Статус в нижней части окна меняется при выполнении модулем фактических действий с облачным хранилищем. <uicontrol>Индикатор квоты</uicontrol> в правой части статусной строки визуально отображает процент использования дискового пространства в облачном хранилище. При наведении на него указателя мышки появляется более подробная информация об оставшейся квоте.</p> 
+<p>The status line at the bottom of the window will be upated on each clod action. The <uicontrol>Quota indicator</uicontrol> 10 shows percentage of the cloud storage used. Hover the mouse pointer over it for additional information on the quota.</p> 
 
   </conbody>
 </concept>
