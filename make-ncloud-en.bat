@@ -8,7 +8,7 @@ REM  (c) Copyright IBM Corp. 2006 All Rights Reserved.
 SETLOCAL
 
 REM Get the absolute path of DITAOT's home directory
-set DITA_DIR=e:\work\dita\
+set DITA_DIR=c:\work\dita\
 
 REM Set environment variables
 set ANT_OPTS=-Xmx512m %ANT_OPTS%
