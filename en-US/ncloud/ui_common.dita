@@ -8,7 +8,7 @@
   
   <p>This section describes several elements are common between teacher and student user interfaces of the <uicontrol>Remore Assignments<uicontrol> module. Those elements are:
       <ul>
-        <li><uicontrol>File selection</uicontrol> dialog box is displayed in the teacher interface when creating an new assignment (<uicontrol>Create assignment</uicontrol> tab, see <xref keyref="tasks_creation"/>&#160;) and in the student interface when selecting <uicontrol>Files to send</uicontrol> in the corresponding tab (see <xref keyref="std_send_rcv"/>&#160;).</li>
+        <li><uicontrol>Files to send</uicontrol> panel is displayed in the teacher interface when creating an new assignment (<uicontrol>Create assignment</uicontrol> tab, see <xref keyref="tasks_creation"/>&#160;) and in the student interface when selecting <uicontrol>Files to send</uicontrol> in the corresponding tab (see <xref keyref="std_send_rcv"/>&#160;).</li>
 		
         <li>The <uicontrol>Contents</uicontrol> panel dispays files attached to the assignment and allows to download from the cloud, open, copy, and delete them. This panel is displayed in the  <uicontrol>Assignment contents</uicontrol> and <uicontrol>Answer contents</uicontrol> of the student interface; and in <uicontrol>Assignments</uicontrol> and <uicontrol>Progress</uicontrol> tabs of the teacher interface main window.</li>
 		
