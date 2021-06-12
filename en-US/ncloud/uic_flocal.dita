@@ -3,18 +3,18 @@
 "concept.dtd">
 
   <concept id="uic_flocal" xml:lang="en-US">
-  <title>Область выбора файлов</title>
+  <title>File selection dialog</title>
   <conbody>
   
-<p>Интерфейс инструментария для отправки файлов с компьютера в облачное хранилище. Относится как к создаваемым / редактируемым шаблонам у преподавателя, так и к файлам, отправляемым учащимися в качестве ответа на задания.</p>
+<p>Use <uicontrol>Files to send</uicontrol> tool to selct and upload files to the cloud storage. It is used on the teacher side when creating and modifying assignments and on the student side when  files are used as a part of their answer to the assignment.</p>
 
         <fig id="local_content_png">
-            <title>Инструментарий для отправки файлов</title>
+            <title><uicontrol>Files to send</uicontrol> tab</title>
             <image href="img/local-content.png" placement="break">
-                <alt>Инструментарий для отправки файлов</alt>
+                <alt><uicontrol>Files to send</uicontrol> tab</alt>
             </image>
         </fig>
-        <p>На этом рисунке цифрами обозначены:</p>
+        <p>Elements on the figure above are:</p>
 
 <table frame="topbot">
 <tgroup cols="2">
@@ -25,65 +25,65 @@
 
 <row>
 <entry>1</entry>
-<entry>Вкладка <uicontrol>Файлы для отправки</uicontrol>.</entry>
+<entry><uicontrol>Files to send</uicontrol> tab.</entry>
 </row>
 
 <row>
 <entry>2</entry>
-<entry>Список файлов для отправки</entry>
+<entry>List of files to be uploaded.</entry>
 </row>
 
 <row>
 <entry>3</entry>
-<entry><uicontrol>Поле комментария</uicontrol>.</entry>
+<entry><uicontrol>Comments</uicontrol> for the files.</entry>
 </row>
 
 <row>
 <entry>4</entry>
-<entry><uicontrol>Размер содержимого</uicontrol>.</entry>
+<entry><uicontrol>Total size</uicontrol>.</entry>
 </row>
 
 <row>
 <entry>5</entry>
-<entry>Кнопка <uicontrol>Добавить файлы</uicontrol>.</entry>
+<entry><uicontrol>Add files</uicontrol> button.</entry>
 </row>
 
 <row>
 <entry>6</entry>
-<entry>Кнопка <uicontrol>Добавить URL</uicontrol>.</entry>
+<entry><uicontrol>Add URL</uicontrol> button.</entry>
 </row>
 
 <row>
 <entry>7</entry>
-<entry>Кнопка <uicontrol>Удалить</uicontrol>.</entry>
+<entry><uicontrol>Remove</uicontrol> item button.</entry>
 </row>
 
 </tbody>
 </tgroup>
 </table>
 
-<p>Вкладка, содержащая файлы для отправки, будет обведена красной рамкой в случаях:
+<p>Border of the <uicontrol>Files to send</uicontrol> tab will turn red in any of the following cases:
 <ul>
-<li>если задание создается преподавателем, и ни один файл ещё не был добавлен</li>
-<li>во всех случаях, если общий размер добавленных файлов превышает размер оставшейся квоты</li>
-<li>во всех случаях, если количество файлов содержимого плюс количество добавляемых файлов превышает <uicontrol>10</uicontrol></li>
+<li>no files have been attached yet to the newly created assignment;</li>
+<li>total size of attached files exceeds the remaining cloud storage quota;</li>
+<li>total number of attached files plus files to be added exceeds <uicontrol>10</uicontrol>.</li>
 </ul>
 </p>
 
-<p>В списке файлов для отправки содержатся столбцы (имя файла, тип, размер, дата последнего изменения) и дополнительное поле комментария.</p>
+<p>The list of files contains columns for the file name, file type, size, modification date and time, and an optional comment field.</p>
 
-<p>В поле <uicontrol>Размер содержимого</uicontrol> содержится информация о количестве и суммарном размере файлов к отправке. Нажатие на кнопку <uicontrol>Добавить файлы</uicontrol> открывает стандартный диалог выбора файлов. </p>
+<p>The <uicontrol>Total size</uicontrol> field shows total number and size of files to be uploaded to the cloud. The <uicontrol>Add files</uicontrol> button opens a standard file selection dialog.</p>
 
-<note type="attention">Если количество файлов превышает указанные ограничения, будет выдано информационное сообщение, а если их размер будет превышать оставшуюся квоту, то поле с размером содержимого станет красного цвета, с детальным пояснением при наведении на него указателя мышки. Сохранение набора файлов в облачное хранилище при этом станет невозможным до тех пор, пока суммарный размер файлов на отправку не будет уменьшен до допустимого значения</note>
+<note type="attention">An error message will be shown if the number of files for the assignment exceeds 10 (see xref _fixme_). The <uicontrol>Total size</uicontrol> field will turn red if total size of the assignment files exceeds the remaining could storage quota. Hover the mouse pointer over it for additional details.</note>
 
         <fig id="task_files_exceeded_dialog_png">
-            <title>Предупреждение о превышении допустимого количества файлов</title>
+            <title>Excessive number of files error message</title>
             <image href="img/task-files-exceeded-dialog.png" placement="break">
-                <alt>Предупреждение о превышении допустимого количества файлов</alt>
+                <alt>Excessive number of files error message</alt>
             </image>
         </fig>
 		
-<p>Кнопка <uicontrol>Добавить URL</uicontrol> открывает диалог создания файла гиперссылки как составной части задания (ответа). Нажатие на кнопку <uicontrol>Удалить</uicontrol> убирает выделенные файлы из списка.</p>
+<p>Press the <uicontrol>Add URL</uicontrol> button to add a WWW link as a part of the assignment or your answer to it (see section _fixme_ [xref] for further details). Press the <uicontrol>Remove</uicontrol> button to remove selected items from the list.</p>
 
 </conbody>
 </concept>
