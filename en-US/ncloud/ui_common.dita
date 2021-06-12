@@ -3,28 +3,28 @@
 "concept.dtd">
 
 <concept id="ui_common" xml:lang="en-US">
-  <title>Список элементов</title>
+  <title></title>
   <conbody>
   
-  <p>К общим элементам интерфейса, представленным как у преподавателей, так и у учащихся, относятся:
+  <p>This section describes several elements are common between teacher and student user interfaces of the <uicontrol>Remore Assignments<uicontrol> module. Those elements are:
       <ul>
-        <li><uicontrol>Интерфейс выбора файлов</uicontrol>: отображается у преподавателя при создании задания (вкладка <uicontrol>Добавить файлы</uicontrol>, см. <xref keyref="tasks_creation"/>&#160;), у учащихся - при отправке результатов выполнения на вкладке <uicontrol>Файлы для отправки</uicontrol> (см. <xref keyref="std_send_rcv"/>&#160;)</li>
+        <li><uicontrol>File selection</uicontrol> dialog box is displayed in the teacher interface when creating an new assignment (<uicontrol>Create assignment</uicontrol> tab, see <xref keyref="tasks_creation"/>&#160;) and in the student interface when selecting <uicontrol>Files to send</uicontrol> in the corresponding tab (see <xref keyref="std_send_rcv"/>&#160;).</li>
 		
-        <li><uicontrol>Интерфейс Содержимое</uicontrol>: предназначен для управления файлами (загрузки, открытия, копирования, удаления), находящимися в облачном хранилище. Показывается во вкладках <uicontrol>Содержимое задания</uicontrol> и <uicontrol>Содержимое ответа</uicontrol> у учащихся; у преподавателя этот элемент можно встретить во вкладках главного окна <uicontrol>Задания</uicontrol> и <uicontrol>Выполнение</uicontrol></li>
+        <li>The <uicontrol>Contents</uicontrol> panel dispays files attached to the assignment and allows to download from the cloud, open, copy, and delete them. This panel is displayed in the  <uicontrol>Assignment contents</uicontrol> and <uicontrol>Answer contents</uicontrol> of the student interface; and in <uicontrol>Assignments</uicontrol> and <uicontrol>Progress</uicontrol> tabs of the teacher interface main window.</li>
 		
-        <li><uicontrol>Панель статуса</uicontrol> находится в нижней части главного окна и отображает служебную информацию: состояние <uicontrol>соединения</uicontrol>, <uicontrol>квоту</uicontrol>, производимые действия и различные информационные сообщения</li>
+        <li><uicontrol>Status line</uicontrol> at the bottom of of the main window shows <uicontrol>connectivity</uicontrol> status, cloud storage <uicontrol>quota</uicontrol>, as well as current action and miscellaneous additional information.</li>
 		
-        <li><uicontrol>Диалог добавления файлов</uicontrol> открывается у преподавателя при выборе файлов для нового <uicontrol>Задания</uicontrol>, у учащегося - при выборе одного или нескольких файлов, которые будут ответом к назначенному ему <uicontrol>Заданию</uicontrol> (<uicontrol>Публикации</uicontrol>)</li>
+        <li><uicontrol>Add files</uicontrol> dialog box is displayed in the teacher interface when selecting files for a new <uicontrol>Assignment</uicontrol>, and in the student interface when selecting files that will serve as an answer for their <uicontrol>Assignment</uicontrol>.</li>
 		
-        <li><uicontrol>Диалог добавления URL</uicontrol> открывается в случаях, когда в качестве файла для создаваемого преподавателем <uicontrol>Задания</uicontrol> будет использоваться гиперссылка. То же относится и к ответу учащегося: в зависимости от специфики предмета и задания у него есть возможность добавить гиперссылку в качестве своего ответа (части ответа)</li>
+        <li><uicontrol>Add URL</uicontrol> dialog box is displayed whenever <uicontrol>Assignment</uicontrol> a hyperlink is being specified in place of a local file.</li>
 		
-		<li><uicontrol>Индикация длительных операций</uicontrol></li>
+		<li><uicontrol>Progress bar</uicontrol></li>
 		
-		<li>Диалог <uicontrol>О программе</uicontrol>: открывается нажатием кнопки со знаком <uicontrol><shortcut>?</shortcut></uicontrol> в верхнем правом углу главного окна интерфейса модуля <wintitle>Задания через Интернет</wintitle> (см. <xref keyref="teacher_mainwin"/>&#160; и <xref keyref="std_mainwin"/>&#160;)</li>
+		<li><uicontrol>About</uicontrol> dialog box is displayed by pressing the  <uicontrol><shortcut>?</shortcut></uicontrol> button in the window controls area of the  <wintitle>Remote Assignments</wintitle> main window (see <xref keyref="teacher_mainwin"/>&#160; and <xref keyref="std_mainwin"/>&#160;).</li>
       </ul>
   </p>
   
-  <note type="tip">Маркировка текущего статуса опубликованного задания одинакова и для учащегося, которому назначено задание, и для преподавателя, опубликовавшего задание</note>
+  <note type="tip">Current status of a published assignment is the same for both the teacher and the students who received the assignment.</note>
   
   </conbody>
 </concept>
