@@ -3,18 +3,18 @@
 "concept.dtd">
 
   <concept id="uic_fcloud" xml:lang="en-US">
-  <title>Область содержимого</title>
+  <title>Content panel</title>
   <conbody>
   
-<p>Просмотр и управление файлами, являющимися частью задания (ответа), осуществляется в области просмотра и управления облачным содержимым.</p>
+<p>Content panel can be encountered in both teacher and student interfaces. Its principal purpose os to list files attached to either the assignment or the answer and provide controls to manupulate those files.</p>
 
         <fig id="task_remote_content_view_png">
-            <title>Область просмотра и управления облачным содержимым</title>
+            <title>Assignment content panel</title>
             <image href="img/task-remote-content-view.png" placement="break">
-                <alt>Область просмотра и управления облачным содержимым</alt>
+                <alt>Assignment content panel</alt>
             </image>
         </fig>
-        <p>На этом рисунке цифрами обозначены:</p>
+        <p>Elements of the content panel:</p>
 
 <table frame="topbot">
 <tgroup cols="2">
@@ -25,38 +25,38 @@
 
 <row>
 <entry>1</entry>
-<entry>Область просмотра содержимого</entry>
+<entry>Content tab</entry>
 </row>
 
 <row>
 <entry>2</entry>
-<entry>Выделенный файл задания</entry>
+<entry>Selected file</entry>
 </row>
 
 <row>
 <entry>3</entry>
-<entry>Кнопка загрузки файла задания</entry>
+<entry><uicontrol>Download</uicontrol> file button</entry>
 </row>
 
 <row>
 <entry>4</entry>
-<entry>Кнопка просмотра файла задания</entry>
+<entry><uicontrol>Open</uicontrol> file button</entry>
 </row>
 
 </tbody>
 </tgroup>
 </table>
 
-<p>Список с содержимым имеет столбцы с именем, типом и размером файла, комментарием (необязательное поле) и кнопкой действия. Если файл содержимого не был ранее загружен из облачного хранилища, для него будет показана кнопка <uicontrol>Загрузить</uicontrol>, нажатие на которую загрузит копию файла из облачного хранилища на компьютер. Когда файл содержимого уже загружен на компьютер, для него показывается кнопка <uicontrol>Открыть</uicontrol>.</p>
+<p>The file list includes columns for file name, file type, size, (optional) comments, and available actions for the file. The <uicontrol>Action</uicontrol> column will display either the <uicontrol>Download</uicontrol> button for files in the cloud storage or the <uicontrol>Open</uicontrol> button for local files.</p>
 
-<note type="tip">Файлы содержимого открываются программами по умолчанию для их типов. Если файл необходимо открыть с помощью другой программы, следует воспользоваться пунктом <menucascade><uicontrol>Копировать</uicontrol></menucascade> контекстного меню (см. ниже) и сохранить файл в удобном для себя месте</note>
+<note type="tip">Files will be opened by a default application for this particular file type. Use the  <menucascade><uicontrol>Copy</uicontrol></menucascade> facility from the file context menu (see below) to create a copy of the file with different extension to open it in another application.</note>
 
-<p>Каждый файл - элемент списка содержимого - имеет контекстное меню, вызывающееся правой кнопкой мыши или клавишей <menucascade><uicontrol>Меню</uicontrol></menucascade>. На рисунке ниже показан вид контекстного меню элемента содержимого облачного хранилища.</p>
+<p>Every file in the list also has a context menu that can be opened by right clicking on the file or pressing the <menucascade><uicontrol>Menu</uicontrol></menucascade> button on your keyboard. An example of a file context menu is shown below.</p>
 
         <fig id="task_remote_content_cmenu_png">
-            <title>Контекстное меню файла в списке содержимого</title>
+            <title>Context file menu</title>
             <image href="img/content-cmenu.png" placement="break">
-                <alt>Контекстное меню файла в списке содержимого</alt>
+                <alt>Context file menu</alt>
             </image>
         </fig>
 
