@@ -3,17 +3,17 @@
 "concept.dtd">
 
 <concept id="std_mainwin" xml:lang="en-US">
-  <title>Окно для работы над заданиями</title>
+  <title>Assignment workspace window</title>
   <conbody>
-  <p>При запуске модуля <wintitle>Задания через Интернет</wintitle> учащимся (см. <xref keyref="std_menu"/>&#160;) открывается окно для работы над заданиями.</p>
+  <p>An assignment workspace windo will apear on the screen after start of the <wintitle>Remote Assignments</wintitle> module (see <xref keyref="std_menu"/>&#160;) on a student computer.</p>
 
         <fig id="student_window_png">
-            <title>Окно учащегося</title>
+            <title>Assignment workspace window</title>
             <image href="img/student-window.png" placement="break">
-                <alt>Окно учащегося</alt>
+                <alt>Assignment workspace window</alt>
             </image>
         </fig>
-        <p>На этом рисунке цифрами обозначены:</p>
+        <p>Elements of the window:</p>
 
 <table frame="topbot">
 <tgroup cols="2">
@@ -24,55 +24,55 @@
 
 <row>
 <entry>1</entry>
-<entry>Область управления окном и вызова справки</entry>
+<entry>Window control and help buttons area</entry>
 </row>
 
 <row>
 <entry>2</entry>
-<entry>Список назначенных заданий</entry>
+<entry>List of handed out assignments</entry>
 </row>
 
 <row>
 <entry>3</entry>
-<entry>Кнопка <uicontrol>Обновить список</uicontrol></entry>
+<entry><uicontrol>Refresh list</uicontrol> _fixme_ button</entry>
 </row>
 
 <row>
 <entry>4</entry>
-<entry>Фильтр заданий</entry>
+<entry>Assigments filter</entry>
 </row>
 
 <row>
 <entry>5</entry>
-<entry>Область задания</entry>
+<entry>Selected assignment panel</entry>
 </row>
 
 <row>
 <entry>6</entry>
-<entry>Область действий с ответом</entry>
+<entry>Answer acrions panel</entry>
 </row>
 
 <row>
 <entry>7</entry>
-<entry>Статусная строка</entry>
+<entry>Status line</entry>
 </row>
 
 <row>
 <entry>8</entry>
-<entry>Кнопка <uicontrol>Закрыть</uicontrol></entry>
+<entry><uicontrol>Close</uicontrol> window button</entry>
 </row>
 
 </tbody>
 </tgroup>
 </table>
 
-<p>Область управления окном содержит стандартные кнопки (свернуть, закрыть, восстановить / максимизировать) и кнопку вызова диалога <uicontrol>О программе</uicontrol> (см. <xref keyref="uic_about"/>&#160;).</p>
+<p>Window control area <uicontrol>5</uicontrol> contain the standard Minimize/Restore, Maximize, and close buttons, plus a button that displays <uicontrol>About</uicontrol> dialog box (see <xref keyref="uic_about"/>&#160;), from where an online copy of this manual can be consulted.</p>
 
-<p>Список заданий содержит основные сведения о существующих заданиях; для выбора задания следует выделить его в списке.</p>
+<p>The assignment list <uicontrol>2</uicontrol> sown all assignments handed out to the student. List content can be controlled by applying filters <uicontrol>4</uicontrol>. Selected assignment is displayed in the assignment panel <uicontrol>5</uicontrol>.</p>
 
-<p>Для обновления списка заданий служит кнопка <uicontrol>Обновить список</uicontrol>. При ее нажатии будет предложено сохранить сделанные изменения, после чего из облачного хранилища (см. <xref keyref="glossary"/>&#160;) будет загружена последняя версия заданий для учащегося, включая (при наличии): новые задания, изменения в статусах заданий, оценки, комментарии.</p>
+<p>Press <uicontrol>Refresh list</uicontrol> button to obtain update the list of assignments. Pressing this button will prompt you to save your work, after which assignments will be updated from the cloud (see <xref keyref="glossary"/>&#160;), including new assignments (if any),  current assignent(s) status changes, grades, teacher comments, etc.</p>
 
-<p>Фильтр заданий предназначен для управления показом неактивных и закрытых заданий.</p>
+<p>Assignment filter allows for a certain level of control over contents of the assignment list.</p>
 
 <table frame="topbot">
 <tgroup cols="2">
@@ -81,34 +81,33 @@
 
 <thead>
 <row>
-<entry colname="COLSPEC0">Фильтр</entry>
-<entry colname="COLSPEC1">Действие</entry>
+<entry colname="COLSPEC0">Filter</entry>
+<entry colname="COLSPEC1">Action</entry>
 </row>
 </thead>
 
 <tbody>
 
 <row>
-<entry>Нет</entry>
-<entry>Показываются все задания</entry>
+<entry>Show all</entry>
+<entry>Show all assignments handed out to this student</entry>
 </row>
 
 <row>
-<entry>Скрыть закрытые</entry>
-<entry>Из списка убираются задания, имеющие статус <uicontrol>Закрыто</uicontrol> и  <uicontrol>Просрочено</uicontrol> (см. <xref keyref="glossary"/>&#160;)</entry>
+<entry>Hide closed</entry>
+<entry>Hide assignments that are <uicontrol>Closed</uicontrol> or <uicontrol>Late</uicontrol> _fixme_ [ui] (см. <xref keyref="glossary"/>&#160;)</entry>
 </row>
 
 <row>
-<entry>Скрыть неактивные</entry>
-<entry>Из списка убираются задания со статусами <uicontrol>Закрыто</uicontrol>, <uicontrol>Просрочено</uicontrol>, <uicontrol>Ожидает проверки</uicontrol> и <uicontrol>Проверено</uicontrol></entry>
+<entry>Hide inactive</entry>
+<entry>Hide assignments that are <uicontrol>Closed</uicontrol>, <uicontrol>Late</uicontrol>, <uicontrol>Waiting</uicontrol> or <uicontrol>Graded</uicontrol> _fixme_ [ui]</entry>
 </row>
 
 </tbody>
 </tgroup>
 </table>
 
-<p><uicontrol>Область задания</uicontrol> содержит информацию и инструменты для выполнения задания. <uicontrol>Область действий</uicontrol> содержит кнопки, определяющие возможные для учащегося действия: <uicontrol>сохранение</uicontrol> ответа на задание и отправка ответа <uicontrol>на проверку</uicontrol>.</p>
-
+<p>Information about selected assignment, together with the tools for comletion of the assignment, is displayed in the <uicontrol>Assignment panel</uicontrol> area. Buttons for <uicontrol>saving</uicontrol> and <uicontrol>submitting</uicontrol> _fixme?_ [ui] your work are located in the <uicontrol>Answer actions</uicontrol> panel to the right of the <uicontrol>Assignment panel</uicontrol>.</p>
 
   </conbody>
 </concept>
