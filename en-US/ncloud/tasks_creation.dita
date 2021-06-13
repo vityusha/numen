@@ -3,18 +3,18 @@
 "concept.dtd">
 
 <concept id="tasks_creation" xml:lang="en-US">
-<title>Создание заданий</title>
+<title>Creating assignment</title>
 <conbody>
 
-<p>На первой вкладке <uicontrol>Задания</uicontrol> окна преподавателя производятся все операции над шаблонами заданий</p>
+<p>Select the <uicontrol>Assignments</uicontrol> tab in the remote assignments main window _fixme_ [xref fig.2] to create a new assignment.</p>
 
           <fig id="teacher_main_tab_png">
-            <title>Вкладка <uicontrol>Задания</uicontrol> главного окна</title>
+            <title><uicontrol>Assignments</uicontrol> tab</title>
             <image href="img/teacher-main-tab.png" placement="break">
-                <alt>Вкладка <uicontrol>Задания</uicontrol> главного окна</alt>
+                <alt><uicontrol>Assignments</uicontrol> tab</alt>
             </image>
         </fig>
-        <p>На этом рисунке цифрами обозначены:</p>
+        <p>Elements of the <uicontrol>Assignments</uicontrol> tab:</p>
 
 <table frame="topbot">
 <tgroup cols="2">
@@ -25,27 +25,27 @@
 
 <row>
 <entry>1</entry>
-<entry><uicontrol>Список шаблонов заданий</uicontrol></entry>
+<entry><uicontrol>List of assignments</uicontrol></entry>
 </row>
 
 <row>
 <entry>2</entry>
-<entry><uicontrol>Область создания и редактирования шаблонов заданий</uicontrol></entry>
+<entry><uicontrol>Assignment editing panel</uicontrol></entry>
 </row>
 
 </tbody>
 </tgroup>
 </table>
 
-<p>Список шаблонов заданий содержит имеющиеся у преподавателя шаблоны заданий. Операции над ними, а также расширенный просмотр свойств и их редактирование, производятся в области создания и редактирования шаблонов заданий.</p>
+<p>List of assignments in this tab contains all the unpublished assignments that can still be edited, modified, extended, etc. All these operations are performed in the assignment editing panel.</p>
 
         <fig id="task_control_main_png">
-            <title>Область создания и редактирования шаблона задания</title>
+            <title>Assignment editing panel</title>
             <image href="img/task-control-main.png" placement="break">
-                <alt>Область создания и редактирования шаблона задания</alt>
+                <alt>Assignment editing panel</alt>
             </image>
         </fig>
-        <p>На этом рисунке цифрами обозначены:</p>
+        <p>Elements of the <uicontrol>Assignment editing panel</uicontrol>:</p>
 
 <table frame="topbot">
 <tgroup cols="2">
@@ -56,93 +56,91 @@
 
 <row>
 <entry>1</entry>
-<entry>Вкладка <uicontrol>Свойства</uicontrol> области просмотра и управления шаблоном задания</entry>
+<entry><uicontrol>Properties</uicontrol> tab</entry>
 </row>
 
 <row>
 <entry>2</entry>
-<entry>Вкладка <uicontrol>Содержимое</uicontrol></entry>
+<entry><uicontrol>Content</uicontrol> tab</entry>
 </row>
 
 <row>
 <entry>3</entry>
-<entry>Вкладка <uicontrol>Файлы для отправки</uicontrol></entry>
+<entry><uicontrol>Files to send</uicontrol> tab</entry>
 </row>
 
 <row>
 <entry>4</entry>
-<entry>Область просмотра и редактирования общей информации о шаблоне задания</entry>
+<entry>Assignment metadata</entry>
 </row>
 
 <row>
 <entry>5</entry>
-<entry>Опция <uicontrol>Общее для всех преподавателей</uicontrol></entry>
+<entry>Indicates that this assignment is shared with other teachers in school</entry>
 </row>
 
 <row>
 <entry>6</entry>
-<entry>Кнопка <uicontrol>Создать задание</uicontrol></entry>
+<entry><uicontrol>Create assignment</uicontrol> button</entry>
 </row>
 
 <row>
 <entry>7</entry>
-<entry>Кнопка <uicontrol>Сохранить задание</uicontrol></entry>
+<entry><uicontrol>Save assignment</uicontrol> button</entry>
 </row>
 
 <row>
 <entry>8</entry>
-<entry>Кнопка <uicontrol>Удалить задание</uicontrol></entry>
+<entry><uicontrol>Remove assignment</uicontrol> button</entry>
 </row>
 
 <row>
 <entry>9</entry>
-<entry>Кнопка <uicontrol>Опубликовать</uicontrol></entry>
+<entry><uicontrol>Publish assignment</uicontrol> button</entry>
 </row>
 
 <row>
 <entry>10</entry>
-<entry>Кнопка <uicontrol>Импорт задания</uicontrol></entry>
+<entry><uicontrol>Import assignment</uicontrol> button</entry>
 </row>
 
 <row>
 <entry>11</entry>
-<entry>Кнопка <uicontrol>Экспорт задания</uicontrol></entry>
+<entry><uicontrol>Export assignment</uicontrol> button</entry>
 </row>
 
 <row>
 <entry>12</entry>
-<entry>Кнопка <uicontrol>Импортировать общие задания</uicontrol></entry>
+<entry><uicontrol>Import shared assignment(s)</uicontrol> button</entry>
 </row>
 
 </tbody>
 </tgroup>
 </table>
 
-<p>Вкладка <uicontrol>Свойства</uicontrol> содержит поля с общими свойствами шаблона задания (дата создания, автор, учебный курс, заголовок, описание, комментарий, тип).</p>
+<p><uicontrol>Properties</uicontrol> tab displays field for entering and editing general information about the assignment: creation date, author, course title, assignment title, description, optional comment, and assignment type.</p>
 
-<p>Вкладка <uicontrol>Содержимое</uicontrol> показывается для уже созданных заданий и содержит список файлов задания, расположенных в облачном хранилище.</p>
+<p>Files attached to the assignment are displayed in the <uicontrol>Content</uicontrol> tab. _fixme?_</p> 
 
-<p>На вкладке <uicontrol>Файлы для отправки</uicontrol> (см. <xref keyref="uic_flocal"/>&#160;) содержится инструментарий для добавления содержимого - одного или нескольких файлов - в шаблон задания. При отсутствии файлов для отправки (относится только ко вновь создаваемым шаблонам) либо при размере файлов, превышающем оставшуюся квоту (во всех случаях), вкладка <uicontrol>Файлы для отправки</uicontrol> будет обрамлена красной рамкой.</p>
+<p>Tools for adding content files to the assignment are located in the  <uicontrol>Files to send</uicontrol> tab (see <xref keyref="uic_flocal"/>&#160;). The tab will be displayed with a red border whenever there are no content files in the assignment, as well as when the total size of the files exceeds cloud quota. </p>
 
-<note type="note">Вкладка <uicontrol>Файлы для отправки</uicontrol> не показывается у заданий, имеющих публикации</note>
+<note type="note">The <uicontrol>Files to send</uicontrol> tab is displayed only for unpublished assignments.</note>
 
-<p>Нажатие на кнопку <uicontrol>Создать</uicontrol> переводит интерфейс в режим создания нового шаблона задания. Кнопка <uicontrol>Сохранить</uicontrol> служит для выгрузки созданного (либо измененного) шаблона задания в облачное хранилище. Созданный шаблон задания появится в списке по окончании процесса его выгрузки в облачное хранилище; с этого момента возможна публикация заданий на основе этого шаблона. Если было изменено уже существующее задание, информация о нем также обновится по окончании выгрузки произведенных изменений. Чтобы отменить создание нового шаблона и вернуться к режиму просмотра и выбора существующих заданий, нажмите кнопку <uicontrol>Отмена</uicontrol>.</p>
+<p>Press the <uicontrol>Create</uicontrol> button to start creating a new assignment.  переводит интерфейс в режим создания нового шаблона задания _fixme_. Press <uicontrol>Save assignment</uicontrol> to save current assignment or any its modifications to the cloud storage. Once the assignment is safely stored in the cloud, it will appear in the list displayed in the upper portion of the window; at this point you can also publish the assignment, i.e. make it available to the students. Если было изменено уже существующее задание, информация о нем также обновится по окончании выгрузки произведенных изменений _fixme_. Press <uicontrol>Cancel</uicontrol> to cancel creating a new assignments and return to the list of existing assignments.</p>
 
-<p>Применение изменений, внесенных в существующий шаблон, также осуществляется кнопкой <uicontrol>Сохранить задание</uicontrol>.</p>
+<note type="note">You can only edit and modify unpublished assignments.</note>
 
-<note type="note">Для редактирования доступны только шаблоны задания без публикаций!</note>
+<note type="note">Check the <uicontrol>Shared assignments</uicontrol> box to make this assignment available for the other teachers in your school. They will be able to import the assignments into their workspace once you save the assignment to the cloud. (see <xref keyref="tasks_share"/>&#160;)</note>
 
-<p>Для публикации выбранного шаблона задания предназначена кнопка <uicontrol>Опубликовать</uicontrol>. Нажатие на нее откроет диалог создания публикации (см. <xref keyref="tasks_publish"/>&#160;).</p>
+<p>Press the <uicontrol>Publish</uicontrol> button to publish current assignment. This will open publication dialog box (see <xref keyref="tasks_publish"/>&#160;).</p>
 
-<note type="note">Если при создании установлена опция <uicontrol>Общее для всех преподавателей</uicontrol>, то после сохранения данный шаблон задания станет доступен другим преподавателям для импорта (см. <xref keyref="tasks_share"/>&#160;)</note>
+<p>Press <uicontrol>Remove</uicontrol> button to initiate the removal of the assignment. You will be prompted for further confirmation of your intentions (see <xref keyref="tasks_delete"/>&#160;).</p>
 
-<p>Нажатие на кнопку <uicontrol>Удалить</uicontrol> вызовет диалог с запросом подтверждения удаления шаблона задания (см. <xref keyref="tasks_delete"/>&#160;).</p>
-
-<p>Кнопка <uicontrol>Импорт задания</uicontrol> служет для импорта шаблона, экспортированного ранее в файл, в свой список шаблонов. Нажатие на кнопку <uicontrol>Экспорт задания</uicontrol> экспортирует текущий шаблон задания в файл.</p>
+<p>Press <uicontrol>Import assignment</uicontrol> button to import an assignment previously exported via the <uicontrol>Export assignment</uicontrol> button. These tools import/export assignments to the local storage, allowing you to store unfinished work locally without uploading it to the cloud or create assignment templates for future reuse.</p>
  
-<note type="attention">Экспорт шаблона сохраняет только шаблон задания! Для сохранения публикации, включающей ответы учащихся, оценки и комментарии, следует воспользоваться функцией архивирования, доступной на вкладке <uicontrol>Опубликованные задания</uicontrol> (см. <xref keyref="tasks_archive"/>&#160;)</note>
+<note type="attention">Only assignment metadata (as displayed in the <uicontrol>Properties</uicontrol> tab), and content files are saved using the export tool. Use the archive facility (available in the <uicontrol>Published assignments</uicontrol> tab, see <xref keyref="tasks_archive"/>&#160;) to save a published assignment together with student answers, grades, and all the comments.</note>
 
-<p>Нажатие на кнопку <uicontrol>Импортировать общие задания</uicontrol> открывает окно <wintitle>импорта общих заданий</wintitle> (см. <xref keyref="tasks_share"/>&#160;)</p>
+<p>Press the <uicontrol>Import shared assignments</uicontrol> to start importing assignments shared by other teachers of your school (see <xref keyref="tasks_share"/>&#160;).</p>
 
   </conbody>
 </concept>
