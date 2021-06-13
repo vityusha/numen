@@ -3,15 +3,15 @@
 "concept.dtd">
 
   <concept id="uic_about" xml:lang="en-US">
-  <title>Диалог "О программе"</title>
+  <title><uicontrol>About</uicontrol> dialog box</title>
   <conbody>
 
-<p>Рядом с кнопками управления окном в его верхней правой части и у преподавателя, и у учащегося располагается кнопка вызова диалога <uicontrol>О программе</uicontrol>. Основная информация, которую можно взять из этого диалога - используемая версия модуля <wintitle>Задания через Интернет</wintitle>. Также из диалога <uicontrol>О программе</uicontrol> вызывается настоящее <uicontrol>Руководство пользователя</uicontrol>.</p>
+<p>A button located next to the window control buttons in both teacher and student interfaces opens up the <uicontrol>About</uicontrol> dialog box. This box displays the current version of the <wintitle>Remote Assignments</wintitle> module, copyright information and a button to display the online version of this <uicontrol>User manual</uicontrol>.</p>
 
 <fig id="addon_about_dialog_png">
-<title>Диалог <uicontrol>О программе</uicontrol></title>
+<title><uicontrol>About</uicontrol> dialog box</title>
 <image href="img/addon-about-dialog.png" placement="break">
-  <alt>Диалог <uicontrol>О программе</uicontrol></alt>
+  <alt><uicontrol>About</uicontrol> dialog box</alt>
 </image>
 </fig>
 </conbody>
