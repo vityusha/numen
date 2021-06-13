@@ -3,10 +3,10 @@
 "concept.dtd">
 
   <concept id="uic_flocal" xml:lang="en-US">
-  <title>File selection dialog</title>
+  <title>Files to send tool</title>
   <conbody>
   
-<p>Use <uicontrol>Files to send</uicontrol> tool to selct and upload files to the cloud storage. It is used on the teacher side when creating and modifying assignments and on the student side when  files are used as a part of their answer to the assignment.</p>
+<p>Use <uicontrol>Files to send</uicontrol> tool to select and upload files to the cloud storage. It is used on the teacher side when creating and modifying assignments and on the student side when  files are used as a part of their answer to the assignment.</p>
 
         <fig id="local_content_png">
             <title><uicontrol>Files to send</uicontrol> tab</title>
