@@ -3,19 +3,21 @@
 "concept.dtd">
 
 <concept id="uic_url" xml:lang="en-US">
-<title>Диалог создания гиперссылки</title>
+<title>Adding a URL</title>
 <conbody>
   
-<p>Диалог добавления файла гиперссылки открывается при нажатии кнопки <uicontrol>Добавить URL</uicontrol> в интерфейсе выбора файлов для отправки.</p>
+<p>The <uicontrol>Add URL</uicontrol> button in <uicontrol>Files to send</uicontrol> panel (see section _fixme_ [xref]) opens a dialog box where you can insert an internet hyperlink in lieu of a local file.</p>
 
         <fig id="add_url_dialog_png">
-            <title>Диалог добавления файла гиперссылки</title>
+            <title>Add a hyperlink dialog box</title>
             <image href="img/add-url-dialog.png" placement="break">
-                <alt>Диалог добавления файла гиперссылки</alt>
+                <alt>Adding a hyperlink dialog box</alt>
             </image>
         </fig>
 
-<p>Поле <uicontrol>Введите имя</uicontrol> служит для ввода имени файла с гиперссылкой. В поле <uicontrol>Введите URL</uicontrol> необходимо ввести или вставить из буфера обмена желаемый адрес в Интернете.</p>
+<p>Use the <uicontrol>Title</uicontrol> _fixme_ [ui] field to name the hyperlink. Enter a WWW address to the <uicontrol>URL</uicontrol> field either manually or pasting it from the clipboard.</p>
+
+<note type="important">The hyperlink address must be entered in full. For example, <cmdname>https://www.youtube.com/watch?v=AsJApGdm97c</cmdname> as opposed to <cmdname>www.youtube.com/watch?v=AsJApGdm97c</cmdname> or even <cmdname>youtube.com</cmdname>.</note>
 
 </conbody>
 </concept>
