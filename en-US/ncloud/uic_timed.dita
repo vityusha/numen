@@ -3,15 +3,15 @@
 "concept.dtd">
 
   <concept id="uic_timed" xml:lang="en-US">
-  <title>Индикация длительных операций</title>
+  <title>Progress bar</title>
   <conbody>
   
-<p><uicontrol>Индикация длительных операций</uicontrol> включается в различных ситуациях, требующих ожидания, таких как обновление информации о задании или сохранение большого файла.</p>
+<p>The <uicontrol>Progress bar</uicontrol> indicator is used to update you on the progress of various potentially lengthy operations, such as saving a large file or synchronizing local data with the cloud.</p>
 
         <fig id="wait_progress_png">
-            <title>Окно с индикацией длительной операции</title>
+            <title>A window with the progress bar superimposed on it</title>
             <image href="img/wait-progress.png" placement="break">
-                <alt>Окно с индикацией длительной операции</alt>
+                <alt>A window with the progress bar superimposed on it</alt>
             </image>
         </fig>
 
