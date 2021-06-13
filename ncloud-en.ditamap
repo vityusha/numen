@@ -33,12 +33,12 @@
     <topicref keys="workflow" href="en-US/ncloud/workflow.dita" />
   </topichead>
 
-  <topichead navtitle="Teacher module interface">
+  <topichead navtitle="Teacher interface">
     <topicref keys="teacher_menu" href="en-US/ncloud/teacher_menu.dita" />
     <topicref keys="teacher_mainwin" href="en-US/ncloud/teacher_mainwin.dita" />
   </topichead>
   
-  <topichead navtitle="Student module interface">
+  <topichead navtitle="Student interface">
 	<topicref keys="std_mainwin" href="en-US/ncloud/std_mainwin.dita" />
   </topichead>
 
@@ -51,7 +51,7 @@
 	<topicref keys="uic_about" href="en-US/ncloud/uic_about.dita" />
 	</topichead>
 	
-  <topichead navtitle="Working with the teacher module">
+  <topichead navtitle="Working with the teacher interface">
 	<topicref keys="tasks_creation" href="en-US/ncloud/tasks_creation.dita" />
 	<topicref keys="tasks_publish" href="en-US/ncloud/tasks_publish.dita" />
 	<topicref keys="tasks_share" href="en-US/ncloud/tasks_share.dita" />
@@ -62,7 +62,7 @@
 	<topicref keys="tasks_delete" href="en-US/ncloud/tasks_delete.dita" />
   </topichead>
   
-  <topichead navtitle="Working with the student module">
+  <topichead navtitle="Working with the student interface">
     <topicref keys="std_menu" href="en-US/ncloud/std_menu.dita" />
   	<topicref keys="std_send_rcv" href="en-US/ncloud/std_send_rcv.dita" />
   </topichead>
