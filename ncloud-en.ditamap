@@ -43,7 +43,7 @@
   </topichead>
 
     <topichead navtitle="Common elements">
-  <topicref keys="ui_common" href="en-US/ncloud/ui_common.dita" toc="no" />
+  <topicref keys="ui_common" href="en-US/ncloud/ui_common.dita" />
     <topicref keys="uic_flocal" href="en-US/ncloud/uic_flocal.dita" />
     <topicref keys="uic_fcloud" href="en-US/ncloud/uic_fcloud.dita" />
     <topicref keys="uic_url" href="en-US/ncloud/uic_url.dita" />
