@@ -16,7 +16,7 @@
    <thead>
 <row>
   <entry colname="COLSPEC0" align="center"><uicontrol>Tab</uicontrol></entry>
-  <entry colname="COLSPEC1" align="center">Desciption</entry>
+  <entry colname="COLSPEC1" align="center">Description</entry>
 </row>
 </thead>
 
@@ -163,7 +163,7 @@
 
 <note type="note">If you hit <uicontrol>Refresh</uicontrol> with having any unsaved modifications, the software will prompt you to save them before proceeding.</note>
 
-<p>The status line at the bottom of the window will be upated on each clod action. The <uicontrol>Quota indicator</uicontrol> 10 shows percentage of the cloud storage used. Hover the mouse pointer over it for additional information on the quota.</p> 
+<p>The status line at the bottom of the window will be updated on each cloud action. The <uicontrol>Quota indicator</uicontrol> 10 shows percentage of the cloud storage used. Hover the mouse pointer over it for additional information on the quota.</p> 
 
   </conbody>
 </concept>

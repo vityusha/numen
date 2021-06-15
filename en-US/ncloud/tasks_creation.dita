@@ -6,7 +6,7 @@
 <title>Creating assignment</title>
 <conbody>
 
-<p>Select the <uicontrol>Assignments</uicontrol> tab in the remote assignments main window _fixme_ [xref fig.2] to create a new assignment.</p>
+<p>Select the <uicontrol>Assignments</uicontrol> tab in the remote assignments main window (see <xref keyref="teacher_mainwin"/>&#160;) to create a new assignment.</p>
 
           <fig id="teacher_main_tab_png">
             <title><uicontrol>Assignments</uicontrol> tab</title>
@@ -120,7 +120,7 @@
 
 <p><uicontrol>Properties</uicontrol> tab displays field for entering and editing general information about the assignment: creation date, author, course title, assignment title, description, optional comment, and assignment type.</p>
 
-<p>Files attached to the assignment are displayed in the <uicontrol>Content</uicontrol> tab. _fixme?_</p> 
+<p>Files attached to the assignment are displayed in the <uicontrol>Content</uicontrol> tab.</p> 
 
 <p>Tools for adding content files to the assignment are located in the  <uicontrol>Files to send</uicontrol> tab (see <xref keyref="uic_flocal"/>&#160;). The tab will be displayed with a red border whenever there are no content files in the assignment, as well as when the total size of the files exceeds cloud quota. </p>
 
@@ -130,7 +130,7 @@
 
 <note type="note">You can only edit and modify unpublished assignments.</note>
 
-<note type="note">Check the <uicontrol>Shared assignments</uicontrol> box to make this assignment available for the other teachers in your school. They will be able to import the assignments into their workspace once you save the assignment to the cloud. (see <xref keyref="tasks_share"/>&#160;)</note>
+<note type="note">Check the <uicontrol>Shared assignment</uicontrol> box to make this assignment available for the other teachers in your school. They will be able to import the assignments into their workspace once you save the assignment to the cloud. (see <xref keyref="tasks_share"/>&#160;)</note>
 
 <p>Press the <uicontrol>Publish</uicontrol> button to publish current assignment. This will open publication dialog box (see <xref keyref="tasks_publish"/>&#160;).</p>
 

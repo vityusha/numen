@@ -5,7 +5,7 @@
 <concept id="std_mainwin" xml:lang="en-US">
   <title>Assignment workspace window</title>
   <conbody>
-  <p>An assignment workspace windo will apear on the screen after start of the <wintitle>Remote Assignments</wintitle> module (see <xref keyref="std_menu"/>&#160;) on a student computer.</p>
+  <p>An assignment workspace window will appear on the screen after start of the <wintitle>Remote Assignments</wintitle> module (see <xref keyref="std_menu"/>&#160;) on a student computer.</p>
 
         <fig id="student_window_png">
             <title>Assignment workspace window</title>
@@ -34,12 +34,12 @@
 
 <row>
 <entry>3</entry>
-<entry><uicontrol>Refresh list</uicontrol> _fixme_ button</entry>
+<entry><uicontrol>Refresh assignments list</uicontrol> button</entry>
 </row>
 
 <row>
 <entry>4</entry>
-<entry>Assigments filter</entry>
+<entry>Assignments filter</entry>
 </row>
 
 <row>
@@ -49,7 +49,7 @@
 
 <row>
 <entry>6</entry>
-<entry>Answer acrions panel</entry>
+<entry>Answer actions panel</entry>
 </row>
 
 <row>
@@ -68,9 +68,9 @@
 
 <p>Window control area <uicontrol>5</uicontrol> contain the standard Minimize/Restore, Maximize, and close buttons, plus a button that displays <uicontrol>About</uicontrol> dialog box (see <xref keyref="uic_about"/>&#160;), from where an online copy of this manual can be consulted.</p>
 
-<p>The assignment list <uicontrol>2</uicontrol> sown all assignments handed out to the student. List content can be controlled by applying filters <uicontrol>4</uicontrol>. Selected assignment is displayed in the assignment panel <uicontrol>5</uicontrol>.</p>
+<p>The assignment list <uicontrol>2</uicontrol> show all assignments handed out to the student. List content can be controlled by applying filters <uicontrol>4</uicontrol>. Selected assignment is displayed in the assignment panel <uicontrol>5</uicontrol>.</p>
 
-<p>Press <uicontrol>Refresh list</uicontrol> button to obtain update the list of assignments. Pressing this button will prompt you to save your work, after which assignments will be updated from the cloud (see <xref keyref="glossary"/>&#160;), including new assignments (if any),  current assignent(s) status changes, grades, teacher comments, etc.</p>
+<p>Press <uicontrol>Refresh assignments list</uicontrol> button to obtain update the list of assignments. Pressing this button will prompt you to save your work, after which assignments will be updated from the cloud (see <xref keyref="glossary"/>&#160;), including new assignments (if any),  current assignment(s) status changes, grades, teacher comments, etc.</p>
 
 <p>Assignment filter allows for a certain level of control over contents of the assignment list.</p>
 
@@ -107,7 +107,7 @@
 </tgroup>
 </table>
 
-<p>Information about selected assignment, together with the tools for comletion of the assignment, is displayed in the <uicontrol>Assignment panel</uicontrol> area. Buttons for <uicontrol>saving</uicontrol> and <uicontrol>submitting</uicontrol> _fixme?_ [ui] your work are located in the <uicontrol>Answer actions</uicontrol> panel to the right of the <uicontrol>Assignment panel</uicontrol>.</p>
+<p>Information about selected assignment, together with the tools for completion of the assignment, is displayed in the <uicontrol>Assignment panel</uicontrol> area. Buttons for <uicontrol>saving</uicontrol> and <uicontrol>submitting</uicontrol> _fixme?_ [ui] your work are located in the <uicontrol>Answer actions</uicontrol> panel to the right of the <uicontrol>Assignment panel</uicontrol>.</p>
 
   </conbody>
 </concept>

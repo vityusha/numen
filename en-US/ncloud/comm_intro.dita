@@ -11,7 +11,7 @@
   
   <ul>
     <li>Allows any teacher at school to engage in <uicontrol>distant learning</uicontrol> process;</li>
-    <li>remotely hand out, review, and grade assignments for the whole <uicontrol>class</uicontrol>, a <uicontrol>group</uicontrol> of selected students in the class, or <uicontrol>individual students</uicontrol>;</li>
+    <li>remotely hand out, review, and grade assignments for the whole <uicontrol>class</uicontrol>, a <uicontrol>group</uicontrol> of students in the class, or <uicontrol>individual students</uicontrol>;</li>
     <li>use your own files for the assignments;</li>
     <li>save assignments as template for future <uicontrol>reuse</uicontrol> and/or <uicontrol>sharing</uicontrol> between teachers;</li>
     <li>students can work on the assignments in <uicontrol>iterations</uicontrol> with periodic review of their progress by the teacher, possibility to send it back to the student for reworking, all before issuing the final grade;</li>
@@ -20,7 +20,7 @@
     <li>built in facilities for <uicontrol>import</uicontrol>, <uicontrol>export</uicontrol>, <uicontrol>backup</uicontrol>, and filing assignments to the <uicontrol>archive</uicontrol>, as well as generating <uicontrol>reports</uicontrol> on active and completed assignments.</li>
   </ul>  
   
-  <p>Architecture of the <wintitle>Remote Assignments</wintitle> module does not have a built in limit on the number of of assignments, with all of them can be used simultaneously. In practice, this is limited only by the available school resourses: disk space, internet connection, cloud storage, etc.</p>
+  <p>Architecture of the <wintitle>Remote Assignments</wintitle> module does not have a built in limit on the number of assignments, with all of them can be used simultaneously. In practice, this is limited only by the available school resources: disk space, internet connection, cloud storage, etc.</p>
   
   </conbody>
 </concept>

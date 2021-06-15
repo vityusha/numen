@@ -10,11 +10,11 @@
         <fig id="teacher_menu_png">
             <title><wintitle>Remote Assignments</wintitle> in teacher menu</title>
             <image href="img/teacher-menu.png" placement="break">
-                <alt>Меню для запуска модуля преподавателем</alt>
+                <alt>Remote Assignments in teacher menu</alt>
             </image>
         </fig>
 		
-  <note type="tip"><wintitle>Remote Assignments</wintitle> module does not require any additional setup beyon installation on top of <wintitle>Dialog Nibelung</wintitle> and making sure that the school has an active subscription (see <xref keyref="subscription"/>&#160;)</note>
+  <note type="tip"><wintitle>Remote Assignments</wintitle> module does not require any additional setup beyond installation on top of <wintitle>Dialog Nibelung</wintitle> and making sure that the school has an active subscription (see <xref keyref="subscription"/>&#160;)</note>
   
   </conbody>
 </concept>
