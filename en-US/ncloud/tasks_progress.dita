@@ -3,18 +3,18 @@
 "concept.dtd">
 
 <concept id="tasks_progress" xml:lang="en-US">
-  <title>Оценка выполнения заданий</title>
+  <title>Grading assignments</title>
   <conbody>
 
-<p>Для проверки и оценки выполнения учащимися опубликованного задания следует выбрать его на вкладке <uicontrol>Опубликованные задания</uicontrol> (см. <xref keyref="tasks_publish"/>&#160;), а затем перейти на вкладку <uicontrol>Выполнение</uicontrol>.</p>
+<p>Select an assignment in the <uicontrol>Published assignments</uicontrol> tab (see <xref keyref="tasks_publish"/>&#160;) and switch to the <uicontrol>Progress</uicontrol> to see the status of the assignment and perform grading of the turned in student work.</p>
 
         <fig id="teacher_progress_tab_png">
-            <title>Окно преподавателя: вкладка выполнения заданий</title>
+            <title>Teacher interface: progress tab</title>
             <image href="img/teacher-progress-tab.png" placement="break">
-                <alt>Окно преподавателя: вкладка выполнения заданий</alt>
+                <alt>Teacher interface: progress tab</alt>
             </image>
         </fig>
-        <p>На этом рисунке цифрами обозначены:</p>
+        <p>Elements of the <uicontrol>Progress</uicontrol> tab:</p>
 
 <table frame="topbot">
 <tgroup cols="2">
@@ -25,89 +25,91 @@
 
 <row>
 <entry>1</entry>
-<entry>Строка показа общей информации о публикации</entry>
+<entry>General information about the assignment</entry>
 </row>
 
 <row>
 <entry>2</entry>
-<entry>Список учащихся</entry>
+<entry>Student list</entry>
 </row>
 
 <row>
 <entry>3</entry>
-<entry>Область содержимого ответа</entry>
+<entry>Contents of the work turned in by the student</entry>
 </row>
 
 <row>
 <entry>4</entry>
-<entry>Файлы ответа</entry>
+<entry>Files turned in by the student</entry>
 </row>
 
 <row>
 <entry>5</entry>
-<entry>Поле для ввода сообщения учащемуся</entry>
+<entry>Message for the student</entry>
 </row>
 
 <row>
 <entry>6</entry>
-<entry>Кнопка сохранения сообщения учащемуся</entry>
+<entry><uicontrol>Save message</uicontrol> button</entry>
 </row>
 
 <row>
 <entry>7</entry>
-<entry>Поле для выставления оценки учащемуся</entry>
+<entry>Assignment grade</entry>
 </row>
 
 <row>
 <entry>8</entry>
-<entry>Кнопка <uicontrol>Проверено</uicontrol></entry>
+<entry><uicontrol>Graded</uicontrol> button</entry>
 </row>
 
 <row>
 <entry>9</entry>
-<entry>Кнопка <uicontrol>На доработку</uicontrol></entry>
+<entry><uicontrol>For revision</uicontrol> button</entry>
 </row>
 
 <row>
 <entry>10</entry>
-<entry>Кнопка <uicontrol>Применить</uicontrol></entry>
+<entry><uicontrol>Apply</uicontrol> button</entry>
 </row>
 
 <row>
 <entry>11</entry>
-<entry>Кнопка экспорта отчета</entry>
+<entry><uicontrol>Export report</uicontrol> button</entry>
 </row>
 
 <row>
 <entry>12</entry>
-<entry>Опция <uicontrol>Скрыть имена</uicontrol></entry>
+<entry><uicontrol>Hide names</uicontrol> checkbox</entry>
 </row>
 
 </tbody>
 </tgroup>
 </table>
   
-<p>Для просмотра ответа следует выбрать нужного учащегося в списке. В области ниже появится содержимое ответа данного учащегося (см. <xref keyref="uic_fcloud"/>&#160;) - файлов, присланных учащимся для проверки, и комментарий (при наличии) к каждому из них.</p>
+<p>Select a student from the list to review their work. Submitted files and comments will appear in the content panel (see <xref keyref="uic_fcloud"/>&#160;).</p>
 
-<p>Чтобы поставить оценку воспользуйтесь <uicontrol>полем для выставления оценки</uicontrol>. Если задание имеет статус <uicontrol>В работе</uicontrol> или было отправлено на доработку (задание имеет статус <uicontrol>На доработку</uicontrol>), оценка будет являться <uicontrol>промежуточной</uicontrol>.</p>
+<p>Use the <uicontrol>Assignment grade</uicontrol> field to issue a numeric grade for the assignment. This grade will be considered <uicontrol>preliminary</uicontrol> as long as the assignment has status <uicontrol>In progress</uicontrol> or was sent back to the student <uicontrol>For review</uicontrol>).</p>
 
-<note type="tip">На любой стадии жизненного цикла публикации задания есть возможность изменить оценки учащимся</note>
+<note type="tip">You can adjust student grades at any point in the assignment lifecycle as long as it is not closed.</note>
 
-<p>Чтобы прокомментировать выставленную оценку, ответ учащегося либо разъяснить ему причины отправки ответа на доработку, следует воспользоваться полем для ввода сообщения учащемуся и нажать на кнопку сохранения, расположенную справа; поле сообщения является необязательным.</p>
+<note type="tip">Numerical grades for an assignment are optional. You can evaluate student work with free form comments instead.</note>
 
-<p>Нажатие кнопки <uicontrol>Проверено</uicontrol> завершает проверку ответа учащегося. Нажатием на данную кнопку преподаватель подтверждает, что ответ данного учащегося <uicontrol>просмотрен</uicontrol>, <uicontrol>проверен</uicontrol>, <uicontrol>оценен</uicontrol> и/или <uicontrol>прокомментирован</uicontrol> (оценка и комментарий не являются обязательными и заполняются по необходимости и/или целесообразности).</p>
+<p>Use the <uicontrol>Message</uicontrol> field to give the student comment on the grade or to explain the reasons why you are sending their work back for revision. Don't forget to save the message (<uicontrol>Save</uicontrol> button is located immediately to the right of the <uicontrol>Message</uicontrol> field). This message is optional.</p>
 
-<p>После того, как задание получит статус <uicontrol>Проверено</uicontrol>, учащийся более не сможет комментировать свой ответ и отправлять файлы на проверку. При этом у него останется возможность просмотра.</p>
+<p>Press the <uicontrol>Graded</uicontrol> to finalize review of the submitted work. Pressing this button confirms that the teacher has <uicontrol>reviewed</uicontrol>, <uicontrol>checked for correctness</uicontrol>, <uicontrol>issued a grade</uicontrol> and/or <uicontrol>commented</uicontrol> on the turned in assignment work. The numerical grade and commentary are both optional, giving you maximum flexibility in your teaching process.</p>
 
-<p>При необходимости возможно отправить ответ учащегося на доработку. Для этого следует установить заданию соответствующий статус нажатием кнопки <uicontrol>На доработку</uicontrol>; комментарий к доработке пишется в поле для ввода сообщения учащемуся.</p>
+<p>Students can not submit any further revisions or comments for their work after their assignment is <uicontrol>Graded</uicontrol>. They can still view the assignment, together their grades and teacher comments.</p>
 
-<note type="important">Сохранение оценки производится нажатием кнопки <uicontrol>Проверено</uicontrol> и <uicontrol>На доработку</uicontrol>. Кнопка сохранения сообщения не сохраняет оценку!</note>
+<p>You can also sent turned in assignment work back for revision by using the <uicontrol>For revision</uicontrol> button; add a comment in the <uicontrol>Message</uicontrol> field explaining the reasons for sending it back.</p>
 
-<p>Чтобы применить результаты работы по проверке и оценке ответов учащихся, сделанные на вкладке <uicontrol>Опубликованные задания</uicontrol> по <uicontrol>каждому</uicontrol> из учащихся задания, следует нажать кнопку <uicontrol>Применить</uicontrol>. Это достаточно сделать один раз для всех произведенных изменений.</p>
+<note type="important">Grade is saved only by pressing the <uicontrol>Graded</uicontrol> or <uicontrol>For revision</uicontrol> buttons. The save message button does not save the grade.</note>
 
-<p>Для создания отчета по выполнению учащимися задания служит кнопка экспорта отчета. Созданный отчет хранит список с данными выполнения по каждому учащемуся задания и сводную статистику. Подробнее см. <xref keyref="tasks_export"/>&#160;.</p>
+<p>Чтобы применить результаты работы по проверке и оценке ответов учащихся, сделанные на вкладке <uicontrol>Published assignments</uicontrol> по <uicontrol>каждому</uicontrol> из учащихся задания, следует нажать кнопку <uicontrol>Применить</uicontrol>. Это достаточно сделать один раз для всех произведенных изменений.</p>
 
-<note type="tip">Для фактического обновления информации о ходе выполнения учащимися задания служит кнопка <uicontrol>Обновить список</uicontrol> вкладки <uicontrol>Выполнение</uicontrol></note>
+<p>Use the  <uicontrol>Export report</uicontrol> button to create a report for the assignment with grades for each student and assignment statistics. Please see section <xref keyref="tasks_export"/> for further details.</p>
+
+<note type="tip">Use the <uicontrol>Refresh assignment</uicontrol> _fixme_ [ui] button located in the lower left corner of the <uicontrol>Progress</uicontrol> tab to get the up to date status of the assignment and student progress on it.</note>
 
   </conbody>
 </concept>
