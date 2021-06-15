@@ -3,19 +3,19 @@
 "concept.dtd">
 
 <concept id="tasks_publish" xml:lang="en-US">
-  <title>Публикация заданий</title>
+  <title>Publishing an assignment</title>
 <conbody>
 
-<p>Для публикации задания следует выбрать требуемый шаблон на вкладке <uicontrol>Задания</uicontrol> главного окна (см. <xref keyref="teacher_mainwin"/>&#160;) и нажать кнопку <uicontrol>Опубликовать</uicontrol>. Откроется диалог публикации заданий.</p>
+<p>Select the <uicontrol>Assignments</uicontrol> tab in the main window (see <xref keyref="teacher_mainwin"/>&#160;), select an assignment from the list, and press the <uicontrol>Publish</uicontrol> button to initiate publication of an assignment. This will open the assignment publication dialog box.</p>
 
           <fig id="publish_window_png">
-            <title>Диалог публикации заданий</title>
+            <title>Assignment publication dialog box</title>
             <image href="img/publish-window.png" placement="break">
-                <alt>Диалог публикации заданий</alt>
+                <alt>Assignment publication dialog box</alt>
             </image>
         </fig>
 		
-<p>На этом рисунке цифрами обозначены:</p>
+<p>Elements of the publication dialog box:</p>
 
 <table frame="topbot">
 <tgroup cols="2">
@@ -26,99 +26,99 @@
 
 <row>
 <entry>1</entry>
-<entry>Общие сведения публикуемом шаблоне заданий</entry>
+<entry>General information about the assignment</entry>
 </row>
 
 <row>
 <entry>2</entry>
-<entry>Поле ввода комментария к данной публикации</entry>
+<entry>Publication comment for the assignment</entry>
 </row>
 
 <row>
 <entry>3</entry>
-<entry>Область установки сроков выполнения</entry>
+<entry>Deadline settings area</entry>
 </row>
 
 <row>
 <entry>4</entry>
-<entry>Поле для выбора даты и времени</entry>
+<entry>Deadline date and time</entry>
 </row>
 
 <row>
 <entry>5</entry>
-<entry>Кнопка вызова календаря</entry>
+<entry>Calendar lookup button</entry>
 </row>
 
 <row>
 <entry>6</entry>
-<entry>Ниспадающий список для выбора количества дней</entry>
+<entry><uicontrol>Days remaining</uicontrol> drop down box</entry>
 </row>
 
 <row>
 <entry>7</entry>
-<entry>Ниспадающий список для выбора количества часов</entry>
+<entry><uicontrol>Hours remaining</uicontrol> drop down box</entry>
 </row>
 
 <row>
 <entry>8</entry>
-<entry>Поле с названием класса</entry>
+<entry>Class entry field</entry>
 </row>
 
 <row>
 <entry>9</entry>
-<entry>Cписок учащихся, которым будет назначено данное задание</entry>
+<entry>List of students to receive the assignment</entry>
 </row>
 
 <row>
 <entry>10</entry>
-<entry>Поле для ввода ID учащегося</entry>
+<entry>Student ID</entry>
 </row>
 
 <row>
 <entry>11</entry>
-<entry>Поле для ввода отображаемого имени учащегося</entry>
+<entry>Student name</entry> _fixme_ [ui]
 </row>
 
 <row>
 <entry>12</entry>
-<entry>Кнопка <uicontrol>Добавить учащегося</uicontrol></entry>
+<entry><uicontrol>Add student</uicontrol> button</entry>
 </row>
 
 <row>
 <entry>13</entry>
-<entry>Кнопка <uicontrol>Редактировать данные об учащемся</uicontrol></entry>
+<entry><uicontrol>Edit student</uicontrol> button</entry>
 </row>
 
 <row>
 <entry>14</entry>
-<entry>Кнопка <uicontrol>Удалить учащегося из списка</uicontrol></entry>
+<entry><uicontrol>Remove student from the list</uicontrol> button</entry>
 </row>
 
 <row>
 <entry>15</entry>
-<entry>Кнопка <uicontrol>Загрузить список учащихся</uicontrol></entry>
+<entry><uicontrol>Load class list</uicontrol> button</entry>
 </row>
 
 <row>
 <entry>16</entry>
-<entry>Кнопка <uicontrol>Сохранить список учащихся</uicontrol></entry>
+<entry><uicontrol>Save class list</uicontrol> button</entry>
 </row>
 
 <row>
 <entry>17</entry>
-<entry>Кнопка <uicontrol>Опубликовать</uicontrol></entry>
+<entry><uicontrol>Publish</uicontrol> button</entry>
 </row>
 
 <row>
 <entry>18</entry>
-<entry>Кнопка <uicontrol>Отмена</uicontrol></entry>
+<entry><uicontrol>Cancel</uicontrol> button</entry>
 </row>
 
 </tbody>
 </tgroup>
 </table>
 
-<p>Для создания общего для учащихся описания служит поле ввода комментария к публикации. Для установки времени выполнения имеется несколько способов:
+<p>You can choose one of the three methods for setting the deadline by selecting an appropriate radio button:
 
 <table frame="all" rowsep="1" colsep="1">
 <tgroup cols="2">
@@ -126,28 +126,28 @@
    <colspec colname="COLSPEC1" colwidth="200*"/>
 <thead>
 <row>
-  <entry colname="COLSPEC0" align="center"><uicontrol>Способ</uicontrol></entry>
-  <entry colname="COLSPEC1" align="center">Итоговое время на выполнение задания учащимися</entry>
+  <entry colname="COLSPEC0" align="center"><uicontrol>Method</uicontrol></entry>
+  <entry colname="COLSPEC1" align="center">Allotted time limit</entry>
 </row>
 </thead>
 		  
 <tbody>
 
 <row>
-<entry>В поле выбора даты и времени установить конкретные дату и время</entry>
-<entry>От момента публикации до указанных даты и времени</entry>
+<entry>Set date and time</entry>
+<entry>From the moment of assignment publication until specified date and time</entry>
 </row>
 
 <row>
 
-<entry>Выбрать количество суток, отведенных на выполнение</entry>
-<entry>От момента публикации плюс указанное количество суток</entry>
+<entry>Set number of days</entry>
+<entry>Specified number of days (24 hour periods) from the moment of assignment publication</entry>
 </row>
 
 <row>
 
-<entry>Выбрать количество часов, отведенных на выполнение</entry>
-<entry>От момента публикации плюс указанное количество часов</entry>
+<entry>Set number of hours</entry>
+<entry>Specified number of hours from the moment of assignment publication</entry>
 </row>
 
 </tbody>
@@ -156,42 +156,40 @@
 
 </p>
 
-<p>Для добавления или редактирования данных об учащемся следует воспользоваться соответствующими кнопками <uicontrol>Добавить учащегося</uicontrol> и <uicontrol>Редактировать данные об учащемся</uicontrol>. Откроется диалог добавления (редактирования данных) учащегося. Добавленные учащиеся появляются в списке учащихся. Этот список имеет два столбца. Первый содержит поля для ввода ID учащихся (<uicontrol>обязательные</uicontrol> для каждого учащегося). Второй столбец содержит поля ввода отображаемых имен (необязательное поле).</p>
+<p>You can use the <uicontrol>Add student</uicontrol> and <uicontrol>Edit student</uicontrol> buttons to add students to the list of assignment recipients or to edit their data. This will open a dialog for adding or editing student data. Student data consists of a mandatory <uicontrol>student ID</uicontrol> and an optional student <uicontrol>screen name</uicontrol> _fixme_ [ui]. Screen name is how the name of the student will be displayed throughout the assignment.</p>
 
         <fig id="add_student_dialog_png">
-            <title>Диалог добавления (редактирования данных) учащегося</title>
+            <title>Add/edit student dialog box</title>
             <image href="img/add-student-dialog.png" placement="break">
-                <alt>Диалог добавления (редактирования данных) учащегося</alt>
+                <alt>Add/edit student dialog box</alt>
             </image>
         </fig>
 		
-<p>Чтобы не вводить список учащихся вручную, можно импортировать готовый. Импорт списка производится из <uicontrol>файла класса Nibelung</uicontrol> (NCL) нажатием на кнопку <uicontrol>Загрузить список учащихся из файла класса Nibelung</uicontrol>. Откроется стандартный диалог выбора файла. После импорта будут автоматически заполнены поля c ID, отображаемыми именами и поле с названием класса.</p>
+<p>You can also import a class list to save the hassle of adding students manually. Press the <uicontrol>Load class list</uicontrol> button to import class list from a <uicontrol>Nibelung Class List</uicontrol> file (NCL). You will be prompted to select the NCL file. Student list and course title in the assignment will be filled in automatically upon a successful importation of the class list.</p>
 
-<note type="attention">В импортируемом файле NCL должны присутствовать ID каждого учащегося</note>
+<note type="attention">The NCL file must have the student ID field filled in for every student of the class.</note>
 
-<p>Для удаления учащегося из списка выполняющих задание служит одноименная кнопка <uicontrol>Удалить учащегося из списка</uicontrol>.</p>
+<p>Press the <uicontrol>Save class list</uicontrol> button to save the student list into a <uicontrol>Nibelung Class List</uicontrol> file. This class list can be reused in another assignment prepared with in <wintitle>Remote Assignments</wintitle> module, as well as loaded into <wintitle>Dialog Nibelung</wintitle> itself.</p>
 
-<p>Кнопка <uicontrol>Сохранить список учащихся в файл класса Nibelung</uicontrol> сохраняет в файл список учащихся, назначенных к выполнению задания, в целях последующего использования при работе с модулем <wintitle>Задания через Интернет</wintitle> и в программе <wintitle>Диалог Nibelung</wintitle>. Экспорт списка учащихся также производится в <uicontrol>файл класса Nibelung</uicontrol>.</p>
+<note type="attention">An assignment can not be published if any of the students in the list are missing their <uicontrol>student IDs</uicontrol> (empty fields will be marked with red borders). Assignment also can not be published with an empty student list.</note>
 
-<note type="attention">При отсутствии ID у кого-либо из учащихся в списке (поля в данном случае будут обрамлены красной рамкой) или при отсутствии учащихся в списке публикация задания невозможна</note>
+<p>The course name field is optional and serves for informational purposes only.</p>
 
-<p>В поле с названием класса указывается, при необходимости, класс (группа, поток, курс и т.п.). Информация в поле необязательна и носит информативный характер.</p>
+<p>Press the <uicontrol>Publish</uicontrol> button to publish the assignment. The assignment will receive the  <uicontrol>Published</uicontrol> status, from that moment students will see the assignment upon startup or refresh of their <wintitle>Remote Assignments</wintitle> interfaces and can start working on it. This will also start the clock for the time allotted for the assignment.</p>
 
-<p>Для публикации задания служит кнопка <uicontrol>Опубликовать</uicontrol>. Только опубликованное задание получает первичный статус <uicontrol>Опубликовано</uicontrol>. С этого момента начинется отсчет времени выполнения, а учащиеся задания, открывшие у себя модуль <wintitle>Задания через Интернет</wintitle>, увидят его в списке и смогут приступить к выполнению.</p>
+<p>Status of the assignment will change from <uicontrol>Published</uicontrol> to <uicontrol>Handed out</uicontrol> once this particular student actually receives the assignment.</p>
 
-<p>После того, как учащийся получил новое задание, статус <uicontrol>для данного учащегося</uicontrol> изменится с <uicontrol>Опубликовано</uicontrol> на <uicontrol>Доставлено</uicontrol>.</p>
+<p>Press the <uicontrol>Cancel</uicontrol> button to cancel without publishing the assignment. This button will close the publication dialog box <uicontrol>without saving any modifications</uicontrol> to the assignment.</p>
 
-<p>Для отмены публикации служит кнопка <uicontrol>Отмена</uicontrol>, нажатие на котороую закрывает диалог публикации задания <uicontrol>без сохранения каких-либо изменений</uicontrol>.</p>
-
-<p>Вновь опубликованное задание появится в списке на вкладке <uicontrol>Опубликованные задания</uicontrol>.</p>
+<p>The newly published assignment will appear in the <uicontrol>Published assignments</uicontrol> tab.</p>
 
         <fig id="teacher_publish_tab_png">
-            <title>Окно преподавателя: вкладка "Опубликованные задания"</title>
+            <title><wintitle>Published assignments</wintitle> tab in teacher interface</title>
             <image href="img/teacher-publish-tab.png" placement="break">
-                <alt>Окно преподавателя: вкладка "Опубликованные задания"</alt>
+                <alt><wintitle>Published assignments</wintitle> tab in teacher interface"</alt>
             </image>
         </fig>
-        <p>На этом рисунке цифрами обозначены:</p>
+        <p>Elements of the <wintitle>Published assignments</wintitle> tab:</p>
 
 <table frame="topbot">
 <tgroup cols="2">
@@ -202,70 +200,70 @@
 
 <row>
 <entry>1</entry>
-<entry>Список опубликованных заданий</entry>
+<entry>List of published assignments</entry>
 </row>
 
 <row>
 <entry>2</entry>
-<entry>Область просмотра общей информации о задании</entry>
+<entry>Assignment information panel</entry>
 </row>
 
 <row>
 <entry>3</entry>
-<entry>Кнопка <uicontrol>Продлить</uicontrol></entry>
+<entry><uicontrol>Extend deadline</uicontrol> button _fixme_ [ui]</entry>
 </row>
 
 <row>
 <entry>4</entry>
-<entry>Кнопка <uicontrol>Закрыть</uicontrol></entry>
+<entry><uicontrol>Close</uicontrol> button</entry>
 </row>
 
 <row>
 <entry>5</entry>
-<entry>Кнопка <uicontrol>Удалить</uicontrol></entry>
+<entry><uicontrol>Remove</uicontrol> button</entry>
 </row>
 
 <row>
 <entry>6</entry>
-<entry>Опция <uicontrol>Показать закрытые задания</uicontrol></entry>
+<entry><uicontrol>Show closed assignments</uicontrol> checkbox</entry>
 </row>
 
 <row>
 <entry>7</entry>
-<entry>Кнопка архивирования публикации</entry>
+<entry><uicontrol>File to archive</uicontrol> button</entry>
 </row>
 
 </tbody>
 </tgroup>
 </table>
  
-<p>Для изменения временных рамок выполнения задания следует нажать кнопку <uicontrol>Продлить</uicontrol>. Откроется диалоговое окно для продления времени выполнения.</p>
+<p>Press the <uicontrol>Extend deadline</uicontrol> button to extend the assignment deadline. A dialog box will appear on your screen.</p>
 
           <fig id="publication_prolong_png">
-            <title>Диалог "Продлить"</title>
+            <title>Deadline extension dialog</title>
             <image href="img/publication-prolong.png" placement="break">
-                <alt>Диалог "Продлить"</alt>
+                <alt>Deadline extension dialog</alt>
             </image>
         </fig>
-		
-<note type="tip">Информация при работе с ответами учащихся и выполнении иных задач на вкладке <wintitle>Выполнение</wintitle> (см. <xref keyref="tasks_progress"/>&#160;) относятся к публикации, выбранной на вкладке <wintitle>Опубликованные задания</wintitle></note>
+        
+<note type="tip">Information in the <wintitle>Progress</wintitle> tab (see <xref keyref="tasks_progress"/>&#160;) refers to the assignments selected in the <wintitle>Published assignments</wintitle> tab.</note>
 
-<p>Чтобы завершить работу над заданием, следует нажать кнопку <uicontrol>Закрыть</uicontrol> (см. <xref keyref="tasks_close"/>&#160;). Закрываются те публикации, по которым все учащиеся прислали ответы, а преподаватель проверил их и оценил.</p>
+<p>Press the <uicontrol>Close</uicontrol> button to finish working with the assignment (see <xref keyref="tasks_close"/>&#160;). Only assignments for which all students have turned in their work and it has been graded by the teacher can be closed.</p>
 
-<p>Управление отображением уже закрытых заданий осуществляется опцией <uicontrol>Показать закрытые задания</uicontrol>. При выставлении опции закрытые задания будут показаны серым цветом, иначе они будут скрыты из списка.</p>
+<p>The <uicontrol>Show closed assignments</uicontrol> triggers display of closed assignments in the list. If enabled, closed assignments will be listed in gray.</p>
 
-<note type="tip">Закрытое задание при необходимости можно открыть повторно </note>
+<note type="tip">A closed assignment can be reopened by ... _fixme_</note>
 
-<p>Для удаления опубликованного задания, информация о котором более не интересует ни преподавателя, ни учащихся, которые выполняли (выполняют) данное задание, предназначена кнопка <uicontrol>Удалить</uicontrol>. Перед удалением появится предупреждение.</p>
+<p>Press the <uicontrol>Remove</uicontrol> button to delete current assignment. You will be asked for a confirmation.</p>
 
           <fig id="delete_published_request_png">
-            <title>Диалог подтверждения удаления опубликованного задания</title>
+            <title>Remove published assignment confirmation dialog</title>
             <image href="img/delete-published-request.png" placement="break">
-                <alt>Диалог подтверждения удаления опубликованного задания</alt>
+                <alt>Remove published assignment confirmation dialog</alt>
             </image>
         </fig>
 		
-<note type="attention">Удаление опубликованного задания стирает из облачного хранилища (см. <xref keyref="glossary"/>&#160;) всю информацию о нем, включая ответы учащихся, оценки и комментарии! Восстановление удаленного задания невозможно! Перед выполнением удаления рекомендуется экспортировать отчет по выполнению (см. <xref keyref="tasks_export"/>&#160;), а также создать резервную копию (см. <xref keyref="tasks_archive"/>&#160;)</note>
+<note type="attention">Removing a published assignment will irrevocably delete the assignment, together with all attached files and associated data -- including student answers, comments, and grades -- from the cloud storage (see <xref keyref="glossary"/>&#160;). It is strongly recommended to create an assignment report (see <xref keyref="tasks_export"/>&#160;) and file a copy of the assignment to the archive (see <xref keyref="tasks_archive"/>&#160;) before removing it.</note>
 
   </conbody>
 </concept>
