@@ -3,21 +3,21 @@
 "concept.dtd">
 
 <concept id="tasks_share" xml:lang="en-US">
-  <title>Общие задания</title>
+  <title>Shared assignments</title>
   <conbody>
 
-<p>Если при создании шаблона задания (см. <xref keyref="tasks_creation"/>&#160;) устанавливалась опция <uicontrol>Общее для всех преподавателей</uicontrol>, то после создания он станет доступен всем преподавателям учебного заведения, использующим модуль <wintitle>Задания через Интернет</wintitle>.</p>
+<p>An assignment will be made available for the other teachers of your school using the <wintitle>Remote Assignment</wintitle> module whenever <uicontrol>Shared with other teachers</uicontrol> box was checked during creation of the assignment (see <xref keyref="tasks_creation"/>&#160;)  (see <xref keyref="tasks_creation"/>&#160;).</p>
 
-<p>Для импорта общих заданий служит кнопка <uicontrol>Импортировать общие задания</uicontrol> вкладки <uicontrol>Задания</uicontrol>, открывающая соответствующее диалоговое окно.</p>
+<p>Press <uicontrol>Import shared assignments</uicontrol> button in the <uicontrol>Assignments</uicontrol> tab to import assignments shared by other teachers.</p>
   
           <fig id="shared_tasks_import_window_png">
-            <title>Окно импорта общих заданий</title>
+            <title>Importing a shared assignment</title>
             <image href="img/shared-tasks-import-window.png" placement="break">
-                <alt>Окно импорта общих заданий</alt>
+                <alt>Importing a shared assignment</alt>
             </image>
         </fig>
 		
-        <p>На этом рисунке цифрами обозначены:</p>
+        <p>Elements of the <wintitle>Import shared assignments</wintitle> dialog box:</p>
 
 <table frame="topbot">
 <tgroup cols="2">
@@ -28,34 +28,34 @@
 
 <row>
 <entry>1</entry>
-<entry>Шаблон задания, не выбранный для импорта</entry>
+<entry>Not selected assignment</entry>
 </row>
 
 <row>
 <entry>2</entry>
-<entry>Шаблон задания, выбранный для импорта</entry>
+<entry>Assignment selected for import</entry>
 </row>
 
 <row>
 <entry>3</entry>
-<entry>Кнопка-переключатель статуса импорта выделенного общего шаблона задания</entry>
+<entry><uicontrol>Toggle</uicontrol> status of the current assignment _fixme_ [ui]</entry>
 </row>
 
 <row>
 <entry>4</entry>
-<entry>Кпопка начала импорта выбранных шаблонов заданий</entry>
+<entry>Import selected assignments</entry>
 </row>
 
 <row>
 <entry>5</entry>
-<entry>Кнопка отмены импорта и закрытия диалога</entry>
+<entry>Cancel import and close window</entry>
 </row>
 
 </tbody>
 </tgroup>
 </table>
 
-<p>После выбора желаемых для импорта шаблонов заданий и нажатия кнопки <uicontrol>OK</uicontrol> они появятся в списке шаблонов заданий преподавателя.</p>
+<p>Select assignments from the list and press <uicontrol>OK</uicontrol> to import them into your workspace. Copies of imported assignments will appear in the list of unpublished assignments, where you can modify them to suit your needs.</p>
 
   </conbody>
 </concept>
