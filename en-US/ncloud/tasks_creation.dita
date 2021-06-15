@@ -126,13 +126,13 @@
 
 <note type="note">The <uicontrol>Files to send</uicontrol> tab is displayed only for unpublished assignments.</note>
 
-<p>Press the <uicontrol>Create</uicontrol> button to start creating a new assignment.  переводит интерфейс в режим создания нового шаблона задания _fixme_. Press <uicontrol>Save assignment</uicontrol> to save current assignment or any its modifications to the cloud storage. Once the assignment is safely stored in the cloud, it will appear in the list displayed in the upper portion of the window; at this point you can also publish the assignment, i.e. make it available to the students. Если было изменено уже существующее задание, информация о нем также обновится по окончании выгрузки произведенных изменений _fixme_. Press <uicontrol>Cancel</uicontrol> to cancel creating a new assignments and return to the list of existing assignments.</p>
+<p>Press the <uicontrol>Create</uicontrol> button to start creating a new assignment. An empty template will be presented to you that you can start populating with assignment data. Press <uicontrol>Save assignment</uicontrol> to save current assignment with any modifications to the cloud. Once the assignment is safely stored in the cloud, it will appear in the list displayed in the upper portion of the window; at this point you can also publish the assignment, i.e. make it available to the students. Press <uicontrol>Cancel</uicontrol> to cancel creating a new assignments and return to the list of existing assignments.</p>
 
 <note type="note">You can only edit and modify unpublished assignments.</note>
 
 <note type="note">Check the <uicontrol>Shared assignment</uicontrol> box to make this assignment available for the other teachers in your school. They will be able to import the assignments into their workspace once you save the assignment to the cloud. (see <xref keyref="tasks_share"/>&#160;)</note>
 
-<p>Press the <uicontrol>Publish</uicontrol> button to publish current assignment. This will open publication dialog box (see <xref keyref="tasks_publish"/>&#160;).</p>
+<p>Press <uicontrol>Publish</uicontrol> button to publish the current assignment. This will open publication dialog box (see <xref keyref="tasks_publish"/>&#160;).</p>
 
 <p>Press <uicontrol>Remove</uicontrol> button to initiate the removal of the assignment. You will be prompted for further confirmation of your intentions (see <xref keyref="tasks_delete"/>&#160;).</p>
 
