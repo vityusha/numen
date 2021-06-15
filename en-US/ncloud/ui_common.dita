@@ -3,7 +3,7 @@
 "concept.dtd">
 
 <concept id="ui_common" xml:lang="en-US">
-  <title></title>
+  <title>List of common elements</title>
   <conbody>
   
   <p>This section describes several elements are common between teacher and student user interfaces of the <uicontrol>Remote Assignments</uicontrol> module. Those elements are:
