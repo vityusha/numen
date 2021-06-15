@@ -6,7 +6,7 @@
 <title>Adding a URL</title>
 <conbody>
   
-<p>The <uicontrol>Add URL</uicontrol> button in <uicontrol>Files to send</uicontrol> panel (see <xref keyref="uic_flocal"/>&#160; section) opens a dialog box where you can insert an internet hyperlink in lieu of a local file.</p>
+<p>The <uicontrol>Add URL</uicontrol> button in <uicontrol>Files to send</uicontrol> panel (see <xref keyref="uic_flocal"/>&#160; section) opens a dialog box where you can insert an internet hyperlink into assignment instead of a local file.</p>
 
         <fig id="add_url_dialog_png">
             <title>Add a hyperlink dialog box</title>
