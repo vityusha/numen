@@ -163,9 +163,9 @@
             </image>
         </fig>
 
-<p>You can also import a class list to save the hassle of adding students manually. Press the <uicontrol>Load class list</uicontrol> button to import class list from a <uicontrol>Nibelung Class List</uicontrol> file (NCL). You will be prompted to select the NCL file. Student list and course title in the assignment will be filled in automatically upon a successful importation of the class list.</p>
+<p>You can also import a class list to save the hassle of adding students manually. Press the <uicontrol>Load class list</uicontrol> button to import class list from a <uicontrol>Nibelung Class List</uicontrol> file (these files have the <filepath>NCL</filepath> extension). You will be prompted to select an NCL file. Student list and course title in the assignment will be filled in automatically upon a successful importation of the class list.</p>
 
-<note type="attention">The NCL file must have the student ID field filled in for every student of the class.</note>
+<note type="attention">Class list file must have the student ID field filled in for every student in the class.</note>
 
 <p>Press the <uicontrol>Save class list</uicontrol> button to save the student list into a <uicontrol>Nibelung Class List</uicontrol> file. This class list can be reused in another assignment prepared with in <wintitle>Remote Assignments</wintitle> module, as well as loaded into <wintitle>Dialog Nibelung</wintitle> itself.</p>
 
