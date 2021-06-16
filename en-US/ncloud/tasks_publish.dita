@@ -246,9 +246,9 @@
         
 <note type="tip">Information in the <wintitle>Progress</wintitle> tab (see <xref keyref="tasks_progress"/>&#160;) refers to the assignments selected in the <wintitle>Published assignments</wintitle> tab.</note>
 
-<p>Press the <uicontrol>Close</uicontrol> button to finish working with the assignment (see <xref keyref="tasks_close"/>&#160;). Only assignments for which all students have turned in their work and it has been graded by the teacher can be closed. _fixme_</p>
+<p>Press the <uicontrol>Close</uicontrol> button to finish working with the assignment (see <xref keyref="tasks_close"/>&#160;). It makes sense to close an assignment for which all students have turned in their work and it has been graded by the teacher.</p>
 
-<p>The <uicontrol>Show closed assignments</uicontrol> triggers display of closed assignments in the list. If enabled, closed assignments will be listed in gray.</p>
+<p>The <uicontrol>Show closed assignments</uicontrol> checkbox triggers display of closed assignments in the list. Closed assignments will be listed in gray if this option is enabled.</p>
 
 <note type="tip">After assignment is closed, the <uicontrol>Close</uicontrol> button becomes <uicontrol>Open</uicontrol> and can be used to reopen the assignment.</note>
 
