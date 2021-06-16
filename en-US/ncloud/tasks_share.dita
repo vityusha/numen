@@ -55,7 +55,7 @@
 </tgroup>
 </table>
 
-<p>Select assignments from the list and press <uicontrol>OK</uicontrol> to import them into your workspace _fixme_ [нужно еще toggle status сделать]. Copies of imported assignments will appear in the list of unpublished assignments, where you can modify them to suit your needs.</p>
+<p>Select assignments from the list, toggle their status, and and press <uicontrol>OK</uicontrol> to import them into your workspace. Copies of imported assignments will appear in the list of unpublished assignments, where you can modify them to suit your needs.</p>
 
   </conbody>
 </concept>
