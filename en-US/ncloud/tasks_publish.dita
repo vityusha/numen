@@ -250,7 +250,7 @@
 
 <p>The <uicontrol>Show closed assignments</uicontrol> triggers display of closed assignments in the list. If enabled, closed assignments will be listed in gray.</p>
 
-<note type="tip">A closed assignment can be reopened by ... _fixme_</note>
+<note type="tip">After assignment is closed, the <uicontrol>Close</uicontrol> button becomes <uicontrol>Open</uicontrol> and can be used to reopen the assignment.</note>
 
 <p>Press the <uicontrol>Remove</uicontrol> button to delete current assignment. You will be asked for a confirmation.</p>
 
