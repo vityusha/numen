@@ -3,21 +3,25 @@
 "concept.dtd">
 
 <concept id="tasks_delete" xml:lang="en-US">
-  <title>Удаление шаблонов заданий</title>
+  <title>Removing assignments with multiple publications</title>
 <conbody>
 
-<p>При нажатии на кнопку <uicontrol>Удалить</uicontrol>, находящуюся на вкладке <uicontrol>Задания</uicontrol> главного окна (см. <xref keyref="teacher_mainwin"/>&#160;), откроется диалог подтверждения удаления шаблона задания</p>
+<p>The same assignment can be published multiple times, for example, for different groups of students. The procedure for removing such an assignment requires a higher level of confirmation because all data on all associated publications will be deleted permanently. The only way to save local copies is to manually file each publication to the archive.</p>
+
+<p>Select the <uicontrol>Assignments</uicontrol> tab (see <xref keyref="teacher_mainwin"/>&#160; _fixme_ [xref]) in the main window and select an assignment you wish to delete from the list. Press the <uicontrol>Remove</uicontrol> button, which will open the confirmation dialog box.</p>
 
           <fig id="delete_task_confirm_dialog_png">
-            <title>Диалог подтверждения удаления шаблона заданий</title>
+            <title>Remove assignment with multiple publications dialog box</title>
             <image href="img/delete-task-confirm-dialog.png" placement="break">
-                <alt>Диалог подтверждения удаления шаблона заданий</alt>
+                <alt>Remove assignment with multiple publications dialog box</alt>
             </image>
         </fig>
 
-<p>Удаление шаблона задания приводит к удалению всех связанных публикаций, <uicontrol>включая ответы учащихся и выставленные оценки</uicontrol>.</p>
+<note type="attention">Removing such assignment also irrevocably removes all instances of its publication, including all submitted student work, all comments, and all grades. Make absolutely sure that nobody will ever need neither the assignment, nor results of any of its publications.</note>
 
-<note type="attention">Удаленный шаблон задания и связанные с ним данные невозможно восстановить! Перед операцией удаления следует убедиться, что ни этот шаблон задания, ни его публикации, более не понадобятся!</note>
+<p>You have to actually type <userinput>DELETE</userinput> in the corresponding field to confirm the removal of an assignment with multiple publications.</p>
+
+<note type="tip">This facility can also be used to remove assignments that were never published.</note>
 
   </conbody>
 </concept>
