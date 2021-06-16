@@ -89,15 +89,15 @@
   
 <p>Select a student from the list to review their work. Submitted files and comments will appear in the content panel (see <xref keyref="uic_fcloud"/>&#160;).</p>
 
-<p>Use the <uicontrol>Assignment grade</uicontrol> field to issue a numeric grade for the assignment. This grade will be considered <uicontrol>preliminary</uicontrol> as long as the assignment has status <uicontrol>In progress</uicontrol> or was sent back to the student <uicontrol>For review</uicontrol>).</p>
+<p>Use the <uicontrol>Assignment grade</uicontrol> field to issue a formal grade for the assignment. This grade will be considered <uicontrol>preliminary</uicontrol> as long as the assignment has status <uicontrol>In progress</uicontrol> or was sent back to the student <uicontrol>For review</uicontrol>).</p>
 
 <note type="tip">You can adjust student grades at any point in the assignment lifecycle.</note>
 
-<note type="tip">Numerical _fixme_ [вообще-то у нас могут быть какие-угодно, а не только цифровые] grades for an assignment are optional. You can evaluate student work with free form comments instead.</note>
+<note type="tip">Formal assignment grades can include up to 3 alphanumeric symbols. Formal grades are also optional -- you can evaluate student work with free form comments instead.</note>
 
 <p>Use the <uicontrol>Message</uicontrol> field to give the student comment on the grade or to explain the reasons why you are sending their work back for revision. Don't forget to save the message (<uicontrol>Save</uicontrol> button is located immediately to the right of the <uicontrol>Message</uicontrol> field). This message is optional.</p>
 
-<p>Press the <uicontrol>Graded</uicontrol> to finalize review of the submitted work. Pressing this button confirms that the teacher has <uicontrol>reviewed</uicontrol>, <uicontrol>checked for correctness</uicontrol>, <uicontrol>issued a grade</uicontrol> and/or <uicontrol>commented</uicontrol> on the turned in assignment work. The numerical grade and commentary are both optional, giving you maximum flexibility in your teaching process.</p>
+<p>Press the <uicontrol>Graded</uicontrol> button to finalize review of the submitted work. Pressing this button confirms that the teacher has <uicontrol>reviewed</uicontrol>, <uicontrol>checked for correctness</uicontrol>, <uicontrol>issued a grade</uicontrol> and/or <uicontrol>commented</uicontrol> on the turned in assignment work. The formal grade and commentary are both optional, giving you maximum flexibility in your teaching process.</p>
 
 <p>Students can not submit any further revisions or comments for their work after their assignment is <uicontrol>Graded</uicontrol>. They can still view the assignment, together their grades and teacher comments.</p>
 
