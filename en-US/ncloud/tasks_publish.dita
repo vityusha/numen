@@ -7,7 +7,6 @@
 <conbody>
 
 <p>Select the <uicontrol>Assignments</uicontrol> tab in the main window (see <xref keyref="teacher_mainwin"/>&#160;), select an assignment from the list, and press the <uicontrol>Publish</uicontrol> button to initiate publication of an assignment. This will open the assignment publication dialog box.</p>
-
           <fig id="publish_window_png">
             <title>Assignment publication dialog box</title>
             <image href="img/publish-window.png" placement="break">
@@ -76,7 +75,7 @@
 
 <row>
 <entry>11</entry>
-<entry>Student name</entry> _fixme_ [ui]
+<entry>Screen name</entry>
 </row>
 
 <row>
@@ -130,7 +129,7 @@
   <entry colname="COLSPEC1" align="center">Allotted time limit</entry>
 </row>
 </thead>
-		  
+
 <tbody>
 
 <row>
@@ -156,15 +155,14 @@
 
 </p>
 
-<p>You can use the <uicontrol>Add student</uicontrol> and <uicontrol>Edit student</uicontrol> buttons to add students to the list of assignment recipients or to edit their data. This will open a dialog for adding or editing student data. Student data consists of a mandatory <uicontrol>student ID</uicontrol> and an optional student <uicontrol>screen name</uicontrol> _fixme_ [ui]. Screen name is how the name of the student will be displayed throughout the assignment.</p>
-
+<p>You can use the <uicontrol>Add student</uicontrol> and <uicontrol>Edit student</uicontrol> buttons to add students to the list of assignment recipients or to edit their data. This will open a dialog for adding or editing student data. Student data consists of a mandatory <uicontrol>student ID</uicontrol> and an optional student <uicontrol>screen name</uicontrol>. Screen name is how the name of the student will be displayed throughout the assignment.</p>
         <fig id="add_student_dialog_png">
             <title>Add/edit student dialog box</title>
             <image href="img/add-student-dialog.png" placement="break">
                 <alt>Add/edit student dialog box</alt>
             </image>
         </fig>
-		
+
 <p>You can also import a class list to save the hassle of adding students manually. Press the <uicontrol>Load class list</uicontrol> button to import class list from a <uicontrol>Nibelung Class List</uicontrol> file (NCL). You will be prompted to select the NCL file. Student list and course title in the assignment will be filled in automatically upon a successful importation of the class list.</p>
 
 <note type="attention">The NCL file must have the student ID field filled in for every student of the class.</note>
@@ -173,7 +171,7 @@
 
 <note type="attention">An assignment can not be published if any of the students in the list are missing their <uicontrol>student IDs</uicontrol> (empty fields will be marked with red borders). Assignment also can not be published with an empty student list.</note>
 
-<p>The course name field is optional and serves for informational purposes only.</p>
+<p>The class name field is optional and serves for informational purposes only.</p>
 
 <p>Press the <uicontrol>Publish</uicontrol> button to publish the assignment. The assignment will receive the  <uicontrol>Published</uicontrol> status, from that moment students will see the assignment upon startup or refresh of their <wintitle>Remote Assignments</wintitle> interfaces and can start working on it. This will also start the clock for the time allotted for the assignment.</p>
 
@@ -210,7 +208,7 @@
 
 <row>
 <entry>3</entry>
-<entry><uicontrol>Extend deadline</uicontrol> button _fixme_ [ui]</entry>
+<entry><uicontrol>Extend deadline</uicontrol> button</entry>
 </row>
 
 <row>
@@ -248,7 +246,7 @@
         
 <note type="tip">Information in the <wintitle>Progress</wintitle> tab (see <xref keyref="tasks_progress"/>&#160;) refers to the assignments selected in the <wintitle>Published assignments</wintitle> tab.</note>
 
-<p>Press the <uicontrol>Close</uicontrol> button to finish working with the assignment (see <xref keyref="tasks_close"/>&#160;). Only assignments for which all students have turned in their work and it has been graded by the teacher can be closed.</p>
+<p>Press the <uicontrol>Close</uicontrol> button to finish working with the assignment (see <xref keyref="tasks_close"/>&#160;). Only assignments for which all students have turned in their work and it has been graded by the teacher can be closed. _fixme_</p>
 
 <p>The <uicontrol>Show closed assignments</uicontrol> triggers display of closed assignments in the list. If enabled, closed assignments will be listed in gray.</p>
 

@@ -95,19 +95,19 @@
 
 <row>
 <entry>Hide closed</entry>
-<entry>Hide assignments that are <uicontrol>Closed</uicontrol> or <uicontrol>Late</uicontrol> _fixme_ [ui] (см. <xref keyref="glossary"/>&#160;)</entry>
+<entry>Hide assignments that are <uicontrol>Closed</uicontrol> or <uicontrol>Late</uicontrol> (see <xref keyref="glossary"/>&#160;)</entry>
 </row>
 
 <row>
 <entry>Hide inactive</entry>
-<entry>Hide assignments that are <uicontrol>Closed</uicontrol>, <uicontrol>Late</uicontrol>, <uicontrol>Waiting</uicontrol> or <uicontrol>Graded</uicontrol> _fixme_ [ui]</entry>
+<entry>Hide assignments that are <uicontrol>Closed</uicontrol>, <uicontrol>Late</uicontrol>, <uicontrol>Waiting</uicontrol> or <uicontrol>Graded</uicontrol></entry>
 </row>
 
 </tbody>
 </tgroup>
 </table>
 
-<p>Information about selected assignment, together with the tools for completion of the assignment, is displayed in the <uicontrol>Assignment panel</uicontrol> area. Buttons for <uicontrol>saving</uicontrol> and <uicontrol>submitting</uicontrol> _fixme?_ [ui] your work are located in the <uicontrol>Answer actions</uicontrol> panel to the right of the <uicontrol>Assignment panel</uicontrol>.</p>
+<p>Information about selected assignment, together with the tools for completion of the assignment, is displayed in the <uicontrol>Assignment panel</uicontrol> area. Buttons for <uicontrol>saving</uicontrol> and <uicontrol>submitting</uicontrol> your work are located in the <uicontrol>Answer actions</uicontrol> panel to the right of the <uicontrol>Assignment panel</uicontrol>.</p>
 
   </conbody>
 </concept>

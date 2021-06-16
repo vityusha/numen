@@ -6,7 +6,7 @@
   <title>Shared assignments</title>
   <conbody>
 
-<p>An assignment will be made available for the other teachers of your school using the <wintitle>Remote Assignment</wintitle> module whenever <uicontrol>Shared with other teachers</uicontrol> box was checked during creation of the assignment (see <xref keyref="tasks_creation"/>&#160;)  (see <xref keyref="tasks_creation"/>&#160;).</p>
+<p>An assignment will be made available for the other teachers of your school using the <wintitle>Remote Assignment</wintitle> module whenever <uicontrol>Shared assignment</uicontrol> box was checked during creation of the assignment (see <xref keyref="tasks_creation"/>&#160;)  (see <xref keyref="tasks_creation"/>&#160;).</p>
 
 <p>Press <uicontrol>Import shared assignments</uicontrol> button in the <uicontrol>Assignments</uicontrol> tab to import assignments shared by other teachers.</p>
   
@@ -55,7 +55,7 @@
 </tgroup>
 </table>
 
-<p>Select assignments from the list and press <uicontrol>OK</uicontrol> to import them into your workspace. Copies of imported assignments will appear in the list of unpublished assignments, where you can modify them to suit your needs.</p>
+<p>Select assignments from the list and press <uicontrol>OK</uicontrol> to import them into your workspace _fixme_ [нужно еще toggle status сделать]. Copies of imported assignments will appear in the list of unpublished assignments, where you can modify them to suit your needs.</p>
 
   </conbody>
 </concept>
