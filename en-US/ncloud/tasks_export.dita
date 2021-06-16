@@ -3,23 +3,23 @@
 "concept.dtd">
 
 <concept id="tasks_export" xml:lang="en-US">
-  <title>Экспорт отчета по опубликованным заданиям&#160;</title>
+  <title>Creating assignment reports</title>
   <conbody>
   
-  <p>Для создания отчета необходимо на вкладке <uicontrol>Опубликованные задания</uicontrol> выбрать задание, по выполнению которого нужен отчет. Затем следует перейти на вкладку <uicontrol>Выполнение</uicontrol> (см. <xref keyref="tasks_progress"/>&#160;). Для управления отображением имен учащихся в отчете служит опция <uicontrol>Скрыть имена</uicontrol>. При выборе этой опции в отчет будут выводиться <uicontrol>только ID учащихся</uicontrol>.</p>
+<p>Select an assignment for which to create report from the <uicontrol>Published assignments</uicontrol> tab, then switch to the <uicontrol>Progress</uicontrol> tab (see <xref keyref="tasks_progress"/>&#160;). Use the  <uicontrol>Hide names</uicontrol> option to control display of student names in the report. Only student IDs will be shown if this option is checked.</p>
 
-  <p>После выполнения указанных выше предварительных действий следует нажать кнопку <uicontrol>Экспорт отчета</uicontrol>. Появится стандартный диалог сохранения. Нажатие кнопки диалога <uicontrol>Сохранить</uicontrol> приведет к созданию отчета.</p>
+<p>You can now create the report by pressing the <uicontrol>Export report</uicontrol> button. A standard <uicontrol>Save as</uicontrol> dialog box will open where you can specify file name and report format.</p>
   
           <fig id="publish_stage_export_png">
-            <title>Диалог сохранения отчета</title>
+            <title>Save report dialog box</title>
             <image href="img/publish-stage-export.png" placement="break">
-                <alt>Диалог сохранения отчета</alt>
+                <alt>Save report dialog box</alt>
             </image>
         </fig>
 		
-  <p>Экспорт возможен в форматы <uicontrol>CSV</uicontrol> и <uicontrol>HTML</uicontrol>.</p>
+<p>Report can be exported into <uicontrol>CSV</uicontrol> and <uicontrol>HTML</uicontrol> formats. <uicontrol>CSV</uicontrol> (comma separated values) is a machine readable format useful for importing the data into spreadsheets or database management software for further processing. <uicontrol>HTML</uicontrol> is primarily intended for human consumption.</p>
  
-<note type="tip">Шаблон для экспорта задания написан на языке <uicontrol>Liquid</uicontrol> (см. <xref scope="external" href="https://shopify.github.io/liquid/">Liquid template language</xref>), что дает возможность изменить состав и форму экспортируемых данных. Шаблон хранится в файле <filepath>%PROGRAMDATA%\ProgramData\LAIN\Nibelung\data\taskreport.htm</filepath>. До начала правки шаблона рекомендуется сделать его резервную копию, поскольку при повреждении исходного файла экспорт отчета в формат HTML может стать невозможным до переустановки модуля <wintitle>Задания через Интернет</wintitle>!</note>
+<note type="tip">Template for the <uicontrol>HTML</uicontrol> reports is specified in the <uicontrol>Liquid</uicontrol> language (see <xref scope="external" href="https://shopify.github.io/liquid/">Liquid template language</xref>) and is located in <filepath>%PROGRAMDATA%\ProgramData\LAIN\Nibelung\data\taskreport.htm</filepath>. You can customize the template to suit your needs. It is highly recommended to make a backup copy of that file before making any modifications as an invalid template can preclude creating HTML reports until <wintitle>Remote Assignments</wintitle> module is reinstalled.</note>
 
   </conbody>
 </concept>
