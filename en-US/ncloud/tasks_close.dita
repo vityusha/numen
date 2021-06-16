@@ -3,26 +3,26 @@
 "concept.dtd">
 
 <concept id="tasks_close" xml:lang="en-US">
-  <title>Завершение работы с заданием&#160;</title>
+  <title>End of assignment lifecycle</title>
 
 <conbody>
 
-<p>Каждое опубликованное задание имеет свой жизненный цикл, начиная от создания и раздачи его учащимся для выполнения (<uicontrol>Публикация</uicontrol> в терминах модуля <wintitle>Задания через Интернет</wintitle>) и заканчивая выставлением оценок и завершением работы с ним.</p>
+<p>Each assignment has its own lifecycle, which includes creating an assignment, making it available to the students (<uicontrol>Publication</uicontrol> in terms of the <wintitle>Remote Assignments</wintitle> module), grading it, and eventually finish working with the assignment.</p>
 
-<p>Чтобы завершить работу следует, находясь на вкладке опубликованных заданий (см. <xref keyref="tasks_publish"/>&#160;), выбрать нужное и нажать кнопку <uicontrol>Закрыть</uicontrol>. Задание получит статус <uicontrol>Закрыто</uicontrol>; у учащихся (при очередном запуске модуля) задание станет неактивным (доступным только для просмотра). С помощью опции <uicontrol>Показать закрытые задания</uicontrol> выбирается, показывать или нет закрытые задания.</p>
+<p>Select the <uicontrol>Published assignments</uicontrol> tab (see <xref keyref="tasks_publish"/>&#160;), then select an assignment and press the <uicontrol>Close</uicontrol> button to finalize the assignment. The assignment will be considered <uicontrol>Closed</uicontrol>, no further student work can be turned in, all grades will be considered final, and the assignment will be displayed as inactive in the student interface. <uicontrol>Show closed assignments</uicontrol> option in the teacher interface controls display of the closed assignments.</p>
 
-<note type="tip">Любое из закрытых заданий при необходимости возможно <uicontrol>открыть</uicontrol> повторно, для чего достаточно выделить закрытое задание и нажать кнопку <uicontrol>Открыть</uicontrol>. Если время выполнения вновь открытого задания вышло, нажатием кнопки <uicontrol>Продлить</uicontrol> можно установить новый срок, и задание станет активным для учащихся</note>
+<note type="tip">A closed assignment can be <uicontrol>reopened</uicontrol> by selecting the assignment and pressing the <uicontrol>Open</uicontrol> button. You can also use the <uicontrol>Extend deadline</uicontrol> button to allow for extra time even for the assignments that are already past their due date.</note>
 
 <fig id="tasks_reopen_png">
-  <title>Действия над закрытыми заданиями</title>
+  <title>Closed assignment actions</title>
     <image href="img/tasks-reopen.png" placement="break">
-      <alt>Действия над закрытыми заданиями</alt>
+      <alt>Closed assignment actions</alt>
     </image>
 </fig>
 
-<p>Для окончательного завершения работы с опубликованным заданием есть возможность его удаления. Операция производится нажатием кнопки <uicontrol>Удалить</uicontrol>, расположенной на вкладке опубликованных заданий (см. <xref keyref="tasks_publish"/>&#160;).</p>
+<p>You can finish the assignment lifecycle by removing it. Use the <uicontrol>Remove</uicontrol> button located in the <uicontrol>Published assignments</uicontrol> tab (see <xref keyref="tasks_publish"/>&#160;) for this.</p>
 
-<note type="attention">Удаленное задание невозможно восстановить! Вся информация, файлы и ответы учащихся, непосредственно относящиеся к опубликованному заданию, безвозвратно исчезнут из облачного хранилища!</note>
+<note type="attention">Removing a published assignment will irrevocably delete the assignment, together with all attached files and associated data -- including student answers, comments, and grades -- from the cloud storage (see <xref keyref="glossary"/>&#160;). It is strongly recommended to create an assignment report (see <xref keyref="tasks_export"/>&#160;) and file a copy of the assignment to the archive (see <xref keyref="tasks_archive"/>&#160;) before removing it.</note>
 
 </conbody>
 </concept>
