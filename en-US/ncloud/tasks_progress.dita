@@ -105,7 +105,7 @@
 
 <note type="important">Grade is saved only by pressing the <uicontrol>Graded</uicontrol> or <uicontrol>For revision</uicontrol> buttons. The save message button does not save the grade.</note>
 
-<p>Чтобы применить результаты работы по проверке и оценке ответов учащихся, сделанные на вкладке <uicontrol>Published assignments</uicontrol> по <uicontrol>каждому</uicontrol> из учащихся задания, следует нажать кнопку <uicontrol>Применить</uicontrol>. Это достаточно сделать один раз для всех произведенных изменений.</p>
+<p>Чтобы применить результаты работы по проверке и оценке ответов учащихся, сделанные на вкладке <uicontrol>Published assignments</uicontrol> по <uicontrol>каждому</uicontrol> из учащихся задания, следует нажать кнопку <uicontrol>Применить</uicontrol>. Это достаточно сделать один раз для всех произведенных изменений. _fixme_ </p>
 
 <p>Use the  <uicontrol>Export report</uicontrol> button to create a report for the assignment with grades for each student and assignment statistics. Please see section <xref keyref="tasks_export"/> for further details.</p>
 

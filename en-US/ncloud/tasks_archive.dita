@@ -8,7 +8,7 @@
   
 <p>You can file published assignments to the archive. This function can be used to save a local copy of an assignment for future reference and clear it from the cloud to remove the clutter and free up storage space.</p>
 
-<p>Select the <uicontrol>Published assignments</uicontrol> tab in the main window (see <xref keyref="teacher_mainwin"/>&#160; _fixme_ [xref]), refresh the list of publications, and select an assignment for filing to the archive. Press the <uicontrol>File to archive</uicontrol> button in the lower left corner of the tab, this will open a standard <wintitle>Save as</wintitle> dialog box.</p>
+<p>Select the <uicontrol>Published assignments</uicontrol> tab in the main window (see <xref keyref="tasks_publish"/>&#160;), refresh the list of publications, and select an assignment for filing to the archive. Press the <uicontrol>File to archive</uicontrol> button in the lower left corner of the tab, this will open a standard <wintitle>Save as</wintitle> dialog box.</p>
 
           <fig id="archive_published_saveas_png">
             <title>Save archive dialog box</title>

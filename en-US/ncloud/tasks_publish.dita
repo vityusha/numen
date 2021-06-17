@@ -171,7 +171,7 @@
 
     <note type="attention">An assignment can not be published if any of the students in the list are missing their <uicontrol>student IDs</uicontrol> (empty fields will be marked with red borders). Assignment also can not be published with an empty student list.</note>
 
-    <p>The <uicontrol>course</uicontrol>, <uicontrol>description</uicontrol>, and <uicontrol>comment</uicontrol> fields are optional and serve for informational purposes only.</p>
+    <p>The <uicontrol>description</uicontrol> and <uicontrol>comment</uicontrol> fields are optional and serve for informational purposes only.</p>
 
     <p>Press the <uicontrol>Publish</uicontrol> button to publish the assignment. The assignment will receive the  <uicontrol>Published</uicontrol> status, from that moment students will see the assignment upon startup or refresh of their <wintitle>Remote Assignments</wintitle> interfaces and can start working on it. This will also start the clock for the time allotted for the assignment.</p>
 

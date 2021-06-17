@@ -8,7 +8,7 @@
 
 <p>The same assignment can be published multiple times, for example, for different groups of students. The procedure for removing such an assignment requires a higher level of confirmation because all data on all associated publications will be deleted permanently. The only way to save local copies is to manually file each publication to the archive.</p>
 
-<p>Select the <uicontrol>Assignments</uicontrol> tab (see <xref keyref="teacher_mainwin"/>&#160; _fixme_ [xref]) in the main window and select an assignment you wish to delete from the list. Press the <uicontrol>Remove</uicontrol> button, which will open the confirmation dialog box.</p>
+<p>Select the <uicontrol>Assignments</uicontrol> tab (see <xref keyref="teacher_mainwin"/>&#160;) in the main window and select an assignment you wish to delete from the list. Press the <uicontrol>Remove</uicontrol> button, which will open the confirmation dialog box.</p>
 
           <fig id="delete_task_confirm_dialog_png">
             <title>Remove assignment with multiple publications dialog box</title>
