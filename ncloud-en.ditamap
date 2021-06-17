@@ -53,9 +53,9 @@
 
   <topichead navtitle="Working with the teacher interface">
     <topicref keys="tasks_creation" href="en-US/ncloud/tasks_creation.dita" />
-    <topicref keys="tasks_share" href="ru-RU/ncloud/tasks_share.dita" />
-    <topicref keys="tasks_publish" href="ru-RU/ncloud/tasks_publish.dita" />
-    <topicref keys="tasks_publish_manage" href="ru-RU/ncloud/tasks_publish_manage.dita" />
+    <topicref keys="tasks_share" href="en-US/ncloud/tasks_share.dita" />
+    <topicref keys="tasks_publish" href="en-US/ncloud/tasks_publish.dita" />
+    <topicref keys="tasks_publish_manage" href="en-US/ncloud/tasks_publish_manage.dita" />
     <topicref keys="tasks_progress" href="en-US/ncloud/tasks_progress.dita" />
     <topicref keys="tasks_close" href="en-US/ncloud/tasks_close.dita" />
     <topicref keys="tasks_export" href="en-US/ncloud/tasks_export.dita" />
