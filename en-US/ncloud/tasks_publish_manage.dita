@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
+"concept.dtd">
+
+<concept id="tasks_publish_ьфтфпу" xml:lang="en-US">
+  <title>Manage published assignments</title>
+  <conbody>
+
+    <p>Published assignments appear on the <uicontrol>Published assignments</uicontrol> tab.</p>
+
+    <fig id="teacher_publish_tab_png">
+      <title><wintitle>Published assignments</wintitle> tab in teacher interface</title>
+      <image href="img/teacher-publish-tab.png" placement="break">
+        <alt><wintitle>Published assignments</wintitle> tab in teacher interface"</alt>
+      </image>
+    </fig>
+    <p>Elements of the <wintitle>Published assignments</wintitle> tab:</p>
+
+    <table frame="topbot">
+      <tgroup cols="2">
+        <colspec colname="COLSPEC0" colwidth="12"/>
+        <colspec colname="COLSPEC1" colwidth="200*"/>
+
+        <tbody>
+
+          <row>
+            <entry>1</entry>
+            <entry>List of published assignments</entry>
+          </row>
+
+          <row>
+            <entry>2</entry>
+            <entry>Assignment information panel</entry>
+          </row>
+
+          <row>
+            <entry>3</entry>
+            <entry><uicontrol>Extend deadline</uicontrol> button</entry>
+          </row>
+
+          <row>
+            <entry>4</entry>
+            <entry><uicontrol>Close</uicontrol> button</entry>
+          </row>
+
+          <row>
+            <entry>5</entry>
+            <entry><uicontrol>Remove</uicontrol> button</entry>
+          </row>
+
+          <row>
+            <entry>6</entry>
+            <entry><uicontrol>Show closed assignments</uicontrol> checkbox</entry>
+          </row>
+
+          <row>
+            <entry>7</entry>
+            <entry><uicontrol>File to archive</uicontrol> button</entry>
+          </row>
+
+        </tbody>
+      </tgroup>
+    </table>
+
+    <p>Press the <uicontrol>Extend deadline</uicontrol> button to extend the assignment deadline. A dialog box will appear on your screen.</p>
+
+    <fig id="publication_prolong_png">
+      <title>Deadline extension dialog</title>
+      <image href="img/publication-prolong.png" placement="break">
+        <alt>Deadline extension dialog</alt>
+      </image>
+    </fig>
+
+    <note type="tip">Information in the <wintitle>Progress</wintitle> tab (see <xref keyref="tasks_progress"/>&#160;) refers to the assignments selected in the <wintitle>Published assignments</wintitle> tab.</note>
+
+    <p>Press the <uicontrol>Close</uicontrol> button to finish working with the assignment (see <xref keyref="tasks_close"/>&#160;). It makes sense to close an assignment for which all students have turned in their work and it has been graded by the teacher.</p>
+
+    <p>The <uicontrol>Show closed assignments</uicontrol> checkbox triggers display of closed assignments in the list. Closed assignments will be listed in gray if this option is enabled.</p>
+
+    <note type="tip">After assignment is closed, the <uicontrol>Close</uicontrol> button becomes <uicontrol>Open</uicontrol> and can be used to reopen the assignment.</note>
+
+    <p>Press the <uicontrol>Remove</uicontrol> button to delete current assignment. You will be asked for a confirmation.</p>
+
+    <fig id="delete_published_request_png">
+      <title>Remove published assignment confirmation dialog</title>
+      <image href="img/delete-published-request.png" placement="break">
+        <alt>Remove published assignment confirmation dialog</alt>
+      </image>
+    </fig>
+
+    <note type="attention">Removing a published assignment will irrevocably delete the assignment, together with all attached files and associated data -- including student answers, comments, and grades -- from the cloud storage (see <xref keyref="glossary"/>&#160;). It is strongly recommended to create an assignment report (see <xref keyref="tasks_export"/>&#160;) and file a copy of the assignment to the archive (see <xref keyref="tasks_archive"/>&#160;) before removing it.</note>
+
+  </conbody>
+</concept>

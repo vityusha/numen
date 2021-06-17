@@ -24,9 +24,9 @@
     <othermeta content="User manual" name="doctype"/>
     <othermeta content="4.0.0.1" name="docedition"/>
   </topicmeta>
-  
-    <topicref keys="symbols" href="en-US/concepts/symbols.dita" />
-  
+
+  <topicref keys="symbols" href="en-US/concepts/symbols.dita" />
+
   <topichead navtitle="Introduction">
     <topicref keys="comm_intro" href="en-US/ncloud/comm_intro.dita" />
     <topicref keys="install_notes" href="en-US/ncloud/install_notes.dita" />
@@ -37,42 +37,43 @@
     <topicref keys="teacher_menu" href="en-US/ncloud/teacher_menu.dita" />
     <topicref keys="teacher_mainwin" href="en-US/ncloud/teacher_mainwin.dita" />
   </topichead>
-  
+
   <topichead navtitle="Student interface">
-	<topicref keys="std_mainwin" href="en-US/ncloud/std_mainwin.dita" />
+    <topicref keys="std_mainwin" href="en-US/ncloud/std_mainwin.dita" />
   </topichead>
 
-    <topichead navtitle="Common elements">
-  <topicref keys="ui_common" href="en-US/ncloud/ui_common.dita" />
+  <topichead navtitle="Common elements">
+    <topicref keys="ui_common" href="en-US/ncloud/ui_common.dita" />
     <topicref keys="uic_flocal" href="en-US/ncloud/uic_flocal.dita" />
     <topicref keys="uic_fcloud" href="en-US/ncloud/uic_fcloud.dita" />
     <topicref keys="uic_url" href="en-US/ncloud/uic_url.dita" />
     <topicref keys="uic_timed" href="en-US/ncloud/uic_timed.dita" />
-	<topicref keys="uic_about" href="en-US/ncloud/uic_about.dita" />
-	</topichead>
-	
-  <topichead navtitle="Working with the teacher interface">
-	<topicref keys="tasks_creation" href="en-US/ncloud/tasks_creation.dita" />
-	<topicref keys="tasks_publish" href="en-US/ncloud/tasks_publish.dita" />
-	<topicref keys="tasks_share" href="en-US/ncloud/tasks_share.dita" />
-	<topicref keys="tasks_progress" href="en-US/ncloud/tasks_progress.dita" />
-	<topicref keys="tasks_close" href="en-US/ncloud/tasks_close.dita" />
-	<topicref keys="tasks_export" href="en-US/ncloud/tasks_export.dita" />
-	<topicref keys="tasks_archive" href="en-US/ncloud/tasks_archive.dita" />
-	<topicref keys="tasks_delete" href="en-US/ncloud/tasks_delete.dita" />
+    <topicref keys="uic_about" href="en-US/ncloud/uic_about.dita" />
   </topichead>
-  
+
+  <topichead navtitle="Working with the teacher interface">
+    <topicref keys="tasks_creation" href="en-US/ncloud/tasks_creation.dita" />
+    <topicref keys="tasks_share" href="ru-RU/ncloud/tasks_share.dita" />
+    <topicref keys="tasks_publish" href="ru-RU/ncloud/tasks_publish.dita" />
+    <topicref keys="tasks_publish_manage" href="ru-RU/ncloud/tasks_publish_manage.dita" />
+    <topicref keys="tasks_progress" href="en-US/ncloud/tasks_progress.dita" />
+    <topicref keys="tasks_close" href="en-US/ncloud/tasks_close.dita" />
+    <topicref keys="tasks_export" href="en-US/ncloud/tasks_export.dita" />
+    <topicref keys="tasks_archive" href="en-US/ncloud/tasks_archive.dita" />
+    <topicref keys="tasks_delete" href="en-US/ncloud/tasks_delete.dita" />
+  </topichead>
+
   <topichead navtitle="Working with the student interface">
     <topicref keys="std_menu" href="en-US/ncloud/std_menu.dita" />
-  	<topicref keys="std_send_rcv" href="en-US/ncloud/std_send_rcv.dita" />
+    <topicref keys="std_send_rcv" href="en-US/ncloud/std_send_rcv.dita" />
   </topichead>
-  
+
   <topicref keys="admin_mode" href="en-US/ncloud/admin_mode.dita" />
-  
+
   <topicref keys="faq" href="en-US/ncloud/faq.dita" />
   <topicref keys="glossary" href="en-US/ncloud/glossary.dita" />
   <topicref keys="subscription" href="en-US/ncloud/subscription.dita" />
-  
+
   <topichead navtitle="Legal">
     <topicref keys="license" href="en-US/ncloud/license_agreement.dita" />
     <topicref keys="contacts" href="en-US/concepts/contacts.dita" />
