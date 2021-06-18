@@ -3,42 +3,42 @@
 "concept.dtd">
 
 <concept id="std_menu" xml:lang="en-US">
-  <title>Настройка и запуск</title>
+  <title>Setup</title>
   <conbody>
-  <p>После установки модуля на компьютер учащегося и запуска программы <wintitle>Диалог Nibelung NPlayer</wintitle>, в левом верхнем углу ее окна появится меню <menucascade><uicontrol>Дополнения</uicontrol><uicontrol>Задания через Интернет</uicontrol></menucascade>, изображенное на рисунке ниже.</p>
+  <p>An <menucascade><uicontrol>Extensions</uicontrol><uicontrol>Remote Assignments</uicontrol></menucascade> menu item will appear in the upper left corner of the <wintitle>Dialog Nibelung NPlayer</wintitle> after a successful installation of the <uicontrol>Remote Assignments</uicontrol> module on a student computer.</p>
   
   <fig id="student_menu_png">
-            <title>Меню настройки и запуска модуля <wintitle>Задания через Интернет</wintitle> у учащегося (программа <wintitle>Диалог Nibelung NPlayer</wintitle>)</title>
+            <title><wintitle>Remote Assignments</wintitle> menu in the <wintitle>Dialog Nibelung NPlayer</wintitle> main window</title>
             <image href="img/student-menu.png" placement="break">
-                <alt>Меню настройки и запуска модуля у учащегося</alt>
+                <alt><wintitle>Remote Assignments</wintitle> menu in student interface</alt>
             </image>
   </fig>
   
-    <p>Меню содержит два пункта:
+    <p>The <uicontrol>Extensions</uicontrol> includes two items:
       <ul>
-        <li>Пункт <uicontrol>Задания через Интернет</uicontrol>: открывает интерфейс учащегося (см. <xref keyref="std_mainwin"/>&#160;)</li>
-        <li>Пункт <uicontrol>Настройки дополнения</uicontrol>: открывает диалог настройки</li>
+        <li><uicontrol>Remote Assignments</uicontrol> item opens the assignment workspace <xref keyref="std_mainwin"/>&#160;)</li>
+        <li><uicontrol>Add-on settings</uicontrol> opens the settings dialog box</li>
       </ul>
     </p>
 	
 	<fig id="student_idSetup_png">
-      <title>Диалог настройки модуля <wintitle>Задания через Интернет</wintitle> у учащегося</title>
+      <title><wintitle>Remote Assignments</wintitle> setup on the student side</title>
       <image href="img/student-idSetup.png" placement="break">
-        <alt>Диалог настройки модуля у учащегося</alt>
+        <alt><wintitle>Remote Assignments</wintitle> setup on the student side</alt>
       </image>
     </fig>
 	
-	<p>В соответствующие поля необходимо ввести номер и код лицензии к программе <wintitle>Диалог Nibelung</wintitle>, а также ID учащегося. Для разных сценариев использования компьютера для работы с модулем <wintitle>Задания через Интернет</wintitle> настройка перед запуском производится по-разному:
+	<p>Enter <wintitle>Dialog Nibelung</wintitle> license serial number and code, as well as student ID.  There are different setup scenarios for different use cases of <wintitle>Remote Assignments</wintitle>:
 	
 	<ul>
-	  <li>Единственный учащийся: настройка <uicontrol>однократная</uicontrol></li>
-	  <li>Учащихся несколько, лицензия одна: перед началом работы <uicontrol>очередного</uicontrol> учащегося в диалоге настроек дополнения в поле <uicontrol>ID учащегося</uicontrol> следует вводить ID <uicontrol>данного учащегося</uicontrol></li>
-	  <li>Учащихся несколько, лицензии разные: каждый раз перед началом работы <uicontrol>очередного</uicontrol> учащегося производится полная настройка дополнения (номер и код лицензии, ID)</li>
+	  <li>Single student, single school with single license: a one-time setup.</li>
+	  <li>Multiple students, single license: change <uicontrol>student ID</uicontrol> at the beginning of each student's session.</li>
+	  <li>Multiple students, multiple licenses: change serial number, license code, and student ID at the beginning of each student's session.</li>
 	</ul>
 	
 	</p>
 	
-	<p>Номер, код лицензии и свой ID учащиеся получают от преподавателя или лица, ответственного за организацию дистанционного обучения с использованием программы <wintitle>Диалог Nibelung</wintitle> и модуля <wintitle>Задания через Интернет</wintitle>. Про ID учащегося см. подробнее <xref keyref="glossary"/>&#160;.</p>
+	<p>Students obtain license serial number, license code, and their IDs from the teacher or their school administration. See also <xref keyref="glossary"/>&#160; for further information pertaining to student IDs.</p>
  
   </conbody>
 </concept>
