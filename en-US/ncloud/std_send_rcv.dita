@@ -3,18 +3,18 @@
 "concept.dtd">
 
 <concept id="std_send_rcv" xml:lang="en-US">
-  <title>Работа над заданиями и отправка ответов</title>
+  <title>Working on the assignments and submitting your work</title>
   <conbody>
 
-<p>После выбора учащимся выполняемого задания из списка вся информация о задании и нработа над ним производятся в области выполнения задания.</p>
+<p>Select an assignment from the list (see _fixme_ [xref]). The selected assignment will be displayed in the assignment workspace area:</p>
 
         <fig id="student_answer_part_png">
-            <title>Интерфейс окна учащегося: выполнение задания</title>
+            <title>Student interface: assignment workspace</title>
             <image href="img/student-answer-part.png" placement="break">
-                <alt>Интерфейс окна учащегося: выполнение задания</alt>
+                <alt>Student interface: assignment workspace</alt>
             </image>
         </fig>
-        <p>На этом рисунке цифрами обозначены:</p>
+        <p>Elements of the assignment workspace:</p>
 
 <table frame="topbot">
 <tgroup cols="2">
@@ -25,93 +25,93 @@
 
 <row>
 <entry>1</entry>
-<entry>Пояснение к заданию</entry>
+<entry>Teacher comment for this assignment</entry>
 </row>
 
 <row>
 <entry>2</entry>
-<entry>Комментарий учащегося</entry>
+<entry>Student comment</entry>
 </row>
 
 <row>
 <entry>3</entry>
-<entry>Вкладка <uicontrol>Информация о задании</uicontrol></entry>
+<entry><uicontrol>Assignment overview</uicontrol> tab</entry>
 </row>
 
 <row>
 <entry>4</entry>
-<entry>Вкладка <uicontrol>Содержимое задания</uicontrol></entry>
+<entry><uicontrol>Assignment content</uicontrol> tab</entry>
 </row>
 
 <row>
 <entry>5</entry>
-<entry>Вкладка <uicontrol>Содержимое ответа</uicontrol></entry>
+<entry><uicontrol>Answer content</uicontrol> tab</entry>
 </row>
 
 <row>
 <entry>6</entry>
-<entry>Вкладка <uicontrol>Файлы для отправки</uicontrol></entry>
+<entry><uicontrol>Files to send</uicontrol> tab</entry>
 </row>
 
 <row>
 <entry>7</entry>
-<entry>Выделенный файл содержимого задания</entry>
+<entry>Selected file of the assignment content</entry>
 </row>
 
 <row>
 <entry>8</entry>
-<entry>Кнопка просмотра файла содержимого</entry>
+<entry>Open content file</entry>
 </row>
 
 <row>
 <entry>9</entry>
-<entry><uicontrol>Контекстное меню</uicontrol></entry>
+<entry><uicontrol>Context menu for the content file</uicontrol></entry>
 </row>
 
 <row>
 <entry>10</entry>
-<entry>Кнопка <uicontrol>Сохранить ответ</uicontrol></entry>
+<entry><uicontrol>Save workspace</uicontrol> button _fixme_ [ui]</entry>
 </row>
 
 <row>
 <entry>11</entry>
-<entry>Кнопка <uicontrol>Отправить на проверку</uicontrol></entry>
+<entry><uicontrol>Submit for review</uicontrol> button</entry>
 </row>
 
 </tbody>
 </tgroup>
 </table>
 
-<p>Пояснение преподавателя к заданию является общим для всех учащихся, которым оно назначено.</p>
+<p>Teacher comment (1) is common for all students receiving this assignment and is not directed to anybody personally.</p>
 
-<note type="tip">Комментарий учащегося к своему ответу может являться как пояснением, так и коротким ответом на задание, если условие задания подразумевает такую возможность и не требует отправки файлов в качестве ответа.</note>
+<note type="tip">If the assignment assumes a short answer not requiring sending back any files, you can put the answer into the comment box (2). This box can also contain a comment or a short explanation for the work you are submitting.</note>
 
-<p>На вкладке <uicontrol>Содержимое задания</uicontrol> находится список файлов задания (подробнее см. <xref keyref="uic_fcloud"/>&#160;), а на вкладке <uicontrol>Содержимое овтета</uicontrol> - список файлов, которые <uicontrol>уже</uicontrol> сохранены учащимся или отправлены им на проверку.</p>
+<p>The <uicontrol>Assignment content</uicontrol> tab lists files attached to the assignment by the teacher (see <xref keyref="uic_fcloud"/> for further details). The <uicontrol>Answer content</uicontrol> tab contains files constituting your work for the assignment. These files have already been saved to the local drive, but are not necessarily submitted to the teacher for review and grading. _fixme_ [how2distinguish]</p>
 
-<p>Вкладка <uicontrol>Файлы для отправки</uicontrol> отображает инструментарий для выбора файлов ответа, находящихся на компьютере (подробнее см. <xref keyref="uic_flocal"/>&#160;). Отправка выбранных файлов активизируется нажатием кнопки <uicontrol>Сохранить ответ</uicontrol> или <uicontrol>Отправить на проверку</uicontrol>.</p>
+<p>The <uicontrol>Files to send</uicontrol> tab contains tools for selecting files stored locally and attaching them to you answer for submission (see <xref keyref="uic_flocal"/>&#160;). Files will be uploaded to the cloud after pressing either <uicontrol>Save answer</uicontrol> or <uicontrol>Submit for review</uicontrol> buttons.</p>
 
-<p>Кнопка <uicontrol>Сохранить ответ</uicontrol> служит для сохранения промежуточного результата выполнения. Промежуточный результат будет отправлен в облачное хранилище и станет доступен преподавателю. Задание при этом получит статус <uicontrol>В работе</uicontrol>, означающий, что задание выполняется, но работа над ним еще не завершена (подробнее см. <xref keyref="glossary"/>&#160;)</p>
+<p>Use the <uicontrol>Save answer</uicontrol> to save intermediate results of your work to the cloud. Thses results will be made available for viewing to the teacher. Your assignment will receive <uicontrol>In progress</uicontrol> status, which means that your are working on the assignment, but not ready yet to turn in your work (see <xref keyref="glossary"/>&#160;).</p>
 
-<note type="tip">Для задания, еще не отправленного на проверку, учащийся имеет возможность прикреплять файлы к ответу, комментировать ход выполнения задания и сохранять ответ произвольное число раз</note>
+<note type="tip">You can attach, delete, and modify files, and edit your comments without limitations until you  turn the assignment in using the <uicontrol>Submit for review</uicontrol> button.</note>
 
-<p>Для отправки ответа на проверку служит кнопка <uicontrol>Отправить на проверку</uicontrol>. После этого задание получит статус <uicontrol>На проверке</uicontrol>. Учащийся при этом ожидает <uicontrol>проверки</uicontrol> своего ответа и выставления <uicontrol>оценки</uicontrol>.</p>
+<p>Use the <uicontrol>Submit for review</uicontrol> button to turn it your work for grading. At this point status of the assignment will become <uicontrol>Grading</uicontrol> and no further modifications will be possible. Wait for the teacher to check your work and (optionally) issue a grade.</p>
 
   	<fig id="student_complete_task_request_png">
-            <title>Запрос перед отправкой ответа на проверку</title>
+            <title>Submission confirmation dialog _fixme_ [ui]</title>
             <image href="img/student-complete-task-request.png" placement="break">
-                <alt>Запрос перед отправкой ответа на проверку</alt>
+                <alt>Submission confirmation dialog</alt>
             </image>
   </fig>
   
-<note type="important">Если задание не было завершено в срок, оно считается просроченным и получает соответствующий статус <uicontrol>Просрочено</uicontrol>!</note> 
+<note type="important">If you have not submitted any work before the deadline, your assignment will be considered <uicontrol>Late</uicontrol> and receive appropriate status.</note> 
 
-<p>Задание будет проверено и оценено либо (при необходимости) отправлено преподавателем на доработку.</p>
+<p>The teacher will review and check your work for correctness and ther assignment will either receive a formal grade or sent back to you for a revision.</p>
 
-<note type="attention">Ответ учащегося может быть отправлен преподавателем на доработку неограниченное число раз. Преподаватель имеет возможность сдвинуть срок выполнения задания (новый срок будет одинаковым для всех учащихся задания). Подробнее о сроках выполнения см. <xref keyref="tasks_publish"/>&#160;</note>
+<note type="attention">Teachers can send the assignment back for revision as many times as they deem necessary. The teacher can also extend the deadline. The new deadline will equally apply to the whole group of students who received the assignment in the first place. See section <xref keyref="tasks_publish"/> for more information about the deadlines.</note>
 
-<p>В статусной строке показываются сведения о состоянии квоты, соединения с Интернетом и облачным хранилищем.</p>
+<p>Cloud storage quota, status of the internet connection and connection to the cloud are shown in the status line at the bottom of the window (see _fixme_ [xref fig]).</p>
 
-<p><uicontrol>Поле комментария</uicontrol> в зависимости от выбранной вкладки может содержать сообщение от преподавателя (относительно хода выполнения задания, оценки, доработки ответа и т.п.) либо комментарий учащегося к своему ответу.</p>
+<p>The <uicontrol>Comment</uicontrol> field (see (1) in _fixme_ [xref fig id="student_answer_part_png"]) can contain either message from the teacher (regarding progress on the assignment, grade, direction for a revision, etc.) or student's comments and explanations for their work.</p>
 
 <table frame="topbot">
 <tgroup cols="2">
@@ -120,46 +120,53 @@
 
 <thead>
 <row>
-<entry colname="COLSPEC0">Выбранная вкладка</entry>
-<entry colname="COLSPEC1">Информация в поле</entry>
+<entry colname="COLSPEC0">Selected tab</entry>
+<entry colname="COLSPEC1">Field contents</entry>
 </row>
 </thead>
 
 <tbody>
 
 <row>
-<entry>Информация о задании</entry>
-<entry>Сообщение преподавателя</entry>
+<entry>Assigment overview</entry>
+<entry>Message from the teacher</entry>
 </row>
 
 <row>
-<entry>Содержимое задания</entry>
-<entry>Сообщение преподавателя</entry>
+<entry>Assignment content</entry>
+<entry>Message from the teacher</entry>
 </row>
 
 <row>
-<entry>Содержимое ответа</entry>
-<entry>Комментарий учащегося</entry>
+<entry>Answer content</entry>
+<entry>Student comment</entry>
 </row>
 
 <row>
-<entry>Файлы для отправки</entry>
-<entry>Комментарий учащегося</entry>
+<entry>Files to send</entry>
+<entry>Student comment</entry>
 </row>
 
 </tbody>
 </tgroup>
 </table>
+  </conbody>
+</concept>
 
-<p>На рисунке ниже показан интерфейс учащегося для ответа, требующего доработки</p>
+
+<concept id="std_revision" xml:lang="en-US">
+<title>Revising an assignment</title>
+<conbody>
+
+<p>Teacher can send assignments back for revision. Student interface with assignment sent for revision is show in the figure below:</p>
 
         <fig id="student_window_redo_png">
-            <title>Интерфейс окна учащегося: доработка ответа</title>
+            <title>Student interface: assignment revision</title>
             <image href="img/student-window-redo.png" placement="break">
-                <alt>Интерфейс окна учащегося: доработка ответа</alt>
+                <alt>Student interface: assignment revision</alt>
             </image>
         </fig>
-        <p>На этом рисунке цифрами обозначены:</p>
+        <p>Elements of this interface:</p>
 
 <table frame="topbot">
 <tgroup cols="2">
@@ -170,33 +177,33 @@
 
 <row>
 <entry>1</entry>
-<entry>Столбец со статусом.</entry>
+<entry>Assignment status.</entry>
 </row>
 
 <row>
 <entry>2</entry>
-<entry>Столбец с оценкой.</entry>
+<entry>Assignment grade.</entry>
 </row>
 
 <row>
 <entry>3</entry>
-<entry>Поле с сообщением от преподавателя.</entry>
+<entry>Message from the teacher.</entry>
 </row>
 
 <row>
 <entry>4</entry>
-<entry>Кнопка <uicontrol>Отправить на проверку</uicontrol>.</entry>
+<entry><uicontrol>Submit for review</uicontrol> button.</entry>
 </row>
 
 </tbody>
 </tgroup>
 </table>
 
-<p>Задания, требующие доработки, будут показываться со статусом <uicontrol>На доработку</uicontrol>. Оценка, сопровождаемая статусом <uicontrol>На доработку</uicontrol>, является предварительной; возможно, она будет изменена после доработки ответа. При отправке задания на доработку в поле <uicontrol>Сообщение преподавателя</uicontrol> может быть описана причина, по которой ответу требуется доработка.</p>
+<p>Assignment that are sent back are shown with <uicontrol>For revision</uicontrol> status. This status mean that the grade is not final and can be revised based on your revised work. The <uicontrol>Teacher message</uicontrol> field usually contains the reason(s) why the assignment was sent back.</p>
 
-<p>Для отправки доработанного ответа на проверку также служит кнопка <uicontrol>Отправить на проверку</uicontrol>. Ответ на завершенное задание более нельзя будет редактировать.</p>
+<p>Use the <uicontrol>Submit for review</uicontrol> to turn in your revised work back to the teacher. No modification of your work will be possible beyond this point.</p>
 
-<note type="important">Ответ может быть отправлен преподавателем на доработку неоднократно</note>
+<note type="important">Teacher can send an assignment back for revision multiple times.</note>
 
   </conbody>
 </concept>
