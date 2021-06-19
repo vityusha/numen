@@ -3,79 +3,79 @@
 "concept.dtd">
 
 <concept id="admin_mode" xml:lang="en-US">
-  <title>Административный режим</title>
+  <title>Administrative mode</title>
   
   <conbody>
      
-	 <p>Для выполнения некоторых служебных задач в модуле <wintitle>Задания через Интернет</wintitle> предусмотрен <uicontrol>административный режим</uicontrol>. Для запуска модуля в этом режиме необходимо, чтобы текущим пользователем программы <wintitle>Диалог Nibelung</wintitle> являлся встроенный пользователь <wintitle>Admin</wintitle>.</p>
+	 <p>The <wintitle>Remote Assignments</wintitle> module has an <uicontrol>administrative mode</uicontrol> for performing certain system maintenance operations. This mode is activated when you open the teacher interface when logged into <wintitle>Dialog Nibelung</wintitle> as the built-in user <wintitle>Admin</wintitle>.</p>
 
-	 <p>Основные задачи, решаемые в административном режиме:</p>
+	 <p>In administrative mode you can:</p>
 	 
 	 <ul>
-	   <li><uicontrol>Очистка места</uicontrol> и <uicontrol>сжатие данных</uicontrol> в облачном хранилище</li>
-	   <li><uicontrol>Загрузка</uicontrol> и <uicontrol>установка</uicontrol> обновлений</li>
-       <li>Управление <uicontrol>всеми</uicontrol> шаблонами заданий и их публикациями, включая следующие операции: <uicontrol>просмотр</uicontrol>, <uicontrol>экспорт</uicontrol>, <uicontrol>архивирование</uicontrol> и <uicontrol>удаление</uicontrol></li>
+	   <li>Perform garbage collection and cleanup in the cloud storage.</li>
+	   <li>Check for available module updates and install them.</li>
+       <li>Management of <uicontrol>all</uicontrol> assignments and their publication instances, including viewing, export, filing to the archive, and removal.</li>
      </ul>
 	 
-	 <note type="tip">В административном режиме недоступны некоторые стандартные действия, такие как создание и публикация заданий, выставление оценок учащимся</note>
+	 <note type="tip">Administrative mode is intended for maintenance purposes only. Creating and publishing of assignments, grading, commenting, and other operations regularly performed by the teachers in the course of working with the module, are not available in this mode.</note>
 	 
-	 <p>При запуске модуля <wintitle>Задания через Интернет</wintitle> пользователем <uicontrol>Admin</uicontrol> появится предупреждение:</p>
+	 <p>A warning to that effect will be displayed whenever you access the <wintitle>Remote Assignments</wintitle> module as <uicontrol>Admin</uicontrol> user:</p>
 	 
 	         <fig id="admin_mode_warn_png">
-            <title>Административный режим: предупреждение</title>
+            <title>Administrative mode startup warning _fixme_ [ui]</title>
             <image href="img/admin-mode-warn.png" placement="break">
-                <alt>Административный режим: предупреждение</alt>
+                <alt>Administrative mode startup warning</alt>
             </image>
         </fig>
 	 
-	 <note type="important">Во избежание несанкционированных действий с заданиями, публикациями и ответами учащихся пользователю <wintitle>Admin</wintitle> рекомендуется использовать надежный пароль!</note>
+	 <note type="important">It is highly recommended that <wintitle>Admin</wintitle> user has a very strong password to prevent unauthorized access to assignments, publications, and student grades.</note>
 	 
-	 <p>При запуске в режиме администратора в окне преподавателя (см. <xref keyref="teacher_mainwin"/>&#160;) появляется вкладка <uicontrol>Обслуживание</uicontrol>, содержащая перечень доступных административных действий.</p>
+	 <p>A special <uicontrol>Maintenance</uicontrol> tab will appear in the teacher interface main window (see <xref keyref="teacher_mainwin"/>&#160;) in administrative mode. This tab contain actions available for system maintenance.</p>
 
-	<note type="important">В административном режиме отображаются шаблоны заданий и публикации <uicontrol>всех преподавателей</uicontrol>, что позволяет, в зависимости от текущих целей, произвести их <uicontrol>экспорт</uicontrol> (см. разделы <xref keyref="tasks_export"/>&#160;, <xref keyref="tasks_creation"/>&#160; и <xref keyref="tasks_publish"/>&#160;), <uicontrol>архивирование</uicontrol> (см. <xref keyref="tasks_archive"/>&#160;) или <uicontrol>удаление</uicontrol></note>
+	<note type="important">Assignments and their publications belonging to all the teachers are available in the administrative mode allowing to perform their export, (see sections <xref keyref="tasks_export"/>&#160;, <xref keyref="tasks_creation"/>&#160;, and <xref keyref="tasks_publish"/>&#160;), filing to the archive (see <xref keyref="tasks_archive"/>&#160;), or removal (see xref and xref _fixme_).</note>
 	
-	<p>Нажатие на кнопку <uicontrol>Чистка хранилища</uicontrol> запускает операцию чистки, в некоторых случаях позволяющую увеличить свободное место в облачном хранилище.</p>
+	<p>Press the <uicontrol>Cloud cleanup</uicontrol> _fixme_ [ui] button that initiates garbage collection in the cloud storage, which in certain cases allows to increase available free space.</p>
 	 
 	    <fig id="maintenance_png">
-            <title>Вкладка "Обслуживание..."</title>
+            <title><uicontrol>Maintenance</uicontrol> tab</title>
             <image href="img/maintenance.png" placement="break">
-                <alt>Вкладка "Обслуживание..."</alt>
+                <alt><uicontrol>Maintenance</uicontrol> tab</alt>
             </image>
         </fig>
 		
-	<p>Чистка требует некоторого времени. На это время окно будет заблокировано так же, как и при выполнении других протяженных по времени задач, имея вид, подобный показанному на рисунке ниже.</p>
+	<p>Cloud cleanup may take a fairly long time. During this time the window will be blocked and a progress bar displayed:</p>
 	
 		    <fig id="cleanup_performing_png">
-            <title>Процесс очистки облачного хранилища</title>
+            <title>Cloud storage cleanup</title>
             <image href="img/cleanup-performing.png" placement="break">
-                <alt>Процесс очистки облачного хранилища</alt>
+                <alt>Cloud storage cleanup</alt>
             </image>
         </fig>
 	
-	<p>Кнопка <wintitle>Проверить обновления</wintitle> служит для проверки наличия обновлений на сайте разработчиков модуля <wintitle>Задания через Интернет</wintitle>.</p>
+	<p>Press the <wintitle>Check for updates</wintitle> button to check if a new version of the  <wintitle>Remote assignments</wintitle> module is available.</p>
 	
-	<note type="attention">Не забывайте, что у компьютера преподавателя должен быть доступ в Интернет!</note>
+	<note type="attention">Don't forget that computer running the teacher interface in administrative mode must have an active internet connection to perform these maintenance operations.</note>
 	
-    <p>При наличии обновления появится диалог с информацией о доступной версии: номере и произведенных изменениях (<xref keyref="admin_mode/update_info_png" type="fig"/>&#160;).</p>
+    <p>A message will be displayed if an update is available (<xref keyref="admin_mode/update_info_png" type="fig"/>&#160;).</p>
 	
     <fig id="update_info_png">
-            <title>Информация о доступности новой версии</title>
+            <title><wintitle>Update is available</wintitle> message box _fixme_ [ui]</title>
             <image href="img/update-info.png" placement="break">
-                <alt>Информация о доступности новой версии</alt>
+                <alt><wintitle>Update is available</wintitle> message box</alt>
             </image>
     </fig>
 		
-    <p>Для запуска процесса загрузки новой версии преподаватель должен нажать на кнопку <uicontrol>Загрузить</uicontrol>.</p>
+    <p>Press the <uicontrol>Download</uicontrol> button to start downloading the update.</p>
 	 
-    <p>В появившемся окне (<xref keyref="admin_mode/update_download_png" type="fig"/>&#160;) будет отображаться процесс загрузки обновления с сайта разработчиков.</p>
+    <p>A download progress box (<xref keyref="admin_mode/update_download_png" type="fig"/>&#160;) will appear.</p>
 	 
         <fig id="update_download_png">
-            <title>Информация о загрузке обновления</title>
+            <title>Update download progress box</title>
             <image href="img/update-download.png" placement="break">
-                <alt>Информация о загрузке обновления</alt>
+                <alt>Update download progress box</alt>
             </image>
         </fig>
 		
-    <p>Для установки новой версии модуля <wintitle>Задания через Интернет</wintitle> после завершения процесса загрузки необходимо нажать на кнопку <uicontrol>Установить</uicontrol>.</p>	
+    <p>Press <uicontrol>Install</uicontrol> after the download is finished to install <wintitle>Remote Assignments</wintitle> updates.</p>	
   </conbody>
 </concept>
