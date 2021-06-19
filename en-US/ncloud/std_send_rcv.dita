@@ -88,7 +88,7 @@
 
 <p>The <uicontrol>Assignment content</uicontrol> tab lists files attached to the assignment by the teacher (see <xref keyref="uic_fcloud"/> for further details). The <uicontrol>Answer content</uicontrol> tab contains files constituting your work for the assignment. These files have already been saved to the local drive, but are not necessarily submitted to the teacher for review and grading. _fixme_ [how2distinguish]</p>
 
-<p>The <uicontrol>Files to send</uicontrol> tab contains tools for selecting files stored locally and attaching them to you answer for submission (see <xref keyref="uic_flocal"/>&#160;). Files will be uploaded to the cloud after pressing either <uicontrol>Save answer</uicontrol> or <uicontrol>Submit for review</uicontrol> buttons.</p>
+<p>The <uicontrol>Files to send</uicontrol> tab contains tools for selecting files stored locally and attaching them to you answer for submission (see <xref keyref="uic_flocal"/>&#160;). Files will be uploaded to the cloud after pressing either <uicontrol>Interim submission</uicontrol> or <uicontrol>Final submission</uicontrol> buttons.</p>
 
 <p>Use the <uicontrol>Interim submission</uicontrol> button to save intermediate results of your work to the cloud. Use this button to let the teacher know that you have started working on the assignment. Your assignment will receive <uicontrol>In progress</uicontrol> status, which means that your are working on the assignment, but not ready yet to turn in your work (see <xref keyref="glossary"/>&#160;). Your uploaded work will also be made available to the teacher for viewing, so they could potentially catch early on if you are on the wrong path.</p>
 
