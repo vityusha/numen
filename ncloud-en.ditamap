@@ -66,6 +66,7 @@
   <topichead navtitle="Working with the student interface">
     <topicref keys="std_menu" href="en-US/ncloud/std_menu.dita" />
     <topicref keys="std_send_rcv" href="en-US/ncloud/std_send_rcv.dita" />
+	<topicref keys="tasks_revising" href="en-US/ncloud/tasks_revising.dita" />
   </topichead>
 
   <topicref keys="admin_mode" href="en-US/ncloud/admin_mode.dita" />

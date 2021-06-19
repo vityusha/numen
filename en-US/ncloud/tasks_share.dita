@@ -38,16 +38,11 @@
 
 <row>
 <entry>3</entry>
-<entry><uicontrol>Toggle</uicontrol> status of the current assignment</entry>
-</row>
-
-<row>
-<entry>4</entry>
 <entry>Import selected assignments</entry>
 </row>
 
 <row>
-<entry>5</entry>
+<entry>4</entry>
 <entry>Cancel import and close window</entry>
 </row>
 
@@ -55,7 +50,7 @@
 </tgroup>
 </table>
 
-<p>Select assignments from the list, toggle their status, and and press <uicontrol>OK</uicontrol> to import them into your workspace. Copies of imported assignments will appear in the list of unpublished assignments, where you can modify them to suit your needs.</p>
+<p>Select assignments from the list and and press <uicontrol>OK</uicontrol> to import them into your workspace. Copies of imported assignments will appear in the list of unpublished assignments, where you can modify them to suit your needs.</p>
 
   </conbody>
 </concept>
