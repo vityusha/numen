@@ -40,7 +40,7 @@
 
 <row>
 <entry>4</entry>
-<entry><uicontrol>Submit for review</uicontrol> button.</entry>
+<entry><uicontrol>Final submission</uicontrol> button.</entry>
 </row>
 
 </tbody>
@@ -49,7 +49,7 @@
 
 <p>Assignment that are sent back are shown with <uicontrol>For revision</uicontrol> status. This status mean that the grade is not final and can be revised based on your revised work. The <uicontrol>Teacher message</uicontrol> field usually contains the reason(s) why the assignment was sent back.</p>
 
-<p>Use the <uicontrol>Submit for review</uicontrol> to turn in your revised work back to the teacher. No modification of your work will be possible beyond this point.</p>
+<p>Use the <uicontrol>Final submission</uicontrol> to turn in your revised work back to the teacher. No modification of your work will be possible beyond this point.</p>
 
 <note type="important">Teacher can send an assignment back for revision multiple times.</note>
 
