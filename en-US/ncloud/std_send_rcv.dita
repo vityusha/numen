@@ -70,19 +70,19 @@
 
 <row>
 <entry>10</entry>
-<entry><uicontrol>Save workspace</uicontrol> button _fixme_ [ui]</entry>
+<entry><uicontrol>Interim submission</uicontrol> button _fixme_ [ui]</entry>
 </row>
 
 <row>
 <entry>11</entry>
-<entry><uicontrol>Submit for review</uicontrol> button</entry>
+<entry><uicontrol>Final submission</uicontrol> button</entry>
 </row>
 
 </tbody>
 </tgroup>
 </table>
 
-<p>Teacher comment (1) is common for all students receiving this assignment and is not directed to anybody personally.</p>
+<p>Teacher comment (1) is common for all students receiving this assignment and is not directed to anyone personally.</p>
 
 <note type="tip">If the assignment assumes a short answer not requiring sending back any files, you can put the answer into the comment box (2). This box can also contain a comment or a short explanation for the work you are submitting.</note>
 
@@ -90,11 +90,11 @@
 
 <p>The <uicontrol>Files to send</uicontrol> tab contains tools for selecting files stored locally and attaching them to you answer for submission (see <xref keyref="uic_flocal"/>&#160;). Files will be uploaded to the cloud after pressing either <uicontrol>Save answer</uicontrol> or <uicontrol>Submit for review</uicontrol> buttons.</p>
 
-<p>Use the <uicontrol>Save answer</uicontrol> to save intermediate results of your work to the cloud. Thses results will be made available for viewing to the teacher. Your assignment will receive <uicontrol>In progress</uicontrol> status, which means that your are working on the assignment, but not ready yet to turn in your work (see <xref keyref="glossary"/>&#160;).</p>
+<p>Use the <uicontrol>Interim submission</uicontrol> button to save intermediate results of your work to the cloud. Use this button to let the teacher know that you have started working on the assignment. Your assignment will receive <uicontrol>In progress</uicontrol> status, which means that your are working on the assignment, but not ready yet to turn in your work (see <xref keyref="glossary"/>&#160;). Your uploaded work will also be made available to the teacher for viewing, so they could potentially catch early on if you are on the wrong path.</p>
 
-<note type="tip">You can attach, delete, and modify files, and edit your comments without limitations until you  turn the assignment in using the <uicontrol>Submit for review</uicontrol> button.</note>
+<note type="tip">You can attach, delete, and modify files, and edit your comments without limitations until you  turn the assignment in using the <uicontrol>Final submission</uicontrol> button.</note>
 
-<p>Use the <uicontrol>Submit for review</uicontrol> button to turn it your work for grading. At this point status of the assignment will become <uicontrol>Grading</uicontrol> and no further modifications will be possible. Wait for the teacher to check your work and (optionally) issue a grade.</p>
+<p>Use the <uicontrol>Final submission</uicontrol> button to turn it your work for grading. At this point status of the assignment will become <uicontrol>Grading</uicontrol> and no further modifications will be possible. Wait for the teacher to check your work and (optionally) issue a grade.</p>
 
   	<fig id="student_complete_task_request_png">
             <title>Submission confirmation dialog _fixme_ [ui]</title>
@@ -152,4 +152,3 @@
 </table>
   </conbody>
 </concept>
-
