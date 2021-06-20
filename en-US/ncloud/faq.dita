@@ -3,95 +3,102 @@
 "reference.dtd">
 
 <reference id="faq" xml:lang="en-US">
-  <title>Часто задаваемые вопросы (FAQ)</title>
+  <title>Frequently Asked Questions</title>
   <refbody>
     <section>
-        <title>Какие могут возникнуть трудности при установке и настройке модуля?</title>
-        <p>Перед началом установки модуля <wintitle>Задания через Интернет</wintitle> рекомендуем прочитать соответствующий раздел настоящего Руководства <xref keyref="install_notes"/>&#160;. Для установки требуется наличие административных полномочий. Также требуется достаточное количество свободного места на диске, куда будет производиться установка (не менее нижней границы допустимого свободного места на системном диске плюс двойной размер инсталляционных файлов модуля)</p>
+        <title>Are there any difficulties that can arise during installation and setup?</title>
+        
+        <p>WE recomment reading the corresponding section (<xref keyref="install_notes"/>) of this document before proceeding with isntallation of the <wintitle>Remote Assignments</wintitle> module. You will need Windows Administrator privileges in order to install the module. You will also need a sufficient amount of free disk space (at least double the total size of installation files plus the minimum allowable free space on the Windows system drive)</p>
     </section>
 	
     <section>
-        <title>Что необходимо <uicontrol>преподавателю</uicontrol> для начала работы с модулем <wintitle>Задания через Интернет</wintitle>?</title>
+        <title>What are teacher prerequisites for working with <wintitle>Remote Assignments</wintitle>?</title>
         
-		<p>Компьютер, подключенный к сети Интернет, установленная программа <wintitle>Диалог Nibelung</wintitle> с активным лицензионным ключом и установленный модуль <wintitle>Задания через Интернет</wintitle>.</p>
+		<p>An internet connected computer running a recent version of Windows, installed <wintitle>Dialog Nibelung</wintitle> software with an active license key and <wintitle>Remote Assignments</wintitle> module.</p>
 		
-		<p>Запуск производится через пункт меню <menucascade><uicontrol>Инструменты</uicontrol><uicontrol>Дополнения</uicontrol><uicontrol>Задания через Интернет</uicontrol></menucascade> программы <wintitle>Диалог Nibelung</wintitle>.</p>
+		<p>Start the module from the <menucascade><uicontrol>Tools</uicontrol><uicontrol>Extensions</uicontrol><uicontrol>Remote Assignments</uicontrol></menucascade> menu (see xref fig.1 _fixme_) of <wintitle>Dialog Nibelung</wintitle>.</p>
 		
-		<note type="attention">Для возможности работы преподавателей и учащихся с модулем <wintitle>Задания через Интернет</wintitle> у учебного заведения должна быть активна соответствующая подписка.</note>
+		<note type="attention">The school must have an active subscription in order for teachers and students to access <wintitle>Remote Assignments</wintitle> functionality.</note>
     </section>
 	
 	<section>
-        <title>Что необходимо <uicontrol>учащимся</uicontrol> для начала работы с модулем <wintitle>Задания через Интернет</wintitle>?</title>
+        <title>What are student prerequisites for working with <wintitle>Remote Assignments</wintitle>?</title>
 		
-        <p>Компьютер, подключенный к сети Интернет, установленная программа <wintitle>Диалог Nibelung NPlayer</wintitle> (распространяется свободно) и установленный модуль <wintitle>Задания через Интернет</wintitle>.</p>
+        <p>An internet connected computer running a recent version of Windows, isntalled <wintitle>Dialog Nibelung NPlayer</wintitle> software (freely distributed) and <wintitle>Remote Assignments</wintitle> module.</p>
 		
-		<p>Запуск производится через пункт меню <menucascade><uicontrol>Дополнения</uicontrol><uicontrol>Задания через Интернет</uicontrol></menucascade> программы <wintitle>Диалог Nibelung NPlayer</wintitle>.</p>
+		<p>Start the module from the <menucascade><uicontrol>Extensions</uicontrol><uicontrol>Remote Assignments</uicontrol></menucascade> menu of <wintitle>Dialog Nibelung NPlayer</wintitle> (see _fixme_ [xref]).</p>
 		
-		<note type="attention">Для работы над заданиями учащемуся прежде следует произвести настройку модуля (подробнее см. <xref keyref="std_menu"/>&#160;)</note>
+		<note type="attention"><wintitle>Remote Assignments</wintitle> module on the student side requires further setup (see section <xref keyref="std_menu"/> for details).</note>
     </section>
 	
     <section>
-        <title>Что делать, если задание было создано или опубликовано с ошибками?</title>
+        <title>What if I created ad/or published an assignment with errors?</title>
 		
-        <p>Шаблон задания, которое еще не было опубликовано, можно редактировать. Шаблон задания можно удалить, однако это приведет к удалению и всех публикаций этого задания, включая ответы учащихся!</p>
+        <p>You can freely edit and modify an unpublished assignment.</p>
+        
+        <p>As for the published assignment, keep in mind that deleting it will delete all its publications, together with all the work already turned in by the students, and all the grades.</p>
 		
-		<p>Любую публикацию можно удалить отдельно, не затрагивая исходный шаблон; при этом будут удалены ответы учащихся по этой публикации, при их наличии, и утеряна информация о ходе выполнения задания и выставленных оценках.</p>
+		<p>Any publication can be deleted separately from the others; all the work turned in by the students for this particular publication, as well as all the grades, will be deleted alongside with the publication.</p>
 		
-	    <p>Перед удалением опубликованного задания рекомендуется произвести <uicontrol>архивирование</uicontrol> (см. <xref keyref="tasks_archive"/>&#160;); для сохранения шаблона задания и возможности его последующего использования, даже если задание будет удалено полностью, рекомендуется произвести его <uicontrol>экспорт</uicontrol> (<xref keyref="tasks_creation"/>&#160;). Экспортированный шаблон задания можно свободно хранить и обменивать, а при необходимости импортировать обратно для последующей работы.</p>
+	    <p>It is strogly recommended to file a publication to the archive (see <xref keyref="tasks_archive"/>&#160;) before deleting it. An unpublished assignment can also be <uicontrol>exported</uicontrol> (see <xref keyref="tasks_creation"/>&#160;). An exported assignment can be imported back later, reused in another assignment, used as a template, and shared with other teachers.</p>
     </section>
 	
     <section>
         <title>Какие проблемы могут возникнуть при работе с модулем?</title>
         
-		<p>Для штатной работы с модулем <wintitle>Задания через Интернет</wintitle> требуется несколько условий.
+		<p>Several conditions must be met in order for <wintitle>Remote Assignments</wintitle> module to funcion properly.
 		
 		<ul>
-		  <li>Стабильное подключение к Интернету</li>
-	  	  <li>Достаточное количество места на системном диске (минимум 1Gb, но не менее размера установленной квоты)</li>
-	  	  <li>Отсутствие блокировок и ограничений по отношению к модулю со стороны имеющихся на компьютере и/или в сети антивирусных программ и брандмауэров</li>
+		  <li>a stable internet connection;</li>
+	  	  <li>enough space on the system drive (1Gb or system quota, whatever is greater) _fixme_ [quota];</li>
+	  	  <li>absence of excessive limitation from antiviral software and firewalls running both locally and on your network.</li>
 		</ul>
 
-		В остальном технические требования к аппаратному и программному обеспечению для модуля <wintitle>Задания через Интернет</wintitle> соответствуют таковым для программ <wintitle>Диалог Nibelung</wintitle> и <wintitle>Диалог Nibelung NPlayer</wintitle>, соответственно.</p>
+<note type="note"><wintitle>Remote Assignments</wintitle> module communicated with the cloud by establishing a TCP connection to port 443.</note>
+
+		Other software and hardware prerequisites for the <wintitle>Remote Assignments</wintitle> match those  specified for <wintitle>Dialog Nibelung</wintitle> or <wintitle>Dialog Nibelung NPlayer</wintitle> correspondingly.</p>
     </section>
 	
 	<section>
-        <title>Что делать, если превышено количество файлов для шаблона задания? Для этого задания мне необходимо больше файлов.</title>
+        <title>I need to attach more files for the assignment. What can I do?</title>
 		
-        <p>Для создания шаблона задания доступно использование максимум <uicontrol>10</uicontrol> файлов. В случае с шаблонами, требующими большего количества файлов, используйте архивы. Количество файлов в архиве ничем не ограничено; модуль <wintitle>Задания через Интернет</wintitle> не анализирует состав архива, входящего в шаблон задания. При добавление в шаблон задания архива убедитесь, что учащиеся, которым будут назначены задания на основе этого шаблона, умеют работать с архивами. Используйте для архивов наиболее стандартный формат <uicontrol>ZIP</uicontrol>.</p>
+        <p>You can put files in an archive if you need to use more that 10 files for the assignment. There is no limitation on the number of files in an archive. <wintitle>Remote Assignments</wintitle> does not analyze contents of an archive file and treats it as as single file. Make sure that your students will be able to extract files from the archive. The most common archive format is <filepath>ZIP</filepath>. Most recent Windows versions include a software to work with the <filepath>ZIP</filepath> archives.</p>
     </section>
 	
 	<section>
-        <title>Что делать в случае превышения квоты?</title>
+        <title>What happens if the cloud storage quota is exceeded?</title>
 		
-        <p>Квота является общей для учебного заведения, а не преподавателя. Сообщение о превышении квоты может появляться как у преподавателей при создании и публикации заданий, так и у учащихся при отправке ими ответов. Актуальное состояние квоты отображается в статусной строке едино для всех пользователей, использующих одну и ту же лицензию. Освободить место в облачном хранилище возможно следующими способами:
+        <p>Cloud quota is common for the whole school, not for individual teachers or students. If the quota is exceeded, both teachers and students will start receiving error messages when trying to store their work in the cloud. Current state of the cloud quota is displayed in the status line of both teacher and student interfaces of the module.</p>
+
+		<p>There are several ways to free up space in the cloud:        
 		
 		<ul>
-          <li><uicontrol>Удалить ненужные (архивные) публикации</uicontrol>. Публикации с результатами выполнения учащимхся занимают больше всего места, поскольку содержат все файлы, присланные каждым из учащихся по данной публикации</li>
-          <li><uicontrol>Удалить неиспользуемые шаблоны заданий</uicontrol></li>
-          <li><uicontrol>Произвести очистку хранилища (функция доступна в административном режиме)</uicontrol></li>
-          <li><uicontrol>Для больших файлов, таких как аудио- и видео-, стараться использовать ссылки на материалы, находящиеся в сети Интернет</uicontrol> (см. <xref keyref="uic_url"/>&#160;)</li>
-		  <li><uicontrol>Избегать использования несжатых изображений и аудиофайлов</uicontrol></li>
-		  <li><uicontrol>(Учебному заведению) запросить дополнительную квоту</uicontrol></li>
+          <li>File old closed assignments to the archive (see [xref] _fixme_) and delete them (see [xref] _fixme_). Assignments with turned in student work take a lot of space beceause they include not only the files handed out with the assignments by the teacher, but also all the files turned in by all the students.</li>
+          <li>Delete unpublished assignments that are no longer needed.</li>
+          <li>Perform cloud storage cleanup. This operation is only available on <uicontrol>Administrative mode</uicontrol> (see section _fixme_ [xref]).</li>
+          <li><uicontrol>Use internet hyperlinks (see <xref keyref="uic_url"/>&#160;) for your assignment instead of attaching audio and video files.</li>
+		  <li>Avoid using uncompressed audio (for example, <filepath>WAV</filepath>) and image (for example, <filepath>BMP</filepath> and <filepath>PNG</filepath>) files.</li>
+		  <li>Ask your school to increase the quota.</li>
         </ul>
 		
 		</p>
 		
-		<note type="attention">Рекомендуется освободить место или увеличить квоту, прежде чем продолжать работу, если осталось менее 10% свободного места</note>
+		<note type="attention">It is recommended to start freeing up space or increasing the quota once cloud utilization exceeds 90%.</note>
 		
     </section>
 	
     <section>
-        <title>Что может быть причиной статуса "Ошибка"?</title>
+        <title>What can cause errors?</title>
 		
-        <p>Основные причины ошибки при работы с модулем <wintitle>Задания через Интернет</wintitle>:
+        <p>Main causes of errors when working with the <wintitle>Remote Assignments</wintitle> module are:
 
 		<ul>
-		  <li>Нестабильное подключение к Интернету или отсутствие подключения</li>
-		  <li>Превышение квоты</li>
-		  <li>Неверно установленное время на компьютере</li>
-		  <li>Нехватка свободного места на системном диске</li>
-		  <li>Неверные данные о лицензии</li>
-		  <li>Ошибочно введенный ID</li>
+		  <li>unstable internet connection;</li>
+		  <li>exceeding cloud storage quota;</li>
+		  <li>wrong time and date set on your computer clock;</li>
+		  <li>insufficient free space on your system drive;</li>
+		  <li>entering wrong license data;</li>
+		  <li>entering wrong student ID.</li>
 		</ul>
 		
 		</p>
@@ -99,4 +106,3 @@
 
   </refbody>
 </reference>
-
