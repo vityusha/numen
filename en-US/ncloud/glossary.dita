@@ -3,45 +3,38 @@
 "reference.dtd">
 
 <reference id="glossary" xml:lang="en-US">
-  <title>Словарь терминов и определений&#160;</title>
+  <title>Glossary</title>
   <refbody>
       <section>
-      <title>ID учащегося</title>
+      <title>student ID</title>
 	  
-	  <p>Уникальный идентификатор учащегося в рамках данного учебного заведения; в качестве ID могут использоваться:
+	  <p>An alphanumeric student identifier that is unique within the given school. Student IDs can be just consecutive numbers issued by the school upon registration, or some sort of a national identification number, if it is legally permitted to be uses for such purposes. Other examples of what can be used as a student ID, after carefully considering privacy implications are:
 	  <ul>
-	  <li>номер СНИЛС</li>
-	  <li>номер полиса ОМС</li>
-	  <li>номер ученической карточки</li>
-	  <li>email учащегося</li>
-	  <li>номер студенческого билета или ISIC</li>
-	  <li>идентификатор для входа в электронный дневник</li>
-	  <li>номер телефона учащегося</li>
-	  <li>учетный номер учащегося во внутреннем делопроизводстве</li>
-	  <li>иные данные на выбор ответственного лица</li>
+	  <li>email addresses</li>
+	  <li>mobile phone numbers</li>
 	  </ul>
 	  </p>
 	  
-	  <p>Основными принципами выбора ID учащегося являются:
+	  <p>General considerations for choosing student IDs:
       <ul>
-        <li>Наличие ID у <uicontrol>каждого</uicontrol> учащегося</li>
-        <li><uicontrol>Неповторяемость</uicontrol>: учащемуся должен соответствовать ID, <uicontrol>не встречающийся</uicontrol> у других учащихся</li>
-        <li><uicontrol>Согласованность</uicontrol>: сделанный выбор должен быть одинаковым для всех преподавателей и учащихся, использующих модуль в рамках одной лицензии</li>
+        <li>every student must have an ID;</li>
+        <li>the ID must be unique: no other student at the same school may have the same ID;</li>
+        <li>consistency: the system for picking up student IDs must be the same across all the teachers and students using <uicontrol>Remote Assignments</uicontrol> under the same license (that usually means across the whole school or system of schools).</li>
       </ul>
 	  
-	<note type="attention">Ошибочный ввод ID учащегося - как при назначении задания преподавателем, так и при настройке дополнения учащимся, - приведет к тому, что задания не будут им получены (а преподаватель, соответственно, не сможет получать результаты выполнения задания учащимся с этим ID)! Эта ситуация будет длиться до тех пор, пока ошибка в ID учащегося не будет исправлена.</note>
+	<note type="attention">Any error in entering a student ID -- both on the teacher side and the student side -- will result in this student not receiving assignments, and therefore not turning in their work. This situation will persist until the error is rectified.</note>
 	</p>
 	
     </section>
 	
 	<section>
-	<title>Шаблон задания</title>
-	<p><uicontrol>Заготовка</uicontrol> для учебного задания. Шаблон задания содержит только общую информацию (название, автор и т.п.) и набор файлов.</p>
+	<title>Unpublished assignment</title>
+	<p>An assignment that has never been published (made available to the students). An unpublished assignments only contains metadata (assignment title, author, course, etc.), a general assignment comment, and attached files with their comments.</p>
 	</section>
 
 	<section>
-	<title>Публикация (опубликованное задание)</title>
-	<p>Шаблон задания, назначенный к выполнению. Публикация обязательно содержит список учащихся, которые должны ее выполнить, и конкретные сроки выполнения.</p>
+	<title>Published assignment</title>
+	<p>An assignment handed out to the students. Such assignments must include list of student assignees and a deadline. An assignment can be published multiple times, thus having multiple publications.</p>
 	</section>
 
 	<section>
@@ -50,9 +43,9 @@
 	</section>
 	
       <section>
-      <title>Статус задания</title>
+      <title>Assignment status</title>
 	  
-	  <p>Статус задания - свойство опубликованного задания, отражающее ход его жизненного цикла. В терминологии модуля <wintitle>Задания через Интернет</wintitle> задания могут иметь следующие статусы в течение своего жизненного цикла:</p>
+	  <p>Status is a property of an assignment reflecting certain stages in it lifecycle. In terms of the <wintitle>Remote Assignments</wintitle> module, assignments can have one of the following statuses:</p>
 
 <table frame="all" rowsep="1" colsep="1">
 <tgroup cols="3">
@@ -61,9 +54,9 @@
    <colspec colname="COLSPEC3" colwidth="200*"/>
 <thead>
 <row>
-  <entry colname="COLSPEC0" align="center"><uicontrol>Название</uicontrol></entry>
-  <entry colname="COLSPEC1" align="center">Область действия</entry>
-  <entry colname="COLSPEC2" align="center">Описание</entry>
+  <entry colname="COLSPEC0" align="center"><uicontrol>Status</uicontrol></entry>
+  <entry colname="COLSPEC1" align="center">Scope</entry>
+  <entry colname="COLSPEC2" align="center">Description</entry>
 </row>
 </thead>
 		  
@@ -72,79 +65,64 @@
 
 <row>
 <entry><image href="img/status-published.png" placement="break" width="130" align="center" /></entry>
-<entry>Общий</entry>
-<entry>задание опубликовано преподавателем для учащихся</entry>
+<entry>Public</entry>
+<entry>assignment has been made available by the teacher to the students</entry>
 </row>
 
 <row>
 <entry><image href="img/status-delivered.png" placement="break" width="130" align="center" /></entry>
-<entry>Персональный</entry>
-<entry>задание получено учащимся</entry>
+<entry>Private</entry>
+<entry>assignment has been received by the student</entry>
 </row>
 
 <row>
 <entry><image href="img/status-in-progress.png" placement="break" width="130" align="center" /></entry>
-<entry>Персональный</entry>
-<entry>учащийся работает над заданием</entry>
+<entry>Private</entry>
+<entry>student has started working on the assignments</entry>
 </row>
 
 <row>
 <entry><image href="img/status-wait-check.png" placement="break" width="130" align="center" /></entry>
-<entry>Персональный</entry>
-<entry>учащийся в ожидании; он закончил выполнение и отправил свой ответ на проверку</entry>
+<entry>Private</entry>
+<entry>student is waiting for the teacher to grade their work on the assignment</entry>
 </row>
 
 <row>
 <entry><image href="img/status-for-revision.png" placement="break" width="130" align="center" /></entry>
-<entry>Персональный</entry>
-<entry>выполнение задания учащимся проверено преподавателем, однако выдано обратно для доработки</entry>
+<entry>Private</entry>
+<entry>teacher has graded the assignment and has sent it back to the student to revise and resubmit their work</entry>
 </row>
 
 <row>
 <entry><image href="img/status-checked.png" placement="break" width="130" align="center" /></entry>
-<entry>Персональный</entry>
-<entry>ответ учащегося проверен и оценен преподавателем</entry>
+<entry>Private</entry>
+<entry>teacher has reviewed and graded the assignment</entry>
 </row>
 
 <row>
 <entry><image href="img/status-expired.png" placement="break" width="130" align="center" /></entry>
-<entry>Персональный</entry>
-<entry>выполнение задания учащимся просрочено</entry>
+<entry>Private</entry>
+<entry>student failed to submit their work before the deadline</entry>
 </row>
 
 <row>
 <entry><image href="img/status-closed.png" placement="break" width="130" align="center" /></entry>
-<entry>Общий</entry>
-<entry>задание более не используется ни преподавателем, ни учащимися</entry>
+<entry>Public</entry>
+<entry>assignment is no longer in use by neither the teacher, nor the students</entry>
 </row>
 
 </tbody>
 </tgroup>
 </table>
 
-	  <p>Область действия <uicontrol>Персональный</uicontrol> означает, что статус индивидуален для учащихся задания. Область действия <uicontrol>Общий</uicontrol> означает, что статус относится к к каждому из учащихся, которым выдано задание.</p>
+	  <p><uicontrol>Private</uicontrol> scope means that this status is private between the teacher and a particular student. <uicontrol>Public</uicontrol> scope refers to statuses that are common for all students who have received the assignment.</p>
 	  
-<note type="tip">Статусы <uicontrol>Опубликовано</uicontrol>, <uicontrol>На доработку</uicontrol>, <uicontrol>Проверено</uicontrol> и <uicontrol>Закрыто</uicontrol> присваиваются преподавателем. Статусы <uicontrol>Доставлено</uicontrol> и <uicontrol>Просрочено</uicontrol> назначаются автоматически. Статусы <uicontrol>В работе</uicontrol> и <uicontrol>Ожидает проверки</uicontrol> присваиваются учащимся.</note>
-
+<note type="tip">Assignment will be considered <uicontrol>Published</uicontrol>, <uicontrol>For revision</uicontrol>, <uicontrol>Graded</uicontrol> or <uicontrol>Closed</uicontrol> after actions performed by the teacher. Assignment is considered <uicontrol>Handed out</uicontrol>, <uicontrol>In progress</uicontrol>, and <uicontrol>Grading</uicontrol> after actions performed by the student. The <uicontrol>Late</uicontrol> status is given to the assignment automatically upon absence of a final student submission before the deadline.</note>
     </section>
 	
-   <section>
-      <title>Дистанционное обучение</title>
-	  
-	  <p>В терминологии модуля <wintitle>Задания через Интернет</wintitle> под дистанционным обучением понимается любые форма и содержание учебного процесса, при которых используются возможности модуля. Это может быть:
-	  <ul>
-	    <li>заочное обучение</li>
-	    <li>работа с дополнительными заданиями при очной форме обучения</li>
-	    <li>дистанционная форма обучения, введенная особым распоряжением</li>
-	    <li>индивидуальная работа с учащимся в случае болезни или при иных обстоятельствах</li>
-		<li>любые другие ситуации и сценарии, в которых модуль <wintitle>Задания через Интернет</wintitle> используется преподавательским составом с целью обучения в рамках учебных программ или вне таковых</li>
-	  </ul>
-	  </p>
-   </section>
-   
     <section>
-      <title>Облачное хранилище</title>
-	  <p>Инфраструктурная часть модуля <wintitle>Задания через Интернет</wintitle>, находящаяся в сети Интернет. В облачном хранилище находятся все шаблоны заданий, опубликованные задания, ответы учащихся и другие подобные данные. Обмен информацией между преподавателем и учащимися в процессе дистанционного обучения осуществляется через облачное хранилище.</p>
+      <title>Cloud storage</title>
+	  <p>Internet infrastructure supporting the <wintitle>Remote Assignments</wintitle> module. All unpublished and published assignments, student work, grades, assignment files, and all associated data is stored in the cloud. Teachers and students communicate through the cloud in the course of distant learning.</p>
    </section>
    
   </refbody>
