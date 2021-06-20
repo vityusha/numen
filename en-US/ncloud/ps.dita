@@ -3,11 +3,10 @@
 "concept.dtd">
 
 <concept id="ps" xml:lang="en-US">
-  <title>Примечание</title>
+  <title>Disclaimer</title>
   <conbody>
 
-    <p>Производитель программного обеспечения оставляет за собой право вносить изменения в <wintitle>Диалог Nibelung: модуль "Задания через Интернет"</wintitle> с целью улучшения характеристик и добавления новых возможностей, не влияющих на работоспособность программы.</p>
-    <p>В связи с этим данное руководство может содержать незначительные неточности при описании.</p>
-
+	<p>Manufacturer reserves the right to modify this software product for the purpose of improvements and introduction of new features not affecting ability of the product to operate under reasonable conditions. This manual may contain certain inaccuracies as the result of such modifications.</p>
+	
   </conbody>
 </concept>
