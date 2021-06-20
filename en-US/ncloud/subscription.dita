@@ -3,8 +3,8 @@
 "concept.dtd">
 
 <concept id="subscription" xml:lang="en-US">
-  <title>Подписка</title>
+  <title>Subscription</title>
   <conbody>
-	  <p>Форма лицензирования программного обеспечения, подразумевающая покупку лицензии на право использования в течение <uicontrol>определенного периода времени</uicontrol>. Функции модуля <wintitle>Задания через Интернет</wintitle> доступны при наличии активной подписки.</p>
+	  <p>Subscription is a form of software licensing that gives you the right to use the software, as well as access to support, software updates, and use of associated internet infrastructure, for a limited time in exchange for a license fee. Functionality of the <wintitle>Remote Assignments</wintitle> module requires an active subscription.</p>
   </conbody>
 </concept>
