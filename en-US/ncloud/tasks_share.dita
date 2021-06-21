@@ -6,51 +6,51 @@
   <title>Shared assignments</title>
   <conbody>
 
-<p>An assignment will be made available for the other teachers of your school using the <wintitle>Remote Assignment</wintitle> module whenever <uicontrol>Shared assignment</uicontrol> box was checked during creation of the assignment (see <xref keyref="tasks_creation"/>&#160;)  (see <xref keyref="tasks_creation"/>&#160;).</p>
+    <p>An assignment will be made available for the other teachers of your school using the <wintitle>Remote Assignment</wintitle> module whenever <uicontrol>Shared assignment</uicontrol> box was checked during creation of the assignment (see <xref keyref="tasks_creation"/>&#160;)  (see <xref keyref="tasks_creation"/>&#160;).</p>
 
-<p>Press <uicontrol>Import shared assignments</uicontrol> button in the <uicontrol>Assignments</uicontrol> tab to import assignments shared by other teachers.</p>
-  
-          <fig id="shared_tasks_import_window_png">
-            <title>Importing a shared assignment</title>
-            <image href="img/shared-tasks-import-window.png" placement="break">
-                <alt>Importing a shared assignment</alt>
-            </image>
-        </fig>
-		
-        <p>Elements of the <wintitle>Import shared assignments</wintitle> dialog box:</p>
+    <p>Press <uicontrol>Import shared assignments</uicontrol> button in the <uicontrol>Assignments</uicontrol> tab to import assignments shared by other teachers.</p>
 
-<table frame="topbot">
-<tgroup cols="2">
-   <colspec colname="COLSPEC0" colwidth="12"/>
-   <colspec colname="COLSPEC1" colwidth="200*"/>
-   
-<tbody>
+    <fig id="shared_tasks_import_window_png">
+      <title>Importing a shared assignment</title>
+      <image href="img/shared-tasks-import-window.png" placement="break">
+        <alt>Importing a shared assignment</alt>
+      </image>
+    </fig>
 
-<row>
-<entry>1</entry>
-<entry>Not selected assignment</entry>
-</row>
+    <p>Elements of the <wintitle>Import shared assignments</wintitle> dialog box:</p>
 
-<row>
-<entry>2</entry>
-<entry>Assignment selected for import</entry>
-</row>
+    <table frame="topbot">
+      <tgroup cols="2">
+        <colspec colname="COLSPEC0" colwidth="12"/>
+        <colspec colname="COLSPEC1" colwidth="200*"/>
 
-<row>
-<entry>3</entry>
-<entry>Import selected assignments</entry>
-</row>
+        <tbody>
 
-<row>
-<entry>4</entry>
-<entry>Cancel import and close window</entry>
-</row>
+          <row>
+            <entry>1</entry>
+            <entry>Not selected assignment</entry>
+          </row>
 
-</tbody>
-</tgroup>
-</table>
+          <row>
+            <entry>2</entry>
+            <entry>Assignment selected for import</entry>
+          </row>
 
-<p>Select assignments from the list and and press <uicontrol>OK</uicontrol> to import them into your workspace. Copies of imported assignments will appear in the list of unpublished assignments, where you can modify them to suit your needs.</p>
+          <row>
+            <entry>3</entry>
+            <entry>Import selected assignments</entry>
+          </row>
+
+          <row>
+            <entry>4</entry>
+            <entry>Cancel import and close window</entry>
+          </row>
+
+        </tbody>
+      </tgroup>
+    </table>
+
+    <p>Select assignments from the list and and press <uicontrol>OK</uicontrol> to import them into your workspace. Copies of imported assignments will appear in the list of unpublished assignments, where you can modify them to suit your needs.</p>
 
   </conbody>
 </concept>

@@ -4,78 +4,78 @@
 
 <concept id="admin_mode" xml:lang="en-US">
   <title>Administrative mode</title>
-  
+
   <conbody>
-     
+
 	 <p>The <wintitle>Remote Assignments</wintitle> module has an <uicontrol>administrative mode</uicontrol> for performing certain system maintenance operations. This mode is activated when you open the teacher interface when logged into <wintitle>Dialog Nibelung</wintitle> as the built-in user <wintitle>Admin</wintitle>.</p>
 
 	 <p>In administrative mode you can:</p>
-	 
+
 	 <ul>
 	   <li>Perform garbage collection and cleanup in the cloud storage.</li>
 	   <li>Check for available module updates and install them.</li>
        <li>Management of <uicontrol>all</uicontrol> assignments and their publication instances, including viewing, export, filing to the archive, and removal.</li>
      </ul>
-	 
+
 	 <note type="tip">Administrative mode is intended for maintenance purposes only. Creating and publishing of assignments, grading, commenting, and other operations regularly performed by the teachers in the course of working with the module, are not available in this mode.</note>
-	 
+
 	 <p>A warning to that effect will be displayed whenever you access the <wintitle>Remote Assignments</wintitle> module as <uicontrol>Admin</uicontrol> user:</p>
-	 
+
 	         <fig id="admin_mode_warn_png">
-            <title>Administrative mode startup warning _fixme_ [ui]</title>
+            <title>Administrative mode startup warning</title>
             <image href="img/admin-mode-warn.png" placement="break">
                 <alt>Administrative mode startup warning</alt>
             </image>
         </fig>
-	 
+
 	 <note type="important">It is highly recommended that <wintitle>Admin</wintitle> user has a very strong password to prevent unauthorized access to assignments, publications, and student grades.</note>
-	 
+
 	 <p>A special <uicontrol>Maintenance</uicontrol> tab will appear in the teacher interface main window (see <xref keyref="teacher_mainwin"/>&#160;) in administrative mode. This tab contain actions available for system maintenance.</p>
 
-	<note type="important">Assignments and their publications belonging to all the teachers are available in the administrative mode allowing to perform their export, (see sections <xref keyref="tasks_export"/>&#160;, <xref keyref="tasks_creation"/>&#160;, and <xref keyref="tasks_publish"/>&#160;), filing to the archive (see <xref keyref="tasks_archive"/>&#160;), or removal (see xref and xref _fixme_).</note>
-	
-	<p>Press the <uicontrol>Cloud cleanup</uicontrol> _fixme_ [ui] button that initiates garbage collection in the cloud storage, which in certain cases allows to increase available free space.</p>
-	 
+	<note type="important">Assignments and their publications belonging to all the teachers are available in the administrative mode allowing to perform their export, (see sections <xref keyref="tasks_export"/>&#160;, <xref keyref="tasks_creation"/>&#160;, and <xref keyref="tasks_publish"/>&#160;), filing to the archive (see <xref keyref="tasks_archive"/>&#160;), or removal (see <xref keyref="tasks_archive"/>&#160; and <xref keyref="tasks_delete"/>&#160;).</note>
+
+	<p>Press the <uicontrol>Cloud cleanup</uicontrol> button that initiates garbage collection in the cloud storage, which in certain cases allows to increase available free space.</p>
+
 	    <fig id="maintenance_png">
             <title><uicontrol>Maintenance</uicontrol> tab</title>
             <image href="img/maintenance.png" placement="break">
                 <alt><uicontrol>Maintenance</uicontrol> tab</alt>
             </image>
         </fig>
-		
+
 	<p>Cloud cleanup may take a fairly long time. During this time the window will be blocked and a progress bar displayed:</p>
-	
+
 		    <fig id="cleanup_performing_png">
             <title>Cloud storage cleanup</title>
             <image href="img/cleanup-performing.png" placement="break">
                 <alt>Cloud storage cleanup</alt>
             </image>
         </fig>
-	
+
 	<p>Press the <wintitle>Check for updates</wintitle> button to check if a new version of the  <wintitle>Remote assignments</wintitle> module is available.</p>
-	
+
 	<note type="attention">Don't forget that computer running the teacher interface in administrative mode must have an active internet connection to perform these maintenance operations.</note>
-	
+
     <p>A message will be displayed if an update is available (<xref keyref="admin_mode/update_info_png" type="fig"/>&#160;).</p>
-	
+
     <fig id="update_info_png">
-            <title><wintitle>Update is available</wintitle> message box _fixme_ [ui]</title>
+            <title><wintitle>Update is available</wintitle> message box</title>
             <image href="img/update-info.png" placement="break">
                 <alt><wintitle>Update is available</wintitle> message box</alt>
             </image>
     </fig>
-		
+
     <p>Press the <uicontrol>Download</uicontrol> button to start downloading the update.</p>
-	 
+
     <p>A download progress box (<xref keyref="admin_mode/update_download_png" type="fig"/>&#160;) will appear.</p>
-	 
+
         <fig id="update_download_png">
             <title>Update download progress box</title>
             <image href="img/update-download.png" placement="break">
                 <alt>Update download progress box</alt>
             </image>
         </fig>
-		
-    <p>Press <uicontrol>Install</uicontrol> after the download is finished to install <wintitle>Remote Assignments</wintitle> updates.</p>	
+
+    <p>Press <uicontrol>Install</uicontrol> after the download is finished to install <wintitle>Remote Assignments</wintitle> updates.</p>
   </conbody>
 </concept>

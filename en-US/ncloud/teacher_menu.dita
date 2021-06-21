@@ -5,16 +5,16 @@
 <concept id="teacher_menu" xml:lang="en-US">
   <title>Starting the module</title>
   <conbody>
-  <p>A <menucascade><uicontrol>Tools</uicontrol><uicontrol>Extensions</uicontrol><uicontrol>Remote Assignments</uicontrol></menucascade> item will appear in <wintitle>Dialog Nibelung</wintitle> main menu upon successful installation of the <wintitle>Remote Assignments</wintitle> module.</p>
-  
-        <fig id="teacher_menu_png">
-            <title><wintitle>Remote Assignments</wintitle> in teacher menu</title>
-            <image href="img/teacher-menu.png" placement="break">
-                <alt>Remote Assignments in teacher menu</alt>
-            </image>
-        </fig>
-		
-  <note type="tip"><wintitle>Remote Assignments</wintitle> module does not require any additional setup beyond installation on top of <wintitle>Dialog Nibelung</wintitle> and making sure that the school has an active subscription (see <xref keyref="subscription"/>&#160;)</note>
-  
+    <p>A <menucascade><uicontrol>Tools</uicontrol><uicontrol>Extensions</uicontrol><uicontrol>Remote Assignments</uicontrol></menucascade> item will appear in <wintitle>Dialog Nibelung</wintitle> main menu upon successful installation of the <wintitle>Remote Assignments</wintitle> module.</p>
+
+    <fig id="teacher_menu_png">
+      <title><wintitle>Remote Assignments</wintitle> in teacher menu</title>
+      <image href="img/teacher-menu.png" placement="break">
+        <alt>Remote Assignments in teacher menu</alt>
+      </image>
+    </fig>
+
+    <note type="tip"><wintitle>Remote Assignments</wintitle> module does not require any additional setup beyond installation on top of <wintitle>Dialog Nibelung</wintitle> and making sure that the school has an active subscription (see <xref keyref="subscription"/>&#160;)</note>
+
   </conbody>
 </concept>

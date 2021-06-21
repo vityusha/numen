@@ -6,149 +6,149 @@
   <title>Working on the assignments and submitting your work</title>
   <conbody>
 
-<p>Select an assignment from the list (see _fixme_ [xref]). The selected assignment will be displayed in the assignment workspace area:</p>
+    <p>Select an assignment from the list (see <xref keyref="std_mainwin"/>&#160;). The selected assignment will be displayed in the assignment workspace area:</p>
 
-        <fig id="student_answer_part_png">
-            <title>Student interface: assignment workspace</title>
-            <image href="img/student-answer-part.png" placement="break">
-                <alt>Student interface: assignment workspace</alt>
-            </image>
-        </fig>
-        <p>Elements of the assignment workspace:</p>
+    <fig id="student_answer_part_png">
+      <title>Student interface: assignment workspace</title>
+      <image href="img/student-answer-part.png" placement="break">
+        <alt>Student interface: assignment workspace</alt>
+      </image>
+    </fig>
+    <p>Elements of the assignment workspace:</p>
 
-<table frame="topbot">
-<tgroup cols="2">
-   <colspec colname="COLSPEC0" colwidth="12"/>
-   <colspec colname="COLSPEC1" colwidth="200*"/>
-   
-<tbody>
+    <table frame="topbot">
+      <tgroup cols="2">
+        <colspec colname="COLSPEC0" colwidth="12"/>
+        <colspec colname="COLSPEC1" colwidth="200*"/>
 
-<row>
-<entry>1</entry>
-<entry>Teacher comment for this assignment</entry>
-</row>
+        <tbody>
 
-<row>
-<entry>2</entry>
-<entry>Student comment</entry>
-</row>
+          <row>
+            <entry>1</entry>
+            <entry>Teacher comment for this assignment</entry>
+          </row>
 
-<row>
-<entry>3</entry>
-<entry><uicontrol>Assignment overview</uicontrol> tab</entry>
-</row>
+          <row>
+            <entry>2</entry>
+            <entry>Student comment</entry>
+          </row>
 
-<row>
-<entry>4</entry>
-<entry><uicontrol>Assignment content</uicontrol> tab</entry>
-</row>
+          <row>
+            <entry>3</entry>
+            <entry><uicontrol>Assignment overview</uicontrol> tab</entry>
+          </row>
 
-<row>
-<entry>5</entry>
-<entry><uicontrol>Answer content</uicontrol> tab</entry>
-</row>
+          <row>
+            <entry>4</entry>
+            <entry><uicontrol>Assignment content</uicontrol> tab</entry>
+          </row>
 
-<row>
-<entry>6</entry>
-<entry><uicontrol>Files to send</uicontrol> tab</entry>
-</row>
+          <row>
+            <entry>5</entry>
+            <entry><uicontrol>Answer content</uicontrol> tab</entry>
+          </row>
 
-<row>
-<entry>7</entry>
-<entry>Selected file of the assignment content</entry>
-</row>
+          <row>
+            <entry>6</entry>
+            <entry><uicontrol>Files to send</uicontrol> tab</entry>
+          </row>
 
-<row>
-<entry>8</entry>
-<entry>Open content file</entry>
-</row>
+          <row>
+            <entry>7</entry>
+            <entry>Selected file of the assignment content</entry>
+          </row>
 
-<row>
-<entry>9</entry>
-<entry><uicontrol>Context menu for the content file</uicontrol></entry>
-</row>
+          <row>
+            <entry>8</entry>
+            <entry>Open content file</entry>
+          </row>
 
-<row>
-<entry>10</entry>
-<entry><uicontrol>Interim submission</uicontrol> button _fixme_ [ui]</entry>
-</row>
+          <row>
+            <entry>9</entry>
+            <entry><uicontrol>Context menu for the content file</uicontrol></entry>
+          </row>
 
-<row>
-<entry>11</entry>
-<entry><uicontrol>Final submission</uicontrol> button</entry>
-</row>
+          <row>
+            <entry>10</entry>
+            <entry><uicontrol>Interim submission</uicontrol> button</entry>
+          </row>
 
-</tbody>
-</tgroup>
-</table>
+          <row>
+            <entry>11</entry>
+            <entry><uicontrol>Final submission</uicontrol> button</entry>
+          </row>
 
-<p>Teacher comment (1) is common for all students receiving this assignment and is not directed to anyone personally.</p>
+        </tbody>
+      </tgroup>
+    </table>
 
-<note type="tip">If the assignment assumes a short answer not requiring sending back any files, you can put the answer into the comment box (2). This box can also contain a comment or a short explanation for the work you are submitting.</note>
+    <p>Teacher comment (1) is common for all students receiving this assignment and is not directed to anyone personally.</p>
 
-<p>The <uicontrol>Assignment content</uicontrol> tab lists files attached to the assignment by the teacher (see <xref keyref="uic_fcloud"/> for further details). The <uicontrol>Answer content</uicontrol> tab contains files constituting your work for the assignment. These files have already been saved to the local drive, but are not necessarily submitted to the teacher for review and grading. _fixme_ [how2distinguish]</p>
+    <note type="tip">If the assignment assumes a short answer not requiring sending back any files, you can put the answer into the comment box (2). This box can also contain a comment or a short explanation for the work you are submitting.</note>
 
-<p>The <uicontrol>Files to send</uicontrol> tab contains tools for selecting files stored locally and attaching them to you answer for submission (see <xref keyref="uic_flocal"/>&#160;). Files will be uploaded to the cloud after pressing either <uicontrol>Interim submission</uicontrol> or <uicontrol>Final submission</uicontrol> buttons.</p>
+    <p>The <uicontrol>Assignment content</uicontrol> tab lists files attached to the assignment by the teacher (see <xref keyref="uic_fcloud"/> for further details). The <uicontrol>Answer content</uicontrol> tab contains files constituting your work for the assignment. These files have already been saved to the local drive, but are not necessarily submitted to the teacher for review and grading. _fixme_ [how2distinguish]</p>
 
-<p>Use the <uicontrol>Interim submission</uicontrol> button to save intermediate results of your work to the cloud. Use this button to let the teacher know that you have started working on the assignment. Your assignment will receive <uicontrol>In progress</uicontrol> status, which means that your are working on the assignment, but not ready yet to turn in your work (see <xref keyref="glossary"/>&#160;). Your uploaded work will also be made available to the teacher for viewing, so they could potentially catch early on if you are on the wrong path.</p>
+    <p>The <uicontrol>Files to send</uicontrol> tab contains tools for selecting files stored locally and attaching them to you answer for submission (see <xref keyref="uic_flocal"/>&#160;). Files will be uploaded to the cloud after pressing either <uicontrol>Interim submission</uicontrol> or <uicontrol>Final submission</uicontrol> buttons.</p>
 
-<note type="tip">You can attach, delete, and modify files, and edit your comments without limitations until you  turn the assignment in using the <uicontrol>Final submission</uicontrol> button.</note>
+    <p>Use the <uicontrol>Interim submission</uicontrol> button to save intermediate results of your work to the cloud. Use this button to let the teacher know that you have started working on the assignment. Your assignment will receive <uicontrol>In progress</uicontrol> status, which means that your are working on the assignment, but not ready yet to turn in your work (see <xref keyref="glossary"/>&#160;). Your uploaded work will also be made available to the teacher for viewing, so they could potentially catch early on if you are on the wrong path.</p>
 
-<p>Use the <uicontrol>Final submission</uicontrol> button to turn it your work for grading. At this point status of the assignment will become <uicontrol>Grading</uicontrol> and no further modifications will be possible. Wait for the teacher to check your work and (optionally) issue a grade.</p>
+    <note type="tip">You can attach, delete, and modify files, and edit your comments without limitations until you  turn the assignment in using the <uicontrol>Final submission</uicontrol> button.</note>
 
-  	<fig id="student_complete_task_request_png">
-            <title>Submission confirmation dialog _fixme_ [ui]</title>
-            <image href="img/student-complete-task-request.png" placement="break">
-                <alt>Submission confirmation dialog</alt>
-            </image>
-  </fig>
-  
-<note type="important">If you have not submitted any work before the deadline, your assignment will be considered <uicontrol>Late</uicontrol> and receive appropriate status.</note> 
+    <p>Use the <uicontrol>Final submission</uicontrol> button to turn it your work for grading. At this point status of the assignment will become <uicontrol>Grading</uicontrol> and no further modifications will be possible. Wait for the teacher to check your work and (optionally) issue a grade.</p>
 
-<p>The teacher will review and check your work for correctness and ther assignment will either receive a formal grade or sent back to you for a revision.</p>
+    <fig id="student_complete_task_request_png">
+      <title>Submission confirmation dialog</title>
+      <image href="img/student-complete-task-request.png" placement="break">
+        <alt>Submission confirmation dialog</alt>
+      </image>
+    </fig>
 
-<note type="attention">Teachers can send the assignment back for revision as many times as they deem necessary. The teacher can also extend the deadline. The new deadline will equally apply to the whole group of students who received the assignment in the first place. See section <xref keyref="tasks_publish"/> for more information about the deadlines.</note>
+    <note type="important">If you have not submitted any work before the deadline, your assignment will be considered <uicontrol>Late</uicontrol> and receive appropriate status.</note>
 
-<p>Cloud storage quota, status of the internet connection and connection to the cloud are shown in the status line at the bottom of the window (see _fixme_ [xref fig]).</p>
+    <p>The teacher will review and check your work for correctness and ther assignment will either receive a formal grade or sent back to you for a revision.</p>
 
-<p>The <uicontrol>Comment</uicontrol> field (see (1) in _fixme_ [xref fig id="student_answer_part_png"]) can contain either message from the teacher (regarding progress on the assignment, grade, direction for a revision, etc.) or student's comments and explanations for their work.</p>
+    <note type="attention">Teachers can send the assignment back for revision as many times as they deem necessary. The teacher can also extend the deadline. The new deadline will equally apply to the whole group of students who received the assignment in the first place. See section <xref keyref="tasks_publish"/> for more information about the deadlines.</note>
 
-<table frame="topbot">
-<tgroup cols="2">
-   <colspec colname="COLSPEC0" colwidth="200"/>
-   <colspec colname="COLSPEC1" colwidth="200*"/>   
+    <p>Cloud storage quota, status of the internet connection and connection to the cloud are shown in the status line at the bottom of the window (see <xref keyref="std_menu/student_menu_png" type="fig"/>&#160;).</p>
 
-<thead>
-<row>
-<entry colname="COLSPEC0">Selected tab</entry>
-<entry colname="COLSPEC1">Field contents</entry>
-</row>
-</thead>
+    <p>The <uicontrol>Comment</uicontrol> field (see (1) in <xref keyref="std_menu/student_menu_png" type="fig"/>&#160;) can contain either message from the teacher (regarding progress on the assignment, grade, direction for a revision, etc.) or student's comments and explanations for their work.</p>
 
-<tbody>
+    <table frame="topbot">
+      <tgroup cols="2">
+        <colspec colname="COLSPEC0" colwidth="200"/>
+        <colspec colname="COLSPEC1" colwidth="200*"/>
 
-<row>
-<entry>Assigment overview</entry>
-<entry>Message from the teacher</entry>
-</row>
+        <thead>
+          <row>
+            <entry colname="COLSPEC0">Selected tab</entry>
+            <entry colname="COLSPEC1">Field contents</entry>
+          </row>
+        </thead>
 
-<row>
-<entry>Assignment content</entry>
-<entry>Message from the teacher</entry>
-</row>
+        <tbody>
 
-<row>
-<entry>Answer content</entry>
-<entry>Student comment</entry>
-</row>
+          <row>
+            <entry>Assigment overview</entry>
+            <entry>Message from the teacher</entry>
+          </row>
 
-<row>
-<entry>Files to send</entry>
-<entry>Student comment</entry>
-</row>
+          <row>
+            <entry>Assignment content</entry>
+            <entry>Message from the teacher</entry>
+          </row>
 
-</tbody>
-</tgroup>
-</table>
+          <row>
+            <entry>Answer content</entry>
+            <entry>Student comment</entry>
+          </row>
+
+          <row>
+            <entry>Files to send</entry>
+            <entry>Student comment</entry>
+          </row>
+
+        </tbody>
+      </tgroup>
+    </table>
   </conbody>
 </concept>

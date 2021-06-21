@@ -5,40 +5,40 @@
 <concept id="std_menu" xml:lang="en-US">
   <title>Setup</title>
   <conbody>
-  <p>An <menucascade><uicontrol>Extensions</uicontrol><uicontrol>Remote Assignments</uicontrol></menucascade> menu item will appear in the upper left corner of the <wintitle>Dialog Nibelung NPlayer</wintitle> after a successful installation of the <uicontrol>Remote Assignments</uicontrol> module on a student computer.</p>
-  
-  <fig id="student_menu_png">
-            <title><wintitle>Remote Assignments</wintitle> menu in the <wintitle>Dialog Nibelung NPlayer</wintitle> main window</title>
-            <image href="img/student-menu.png" placement="break">
-                <alt><wintitle>Remote Assignments</wintitle> menu in student interface</alt>
-            </image>
-  </fig>
-  
+    <p>An <menucascade><uicontrol>Extensions</uicontrol><uicontrol>Remote Assignments</uicontrol></menucascade> menu item will appear in the upper left corner of the <wintitle>Dialog Nibelung NPlayer</wintitle> after a successful installation of the <uicontrol>Remote Assignments</uicontrol> module on a student computer.</p>
+
+    <fig id="student_menu_png">
+      <title><wintitle>Remote Assignments</wintitle> menu in the <wintitle>Dialog Nibelung NPlayer</wintitle> main window</title>
+      <image href="img/student-menu.png" placement="break">
+        <alt><wintitle>Remote Assignments</wintitle> menu in student interface</alt>
+      </image>
+    </fig>
+
     <p>The <uicontrol>Extensions</uicontrol> includes two items:
       <ul>
         <li><uicontrol>Remote Assignments</uicontrol> item opens the assignment workspace <xref keyref="std_mainwin"/>&#160;)</li>
         <li><uicontrol>Add-on settings</uicontrol> opens the settings dialog box</li>
       </ul>
     </p>
-	
-	<fig id="student_idSetup_png">
+
+    <fig id="student_idSetup_png">
       <title><wintitle>Remote Assignments</wintitle> setup on the student side</title>
       <image href="img/student-idSetup.png" placement="break">
         <alt><wintitle>Remote Assignments</wintitle> setup on the student side</alt>
       </image>
     </fig>
-	
-	<p>Enter <wintitle>Dialog Nibelung</wintitle> license serial number and code, as well as student ID.  There are different setup scenarios for different use cases of <wintitle>Remote Assignments</wintitle>:
-	
-	<ul>
-	  <li>Single student, single school with single license: a one-time setup.</li>
-	  <li>Multiple students, single license: change <uicontrol>student ID</uicontrol> at the beginning of each student's session.</li>
-	  <li>Multiple students, multiple licenses: change serial number, license code, and student ID at the beginning of each student's session.</li>
-	</ul>
-	
-	</p>
-	
-	<p>Students obtain license serial number, license code, and their IDs from the teacher or their school administration. See also <xref keyref="glossary"/>&#160; for further information pertaining to student IDs.</p>
- 
+
+    <p>Enter <wintitle>Dialog Nibelung</wintitle> license serial number and code, as well as student ID.  There are different setup scenarios for different use cases of <wintitle>Remote Assignments</wintitle>:
+
+      <ul>
+        <li>Single student, single school with single license: a one-time setup.</li>
+        <li>Multiple students, single license: change <uicontrol>student ID</uicontrol> at the beginning of each student's session.</li>
+        <li>Multiple students, multiple licenses: change serial number, license code, and student ID at the beginning of each student's session.</li>
+      </ul>
+
+    </p>
+
+    <p>Students obtain license serial number, license code, and their IDs from the teacher or their school administration. See also <xref keyref="glossary"/>&#160; for further information pertaining to student IDs.</p>
+
   </conbody>
 </concept>

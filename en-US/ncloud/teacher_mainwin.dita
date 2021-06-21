@@ -5,165 +5,165 @@
 <concept id="teacher_mainwin" xml:lang="en-US">
   <title>Main window</title>
   <conbody>
-  
-  <p>Select <wintitle>Remote assignments</wintitle> item from the menu. A remote assignments window will appear on your screen, containing several tabs:</p>
 
-<table frame="topbot">
-  <tgroup cols="2">
-   <colspec colname="COLSPEC0" colwidth="120"/>
-   <colspec colname="COLSPEC1" colwidth="200*"/>
-   
-   <thead>
-<row>
-  <entry colname="COLSPEC0" align="center"><uicontrol>Tab</uicontrol></entry>
-  <entry colname="COLSPEC1" align="center">Description</entry>
-</row>
-</thead>
+    <p>Select <wintitle>Remote assignments</wintitle> item from the menu. A remote assignments window will appear on your screen, containing several tabs:</p>
 
-<tbody>
+    <table frame="topbot">
+      <tgroup cols="2">
+        <colspec colname="COLSPEC0" colwidth="120"/>
+        <colspec colname="COLSPEC1" colwidth="200*"/>
 
-<row>
-<entry><uicontrol>Assignments</uicontrol></entry>
-<entry>Create and manage assignments</entry>
-</row>
+        <thead>
+          <row>
+            <entry colname="COLSPEC0" align="center"><uicontrol>Tab</uicontrol></entry>
+            <entry colname="COLSPEC1" align="center">Description</entry>
+          </row>
+        </thead>
 
-<row>
-<entry><uicontrol>Published assignments</uicontrol></entry>
-<entry>Manage published assignments</entry>
-</row>
+        <tbody>
 
-<row>
-<entry><uicontrol>Progress</uicontrol></entry>
-<entry>Monitor students' progress on a published assignment; review and grade their work</entry>
-</row>
+          <row>
+            <entry><uicontrol>Assignments</uicontrol></entry>
+            <entry>Create and manage assignments</entry>
+          </row>
 
-<row>
-<entry><uicontrol>Maintenance</uicontrol></entry>
-<entry>System maintenance (performed by administrator, see <xref keyref="admin_mode"/>&#160;)</entry>
-</row>
+          <row>
+            <entry><uicontrol>Published assignments</uicontrol></entry>
+            <entry>Manage published assignments</entry>
+          </row>
 
-</tbody>
-</tgroup>
-</table>
+          <row>
+            <entry><uicontrol>Progress</uicontrol></entry>
+            <entry>Monitor students' progress on a published assignment; review and grade their work</entry>
+          </row>
 
-          <fig id="teacher_window_png">
-            <title>Remote assignments main window on the teacher side</title>
-            <image href="img/teacher-window.png" placement="break">
-                <alt>Main window</alt>
-            </image>
-        </fig>
-  
-        <p>Controls of the remote assignment main window:</p>
+          <row>
+            <entry><uicontrol>Maintenance</uicontrol></entry>
+            <entry>System maintenance (performed by administrator, see <xref keyref="admin_mode"/>&#160;)</entry>
+          </row>
 
-<table frame="topbot">
-<tgroup cols="2">
-   <colspec colname="COLSPEC0" colwidth="12"/>
-   <colspec colname="COLSPEC1" colwidth="200*"/>
-   
-<tbody>
+        </tbody>
+      </tgroup>
+    </table>
 
-<row>
-<entry>1</entry>
-<entry><uicontrol>Assignments</uicontrol> tab</entry>
-</row>
+    <fig id="teacher_window_png">
+      <title>Remote assignments main window on the teacher side</title>
+      <image href="img/teacher-window.png" placement="break">
+        <alt>Main window</alt>
+      </image>
+    </fig>
 
-<row>
-<entry>2</entry>
-<entry><uicontrol>Published assignments</uicontrol> tab</entry>
-</row>
+    <p>Controls of the remote assignment main window:</p>
 
-<row>
-<entry>3</entry>
-<entry><uicontrol>Progress</uicontrol> tab</entry>
-</row>
+    <table frame="topbot">
+      <tgroup cols="2">
+        <colspec colname="COLSPEC0" colwidth="12"/>
+        <colspec colname="COLSPEC1" colwidth="200*"/>
 
-<row>
-<entry>4</entry>
-<entry><uicontrol>Maintenance</uicontrol> tab</entry>
-</row>
+        <tbody>
 
-<row>
-<entry>5</entry>
-<entry>Window control and help buttons</entry>
-</row>
+          <row>
+            <entry>1</entry>
+            <entry><uicontrol>Assignments</uicontrol> tab</entry>
+          </row>
 
-<row>
-<entry>6</entry>
-<entry><uicontrol>Refresh</uicontrol> list button</entry>
-</row>
+          <row>
+            <entry>2</entry>
+            <entry><uicontrol>Published assignments</uicontrol> tab</entry>
+          </row>
 
-<row>
-<entry>7</entry>
-<entry><uicontrol>Previous</uicontrol> tab button</entry>
-</row>
+          <row>
+            <entry>3</entry>
+            <entry><uicontrol>Progress</uicontrol> tab</entry>
+          </row>
 
-<row>
-<entry>8</entry>
-<entry><uicontrol>Next</uicontrol> tab button</entry>
-</row>
+          <row>
+            <entry>4</entry>
+            <entry><uicontrol>Maintenance</uicontrol> tab</entry>
+          </row>
 
-<row>
-<entry>9</entry>
-<entry><uicontrol>Close</uicontrol> window button</entry>
-</row>
+          <row>
+            <entry>5</entry>
+            <entry>Window control and help buttons</entry>
+          </row>
 
-<row>
-<entry>10</entry>
-<entry>Cloud quota indicator</entry>
-</row>
+          <row>
+            <entry>6</entry>
+            <entry><uicontrol>Refresh</uicontrol> list button</entry>
+          </row>
 
-<row>
-<entry>11</entry>
-<entry>Module status</entry>
-</row>
+          <row>
+            <entry>7</entry>
+            <entry><uicontrol>Previous</uicontrol> tab button</entry>
+          </row>
 
-<row>
-<entry>12</entry>
-<entry>Online and cloud connection indicator</entry>
-</row>
+          <row>
+            <entry>8</entry>
+            <entry><uicontrol>Next</uicontrol> tab button</entry>
+          </row>
 
-</tbody>
-</tgroup>
-</table>  
+          <row>
+            <entry>9</entry>
+            <entry><uicontrol>Close</uicontrol> window button</entry>
+          </row>
 
-<p>Window control area <uicontrol>5</uicontrol> contain the standard Minimize/Restore, Maximize, and close buttons, plus a button that displays <uicontrol>About</uicontrol> dialog box (see <xref keyref="uic_about"/>&#160;), from where an online copy of this manual can be consulted.</p>
+          <row>
+            <entry>10</entry>
+            <entry>Cloud quota indicator</entry>
+          </row>
 
-<p><uicontrol>Refresh list</uicontrol> refreshes the list displayed in the current tab from the cloud (see <xref keyref="glossary"/>&#160;). Please see the table below for detailed explanation of what exactly is refreshed in each case.</p>
+          <row>
+            <entry>11</entry>
+            <entry>Module status</entry>
+          </row>
 
-<table frame="topbot">
-<tgroup cols="2">
-   <colspec colname="COLSPEC0" colwidth="150"/>
-   <colspec colname="COLSPEC1" colwidth="200*"/>
-<thead>
-<row>
-  <entry colname="COLSPEC0" align="center"><uicontrol>Active tab</uicontrol></entry>
-  <entry colname="COLSPEC1" align="center">Refreshed information</entry>
-</row>
-</thead>
-<tbody>
+          <row>
+            <entry>12</entry>
+            <entry>Online and cloud connection indicator</entry>
+          </row>
 
-<row>
-<entry><uicontrol>Assignments</uicontrol></entry>
-<entry>List of assignments, both published and unpublished</entry>
-</row>
+        </tbody>
+      </tgroup>
+    </table>
 
-<row>
-<entry><uicontrol>Published assignments</uicontrol></entry>
-<entry>List of published assignments with progress summary for each</entry>
-</row>
+    <p>Window control area <uicontrol>5</uicontrol> contain the standard Minimize/Restore, Maximize, and close buttons, plus a button that displays <uicontrol>About</uicontrol> dialog box (see <xref keyref="uic_about"/>&#160;), from where an online copy of this manual can be consulted.</p>
 
-<row>
-<entry><uicontrol>Progress</uicontrol></entry>
-<entry>Detailed progress of each student on the selected assignment</entry>
-</row>
+    <p><uicontrol>Refresh list</uicontrol> refreshes the list displayed in the current tab from the cloud (see <xref keyref="glossary"/>&#160;). Please see the table below for detailed explanation of what exactly is refreshed in each case.</p>
 
-</tbody>
-</tgroup>
-</table>
+    <table frame="topbot">
+      <tgroup cols="2">
+        <colspec colname="COLSPEC0" colwidth="150"/>
+        <colspec colname="COLSPEC1" colwidth="200*"/>
+        <thead>
+          <row>
+            <entry colname="COLSPEC0" align="center"><uicontrol>Active tab</uicontrol></entry>
+            <entry colname="COLSPEC1" align="center">Refreshed information</entry>
+          </row>
+        </thead>
+        <tbody>
 
-<note type="note">If you hit <uicontrol>Refresh</uicontrol> with having any unsaved modifications, the software will prompt you to save them before proceeding.</note>
+          <row>
+            <entry><uicontrol>Assignments</uicontrol></entry>
+            <entry>List of assignments, both published and unpublished</entry>
+          </row>
 
-<p>The status line at the bottom of the window will be updated on each cloud action. The <uicontrol>Quota indicator</uicontrol> 10 shows percentage of the cloud storage used. Hover the mouse pointer over it for additional information on the quota.</p> 
+          <row>
+            <entry><uicontrol>Published assignments</uicontrol></entry>
+            <entry>List of published assignments with progress summary for each</entry>
+          </row>
+
+          <row>
+            <entry><uicontrol>Progress</uicontrol></entry>
+            <entry>Detailed progress of each student on the selected assignment</entry>
+          </row>
+
+        </tbody>
+      </tgroup>
+    </table>
+
+    <note type="note">If you hit <uicontrol>Refresh</uicontrol> with having any unsaved modifications, the software will prompt you to save them before proceeding.</note>
+
+    <p>The status line at the bottom of the window will be updated on each cloud action. The <uicontrol>Quota indicator</uicontrol> 10 shows percentage of the cloud storage used. Hover the mouse pointer over it for additional information on the quota.</p>
 
   </conbody>
 </concept>
