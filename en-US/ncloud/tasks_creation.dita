@@ -37,7 +37,7 @@
 </tgroup>
 </table>
 
-<p>List of assignments in this tab contains all the unpublished assignments that can still be edited, modified, extended, etc. All these operations are performed in the assignment editing panel.</p>
+<p>List of assignments in this tab contains all assignments that have been created by this teacher. Assignments that have not been published can be edited, modified, extended, etc. Those operations are performed in the assignment editing panel.</p>
 
         <fig id="task_control_main_png">
             <title>Assignment editing panel</title>
@@ -118,29 +118,29 @@
 </tgroup>
 </table>
 
-<p><uicontrol>Properties</uicontrol> tab displays field for entering and editing general information about the assignment: creation date, author, course title, assignment title, description, optional comment, and assignment type.</p>
+<p><uicontrol>Properties</uicontrol> tab displays fields for entering and editing general information about the assignment: creation date, author, course title, assignment title, description, optional comment, and assignment type.</p>
 
 <p>Files attached to the assignment are displayed in the <uicontrol>Content</uicontrol> tab.</p> 
 
-<p>Tools for adding content files to the assignment are located in the  <uicontrol>Files to send</uicontrol> tab (see <xref keyref="uic_flocal"/>&#160;). The tab will be displayed with a red border whenever there are no content files in the assignment, as well as when the total size of the files exceeds cloud quota. </p>
+<p>Tools for adding content files to the assignment are located in the  <uicontrol>Files to send</uicontrol> tab (see <xref keyref="uic_flocal"/>&#160;). The tab will be displayed with a red border whenever there are no content files in the assignment, as well as when the total size of the files exceeds cloud storage quota. </p>
 
 <note type="note">The <uicontrol>Files to send</uicontrol> tab is displayed only for unpublished assignments.</note>
 
-<p>Press the <uicontrol>Create</uicontrol> button to start creating a new assignment. An empty template will be presented to you that you can start populating with assignment data. Press <uicontrol>Save assignment</uicontrol> to save current assignment with any modifications to the cloud. Once the assignment is safely stored in the cloud, it will appear in the list displayed in the upper portion of the window; at this point you can also publish the assignment, i.e. make it available to the students. Press <uicontrol>Cancel</uicontrol> to cancel creating a new assignments and return to the list of existing assignments.</p>
+<p>Press <uicontrol>Create</uicontrol> button to start creating a new assignment. An empty template will be presented that you can start populating with assignment data. Press <uicontrol>Save assignment</uicontrol> to save current assignment with any modifications to the cloud. Once the assignment is safely stored in the cloud, it will appear in the list displayed in the upper portion of the window; at this point you can also publish the assignment, i.e. make it available to the students. Press <uicontrol>Cancel</uicontrol> to cancel creating a new assignments and return to the list of existing assignments.</p>
 
 <note type="note">You can only edit and modify unpublished assignments.</note>
 
-<note type="note">Check the <uicontrol>Shared assignment</uicontrol> box to make this assignment available for the other teachers in your school. They will be able to import the assignments into their workspace once you save the assignment to the cloud. (see <xref keyref="tasks_share"/>&#160;)</note>
+<note type="note">Check the <uicontrol>Shared assignment</uicontrol> box to make this assignment available for the other teachers in your school. They will be able to import the assignment into their workspace once you save the assignment to the cloud. (see <xref keyref="tasks_share"/>&#160;)</note>
 
-<p>Press <uicontrol>Publish</uicontrol> button to publish the current assignment. This will open publication dialog box (see <xref keyref="tasks_publish"/>&#160;).</p>
+<p>Press <uicontrol>Publish</uicontrol> button to publish the current assignment, i.e. make it available to the students. This will open the publication dialog box (see <xref keyref="tasks_publish"/>&#160;).</p>
 
 <p>Press <uicontrol>Remove</uicontrol> button to initiate the removal of the assignment. You will be prompted for further confirmation of your intentions (see <xref keyref="tasks_delete"/>&#160;).</p>
 
 <p>Press <uicontrol>Import assignment</uicontrol> button to import an assignment previously exported via the <uicontrol>Export assignment</uicontrol> button. These tools import/export assignments to the local storage, allowing you to store unfinished work locally without uploading it to the cloud or create assignment templates for future reuse.</p>
  
-<note type="attention">Only assignment metadata (as displayed in the <uicontrol>Properties</uicontrol> tab), and content files are saved using the export tool. Use the archive facility (available in the <uicontrol>Published assignments</uicontrol> tab, see <xref keyref="tasks_archive"/>&#160;) to save a published assignment together with student answers, grades, and all the comments.</note>
+<note type="attention">Only assignment metadata (as displayed in the <uicontrol>Properties</uicontrol> tab), and content files are saved using the export tool. Use the archive facility (available in the <uicontrol>Published assignments</uicontrol> tab, see <xref keyref="tasks_archive"/>&#160;) to save a published assignment together with submitted student work, grades, and comments.</note>
 
-<p>Press the <uicontrol>Import shared assignments</uicontrol> to start importing assignments shared by other teachers of your school (see <xref keyref="tasks_share"/>&#160;).</p>
+<p>Press the <uicontrol>Import shared assignments</uicontrol> button to initiate importing assignments shared by other teachers in your school (see <xref keyref="tasks_share"/>&#160;).</p>
 
   </conbody>
 </concept>
