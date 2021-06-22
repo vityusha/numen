@@ -3,10 +3,10 @@
 "concept.dtd">
 
 <concept id="tasks_publish_ьфтфпу" xml:lang="en-US">
-  <title>Manage published assignments</title>
+  <title>Managing publications</title>
   <conbody>
 
-    <p>Published assignments appear on the <uicontrol>Published assignments</uicontrol> tab.</p>
+    <p>Once an assignment is published, its instance will appear in the <uicontrol>Published assignments</uicontrol> tab.</p>
 
     <fig id="teacher_publish_tab_png">
       <title><wintitle>Published assignments</wintitle> tab in teacher interface</title>
@@ -25,7 +25,7 @@
 
           <row>
             <entry>1</entry>
-            <entry>List of published assignments</entry>
+            <entry>List of publications</entry>
           </row>
 
           <row>
@@ -62,7 +62,7 @@
       </tgroup>
     </table>
 
-    <p>Press the <uicontrol>Extend deadline</uicontrol> button to extend the assignment deadline. A dialog box will appear on your screen.</p>
+    <p>Press the <uicontrol>Extend deadline</uicontrol> button to extend assignment deadline. A dialog box will appear on your screen.</p>
 
     <fig id="publication_prolong_png">
       <title>Deadline extension dialog</title>
@@ -71,24 +71,24 @@
       </image>
     </fig>
 
-    <note type="tip">Information in the <wintitle>Progress</wintitle> tab (see <xref keyref="tasks_progress"/>&#160;) refers to the assignments selected in the <wintitle>Published assignments</wintitle> tab.</note>
+    <note type="tip">Information in the <wintitle>Progress</wintitle> tab (see <xref keyref="tasks_progress"/>&#160;) refers to the assignment selected in the <wintitle>Published assignments</wintitle> tab.</note>
 
-    <p>Press the <uicontrol>Close</uicontrol> button to finish working with the assignment (see <xref keyref="tasks_close"/>&#160;). It makes sense to close an assignment for which all students have turned in their work and it has been graded by the teacher.</p>
+    <p>Press the <uicontrol>Close</uicontrol> button to finish working with the assignment (see <xref keyref="tasks_close"/>&#160;). It is recommended to close an assignment for which all students have turned in their work and it has been graded by the teacher.</p>
 
-    <p>The <uicontrol>Show closed assignments</uicontrol> checkbox triggers display of closed assignments in the list. Closed assignments will be listed in gray if this option is enabled.</p>
+    <p>The <uicontrol>Show closed assignments</uicontrol> checkbox triggers display of closed assignments in the list. Closed assignments will be listed in gray.</p>
 
     <note type="tip">After assignment is closed, the <uicontrol>Close</uicontrol> button becomes <uicontrol>Open</uicontrol> and can be used to reopen the assignment.</note>
 
-    <p>Press the <uicontrol>Remove</uicontrol> button to delete current assignment. You will be asked for a confirmation.</p>
+    <p>Press the <uicontrol>Remove</uicontrol> button to delete current publication. You will be asked for a confirmation.</p>
 
     <fig id="delete_published_request_png">
-      <title>Remove published assignment confirmation dialog</title>
+      <title>Remove publication confirmation dialog</title>
       <image href="img/delete-published-request.png" placement="break">
-        <alt>Remove published assignment confirmation dialog</alt>
+        <alt>Remove publication confirmation dialog</alt>
       </image>
     </fig>
 
-    <note type="attention">Removing a published assignment will irrevocably delete the assignment, together with all attached files and associated data -- including student answers, comments, and grades -- from the cloud storage (see <xref keyref="glossary"/>&#160;). It is strongly recommended to create an assignment report (see <xref keyref="tasks_export"/>&#160;) and file a copy of the assignment to the archive (see <xref keyref="tasks_archive"/>&#160;) before removing it.</note>
+    <note type="attention">Removing a publication will irrevocably delete the assignment, together with all attached files and associated data - including student answers, comments, and grades - from the cloud storage (see <xref keyref="glossary"/>&#160;). It is strongly recommended to create an assignment report (see <xref keyref="tasks_export"/>&#160;) and file a copy of the assignment to the archive (see <xref keyref="tasks_archive"/>&#160;) before removing it.</note>
 
   </conbody>
 </concept>
