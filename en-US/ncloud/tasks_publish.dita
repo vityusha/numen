@@ -6,7 +6,7 @@
   <title>Publishing an assignment</title>
   <conbody>
 
-    <p>Select the <uicontrol>Assignments</uicontrol> tab in the main window (see <xref keyref="teacher_mainwin"/>&#160;), select an assignment from the list, and press the <uicontrol>Publish</uicontrol> button to initiate publication of an assignment. This will open the assignment publication dialog box.</p>
+    <p>Select the <uicontrol>Assignments</uicontrol> tab in the main window (see <xref keyref="teacher_mainwin"/>&#160;), select an assignment from the list, and press the <uicontrol>Publish</uicontrol> button to initiate publication of that assignment. This will open the assignment publication dialog box.</p>
     <fig id="publish_window_png">
       <title>Assignment publication dialog box</title>
       <image href="img/publish-window.png" placement="break">
@@ -117,7 +117,7 @@
       </tgroup>
     </table>
 
-    <p>You can choose one of the three methods for setting the deadline by selecting an appropriate radio button:
+    <p>You can choose one of the three methods for setting the deadline by selecting the appropriate radio button:
 
       <table frame="all" rowsep="1" colsep="1">
         <tgroup cols="2">
@@ -140,13 +140,13 @@
             <row>
 
               <entry>Set number of days</entry>
-              <entry>Specified number of days (24 hour periods) from the moment of assignment publication</entry>
+              <entry>Specific number of days (24 hour periods) from the moment of assignment publication</entry>
             </row>
 
             <row>
 
               <entry>Set number of hours</entry>
-              <entry>Specified number of hours from the moment of assignment publication</entry>
+              <entry>Specific number of hours from the moment of assignment publication</entry>
             </row>
 
           </tbody>
@@ -163,20 +163,20 @@
       </image>
     </fig>
 
-    <p>You can also import a class list to save the hassle of adding students manually. Press the <uicontrol>Load class list</uicontrol> button to import class list from a <uicontrol>Nibelung Class List</uicontrol> file (these files have the <filepath>NCL</filepath> extension). You will be prompted to select an NCL file. Student list and course title in the assignment will be filled in automatically upon a successful importation of the class list.</p>
+    <p>You can also import a class list to save the hassle of adding students manually. Press the <uicontrol>Load class list</uicontrol> button to import class list from a <uicontrol>Nibelung Class List</uicontrol> file (these files have the <filepath>NCL</filepath> extension). You will be prompted to select an NCL file. Student list and class in the assignment will be filled in automatically upon successful importation of the class list.</p>
 
     <note type="attention">Class list file must have the student ID field filled in for every student in the class.</note>
 
-    <p>Press the <uicontrol>Save class list</uicontrol> button to save the student list into a <uicontrol>Nibelung Class List</uicontrol> file. This class list can be reused in another assignment prepared with in <wintitle>Remote Assignments</wintitle> module, as well as loaded into <wintitle>Dialog Nibelung</wintitle> itself.</p>
+    <p>Press the <uicontrol>Save class list</uicontrol> button to save the student list into a <uicontrol>Nibelung Class List</uicontrol> file. This class list can be reused in another assignment prepared with the help of <wintitle>Remote Assignments</wintitle> module, as well as loaded into <wintitle>Dialog Nibelung</wintitle> itself.</p>
 
-    <note type="attention">An assignment can not be published if any of the students in the list are missing their <uicontrol>student IDs</uicontrol> (empty fields will be marked with red borders). Assignment also can not be published with an empty student list.</note>
+    <note type="attention">An assignment can not be published if any of the students in the list are missing their <uicontrol>student IDs</uicontrol> (empty fields will be marked with red borders). Assignments also can not be published with an empty student list.</note>
 
     <p>The <uicontrol>description</uicontrol> and <uicontrol>comment</uicontrol> fields are optional and serve for informational purposes only.</p>
 
-    <p>Press the <uicontrol>Publish</uicontrol> button to publish the assignment. The assignment will receive the  <uicontrol>Published</uicontrol> status, from that moment students will see the assignment upon startup or refresh of their <wintitle>Remote Assignments</wintitle> interfaces and can start working on it. This will also start the clock for the time allotted for the assignment.</p>
+    <p>Press the <uicontrol>Publish</uicontrol> button to publish the assignment. The assignment will receive   <uicontrol>Published</uicontrol> status. From that moment students will see the assignment upon startup or refresh of their <wintitle>Remote Assignments</wintitle> interfaces and can start working on it. This will also start the clock for the time allotted for the assignment.</p>
 
-    <p>Status of the assignment will change from <uicontrol>Published</uicontrol> to <uicontrol>Handed out</uicontrol> once this particular student actually receives the assignment.</p>
+    <p>Status of the assignment will change from <uicontrol>Published</uicontrol> to <uicontrol>Handed out</uicontrol> once particular student actually received the assignment.</p>
 
-    <p>Press the <uicontrol>Cancel</uicontrol> button to cancel without publishing the assignment. This button will close the publication dialog box <uicontrol>without saving any modifications</uicontrol> to the assignment.</p>
+    <p>Press the <uicontrol>Cancel</uicontrol> button to cancel publishing the assignment. This button will close the publication dialog box <uicontrol>without saving any modifications</uicontrol> to the assignment.</p>
   </conbody>
 </concept>
