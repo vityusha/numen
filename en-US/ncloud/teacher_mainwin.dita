@@ -6,7 +6,7 @@
   <title>Main window</title>
   <conbody>
 
-    <p>Select <wintitle>Remote assignments</wintitle> item from the menu. A remote assignments window will appear on your screen, containing several tabs:</p>
+    <p>Select the <wintitle>Remote assignments</wintitle> item from the menu. A remote assignments window will appear on your screen, containing several tabs:</p>
 
     <table frame="topbot">
       <tgroup cols="2">
@@ -24,7 +24,7 @@
 
           <row>
             <entry><uicontrol>Assignments</uicontrol></entry>
-            <entry>Create and manage assignments</entry>
+            <entry>Create, publish, and manage assignments</entry>
           </row>
 
           <row>
@@ -53,7 +53,7 @@
       </image>
     </fig>
 
-    <p>Controls of the remote assignment main window:</p>
+    <p>Controls of the <wintitle>Remote assignments</wintitle> main window:</p>
 
     <table frame="topbot">
       <tgroup cols="2">
@@ -109,7 +109,7 @@
 
           <row>
             <entry>10</entry>
-            <entry>Cloud quota indicator</entry>
+            <entry>Cloud storage quota indicator</entry>
           </row>
 
           <row>
@@ -126,9 +126,9 @@
       </tgroup>
     </table>
 
-    <p>Window control area <uicontrol>5</uicontrol> contain the standard Minimize/Restore, Maximize, and close buttons, plus a button that displays <uicontrol>About</uicontrol> dialog box (see <xref keyref="uic_about"/>&#160;), from where an online copy of this manual can be consulted.</p>
+    <p>Window control area <uicontrol>5</uicontrol> contain the standard <uicontrol>Minimize/Restore</uicontrol>, <uicontrol>Maximize</uicontrol>, and <uicontrol>Close</uicontrol> buttons, plus a button that displays <uicontrol>About</uicontrol> dialog box (see <xref keyref="uic_about"/>&#160;), from where an online copy of this manual can be consulted.</p>
 
-    <p><uicontrol>Refresh list</uicontrol> refreshes the list displayed in the current tab from the cloud (see <xref keyref="glossary"/>&#160;). Please see the table below for detailed explanation of what exactly is refreshed in each case.</p>
+    <p><uicontrol>Refresh list</uicontrol> refreshes the list displayed in the current tab from the cloud (see <xref keyref="glossary"/>&#160;). See the table below for details of what exactly is being refreshed for each tab.</p>
 
     <table frame="topbot">
       <tgroup cols="2">
@@ -154,16 +154,16 @@
 
           <row>
             <entry><uicontrol>Progress</uicontrol></entry>
-            <entry>Detailed progress of each student on the selected assignment</entry>
+            <entry>Detailed progress for each student on the selected assignment</entry>
           </row>
 
         </tbody>
       </tgroup>
     </table>
 
-    <note type="note">If you hit <uicontrol>Refresh</uicontrol> with having any unsaved modifications, the software will prompt you to save them before proceeding.</note>
+    <note type="note">If you hit <uicontrol>Refresh</uicontrol> button while having any unsaved modifications, the software will prompt you to save them before proceeding.</note>
 
-    <p>The status line at the bottom of the window will be updated on each cloud action. The <uicontrol>Quota indicator</uicontrol> 10 shows percentage of the cloud storage used. Hover the mouse pointer over it for additional information on the quota.</p>
+    <p>The status line at the bottom of the window will be updated on each cloud action. The <uicontrol>Quota</uicontrol> indicator 10 shows percentage of the cloud storage used. Hover the mouse pointer over it for additional information.</p>
 
   </conbody>
 </concept>
