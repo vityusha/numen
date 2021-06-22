@@ -3,9 +3,9 @@
 "concept.dtd">
 
 <concept id="teacher_menu" xml:lang="en-US">
-  <title>Starting the module</title>
+  <title>Launching <wintitle>Remote Assignments</wintitle></title>
   <conbody>
-    <p>A <menucascade><uicontrol>Tools</uicontrol><uicontrol>Extensions</uicontrol><uicontrol>Remote Assignments</uicontrol></menucascade> item will appear in <wintitle>Dialog Nibelung</wintitle> main menu upon successful installation of the <wintitle>Remote Assignments</wintitle> module.</p>
+    <p>A <menucascade><uicontrol>Tools</uicontrol><uicontrol>Extensions</uicontrol><uicontrol>Remote Assignments</uicontrol></menucascade> menu item will appear in <wintitle>Dialog Nibelung</wintitle> main menu upon successful installation of the <wintitle>Remote Assignments</wintitle> module.</p>
 
     <fig id="teacher_menu_png">
       <title><wintitle>Remote Assignments</wintitle> in teacher menu</title>
