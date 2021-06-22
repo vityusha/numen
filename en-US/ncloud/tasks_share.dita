@@ -6,7 +6,7 @@
   <title>Shared assignments</title>
   <conbody>
 
-    <p>An assignment will be made available for the other teachers of your school using the <wintitle>Remote Assignment</wintitle> module whenever <uicontrol>Shared assignment</uicontrol> box was checked during creation of the assignment (see <xref keyref="tasks_creation"/>&#160;)  (see <xref keyref="tasks_creation"/>&#160;).</p>
+    <p>An assignment can be made available to the other teachers of your school that are using the <wintitle>Remote Assignment</wintitle> module. In order for this to happen, you'll need to check the <uicontrol>Shared assignment</uicontrol> box during creation of the assignment (see <xref keyref="tasks_creation"/>).</p>
 
     <p>Press <uicontrol>Import shared assignments</uicontrol> button in the <uicontrol>Assignments</uicontrol> tab to import assignments shared by other teachers.</p>
 
@@ -28,12 +28,12 @@
 
           <row>
             <entry>1</entry>
-            <entry>Not selected assignment</entry>
+            <entry>Assignment selected for import</entry>
           </row>
 
           <row>
             <entry>2</entry>
-            <entry>Assignment selected for import</entry>
+            <entry>Not selected assignment</entry>
           </row>
 
           <row>
