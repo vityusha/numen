@@ -6,7 +6,7 @@
   <title>Content panel</title>
   <conbody>
   
-<p>Content panel can be encountered in both teacher and student interfaces. Its principal purpose os to list files attached to either the assignment or the answer and provide controls to manipulate those files.</p>
+<p>Content panel can be encountered in both teacher and student interfaces. Its principal purpose is to list files attached to either the assignment or the answer and provide controls to manipulate those files.</p>
 
         <fig id="task_remote_content_view_png">
             <title>Assignment content panel</title>
@@ -47,9 +47,7 @@
 </tgroup>
 </table>
 
-<p>The file list includes columns for file name, file type, size, (optional) comments, and available actions for the file. The <uicontrol>Action</uicontrol> column will display either the <uicontrol>Download</uicontrol> button for files in the cloud storage or the <uicontrol>Open</uicontrol> button for local files.</p>
-
-<note type="tip">Files will be opened by a default application for this particular file type. Use the  <menucascade><uicontrol>Copy</uicontrol></menucascade> facility from the file context menu (see below) to create a copy of the file with different extension to open it in another application.</note>
+<p>The file list includes columns for file name, file type, size, (optional) comments, and available actions for the file. The <uicontrol>Action</uicontrol> column will display either the <uicontrol>Download</uicontrol> button for files in the cloud storage or the <uicontrol>Open</uicontrol> button for files downloaded to the local drive.</p>
 
 <p>Every file in the list also has a context menu that can be opened by right clicking on the file or pressing the <menucascade><uicontrol>Menu</uicontrol></menucascade> button on your keyboard. An example of a file context menu is shown below.</p>
 
@@ -59,6 +57,8 @@
                 <alt>Context file menu</alt>
             </image>
         </fig>
+
+<note type="tip">Files will be opened by a default application for this particular file type. Use the  <menucascade><uicontrol>Copy</uicontrol></menucascade> facility from the context menu to create a copy of the file with a different extension to open it in another application.</note>
 
 </conbody>
 </concept>
