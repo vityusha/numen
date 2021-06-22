@@ -6,7 +6,7 @@
 <title>Adding a URL</title>
 <conbody>
   
-<p>The <uicontrol>Add URL</uicontrol> button in <uicontrol>Files to send</uicontrol> panel (see <xref keyref="uic_flocal"/>&#160; section) opens a dialog box where you can insert an internet hyperlink into assignment instead of a local file.</p>
+<p>The <uicontrol>Add URL</uicontrol> button in the <uicontrol>Files to send</uicontrol> panel (see section <xref keyref="uic_flocal"/>) opens a dialog box where you can insert an internet hyperlink into assignment instead of a local file.</p>
 
         <fig id="add_url_dialog_png">
             <title>Add a hyperlink dialog box</title>
@@ -15,7 +15,7 @@
             </image>
         </fig>
 
-<p>Use the <uicontrol>Title</uicontrol> field to name the hyperlink. Enter a WWW address to the <uicontrol>URL</uicontrol> field either manually or pasting it from the clipboard.</p>
+<p>Use the <uicontrol>Title</uicontrol> field to name the hyperlink. Enter a WWW address to the <uicontrol>URL</uicontrol> field either typing it manually or by pasting it from the clipboard.</p>
 
 <note type="important">The hyperlink address must be entered in full. For example, <cmdname>https://www.youtube.com/watch?v=AsJApGdm97c</cmdname> as opposed to <cmdname>www.youtube.com/watch?v=AsJApGdm97c</cmdname> or even <cmdname>youtube.com</cmdname>.</note>
 
