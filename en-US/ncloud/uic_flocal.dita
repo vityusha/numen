@@ -40,7 +40,7 @@
 
 <row>
 <entry>4</entry>
-<entry><uicontrol>Total size</uicontrol>.</entry>
+<entry><uicontrol>Total size</uicontrol> of the upload.</entry>
 </row>
 
 <row>
@@ -62,7 +62,7 @@
 </tgroup>
 </table>
 
-<p>Border of the <uicontrol>Files to send</uicontrol> tab will turn red in any of the following cases:
+<p>Border of the <uicontrol>Files to send</uicontrol> tab will turn red if any of the following applies:
 <ul>
 <li>no files have been attached yet to the newly created assignment;</li>
 <li>total size of attached files exceeds the remaining cloud storage quota;</li>
@@ -70,9 +70,9 @@
 </ul>
 </p>
 
-<p>The list of files contains columns for the file name, file type, size, modification date and time, and an optional comment field.</p>
+<p>List of files (2) contains columns for the file name, file type, size, modification date and time, and an optional comment field.</p>
 
-<p>The <uicontrol>Total size</uicontrol> field shows total number and size of files to be uploaded to the cloud. The <uicontrol>Add files</uicontrol> button opens a standard file selection dialog.</p>
+<p>The <uicontrol>Total size</uicontrol> field (4) shows total number and size of files to be uploaded to the cloud. The <uicontrol>Add files</uicontrol> button (5) opens a standard file selection dialog.</p>
 
 <note type="attention">An error message will be shown if the number of files for the assignment exceeds 10. The <uicontrol>Total size</uicontrol> field will turn red if total size of the assignment files exceeds the remaining could storage quota. Hover the mouse pointer over it for additional details.</note>
 
@@ -83,7 +83,7 @@
             </image>
         </fig>
 		
-<p>Press the <uicontrol>Add URL</uicontrol> button to add a WWW link as a part of the assignment or your answer to it (see <xref keyref="uic_url"/>&#160; for further details). Press the <uicontrol>Remove</uicontrol> button to remove selected items from the list.</p>
+<p>Press the <uicontrol>Add URL</uicontrol> button to add an internet hyperlink as a part of the assignment or an answer to it (see <xref keyref="uic_url"/>&#160; for further details). Press the <uicontrol>Remove</uicontrol> button to remove selected items from the list.</p>
 
 </conbody>
 </concept>
