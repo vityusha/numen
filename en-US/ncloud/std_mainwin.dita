@@ -5,7 +5,7 @@
 <concept id="std_mainwin" xml:lang="en-US">
   <title>Assignment workspace window</title>
   <conbody>
-    <p>An assignment workspace window will appear on the screen after start of the <wintitle>Remote Assignments</wintitle> module (see <xref keyref="std_menu"/>&#160;) on a student computer.</p>
+    <p>An assignment workspace window will appear on the screen after launching the <wintitle>Remote Assignments</wintitle> module (see <xref keyref="std_menu"/>&#160; _fixme_ [xref fig.26]) on a student computer.</p>
 
     <fig id="student_window_png">
       <title>Assignment workspace window</title>
@@ -24,7 +24,7 @@
 
           <row>
             <entry>1</entry>
-            <entry>Window control and help buttons area</entry>
+            <entry>Window control and help buttons</entry>
           </row>
 
           <row>
@@ -34,12 +34,12 @@
 
           <row>
             <entry>3</entry>
-            <entry><uicontrol>Refresh assignments list</uicontrol> button</entry>
+            <entry><uicontrol>Refresh assignment list</uicontrol> button _fixme_ [ui: assignmentS -> assignment]</entry>
           </row>
 
           <row>
             <entry>4</entry>
-            <entry>Assignments filter</entry>
+            <entry>Assignment filter</entry>
           </row>
 
           <row>
@@ -49,7 +49,7 @@
 
           <row>
             <entry>6</entry>
-            <entry>Answer actions panel</entry>
+            <entry>Submission panel</entry>
           </row>
 
           <row>
@@ -66,13 +66,13 @@
       </tgroup>
     </table>
 
-    <p>Window control area <uicontrol>5</uicontrol> contain the standard Minimize/Restore, Maximize, and close buttons, plus a button that displays <uicontrol>About</uicontrol> dialog box (see <xref keyref="uic_about"/>&#160;), from where an online copy of this manual can be consulted.</p>
+    <p>Window control area <uicontrol>5</uicontrol> contain the standard <uicontrol>Minimize/Restore</uicontrol>, <uicontrol>Maximize</uicontrol>, and <uicontrol>Close</uicontrol> buttons, plus a button that displays <uicontrol>About</uicontrol> dialog box (see <xref keyref="uic_about"/>&#160;), from where an online copy of this manual can be consulted.</p>
 
-    <p>The assignment list <uicontrol>2</uicontrol> show all assignments handed out to the student. List content can be controlled by applying filters <uicontrol>4</uicontrol>. Selected assignment is displayed in the assignment panel <uicontrol>5</uicontrol>.</p>
+    <p>Assignment list <uicontrol>2</uicontrol> show all assignments handed out to the student. List content can be controlled by applying filters <uicontrol>4</uicontrol>. Selected assignment is displayed in the assignment panel <uicontrol>5</uicontrol>.</p>
 
-    <p>Press <uicontrol>Refresh assignments list</uicontrol> button to obtain update the list of assignments. Pressing this button will prompt you to save your work, after which assignments will be updated from the cloud (see <xref keyref="glossary"/>&#160;), including new assignments (if any),  current assignment(s) status changes, grades, teacher comments, etc.</p>
+    <p>Press <uicontrol>Refresh assignments list</uicontrol> button to update the list of assignments. Pressing this button will prompt you to save your work, after which assignments will be updated from the cloud (see <xref keyref="glossary"/>&#160;), including new assignments (if any),  current assignment(s) status changes, grades, teacher comments, etc.</p>
 
-    <p>Assignment filter allows for a certain level of control over contents of the assignment list.</p>
+    <p>Assignment filter allows for a certain level of control over the contents of the assignment list.</p>
 
     <table frame="topbot">
       <tgroup cols="2">
@@ -107,7 +107,7 @@
       </tgroup>
     </table>
 
-    <p>Information about selected assignment, together with the tools for completion of the assignment, is displayed in the <uicontrol>Assignment panel</uicontrol> area. Buttons for <uicontrol>saving</uicontrol> and <uicontrol>submitting</uicontrol> your work are located in the <uicontrol>Answer actions</uicontrol> panel to the right of the <uicontrol>Assignment panel</uicontrol>.</p>
+    <p>Information about selected assignment, together with the tools for completion of the assignment, is displayed in the <uicontrol>Assignment panel</uicontrol> area. Buttons for <uicontrol>interim</uicontrol> and <uicontrol>final</uicontrol> submission of your work for the assignment are located in the <uicontrol>Actions</uicontrol> panel to the right of the <uicontrol>Assignment panel</uicontrol>. <uicontrol>Interim submission</uicontrol> saves you work to the cloud, lets the teacher know that you have started working on the assignment, and makes your work available to the teacher for an optional early review.</p>
 
   </conbody>
 </concept>
