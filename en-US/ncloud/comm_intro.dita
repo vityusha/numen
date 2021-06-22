@@ -5,22 +5,22 @@
 <concept id="comm_intro" xml:lang="en-US">
   <title>General</title>
   <conbody>
-  <p><wintitle>Remote Assignments</wintitle> is an addon module for the <wintitle>Dialog Nibelung</wintitle> software package that extends its capabilities by allowing the teacher to assign, review, and grade home- and classwork remotely to facilitate different aspects of <uicontrol>Remote Assignments</uicontrol> (see. <xref keyref="glossary"/>).</p>
+  <p><wintitle>Remote Assignments</wintitle> is an addon module for the <wintitle>Dialog Nibelung</wintitle> software package that extends its capabilities by allowing the teacher to assign, review, and grade home- and classwork remotely to facilitate different aspects of distant learning.</p>
   
   <p>Core functionality of the module:</p>
   
   <ul>
-    <li>Allows any teacher at school to engage in <uicontrol>distant learning</uicontrol> process;</li>
+    <li>Allows any teacher at school to engage in the <uicontrol>distant learning</uicontrol> process;</li>
     <li>remotely hand out, review, and grade assignments for the whole <uicontrol>class</uicontrol>, a <uicontrol>group</uicontrol> of students in the class, or <uicontrol>individual students</uicontrol>;</li>
-    <li>use your own files for the assignments;</li>
-    <li>save assignments as template for future <uicontrol>reuse</uicontrol> and/or <uicontrol>sharing</uicontrol> between teachers;</li>
-    <li>students can work on the assignments in <uicontrol>iterations</uicontrol> with periodic review of their progress by the teacher, possibility to send it back to the student for reworking, all before issuing the final grade;</li>
-	<li>same assignment can be handed out to different classes, group, and individual students in <uicontrol>parallel</uicontrol>;</li>
-    <li>you can use assignments created in <wintitle>Nibelung NQuiz</wintitle> (freely distributed) <uicontrol>quiz builder</uicontrol>;</li>
-    <li>built in facilities for <uicontrol>import</uicontrol>, <uicontrol>export</uicontrol>, <uicontrol>backup</uicontrol>, and filing assignments to the <uicontrol>archive</uicontrol>, as well as generating <uicontrol>reports</uicontrol> on active and completed assignments.</li>
+    <li>allows using your own files for the assignments;</li>
+    <li>allows saving assignments as templates for future <uicontrol>reuse</uicontrol> and/or <uicontrol>sharing</uicontrol> between teachers;</li>
+    <li>students can work on the assignments in <uicontrol>iterations</uicontrol> with periodic review of their progress by the teacher, with capability to send it back to the student for revision of their work, all before issuing the final grade;</li>
+	<li>same assignment can be handed out concurrently to different classes, groups, and individual students;</li>
+    <li>teachers can use assignments created in <wintitle>Nibelung NQuiz</wintitle> -- a freely distributed <uicontrol>quiz builder</uicontrol>;</li>
+    <li>built-in facilities for <uicontrol>import</uicontrol>, <uicontrol>export</uicontrol>, <uicontrol>backup</uicontrol>, and filing assignments to the <uicontrol>archive</uicontrol>, as well as generating <uicontrol>reports</uicontrol> on active and completed assignments.</li>
   </ul>  
   
-  <p>Architecture of the <wintitle>Remote Assignments</wintitle> module does not have a built in limit on the number of assignments, with all of them can be used simultaneously. In practice, this is limited only by the available school resources: disk space, internet connection, cloud storage, etc.</p>
+  <p>Architecture of the <wintitle>Remote Assignments</wintitle> module does not assume any innate limits on the number of assignments. All assignments in the system can be used simultaneously. In practice, this is limited only by the available resources: disk space, internet connection, cloud storage, etc.</p>
   
   </conbody>
 </concept>
