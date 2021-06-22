@@ -118,6 +118,9 @@
 	  <p><uicontrol>Private</uicontrol> scope means that this status is private between the teacher and a particular student. <uicontrol>Public</uicontrol> scope refers to statuses that are common for all students who have received the assignment.</p>
 	  
 <note type="tip">Assignment will be considered <uicontrol>Published</uicontrol>, <uicontrol>For revision</uicontrol>, <uicontrol>Graded</uicontrol> or <uicontrol>Closed</uicontrol> after actions performed by the teacher. Assignment is considered <uicontrol>Handed out</uicontrol>, <uicontrol>In progress</uicontrol>, and <uicontrol>Grading</uicontrol> after actions performed by the student. The <uicontrol>Late</uicontrol> status is given to the assignment automatically upon absence of a final student submission before the deadline.</note>
+
+<note type="tip">Current status of a published assignment is the same for both the teacher and the students who received the assignment.</note>
+
     </section>
 	
     <section>
