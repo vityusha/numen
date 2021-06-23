@@ -6,9 +6,9 @@
   <title>Filing assignments to the archive</title>
   <conbody>
   
-<p>You can file published assignments to the archive. This function can be used to save a local copy of an assignment for future reference and clear it from the cloud to remove the clutter and free up storage space.</p>
+<p>You can file assignment publications to the archive. This function can be used to save a local copy of an assignment for future reference and clear it from the cloud to remove the clutter and free up storage space.</p>
 
-<p>Select the <uicontrol>Published assignments</uicontrol> tab in the main window (see <xref keyref="tasks_publish"/>&#160;), refresh the list of publications, and select an assignment for filing to the archive. Press the <uicontrol>File to archive</uicontrol> button in the lower left corner of the tab, this will open a standard <wintitle>Save as</wintitle> dialog box.</p>
+<p>Select the <uicontrol>Published assignments</uicontrol> tab in the main window (see <xref keyref="tasks_publish"/> _fixme_ [xref fig.16]), refresh the list of publications, and select an assignment for filing to the archive. Press the <uicontrol>File to archive</uicontrol> button in the lower left corner of the tab, this will open a standard <wintitle>Save as</wintitle> dialog box.</p>
 
           <fig id="archive_published_saveas_png">
             <title>Save archive dialog box</title>
@@ -17,7 +17,7 @@
             </image>
         </fig>
   
-<p>Enter the file name and press <uicontrol>Save</uicontrol> to proceed with filing to archive.</p>
+<p>Enter the file name and press <uicontrol>Save</uicontrol> to proceed with filing to the archive.</p>
 
           <fig id="archivation_dialog_png">
             <title>Archive compression progress</title>
@@ -39,6 +39,7 @@
   
 <ul>
   <li>original unpublished assignment with all attached files and associated metadata</li>
+  <li>publication data, including student list, deadline, and publication comments</li>
   <li>student work turned in for the assignment, including files and comments</li>
   <li>grades and teacher comments</li>
   <li>other metadata associated with the assignment, such as time and date of student submissions</li>
@@ -46,7 +47,7 @@
   
 </p>
   
-<note type="tip">An archive can be used outside of scope of this software. The archive is contained inside a <filepath>.zip</filepath> compressed file. Data from the archive can be extracted using the operating system facilities or third party software. Assignment data (author, creation time and date, student grades, etc) is stored <filepath>.json</filepath> files.</note>
+<note type="tip">An archive can be used outside of scope of this software. The archive is contained inside a <filepath>.zip</filepath> compressed file. Data from the archive can be extracted using the operating system facilities or third party software. Assignment data (author, creation time and date, student grades, etc) is stored in industry standard <filepath>.json</filepath> files.</note>
   
 <note type="important">There needs to be enough free disk space on the local drive to create an archive. Filing to archive will fail otherwise.</note>
 
