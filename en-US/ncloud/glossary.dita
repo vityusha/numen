@@ -6,9 +6,9 @@
   <title>Glossary</title>
   <refbody>
     <section>
-      <title>student ID</title>
+      <title>Student ID</title>
 
-      <p>An alphanumeric student identifier that is unique within the given school. Student IDs can be just consecutive numbers issued by the school upon registration, or some sort of a national identification number, if it is legally permitted to be uses for such purposes. Other examples of what can be used as a student ID, after carefully considering privacy implications are:
+      <p>An alphanumeric student identifier that is unique within the given school. Student IDs can be just consecutive numbers issued by the school upon registration, or some sort of a national identification number (if it is legally permitted to be uses for such purposes). Other examples of what can be used as a student ID, after carefully considering privacy implications are:
         <ul>
           <li>email addresses</li>
           <li>mobile phone numbers</li>
@@ -19,10 +19,10 @@
         <ul>
           <li>every student must have an ID;</li>
           <li>the ID must be unique: no other student at the same school may have the same ID;</li>
-          <li>consistency: the system for picking up student IDs must be the same across all the teachers and students using <uicontrol>Remote Assignments</uicontrol> under the same license (that usually means across the whole school or system of schools).</li>
+          <li>consistency: the system for picking up student IDs must be the same across all the teachers and students using <uicontrol>Remote Assignments</uicontrol> under the same license.</li>
         </ul>
 
-        <note type="attention">Any error in entering a student ID -- both on the teacher side and the student side -- will result in this student not receiving assignments, and therefore not turning in their work. This situation will persist until the error is rectified.</note>
+        <note type="attention">Any error in entering a student ID - both on the teacher side and the student side -- will result in this student not receiving assignments, therefore not submitting their work and not receiving grades. This situation will persist until the error is corrected.</note>
       </p>
 
     </section>
@@ -35,11 +35,6 @@
     <section>
       <title>Published assignment</title>
       <p>An assignment handed out to the students. Such assignments must include list of student assignees and a deadline. An assignment can be published multiple times, thus having multiple publications.</p>
-    </section>
-
-    <section>
-      <title></title>
-      <p></p>
     </section>
 
     <section>
@@ -78,7 +73,7 @@
             <row>
               <entry><image href="img/status-in-progress.png" placement="break" width="130" align="center" /></entry>
               <entry>Private</entry>
-              <entry>student has started working on the assignments</entry>
+              <entry>student has started working on the assignment</entry>
             </row>
 
             <row>
@@ -90,7 +85,7 @@
             <row>
               <entry><image href="img/status-for-revision.png" placement="break" width="130" align="center" /></entry>
               <entry>Private</entry>
-              <entry>teacher has graded the assignment and has sent it back to the student to revise and resubmit their work</entry>
+              <entry>teacher has graded the assignment and sent it back to the student to revise and resubmit their work</entry>
             </row>
 
             <row>
@@ -102,7 +97,7 @@
             <row>
               <entry><image href="img/status-expired.png" placement="break" width="130" align="center" /></entry>
               <entry>Private</entry>
-              <entry>student failed to submit their work before the deadline</entry>
+              <entry>student failed to make a final submission of their work before the deadline</entry>
             </row>
 
             <row>
@@ -115,11 +110,11 @@
         </tgroup>
       </table>
 
-      <p><uicontrol>Private</uicontrol> scope means that this status is private between the teacher and a particular student. <uicontrol>Public</uicontrol> scope refers to statuses that are common for all students who have received the assignment.</p>
+      <p><uicontrol>Private</uicontrol> scope means that this status is private between the teacher and particular student. <uicontrol>Public</uicontrol> scope refers to statuses that are common for all students who have received the assignment.</p>
 
-      <note type="tip">Assignment will be considered <uicontrol>Published</uicontrol>, <uicontrol>For revision</uicontrol>, <uicontrol>Graded</uicontrol> or <uicontrol>Closed</uicontrol> after actions performed by the teacher. Assignment is considered <uicontrol>Handed out</uicontrol>, <uicontrol>In progress</uicontrol>, and <uicontrol>Grading</uicontrol> after actions performed by the student. The <uicontrol>Late</uicontrol> status is given to the assignment automatically upon absence of a final student submission before the deadline.</note>
+      <note type="tip">Assignment will be considered <uicontrol>Published</uicontrol>, <uicontrol>For revision</uicontrol>, <uicontrol>Graded</uicontrol> or <uicontrol>Closed</uicontrol> after actions performed by the teacher. Assignment is considered <uicontrol>Handed out</uicontrol>, <uicontrol>In progress</uicontrol>, and <uicontrol>Grading</uicontrol> after actions performed by the student. The <uicontrol>Late</uicontrol> status is given to the assignment automatically upon absence of a final student submission at the deadline.</note>
 
-      <note type="tip">Current status of a published assignment is the same for both the teacher and the students who received the assignment.</note>
+      <note type="tip">Current status of a published assignment is the same for both the teacher and a student who received the assignment.</note>
 
     </section>
 

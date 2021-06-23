@@ -6,25 +6,25 @@
   <title>Frequently Asked Questions</title>
   <refbody>
     <section>
-      <title>Are there any difficulties that can arise during installation and setup?</title>
+      <title>What are the difficulties that can arise during installation and setup of <wintitle>Remote Assignments</wintitle>?</title>
 
-      <p>We recommend reading the corresponding section (see <xref keyref="install_notes"/>&#160;) of this document before proceeding with installation of the <wintitle>Remote Assignments</wintitle> module. You will need Windows Administrator privileges in order to install the module. You will also need a sufficient amount of free disk space (at least double the total size of installation files plus the minimum allowable free space on the Windows system drive)</p>
+      <p>We recommend reading the corresponding section (see <xref keyref="install_notes"/>&#160;) of this document before proceeding with the installation of <wintitle>Remote Assignments</wintitle> module. You will need Windows Administrator privileges in order to install the module. You will also need a sufficient amount of free disk space (at least double the total size of installation files plus the minimum allowable free space on the Windows system drive)</p>
     </section>
 
     <section>
-      <title>What are teacher prerequisites for working with <wintitle>Remote Assignments</wintitle>?</title>
+      <title>What are the technical prerequisites for working with <wintitle>Remote Assignments</wintitle> on the teacher side?</title>
 
-      <p>An internet connected computer running a recent version of Windows, installed <wintitle>Dialog Nibelung</wintitle> software with an active license key and <wintitle>Remote Assignments</wintitle> module.</p>
+      <p>An internet connected computer running a recent version of Windows, installed <wintitle>Dialog Nibelung</wintitle> software with an active license key, and <wintitle>Remote Assignments</wintitle> module.</p>
 
       <p>Start the module from the <menucascade><uicontrol>Tools</uicontrol><uicontrol>Extensions</uicontrol><uicontrol>Remote Assignments</uicontrol></menucascade> menu (see <xref keyref="teacher_menu/teacher_menu_png" type="fig"/>&#160;) of <wintitle>Dialog Nibelung</wintitle>.</p>
 
-      <note type="attention">The school must have an active subscription in order for teachers and students to access <wintitle>Remote Assignments</wintitle> functionality.</note>
+      <note type="attention">The school must have an active subscription in order for teachers and students to use <wintitle>Remote Assignments</wintitle>.</note>
     </section>
 
     <section>
-      <title>What are student prerequisites for working with <wintitle>Remote Assignments</wintitle>?</title>
+      <title>What are the technical prerequisites for working with <wintitle>Remote Assignments</wintitle> on the student side?</title>
 
-      <p>An internet connected computer running a recent version of Windows, installed <wintitle>Dialog Nibelung NPlayer</wintitle> software (freely distributed) and <wintitle>Remote Assignments</wintitle> module.</p>
+      <p>An internet connected computer running a recent version of Windows, installed <wintitle>Dialog Nibelung NPlayer</wintitle> software (freely distributed), and <wintitle>Remote Assignments</wintitle> module.</p>
 
       <p>Start the module from the <menucascade><uicontrol>Extensions</uicontrol><uicontrol>Remote Assignments</uicontrol></menucascade> menu of <wintitle>Dialog Nibelung NPlayer</wintitle> (see <xref keyref="std_menu/student_menu_png" type="fig"/>&#160;).</p>
 
@@ -34,9 +34,9 @@
     <section>
       <title>What if I created ad/or published an assignment with errors?</title>
 
-      <p>You can freely edit and modify an unpublished assignment.</p>
+      <p>You can freely edit and modify an unpublished assignment. Published assignments can not be modified. Your only course of action would be to delete the assignment and create/publish it again.</>
 
-      <p>As for the published assignment, keep in mind that deleting it will delete all its publications, together with all the work already turned in by the students, and all the grades.</p>
+      <p>Keep in mind that deleting a published assignment will delete all its publications, together with all the work already turned in by the students, and all the grades.</p>
 
       <p>Any publication can be deleted separately from the others; all the work turned in by the students for this particular publication, as well as all the grades, will be deleted alongside with the publication.</p>
 
@@ -44,13 +44,13 @@
     </section>
 
     <section>
-      <title>Какие проблемы могут возникнуть при работе с модулем? _fixme_ [translate]</title>
+      <title>Any other common problems with <wintitle>Remote Assignments</wintitle> module?</title>
 
-      <p>Several conditions must be met in order for <wintitle>Remote Assignments</wintitle> module to function properly.</p>
+      <p>Several conditions must be met in order for the module to function properly.</p>
 
       <ul>
         <li>a stable internet connection;</li>
-        <li>enough space on the system drive (1Gb or system quota, whatever is greater);</li>
+        <li>enough space on the system drive (1Gb or cloud quota, whatever is greater);</li>
         <li>absence of excessive limitation from antiviral software and firewalls running both locally and on your network.</li>
       </ul>
 
@@ -62,7 +62,7 @@
     <section>
       <title>I need to attach more files for the assignment. What can I do?</title>
 
-      <p>You can put files in an archive if you need to use more that 10 files for the assignment. There is no limitation on the number of files in an archive. <wintitle>Remote Assignments</wintitle> does not analyze contents of an archive file and treats it as as single file. Make sure that your students will be able to extract files from the archive. The most common archive format is <filepath>ZIP</filepath>. Most recent Windows versions include a software to work with the <filepath>ZIP</filepath> archives.</p>
+      <p>You can put files in an archive if you need to use more that 10 files for the assignment. There is no limitation on the number of files in an archive. <wintitle>Remote Assignments</wintitle> does not analyze contents of an archive file and treats it as as single file. Make sure that your students will be able to extract files from the archive. The most common archive format is <filepath>ZIP</filepath>. Most recent Windows versions include  software support to work with the <filepath>ZIP</filepath> archives.</p>
     </section>
 
     <section>
@@ -73,9 +73,9 @@
       <p>There are several ways to free up space in the cloud:</p>
 
       <ul>
-        <li>File old closed assignments to the archive (see <xref keyref="tasks_archive"/>&#160;) and delete them (see <xref keyref="tasks_delete"/>&#160;). Assignments with turned in student work take a lot of space because they include not only the files handed out with the assignments by the teacher, but also all the files turned in by all the students.</li>
+        <li>File old closed assignments to the archive (see <xref keyref="tasks_archive"/>&#160;) and delete them (see <xref keyref="tasks_delete"/>&#160;). Assignments with turned in student work take a lot of space because they include not only files handed out with the assignment, but also all the files turned in by all the students.</li>
         <li>Delete unpublished assignments that are no longer needed.</li>
-        <li>Perform cloud storage cleanup. This operation is only available on <uicontrol>Administrative mode</uicontrol> (see section <xref keyref="admin_mode"/>&#160;).</li>
+        <li>Perform cloud storage cleanup. This operation is only available in <uicontrol>Administrative mode</uicontrol> (see section <xref keyref="admin_mode"/>&#160;).</li>
         <li>Use internet hyperlinks (see <xref keyref="uic_url"/>&#160;) for your assignment instead of attaching audio and video files.</li>
         <li>Avoid using uncompressed audio (for example, <filepath>WAV</filepath>) and image (for example, <filepath>BMP</filepath> and <filepath>PNG</filepath>) files.</li>
         <li>Ask your school to increase the quota.</li>
@@ -86,12 +86,12 @@
     <section>
       <title>What can cause errors?</title>
 
-      <p>Main causes of errors when working with the <wintitle>Remote Assignments</wintitle> module are:</p>
+      <p>Principal causes of errors when working with the <wintitle>Remote Assignments</wintitle> module are:</p>
 
       <ul>
         <li>unstable internet connection;</li>
         <li>exceeding cloud storage quota;</li>
-        <li>wrong time and date set on your computer clock;</li>
+        <li>wrong time and date set on your computer;</li>
         <li>insufficient free space on your system drive;</li>
         <li>entering wrong license data;</li>
         <li>entering wrong student ID.</li>
