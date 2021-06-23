@@ -6,7 +6,7 @@
   <title>Grading assignments</title>
   <conbody>
 
-    <p>Select an assignment in the <uicontrol>Published assignments</uicontrol> tab (see <xref keyref="tasks_publish"/>&#160;) and switch to the <uicontrol>Progress</uicontrol> tab to see status of that assignment and perform grading of the turned in student work.</p>
+    <p>Select an assignment in the <uicontrol>Published assignments</uicontrol> tab (see <xref keyref="tasks_publish"/>&#160; _fixme_ [xref fig.16]) and switch to the <uicontrol>Progress</uicontrol> tab to see status of that assignment and perform grading of the turned in student work.</p>
 
     <fig id="teacher_progress_tab_png">
       <title>Teacher interface: progress tab</title>
