@@ -7,19 +7,19 @@
 
   <conbody>
 
-	 <p>The <wintitle>Remote Assignments</wintitle> module has an <uicontrol>administrative mode</uicontrol> for performing certain system maintenance operations. This mode is activated when you open the teacher interface when logged into <wintitle>Dialog Nibelung</wintitle> as the built-in user <wintitle>Admin</wintitle>.</p>
+	 <p>The <wintitle>Remote Assignments</wintitle> module has an <uicontrol>administrative mode</uicontrol> for performing certain system maintenance operations. This mode is activated when you open <wintitle>Remote Assignments</wintitle> window when logged into <wintitle>Dialog Nibelung</wintitle> as the built-in user <wintitle>Admin</wintitle>.</p>
 
 	 <p>In administrative mode you can:</p>
 
 	 <ul>
 	   <li>Perform garbage collection and cleanup in the cloud storage.</li>
-	   <li>Check for available module updates and install them.</li>
-       <li>Management of <uicontrol>all</uicontrol> assignments and their publication instances, including viewing, export, filing to the archive, and removal.</li>
+	   <li>Check for available software updates and install them.</li>
+       <li>Manage <uicontrol>all</uicontrol> assignments and their publications, including viewing, exporting, filing to the archive, and removing.</li>
      </ul>
 
-	 <note type="tip">Administrative mode is intended for maintenance purposes only. Creating and publishing of assignments, grading, commenting, and other operations regularly performed by the teachers in the course of working with the module, are not available in this mode.</note>
+	 <note type="tip">The administrative mode is intended for maintenance purposes only. Creating and publishing of assignments, grading, commenting, and other operations regularly performed by the teachers in the course of working with the module, are not available in this mode.</note>
 
-	 <p>A warning to that effect will be displayed whenever you access the <wintitle>Remote Assignments</wintitle> module as <uicontrol>Admin</uicontrol> user:</p>
+	 <p>A warning to that effect will be displayed whenever you access <wintitle>Remote Assignments</wintitle> module as <uicontrol>Admin</uicontrol> user:</p>
 
 	         <fig id="admin_mode_warn_png">
             <title>Administrative mode startup warning</title>
@@ -32,9 +32,9 @@
 
 	 <p>A special <uicontrol>Maintenance</uicontrol> tab will appear in the teacher interface main window (see <xref keyref="teacher_mainwin"/>&#160;) in administrative mode. This tab contain actions available for system maintenance.</p>
 
-	<note type="important">Assignments and their publications belonging to all the teachers are available in the administrative mode allowing to perform their export, (see sections <xref keyref="tasks_export"/>&#160;, <xref keyref="tasks_creation"/>&#160;, and <xref keyref="tasks_publish"/>&#160;), filing to the archive (see <xref keyref="tasks_archive"/>&#160;), or removal (see <xref keyref="tasks_archive"/>&#160; and <xref keyref="tasks_delete"/>&#160;).</note>
+	<note type="important">Assignments and their publications belonging to all teachers are available to <wintitle>Admin</wintitle> in the administrative mode allowing them to perform their export, (see sections <xref keyref="tasks_export"/>&#160;, <xref keyref="tasks_creation"/>&#160;, and <xref keyref="tasks_publish"/>&#160;), file to the archive (see <xref keyref="tasks_archive"/>&#160;), or removal (see <xref keyref="tasks_archive"/>&#160; and <xref keyref="tasks_delete"/>&#160;).</note>
 
-	<p>Press the <uicontrol>Cloud cleanup</uicontrol> button that initiates garbage collection in the cloud storage, which in certain cases allows to increase available free space.</p>
+	<p>Pressing the <uicontrol>Cloud cleanup</uicontrol> button initiates garbage collection in the cloud storage, which in certain cases allows to increase available free space.</p>
 
 	    <fig id="maintenance_png">
             <title><uicontrol>Maintenance</uicontrol> tab</title>

@@ -14,10 +14,10 @@
       </image>
     </fig>
 
-    <p>The <uicontrol>Extensions</uicontrol> includes two items:
+    <p>The <uicontrol>Extensions</uicontrol> menu includes two items:
       <ul>
-        <li><uicontrol>Remote Assignments</uicontrol> item opens the assignment workspace <xref keyref="std_mainwin"/>&#160;)</li>
-        <li><uicontrol>Add-on settings</uicontrol> opens the settings dialog box</li>
+        <li><uicontrol>Remote Assignments</uicontrol> item opens the assignment workspace (see <xref keyref="std_mainwin"/>&#160;)</li>
+        <li><uicontrol>Add-on settings</uicontrol> opens setup dialog box</li>
       </ul>
     </p>
 
@@ -28,7 +28,7 @@
       </image>
     </fig>
 
-    <p>Enter <wintitle>Dialog Nibelung</wintitle> license serial number and code, as well as student ID.  There are different setup scenarios for different use cases of <wintitle>Remote Assignments</wintitle>:
+    <p>Enter <wintitle>Dialog Nibelung</wintitle> license serial number and code, as well as the student ID.  There are different setup scenarios for different use cases of <wintitle>Remote Assignments</wintitle>:
 
       <ul>
         <li>Single student, single school with single license: a one-time setup.</li>
@@ -38,7 +38,7 @@
 
     </p>
 
-    <p>Students obtain license serial number, license code, and their IDs from the teacher or their school administration. See also <xref keyref="glossary"/>&#160; for further information pertaining to student IDs.</p>
+    <p>Students obtain license serial number, license code, and their IDs from the teacher or their school administration. See also <xref keyref="glossary"/>&#160; for further information about student IDs.</p>
 
   </conbody>
 </concept>

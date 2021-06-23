@@ -6,7 +6,7 @@
 <title>Revising an assignment</title>
 <conbody>
 
-<p>Teacher can send assignments back for revision. Student interface with assignment sent for revision is show in the figure below:</p>
+<p>Teacher can send assignment back for a revision. Student interface with assignment sent for revision is show in the figure below:</p>
 
         <fig id="student_window_redo_png">
             <title>Student interface: assignment revision</title>
@@ -47,9 +47,9 @@
 </tgroup>
 </table>
 
-<p>Assignment that are sent back are shown with <uicontrol>For revision</uicontrol> status. This status mean that the grade is not final and can be revised based on your revised work. The <uicontrol>Teacher message</uicontrol> field usually contains the reason(s) why the assignment was sent back.</p>
+<p>Assignment that are sent back are shown with <uicontrol>For revision</uicontrol> status. This status means that the grade is not final and can be revised based on your new work. The <uicontrol>Teacher message</uicontrol> field usually contains the reason(s) why the assignment was sent back.</p>
 
-<p>Use the <uicontrol>Final submission</uicontrol> to turn in your revised work back to the teacher. No modification of your work will be possible beyond this point.</p>
+<p>Use the <uicontrol>Final submission</uicontrol> to turn in your revised work back to the teacher. No further modification of your work will be possible beyond this point (unless the teacher is still not satisfied and sends it for revision again).</p>
 
 <note type="important">Teacher can send an assignment back for revision multiple times.</note>
 

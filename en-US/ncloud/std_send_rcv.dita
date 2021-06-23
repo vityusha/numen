@@ -6,7 +6,7 @@
   <title>Working on the assignments and submitting your work</title>
   <conbody>
 
-    <p>Select an assignment from the list (see <xref keyref="std_mainwin"/>&#160;). The selected assignment will be displayed in the assignment workspace area:</p>
+    <p>Select an assignment from the list (see <xref keyref="std_mainwin"/>&#160;). Selected assignment will be displayed in the assignment workspace area:</p>
 
     <fig id="student_answer_part_png">
       <title>Student interface: assignment workspace</title>
@@ -35,7 +35,7 @@
 
           <row>
             <entry>3</entry>
-            <entry><uicontrol>Assignment overview</uicontrol> tab</entry>
+            <entry><uicontrol>Assignment overview</uicontrol> tab _fixme_ [ui]</entry>
           </row>
 
           <row>
@@ -82,19 +82,19 @@
       </tgroup>
     </table>
 
-    <p>Teacher comment (1) is common for all students receiving this assignment and is not directed to anyone personally.</p>
+    <p>Teacher comment (1) is common for all students receiving this assignment and is not directed to anyone in particular.</p>
 
     <note type="tip">If the assignment assumes a short answer not requiring sending back any files, you can put the answer into the comment box (2). This box can also contain a comment or a short explanation for the work you are submitting.</note>
 
-    <p>The <uicontrol>Assignment content</uicontrol> tab lists files attached to the assignment by the teacher (see <xref keyref="uic_fcloud"/> for further details). The <uicontrol>Answer content</uicontrol> tab contains files constituting your work for the assignment. These files have already been saved to the local drive, but are not necessarily submitted to the teacher for review and grading. _fixme_ [how2distinguish]</p>
+    <p>The <uicontrol>Assignment content</uicontrol> tab lists files attached to the assignment by the teacher (see <xref keyref="uic_fcloud"/> for further details). The <uicontrol>Answer content</uicontrol> tab contains files constituting your work for the assignment.</p>
 
     <p>The <uicontrol>Files to send</uicontrol> tab contains tools for selecting files stored locally and attaching them to you answer for submission (see <xref keyref="uic_flocal"/>&#160;). Files will be uploaded to the cloud after pressing either <uicontrol>Interim submission</uicontrol> or <uicontrol>Final submission</uicontrol> buttons.</p>
 
-    <p>Use the <uicontrol>Interim submission</uicontrol> button to save intermediate results of your work to the cloud. Use this button to let the teacher know that you have started working on the assignment. Your assignment will receive <uicontrol>In progress</uicontrol> status, which means that your are working on the assignment, but not ready yet to turn in your work (see <xref keyref="glossary"/>&#160;). Your uploaded work will also be made available to the teacher for viewing, so they could potentially catch early on if you are on the wrong path.</p>
+    <p>Use the <uicontrol>Interim submission</uicontrol> button to save intermediate results of your work to the cloud. This will also let the teacher know that you have started working on the assignment. Your assignment will receive <uicontrol>In progress</uicontrol> status, which means that your are working on the assignment, but not ready yet to turn in your work (see <xref keyref="glossary"/>&#160;). Your uploaded work will also be made available to the teacher for viewing, so they could potentially catch early on if you are on the wrong path.</p>
 
     <note type="tip">You can attach, delete, and modify files, and edit your comments without limitations until you  turn the assignment in using the <uicontrol>Final submission</uicontrol> button.</note>
 
-    <p>Use the <uicontrol>Final submission</uicontrol> button to turn it your work for grading. At this point status of the assignment will become <uicontrol>Grading</uicontrol> and no further modifications will be possible. Wait for the teacher to check your work and (optionally) issue a grade.</p>
+    <p>Use the <uicontrol>Final submission</uicontrol> button to turn it your work for grading. At this point status of the assignment will become <uicontrol>Grading</uicontrol> and no further modifications will be possible. Wait for the teacher to check your work and give you feedback.</p>
 
     <fig id="student_complete_task_request_png">
       <title>Submission confirmation dialog</title>
@@ -103,15 +103,15 @@
       </image>
     </fig>
 
-    <note type="important">If you have not submitted any work before the deadline, your assignment will be considered <uicontrol>Late</uicontrol> and receive appropriate status.</note>
+    <note type="important">If you have not made a final submission before the deadline, your assignment will be considered <uicontrol>Late</uicontrol> and receive appropriate status.</note>
 
-    <p>The teacher will review and check your work for correctness and ther assignment will either receive a formal grade or sent back to you for a revision.</p>
+    <p>The teacher will review and check your work for correctness, give you some feedback, and (optionally) mark a formal grade. The assignment can also be sent back to you for a revision.</p>
 
-    <note type="attention">Teachers can send the assignment back for revision as many times as they deem necessary. The teacher can also extend the deadline. The new deadline will equally apply to the whole group of students who received the assignment in the first place. See section <xref keyref="tasks_publish"/> for more information about the deadlines.</note>
+    <note type="attention">Teachers can send the assignment back for revision as many times as they deem necessary. Teachers can also extend the deadline. The new deadline will equally apply to the whole group of students who received the assignment in the first place. See section <xref keyref="tasks_publish"/> for more information about the deadlines.</note>
 
     <p>Cloud storage quota, status of the internet connection and connection to the cloud are shown in the status line at the bottom of the window (see <xref keyref="std_menu/student_menu_png" type="fig"/>&#160;).</p>
 
-    <p>The <uicontrol>Comment</uicontrol> field (see (1) in <xref keyref="std_menu/student_menu_png" type="fig"/>&#160;) can contain either message from the teacher (regarding progress on the assignment, grade, direction for a revision, etc.) or student's comments and explanations for their work.</p>
+    <p>The <uicontrol>Comment</uicontrol> field (see (1) in <xref keyref="std_menu/student_menu_png" type="fig"/>&#160;) can contain either message from the teacher (regarding progress on the assignment, grade, direction for a revision, etc.) or comments from the student and explanations for their work.</p>
 
     <table frame="topbot">
       <tgroup cols="2">

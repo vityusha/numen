@@ -1,3 +1,9 @@
 .gittoken
 *.log
 Output/dita.*
+Output/pdf/ncloud-ru.pdf
+changelog.20160719-20150325
+en-US/ncloud/count.sh
+out/
+build-pdf.sh
+.gitignore
