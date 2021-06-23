@@ -6,7 +6,7 @@
   <title>Creating assignment reports</title>
   <conbody>
   
-<p>Select an assignment for which to create report from the <uicontrol>Published assignments</uicontrol> tab, then switch to the <uicontrol>Progress</uicontrol> tab (see <xref keyref="tasks_progress"/> _fixme_ [xref fig.16]). Use the  <uicontrol>Hide names</uicontrol> option to control display of student names in the report. Only student IDs will be shown if this option is checked.</p>
+<p>Select an assignment for which to create report from the <uicontrol>Published assignments</uicontrol> tab, then switch to the <uicontrol>Progress</uicontrol> tab (see <xref keyref="tasks_progress/teacher_progress_tab_png" type="fig"/>&#160;). Use the  <uicontrol>Hide names</uicontrol> option to control display of student names in the report. Only student IDs will be shown if this option is checked.</p>
 
 <p>You can now create the report by pressing the <uicontrol>Export report</uicontrol> button. A standard <uicontrol>Save as</uicontrol> dialog box will open where you can specify file name and report format.</p>
   

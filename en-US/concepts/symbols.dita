@@ -58,7 +58,7 @@
 							<entry> - keyboard shortcut</entry>
 						</row>
 						<row>
-							<entry><cmdname>google.com</cmdname></entry>
+							<entry><filepath>google.com</filepath></entry>
 							<entry> - Internet addresses</entry>
 						</row>
 					</tbody>

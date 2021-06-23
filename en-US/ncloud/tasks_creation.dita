@@ -3,144 +3,144 @@
 "concept.dtd">
 
 <concept id="tasks_creation" xml:lang="en-US">
-<title>Creating assignment</title>
-<conbody>
+  <title>Creating assignment</title>
+  <conbody>
 
-<p>Select the <uicontrol>Assignments</uicontrol> tab in the remote assignments main window (see <xref keyref="teacher_mainwin"/>&#160;) to create a new assignment.</p>
+    <p>Select the <uicontrol>Assignments</uicontrol> tab in the remote assignments main window (see <xref keyref="teacher_mainwin"/>&#160;) to create a new assignment.</p>
 
-          <fig id="teacher_main_tab_png">
-            <title><uicontrol>Assignments</uicontrol> tab</title>
-            <image href="img/teacher-main-tab.png" placement="break">
-                <alt><uicontrol>Assignments</uicontrol> tab</alt>
-            </image>
-        </fig>
-        <p>Elements of the <uicontrol>Assignments</uicontrol> tab:</p>
+    <fig id="teacher_main_tab_png">
+      <title><uicontrol>Assignments</uicontrol> tab</title>
+      <image href="img/teacher-main-tab.png" placement="break">
+        <alt><uicontrol>Assignments</uicontrol> tab</alt>
+      </image>
+    </fig>
+    <p>Elements of the <uicontrol>Assignments</uicontrol> tab:</p>
 
-<table frame="topbot">
-<tgroup cols="2">
-   <colspec colname="COLSPEC0" colwidth="12"/>
-   <colspec colname="COLSPEC1" colwidth="200*"/>
-   
-<tbody>
+    <table frame="topbot">
+      <tgroup cols="2">
+        <colspec colname="COLSPEC0" colwidth="12"/>
+        <colspec colname="COLSPEC1" colwidth="200*"/>
 
-<row>
-<entry>1</entry>
-<entry><uicontrol>List of assignments</uicontrol></entry>
-</row>
+        <tbody>
 
-<row>
-<entry>2</entry>
-<entry><uicontrol>Assignment editing panel</uicontrol></entry>
-</row>
+          <row>
+            <entry>1</entry>
+            <entry><uicontrol>List of assignments</uicontrol></entry>
+          </row>
 
-</tbody>
-</tgroup>
-</table>
+          <row>
+            <entry>2</entry>
+            <entry><uicontrol>Assignment editing panel</uicontrol></entry>
+          </row>
 
-<p>List of assignments in this tab contains all assignments that have been created by this teacher. Assignments that have not been published can be edited, modified, extended, etc. Those operations are performed in the assignment editing panel.</p>
+        </tbody>
+      </tgroup>
+    </table>
 
-        <fig id="task_control_main_png">
-            <title>Assignment editing panel</title>
-            <image href="img/task-control-main.png" placement="break">
-                <alt>Assignment editing panel</alt>
-            </image>
-        </fig>
-        <p>Elements of the <uicontrol>Assignment editing panel</uicontrol>:</p>
+    <p>List of assignments in this tab contains all assignments that have been created by this teacher. Assignments that have not been published can be edited, modified, extended, etc. Those operations are performed in the assignment editing panel.</p>
 
-<table frame="topbot">
-<tgroup cols="2">
-   <colspec colname="COLSPEC0" colwidth="12"/>
-   <colspec colname="COLSPEC1" colwidth="200*"/>
-   
-<tbody>
+    <fig id="task_control_main_png">
+      <title>Assignment editing panel</title>
+      <image href="img/task-control-main.png" placement="break">
+        <alt>Assignment editing panel</alt>
+      </image>
+    </fig>
+    <p>Elements of the <uicontrol>Assignment editing panel</uicontrol>:</p>
 
-<row>
-<entry>1</entry>
-<entry><uicontrol>Properties</uicontrol> tab</entry>
-</row>
+    <table frame="topbot">
+      <tgroup cols="2">
+        <colspec colname="COLSPEC0" colwidth="12"/>
+        <colspec colname="COLSPEC1" colwidth="200*"/>
 
-<row>
-<entry>2</entry>
-<entry><uicontrol>Content</uicontrol> tab</entry>
-</row>
+        <tbody>
 
-<row>
-<entry>3</entry>
-<entry><uicontrol>Files to send</uicontrol> tab</entry>
-</row>
+          <row>
+            <entry>1</entry>
+            <entry><uicontrol>Properties</uicontrol> tab</entry>
+          </row>
 
-<row>
-<entry>4</entry>
-<entry>Assignment metadata</entry>
-</row>
+          <row>
+            <entry>2</entry>
+            <entry><uicontrol>Content</uicontrol> tab</entry>
+          </row>
 
-<row>
-<entry>5</entry>
-<entry>Indicates that this assignment is shared with other teachers in school</entry>
-</row>
+          <row>
+            <entry>3</entry>
+            <entry><uicontrol>Files to send</uicontrol> tab</entry>
+          </row>
 
-<row>
-<entry>6</entry>
-<entry><uicontrol>Create assignment</uicontrol> button</entry>
-</row>
+          <row>
+            <entry>4</entry>
+            <entry>Assignment metadata</entry>
+          </row>
 
-<row>
-<entry>7</entry>
-<entry><uicontrol>Save assignment</uicontrol> button</entry>
-</row>
+          <row>
+            <entry>5</entry>
+            <entry>Indicates that this assignment is shared with other teachers in school</entry>
+          </row>
 
-<row>
-<entry>8</entry>
-<entry><uicontrol>Remove assignment</uicontrol> button</entry>
-</row>
+          <row>
+            <entry>6</entry>
+            <entry><uicontrol>Create assignment</uicontrol> button</entry>
+          </row>
 
-<row>
-<entry>9</entry>
-<entry><uicontrol>Publish assignment</uicontrol> button</entry>
-</row>
+          <row>
+            <entry>7</entry>
+            <entry><uicontrol>Save assignment</uicontrol> button</entry>
+          </row>
 
-<row>
-<entry>10</entry>
-<entry><uicontrol>Import assignment</uicontrol> button</entry>
-</row>
+          <row>
+            <entry>8</entry>
+            <entry><uicontrol>Remove assignment</uicontrol> button</entry>
+          </row>
 
-<row>
-<entry>11</entry>
-<entry><uicontrol>Export assignment</uicontrol> button</entry>
-</row>
+          <row>
+            <entry>9</entry>
+            <entry><uicontrol>Publish assignment</uicontrol> button</entry>
+          </row>
 
-<row>
-<entry>12</entry>
-<entry><uicontrol>Import shared assignment(s)</uicontrol> button</entry>
-</row>
+          <row>
+            <entry>10</entry>
+            <entry><uicontrol>Import assignment</uicontrol> button</entry>
+          </row>
 
-</tbody>
-</tgroup>
-</table>
+          <row>
+            <entry>11</entry>
+            <entry><uicontrol>Export assignment</uicontrol> button</entry>
+          </row>
 
-<p><uicontrol>Properties</uicontrol> tab displays fields for entering and editing general information about the assignment: creation date, author, course title, assignment title, description, optional comment, and assignment type.</p>
+          <row>
+            <entry>12</entry>
+            <entry><uicontrol>Import shared assignment(s)</uicontrol> button</entry>
+          </row>
 
-<p>Files attached to the assignment are displayed in the <uicontrol>Content</uicontrol> tab.</p> 
+        </tbody>
+      </tgroup>
+    </table>
 
-<p>Tools for adding content files to the assignment are located in the  <uicontrol>Files to send</uicontrol> tab (see <xref keyref="uic_flocal"/>&#160;). The tab will be displayed with a red border whenever there are no content files in the assignment, as well as when the total size of the files exceeds cloud storage quota. </p>
+    <p><uicontrol>Properties</uicontrol> tab displays fields for entering and editing general information about the assignment: creation date, author, course title, assignment title, description, optional comment, and assignment type.</p>
 
-<note type="note">The <uicontrol>Files to send</uicontrol> tab is displayed only for unpublished assignments.</note>
+    <p>Files attached to the assignment are displayed in the <uicontrol>Content</uicontrol> tab.</p>
 
-<p>Press <uicontrol>Create</uicontrol> button to start creating a new assignment. An empty template will be presented that you can start populating with assignment data. Press <uicontrol>Save assignment</uicontrol> to save current assignment with any modifications to the cloud. Once the assignment is safely stored in the cloud, it will appear in the list displayed in the upper portion of the window; at this point you can also publish the assignment, i.e. make it available to the students. Press <uicontrol>Cancel</uicontrol> to cancel creating a new assignments and return to the list of existing assignments.</p>
+    <p>Tools for adding content files to the assignment are located in the  <uicontrol>Files to send</uicontrol> tab (see <xref keyref="uic_flocal"/>&#160;). The tab will be displayed with a red border whenever there are no content files in the assignment, as well as when the total size of the files exceeds cloud storage quota. </p>
 
-<note type="note">You can only edit and modify unpublished assignments.</note>
+    <note type="note">The <uicontrol>Files to send</uicontrol> tab is displayed only for unpublished assignments.</note>
 
-<note type="note">Check the <uicontrol>Shared assignment</uicontrol> box to make this assignment available for the other teachers in your school. They will be able to import the assignment into their workspace once you save the assignment to the cloud. (see <xref keyref="tasks_share"/>&#160;)</note>
+    <p>Press <uicontrol>Create</uicontrol> button to start creating a new assignment. An empty template will be presented that you can start populating with assignment data. Press <uicontrol>Save assignment</uicontrol> to save current assignment with any modifications to the cloud. Once the assignment is safely stored in the cloud, it will appear in the list displayed in the upper portion of the window; at this point you can also publish the assignment, i.e. make it available to the students. Press <uicontrol>Cancel</uicontrol> to cancel creating a new assignments and return to the list of existing assignments.</p>
 
-<p>Press <uicontrol>Publish</uicontrol> button to publish the current assignment, i.e. make it available to the students. This will open the publication dialog box (see <xref keyref="tasks_publish"/>&#160;).</p>
+    <note type="note">You can only edit and modify unpublished assignments.</note>
 
-<p>Press <uicontrol>Remove</uicontrol> button to initiate the removal of the assignment. You will be prompted for further confirmation of your intentions (see <xref keyref="tasks_delete"/>&#160;).</p>
+    <note type="note">Check the <uicontrol>Shared assignment</uicontrol> box to make this assignment available for the other teachers in your school. They will be able to import the assignment into their workspace once you save the assignment to the cloud. (see <xref keyref="tasks_share"/>&#160;)</note>
 
-<p>Press <uicontrol>Import assignment</uicontrol> button to import an assignment previously exported via the <uicontrol>Export assignment</uicontrol> button. These tools import/export assignments to the local storage, allowing you to store unfinished work locally without uploading it to the cloud or create assignment templates for future reuse.</p>
- 
-<note type="attention">Only assignment metadata (as displayed in the <uicontrol>Properties</uicontrol> tab), and content files are saved using the export tool. Use the archive facility (available in the <uicontrol>Published assignments</uicontrol> tab, see <xref keyref="tasks_archive"/>&#160;) to save a published assignment together with submitted student work, grades, and comments.</note>
+    <p>Press <uicontrol>Publish</uicontrol> button to publish the current assignment, i.e. make it available to the students. This will open the publication dialog box (see <xref keyref="tasks_publish"/>&#160;).</p>
 
-<p>Press the <uicontrol>Import shared assignments</uicontrol> button to initiate importing assignments shared by other teachers in your school (see <xref keyref="tasks_share"/>&#160;).</p>
+    <p>Press <uicontrol>Remove</uicontrol> button to initiate the removal of the assignment. You will be prompted for further confirmation of your intentions (see <xref keyref="tasks_delete"/>&#160;).</p>
+
+    <p>Press <uicontrol>Import assignment</uicontrol> button to import an assignment previously exported via the <uicontrol>Export assignment</uicontrol> button. These tools import/export assignments to the local storage, allowing you to store unfinished work locally without uploading it to the cloud or create assignment templates for future reuse.</p>
+
+    <note type="attention">Only assignment metadata (as displayed in the <uicontrol>Properties</uicontrol> tab), and content files are saved using the export tool. Use the archive facility (available in the <uicontrol>Published assignments</uicontrol> tab, see <xref keyref="tasks_archive"/>&#160;) to save a published assignment together with submitted student work, grades, and comments.</note>
+
+    <p>Press the <uicontrol>Import shared assignments</uicontrol> button to initiate importing assignments shared by other teachers in your school (see <xref keyref="tasks_share"/>&#160;).</p>
 
   </conbody>
 </concept>

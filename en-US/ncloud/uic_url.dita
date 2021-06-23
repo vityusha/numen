@@ -3,21 +3,21 @@
 "concept.dtd">
 
 <concept id="uic_url" xml:lang="en-US">
-<title>Adding a URL</title>
-<conbody>
-  
-<p>The <uicontrol>Add URL</uicontrol> button in the <uicontrol>Files to send</uicontrol> panel (see section <xref keyref="uic_flocal"/>) opens a dialog box where you can insert an internet hyperlink into assignment instead of a local file.</p>
+  <title>Adding a URL</title>
+  <conbody>
 
-        <fig id="add_url_dialog_png">
-            <title>Add a hyperlink dialog box</title>
-            <image href="img/add-url-dialog.png" placement="break">
-                <alt>Adding a hyperlink dialog box</alt>
-            </image>
-        </fig>
+    <p>The <uicontrol>Add URL</uicontrol> button in the <uicontrol>Files to send</uicontrol> panel (see section <xref keyref="uic_flocal"/>&#160;) opens a dialog box where you can insert an internet hyperlink into assignment instead of a local file.</p>
 
-<p>Use the <uicontrol>Title</uicontrol> field to name the hyperlink. Enter a WWW address to the <uicontrol>URL</uicontrol> field either typing it manually or by pasting it from the clipboard.</p>
+    <fig id="add_url_dialog_png">
+      <title>Add a hyperlink dialog box</title>
+      <image href="img/add-url-dialog.png" placement="break">
+        <alt>Adding a hyperlink dialog box</alt>
+      </image>
+    </fig>
 
-<note type="important">The hyperlink address must be entered in full. For example, <cmdname>https://www.youtube.com/watch?v=AsJApGdm97c</cmdname> as opposed to <cmdname>www.youtube.com/watch?v=AsJApGdm97c</cmdname> or even <cmdname>youtube.com</cmdname>.</note>
+    <p>Use the <uicontrol>Title</uicontrol> field to name the hyperlink. Enter a WWW address to the <uicontrol>URL</uicontrol> field either typing it manually or by pasting it from the clipboard.</p>
 
-</conbody>
+    <note type="important">The hyperlink address must be entered in full. For example, <filepath>https://www.youtube.com/watch?v=AsJApGdm97c</filepath> as opposed to <filepath>www.youtube.com/watch?v=AsJApGdm97c</filepath> or even <filepath>youtube.com</filepath>.</note>
+
+  </conbody>
 </concept>

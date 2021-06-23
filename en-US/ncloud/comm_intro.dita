@@ -15,7 +15,7 @@
     <li>allows using your own files for the assignments;</li>
     <li>allows saving assignments as templates for future <uicontrol>reuse</uicontrol> and/or <uicontrol>sharing</uicontrol> between teachers;</li>
     <li>students can work on the assignments in <uicontrol>iterations</uicontrol> with periodic review of their progress by the teacher, with capability to send it back to the student for revision of their work, all before issuing the final grade;</li>
-	<li>same assignment can be handed out concurrently to different classes, groups, and individual students;</li>
+    <li>same assignment can be handed out concurrently to different classes, groups, and individual students;</li>
     <li>teachers can use assignments created in <wintitle>Nibelung NQuiz</wintitle> -- a freely distributed <uicontrol>quiz builder</uicontrol>;</li>
     <li>built-in facilities for <uicontrol>import</uicontrol>, <uicontrol>export</uicontrol>, <uicontrol>backup</uicontrol>, and filing assignments to the <uicontrol>archive</uicontrol>, as well as generating <uicontrol>reports</uicontrol> on active and completed assignments.</li>
   </ul>  

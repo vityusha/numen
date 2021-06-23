@@ -659,4 +659,10 @@ See the accompanying license.txt file for applicable licenses.
         </xsl:attribute>
     </xsl:attribute-set>
 
+    <xsl:attribute-set name="filepath">
+        <xsl:attribute name="font-family">Monospaced</xsl:attribute>
+        <!-- <xsl:attribute name="font-weight">bold</xsl:attribute> -->
+        <xsl:attribute name="font-size">110%</xsl:attribute>
+    </xsl:attribute-set>
+
 </xsl:stylesheet>

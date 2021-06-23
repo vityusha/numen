@@ -5,7 +5,7 @@
 <concept id="std_mainwin" xml:lang="en-US">
   <title>Assignment workspace window</title>
   <conbody>
-    <p>An assignment workspace window will appear on the screen after launching the <wintitle>Remote Assignments</wintitle> module (see <xref keyref="std_menu"/>&#160; _fixme_ [xref fig.26]) on a student computer.</p>
+    <p>An assignment workspace window will appear on the screen after launching the <wintitle>Remote Assignments</wintitle> module (see <xref keyref="std_menu/student_menu_png" type="fig"/>&#160;) on a student computer.</p>
 
     <fig id="student_window_png">
       <title>Assignment workspace window</title>
@@ -34,7 +34,7 @@
 
           <row>
             <entry>3</entry>
-            <entry><uicontrol>Refresh assignment list</uicontrol> button _fixme_ [ui: assignmentS -> assignment]</entry>
+            <entry><uicontrol>Refresh assignment list</uicontrol> button</entry>
           </row>
 
           <row>
@@ -70,7 +70,7 @@
 
     <p>Assignment list <uicontrol>2</uicontrol> show all assignments handed out to the student. List content can be controlled by applying filters <uicontrol>4</uicontrol>. Selected assignment is displayed in the assignment panel <uicontrol>5</uicontrol>.</p>
 
-    <p>Press <uicontrol>Refresh assignments list</uicontrol> button to update the list of assignments. Pressing this button will prompt you to save your work, after which assignments will be updated from the cloud (see <xref keyref="glossary"/>&#160;), including new assignments (if any),  current assignment(s) status changes, grades, teacher comments, etc.</p>
+    <p>Press <uicontrol>Refresh assignment list</uicontrol> button to update the list of assignments. Pressing this button will prompt you to save your work, after which assignments will be updated from the cloud (see <xref keyref="glossary"/>&#160;), including new assignments (if any),  current assignment(s) status changes, grades, teacher comments, etc.</p>
 
     <p>Assignment filter allows for a certain level of control over the contents of the assignment list.</p>
 

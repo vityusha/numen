@@ -3,44 +3,44 @@
 "task.dtd">
 
 <task id="workflow" xml:lang="en-US">
-<title>Suggested workflow</title>
-<taskbody>
-  
-<steps>
+  <title>Suggested workflow</title>
+  <taskbody>
 
-<step>
-<cmd><uicontrol>Teacher:</uicontrol> creates an assignment (see <xref keyref="tasks_creation"/>&#160;), fills in metadata and instructions for students and (optionally) attaches files for the students to work upon.</cmd>
-</step>
+    <steps>
 
-<step>
-<cmd><uicontrol>Teacher:</uicontrol> publishes the assignment (see <xref keyref="tasks_publish"/>&#160;). Publishing an assignment involves specifying students to whom the assignment is being handed out, a deadline, and (optionally) additional instructions pertaining to this particular publication. Once an assignment is published it becomes <uicontrol>active</uicontrol>.</cmd>
-</step>
+      <step>
+        <cmd><uicontrol>Teacher:</uicontrol> creates an assignment (see <xref keyref="tasks_creation"/>&#160;), fills in metadata and instructions for students and (optionally) attaches files for the students to work upon.</cmd>
+      </step>
 
-<step>
-<cmd><uicontrol>Students:</uicontrol> receive the assignment (see <xref keyref="std_send_rcv"/>&#160;) and start working on it. Once an assignment is published, it will appear in the list of active assignments in student interface upon startup.</cmd>
-</step>
+      <step>
+        <cmd><uicontrol>Teacher:</uicontrol> publishes the assignment (see <xref keyref="tasks_publish"/>&#160;). Publishing an assignment involves specifying students to whom the assignment is being handed out, a deadline, and (optionally) additional instructions pertaining to this particular publication. Once an assignment is published it becomes <uicontrol>active</uicontrol>.</cmd>
+      </step>
 
-<step>
-<cmd><uicontrol>Teacher:</uicontrol> monitors student progress (see <xref keyref="tasks_progress"/>&#160;); reviews student work; optionally performs intermediate grading; optionally sends submitted work back for revision; comments on work in progress.</cmd>
-</step>
+      <step>
+        <cmd><uicontrol>Students:</uicontrol> receive the assignment (see <xref keyref="std_send_rcv"/>&#160;) and start working on it. Once an assignment is published, it will appear in the list of active assignments in student interface upon startup.</cmd>
+      </step>
 
-<step>
-<cmd><uicontrol>Students:</uicontrol> submit completed assignments (see <xref keyref="std_send_rcv"/>&#160;)</cmd>
-</step>
+      <step>
+        <cmd><uicontrol>Teacher:</uicontrol> monitors student progress (see <xref keyref="tasks_progress"/>&#160;); reviews student work; optionally performs intermediate grading; optionally sends submitted work back for revision; comments on work in progress.</cmd>
+      </step>
 
-<step>
-<cmd><uicontrol>Teacher:</uicontrol> finishes grading and issues final grades for the assignment (see <xref keyref="tasks_progress"/>&#160;); (optionally) files completed assignment to the archive (see <xref keyref="tasks_archive"/>&#160;), and creates assignment report (see <xref keyref="tasks_export"/>&#160;)</cmd>
-</step>
+      <step>
+        <cmd><uicontrol>Students:</uicontrol> submit completed assignments (see <xref keyref="std_send_rcv"/>&#160;)</cmd>
+      </step>
 
-<step>
-<cmd><uicontrol>Students:</uicontrol> receive final grade for the assignment and review teacher comments (see <xref keyref="std_mainwin"/>&#160;)</cmd>
-</step>
+      <step>
+        <cmd><uicontrol>Teacher:</uicontrol> finishes grading and issues final grades for the assignment (see <xref keyref="tasks_progress"/>&#160;); (optionally) files completed assignment to the archive (see <xref keyref="tasks_archive"/>&#160;), and creates assignment report (see <xref keyref="tasks_export"/>&#160;)</cmd>
+      </step>
 
-<step>
-<cmd><uicontrol>Teacher:</uicontrol> finalizes the assignment (see <xref keyref="tasks_close"/>&#160;) at which point it is considered <uicontrol>closed</uicontrol>.</cmd>
-</step>
+      <step>
+        <cmd><uicontrol>Students:</uicontrol> receive final grade for the assignment and review teacher comments (see <xref keyref="std_mainwin"/>&#160;)</cmd>
+      </step>
 
-</steps>
+      <step>
+        <cmd><uicontrol>Teacher:</uicontrol> finalizes the assignment (see <xref keyref="tasks_close"/>&#160;) at which point it is considered <uicontrol>closed</uicontrol>.</cmd>
+      </step>
 
-</taskbody>
+    </steps>
+
+  </taskbody>
 </task>

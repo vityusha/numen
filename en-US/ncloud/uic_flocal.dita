@@ -2,88 +2,88 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN"
 "concept.dtd">
 
-  <concept id="uic_flocal" xml:lang="en-US">
+<concept id="uic_flocal" xml:lang="en-US">
   <title>Files to send tool</title>
   <conbody>
-  
-<p>Use <uicontrol>Files to send</uicontrol> tool to select and upload files to the cloud storage. It is used on the teacher side when creating and modifying assignments and on the student side when  files are used as a part of their answer to the assignment.</p>
 
-        <fig id="local_content_png">
-            <title><uicontrol>Files to send</uicontrol> tab</title>
-            <image href="img/local-content.png" placement="break">
-                <alt><uicontrol>Files to send</uicontrol> tab</alt>
-            </image>
-        </fig>
-        <p>Elements on the figure above are:</p>
+    <p>Use <uicontrol>Files to send</uicontrol> tool to select and upload files to the cloud storage. It is used on the teacher side when creating and modifying assignments and on the student side when  files are used as a part of their answer to the assignment.</p>
 
-<table frame="topbot">
-<tgroup cols="2">
-   <colspec colname="COLSPEC0" colwidth="12"/>
-   <colspec colname="COLSPEC1" colwidth="200*"/>
-   
-<tbody>
+    <fig id="local_content_png">
+      <title><uicontrol>Files to send</uicontrol> tab</title>
+      <image href="img/local-content.png" placement="break">
+        <alt><uicontrol>Files to send</uicontrol> tab</alt>
+      </image>
+    </fig>
+    <p>Elements on the figure above are:</p>
 
-<row>
-<entry>1</entry>
-<entry><uicontrol>Files to send</uicontrol> tab.</entry>
-</row>
+    <table frame="topbot">
+      <tgroup cols="2">
+        <colspec colname="COLSPEC0" colwidth="12"/>
+        <colspec colname="COLSPEC1" colwidth="200*"/>
 
-<row>
-<entry>2</entry>
-<entry>List of files to be uploaded.</entry>
-</row>
+        <tbody>
 
-<row>
-<entry>3</entry>
-<entry><uicontrol>Comments</uicontrol> for the files.</entry>
-</row>
+          <row>
+            <entry>1</entry>
+            <entry><uicontrol>Files to send</uicontrol> tab.</entry>
+          </row>
 
-<row>
-<entry>4</entry>
-<entry><uicontrol>Total size</uicontrol> of the upload.</entry>
-</row>
+          <row>
+            <entry>2</entry>
+            <entry>List of files to be uploaded.</entry>
+          </row>
 
-<row>
-<entry>5</entry>
-<entry><uicontrol>Add files</uicontrol> button.</entry>
-</row>
+          <row>
+            <entry>3</entry>
+            <entry><uicontrol>Comments</uicontrol> for the files.</entry>
+          </row>
 
-<row>
-<entry>6</entry>
-<entry><uicontrol>Add URL</uicontrol> button.</entry>
-</row>
+          <row>
+            <entry>4</entry>
+            <entry><uicontrol>Total size</uicontrol> of the upload.</entry>
+          </row>
 
-<row>
-<entry>7</entry>
-<entry><uicontrol>Remove</uicontrol> item button.</entry>
-</row>
+          <row>
+            <entry>5</entry>
+            <entry><uicontrol>Add files</uicontrol> button.</entry>
+          </row>
 
-</tbody>
-</tgroup>
-</table>
+          <row>
+            <entry>6</entry>
+            <entry><uicontrol>Add URL</uicontrol> button.</entry>
+          </row>
 
-<p>Border of the <uicontrol>Files to send</uicontrol> tab will turn red if any of the following applies:
-<ul>
-<li>no files have been attached yet to the newly created assignment;</li>
-<li>total size of attached files exceeds the remaining cloud storage quota;</li>
-<li>total number of attached files plus files to be added exceeds <uicontrol>10</uicontrol>.</li>
-</ul>
-</p>
+          <row>
+            <entry>7</entry>
+            <entry><uicontrol>Remove</uicontrol> item button.</entry>
+          </row>
 
-<p>List of files (2) contains columns for the file name, file type, size, modification date and time, and an optional comment field.</p>
+        </tbody>
+      </tgroup>
+    </table>
 
-<p>The <uicontrol>Total size</uicontrol> field (4) shows total number and size of files to be uploaded to the cloud. The <uicontrol>Add files</uicontrol> button (5) opens a standard file selection dialog.</p>
+    <p>Border of the <uicontrol>Files to send</uicontrol> tab will turn red if any of the following applies:
+      <ul>
+        <li>no files have been attached yet to the newly created assignment;</li>
+        <li>total size of attached files exceeds the remaining cloud storage quota;</li>
+        <li>total number of attached files plus files to be added exceeds <uicontrol>10</uicontrol>.</li>
+      </ul>
+    </p>
 
-<note type="attention">An error message will be shown if the number of files for the assignment exceeds 10. The <uicontrol>Total size</uicontrol> field will turn red if total size of the assignment files exceeds the remaining could storage quota. Hover the mouse pointer over it for additional details.</note>
+    <p>List of files (2) contains columns for the file name, file type, size, modification date and time, and an optional comment field.</p>
 
-        <fig id="task_files_exceeded_dialog_png">
-            <title>Excessive number of files error message</title>
-            <image href="img/task-files-exceeded-dialog.png" placement="break">
-                <alt>Excessive number of files error message</alt>
-            </image>
-        </fig>
-		
-<p>Press the <uicontrol>Add URL</uicontrol> button to add an internet hyperlink as a part of the assignment or an answer to it (see <xref keyref="uic_url"/>&#160; for further details). Press the <uicontrol>Remove</uicontrol> button to remove selected items from the list.</p>
+    <p>The <uicontrol>Total size</uicontrol> field (4) shows total number and size of files to be uploaded to the cloud. The <uicontrol>Add files</uicontrol> button (5) opens a standard file selection dialog.</p>
 
-</conbody>
+    <note type="attention">An error message will be shown if the number of files for the assignment exceeds 10. The <uicontrol>Total size</uicontrol> field will turn red if total size of the assignment files exceeds the remaining could storage quota. Hover the mouse pointer over it for additional details.</note>
+
+    <fig id="task_files_exceeded_dialog_png">
+      <title>Excessive number of files error message</title>
+      <image href="img/task-files-exceeded-dialog.png" placement="break">
+        <alt>Excessive number of files error message</alt>
+      </image>
+    </fig>
+
+    <p>Press the <uicontrol>Add URL</uicontrol> button to add an internet hyperlink as a part of the assignment or an answer to it (see <xref keyref="uic_url"/>&#160; for further details). Press the <uicontrol>Remove</uicontrol> button to remove selected items from the list.</p>
+
+  </conbody>
 </concept>
