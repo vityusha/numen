@@ -68,7 +68,7 @@
     <section>
       <title>What happens if the cloud storage quota is exceeded?</title>
 
-      <p>Cloud quota is common for the whole school, not for individual teachers or students. If the quota is exceeded, both teachers and students will start receiving error messages when trying to store their work in the cloud. Current state of the cloud quota is displayed in the status line of both teacher and student interfaces of the module.</p>
+      <p>Cloud quota is shared between teachers and students sharing the same <wintitle>Dialog Nibelung</wintitle> license. If the quota is exceeded, both teachers and students will start receiving error messages when trying to store their work in the cloud. Current state of the cloud quota is displayed in the status line of both teacher and student interfaces of the module.</p>
 
       <p>There are several ways to free up space in the cloud:</p>
 
