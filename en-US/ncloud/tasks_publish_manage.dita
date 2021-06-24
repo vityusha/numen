@@ -87,8 +87,12 @@
         <alt>Remove publication confirmation dialog</alt>
       </image>
     </fig>
+    
+	<p>You have to actually type <userinput>DELETE</userinput> in the corresponding field to confirm the removal of an assignment with all its publications.</p>
 
-    <note type="attention">Removing a publication will irrevocably delete the assignment, together with all attached files and associated data - including student answers, comments, and grades - from the cloud storage (see <xref keyref="glossary"/>&#160;). It is strongly recommended to create an assignment report (see <xref keyref="tasks_export"/>&#160;) and file a copy of the assignment to the archive (see <xref keyref="tasks_archive"/>&#160;) before removing it.</note>
+    <note type="attention">Removing a publication will irrevocably delete this instance of the assignment, together with all attached files and associated data - including student answers, comments, and grades - from the cloud storage (see <xref keyref="glossary"/>&#160;). It is strongly recommended to create an assignment report (see <xref keyref="tasks_export"/>&#160;) and file a copy of the assignment to the archive (see <xref keyref="tasks_archive"/>&#160;) before removing it.</note>
+
+	<p>See also section _fixme_ [xref] for deleting an assignment with all its publications in a single operation.</p>
 
   </conbody>
 </concept>

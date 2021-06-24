@@ -20,7 +20,7 @@
     </image>
 </fig>
 
-<p>You can finish the assignment lifecycle by removing it. Use the <uicontrol>Remove</uicontrol> button located in the <uicontrol>Published assignments</uicontrol> tab (see <xref keyref="tasks_publish"/>&#160;) for this.</p>
+<p>You can finish the assignment lifecycle by removing it. Use the <uicontrol>Remove</uicontrol> button located in the <uicontrol>Published assignments</uicontrol> tab for this (see <xref keyref="tasks_publish"/> _fixme_ [xref to 6.4 Managing publications]).</p>
 
 <note type="attention">Removing a publication will irrevocably delete the assignment, together with all attached files and associated data - including student answers, comments, and grades - from the cloud storage (see <xref keyref="glossary"/>&#160;). It is strongly recommended to create an assignment report (see <xref keyref="tasks_export"/>&#160;) and file a copy of the assignment to the archive (see <xref keyref="tasks_archive"/>&#160;) before removing it.</note>
 
