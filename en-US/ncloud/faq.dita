@@ -54,7 +54,7 @@
         <li>absence of excessive limitation from antiviral software and firewalls running both locally and on your network.</li>
       </ul>
 
-      <note type="note"><wintitle>Remote Assignments</wintitle> module communicated with the cloud by establishing a TCP connection to port 443.</note>
+      <note type="note"><wintitle>Remote Assignments</wintitle> module communicates with the cloud by establishing a TCP/IP connection to port 443.</note>
 
       <p>Other software and hardware prerequisites for the <wintitle>Remote Assignments</wintitle> match those  specified for <wintitle>Dialog Nibelung</wintitle> or <wintitle>Dialog Nibelung NPlayer</wintitle> correspondingly.</p>
     </section>

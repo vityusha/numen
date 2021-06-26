@@ -173,9 +173,9 @@
 
     <p>The <uicontrol>description</uicontrol> and <uicontrol>comment</uicontrol> fields are optional and serve for informational purposes only.</p>
 
-    <p>Press the <uicontrol>Publish</uicontrol> button to publish the assignment. The assignment will receive   <uicontrol>Published</uicontrol> status. From that moment students will see the assignment upon startup or refresh of their <wintitle>Remote Assignments</wintitle> interfaces and can start working on it. This will also start the clock for the time allotted for the assignment.</p>
+    <p>Press the <uicontrol>Publish</uicontrol> button to publish the assignment. Assignment status will change to  <uicontrol>Published</uicontrol>. From that moment students will see the assignment upon startup or refresh of their <wintitle>Remote Assignments</wintitle> interfaces and can start working on it. This will also start the clock for the time allotted for the assignment.</p>
 
-    <p>Status of the assignment will change from <uicontrol>Published</uicontrol> to <uicontrol>Handed out</uicontrol> once particular student actually received the assignment.</p>
+    <p>Status of the assignment will change from <uicontrol>Published</uicontrol> to <uicontrol>Handed out</uicontrol> when particular student actually receives the assignment.</p>
 
     <p>Press the <uicontrol>Cancel</uicontrol> button to cancel publishing the assignment. This button will close the publication dialog box <uicontrol>without saving any modifications</uicontrol> to the assignment.</p>
   </conbody>

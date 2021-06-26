@@ -163,7 +163,7 @@
 
     <note type="note">If you hit <uicontrol>Refresh</uicontrol> button while having any unsaved modifications, the software will prompt you to save them before proceeding.</note>
 
-    <p>The status line at the bottom of the window will be updated on each cloud action. The <uicontrol>Quota</uicontrol> indicator 10 shows percentage of the cloud storage used. Hover the mouse pointer over it for additional information.</p>
+    <p>The status line at the bottom of the window will be updated on each cloud action. The <uicontrol>Quota</uicontrol> indicator (10) shows percentage of the cloud storage used. Hover the mouse pointer over it for additional information.</p>
 
   </conbody>
 </concept>

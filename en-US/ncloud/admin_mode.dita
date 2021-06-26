@@ -7,7 +7,7 @@
 
   <conbody>
 
-	 <p>The <wintitle>Remote Assignments</wintitle> module has an <uicontrol>administrative mode</uicontrol> for performing certain system maintenance operations. This mode is activated when you open <wintitle>Remote Assignments</wintitle> window when logged into <wintitle>Dialog Nibelung</wintitle> as the built-in user <wintitle>Admin</wintitle>.</p>
+	 <p>The <wintitle>Remote Assignments</wintitle> module has an <uicontrol>administrative mode</uicontrol> for performing certain system maintenance operations. This mode is activated upon opening the <wintitle>Remote Assignments</wintitle> window when logged into <wintitle>Dialog Nibelung</wintitle> as the built-in user <wintitle>Admin</wintitle>.</p>
 
 	 <p>In administrative mode you can:</p>
 

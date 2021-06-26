@@ -15,9 +15,9 @@
 
     <p>Installation of the <wintitle>Remote Assignments</wintitle> module is performed in a standard way. The are no additional setup actions required on the teacher side. In most cases students will need to perform a one time setup of their module before the first run, see section <xref keyref="std_menu"/> for further details.</p>
 
-    <p>A <menucascade><uicontrol>Remote Assignments</uicontrol></menucascade> menu item will appear in  <wintitle>Dialog Nibelung</wintitle> (teacher module) and <wintitle>Dialog Nibelung NPlayer</wintitle> (student module) upon successful installation of the <wintitle>Remote Assignments</wintitle>.</p>
+    <p>A <menucascade><uicontrol>Remote Assignments</uicontrol></menucascade> menu item will appear in  <wintitle>Dialog Nibelung</wintitle> (teacher interface) and <wintitle>Dialog Nibelung NPlayer</wintitle> (student interface) upon successful installation of the <wintitle>Remote Assignments</wintitle> module.</p>
 
-    <note type="attention">An internet connection is generally required for <wintitle>Remote Assignments</wintitle> module to work properly. However, once the students have downloaded their assignments, they can continue working on them offline, provided that assignment materials do not require internet access.</note>
+    <note type="attention">An internet connection is generally required for <wintitle>Remote Assignments</wintitle> module to work properly. However, once the students have downloaded their assignments, they can continue working on them offline, provided that assignment materials themselves do not require internet access.</note>
 
     <note type="important">Every student participating in the remote learning program must have access to a computer with installed <wintitle>Remote Assignments</wintitle> module.</note>
 

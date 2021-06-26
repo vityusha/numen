@@ -58,7 +58,7 @@
             </image>
         </fig>
 
-<note type="tip">Files will be opened by a default application for this particular file type. Use the  <menucascade><uicontrol>Copy</uicontrol></menucascade> facility from the context menu to create a copy of the file with a different extension to open it in another application.</note>
+<note type="tip">Files will be opened by the default application for this particular file type. Use the  <menucascade><uicontrol>Copy</uicontrol></menucascade> facility from the context menu to create a copy of the file with a different extension to open it in another application.</note>
 
 </conbody>
 </concept>

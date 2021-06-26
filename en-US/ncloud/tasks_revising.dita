@@ -47,9 +47,9 @@
 </tgroup>
 </table>
 
-<p>Assignment that are sent back are shown with <uicontrol>For revision</uicontrol> status. This status means that the grade is not final and can be revised based on your new work. The <uicontrol>Teacher message</uicontrol> field usually contains the reason(s) why the assignment was sent back.</p>
+<p>Assignments that are sent back are shown with the <uicontrol>For revision</uicontrol> status. This status means that the grade is not final and can be revised based on your new work. The <uicontrol>Teacher message</uicontrol> field usually contains the reason(s) why the assignment was sent back.</p>
 
-<p>Use the <uicontrol>Final submission</uicontrol> to turn in your revised work back to the teacher. No further modification of your work will be possible beyond this point (unless the teacher is still not satisfied and sends it for revision again).</p>
+<p>Use the <uicontrol>Final submission</uicontrol> button to turn in your revised work back to the teacher. No further modification of your work will be possible beyond this point (unless the teacher is still not satisfied and sends it for revision again).</p>
 
 <note type="important">Teacher can send an assignment back for revision multiple times.</note>
 

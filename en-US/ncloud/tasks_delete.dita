@@ -3,7 +3,7 @@
 "concept.dtd">
 
 <concept id="tasks_delete" xml:lang="en-US">
-  <title>Removing an assignment together with all its publications</title>
+  <title>Removing assignment together with all its publications</title>
   <conbody>
 
     <p>The same assignment can be published multiple times, for example, for different groups of students. It is possible to delete an assignment together with all its publications. All data on all associated publications will be deleted permanently. The only way to save local copies is to manually file each publication to the archive prior to the removal of the assignment.</p>

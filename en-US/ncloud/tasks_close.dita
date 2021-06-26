@@ -7,11 +7,11 @@
 
 <conbody>
 
-<p>Each assignment has its own lifecycle, which includes creating an assignment, making it available to the students (<uicontrol>Publication</uicontrol> in terms of the <wintitle>Remote Assignments</wintitle> module), grading it, and eventually finish working with the assignment.</p>
+<p>Each assignment has its own lifecycle, which includes creating an assignment, making it available to the students (<uicontrol>Publication</uicontrol> in terms of the <wintitle>Remote Assignments</wintitle> module), grading it, and eventually finishing working with the assignment.</p>
 
 <p>Select the <uicontrol>Published assignments</uicontrol> tab (see <xref keyref="tasks_publish_manage/teacher_publish_tab_png" type="fig"/>&#160;), then select an assignment and press the <uicontrol>Close</uicontrol> button to finalize the assignment. This assignment will be considered <uicontrol>Closed</uicontrol>, no further student work can be turned in, all grades will be considered final, and assignment will be shown as inactive in the student interface. <uicontrol>Show closed assignments</uicontrol> option in the teacher interface controls display of the closed assignments.</p>
 
-<note type="tip">A closed assignment can be <uicontrol>reopened</uicontrol> by selecting the assignment and pressing the <uicontrol>Open</uicontrol> button. You can also use the <uicontrol>Extend deadline</uicontrol> button to allow for extra time even for the assignments that are already past their due date.</note>
+<note type="tip">A closed assignment can be <uicontrol>reopened</uicontrol> by selecting the assignment and pressing the <uicontrol>Open</uicontrol> button. You can also use the <uicontrol>Extend deadline</uicontrol> button to allow for extra time even for the assignments that are past their due date.</note>
 
 <fig id="tasks_reopen_png">
   <title>Closed assignment actions</title>

@@ -17,7 +17,7 @@
       </step>
 
       <step>
-        <cmd><uicontrol>Students:</uicontrol> receive the assignment (see <xref keyref="std_send_rcv"/>&#160;) and start working on it. Once an assignment is published, it will appear in the list of active assignments in student interface upon startup.</cmd>
+        <cmd><uicontrol>Students:</uicontrol> receive the assignment (see <xref keyref="std_send_rcv"/>&#160;) and start working on it. Published assignments will appear in the list of active assignments in the student interface upon startup.</cmd>
       </step>
 
       <step>

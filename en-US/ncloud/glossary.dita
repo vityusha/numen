@@ -22,7 +22,7 @@
           <li>consistency: the system for picking up student IDs must be the same across all the teachers and students using <uicontrol>Remote Assignments</uicontrol> under the same license.</li>
         </ul>
 
-        <note type="attention">Any error in entering a student ID - both on the teacher side and the student side -- will result in this student not receiving assignments, therefore not submitting their work and not receiving grades. This situation will persist until the error is corrected.</note>
+        <note type="attention">Any error in entering a student ID - both on the teacher side and the student side - will result in this student not receiving assignments, therefore not submitting their work and not receiving grades. This situation will persist until the error is corrected.</note>
       </p>
 
     </section>
