@@ -79,7 +79,7 @@
 
     <note type="tip">After assignment is closed, the <uicontrol>Close</uicontrol> button becomes <uicontrol>Open</uicontrol> and can be used to reopen the assignment.</note>
 
-    <p>Press the <uicontrol>Remove</uicontrol> button to delete current publication. You will be asked for a confirmation.</p>
+    <p id="delete_publication">Press the <uicontrol>Remove</uicontrol> button to delete current publication. You will be asked for a confirmation.</p>
 
     <fig id="delete_published_request_png">
       <title>Remove publication confirmation dialog</title>
@@ -88,11 +88,11 @@
       </image>
     </fig>
     
-	<p>You have to actually type <userinput>DELETE</userinput> in the corresponding field to confirm the removal of an assignment with all its publications.</p>
+    <p>You have to actually type <userinput>DELETE</userinput> in the corresponding field to confirm the removal of an assignment with all its publications.</p>
 
     <note type="attention">Removing a publication will irrevocably delete this instance of the assignment, together with all attached files and associated data - including student answers, comments, and grades - from the cloud storage (see <xref keyref="glossary"/>&#160;). It is strongly recommended to create an assignment report (see <xref keyref="tasks_export"/>&#160;) and file a copy of the assignment to the archive (see <xref keyref="tasks_archive"/>&#160;) before removing it.</note>
 
-	<p>See also section _fixme_ [xref] for deleting an assignment with all its publications in a single operation.</p>
+    <p>See also section <xref keyref="tasks_delete"/>&#160; for deleting an assignment with all its publications in a single operation.</p>
 
   </conbody>
 </concept>
