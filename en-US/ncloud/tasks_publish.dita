@@ -35,81 +35,86 @@
 
           <row>
             <entry>3</entry>
-            <entry>Deadline settings area</entry>
+            <entry>Календарь для установки даты и времени начала публикации _fixme_ [translate]</entry>
           </row>
 
           <row>
             <entry>4</entry>
-            <entry>Deadline date and time</entry>
-          </row>
-
-          <row>
-            <entry>5</entry>
             <entry>Calendar lookup button</entry>
           </row>
 
           <row>
+            <entry>5</entry>
+            <entry>Deadline settings area</entry>
+          </row>
+
+          <row>
             <entry>6</entry>
-            <entry><uicontrol>Days remaining</uicontrol> drop down box</entry>
+            <entry>Календарь для установки срока выполнения публикации _fixme_ [translate]</entry>
           </row>
 
           <row>
             <entry>7</entry>
-            <entry><uicontrol>Hours remaining</uicontrol> drop down box</entry>
+            <entry><uicontrol>Days remaining</uicontrol> drop down box</entry>
           </row>
 
           <row>
             <entry>8</entry>
-            <entry>Class entry field</entry>
+            <entry><uicontrol>Hours remaining</uicontrol> drop down box</entry>
           </row>
 
           <row>
             <entry>9</entry>
-            <entry>List of students to receive the assignment</entry>
+            <entry>Class entry field</entry>
           </row>
 
           <row>
             <entry>10</entry>
-            <entry>Student ID</entry>
+            <entry>List of students to receive the assignment</entry>
           </row>
 
           <row>
             <entry>11</entry>
-            <entry>Screen name</entry>
+            <entry>Student ID {input area (?)} _fixme_ [translate]</entry>
           </row>
 
           <row>
             <entry>12</entry>
-            <entry><uicontrol>Add student</uicontrol> button</entry>
+            <entry>Screen name</entry>
           </row>
 
           <row>
             <entry>13</entry>
-            <entry><uicontrol>Edit student</uicontrol> button</entry>
+            <entry><uicontrol>Add student</uicontrol> button</entry>
           </row>
 
           <row>
             <entry>14</entry>
-            <entry><uicontrol>Remove student from the list</uicontrol> button</entry>
+            <entry><uicontrol>Edit student</uicontrol> button</entry>
           </row>
 
           <row>
             <entry>15</entry>
-            <entry><uicontrol>Load class list</uicontrol> button</entry>
+            <entry><uicontrol>Remove student from the list</uicontrol> button</entry>
           </row>
 
           <row>
             <entry>16</entry>
-            <entry><uicontrol>Save class list</uicontrol> button</entry>
+            <entry><uicontrol>Load class list</uicontrol> button</entry>
           </row>
 
           <row>
             <entry>17</entry>
-            <entry><uicontrol>Publish</uicontrol> button</entry>
+            <entry><uicontrol>Save class list</uicontrol> button</entry>
           </row>
 
           <row>
             <entry>18</entry>
+            <entry><uicontrol>Publish</uicontrol> button</entry>
+          </row>
+
+          <row>
+            <entry>19</entry>
             <entry><uicontrol>Cancel</uicontrol> button</entry>
           </row>
 
@@ -117,6 +122,8 @@
       </tgroup>
     </table>
 
+    <p>Задание будет опубликовано в соответствии с выбранной датой и временем начала публикации. По умолчанию выбирается текущее время и дата, но с помощью календаря можно сдвинуть момент публикации на нужный срок вправо по линии времени. До наступления указанного момента публикация будет видна преподавателю и доступна для редактирования, но не будет видна учащимся. С момента наступления указанных даты и времени начала публикации она появится у учащегося в списке назначенных заданий (см. <xref keyref="std_mainwin"/>&#160;) при очередном сеансе его работы с модулем <wintitle>Задания через Интернет</wintitle>. _fixme_ [translate]</p>
+	
     <p>You can choose one of the three methods for setting the deadline by selecting the appropriate radio button:
 
       <table frame="all" rowsep="1" colsep="1">

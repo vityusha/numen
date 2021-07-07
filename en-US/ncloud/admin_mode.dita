@@ -13,6 +13,7 @@
 
 	 <ul>
 	   <li>Perform garbage collection and cleanup in the cloud storage.</li>
+	   <li>_fixme_ [translate]<uicontrol>Управление учащимися</uicontrol>, включая следующие операции: <uicontrol>Просмотр зарегистрированных учащихся</uicontrol>, <uicontrol>сброс пароля выбранным учащимся</uicontrol>, <uicontrol>управление активностью учетных записей выбранных учащихся</uicontrol>, <uicontrol>удаление выбранных учащихся</uicontrol> (включая всю информацию в облачном хранилище, связанную с данными учащимися!)</li>
 	   <li>Check for available software updates and install them.</li>
        <li>Manage <uicontrol>all</uicontrol> assignments and their publications, including viewing, exporting, filing to the archive, and removing.</li>
      </ul>
@@ -33,15 +34,15 @@
 	 <p>A special <uicontrol>Maintenance</uicontrol> tab will appear in the teacher interface main window (see <xref keyref="teacher_mainwin"/>&#160;) in administrative mode. This tab contain actions available for system maintenance.</p>
 
 	<note type="important">Assignments and their publications belonging to all teachers are available to <wintitle>Admin</wintitle> in the administrative mode allowing them to perform their export, (see sections <xref keyref="tasks_export"/>&#160;, <xref keyref="tasks_creation"/>&#160;, and <xref keyref="tasks_publish"/>&#160;), file to the archive (see <xref keyref="tasks_archive"/>&#160;), or removal (see <xref keyref="tasks_archive"/>&#160; and <xref keyref="tasks_delete"/>&#160;).</note>
-
-	<p>Pressing the <uicontrol>Cloud cleanup</uicontrol> button initiates garbage collection in the cloud storage, which in certain cases allows to increase available free space.</p>
-
+	
 	    <fig id="maintenance_png">
             <title><uicontrol>Maintenance</uicontrol> tab</title>
             <image href="img/maintenance.png" placement="break">
                 <alt><uicontrol>Maintenance</uicontrol> tab</alt>
             </image>
         </fig>
+		
+	<p>Pressing the <uicontrol>Cloud cleanup</uicontrol> button initiates garbage collection in the cloud storage, which in certain cases allows to increase available free space.</p>
 
 	<p>Cloud cleanup may take a fairly long time. During this time the window will be blocked and a progress bar displayed:</p>
 
@@ -52,6 +53,96 @@
             </image>
         </fig>
 
+	<p>_fixme_ [translate]Кнопка <wintitle>Управление учащимися</wintitle> служит для открытия одноименного диалога.</p>
+	
+	<fig id="student_management_png">
+            <title>Диалог <uicontrol>Управление учащимися</uicontrol></title>
+            <image href="img/student-management.png" placement="break">
+                <alt>Диалог управления учащимися</alt>
+            </image>
+    </fig>
+	
+	<p>На этом рисунке цифрами обозначены:</p>
+
+    <table frame="topbot">
+      <tgroup cols="2">
+        <colspec colname="COLSPEC0" colwidth="12"/>
+        <colspec colname="COLSPEC1" colwidth="200*"/>
+
+        <tbody>
+
+          <row>
+            <entry>1</entry>
+            <entry>Столбец с ID зарегистрированных учащихся</entry>
+          </row>
+
+          <row>
+            <entry>2</entry>
+            <entry>Переключатель активности выбранного ID учащегося</entry>
+          </row>
+
+          <row>
+            <entry>3</entry>
+            <entry>Переключатель сброса пароля выбранного ID учащегося</entry>
+          </row>
+
+          <row>
+            <entry>4</entry>
+            <entry>Поле комментария к ID учащегося</entry>
+          </row>
+
+          <row>
+            <entry>5</entry>
+            <entry>Выбранные учащиеся</entry>
+          </row>
+
+          <row>
+            <entry>6</entry>
+            <entry>Кнопка <uicontrol>сброса пароля</uicontrol> у выбранных учащихся</entry>
+          </row>
+		  
+          <row>
+            <entry>7</entry>
+            <entry>Кнопка <uicontrol>удаления</uicontrol> данных о выбранных учащихся</entry>
+          </row>
+
+          <row>
+            <entry>8</entry>
+            <entry>Кнопка <uicontrol>ОК</uicontrol></entry>
+          </row>
+
+          <row>
+            <entry>9</entry>
+            <entry>Кнопка <uicontrol>Отмена</uicontrol> изменений</entry>
+          </row>
+
+        </tbody>
+      </tgroup>
+    </table>
+	
+	<p>В таблице диалога <wintitle>Управление учащимися</wintitle> отображаются все ID, зарегистрированные учащимися при настройке ими модуля <wintitle>Задания через Интернет</wintitle>, в рамках текущей лицензии.</p>
+	
+	<p>Для управления активностью ID следует воспользоваться переключателями активности ID в столбце <uicontrol>Активный</uicontrol>. Деактивированные ID не могут быть использованы для работы с модулем <wintitle>Задания через Интернет</wintitle> до тех пор, пока не будут активированы вновь или же удалены.</p>
+	
+	<p>Для сброса существующего пароля следует снять переключатель сброса пароля у всех ID учащегося, для которых это требуется, или же, выделив мышкой требуемые ID (удерживая клавишу  <uicontrol><shortcut>Ctrl</shortcut></uicontrol>), нажать кнопку <uicontrol>Сброс пароля</uicontrol>.</p>
+	
+	<p>Поле комментария к ID может использоваться в административном режиме для служебных пометок. По умолчанию данное поле содержит дату и время регистрации соответствующего ID в облачном хранилище.</p>
+	
+	<p>Для удаления <uicontrol>всех данных</uicontrol>, относящихся к выбранным ID учащихся, служит кнопка <uicontrol>Удалить</uicontrol>. После ее нажатия откроется диалог подтвердждения удаления данных выбранных учащихся.</p>
+	
+		<fig id="delete_students_confirm_dialog_png">
+            <title>Диалог подтверждения удаления данных об учащихся</title>
+            <image href="img/delete-students-confirm-dialog.png" placement="break">
+                <alt>Диалог подтверждения удаления данных об учащихся</alt>
+            </image>
+    </fig>
+	
+	<note type="important">Выбранные ID учащиеся будут удалены из списка только после введения подтверждающей фразы и нажатия кнопки <uicontrol>OK</uicontrol>. Удаление из облачного хранилища будет произведено только после нажатия кнопки <uicontrol>OK</uicontrol> диалога <wintitle>Управление учащимися</wintitle>!</note>
+	
+	<p>Кнопка <uicontrol>OK</uicontrol> служит для <uicontrol>применения</uicontrol> сделанных изменений. Все изменения, указанные при работе с диалогом <wintitle>Управление учащимися</wintitle>, осуществляются только после нажатия данной кнопки!</p>
+	
+	<p>Нажатие на кнопку <uicontrol>Отмена</uicontrol> закрывает диалог <wintitle>Управление учащимися</wintitle>. Закрытие происходит <uicontrol>без применения изменений</uicontrol>.</p>
+	
 	<p>Press the <wintitle>Check for updates</wintitle> button to check if a new version of the  <wintitle>Remote assignments</wintitle> module is available.</p>
 
 	<note type="attention">Don't forget that computer running the teacher interface in administrative mode must have an active internet connection to perform these maintenance operations.</note>

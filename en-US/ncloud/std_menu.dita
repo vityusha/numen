@@ -28,7 +28,7 @@
       </image>
     </fig>
 
-    <p>Enter <wintitle>Dialog Nibelung</wintitle> license serial number and code, as well as the student ID.  There are different setup scenarios for different use cases of <wintitle>Remote Assignments</wintitle>:
+    <p>Enter <wintitle>Dialog Nibelung</wintitle> license serial number and code, as well as the student ID. There are different setup scenarios for different use cases of <wintitle>Remote Assignments</wintitle>:</p>
 
       <ul>
         <li>Single student, single school with single license: a one-time setup.</li>
@@ -36,9 +36,29 @@
         <li>Multiple students, multiple licenses: change serial number, license code, and student ID at the beginning of each student's session.</li>
       </ul>
 
-    </p>
-
     <p>Students obtain license serial number, license code, and their IDs from the teacher or their school administration. See also <xref keyref="glossary"/>&#160; for further information about student IDs.</p>
 
+    <p>_fixme_ [translate] После первоначальной настройки и закрытия диалога, в случае правильно введенных данных о лицензии, открывается диалог установки пароля для указанного учащегося. Пароль требуется для защиты ответов учащегося от просмотра и изменения.</p>
+	
+ 	<fig id="student_set_password_png">
+      <title>Диалог установки пароля учащегося</title>
+      <image href="img/student-set-password.png" placement="break">
+        <alt>Диалог установки пароля учащегося</alt>
+      </image>
+    </fig>
+	
+	<p>Пароль должен быть длиной не менее 6 символов и содержать в составе заглавные и строчные буквы, а также цифры. Для успешной установки пароль и его подтверждение должны совпадать. После нажатия кнопки <uicontrol>OK</uicontrol> пароль будет задан. На этом настройка модуля <wintitle>Задания через Интернет</wintitle> для учащегося заканчивается.</p>
+	
+	<p>В случае, если настройка производится у учащегося, уже имеющего установленный ранее пароль, после окончания настройки откроется диалог ввода существующего пароля учащегося.</p>
+	
+    <fig id="student_enter_password_png">
+      <title>Диалог ввода пароля учащегося</title>
+      <image href="img/student-enter-password.png" placement="break">
+        <alt>Диалог ввода пароля учащегося</alt>
+      </image>
+    </fig>
+	
+	<note type="attention">Для сброса <uicontrol>забытого</uicontrol> или <uicontrol>скомпрометированного</uicontrol> пароля следует обратиться к преподавателю. Сброс пароля учащегоя производится преподавателем в административном режиме (см. <xref keyref="admin_mode"/>&#160;).</note>
+	
   </conbody>
 </concept>
