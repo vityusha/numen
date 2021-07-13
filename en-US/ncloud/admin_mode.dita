@@ -13,7 +13,7 @@
 
 	 <ul>
 	   <li>Perform garbage collection and cleanup in the cloud storage.</li>
-	   <li>_fixme_ [translate]<uicontrol>Управление учащимися</uicontrol>, включая следующие операции: <uicontrol>Просмотр зарегистрированных учащихся</uicontrol>, <uicontrol>сброс пароля выбранным учащимся</uicontrol>, <uicontrol>управление активностью учетных записей выбранных учащихся</uicontrol>, <uicontrol>удаление выбранных учащихся</uicontrol> (включая всю информацию в облачном хранилище, связанную с данными учащимися!)</li>
+	   <li>Manage student accounts, including <uicontrol>list accounts</uicontrol>, <uicontrol>password reset</uicontrol>, <uicontrol>suspend</uicontrol> and/or <uicontrol>delete</uicontrol> selected accounts (the latter will delete all could data associated with these students).</li>
 	   <li>Check for available software updates and install them.</li>
        <li>Manage <uicontrol>all</uicontrol> assignments and their publications, including viewing, exporting, filing to the archive, and removing.</li>
      </ul>
@@ -53,16 +53,16 @@
             </image>
         </fig>
 
-	<p>_fixme_ [translate]Кнопка <wintitle>Управление учащимися</wintitle> служит для открытия одноименного диалога.</p>
+	<p>The <wintitle>Student management</wintitle> opens a dialog window for managing student accounts.</p>
 	
 	<fig id="student_management_png">
-            <title>Диалог <uicontrol>Управление учащимися</uicontrol></title>
+            <title><uicontrol>Student management</uicontrol> dialog</title>
             <image href="img/student-management.png" placement="break">
-                <alt>Диалог управления учащимися</alt>
+                <alt><uicontrol>Student management</uicontrol> dialog</alt>
             </image>
     </fig>
 	
-	<p>На этом рисунке цифрами обозначены:</p>
+	<p>Elements of the <uicontrol>Student management</uicontrol> dialog:</p>
 
     <table frame="topbot">
       <tgroup cols="2">
@@ -73,75 +73,75 @@
 
           <row>
             <entry>1</entry>
-            <entry>Столбец с ID зарегистрированных учащихся</entry>
+            <entry>Student ID column</entry>
           </row>
 
           <row>
             <entry>2</entry>
-            <entry>Переключатель активности выбранного ID учащегося</entry>
+            <entry>Toggle active/suspended account status</entry>
           </row>
 
           <row>
             <entry>3</entry>
-            <entry>Переключатель сброса пароля выбранного ID учащегося</entry>
+            <entry>Set password indicator, a check mark indicates that a password has been set for this account</entry>
           </row>
 
           <row>
             <entry>4</entry>
-            <entry>Поле комментария к ID учащегося</entry>
+            <entry>Account comment</entry>
           </row>
 
           <row>
             <entry>5</entry>
-            <entry>Выбранные учащиеся</entry>
+            <entry>Selected students</entry>
           </row>
 
           <row>
             <entry>6</entry>
-            <entry>Кнопка <uicontrol>сброса пароля</uicontrol> у выбранных учащихся</entry>
+            <entry><uicontrol>Password reset</uicontrol> button for selected students</entry>
           </row>
 		  
           <row>
             <entry>7</entry>
-            <entry>Кнопка <uicontrol>удаления</uicontrol> данных о выбранных учащихся</entry>
+            <entry><uicontrol>Remove</uicontrol> selected accounts button</entry>
           </row>
 
           <row>
             <entry>8</entry>
-            <entry>Кнопка <uicontrol>ОК</uicontrol></entry>
+            <entry><uicontrol>ОК</uicontrol> button</entry>
           </row>
 
           <row>
             <entry>9</entry>
-            <entry>Кнопка <uicontrol>Отмена</uicontrol> изменений</entry>
+            <entry><uicontrol>Cancel</uicontrol> button</entry>
           </row>
 
         </tbody>
       </tgroup>
     </table>
 	
-	<p>В таблице диалога <wintitle>Управление учащимися</wintitle> отображаются все ID, зарегистрированные учащимися при настройке ими модуля <wintitle>Задания через Интернет</wintitle>, в рамках текущей лицензии.</p>
+	<p>This window lists all student IDs that were recorded during setup of the <wintitle>Remote assignments</wintitle> module on the student side for the current license (see section _fixme_ [xref]).</p>
 	
-	<p>Для управления активностью ID следует воспользоваться переключателями активности ID в столбце <uicontrol>Активный</uicontrol>. Деактивированные ID не могут быть использованы для работы с модулем <wintitle>Задания через Интернет</wintitle> до тех пор, пока не будут активированы вновь или же удалены.</p>
+	<p>The <uicontrol>Active</uicontrol> toggle switches student accounts between active and suspended states. Student IDs associated with the suspended accounts can not be used with the <wintitle>Remote assignments</wintitle> module until these accounts are reactivated or deleted.</p>
 	
-	<p>Для сброса существующего пароля следует снять переключатель сброса пароля у всех ID учащегося, для которых это требуется, или же, выделив мышкой требуемые ID (удерживая клавишу  <uicontrol><shortcut>Ctrl</shortcut></uicontrol>), нажать кнопку <uicontrol>Сброс пароля</uicontrol>.</p>
+	<p>Password reset can be performed in two ways. You can either remove the check marks in the <uicontrol>Password</uicontrol> column manually, or select several accounts (e.g. using <uicontrol><shortcut>Ctrl</shortcut></uicontrol>+click) and press the <uicontrol>Password reset</uicontrol> button.</p>
 	
-	<p>Поле комментария к ID может использоваться в административном режиме для служебных пометок. По умолчанию данное поле содержит дату и время регистрации соответствующего ID в облачном хранилище.</p>
+	<p>Account comment field can be used for internal classification of the accounts or some other purposes. By default this field contains date and time of account creation.</p>
 	
-	<p>Для удаления <uicontrol>всех данных</uicontrol>, относящихся к выбранным ID учащихся, служит кнопка <uicontrol>Удалить</uicontrol>. После ее нажатия откроется диалог подтвердждения удаления данных выбранных учащихся.</p>
+	<p>Press the <uicontrol>Remove</uicontrol> button to delete selected student accounts from the cloud storage together with all the data and files associated with them. You will be prompted to confirm your intentions.</p>
 	
 		<fig id="delete_students_confirm_dialog_png">
-            <title>Диалог подтверждения удаления данных об учащихся</title>
+            <title>Remove student accounts confirmation dialog</title>
             <image href="img/delete-students-confirm-dialog.png" placement="break">
-                <alt>Диалог подтверждения удаления данных об учащихся</alt>
+                <alt>Remove student accounts confirmation dialog</alt>
             </image>
     </fig>
 	
-	<note type="important">Выбранные ID учащиеся будут удалены из списка только после введения подтверждающей фразы и нажатия кнопки <uicontrol>OK</uicontrol>. Удаление из облачного хранилища будет произведено только после нажатия кнопки <uicontrol>OK</uicontrol> диалога <wintitle>Управление учащимися</wintitle>!</note>
+	<note type="important">You have to type <userinput>DELETE</userinput> in the corresponding field and press <uicontrol>Yes</uicontrol> to confirm removal of the selected student accounts. The actual removal of the student data from the cloud storage will be performed only when you press the <uicontrol>OK</uicontrol> button in the <wintitle>Student management</wintitle> window.</note>
 	
-	<p>Кнопка <uicontrol>OK</uicontrol> служит для <uicontrol>применения</uicontrol> сделанных изменений. Все изменения, указанные при работе с диалогом <wintitle>Управление учащимися</wintitle>, осуществляются только после нажатия данной кнопки!</p>
+	<p>Press the <uicontrol>OK</uicontrol> button in the <wintitle>Student management</wintitle> window (#8 in Fig. _fixme_ [xref fig 36]) to apply the modifications to the student accounts. All modifications will be lost if this window is closed by other means.</p>
 	
-	<p>Нажатие на кнопку <uicontrol>Отмена</uicontrol> закрывает диалог <wintitle>Управление учащимися</wintitle>. Закрытие происходит <uicontrol>без применения изменений</uicontrol>.</p>
+	<p>Press the <uicontrol>Cancel</uicontrol> button to close the <wintitle>Student management</wintitle> dialog window without applying any modifications to the student accounts.</p>
 	
 	<p>Press the <wintitle>Check for updates</wintitle> button to check if a new version of the  <wintitle>Remote assignments</wintitle> module is available.</p>
 
