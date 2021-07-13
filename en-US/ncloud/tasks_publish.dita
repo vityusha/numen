@@ -35,7 +35,7 @@
 
           <row>
             <entry>3</entry>
-            <entry>Календарь для установки даты и времени начала публикации _fixme_ [translate]</entry>
+            <entry>Schedule publication at given time</entry>
           </row>
 
           <row>
@@ -50,7 +50,7 @@
 
           <row>
             <entry>6</entry>
-            <entry>Календарь для установки срока выполнения публикации _fixme_ [translate]</entry>
+            <entry>Set deadline date and time</entry>
           </row>
 
           <row>
@@ -122,7 +122,7 @@
       </tgroup>
     </table>
 
-    <p>Задание будет опубликовано в соответствии с выбранной датой и временем начала публикации. По умолчанию выбирается текущее время и дата, но с помощью календаря можно сдвинуть момент публикации на нужный срок вправо по линии времени. До наступления указанного момента публикация будет видна преподавателю и доступна для редактирования, но не будет видна учащимся. С момента наступления указанных даты и времени начала публикации она появится у учащегося в списке назначенных заданий (см. <xref keyref="std_mainwin"/>&#160;) при очередном сеансе его работы с модулем <wintitle>Задания через Интернет</wintitle>. _fixme_ [translate]</p>
+    <p>By default the assignment will be published immediately. You can schedule publication to a certain time and date in the future by setting it in scheduler 3. A scheduled publication can still be modified until it becomes published. At this point it will become visible to the students, appear in their assignment list (see <xref keyref="std_mainwin"/>&#160;), and no further modifications can be done.</p>
 	
     <p>You can choose one of the three methods for setting the deadline by selecting the appropriate radio button:
 
