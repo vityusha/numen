@@ -120,7 +120,7 @@
       </tgroup>
     </table>
 	
-	<p>This window lists all student IDs that were recorded during setup of the <wintitle>Remote assignments</wintitle> module on the student side for the current license (see section _fixme_ [xref]).</p>
+	<p>This window lists all student IDs that were recorded during setup of the <wintitle>Remote assignments</wintitle> module on the student side for the current license (see  <xref keyref="std_menu"/>&#160;).</p>
 	
 	<p>The <uicontrol>Active</uicontrol> toggle switches student accounts between active and suspended states. Student IDs associated with the suspended accounts can not be used with the <wintitle>Remote assignments</wintitle> module until these accounts are reactivated or deleted.</p>
 	
@@ -139,7 +139,7 @@
 	
 	<note type="important">You have to type <userinput>DELETE</userinput> in the corresponding field and press <uicontrol>Yes</uicontrol> to confirm removal of the selected student accounts. The actual removal of the student data from the cloud storage will be performed only when you press the <uicontrol>OK</uicontrol> button in the <wintitle>Student management</wintitle> window.</note>
 	
-	<p>Press the <uicontrol>OK</uicontrol> button in the <wintitle>Student management</wintitle> window (#8 in Fig. _fixme_ [xref fig 36]) to apply the modifications to the student accounts. All modifications will be lost if this window is closed by other means.</p>
+	<p>Press the <uicontrol>OK</uicontrol> button in the <wintitle>Student management</wintitle> window (<xref keyref="admin_mode/student_management_png" type="fig"/>&#160;) to apply the modifications to the student accounts. All modifications will be lost if this window is closed by other means.</p>
 	
 	<p>Press the <uicontrol>Cancel</uicontrol> button to close the <wintitle>Student management</wintitle> dialog window without applying any modifications to the student accounts.</p>
 	
